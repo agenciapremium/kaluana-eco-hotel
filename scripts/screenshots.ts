@@ -2,7 +2,7 @@
  * Capturas de tela em desktop e mobile com Playwright.
  * Uso: npm run screenshots -- --phase=pre --url=http://localhost:3000 [--out=docs/screenshots/etapa-1] [--paths=/,/acomodacoes]
  * Pressupõe o servidor no ar (next start) construído na fase indicada. Cada rota vira
- * <nome>-<fase>-<desktop|mobile>.png, em que "/" é "home" e "/a/b" é "a-b".
+ * <nome>-<fase>-<desktop|mobile>.jpg, em que "/" é "home" e "/a/b" é "a-b".
  */
 import { mkdirSync } from "node:fs";
 import { resolve } from "node:path";

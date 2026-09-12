@@ -23,10 +23,12 @@ npm run dev        # http://localhost:3000
 
 ```bash
 npm run check:copy                 # vetos de linguagem no conteúdo e no código
-PORT=3100 bash scripts/qa.sh pre   # build, servidor, capturas (Playwright) e Lighthouse
+PORT=3100 bash scripts/qa.sh pre etapa-1 / /   # build, servidor, capturas (Playwright) e Lighthouse
 npm run build:media                # imagens, vídeo do hero e abertura (local, precisa de ffmpeg)
 npm run build:audio                # loops de exemplo do som ambiente (local)
 ```
+
+Por etapa e rota: `PORT=3100 bash scripts/qa.sh full etapa-2 "/acomodacoes,/acomodacoes/duplo-king" "/acomodacoes"` (fase, pasta da etapa, rotas das capturas, rotas do Lighthouse). Relatórios em `docs/lighthouse/<etapa>/` e capturas em `docs/screenshots/<etapa>/`.
 
 ## Deploy
 
