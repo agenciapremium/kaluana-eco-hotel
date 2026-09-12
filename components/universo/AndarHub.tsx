@@ -30,6 +30,19 @@ const atmosfera: Record<FloorKey, string> = {
   guardioes: "atmosfera/nevoa-mata",
 };
 
+/**
+ * Loop de fundo do hero de cada andar (Higgsfield, kling3_0 a partir da atmosfera
+ * correspondente). Um vídeo por página; o hub do Universo segue com as fotos paradas,
+ * para não carregar cinco loops de uma vez (ver docs/decisoes.md).
+ */
+const videoDoAndar: Record<FloorKey, string> = {
+  rios: "andar-rios",
+  peixes: "andar-peixes",
+  arvores: "andar-arvores",
+  aves: "andar-aves",
+  guardioes: "andar-guardioes",
+};
+
 /** Proporção dos cards por andar: as árvores são fotos verticais. */
 const ratio: Record<FloorKey, string> = {
   rios: "4 / 3",
@@ -89,6 +102,7 @@ export function AndarHub({ pagina, grupo, dados }: Props) {
 
       <HeroScene
         image={atmosfera[grupo]}
+        video={videoDoAndar[grupo]}
         kicker={hero.kicker}
         title={pagina.seo.h1}
         lead={semContagem(hero.titulo ?? "")}

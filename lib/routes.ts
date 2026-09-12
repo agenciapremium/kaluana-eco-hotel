@@ -1,12 +1,15 @@
 /**
  * Rotas já construídas. Links para rotas de etapas futuras não fazem prefetch,
  * para não gerar requisições 404 enquanto as páginas não existem.
+ *
+ * Este módulo é importado por componentes cliente (SiteLink, TrackedLink), então não pode
+ * importar os JSON de content/: a lista das 70 páginas do Universo viraria 96 KB de bundle
+ * no navegador. As rotas do Universo entram por padrão, não por enumeração.
  * Atualizar a cada etapa.
  */
-import { floorOrder } from "./tokens";
-import { universoIndex } from "./content";
-
-const acomodacoes = [
+const exatas = new Set<string>([
+  "/",
+  "/obrigado",
   "/acomodacoes",
   "/acomodacoes/superior-familia",
   "/acomodacoes/duplo-king",
@@ -15,18 +18,16 @@ const acomodacoes = [
   "/acomodacoes/suite-terraco-lateral-aberto",
   "/acomodacoes/suite-terraco-lateral-fechado",
   "/acomodacoes/suite-presidencial-onca-pintada",
-];
-
-export const builtRoutes = new Set<string>([
-  "/",
-  "/obrigado",
-  ...acomodacoes,
   "/universo",
-  ...floorOrder.map((g) => `/universo/${g}`),
-  ...universoIndex.map((i) => i.url),
 ]);
+
+/** Os cinco hubs de andar e as 70 páginas de elemento, todas geradas no build. */
+const padroes = [
+  /^\/universo\/(rios|peixes|arvores|aves|guardioes)$/,
+  /^\/universo\/(rios|peixes|arvores|aves|guardioes)\/[a-z0-9-]+$/,
+];
 
 export function isBuilt(href: string): boolean {
   const path = href.split(/[?#]/)[0];
-  return builtRoutes.has(path);
+  return exatas.has(path) || padroes.some((re) => re.test(path));
 }

@@ -58,8 +58,9 @@ const targets = [
         window.scrollTo(0, 0);
         await new Promise((r) => setTimeout(r, 2500));
       });
-      const file = resolve(out, `${nameOf(path)}-${phase}-${t.name}.png`);
-      await page.screenshot({ path: file, fullPage: true });
+      // JPEG: uma página inteira em PNG passa de 3 MB; em JPEG fica em torno de 400 KB.
+      const file = resolve(out, `${nameOf(path)}-${phase}-${t.name}.jpg`);
+      await page.screenshot({ path: file, fullPage: true, type: "jpeg", quality: 82 });
       process.stdout.write(`screenshot: ${file}\n`);
       await context.close();
     }

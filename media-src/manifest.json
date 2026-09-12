@@ -1332,5 +1332,37 @@
     "slug": "abertura",
     "src": "DOCS/LOGO/ANIMADA/LOGO ANIMADA.mov",
     "uso": "Abertura de sessão. Master com alfa: WebM VP9 com alfa e MP4 H.264 sobre bege, acelerado para caber em 1,8 s, poster WebP."
-  }
+  },
+  "videosAndares": [
+    {
+      "slug": "andar-rios",
+      "src": "media-src/video-andares/rios.mp4",
+      "uso": "Fundo do hero do Andar dos Rios",
+      "origem": "Higgsfield, kling3_0 a partir de atmosfera/rio-mata (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "slug": "andar-peixes",
+      "src": "media-src/video-andares/peixes.mp4",
+      "uso": "Fundo do hero do Andar dos Peixes",
+      "origem": "Higgsfield, kling3_0 a partir de atmosfera/agua-corrente"
+    },
+    {
+      "slug": "andar-arvores",
+      "src": "media-src/video-andares/arvores.mp4",
+      "uso": "Fundo do hero do Andar das Árvores",
+      "origem": "Higgsfield, kling3_0 a partir de atmosfera/copa-mata"
+    },
+    {
+      "slug": "andar-aves",
+      "src": "media-src/video-andares/aves.mp4",
+      "uso": "Fundo do hero do Andar das Aves",
+      "origem": "Higgsfield, kling3_0 a partir de atmosfera/ceu-entardecer"
+    },
+    {
+      "slug": "andar-guardioes",
+      "src": "media-src/video-andares/guardioes.mp4",
+      "uso": "Fundo do hero dos Guardiões",
+      "origem": "Higgsfield, kling3_0 a partir de atmosfera/nevoa-mata"
+    }
+  ]
 }

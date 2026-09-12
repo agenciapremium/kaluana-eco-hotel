@@ -2480,6 +2480,46 @@
       "width": 480,
       "height": 504,
       "duration": 1.83
+    },
+    "andar-rios": {
+      "mp4": "/media/video/andar-rios.mp4",
+      "webm": "/media/video/andar-rios.webm",
+      "poster": "/media/video/andar-rios-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
+    },
+    "andar-peixes": {
+      "mp4": "/media/video/andar-peixes.mp4",
+      "webm": "/media/video/andar-peixes.webm",
+      "poster": "/media/video/andar-peixes-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
+    },
+    "andar-arvores": {
+      "mp4": "/media/video/andar-arvores.mp4",
+      "webm": "/media/video/andar-arvores.webm",
+      "poster": "/media/video/andar-arvores-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
+    },
+    "andar-aves": {
+      "mp4": "/media/video/andar-aves.mp4",
+      "webm": "/media/video/andar-aves.webm",
+      "poster": "/media/video/andar-aves-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
+    },
+    "andar-guardioes": {
+      "mp4": "/media/video/andar-guardioes.mp4",
+      "webm": "/media/video/andar-guardioes.webm",
+      "poster": "/media/video/andar-guardioes-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
     }
   }
 }

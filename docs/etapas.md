@@ -144,3 +144,67 @@ Como na etapa 1, o LCP simulado no mobile é a abertura de sessão da primeira v
 | URL do motor de reservas | Cliente e agência | `NEXT_PUBLIC_RESERVAS_URL` |
 | Fotos reais das categorias após a inauguração (substituem a faixa de detalhes) | Cliente | `media-src/manifest.json` |
 | Páginas ligadas (`/universo/...`, `/contato`, `/reservas`) | Etapas 3 a 5 | Links sem prefetch até lá |
+
+## Etapa 3: Universo Kaluanã
+
+**Status:** aguardando "aprovado" do responsável da Premium.
+**Branch:** `etapa-3`.
+**Período:** 12/09/2026.
+**Créditos Higgsfield gastos:** 43,75 (teto: 400). Saldo: 8.701,85. Acumulado do projeto: 113,75.
+
+### Critérios de aceite
+
+| Critério | Status | Evidência |
+|---|---|---|
+| Build limpo (`npm run build`) | Feito | 164 rotas geradas; `typecheck`, `lint` e `check:copy` limpos |
+| Lighthouse acima de 90 nos quatro eixos em mobile | Feito | Hub, hub de andar e página de elemento; ver tabela |
+| Hub, cinco hubs de andar e as 70 páginas de elemento | Feito | `app/universo/` |
+| `/q/[uh]` responde 301 para a canônica com `?uh=` | Feito | Testado nas 70 UHs e numa UH inexistente |
+| Barra de hóspede ao abrir pelo QR | Feito | Testada de ponta a ponta com Playwright; `qr_scan` dispara com a UH |
+| Navegação anterior, próximo, andar e categoria | Feito | `NavAndar.tsx` |
+| FAQPage e Article em JSON-LD | Feito | Article com `about` BodyOfWater nos rios, FAQPage e BreadcrumbList |
+| Som ambiente com bancos por andar e escolha determinística | Feito | 19 loops em 5 andares, mais 10 cantos reais de ave |
+| Fotos do inventário conforme a coluna de uso | Feito | 137 imagens no pipeline, 68 heroes e 69 de galeria |
+| Nenhuma contagem nem número de quarto na fase `pre` | Feito | `lib/contagem.ts`; conferido no HTML servido |
+| Nenhuma frase vetada | Feito | `npm run check:copy` sem ocorrências |
+| Capturas em `docs/screenshots/etapa-3/` | Feito | 18 capturas, desktop e mobile |
+| Docs atualizados | Feito | `etapas.md`, `decisoes.md` (41 a 54), `registro-higgsfield.md`, `registro-audio.md` |
+
+### Lighthouse (12/09/2026, Lighthouse 13.4, throttling simulado, fase `pre`)
+
+| Página | Desempenho | Acessibilidade | Boas práticas | SEO | LCP | CLS |
+|---|---|---|---|---|---|---|
+| `/universo`, mobile | 93 | 100 | 100 | 100 | 3,2 s | 0 |
+| `/universo`, desktop | 100 | 100 | 100 | 100 | 0,7 s | 0 |
+| `/universo/rios`, mobile | 91 | 100 | 100 | 100 | 3,5 s | 0 |
+| `/universo/rios`, desktop | 100 | 100 | 100 | 100 | 0,7 s | 0 |
+| `/universo/rios/rio-machado`, mobile | 94 | 100 | 100 | 100 | 3,1 s | 0 |
+| `/universo/rios/rio-machado`, desktop | 100 | 100 | 100 | 100 | 0,7 s | 0 |
+
+Como nas etapas anteriores, o LCP simulado no mobile é inflado pelo simulador do Lighthouse (decisões 20 e 24). Zero erro de console nas 18 capturas. Relatórios em `docs/lighthouse/etapa-3/`.
+
+### O que foi feito
+
+1. **Hub do Universo (5.11):** a página é um elevador. Indicador que acompanha a rolagem, trilho lateral no desktop e faixa de abas no celular, cada andar em tela cheia com a sua cor e a sua atmosfera, e busca com autocomplete sobre os 70 nomes (e as UHs, na fase completa).
+2. **Cinco hubs de andar (5.12 a 5.16),** cada um com o movimento que o mestre pede: Rios com o mapa esquemático da bacia que se desenha e destaca o card ao passar o mouse; Peixes com os cards flutuando 4 px em 6 s, dessincronizados, só no desktop; Árvores com filtro por uso e as fotos verticais subindo mais rápido que o texto; Aves com o bando de pontos cruzando o topo uma vez só em 2 s; Guardiões em três painéis de tela cheia com snap.
+3. **As 70 páginas de elemento (Parte 6.0),** todas no mesmo modelo: hero em zoom out de 1,05 para 1,0, abertura, por que está no Kaluanã, história, curiosidades, ficha linha a linha, três perguntas em acordeão, navegação de andar e rodapé de autoria com a data. JSON-LD: Article (com ImageObject e `about` BodyOfWater nos rios), FAQPage e BreadcrumbList.
+4. **Atalho do QR:** `/q/[uh]` responde 301 com `Location` relativo para a canônica mais `?uh=`, gerado das 70 UHs. UH desconhecida cai no hub.
+5. **Barra de hóspede:** aparece só com `?uh=`, sem tirar a página do estático. Saudação com o nome do quarto, Wi-Fi e recepção, restaurante, check-out, a categoria da acomodação, o próximo quarto e o botão de som em destaque. Dispara `qr_scan` com a UH.
+6. **Som:** 19 loops de 45 s distribuídos em 5 andares, um por cena da seção 8, e 10 cantos reais de ave do xeno-canto via Wikimedia Commons, todos em CC BY-SA e creditados. A escolha por elemento ficou pareja depois de espalhar o hash.
+7. **Mídia:** 137 fotos do inventário processadas em AVIF e WebP, e 5 loops de fundo gerados no Higgsfield a partir das atmosferas da etapa 1, cada um abaixo de 700 KB.
+8. **Fases:** o Universo entra no sitemap nas duas fases, porque é conteúdo da fase 0. Contagens e números de quarto só aparecem em `full`.
+
+### Pendente ou aguardando decisão
+
+| Item | Depende de | Onde |
+|---|---|---|
+| Licença de uso das 137 fotos do inventário (pendência 24 da Parte 8) | Cliente | Bloqueia o upscale dos 17 heroes abaixo de 1.000 px, que custaria 34 créditos |
+| Foto licenciada de Filhote (piraíba) e Maracanã | Cliente | As duas páginas ficam com o fundo do andar |
+| Fotos de espécie errada (pendência 22): Corvina, curió, tangará, colhereiro, uirapuru | Cliente | Substituir os arquivos e rodar o pipeline |
+| Grafia dos nomes nas placas (pendência 20) | Cliente | Muda slug e QR, então decidir antes de imprimir |
+| Gravações de campo em Rondônia para o som ambiente | Premium | Trocam os 19 loops sintetizados |
+| Cantos das 7 aves sem gravação compatível | Conta no xeno-canto ou gravação própria | `registro-audio.md` |
+| Validar as tags de uso das árvores | Cliente | `lib/usos.ts` |
+| Lista de madeiras da obra, com documento de origem | Cliente | A seção "No hotel" do 3º andar só entra com ela |
+| Hipótese da correspondência quarto/UH (Parte 6.0) | Cliente | Vale para os 70 QR Codes |
+| Páginas ligadas que ainda não existem (`/restaurante`, `/contato`, `/perguntas-frequentes`, `/reservas`) | Etapas 4 e 5 | Links sem prefetch até lá |

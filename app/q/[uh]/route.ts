@@ -1,4 +1,3 @@
-import { NextResponse } from "next/server";
 import { qrMap } from "@/lib/content";
 
 /**
@@ -6,6 +5,10 @@ import { qrMap } from "@/lib/content";
  * servidor responde 301 para a URL canônica do elemento, com ?uh= para a página reconhecer
  * o hóspede. Assim a placa nunca precisa ser reimpressa se o nome do quarto mudar, e o
  * acesso pode ser medido por quarto.
+ *
+ * O cabeçalho Location é relativo, e não absoluto: a rota é pré-renderizada no build, então
+ * um endereço absoluto congelaria o host do build (em pré-visualização o QR sairia do
+ * próprio deploy). Com Location relativo o navegador resolve no host da requisição.
  *
  * Sem correspondência, 301 para o hub do Universo: um QR errado nunca cai em erro.
  */
@@ -16,10 +19,12 @@ export function generateStaticParams() {
   return Object.keys(qrMap).map((uh) => ({ uh }));
 }
 
-export async function GET(req: Request, ctx: { params: Promise<{ uh: string }> }) {
+export async function GET(_req: Request, ctx: { params: Promise<{ uh: string }> }) {
   const { uh } = await ctx.params;
   const entrada = qrMap[uh];
   const destino = entrada ? `${entrada.url}?uh=${entrada.uh}` : "/universo";
-  // Resolve no host da requisição: em pré-visualização o QR continua dentro do mesmo deploy.
-  return NextResponse.redirect(new URL(destino, req.url), 301);
+  return new Response(null, {
+    status: 301,
+    headers: { Location: destino, "Cache-Control": "public, max-age=0, must-revalidate" },
+  });
 }

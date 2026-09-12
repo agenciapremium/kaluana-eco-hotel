@@ -11,6 +11,7 @@ Regras aplicadas em todos os prompts: sem pessoas identificáveis (sem rostos), 
 | 12/09/2026 | 8.815,6 | 24 | 8.791,6 |
 | 12/09/2026 | 8.791,6 | 18 | 8.773,6 |
 | 12/09/2026 | 8.773,6 | 28 | 8.745,6 |
+| 12/09/2026 | 8.745,6 | 43,75 | 8.701,85 |
 
 ## Etapa 1: detalhes da Home
 
@@ -117,6 +118,32 @@ Regra 7 do CLAUDE.md: nenhum quarto, banheiro, fachada ou lobby; só detalhes (t
 | 27 | Suíte Presidencial | Cinto de couro com fivela de latão sobre mesa lateral | f3c785fb-26ac-4a67-85f5-a50331288f39 | galeria | descartada: objeto pessoal fora de contexto |
 
 Arquivos em `media-src/higgsfield/acomodacoes/`, JPEG q92 como na etapa 1. Estilo comum: "photorealistic, natural daylight, warm earthy palette with olive green accents, muted matte tones, no people, no faces, no text, no logos, no full room visible". Créditos da etapa 2: 28 de 90.
+
+## Etapa 3: loops de fundo dos hubs de andar
+
+Autorizado pelo responsável da Premium em 12/09/2026 ("pode gerar os vídeos sim, quanto mais dinâmico melhor").
+
+**Preflight:** 12/09/2026, `kling3_0`, 5 s, modo `pro`, `sound: off`, `get_cost: true` → 8,75 créditos por vídeo (o mesmo com som sairia 10, e o modo `std` sem som, 7,5). Alternativa avaliada: `seedance_2_5` 1080p a 45 créditos, descartada porque a leva inteira em `kling3_0` custou menos que dois vídeos dela.
+
+**Leva:** 5 gerações, imagem para vídeo, `use_unlim: false`. Total: **43,75 créditos** de 400. Cada vídeo parte da atmosfera do andar já aprovada na etapa 1, passada como `start_image` pelo id da geração original, o que dispensou novo upload e mantém a paleta.
+
+| # | Andar | Imagem inicial | Movimento pedido | Job | Arquivo |
+|---|---|---|---|---|---|
+| 42 | Rios | `atmosfera/rio-mata` | Câmera avança rente à água, névoa subindo, margens passando | 3bbe2628-d407-4f70-aeec-a2c5e417d2a8 | `media-src/video-andares/rios.mp4` |
+| 43 | Peixes | `atmosfera/agua-corrente` | Deriva subaquática, feixes de luz tremendo, partículas subindo | 51f05631-d3ce-4297-b10e-8b8908fa8f90 | `peixes.mp4` |
+| 44 | Árvores | `atmosfera/copa-mata` | Câmera sobe pela copa, folhas ao vento, sol piscando entre galhos | 85541005-ac3a-4b42-93d2-d316caafc562 | `arvores.mp4` |
+| 45 | Aves | `atmosfera/ceu-entardecer` | Nuvens correndo sobre a linha da mata, luz virando de ouro a âmbar | 17d869ed-6dd9-4a7b-8660-852855ddbbf1 | `aves.mp4` |
+| 46 | Guardiões | `atmosfera/nevoa-mata` | Névoa rolando entre troncos escuros, avanço lento, brilho baixo no horizonte | 1099b6ff-783c-4401-af67-6e1d2f2b42d2 | `guardioes.mp4` |
+
+Todos os cinco foram conferidos quadro a quadro antes de entrar: nenhum ambiente de hotel, nenhuma espécie identificável, nenhuma pessoa, nenhum texto. Os prompts pedem explicitamente "no people, no animals, no text, no logos" (nas aves, "no birds": ave gerada por texto violaria a regra 6).
+
+Processamento (`scripts/build-media.ts --only=andares`): 1280 px, 24 fps, laço de ida e volta de 10,1 s, sem áudio, poster em WebP. A compressão sobe sozinha até caber no teto de 700 KB da Parte 2.6, porque a densidade das cenas varia muito: os rios fecharam em crf 36/46 e as árvores precisaram de crf 50 no WebM.
+
+## Etapa 3: imagens
+
+Nenhuma geração. As 137 fotos do inventário (68 heroes e 69 de galeria) entraram pelo pipeline como estão, conforme a coluna de uso. Os 17 heroes abaixo de 1.000 px ficaram sem upscale: o custo seria 34 créditos, mas o upscale envia a foto do cliente ao Higgsfield e a licença dessas imagens é a pendência 24 da Parte 8, ainda aberta. Recomendação: confirmar a licença antes, e então decidir.
+
+Filhote e Maracanã continuam sem foto. A regra 6 proíbe gerar espécie só por texto, e o Commons não tem as espécies. As duas páginas ficam com o fundo do andar e uma nota de pendência, sem custo.
 
 ## Não gerado nesta etapa
 
