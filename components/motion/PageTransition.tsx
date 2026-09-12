@@ -1,11 +1,14 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { LazyMotion, m, useReducedMotion } from "motion/react";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { motion as tokens } from "@/lib/tokens";
 
 type State = "idle" | "covering" | "revealing";
+
+/** Motor de animação carregado sob demanda, fora do bundle inicial. */
+const loadFeatures = () => import("motion/react").then((mod) => mod.domAnimation);
 
 /**
  * Transição de página em cortina bege: cobre a tela em 400 ms, revela a próxima em 500 ms.
@@ -56,7 +59,8 @@ export function PageTransition() {
   const seconds = (ms: number) => ms / 1000;
 
   return (
-    <motion.div
+    <LazyMotion features={loadFeatures} strict>
+      <m.div
       aria-hidden="true"
       className="page-curtain pointer-events-none fixed inset-0 z-[60] bg-bege"
       initial={false}
@@ -80,6 +84,7 @@ export function PageTransition() {
             }
       }
       style={reduced && state === "idle" ? { display: "none" } : undefined}
-    />
+      />
+    </LazyMotion>
   );
 }

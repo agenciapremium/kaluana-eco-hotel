@@ -356,7 +356,7 @@ html.js .word-title .word {
 }
 .nav-link {
   font-size: var(--text-base);
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   padding-block: 0.25rem;
   background-image: linear-gradient(var(--color-salvia), var(--color-salvia));
