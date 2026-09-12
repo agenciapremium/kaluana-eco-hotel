@@ -48,13 +48,25 @@ export function websiteSchema(): JsonLd {
   };
 }
 
-export function hotelSchema(opts: { description: string; restaurante?: boolean; image?: string }): JsonLd {
+export function hotelSchema(opts: {
+  description: string;
+  restaurante?: boolean;
+  image?: string;
+}): JsonLd {
   const containsPlace: JsonLd[] = [];
   if (opts.restaurante) {
-    containsPlace.push({ "@type": "Restaurant", name: "Restaurante Kaluanã", address: postalAddress() });
+    containsPlace.push({
+      "@type": "Restaurant",
+      name: "Restaurante Kaluanã",
+      address: postalAddress(),
+    });
   }
   if (eventosAutorizado) {
-    containsPlace.push({ "@type": "EventVenue", name: "Centro de convenções Kaluanã", address: postalAddress() });
+    containsPlace.push({
+      "@type": "EventVenue",
+      name: "Centro de convenções Kaluanã",
+      address: postalAddress(),
+    });
   }
   return {
     "@context": "https://schema.org",

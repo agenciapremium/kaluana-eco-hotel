@@ -12,7 +12,10 @@ export default function Page() {
         <p className="mt-4 text-lg">Um loop de exemplo por andar. Nada toca sem clique.</p>
         <ul className="mt-8 grid gap-4 md:grid-cols-2">
           {floorOrder.map((key) => (
-            <li key={key} className="flex items-center justify-between gap-4 rounded-xl bg-branco p-5">
+            <li
+              key={key}
+              className="bg-branco flex items-center justify-between gap-4 rounded-xl p-5"
+            >
               <span className="font-display text-2xl">{floors[key].nome}</span>
               <AmbientAudio andar={key} elemento={`teste-${key}`} />
             </li>

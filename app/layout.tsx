@@ -44,7 +44,11 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="pt-BR" className={`${sourceSans.variable} ${cormorant.variable}`} suppressHydrationWarning>
+    <html
+      lang="pt-BR"
+      className={`${sourceSans.variable} ${cormorant.variable}`}
+      suppressHydrationWarning
+    >
       <body className="flex min-h-svh flex-col">
         <BootScript />
         <a href="#conteudo" className="skip-link">

@@ -27,7 +27,13 @@ type State = "off" | "loading" | "on";
  * escolhido de forma determinística pelo elemento, começa em um ponto aleatório e com
  * leve variação de volume. Pausa quando a aba perde o foco. Estado lembrado na sessão.
  */
-export function AmbientAudio({ andar, elemento, extraLoops = [], className, variant = "discreto" }: Props) {
+export function AmbientAudio({
+  andar,
+  elemento,
+  extraLoops = [],
+  className,
+  variant = "discreto",
+}: Props) {
   const [state, setState] = useState<State>("off");
   const playerRef = useRef<AmbientPlayer | null>(null);
   const stateRef = useRef<State>("off");
@@ -43,7 +49,10 @@ export function AmbientAudio({ andar, elemento, extraLoops = [], className, vari
   const getPlayer = () => {
     if (!playerRef.current) {
       const jitter = 1 + (Math.random() * 2 - 1) * audioTokens.volumeJitter;
-      playerRef.current = new AmbientPlayer(audioUrl(andar, loop, pickAudioExt()), audioTokens.volume * jitter);
+      playerRef.current = new AmbientPlayer(
+        audioUrl(andar, loop, pickAudioExt()),
+        audioTokens.volume * jitter,
+      );
     }
     return playerRef.current;
   };
@@ -128,7 +137,15 @@ export function AmbientAudio({ andar, elemento, extraLoops = [], className, vari
       disabled={state === "loading"}
       onClick={() => (on ? void stop(true) : void play(true))}
     >
-      <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+      <svg
+        viewBox="0 0 24 24"
+        className="h-4 w-4"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        aria-hidden="true"
+      >
         <path d="M4 12h2M8 8v8M12 5v14M16 8v8M20 11v2" />
       </svg>
       {label}

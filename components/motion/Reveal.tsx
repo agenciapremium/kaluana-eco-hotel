@@ -22,7 +22,16 @@ type Props = {
  * Entrada por interseção, uma vez só. O componente só marca data-inview;
  * a animação está em app/globals.css e depende de html.js.
  */
-export function Reveal({ as, variant = "up", delay = 0, amount, className, style, id, children }: Props) {
+export function Reveal({
+  as,
+  variant = "up",
+  delay = 0,
+  amount,
+  className,
+  style,
+  id,
+  children,
+}: Props) {
   const ref = useRef<HTMLElement>(null);
   const inView = useInView(ref, { once: true, amount: amount ?? motionTokens.inViewAmount });
   const Tag = (as ?? "div") as ElementType;

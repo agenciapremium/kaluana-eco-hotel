@@ -199,9 +199,13 @@ html.js [data-reveal] {
 html.js [data-reveal="fade"] {
   transform: none;
 }
+/* A máscara vai no primeiro filho: com clip-path no próprio elemento, o IntersectionObserver
+   não o vê entrar na tela. */
 html.js [data-reveal="mask"] {
   opacity: 1;
   transform: none;
+}
+html.js [data-reveal="mask"] > * {
   clip-path: inset(100% 0 0 0);
   will-change: clip-path;
 }
@@ -217,7 +221,7 @@ html.js [data-reveal][data-inview="true"] {
     opacity var(--duration-medium) var(--ease-padrao) var(--reveal-delay, 0ms),
     transform var(--duration-medium) var(--ease-padrao) var(--reveal-delay, 0ms);
 }
-html.js [data-reveal="mask"][data-inview="true"] {
+html.js [data-reveal="mask"][data-inview="true"] > * {
   clip-path: inset(0 0 0 0);
   transition: clip-path var(--duration-mask) var(--ease-padrao) var(--reveal-delay, 0ms);
 }
@@ -236,7 +240,9 @@ html.js [data-reveal="draw"][data-inview="true"] .draw-path {
   animation:
     draw-stroke var(--duration-stroke) var(--ease-padrao) forwards,
     draw-fill var(--duration-medium) var(--ease-padrao) var(--duration-stroke) forwards;
-  animation-delay: calc(var(--i, 0) * var(--stagger-item)), calc(var(--duration-stroke) + var(--i, 0) * var(--stagger-item));
+  animation-delay:
+    calc(var(--i, 0) * var(--stagger-item)),
+    calc(var(--duration-stroke) + var(--i, 0) * var(--stagger-item));
 }
 html.js [data-reveal="draw"] .draw-path.draw-only {
   animation-name: draw-stroke;
@@ -284,6 +290,9 @@ html.js .word-title .word {
 @media (prefers-reduced-motion: reduce) {
   html.js [data-reveal] {
     transform: none;
+    clip-path: none;
+  }
+  html.js [data-reveal="mask"] > * {
     clip-path: none;
   }
   html.js [data-reveal][data-inview="true"] {
@@ -560,7 +569,12 @@ html.js .hero[data-scrolled="true"] .hero-veil {
 .floor-band-veil {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, var(--accent) 0%, color-mix(in srgb, var(--accent) 40%, transparent) 45%, transparent 75%);
+  background: linear-gradient(
+    to top,
+    var(--accent) 0%,
+    color-mix(in srgb, var(--accent) 40%, transparent) 45%,
+    transparent 75%
+  );
 }
 .floor-band-label {
   position: absolute;
@@ -685,7 +699,11 @@ html.js .stylized-map .map-road.draw-path {
 /* Placeholder de imagem de detalhe ainda não gerada. */
 .detalhe-placeholder {
   background-color: var(--color-bege-escuro);
-  background-image: repeating-linear-gradient(135deg, transparent 0 14px, color-mix(in srgb, var(--color-salvia) 25%, transparent) 14px 16px);
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0 14px,
+    color-mix(in srgb, var(--color-salvia) 25%, transparent) 14px 16px
+  );
 }
 
 /* Formulários */

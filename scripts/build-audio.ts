@@ -31,7 +31,55 @@ for (const andar of floorOrder) {
   const filter = `anoisesrc=color=${p.color}:seed=${andar.length * 7}:amplitude=0.4,lowpass=f=${p.lowpass},tremolo=f=${p.lfo}:d=0.5,afade=t=in:d=2,afade=t=out:st=${seconds - 2}:d=2,volume=0.5`;
   const webm = resolve(dir, "exemplo-1.webm");
   const m4a = resolve(dir, "exemplo-1.m4a");
-  execFileSync("ffmpeg", ["-hide_banner", "-loglevel", "error", "-y", "-f", "lavfi", "-t", String(seconds), "-i", filter, "-ac", "1", "-c:a", "libopus", "-b:a", "48k", webm], { stdio: "inherit" });
-  execFileSync("ffmpeg", ["-hide_banner", "-loglevel", "error", "-y", "-f", "lavfi", "-t", String(seconds), "-i", filter, "-ac", "1", "-c:a", "aac", "-b:a", "48k", "-movflags", "+faststart", m4a], { stdio: "inherit" });
-  process.stdout.write(`audio: ${andar}/exemplo-1 webm ${Math.round(statSync(webm).size / 1024)} KB, m4a ${Math.round(statSync(m4a).size / 1024)} KB\n`);
+  execFileSync(
+    "ffmpeg",
+    [
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-f",
+      "lavfi",
+      "-t",
+      String(seconds),
+      "-i",
+      filter,
+      "-ac",
+      "1",
+      "-c:a",
+      "libopus",
+      "-b:a",
+      "48k",
+      webm,
+    ],
+    { stdio: "inherit" },
+  );
+  execFileSync(
+    "ffmpeg",
+    [
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-f",
+      "lavfi",
+      "-t",
+      String(seconds),
+      "-i",
+      filter,
+      "-ac",
+      "1",
+      "-c:a",
+      "aac",
+      "-b:a",
+      "48k",
+      "-movflags",
+      "+faststart",
+      m4a,
+    ],
+    { stdio: "inherit" },
+  );
+  process.stdout.write(
+    `audio: ${andar}/exemplo-1 webm ${Math.round(statSync(webm).size / 1024)} KB, m4a ${Math.round(statSync(m4a).size / 1024)} KB\n`,
+  );
 }

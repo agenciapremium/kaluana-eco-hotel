@@ -21,14 +21,23 @@ export function FloorBands() {
       {bands.map((b, i) => {
         const f = floors[b.key];
         return (
-          <Reveal key={b.key} as="div" delay={i * motionTokens.stagger.item} className="floor-band-wrap">
+          <Reveal
+            key={b.key}
+            as="div"
+            delay={i * motionTokens.stagger.item}
+            className="floor-band-wrap"
+          >
             <Link
               href={f.url}
               className="floor-band"
               style={{ "--accent": f.accent } as CSSProperties}
               aria-label={`${f.nome}, ${f.ordinal}`}
             >
-              <MediaImage id={b.image} sizes="(min-width: 64rem) 25vw, 100vw" className="floor-band-picture" />
+              <MediaImage
+                id={b.image}
+                sizes="(min-width: 64rem) 25vw, 100vw"
+                className="floor-band-picture"
+              />
               <span className="floor-band-veil" aria-hidden="true" />
               <span className="floor-band-label">
                 <span className="floor-band-ordinal">{f.ordinal}</span>

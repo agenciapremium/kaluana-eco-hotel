@@ -32,17 +32,41 @@ export function LeadForm({ origem }: { origem: "pre" | "empresas" }) {
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="field-group">
           <label htmlFor="lead-nome">Nome</label>
-          <input id="lead-nome" name="nome" type="text" className="field" required autoComplete="name" aria-invalid={Boolean(erro("nome"))} />
+          <input
+            id="lead-nome"
+            name="nome"
+            type="text"
+            className="field"
+            required
+            autoComplete="name"
+            aria-invalid={Boolean(erro("nome"))}
+          />
           {erro("nome") ? <p className="field-error">{erro("nome")}</p> : null}
         </div>
         <div className="field-group">
           <label htmlFor="lead-email">E-mail</label>
-          <input id="lead-email" name="email" type="email" className="field" required autoComplete="email" aria-invalid={Boolean(erro("email"))} />
+          <input
+            id="lead-email"
+            name="email"
+            type="email"
+            className="field"
+            required
+            autoComplete="email"
+            aria-invalid={Boolean(erro("email"))}
+          />
           {erro("email") ? <p className="field-error">{erro("email")}</p> : null}
         </div>
         <div className="field-group">
           <label htmlFor="lead-telefone">Telefone</label>
-          <input id="lead-telefone" name="telefone" type="tel" className="field" required autoComplete="tel" aria-invalid={Boolean(erro("telefone"))} />
+          <input
+            id="lead-telefone"
+            name="telefone"
+            type="tel"
+            className="field"
+            required
+            autoComplete="tel"
+            aria-invalid={Boolean(erro("telefone"))}
+          />
           {erro("telefone") ? <p className="field-error">{erro("telefone")}</p> : null}
         </div>
         <div className="field-group">
@@ -59,7 +83,13 @@ export function LeadForm({ origem }: { origem: "pre" | "empresas" }) {
           <label htmlFor="lead-empresa">
             Empresa <span className="text-cafe/60">(se for o caso)</span>
           </label>
-          <input id="lead-empresa" name="empresa" type="text" className="field" autoComplete="organization" />
+          <input
+            id="lead-empresa"
+            name="empresa"
+            type="text"
+            className="field"
+            autoComplete="organization"
+          />
         </div>
       </div>
 
@@ -70,7 +100,7 @@ export function LeadForm({ origem }: { origem: "pre" | "empresas" }) {
       ) : null}
 
       <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <p id="lead-ajuda" className="text-sm text-cafe/70">
+        <p id="lead-ajuda" className="text-cafe/70 text-sm">
           Seus dados ficam com o hotel.{" "}
           <Link href="/politica-de-privacidade" className="underline underline-offset-4">
             Política de privacidade

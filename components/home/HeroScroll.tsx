@@ -7,7 +7,8 @@ export function HeroScroll() {
   useEffect(() => {
     const hero = document.querySelector<HTMLElement>("[data-hero]");
     if (!hero) return;
-    const saveData = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection?.saveData;
+    const saveData = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection
+      ?.saveData;
     if (saveData) {
       hero.querySelector("video")?.remove();
     }

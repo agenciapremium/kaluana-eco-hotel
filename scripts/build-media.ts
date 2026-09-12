@@ -14,7 +14,14 @@ import { basename, resolve } from "node:path";
 import sharp from "sharp";
 import { imageWidths, colors, motion } from "../lib/tokens";
 
-type ManifestImage = { grupo: string; slug: string; src: string; alt: string; uso?: string; crop?: string };
+type ManifestImage = {
+  grupo: string;
+  slug: string;
+  src: string;
+  alt: string;
+  uso?: string;
+  crop?: string;
+};
 type ManifestVideo = { slug: string; src: string; uso?: string };
 type Manifest = { imagens: ManifestImage[]; videos: ManifestVideo[]; abertura: ManifestVideo };
 
@@ -30,12 +37,25 @@ type MediaImage = {
 };
 type MediaJson = {
   imagens: Record<string, MediaImage>;
-  videos: Record<string, { mp4: string; webm: string; hevcAlpha?: string; poster: string; width: number; height: number; duration: number }>;
+  videos: Record<
+    string,
+    {
+      mp4: string;
+      webm: string;
+      hevcAlpha?: string;
+      poster: string;
+      width: number;
+      height: number;
+      duration: number;
+    }
+  >;
 };
 
 const root = process.cwd();
 const docsRoot = resolve(root, "..");
-const manifest = JSON.parse(readFileSync(resolve(root, "media-src/manifest.json"), "utf8")) as Manifest;
+const manifest = JSON.parse(
+  readFileSync(resolve(root, "media-src/manifest.json"), "utf8"),
+) as Manifest;
 const only = process.argv.find((a) => a.startsWith("--only="))?.slice(7);
 const mediaJsonPath = resolve(root, "content/media.json");
 const media: MediaJson = existsSync(mediaJsonPath)
@@ -49,7 +69,9 @@ function srcPath(src: string) {
 }
 
 function ffmpeg(args: string[]) {
-  execFileSync("ffmpeg", ["-hide_banner", "-loglevel", "error", "-y", ...args], { stdio: "inherit" });
+  execFileSync("ffmpeg", ["-hide_banner", "-loglevel", "error", "-y", ...args], {
+    stdio: "inherit",
+  });
 }
 
 function ffprobe(file: string) {
@@ -64,8 +86,15 @@ function ffprobe(file: string) {
     "json",
     file,
   ]).toString();
-  const j = JSON.parse(out) as { streams: { width: number; height: number }[]; format: { duration: string } };
-  return { width: j.streams[0].width, height: j.streams[0].height, duration: Number(j.format.duration) };
+  const j = JSON.parse(out) as {
+    streams: { width: number; height: number }[];
+    format: { duration: string };
+  };
+  return {
+    width: j.streams[0].width,
+    height: j.streams[0].height,
+    duration: Number(j.format.duration),
+  };
 }
 
 /** Extrai um quadro (segundos, negativo conta do fim) como PNG e grava WebP com sharp. */
@@ -134,13 +163,36 @@ async function buildImages() {
     if (widths.length === 0) widths.push(width);
     for (const w of widths) {
       const base = crop
-        ? sharp(input).rotate().resize({ width: w, height: Math.round(w * ratio), fit: "cover", position: "attention", withoutEnlargement: true })
+        ? sharp(input)
+            .rotate()
+            .resize({
+              width: w,
+              height: Math.round(w * ratio),
+              fit: "cover",
+              position: "attention",
+              withoutEnlargement: true,
+            })
         : sharp(input).rotate().resize({ width: w, withoutEnlargement: true });
-      await base.clone().webp({ quality: 78, effort: 5 }).toFile(resolve(outDir, `${img.slug}-${w}.webp`));
-      await base.clone().avif({ quality: 50, effort: 6 }).toFile(resolve(outDir, `${img.slug}-${w}.avif`));
+      await base
+        .clone()
+        .webp({ quality: 78, effort: 5 })
+        .toFile(resolve(outDir, `${img.slug}-${w}.webp`));
+      await base
+        .clone()
+        .avif({ quality: 50, effort: 6 })
+        .toFile(resolve(outDir, `${img.slug}-${w}.avif`));
     }
     const blur = crop
-      ? await sharp(input).rotate().resize({ width: 16, height: Math.round(16 * ratio), fit: "cover", position: "attention" }).webp({ quality: 40 }).toBuffer()
+      ? await sharp(input)
+          .rotate()
+          .resize({
+            width: 16,
+            height: Math.round(16 * ratio),
+            fit: "cover",
+            position: "attention",
+          })
+          .webp({ quality: 40 })
+          .toBuffer()
       : await sharp(input).rotate().resize({ width: 16 }).webp({ quality: 40 }).toBuffer();
     const largest = widths[widths.length - 1];
     media.imagens[`${img.grupo}/${img.slug}`] = {
@@ -153,7 +205,9 @@ async function buildImages() {
       blurDataURL: `data:image/webp;base64,${blur.toString("base64")}`,
       original: basename(img.src),
     };
-    process.stdout.write(`imagem: ${img.grupo}/${img.slug} ${origWidth}x${origHeight}${crop ? ` recorte ${img.crop}` : ""} -> ${widths.join(", ")}\n`);
+    process.stdout.write(
+      `imagem: ${img.grupo}/${img.slug} ${origWidth}x${origHeight}${crop ? ` recorte ${img.crop}` : ""} -> ${widths.join(", ")}\n`,
+    );
   }
 }
 
@@ -173,8 +227,50 @@ async function buildHeroVideo() {
     const webm = resolve(outDir, `${v.slug}.webm`);
     const poster = resolve(outDir, `${v.slug}-poster.webp`);
     const filter = `${pingpong};[loop]loop=loop=${loops - 1}:size=32767:start=0[out]`;
-    ffmpeg(["-i", input, "-filter_complex", filter, "-map", "[out]", "-an", "-c:v", "libx264", "-profile:v", "high", "-pix_fmt", "yuv420p", "-preset", "slow", "-crf", "20", "-movflags", "+faststart", mp4]);
-    ffmpeg(["-i", input, "-filter_complex", filter, "-map", "[out]", "-an", "-c:v", "libvpx-vp9", "-b:v", "0", "-crf", "30", "-row-mt", "1", "-deadline", "good", "-cpu-used", "2", webm]);
+    ffmpeg([
+      "-i",
+      input,
+      "-filter_complex",
+      filter,
+      "-map",
+      "[out]",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-profile:v",
+      "high",
+      "-pix_fmt",
+      "yuv420p",
+      "-preset",
+      "slow",
+      "-crf",
+      "20",
+      "-movflags",
+      "+faststart",
+      mp4,
+    ]);
+    ffmpeg([
+      "-i",
+      input,
+      "-filter_complex",
+      filter,
+      "-map",
+      "[out]",
+      "-an",
+      "-c:v",
+      "libvpx-vp9",
+      "-b:v",
+      "0",
+      "-crf",
+      "30",
+      "-row-mt",
+      "1",
+      "-deadline",
+      "good",
+      "-cpu-used",
+      "2",
+      webm,
+    ]);
     await posterFrom(mp4, poster, 0, 70);
     const out = ffprobe(mp4);
     media.videos[v.slug] = {
@@ -185,7 +281,9 @@ async function buildHeroVideo() {
       height: out.height,
       duration: Math.round(out.duration * 10) / 10,
     };
-    process.stdout.write(`vídeo: ${v.slug} ${out.width}x${out.height} ${out.duration.toFixed(1)} s, mp4 ${kb(mp4)} KB, webm ${kb(webm)} KB, poster ${kb(poster)} KB\n`);
+    process.stdout.write(
+      `vídeo: ${v.slug} ${out.width}x${out.height} ${out.duration.toFixed(1)} s, mp4 ${kb(mp4)} KB, webm ${kb(webm)} KB, poster ${kb(poster)} KB\n`,
+    );
     if (kb(mp4) > 2048 || kb(webm) > 2048) {
       throw new Error(`vídeo ${v.slug} acima de 2 MB`);
     }
@@ -209,13 +307,72 @@ async function buildAbertura() {
   const mp4 = resolve(outDir, `${a.slug}.mp4`);
   const poster = resolve(outDir, `${a.slug}-poster.webp`);
   const bege = colors.bege;
-  ffmpeg(["-i", input, "-vf", `${base},format=yuva420p`, "-an", "-c:v", "libvpx-vp9", "-pix_fmt", "yuva420p", "-b:v", "0", "-crf", "30", "-row-mt", "1", "-deadline", "good", "-cpu-used", "2", "-auto-alt-ref", "0", webm]);
-  ffmpeg(["-i", input, "-filter_complex", `color=c=${bege}:s=${size}x${Math.round((size * info.height) / info.width / 2) * 2}:r=30[bg];[0:v]${base}[fg];[bg][fg]overlay=shortest=1:format=auto,format=yuv420p[out]`, "-map", "[out]", "-an", "-c:v", "libx264", "-profile:v", "high", "-preset", "slow", "-crf", "24", "-movflags", "+faststart", mp4]);
+  ffmpeg([
+    "-i",
+    input,
+    "-vf",
+    `${base},format=yuva420p`,
+    "-an",
+    "-c:v",
+    "libvpx-vp9",
+    "-pix_fmt",
+    "yuva420p",
+    "-b:v",
+    "0",
+    "-crf",
+    "30",
+    "-row-mt",
+    "1",
+    "-deadline",
+    "good",
+    "-cpu-used",
+    "2",
+    "-auto-alt-ref",
+    "0",
+    webm,
+  ]);
+  ffmpeg([
+    "-i",
+    input,
+    "-filter_complex",
+    `color=c=${bege}:s=${size}x${Math.round((size * info.height) / info.width / 2) * 2}:r=30[bg];[0:v]${base}[fg];[bg][fg]overlay=shortest=1:format=auto,format=yuv420p[out]`,
+    "-map",
+    "[out]",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-profile:v",
+    "high",
+    "-preset",
+    "slow",
+    "-crf",
+    "24",
+    "-movflags",
+    "+faststart",
+    mp4,
+  ]);
   // HEVC com alfa (Safari), via VideoToolbox do macOS. Opcional: se o encoder não existir, segue sem.
   const hevc = resolve(outDir, `${a.slug}-alpha.mp4`);
   let hevcOk = false;
   try {
-    ffmpeg(["-i", input, "-vf", `${base},format=bgra`, "-an", "-c:v", "hevc_videotoolbox", "-alpha_quality", "0.8", "-q:v", "60", "-tag:v", "hvc1", "-movflags", "+faststart", hevc]);
+    ffmpeg([
+      "-i",
+      input,
+      "-vf",
+      `${base},format=bgra`,
+      "-an",
+      "-c:v",
+      "hevc_videotoolbox",
+      "-alpha_quality",
+      "0.8",
+      "-q:v",
+      "60",
+      "-tag:v",
+      "hvc1",
+      "-movflags",
+      "+faststart",
+      hevc,
+    ]);
     hevcOk = true;
   } catch {
     process.stdout.write("abertura: hevc_videotoolbox indisponível, sem versão HEVC com alfa\n");
@@ -231,7 +388,9 @@ async function buildAbertura() {
     height: out.height,
     duration: Math.round(out.duration * 100) / 100,
   };
-  process.stdout.write(`abertura: ${out.width}x${out.height} ${out.duration.toFixed(2)} s, webm ${kb(webm)} KB, mp4 ${kb(mp4)} KB${hevcOk ? `, hevc alfa ${kb(hevc)} KB` : ""}, poster ${kb(poster)} KB\n`);
+  process.stdout.write(
+    `abertura: ${out.width}x${out.height} ${out.duration.toFixed(2)} s, webm ${kb(webm)} KB, mp4 ${kb(mp4)} KB${hevcOk ? `, hevc alfa ${kb(hevc)} KB` : ""}, poster ${kb(poster)} KB\n`,
+  );
 }
 
 (async () => {

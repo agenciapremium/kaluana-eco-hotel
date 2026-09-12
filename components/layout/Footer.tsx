@@ -20,18 +20,30 @@ export function Footer() {
   return (
     <footer className="bg-cafe text-bege">
       <div className="container-site section-y-sm">
-        <div className={full ? "grid gap-10 md:grid-cols-2 lg:grid-cols-4" : "grid gap-10 md:grid-cols-3"}>
+        <div
+          className={
+            full ? "grid gap-10 md:grid-cols-2 lg:grid-cols-4" : "grid gap-10 md:grid-cols-3"
+          }
+        >
           <div className="flex flex-col gap-4">
             <StrokeSymbol className="h-14 w-14" title="Símbolo do Kaluanã" />
             <p className="font-display text-2xl">{site.name}</p>
-            <address className="not-italic text-base leading-relaxed text-bege/85">
+            <address className="text-bege/85 text-base leading-relaxed not-italic">
               {site.address.street}
               <br />
               {site.address.locality}, {site.address.region}
               <br />
-              {site.phone ? <a href={`tel:${site.phone}`}>{site.phone}</a> : <Placeholder label="telefone oficial" />}
+              {site.phone ? (
+                <a href={`tel:${site.phone}`}>{site.phone}</a>
+              ) : (
+                <Placeholder label="telefone oficial" />
+              )}
               <br />
-              {site.email ? <a href={`mailto:${site.email}`}>{site.email}</a> : <Placeholder label="contato@kaluanaecohotel.com.br" />}
+              {site.email ? (
+                <a href={`mailto:${site.email}`}>{site.email}</a>
+              ) : (
+                <Placeholder label="contato@kaluanaecohotel.com.br" />
+              )}
             </address>
           </div>
 
@@ -88,17 +100,19 @@ export function Footer() {
                   </li>
                 ))}
               </ul>
-              <p className="mt-6 font-display text-xl italic text-bege/85">{site.signature}</p>
+              <p className="font-display text-bege/85 mt-6 text-xl italic">{site.signature}</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="border-t border-bege/15">
-        <div className="container-site flex flex-wrap justify-between gap-2 py-4 text-sm text-bege/70">
+      <div className="border-bege/15 border-t">
+        <div className="container-site text-bege/70 flex flex-wrap justify-between gap-2 py-4 text-sm">
           <span>
             {site.legalName} · CNPJ {site.cnpj}
           </span>
-          <span>© {new Date().getFullYear()} {site.name}</span>
+          <span>
+            © {new Date().getFullYear()} {site.name}
+          </span>
         </div>
       </div>
     </footer>

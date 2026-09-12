@@ -1,19 +1,19 @@
 /* Gerado por scripts/build-tokens.ts a partir de lib/tokens.ts. Não editar à mão. */
 @theme {
-  --color-cafe: #552F22;
+  --color-cafe: #552f22;
   --color-salvia: #929777;
-  --color-bege: #ECE5DF;
-  --color-branco: #FFFFFF;
+  --color-bege: #ece5df;
+  --color-branco: #ffffff;
   --color-preto: #101010;
-  --color-cafe-escuro: #4E2B1F;
-  --color-bege-escuro: #DED4CB;
-  --color-rios: #3E5C6B;
-  --color-peixes: #4F7A6B;
-  --color-arvores: #6B7A3E;
-  --color-aves: #8C6A3D;
-  --color-guardioes: #552F22;
-  --font-sans: var(--font-source-sans), 'Source Sans 3', system-ui, sans-serif;
-  --font-display: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  --color-cafe-escuro: #4e2b1f;
+  --color-bege-escuro: #ded4cb;
+  --color-rios: #3e5c6b;
+  --color-peixes: #4f7a6b;
+  --color-arvores: #6b7a3e;
+  --color-aves: #8c6a3d;
+  --color-guardioes: #552f22;
+  --font-sans: var(--font-source-sans), "Source Sans 3", system-ui, sans-serif;
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;

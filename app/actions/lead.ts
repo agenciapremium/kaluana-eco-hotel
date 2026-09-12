@@ -84,7 +84,8 @@ export async function enviarLead(_prev: LeadState, formData: FormData): Promise<
   }
 
   const h = await headers();
-  const ip = (h.get("x-forwarded-for") ?? "").split(",")[0].trim() || h.get("x-real-ip") || "desconhecido";
+  const ip =
+    (h.get("x-forwarded-for") ?? "").split(",")[0].trim() || h.get("x-real-ip") || "desconhecido";
   if (limitado(ip)) {
     return { erro: "Muitos envios em pouco tempo. Tente de novo em alguns minutos." };
   }

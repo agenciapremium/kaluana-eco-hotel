@@ -55,6 +55,126 @@
       ],
       "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQABAAA4BaJZgCdADHc3S55V0AAAD+3NTY+k1Whr8B0jjmqu79FPGCyuG5Xs37hzoyusJFXa0pjnLf5WbZXBoT1MRqxhMge/3wR1GAAAA=",
       "original": "coruja.jpg"
+    },
+    "detalhes/maos-no-balcao": {
+      "grupo": "detalhes",
+      "slug": "maos-no-balcao",
+      "alt": "Mãos sobre um balcão de madeira, uma delas com uma chave",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAQCdASoQAAwAA4BaJZACdAClt3lsAP7SLVdmSQWov0lebL3tP3euqUFG/ElmQc6WnxIuhc4A8wz9NjpzBlFhPbh2vM0X2ct+VbZehWD9W2UCvTAAAA==",
+      "original": "maos-no-balcao.jpg"
+    },
+    "detalhes/mesa-com-cafe": {
+      "grupo": "detalhes",
+      "slug": "mesa-com-cafe",
+      "alt": "Mesa de madeira com notebook fechado, caneca de café e bloco de notas",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAwAA4BaJZgCsAEJ3uq+IP1wAP72EtzaZLP89XgtW1vpg4KRuCY7OzkPYJE1VINOTHXotg2tEEXhchBSxdNPDVj5PTkE0+AX/HipNWLWZNiReIDzmwShUB66nAAA",
+      "original": "mesa-com-cafe.jpg"
+    },
+    "detalhes/cadeira-na-varanda": {
+      "grupo": "detalhes",
+      "slug": "cadeira-na-varanda",
+      "alt": "Cadeira de madeira com almofada de linho, folhagem ao fundo",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAwAA4BaJagCdADjNeufljQAAP7qFuUxsg6LACwigPTSabuhiYq6+T7rdOKP7NEITCVmr41xDwrMcXrvectaNcAUan98OLtWSPn9iHCvsY1/bgxx6NiYXiFaAAAA",
+      "original": "cadeira-na-varanda.jpg"
+    },
+    "detalhes/textura-madeira": {
+      "grupo": "detalhes",
+      "slug": "textura-madeira",
+      "alt": "Superfície de madeira escura com um feixe de luz de janela",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkAA4BaJZACdADcpqzW42AA/uJ4mVrDX6mixOkvnpKU6z1Fs1J/H469g3QbWeXiqj4fXsdtDWnr3LRSKSWjGnngAA==",
+      "original": "textura-madeira.jpg"
+    },
+    "detalhes/textura-terra": {
+      "grupo": "detalhes",
+      "slug": "textura-terra",
+      "alt": "Terra vermelha seca, rachada, com folhas caídas",
+      "width": 1920,
+      "height": 823,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAcAA4BaJbACdAEfxAs26F2kAAD+6f6L6cyg0qAjRmi/glHxZuT2LHi5NPN8zkgkn5HN84TnW2Tn2CXHj49NPF8AAAAA",
+      "original": "textura-terra.jpg"
+    },
+    "detalhes/luz-de-janela": {
+      "grupo": "detalhes",
+      "slug": "luz-de-janela",
+      "alt": "Tecido de linho bege com luz suave de janela",
+      "width": 1920,
+      "height": 1280,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJYgCdADPhvSHu4AAAP63A9pj0JGoE8NfXpSUbsQ/XCj4zVgRSCXxFKG3w9+5E7tKxW4zwK2OZfXwtWNI58g+zxdqwwmDkpV6a5gAAAA=",
+      "original": "luz-de-janela.jpg"
+    },
+    "detalhes/prato-de-peixe": {
+      "grupo": "detalhes",
+      "slug": "prato-de-peixe",
+      "alt": "Peixe grelhado em prato de cerâmica com farofa, vinagrete e limão",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoQAAwAA4BaJbACdAYs2xl3qZ9AAP5AtGNRojmpXJeY5TbqunBuKjKxjQCMuladxi/U7A1jpJDAXbKD7dpWkR8Wu8ukFUqkQz8qvURAW4Ivp3xjDBmtjloA9GlaNd0c58AAAA==",
+      "original": "prato-de-peixe.jpg"
+    },
+    "detalhes/maos-na-obra": {
+      "grupo": "detalhes",
+      "slug": "maos-na-obra",
+      "alt": "Mãos segurando um punhado de terra vermelha, folhas ao fundo",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAwAA4BaJZgCdACZ7WudAAD+73nTt7DNfgi/RpubVxNkZYdBNxG+4j0+TDrdijbkwZqltudEdbdyRVZ+Z43ZP7XFcxjUeDOK1RqV0E0cpa1/kAA=",
+      "original": "maos-na-obra.jpg"
     }
   },
   "videos": {

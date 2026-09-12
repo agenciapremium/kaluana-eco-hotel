@@ -8,7 +8,13 @@ import { WordTitle } from "@/components/motion/WordTitle";
 import { Arrow } from "@/components/ui/Arrow";
 import { getPagina, getSecao } from "@/lib/content";
 import type { Pagina } from "@/lib/content-schema";
-import { breadcrumbSchema, faqSchema, hotelSchema, organizationSchema, websiteSchema } from "@/lib/schema";
+import {
+  breadcrumbSchema,
+  faqSchema,
+  hotelSchema,
+  organizationSchema,
+  websiteSchema,
+} from "@/lib/schema";
 import { motion as motionTokens } from "@/lib/tokens";
 import { FloorBands } from "./FloorBands";
 import { HeroVideo } from "./HeroVideo";
@@ -49,7 +55,11 @@ export function HomePre({ pagina }: { pagina: Pagina }) {
         <div className="container-site hero-inner">
           <div className="max-w-3xl">
             {hero.kicker ? <span className="kicker mb-6">{hero.kicker}</span> : null}
-            <WordTitle text={hero.titulo ?? pagina.seo.h1} className="text-display" delay={motionTokens.duration.short} />
+            <WordTitle
+              text={hero.titulo ?? pagina.seo.h1}
+              className="text-display"
+              delay={motionTokens.duration.short}
+            />
             <p className="lead mt-6">{pagina.seo.resposta.trim()}</p>
             {hero.texto ? <CopyParagraphs text={hero.texto} className="mt-4 text-xl" /> : null}
             <div className="mt-8 flex flex-wrap gap-3">
@@ -70,7 +80,10 @@ export function HomePre({ pagina }: { pagina: Pagina }) {
           <Reveal className="measure">
             {nome.texto ? <CopyParagraphs text={nome.texto} className="text-xl" /> : null}
           </Reveal>
-          <StrokeSymbol className="h-40 w-40 justify-self-center text-cafe lg:h-56 lg:w-56" title="Símbolo do Kaluanã" />
+          <StrokeSymbol
+            className="text-cafe h-40 w-40 justify-self-center lg:h-56 lg:w-56"
+            title="Símbolo do Kaluanã"
+          />
         </div>
       </Section>
 
@@ -91,7 +104,9 @@ export function HomePre({ pagina }: { pagina: Pagina }) {
 
       <Section id="empresas" kicker="Empresas" title={empresas.titulo} tone="cafe">
         <Reveal className="measure mt-6">
-          {empresas.texto ? <CopyParagraphs text={empresas.texto} className="text-xl text-bege/90" /> : null}
+          {empresas.texto ? (
+            <CopyParagraphs text={empresas.texto} className="text-bege/90 text-xl" />
+          ) : null}
           <a href="#avisamos" className="btn btn-inverse mt-8">
             {empresas.cta_secundario}
             <Arrow />
@@ -106,7 +121,11 @@ export function HomePre({ pagina }: { pagina: Pagina }) {
       </Section>
 
       {faq.length ? (
-        <Section id="perguntas" kicker="Perguntas frequentes" title="O que perguntam sobre o Kaluanã.">
+        <Section
+          id="perguntas"
+          kicker="Perguntas frequentes"
+          title="O que perguntam sobre o Kaluanã."
+        >
           <dl className="mt-8 grid gap-8 md:grid-cols-3">
             {faq.map((f, i) => (
               <Reveal key={f.p} as="div" delay={i * motionTokens.stagger.item}>

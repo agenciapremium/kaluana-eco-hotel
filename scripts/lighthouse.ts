@@ -6,7 +6,8 @@ import { execFileSync } from "node:child_process";
 import { mkdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-const arg = (k: string, d: string) => process.argv.find((a) => a.startsWith(`--${k}=`))?.slice(k.length + 3) ?? d;
+const arg = (k: string, d: string) =>
+  process.argv.find((a) => a.startsWith(`--${k}=`))?.slice(k.length + 3) ?? d;
 const phase = arg("phase", "pre");
 const url = arg("url", "http://localhost:3000");
 const preset = arg("preset", "mobile");

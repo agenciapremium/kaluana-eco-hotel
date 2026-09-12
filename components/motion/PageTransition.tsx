@@ -24,13 +24,19 @@ export function PageTransition() {
 
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
-      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey)
+        return;
       const target = e.target as Element | null;
       const a = target?.closest("a");
       if (!a) return;
       const href = a.getAttribute("href");
       if (!href || !href.startsWith("/") || href.startsWith("//")) return;
-      if (a.target === "_blank" || a.hasAttribute("download") || a.dataset.noTransition !== undefined) return;
+      if (
+        a.target === "_blank" ||
+        a.hasAttribute("download") ||
+        a.dataset.noTransition !== undefined
+      )
+        return;
       const url = new URL(a.href, window.location.href);
       if (url.pathname === window.location.pathname) return;
       e.preventDefault();
@@ -61,29 +67,25 @@ export function PageTransition() {
   return (
     <LazyMotion features={loadFeatures} strict>
       <m.div
-      aria-hidden="true"
-      className="page-curtain pointer-events-none fixed inset-0 z-[60] bg-bege"
-      initial={false}
-      animate={
-        reduced
-          ? { y: "0%", opacity: state === "covering" ? 1 : 0 }
-          : { y, opacity: 1 }
-      }
-      transition={
-        state === "idle"
-          ? { duration: 0 }
-          : {
-              duration: seconds(
-                reduced
-                  ? tokens.duration.reduced
-                  : state === "covering"
-                    ? tokens.duration.curtainIn
-                    : tokens.duration.curtainOut,
-              ),
-              ease: state === "covering" ? [...tokens.ease.standard] : [...tokens.ease.standard],
-            }
-      }
-      style={reduced && state === "idle" ? { display: "none" } : undefined}
+        aria-hidden="true"
+        className="page-curtain bg-bege pointer-events-none fixed inset-0 z-[60]"
+        initial={false}
+        animate={reduced ? { y: "0%", opacity: state === "covering" ? 1 : 0 } : { y, opacity: 1 }}
+        transition={
+          state === "idle"
+            ? { duration: 0 }
+            : {
+                duration: seconds(
+                  reduced
+                    ? tokens.duration.reduced
+                    : state === "covering"
+                      ? tokens.duration.curtainIn
+                      : tokens.duration.curtainOut,
+                ),
+                ease: state === "covering" ? [...tokens.ease.standard] : [...tokens.ease.standard],
+              }
+        }
+        style={reduced && state === "idle" ? { display: "none" } : undefined}
       />
     </LazyMotion>
   );

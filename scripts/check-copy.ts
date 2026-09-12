@@ -40,7 +40,9 @@ function walk(dir: string) {
       for (const v of vetos) {
         if (v.re.test(linha)) {
           problemas++;
-          process.stdout.write(`${relative(root, p)}:${i + 1}: ${v.nome}: ${linha.trim().slice(0, 100)}\n`);
+          process.stdout.write(
+            `${relative(root, p)}:${i + 1}: ${v.nome}: ${linha.trim().slice(0, 100)}\n`,
+          );
         }
       }
     });
@@ -69,5 +71,7 @@ function walkJson(value: unknown, file: string, path: string) {
 }
 
 for (const d of dirs) walk(join(root, d));
-process.stdout.write(problemas ? `check-copy: ${problemas} ocorrência(s)\n` : "check-copy: nenhum veto encontrado\n");
+process.stdout.write(
+  problemas ? `check-copy: ${problemas} ocorrência(s)\n` : "check-copy: nenhum veto encontrado\n",
+);
 process.exit(problemas ? 1 : 0);

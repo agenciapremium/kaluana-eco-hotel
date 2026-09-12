@@ -20,12 +20,19 @@ export const LOGOTIPO_PATHS = [
   "M447.32,218.64c11.47,0,20.49,8.22,20.49,19.94s-9.02,19.94-20.49,19.94-20.62-8.22-20.62-19.94,9.14-19.94,20.62-19.94ZM462.29,238.58c0-8.53-6.44-15.03-14.97-15.03s-15.09,6.44-15.09,15.03,6.5,15.03,15.09,15.03,14.97-6.5,14.97-15.03Z",
   "M483.76,257.9v-33.81h-13.25v-4.85h31.97v4.85h-13.25v33.81h-5.46Z",
   "M509.04,257.9v-38.65h27.3v4.79h-21.78v11.84h19.02v4.72h-19.02v12.52h21.29v4.79h-26.81Z",
-  "M544.38,257.9v-38.65h5.52v33.81h20.92v4.85h-26.44Z"
+  "M544.38,257.9v-38.65h5.52v33.81h20.92v4.85h-26.44Z",
 ];
 
 export function Logotipo({ title, ...props }: SVGProps<SVGSVGElement> & { title?: string }) {
   return (
-    <svg viewBox="0 0 819.66 258.52" fill="currentColor" fillRule="evenodd" role="img" aria-hidden={title ? undefined : true} {...props}>
+    <svg
+      viewBox="0 0 819.66 258.52"
+      fill="currentColor"
+      fillRule="evenodd"
+      role="img"
+      aria-hidden={title ? undefined : true}
+      {...props}
+    >
       {title ? <title>{title}</title> : null}
       {LOGOTIPO_PATHS.map((d, i) => (
         <path key={i} d={d} />

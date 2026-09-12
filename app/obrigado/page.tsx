@@ -20,7 +20,7 @@ export default function Page() {
     <section className="section-y">
       <div className="container-site">
         <div className="mx-auto max-w-2xl text-center">
-          <StrokeSymbol className="mx-auto h-20 w-20 text-cafe" title="Símbolo do Kaluanã" />
+          <StrokeSymbol className="text-cafe mx-auto h-20 w-20" title="Símbolo do Kaluanã" />
           <h1 className="text-title mt-8">Recebemos seu contato.</h1>
           <p className="mt-4 text-xl">Avisamos você primeiro quando as reservas abrirem.</p>
           <Link href="/" className="btn btn-primary mt-8">

@@ -7,7 +7,8 @@ import { mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, devices } from "playwright";
 
-const arg = (k: string, d: string) => process.argv.find((a) => a.startsWith(`--${k}=`))?.slice(k.length + 3) ?? d;
+const arg = (k: string, d: string) =>
+  process.argv.find((a) => a.startsWith(`--${k}=`))?.slice(k.length + 3) ?? d;
 const phase = arg("phase", "pre");
 const url = arg("url", "http://localhost:3000");
 const out = resolve(process.cwd(), arg("out", "docs/screenshots/etapa-1"));
@@ -33,7 +34,9 @@ const targets = [
         process.stdout.write(`console ${msg.type()} (${t.name}): ${msg.text().slice(0, 300)}\n`);
       }
     });
-    page.on("pageerror", (err) => process.stdout.write(`pageerror (${t.name}): ${err.message.slice(0, 300)}\n`));
+    page.on("pageerror", (err) =>
+      process.stdout.write(`pageerror (${t.name}): ${err.message.slice(0, 300)}\n`),
+    );
     await page.goto(url, { waitUntil: "load" });
     // a cortina de transição fica abaixo da viewport e apareceria na captura de página inteira
     await page.addStyleTag({ content: ".page-curtain{display:none!important}" });
@@ -46,7 +49,7 @@ const targets = [
         await new Promise((r) => setTimeout(r, 120));
       }
       window.scrollTo(0, 0);
-      await new Promise((r) => setTimeout(r, 900));
+      await new Promise((r) => setTimeout(r, 2500));
     });
     const file = resolve(out, `home-${phase}-${t.name}.png`);
     await page.screenshot({ path: file, fullPage: true });

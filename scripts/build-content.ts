@@ -27,7 +27,12 @@ import {
 const root = process.cwd();
 const dadosDir = resolve(root, "../DOCS/SITE/dados");
 const outDir = resolve(root, "content");
-const outputs = [...floorKeys.map((k) => `${k}.json`), "paginas.json", "qr-map.json", "universo-index.json"];
+const outputs = [
+  ...floorKeys.map((k) => `${k}.json`),
+  "paginas.json",
+  "qr-map.json",
+  "universo-index.json",
+];
 
 mkdirSync(outDir, { recursive: true });
 

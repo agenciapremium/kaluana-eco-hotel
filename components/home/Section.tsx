@@ -14,7 +14,16 @@ type Props = {
 };
 
 /** Seção padrão da Home: kicker, título em display e conteúdo, tudo entrando por interseção. */
-export function Section({ id, kicker, title, as = "h2", children, className, align = "left", tone = "bege" }: Props) {
+export function Section({
+  id,
+  kicker,
+  title,
+  as = "h2",
+  children,
+  className,
+  align = "left",
+  tone = "bege",
+}: Props) {
   const Heading = as;
   const toneClass = tone === "cafe" ? "bg-cafe text-bege" : tone === "branco" ? "bg-branco" : "";
   return (
@@ -22,7 +31,13 @@ export function Section({ id, kicker, title, as = "h2", children, className, ali
       <div className={["container-site", align === "center" ? "text-center" : ""].join(" ")}>
         {kicker || title ? (
           <Reveal className={align === "center" ? "mx-auto max-w-3xl" : "max-w-3xl"}>
-            {kicker ? <span className={["kicker mb-4", align === "center" ? "justify-center" : ""].join(" ")}>{kicker}</span> : null}
+            {kicker ? (
+              <span
+                className={["kicker mb-4", align === "center" ? "justify-center" : ""].join(" ")}
+              >
+                {kicker}
+              </span>
+            ) : null}
             {title ? (
               <Heading className="text-title">
                 <CopyText text={title} />

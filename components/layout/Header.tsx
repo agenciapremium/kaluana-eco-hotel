@@ -54,9 +54,17 @@ export function Header() {
   const full = phase === "full";
 
   return (
-    <header className="site-header" data-hidden={hidden && !open ? "true" : undefined} data-open={open ? "true" : undefined}>
+    <header
+      className="site-header"
+      data-hidden={hidden && !open ? "true" : undefined}
+      data-open={open ? "true" : undefined}
+    >
       <div className="container-site flex items-center justify-between gap-6 py-4 lg:py-5">
-        <Link href="/" className="flex items-center gap-3 text-cafe" aria-label={`${site.name}, início`}>
+        <Link
+          href="/"
+          className="text-cafe flex items-center gap-3"
+          aria-label={`${site.name}, início`}
+        >
           <Simbolo className="h-9 w-9 flex-none sm:h-10 sm:w-10" />
           <Logotipo className="h-7 w-auto sm:h-8" />
         </Link>
@@ -79,12 +87,24 @@ export function Header() {
           {full ? (
             <>
               <Link href="/contato" className="nav-icon hidden md:inline-flex" aria-label="Contato">
-                <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  className="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.6"
+                  aria-hidden="true"
+                >
                   <rect x="3" y="5" width="18" height="14" rx="2" />
                   <path d="m3 7 9 6 9-6" />
                 </svg>
               </Link>
-              <TrackedLink href={reservasUrl} event="reservar_click" params={{ origem: "cabecalho" }} className="btn btn-primary hidden sm:inline-flex">
+              <TrackedLink
+                href={reservasUrl}
+                event="reservar_click"
+                params={{ origem: "cabecalho" }}
+                className="btn btn-primary hidden sm:inline-flex"
+              >
                 Reservar
                 <Arrow />
               </TrackedLink>
@@ -96,7 +116,15 @@ export function Header() {
                 onClick={() => setOpen((v) => !v)}
               >
                 <span className="sr-only">{open ? "Fechar menu" : "Abrir menu"}</span>
-                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  className="h-6 w-6"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.6"
+                  strokeLinecap="round"
+                  aria-hidden="true"
+                >
                   {open ? <path d="M6 6l12 12M18 6 6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
                 </svg>
               </button>
@@ -111,29 +139,56 @@ export function Header() {
       </div>
 
       {full ? (
-        <div id={menuId} className="mobile-menu lg:hidden" hidden={!open} data-open={open ? "true" : undefined}>
-          <nav aria-label="Principal, celular" className="container-site flex h-full flex-col justify-center py-24">
+        <div
+          id={menuId}
+          className="mobile-menu lg:hidden"
+          hidden={!open}
+          data-open={open ? "true" : undefined}
+        >
+          <nav
+            aria-label="Principal, celular"
+            className="container-site flex h-full flex-col justify-center py-24"
+          >
             <ul className="flex flex-col gap-2">
               {mainNav.map((item, i) => (
-                <li key={item.href} className="mobile-menu-item" style={{ "--i": i } as CSSProperties}>
+                <li
+                  key={item.href}
+                  className="mobile-menu-item"
+                  style={{ "--i": i } as CSSProperties}
+                >
                   <Link
                     ref={i === 0 ? firstLink : undefined}
                     href={item.href}
-                    className="font-display text-4xl text-cafe"
+                    className="font-display text-cafe text-4xl"
                     onClick={() => setOpen(false)}
                   >
                     {item.label}
                   </Link>
                 </li>
               ))}
-              <li className="mobile-menu-item mt-6" style={{ "--i": mainNav.length } as CSSProperties}>
-                <TrackedLink href={reservasUrl} event="reservar_click" params={{ origem: "menu" }} className="btn btn-primary">
+              <li
+                className="mobile-menu-item mt-6"
+                style={{ "--i": mainNav.length } as CSSProperties}
+              >
+                <TrackedLink
+                  href={reservasUrl}
+                  event="reservar_click"
+                  params={{ origem: "menu" }}
+                  className="btn btn-primary"
+                >
                   Reservar
                   <Arrow />
                 </TrackedLink>
               </li>
-              <li className="mobile-menu-item mt-2" style={{ "--i": mainNav.length + 1 } as CSSProperties}>
-                <Link href="/contato" className="text-base underline-offset-4 hover:underline" onClick={() => setOpen(false)}>
+              <li
+                className="mobile-menu-item mt-2"
+                style={{ "--i": mainNav.length + 1 } as CSSProperties}
+              >
+                <Link
+                  href="/contato"
+                  className="text-base underline-offset-4 hover:underline"
+                  onClick={() => setOpen(false)}
+                >
                   Contato
                 </Link>
               </li>

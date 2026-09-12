@@ -28,7 +28,12 @@ requestAnimationFrame(function(){setTimeout(function(){if(done){return;}${JSON.s
 export function SessionOpening() {
   return (
     <>
-      <div id="abertura" className="opening" data-state="idle" dangerouslySetInnerHTML={{ __html: markup }} />
+      <div
+        id="abertura"
+        className="opening"
+        data-state="idle"
+        dangerouslySetInnerHTML={{ __html: markup }}
+      />
       <script dangerouslySetInnerHTML={{ __html: script }} />
     </>
   );

@@ -28,7 +28,9 @@ export function stripPlaceholders(text: string): string {
 }
 
 /** Divide um texto em segmentos de texto normal e de campo pendente. */
-export function segmentPlaceholders(text: string): { kind: "text" | "placeholder"; value: string }[] {
+export function segmentPlaceholders(
+  text: string,
+): { kind: "text" | "placeholder"; value: string }[] {
   const out: { kind: "text" | "placeholder"; value: string }[] = [];
   let last = 0;
   for (const m of text.matchAll(PLACEHOLDER_RE)) {

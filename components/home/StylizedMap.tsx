@@ -7,14 +7,19 @@ import { Reveal } from "@/components/motion/Reveal";
  * Sem foto aérea do terreno até a inauguração (5.1).
  */
 export function StylizedMap({ className }: { className?: string }) {
-  const draw = (i: number) => ({ "--i": i } as CSSProperties);
+  const draw = (i: number) => ({ "--i": i }) as CSSProperties;
   return (
     <Reveal as="figure" variant="draw" className={className}>
-      <svg viewBox="0 0 600 420" className="stylized-map" role="img" aria-labelledby="mapa-titulo mapa-desc">
+      <svg
+        viewBox="0 0 600 420"
+        className="stylized-map"
+        role="img"
+        aria-labelledby="mapa-titulo mapa-desc"
+      >
         <title id="mapa-titulo">Mapa esquemático de Rondônia</title>
         <desc id="mapa-desc">
-          A BR-364 cruza o estado de Porto Velho a Vilhena. O rio Machado corta Ji-Paraná e segue ao norte até o rio
-          Madeira. O Kaluanã fica em Ji-Paraná, no centro do estado.
+          A BR-364 cruza o estado de Porto Velho a Vilhena. O rio Machado corta Ji-Paraná e segue ao
+          norte até o rio Madeira. O Kaluanã fica em Ji-Paraná, no centro do estado.
         </desc>
         {/* Rio Madeira */}
         <path
@@ -73,7 +78,7 @@ export function StylizedMap({ className }: { className?: string }) {
           BR-364
         </text>
       </svg>
-      <figcaption className="mt-3 text-sm text-cafe/70">Mapa esquemático, sem escala.</figcaption>
+      <figcaption className="text-cafe/70 mt-3 text-sm">Mapa esquemático, sem escala.</figcaption>
     </Reveal>
   );
 }

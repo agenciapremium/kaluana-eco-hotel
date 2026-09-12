@@ -17,7 +17,9 @@ export const eventosAutorizado = process.env.NEXT_PUBLIC_EVENTOS_AUTORIZADO === 
 /** URL do motor de reservas. Enquanto não houver, o botão Reservar leva a /reservas. */
 export const reservasUrl = process.env.NEXT_PUBLIC_RESERVAS_URL || "/reservas";
 
-export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://kaluanaecohotel.com.br").replace(/\/$/, "");
+export const siteUrl = (
+  process.env.NEXT_PUBLIC_SITE_URL || "https://kaluanaecohotel.com.br"
+).replace(/\/$/, "");
 
 export const site = {
   name: "Kaluanã Eco Hotel",

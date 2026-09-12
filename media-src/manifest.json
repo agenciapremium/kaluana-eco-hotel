@@ -32,6 +32,70 @@
       "alt": "Coruja-buraqueira de frente, pousada em tronco",
       "uso": "Faixa do andar das aves na Home",
       "crop": "1:1"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "maos-no-balcao",
+      "src": "media-src/higgsfield/maos-no-balcao.jpg",
+      "alt": "Mãos sobre um balcão de madeira, uma delas com uma chave",
+      "uso": "Card Chegou cansado, na Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "mesa-com-cafe",
+      "src": "media-src/higgsfield/mesa-com-cafe.jpg",
+      "alt": "Mesa de madeira com notebook fechado, caneca de café e bloco de notas",
+      "uso": "Card Precisa produzir, na Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "cadeira-na-varanda",
+      "src": "media-src/higgsfield/cadeira-na-varanda.jpg",
+      "alt": "Cadeira de madeira com almofada de linho, folhagem ao fundo",
+      "uso": "Card Precisa parar, na Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "textura-madeira",
+      "src": "media-src/higgsfield/textura-madeira.jpg",
+      "alt": "Superfície de madeira escura com um feixe de luz de janela",
+      "uso": "Reserva para as próximas etapas",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "textura-terra",
+      "src": "media-src/higgsfield/textura-terra.jpg",
+      "alt": "Terra vermelha seca, rachada, com folhas caídas",
+      "uso": "Fundo da chamada final da Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "luz-de-janela",
+      "src": "media-src/higgsfield/luz-de-janela.jpg",
+      "alt": "Tecido de linho bege com luz suave de janela",
+      "uso": "Reserva para as próximas etapas",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "prato-de-peixe",
+      "src": "media-src/higgsfield/prato-de-peixe.jpg",
+      "alt": "Peixe grelhado em prato de cerâmica com farofa, vinagrete e limão",
+      "uso": "Seção Restaurante da Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "maos-na-obra",
+      "src": "media-src/higgsfield/maos-na-obra.jpg",
+      "alt": "Mãos segurando um punhado de terra vermelha, folhas ao fundo",
+      "uso": "Seção Histórias da Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
     }
   ],
   "videos": [

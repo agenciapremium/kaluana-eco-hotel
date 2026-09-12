@@ -26,7 +26,13 @@ export function TrackedLink({ href, event, params, className, children, ariaLabe
     );
   }
   return (
-    <Link href={href} prefetch={isBuilt(href) ? undefined : false} className={className} onClick={onClick} aria-label={ariaLabel}>
+    <Link
+      href={href}
+      prefetch={isBuilt(href) ? undefined : false}
+      className={className}
+      onClick={onClick}
+      aria-label={ariaLabel}
+    >
       {children}
     </Link>
   );

@@ -15,7 +15,7 @@ export default function NotFound() {
     <section className="section-y">
       <div className="container-site">
         <div className="mx-auto max-w-2xl text-center">
-          <Simbolo className="mx-auto h-16 w-16 text-salvia" />
+          <Simbolo className="text-salvia mx-auto h-16 w-16" />
           <h1 className="text-title mt-8">
             <CopyText text={conteudo.titulo ?? pagina.seo.h1} />
           </h1>

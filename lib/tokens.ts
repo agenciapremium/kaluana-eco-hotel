@@ -26,11 +26,41 @@ export const floors: Record<
   FloorKey,
   { accent: string; nome: string; andar: number; ordinal: string; url: `/universo/${FloorKey}` }
 > = {
-  rios: { accent: "#3E5C6B", nome: "Andar dos Rios", andar: 1, ordinal: "1º andar", url: "/universo/rios" },
-  peixes: { accent: "#4F7A6B", nome: "Andar dos Peixes", andar: 2, ordinal: "2º andar", url: "/universo/peixes" },
-  arvores: { accent: "#6B7A3E", nome: "Andar das Árvores", andar: 3, ordinal: "3º andar", url: "/universo/arvores" },
-  aves: { accent: "#8C6A3D", nome: "Andar das Aves", andar: 4, ordinal: "4º andar", url: "/universo/aves" },
-  guardioes: { accent: "#552F22", nome: "Os Guardiões", andar: 4, ordinal: "Suítes", url: "/universo/guardioes" },
+  rios: {
+    accent: "#3E5C6B",
+    nome: "Andar dos Rios",
+    andar: 1,
+    ordinal: "1º andar",
+    url: "/universo/rios",
+  },
+  peixes: {
+    accent: "#4F7A6B",
+    nome: "Andar dos Peixes",
+    andar: 2,
+    ordinal: "2º andar",
+    url: "/universo/peixes",
+  },
+  arvores: {
+    accent: "#6B7A3E",
+    nome: "Andar das Árvores",
+    andar: 3,
+    ordinal: "3º andar",
+    url: "/universo/arvores",
+  },
+  aves: {
+    accent: "#8C6A3D",
+    nome: "Andar das Aves",
+    andar: 4,
+    ordinal: "4º andar",
+    url: "/universo/aves",
+  },
+  guardioes: {
+    accent: "#552F22",
+    nome: "Os Guardiões",
+    andar: 4,
+    ordinal: "Suítes",
+    url: "/universo/guardioes",
+  },
 };
 
 export const floorOrder: FloorKey[] = ["rios", "peixes", "arvores", "aves", "guardioes"];
