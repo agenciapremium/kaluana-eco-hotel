@@ -28,6 +28,10 @@ npm run build:media                # imagens, vídeo do hero e abertura (local, 
 npm run build:audio                # loops de exemplo do som ambiente (local)
 ```
 
+## Deploy
+
+Projeto `kaluana-eco-hotel` no time Agencia Premium da Vercel, conectado a este repositório. A pasta local já está ligada (`.vercel/`, fora do git). Variáveis de ambiente em `.env.example`; as pendentes se definem com `vercel env add`. Produção (domínio kaluanaecohotel.com.br) só após a etapa 6.
+
 ## Documentação
 
 - `docs/etapas.md`: checklist de cada etapa
