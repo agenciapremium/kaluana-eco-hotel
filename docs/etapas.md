@@ -82,7 +82,7 @@ Pipelines locais (precisam de ../DOCS e ffmpeg): `npm run build:media`, `npm run
 
 ## Etapa 2: Acomodações
 
-**Status:** aguardando "aprovado" do responsável da Premium.
+**Status:** aprovada pelo responsável da Premium em 12/09/2026 e integrada à `main`. As variações de imagem seguem as provisórias (a primeira de cada folha de contato); a escolha final continua pendente e pode ser trocada sem refazer as páginas.
 **Branch:** `etapa-2`.
 **Período:** 12/09/2026.
 **Créditos Higgsfield gastos:** 28 (teto: 90). Saldo: 8.745,6. Acumulado do projeto: 70.
