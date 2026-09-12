@@ -1,6 +1,7 @@
 "use client";
 
 import { SiteLink as Link } from "@/components/ui/SiteLink";
+import { usePathname } from "next/navigation";
 import { useEffect, useId, useRef, useState, type CSSProperties } from "react";
 import { Logotipo } from "@/components/brand/Logotipo";
 import { Simbolo } from "@/components/brand/Simbolo";
@@ -12,6 +13,10 @@ import { mainNav, phase, reservasUrl, site } from "@/lib/site";
  * Cabeçalho: logo à esquerda, menu conforme a fase, Reservar à direita.
  * Some ao rolar para baixo e volta ao rolar para cima. No mobile, menu em tela cheia
  * sobre bege com os itens entrando em cascata (Parte 3.3).
+ *
+ * Teclado (etapa 6): com o menu aberto, o conteúdo e o rodapé ficam inertes, o Escape fecha
+ * e devolve o foco ao botão, e qualquer navegação fecha o menu. O cabeçalho escondido volta
+ * quando recebe foco (CSS, :focus-within).
  */
 export function Header() {
   const [hidden, setHidden] = useState(false);
@@ -19,6 +24,16 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const menuId = useId();
   const firstLink = useRef<HTMLAnchorElement>(null);
+  const toggle = useRef<HTMLButtonElement>(null);
+  const pathname = usePathname();
+
+  // Mudou a rota (inclusive pelo Reservar do menu): o menu fecha. Ajuste de estado durante a
+  // renderização, o padrão do React para estado que depende de outro valor.
+  const [rota, setRota] = useState(pathname);
+  if (pathname !== rota) {
+    setRota(pathname);
+    setOpen(false);
+  }
 
   useEffect(() => {
     let last = window.scrollY;
@@ -43,18 +58,28 @@ export function Header() {
   useEffect(() => {
     if (!open) return;
     document.body.style.overflow = "hidden";
+    // O que fica atrás do menu sai da ordem de foco e da árvore de acessibilidade.
+    const fundo = [document.querySelector("main"), document.querySelector("footer")].filter(
+      (el): el is HTMLElement => el instanceof HTMLElement,
+    );
+    fundo.forEach((el) => el.setAttribute("inert", ""));
     firstLink.current?.focus();
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key !== "Escape") return;
+      setOpen(false);
+      toggle.current?.focus();
     };
     document.addEventListener("keydown", onKey);
     return () => {
       document.body.style.overflow = "";
+      fundo.forEach((el) => el.removeAttribute("inert"));
       document.removeEventListener("keydown", onKey);
     };
   }, [open]);
 
   const full = phase === "full";
+  const atual = (href: string) =>
+    pathname === href || pathname.startsWith(`${href}/`) ? ("page" as const) : undefined;
 
   return (
     <header
@@ -78,7 +103,7 @@ export function Header() {
             <ul className="flex items-center gap-7">
               {mainNav.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="nav-link">
+                  <Link href={item.href} className="nav-link" aria-current={atual(item.href)}>
                     {item.label}
                   </Link>
                 </li>
@@ -113,6 +138,7 @@ export function Header() {
                 <Arrow />
               </TrackedLink>
               <button
+                ref={toggle}
                 type="button"
                 className="nav-icon lg:hidden"
                 aria-expanded={open}
@@ -134,10 +160,11 @@ export function Header() {
               </button>
             </>
           ) : (
-            <a href="#avisamos" className="btn btn-primary">
+            // O formulário fica na Home; de qualquer outra página, o atalho leva até ele.
+            <Link href="/#avisamos" className="btn btn-primary">
               Quero ser avisado
               <Arrow />
-            </a>
+            </Link>
           )}
         </div>
       </div>
@@ -164,6 +191,7 @@ export function Header() {
                     ref={i === 0 ? firstLink : undefined}
                     href={item.href}
                     className="font-display text-cafe text-4xl"
+                    aria-current={atual(item.href)}
                     onClick={() => setOpen(false)}
                   >
                     {item.label}

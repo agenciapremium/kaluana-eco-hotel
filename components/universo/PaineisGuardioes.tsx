@@ -45,7 +45,11 @@ export function PaineisGuardioes({ itens }: { itens: Item[] }) {
                 <Frame />
                 <p className="kicker mb-4">{item.subtitulo}</p>
                 <h3 className="guardiao-nome">{item.nome}</h3>
-                {item.cientifico ? <p className="elemento-cientifico">{item.cientifico}</p> : null}
+                {item.cientifico ? (
+                  <p className="elemento-cientifico" lang="la">
+                    {item.cientifico}
+                  </p>
+                ) : null}
                 <p className="guardiao-texto">
                   <CopyText text={item.abertura.split(/\n\s*\n/)[0]} />
                 </p>

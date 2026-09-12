@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { track } from "@/lib/analytics";
 import { audioBanks, audioUrl } from "@/lib/audio/banks";
 import { AmbientPlayer, pickAudioExt } from "@/lib/audio/ambient-player";
@@ -9,6 +9,9 @@ import { escolhaEstavel } from "@/lib/copy";
 import { audio as audioTokens } from "@/lib/tokens";
 
 const SESSION_KEY = "kaluana:audio";
+
+/** Avisa os outros botões da página que um som começou: um som por vez. */
+const EVENTO_INICIO = "kaluana:audio-inicio";
 
 type Props = {
   andar: FloorKey;
@@ -26,6 +29,12 @@ type State = "off" | "loading" | "on";
  * Botão "Ouvir o ambiente" (CLAUDE.md, seção 8). Nunca toca sem clique. O loop é
  * escolhido de forma determinística pelo elemento, começa em um ponto aleatório e com
  * leve variação de volume. Pausa quando a aba perde o foco. Estado lembrado na sessão.
+ *
+ * Acessibilidade (etapa 6): o rótulo visível diz a ação ("Ouvir o ambiente" ou "Silenciar"),
+ * então o botão não usa aria-pressed, que somado ao rótulo que muda lia "Silenciar,
+ * pressionado". Durante o carregamento o botão fica aria-disabled, e não disabled, para o
+ * foco não se perder. A página aberta pelo QR tem dois botões (hero e barra de hóspede): quando
+ * um começa, o outro para.
  */
 export function AmbientAudio({
   andar,
@@ -37,6 +46,7 @@ export function AmbientAudio({
   const [state, setState] = useState<State>("off");
   const playerRef = useRef<AmbientPlayer | null>(null);
   const stateRef = useRef<State>("off");
+  const id = useId();
   useEffect(() => {
     stateRef.current = state;
   }, [state]);
@@ -62,6 +72,7 @@ export function AmbientAudio({
     try {
       await getPlayer().start(Math.random());
       setState("on");
+      window.dispatchEvent(new CustomEvent(EVENTO_INICIO, { detail: id }));
       try {
         window.sessionStorage.setItem(SESSION_KEY, "on");
       } catch {
@@ -110,10 +121,15 @@ export function AmbientAudio({
         if (again && stateRef.current === "off") window.setTimeout(() => void play(false), 0);
       }
     };
+    const onOutroInicio = (e: Event) => {
+      if ((e as CustomEvent<string>).detail !== id && stateRef.current === "on") void stop(false);
+    };
     document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener(EVENTO_INICIO, onOutroInicio);
     return () => {
       if (retomar !== null) window.clearTimeout(retomar);
       document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener(EVENTO_INICIO, onOutroInicio);
       playerRef.current?.destroy();
       playerRef.current = null;
     };
@@ -121,7 +137,8 @@ export function AmbientAudio({
   }, []);
 
   const on = state === "on";
-  const label = state === "loading" ? "Carregando o som" : on ? "Silenciar" : "Ouvir o ambiente";
+  const carregando = state === "loading";
+  const label = carregando ? "Carregando o som" : on ? "Silenciar" : "Ouvir o ambiente";
 
   return (
     <button
@@ -133,9 +150,11 @@ export function AmbientAudio({
       ]
         .filter(Boolean)
         .join(" ")}
-      aria-pressed={on}
-      disabled={state === "loading"}
-      onClick={() => (on ? void stop(true) : void play(true))}
+      aria-disabled={carregando || undefined}
+      onClick={() => {
+        if (carregando) return;
+        void (on ? stop(true) : play(true));
+      }}
     >
       <svg
         viewBox="0 0 24 24"

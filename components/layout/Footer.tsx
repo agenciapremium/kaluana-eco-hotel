@@ -82,6 +82,7 @@ export function Footer() {
                     {r.href ? (
                       <a href={r.href} rel="noopener" target="_blank">
                         {r.label}
+                        <span className="sr-only"> (abre em nova aba)</span>
                       </a>
                     ) : (
                       <span>

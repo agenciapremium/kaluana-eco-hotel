@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Arrow } from "@/components/ui/Arrow";
 import { track } from "@/lib/analytics";
 
@@ -9,11 +9,19 @@ import { track } from "@/lib/analytics";
  * pesa centenas de quilobytes e traz cookies de terceiro, o que atrapalharia o desempenho e
  * o consentimento. Até o clique, fica o endereço e o botão.
  *
+ * O botão some quando o mapa abre; o foco vai para a moldura do mapa, para quem usa teclado
+ * não voltar ao começo da página (etapa 6).
+ *
  * Dispara mapa_click no analytics.
  */
 export function MapaSobDemanda({ endereco }: { endereco: string }) {
   const [aberto, setAberto] = useState(false);
+  const moldura = useRef<HTMLDivElement>(null);
   const consulta = encodeURIComponent(endereco);
+
+  useEffect(() => {
+    if (aberto) moldura.current?.focus();
+  }, [aberto]);
 
   if (!aberto) {
     return (
@@ -35,7 +43,7 @@ export function MapaSobDemanda({ endereco }: { endereco: string }) {
   }
 
   return (
-    <div className="mapa-embutido">
+    <div ref={moldura} className="mapa-embutido" tabIndex={-1} role="region" aria-label="Mapa">
       <iframe
         title="Mapa do Kaluanã Eco Hotel"
         src={`https://www.google.com/maps?q=${consulta}&output=embed`}

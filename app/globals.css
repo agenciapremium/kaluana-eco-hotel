@@ -8,6 +8,8 @@
   html {
     color-scheme: light;
     scroll-behavior: smooth;
+    /* Foco e âncoras param abaixo do cabeçalho fixo, e não por baixo dele (etapa 6). */
+    scroll-padding-top: calc(var(--header-h) + 0.5rem);
     -webkit-text-size-adjust: 100%;
   }
   body {
@@ -24,7 +26,8 @@
     color: var(--color-branco);
   }
   :focus-visible {
-    outline: 2px solid var(--color-cafe);
+    /* Café sobre fundo claro; bege sobre cenas, painéis e rodapé (--focus-ring, etapa 6). */
+    outline: 2px solid var(--focus-ring, var(--color-cafe));
     outline-offset: 3px;
     border-radius: 2px;
   }
@@ -176,7 +179,7 @@
   font: inherit;
   font-size: var(--text-base);
   &::placeholder {
-    color: color-mix(in srgb, var(--color-cafe) 45%, transparent);
+    color: color-mix(in srgb, var(--color-cafe) 70%, transparent);
   }
   &:focus-visible {
     outline-offset: 1px;
@@ -222,7 +225,9 @@ html.js [data-reveal][data-inview="true"] {
     transform var(--duration-medium) var(--ease-padrao) var(--reveal-delay, 0ms);
 }
 html.js [data-reveal="mask"][data-inview="true"] > * {
-  clip-path: inset(0 0 0 0);
+  /* Termina um pouco além da caixa: com inset(0) o recorte cortava o contorno de foco dos
+     cards que entram por máscara (etapa 6). */
+  clip-path: inset(-0.75rem);
   transition: clip-path var(--duration-mask) var(--ease-padrao) var(--reveal-delay, 0ms);
 }
 
@@ -356,7 +361,8 @@ html.js .word-title .word {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   transition: transform var(--duration-medium) var(--ease-padrao);
-  &[data-hidden="true"] {
+  /* Com foco dentro, o cabeçalho não some: Shift+Tab de volta ao menu não cai fora da tela. */
+  &[data-hidden="true"]:not(:focus-within) {
     transform: translateY(-100%);
   }
   &[data-open="true"] {
@@ -526,8 +532,9 @@ html.js .stylized-map .map-road.draw-path {
   font-family: var(--font-display);
   font-size: 26px;
 }
+/* Rótulo em café: sálvia sobre bege ficava em 2,4:1 e sálvia não é cor de texto (etapa 6). */
 .stylized-map .map-label-river {
-  fill: var(--color-salvia);
+  fill: var(--color-cafe);
   font-style: italic;
 }
 .stylized-map .map-label-road {
@@ -591,7 +598,7 @@ html.js .stylized-map .map-road.draw-path {
 html.js .site-header {
   position: fixed;
 }
-html[data-hero-page="1"] .site-header:not([data-solid="true"]):not([data-open="true"]) {
+html:has(.scene-hero) .site-header:not([data-solid="true"]):not([data-open="true"]) {
   background-color: transparent;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
@@ -603,9 +610,7 @@ html[data-hero-page="1"] .site-header:not([data-solid="true"]):not([data-open="t
     background-image: linear-gradient(var(--color-bege), var(--color-bege));
   }
 }
-html[data-hero-page="1"]
-  .site-header:not([data-solid="true"]):not([data-open="true"])
-  .btn-primary {
+html:has(.scene-hero) .site-header:not([data-solid="true"]):not([data-open="true"]) .btn-primary {
   background-color: var(--color-bege);
   border-color: var(--color-bege);
   color: var(--color-cafe);
@@ -983,7 +988,7 @@ main:has(.scene-hero) {
   fill: none;
 }
 .scene .stylized-map .map-label-river {
-  fill: var(--color-salvia);
+  fill: color-mix(in srgb, var(--color-bege) 85%, transparent);
 }
 
 /* Botões sobre cena. */
@@ -1430,8 +1435,11 @@ html.js [data-variante="superior-acessivel"] .draw-path {
 /* Barra de hóspede: só aparece quando a página abre pelo QR Code (Parte 6.0, item 1). */
 .barra-hospede {
   position: sticky;
-  top: 0;
-  z-index: 45;
+  /* Logo abaixo do cabeçalho e por baixo dele: quando o cabeçalho volta ao rolar para cima, o
+     menu e o Reservar ficam visíveis. A barra sobe junto quando ele some (etapa 6). */
+  top: var(--header-h);
+  z-index: 39;
+  transition: transform var(--duration-medium) var(--ease-padrao);
   background-color: var(--accent, var(--color-cafe));
   color: var(--color-bege);
 }
@@ -2491,9 +2499,13 @@ html:not(.js) .form-passos {
   display: grid;
   gap: 1rem;
 }
-/* Sem JavaScript, todos os painéis aparecem e o envio manda o formulário inteiro. */
-html:not(.js) .form-painel[hidden] {
-  display: grid;
+/*
+ * Com JavaScript, só o passo ativo aparece. Sem JavaScript, todos os painéis aparecem e o
+ * envio manda o formulário inteiro. O atributo hidden não serve aqui: a regra [hidden] do
+ * Tailwind usa !important e escondia os painéis também sem JavaScript.
+ */
+html.js .form-painel:not([data-ativo="true"]) {
+  display: none;
 }
 html.js .form-painel {
   animation: painel-entra var(--duration-medium) var(--ease-padrao);
@@ -2919,4 +2931,60 @@ html.js .form-evento:not([data-passo="2"]) .form-enviar {
 
 .pagina-404 {
   padding-top: calc(var(--header-h) + 3rem);
+}
+
+/* ------------------------------------------------------------------
+   Etapa 6: foco visível sobre qualquer fundo, trilho do elevador e
+   movimento reduzido no cabeçalho
+   ------------------------------------------------------------------ */
+
+/* O contorno de foco é café (Parte 2.7). Sobre cenas, painéis, andares, guardiões, o hero do
+   elemento, a barra de hóspede, o rodapé e o cabeçalho transparente, café some no fundo escuro
+   (de 1:1 a 1,6:1); nesses lugares o contorno passa a bege. Cartões claros dentro das cenas
+   voltam ao café. */
+.scene,
+.panel,
+.andar-bloco,
+.guardiao,
+.elemento-hero,
+.barra-hospede,
+footer.bg-cafe,
+html:has(.scene-hero) .site-header:not([data-solid="true"]):not([data-open="true"]) {
+  --focus-ring: var(--color-bege);
+}
+.scene-card-light,
+.scene .bg-branco,
+.scene .bg-bege {
+  --focus-ring: var(--color-cafe);
+}
+html:has(.site-header[data-hidden="true"]:not(:focus-within)) .barra-hospede {
+  transform: translateY(calc(-1 * var(--header-h)));
+}
+@media (min-width: 64rem) {
+  .elevador {
+    --focus-ring: var(--color-bege);
+    transition:
+      opacity var(--duration-short) var(--ease-padrao),
+      visibility var(--duration-short) linear;
+  }
+  /* Fora da sequência de andares o trilho fixo sai de cena: o texto bege sumia sobre as
+     seções claras e o rodapé. Escondido, também sai da ordem de foco. */
+  .elevador[data-fora="true"] {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-header,
+  .barra-hospede,
+  .elevador {
+    transition-duration: var(--duration-reduced);
+  }
+  html.js .mobile-menu-item {
+    transform: none;
+  }
+  html.js .mobile-menu[data-open="true"] .mobile-menu-item {
+    transition: opacity var(--duration-reduced) linear;
+    transition-delay: 0ms;
+  }
 }

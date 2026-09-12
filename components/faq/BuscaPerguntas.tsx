@@ -54,7 +54,7 @@ export function BuscaPerguntas({ grupos }: { grupos: GrupoFaq[] }) {
           const algum = g.itens.some((i) => !visiveis || visiveis.has(i.chave));
           return (
             <section key={g.id} id={g.id} className="grupo-faq" hidden={!algum}>
-              <h2 className="kicker mb-4">{g.nome}</h2>
+              <h3 className="kicker mb-4">{g.nome}</h3>
               <div className="perguntas">
                 {g.itens.map((i) => (
                   <div key={i.chave} hidden={visiveis ? !visiveis.has(i.chave) : false}>
