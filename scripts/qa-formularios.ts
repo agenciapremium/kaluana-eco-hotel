@@ -74,6 +74,8 @@ type Caso = {
 const casos: Caso[] = [];
 
 let ip = 1;
+/** Faixa de IP por rodada: o limite por IP fica na memória do servidor entre uma rodada e outra. */
+const rodada = 20 + Math.floor(Math.random() * 200);
 let browser: Browser;
 
 async function abrir(caminho: string, js = true, ipFixo?: string) {
@@ -81,7 +83,7 @@ async function abrir(caminho: string, js = true, ipFixo?: string) {
     javaScriptEnabled: js,
     locale: "pt-BR",
     viewport: { width: 1280, height: 900 },
-    extraHTTPHeaders: { "x-forwarded-for": ipFixo ?? `10.6.0.${ip++}` },
+    extraHTTPHeaders: { "x-forwarded-for": ipFixo ?? `10.${rodada}.0.${ip++}` },
   });
   await ctx.addInitScript(() => {
     window.sessionStorage.setItem("kaluana:abertura", "1");
@@ -360,7 +362,7 @@ const resumoEventos = (lista: { event?: string; [k: string]: unknown }[]) =>
       "Seis envios do mesmo IP em sequência",
       "os cinco primeiros passam, o sexto recebe a mensagem de limite",
       async () => {
-        const mesmoIp = `10.6.1.${ip++}`;
+        const mesmoIp = `10.${rodada}.1.${ip++}`;
         const obtidos: string[] = [];
         const antes = recebidos.length;
         for (let i = 0; i < 6; i++) {
@@ -501,7 +503,7 @@ const resumoEventos = (lista: { event?: string; [k: string]: unknown }[]) =>
       const { ctx, page } = await abrir("/contato", false);
       const antes = recebidos.length;
       await preencherContato(page);
-      await enviar(page, "ct-nome");
+      await page.press("#ct-telefone", "Enter");
       await page.waitForURL(/\/obrigado/, { timeout: 15_000 }).catch(() => undefined);
       const url = page.url();
       await ctx.close();

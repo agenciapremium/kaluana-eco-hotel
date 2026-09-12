@@ -292,18 +292,21 @@ function paradaAtual(page: Page): Promise<Parada | null> {
     let contraste: number | null = null;
     const cor = rgba(cs.outlineColor);
     if (temContorno && cor) {
-      // Fundo efetivo: primeiro ancestral com cor de fundo opaca; com imagem de fundo, desconhecido.
+      // Fundo efetivo: o que está logo fora da borda do elemento, onde o contorno é desenhado,
+      // e não o fundo do ancestral (um cabeçalho transparente fica sobre a foto do hero). Foto,
+      // vídeo ou imagem de fundo nessa pilha: desconhecido, o contraste real depende da foto.
       let fundo: { r: number; g: number; b: number } | null = null;
-      for (let a: HTMLElement | null = el.parentElement; a; a = a.parentElement) {
+      const px = Math.min(Math.max(r.left - 4, 0), innerWidth - 1);
+      const py = Math.min(Math.max(r.top + r.height / 2, 0), innerHeight - 1);
+      for (const a of document.elementsFromPoint(px, py)) {
+        if (a === el || el.contains(a)) continue;
         const s = getComputedStyle(a);
-        if (s.backgroundImage !== "none") break;
+        if (/^(IMG|VIDEO|PICTURE|CANVAS|IFRAME)$/.test(a.tagName) || s.backgroundImage !== "none") {
+          break;
+        }
         const c = rgba(s.backgroundColor);
         if (c && c.a > 0.9) {
           fundo = c;
-          break;
-        }
-        if (a.matches(".scene, .panel, .andar-bloco, .guardiao, .elemento-hero, footer")) {
-          // cenas com foto e véu escuro: o fundo real é a foto
           break;
         }
       }
@@ -330,7 +333,9 @@ function paradaAtual(page: Page): Promise<Parada | null> {
       cobertoPor,
       contorno: temContorno || temSombra,
       contraste,
-      recortado: cs.clipPath !== "none",
+      // inset() com margem negativa (fim da máscara de entrada) deixa o contorno inteiro.
+      recortado:
+        cs.clipPath !== "none" && !(/inset\(/.test(cs.clipPath) && cs.clipPath.includes("-")),
       honeypot: (el as HTMLInputElement).name === "website",
     };
   });
@@ -402,9 +407,23 @@ async function percorrer(rota: string, tela: string, opcoes: BrowserContextOptio
   }
 }
 
+/** Um roteiro que quebra vira falha registrada, sem derrubar os seguintes. */
+async function tentar(roteiro: string, fn: () => Promise<void>) {
+  try {
+    await fn();
+  } catch (e) {
+    registrar({
+      roteiro,
+      rota: "",
+      tela: "",
+      ok: false,
+      detalhe: `quebrou: ${e instanceof Error ? e.message.split("\n")[0] : String(e)}`,
+    });
+  }
+}
+
 async function roteiros() {
-  // Atalho para o conteúdo
-  {
+  await tentar("Atalho para o conteúdo", async () => {
     const { ctx, page } = await abrir("/", DESKTOP);
     await page.keyboard.press("Tab");
     const primeiro = await paradaAtual(page);
@@ -419,11 +438,22 @@ async function roteiros() {
       detalhe: `primeiro foco: ${primeiro?.desc} "${primeiro?.nome}", na tela: ${primeiro?.naTela}; depois do Enter o Tab cai dentro do main: ${dentro}`,
     });
     await ctx.close();
-  }
+  });
 
-  // Menu do celular
-  {
+  await tentar("Menu do celular", async () => {
     const { ctx, page } = await abrir("/universo", CELULAR);
+    if (phase !== "full") {
+      registrar({
+        roteiro: "Menu do celular",
+        rota: "/universo",
+        tela: "celular",
+        ok: true,
+        detalhe:
+          "a fase pre não tem menu, só o atalho Quero ser avisado; o roteiro vale na fase full",
+      });
+      await ctx.close();
+      return;
+    }
     const botao = page.locator("header button[aria-expanded]").first();
     await botao.focus();
     await page.keyboard.press("Enter");
@@ -466,49 +496,50 @@ async function roteiros() {
       detalhe: `abre: ${aberto}; foco vai para o menu: ${focoDentro}; Tab sai do menu aberto: ${escapou || "não"}; Escape fecha: ${fechado === "false"}; foco volta ao botão: ${focoNoBotao}`,
     });
     await ctx.close();
-  }
+  });
 
-  // Cabeçalho depois de navegar de uma página com hero para uma sem hero (fundo bege)
-  {
-    const { ctx, page } = await abrir("/universo/rios", DESKTOP);
-    await page.locator('footer a[href="/politica-de-privacidade"]').first().click();
-    await page.waitForURL(/\/politica-de-privacidade$/);
-    await page.waitForTimeout(1500);
-    const estado = await page.evaluate(() => {
-      const rgb = (s: string) => (s.match(/[\d.]+/g) ?? []).map(Number);
-      const lum = ([r, g, b]: number[]) => {
-        const f = (v: number) => {
-          const x = v / 255;
-          return x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4;
+  await tentar(
+    "Cabeçalho depois de navegar de uma página com hero para uma sem hero (fundo bege)",
+    async () => {
+      const { ctx, page } = await abrir("/universo/rios", DESKTOP);
+      await page.locator('footer a[href="/politica-de-privacidade"]').first().click();
+      await page.waitForURL(/\/politica-de-privacidade$/);
+      await page.waitForTimeout(1500);
+      const estado = await page.evaluate(() => {
+        const rgb = (s: string) => (s.match(/[\d.]+/g) ?? []).map(Number);
+        const lum = ([r, g, b]: number[]) => {
+          const f = (v: number) => {
+            const x = v / 255;
+            return x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4;
+          };
+          return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
         };
-        return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
-      };
-      const h = document.querySelector("header") as HTMLElement;
-      const fundoH = rgb(getComputedStyle(h).backgroundColor);
-      const fundo =
-        fundoH.length === 4 && fundoH[3] < 0.5
-          ? rgb(getComputedStyle(document.body).backgroundColor)
-          : fundoH;
-      const [a, b] = [lum(rgb(getComputedStyle(h).color)), lum(fundo)].sort((x, y) => y - x);
-      return {
-        temHero: Boolean(document.querySelector(".scene-hero")),
-        cor: getComputedStyle(h).color,
-        fundo: getComputedStyle(h).backgroundColor,
-        contraste: Math.round(((a + 0.05) / (b + 0.05)) * 100) / 100,
-      };
-    });
-    registrar({
-      roteiro: "Cabeçalho após navegação",
-      rota: "/universo/rios → /politica-de-privacidade",
-      tela: "desktop",
-      ok: !estado.temHero && estado.contraste >= 4.5,
-      detalhe: JSON.stringify(estado),
-    });
-    await ctx.close();
-  }
+        const h = document.querySelector("header") as HTMLElement;
+        const fundoH = rgb(getComputedStyle(h).backgroundColor);
+        const fundo =
+          fundoH.length === 4 && fundoH[3] < 0.5
+            ? rgb(getComputedStyle(document.body).backgroundColor)
+            : fundoH;
+        const [a, b] = [lum(rgb(getComputedStyle(h).color)), lum(fundo)].sort((x, y) => y - x);
+        return {
+          temHero: Boolean(document.querySelector(".scene-hero")),
+          cor: getComputedStyle(h).color,
+          fundo: getComputedStyle(h).backgroundColor,
+          contraste: Math.round(((a + 0.05) / (b + 0.05)) * 100) / 100,
+        };
+      });
+      registrar({
+        roteiro: "Cabeçalho após navegação",
+        rota: "/universo/rios → /politica-de-privacidade",
+        tela: "desktop",
+        ok: !estado.temHero && estado.contraste >= 4.5,
+        detalhe: JSON.stringify(estado),
+      });
+      await ctx.close();
+    },
+  );
 
-  // Banner de consentimento
-  {
+  await tentar("Banner de consentimento", async () => {
     const { ctx, page } = await abrir("/", DESKTOP, null);
     let passos = 0;
     for (; passos < 300; passos++) {
@@ -526,10 +557,9 @@ async function roteiros() {
       detalhe: `${passos + 1} Tabs até o primeiro botão do banner`,
     });
     await ctx.close();
-  }
+  });
 
-  // Acordeão
-  {
+  await tentar("Acordeão", async () => {
     const { ctx, page } = await abrir("/perguntas-frequentes", DESKTOP);
     const s = page.locator("main summary").first();
     await s.focus();
@@ -545,10 +575,9 @@ async function roteiros() {
       detalhe: `Enter abre: ${aberto}`,
     });
     await ctx.close();
-  }
+  });
 
-  // Filtro
-  {
+  await tentar("Filtro", async () => {
     const { ctx, page } = await abrir("/universo/arvores", DESKTOP);
     const chip = page.locator("main button[aria-pressed]").first();
     await chip.focus();
@@ -564,10 +593,9 @@ async function roteiros() {
       detalhe: `aria-pressed: ${pressionado}; região viva: "${aoVivo.join(" ").trim()}"`,
     });
     await ctx.close();
-  }
+  });
 
-  // Busca do Universo
-  {
+  await tentar("Busca do Universo", async () => {
     const { ctx, page } = await abrir("/universo", DESKTOP);
     const campo = page
       .locator("main input[type=search], main input[role=combobox], main input[type=text]")
@@ -589,10 +617,9 @@ async function roteiros() {
       detalhe: `região viva: "${vivo.join(" ").trim().slice(0, 80)}"; Tab depois de digitar vai para: ${alvo?.desc} "${alvo?.nome}"; Escape limpa: ${valor === ""}`,
     });
     await ctx.close();
-  }
+  });
 
-  // Barra de hóspede e som
-  {
+  await tentar("Barra de hóspede e som", async () => {
     const { ctx, page } = await abrir("/universo/rios/rio-machado?uh=112", CELULAR);
     await page.locator("aside.barra-hospede").waitFor();
     const botaoBarra = page.locator(".barra-hospede-audio button").first();
@@ -630,10 +657,9 @@ async function roteiros() {
       detalhe: `${estado.join(" | ")}; foco fica no botão: ${focoNoBotao}; botão do menu ao voltar a rolagem: ${menuCoberto || "visível"}`,
     });
     await ctx.close();
-  }
+  });
 
-  // Mapa sob demanda
-  {
+  await tentar("Mapa sob demanda", async () => {
     const { ctx, page } = await abrir("/contato", DESKTOP);
     const botao = page.getByRole("button", { name: /mapa/i }).first();
     await botao.focus();
@@ -648,15 +674,18 @@ async function roteiros() {
       detalhe: `foco depois do clique: ${foco ? `${foco.desc} "${foco.nome}"` : "perdido (body)"}`,
     });
     await ctx.close();
-  }
+  });
 
-  // Passos do formulário de eventos
-  {
+  await tentar("Passos do formulário de eventos", async () => {
     const { ctx, page } = await abrir("/eventos", DESKTOP);
+    await page.selectOption("#ev-tipo", "Treinamento");
     await page.getByRole("button", { name: "Continuar" }).focus();
     await page.keyboard.press("Enter");
     await page.waitForTimeout(400);
     const f1 = await paradaAtual(page);
+    await page.fill("#ev-nome", "Maria Teste");
+    await page.fill("#ev-email", "maria.teste@example.com");
+    await page.fill("#ev-telefone", "(69) 99999-0000");
     await page.getByRole("button", { name: "Continuar" }).focus();
     await page.keyboard.press("Enter");
     await page.waitForTimeout(400);
@@ -665,14 +694,13 @@ async function roteiros() {
       roteiro: "Passos do pedido de proposta",
       rota: "/eventos",
       tela: "desktop",
-      ok: Boolean(f1 && f2),
+      ok: /ev-nome/.test(f1?.desc ?? "") && /^input/.test(f2?.desc ?? ""),
       detalhe: `foco após o 1º Continuar: ${f1 ? `${f1.desc} "${f1.nome}"` : "perdido"}; após o 2º: ${f2 ? `${f2.desc} "${f2.nome}"` : "perdido"}`,
     });
     await ctx.close();
-  }
+  });
 
-  // Foco depois de erro de validação no servidor
-  {
+  await tentar("Foco depois de erro de validação no servidor", async () => {
     const { ctx, page } = await abrir("/contato", DESKTOP);
     await page.evaluate(() => {
       (document.querySelector("form:has(#ct-nome)") as HTMLFormElement).noValidate = true;
@@ -700,10 +728,9 @@ async function roteiros() {
       detalhe: `foco: ${foco ? `${foco.desc} "${foco.nome}"` : "perdido (body)"}; erro ligado ao campo por aria-describedby: "${descrito}"`,
     });
     await ctx.close();
-  }
+  });
 
-  // Movimento reduzido
-  {
+  await tentar("Movimento reduzido", async () => {
     const { ctx, page } = await abrir("/universo/rios", { ...DESKTOP, reducedMotion: "reduce" });
     await page.waitForTimeout(2500);
     const estado = await page.evaluate(() => ({
@@ -720,7 +747,7 @@ async function roteiros() {
       detalhe: JSON.stringify(estado),
     });
     await ctx.close();
-  }
+  });
 }
 
 /** Árvore de acessibilidade, títulos e marcos de cada modelo de página. */
