@@ -1,0 +1,49 @@
+{
+  "$comment": "Manifesto dos originais de imagem. Caminhos relativos a ../DOCS ou a media-src/. O pipeline (scripts/build-media.ts) gera WebP e AVIF em 640, 1024, 1600 e 1920 px em public/media/<grupo>/<slug>-<largura>.<ext>, sem ampliar além do original.",
+  "imagens": [
+    {
+      "grupo": "andares",
+      "slug": "rio-machado",
+      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO MACHADO 4.jpg",
+      "alt": "Rio Machado, proa de barco na água em Ji-Paraná",
+      "uso": "Faixa do andar dos rios na Home",
+      "crop": "1:1"
+    },
+    {
+      "grupo": "andares",
+      "slug": "jau",
+      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Jau 2.jpg",
+      "alt": "Jaú, bagre de couro visto de lado",
+      "uso": "Faixa do andar dos peixes na Home",
+      "crop": "1:1"
+    },
+    {
+      "grupo": "andares",
+      "slug": "samauma",
+      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Samauma 2.jpeg",
+      "alt": "Samaúma, tronco e sapopemas vistos de baixo",
+      "uso": "Faixa do andar das árvores na Home",
+      "crop": "1:1"
+    },
+    {
+      "grupo": "andares",
+      "slug": "coruja",
+      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/coruja.jpg",
+      "alt": "Coruja-buraqueira de frente, pousada em tronco",
+      "uso": "Faixa do andar das aves na Home",
+      "crop": "1:1"
+    }
+  ],
+  "videos": [
+    {
+      "slug": "hero-bg",
+      "src": "DOCS/LOGO/ANIMADA/BG - KALUAMÃ.mp4",
+      "uso": "Vídeo de fundo do hero. Original vertical de 2,5 s: recorte central 16:9, loop ida e volta até 12 s, 1280 px, sem áudio, MP4 e WebM até 2 MB, poster WebP."
+    }
+  ],
+  "abertura": {
+    "slug": "abertura",
+    "src": "DOCS/LOGO/ANIMADA/LOGO ANIMADA.mov",
+    "uso": "Abertura de sessão. Master com alfa: WebM VP9 com alfa e MP4 H.264 sobre bege, acelerado para caber em 1,8 s, poster WebP."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "imagens": {
+    "andares/rio-machado": {
+      "grupo": "andares",
+      "slug": "rio-machado",
+      "alt": "Rio Machado, proa de barco na água em Ji-Paraná",
+      "width": 1024,
+      "height": 1024,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAQCdASoQABAAA4BaJQBOgBIe+AAA/TXzqCVboEQyMKB5kKFdIHd/vSUdVQwb2DOC6P6ZcMhHyRYHFfbkZKjZKWW9f1YOlI4EHupG2Q4pH0HofkAgAAAA",
+      "original": "RIO MACHADO 4.jpg"
+    },
+    "andares/jau": {
+      "grupo": "andares",
+      "slug": "jau",
+      "alt": "Jaú, bagre de couro visto de lado",
+      "width": 1024,
+      "height": 1024,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQABAAA4BaJbACdAEV+ueMv6AA/sGEzZ5Flf821cF9fDj6/jLixdTwmgbO8kbkNuT9Q1ZuPAoW2LwQL0LZiDMw7Dcy+R3hmfdHDRyoGmL5BqhRSALNtzwkYAA=",
+      "original": "Jau 2.jpg"
+    },
+    "andares/samauma": {
+      "grupo": "andares",
+      "slug": "samauma",
+      "alt": "Samaúma, tronco e sapopemas vistos de baixo",
+      "width": 1920,
+      "height": 1920,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABwAgCdASoQABAAA4BaJYwAD48PhD6JsHOvuw2QAP7zU0zQ5oFqxX6P5cxLPwwrG0ffwFkHjtJm1OvB3JdTAiJsccrKYsUDDzekx4DQfiN1Y6V7++YBz6674HogYYXwajf47l4acfen/v64AAA=",
+      "original": "Samauma 2.jpeg"
+    },
+    "andares/coruja": {
+      "grupo": "andares",
+      "slug": "coruja",
+      "alt": "Coruja-buraqueira de frente, pousada em tronco",
+      "width": 1920,
+      "height": 1920,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQABAAA4BaJZgCdADHc3S55V0AAAD+3NTY+k1Whr8B0jjmqu79FPGCyuG5Xs37hzoyusJFXa0pjnLf5WbZXBoT1MRqxhMge/3wR1GAAAA=",
+      "original": "coruja.jpg"
+    }
+  },
+  "videos": {
+    "hero-bg": {
+      "mp4": "/media/video/hero-bg.mp4",
+      "webm": "/media/video/hero-bg.webm",
+      "poster": "/media/video/hero-bg-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 14.8
+    },
+    "abertura": {
+      "mp4": "/media/video/abertura.mp4",
+      "webm": "/media/video/abertura.webm",
+      "hevcAlpha": "/media/video/abertura-alpha.mp4",
+      "poster": "/media/video/abertura-poster.webp",
+      "width": 480,
+      "height": 504,
+      "duration": 1.83
+    }
+  }
+}

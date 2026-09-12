@@ -1,26 +1,713 @@
 @import "tailwindcss";
+@import "./tokens.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ------------------------------------------------------------------
+   Base
+   ------------------------------------------------------------------ */
+@layer base {
+  html {
+    color-scheme: light;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--color-bege);
+    color: var(--color-cafe);
+    font-family: var(--font-sans);
+    font-size: var(--text-lg);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background-color: var(--color-salvia);
+    color: var(--color-branco);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-cafe);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  video,
+  img,
+  picture {
+    display: block;
+    max-width: 100%;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ------------------------------------------------------------------
+   Layout
+   ------------------------------------------------------------------ */
+@utility container-site {
+  width: 100%;
+  max-width: var(--container-site);
+  margin-inline: auto;
+  padding-inline: var(--spacing-gutter);
+}
+@utility measure {
+  max-width: var(--container-measure);
+}
+@utility section-y {
+  padding-block: var(--spacing-section);
+}
+@utility section-y-sm {
+  padding-block: var(--spacing-section-sm);
+}
+
+/* Kicker: linha curta acima dos títulos, com um traço em verde sálvia como acento.
+   O texto fica na cor corrente (café sobre bege, bege sobre café): sálvia sobre bege
+   não atinge o contraste mínimo de 4,5:1 e por isso é só o traço (Parte 2.7). */
+@utility kicker {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 2px;
+    background-color: var(--color-salvia);
+    flex: none;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Botões (Parte 2.4). Hover escurece 8% e a seta desliza 4 px.
+   Clique escala 0,98 por 100 ms. Sem brilho, sem efeito magnético.
+   ------------------------------------------------------------------ */
+@utility btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 3rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition:
+    background-color var(--duration-short) var(--ease-padrao),
+    color var(--duration-short) var(--ease-padrao),
+    border-color var(--duration-short) var(--ease-padrao),
+    transform var(--duration-press) var(--ease-padrao);
+  &:active {
+    transform: scale(var(--press-scale));
+  }
+  & .btn-arrow {
+    transition: transform var(--duration-short) var(--ease-padrao);
+  }
+  &:hover .btn-arrow {
+    transform: translateX(var(--arrow-slide));
+  }
+}
+@utility btn-primary {
+  background-color: var(--color-cafe);
+  color: var(--color-bege);
+  border-color: var(--color-cafe);
+  &:hover {
+    background-color: var(--color-cafe-escuro);
+    border-color: var(--color-cafe-escuro);
+  }
+}
+@utility btn-secondary {
+  background-color: transparent;
+  color: var(--color-cafe);
+  border-color: currentColor;
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-cafe) 8%, transparent);
+  }
+}
+@utility btn-inverse {
+  background-color: var(--color-bege);
+  color: var(--color-cafe);
+  border-color: var(--color-bege);
+  &:hover {
+    background-color: var(--color-branco);
+    border-color: var(--color-branco);
+  }
+}
+@utility btn-ghost-light {
+  background-color: transparent;
+  color: var(--color-bege);
+  border-color: color-mix(in srgb, var(--color-bege) 60%, transparent);
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-bege) 12%, transparent);
+    border-color: var(--color-bege);
+  }
+}
+
+/* Campos de formulário */
+@utility field {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-bege-escuro);
+  background-color: var(--color-branco);
+  color: var(--color-cafe);
+  font: inherit;
+  font-size: var(--text-base);
+  &::placeholder {
+    color: color-mix(in srgb, var(--color-cafe) 45%, transparent);
+  }
+  &:focus-visible {
+    outline-offset: 1px;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Movimento "respiração de floresta" (Parte 2.3).
+   Tudo abaixo depende da classe html.js, posta por um script inline antes da
+   primeira pintura. Sem JavaScript, nada fica invisível.
+   Só opacity, transform e clip-path são animados.
+   ------------------------------------------------------------------ */
+
+/* Entrada por interseção, uma vez só. Reveal.tsx marca data-inview. */
+html.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(var(--offset-default));
+  will-change: opacity, transform;
+}
+html.js [data-reveal="fade"] {
+  transform: none;
+}
+html.js [data-reveal="mask"] {
+  opacity: 1;
+  transform: none;
+  clip-path: inset(100% 0 0 0);
+  will-change: clip-path;
+}
+html.js [data-reveal="draw"] {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+html.js [data-reveal][data-inview="true"] {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity var(--duration-medium) var(--ease-padrao) var(--reveal-delay, 0ms),
+    transform var(--duration-medium) var(--ease-padrao) var(--reveal-delay, 0ms);
+}
+html.js [data-reveal="mask"][data-inview="true"] {
+  clip-path: inset(0 0 0 0);
+  transition: clip-path var(--duration-mask) var(--ease-padrao) var(--reveal-delay, 0ms);
+}
+
+/* Traço que se desenha (símbolo, mapa). Cada path precisa de pathLength="1". */
+html.js [data-reveal="draw"] .draw-path {
+  fill-opacity: 0;
+  stroke: currentColor;
+  stroke-width: var(--draw-width, 1.5);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+html.js [data-reveal="draw"][data-inview="true"] .draw-path {
+  animation:
+    draw-stroke var(--duration-stroke) var(--ease-padrao) forwards,
+    draw-fill var(--duration-medium) var(--ease-padrao) var(--duration-stroke) forwards;
+  animation-delay: calc(var(--i, 0) * var(--stagger-item)), calc(var(--duration-stroke) + var(--i, 0) * var(--stagger-item));
+}
+html.js [data-reveal="draw"] .draw-path.draw-only {
+  animation-name: draw-stroke;
+}
+@keyframes draw-stroke {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes draw-fill {
+  to {
+    fill-opacity: 1;
+  }
+}
+
+/* Título palavra a palavra: cada palavra sobe 20 px em fade, 60 ms entre elas. */
+html.js .word-title .word {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(var(--offset-default));
+  animation: word-in var(--duration-medium) var(--ease-padrao) forwards;
+  animation-delay: calc(var(--i) * var(--stagger-word) + var(--word-delay, 0ms));
+}
+@keyframes word-in {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Cards: imagem escala 1,03 no hover. */
+@utility card-zoom {
+  overflow: hidden;
+  & img,
+  & video {
+    transition: transform var(--duration-medium) var(--ease-padrao);
+  }
+  &:hover img,
+  &:hover video {
+    transform: scale(var(--hover-scale));
+  }
+}
+
+/* Movimento reduzido: tudo vira fade de 150 ms e nada se desloca. */
+@media (prefers-reduced-motion: reduce) {
+  html.js [data-reveal] {
+    transform: none;
+    clip-path: none;
+  }
+  html.js [data-reveal][data-inview="true"] {
+    transition: opacity var(--duration-reduced) linear;
+  }
+  html.js [data-reveal="draw"] .draw-path {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+    animation: none;
+  }
+  html.js .word-title .word {
+    transform: none;
+    animation-duration: var(--duration-reduced);
+    animation-delay: 0ms;
+  }
+  .card-zoom:hover img,
+  .card-zoom:hover video {
+    transform: none;
+  }
+  .btn,
+  .btn .btn-arrow {
+    transition-duration: var(--duration-reduced);
+  }
+}
+
+/* ------------------------------------------------------------------
+   Campos ⟨entre colchetes⟩ que dependem do cliente.
+   Visíveis em desenvolvimento, ocultos em produção (Placeholder.tsx).
+   ------------------------------------------------------------------ */
+.placeholder-dev {
+  padding: 0 0.25em;
+  border-radius: 0.25em;
+  background-color: color-mix(in srgb, var(--color-salvia) 25%, transparent);
+  outline: 1px dashed var(--color-salvia);
+  color: var(--color-cafe);
+}
+
+/* ------------------------------------------------------------------
+   Componentes de layout
+   ------------------------------------------------------------------ */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100%;
+  z-index: 80;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-cafe);
+  color: var(--color-bege);
+  &:focus-visible {
+    top: 1rem;
+  }
+}
+
+/* Cabeçalho: some ao rolar para baixo, volta ao rolar para cima. */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background-color: color-mix(in srgb, var(--color-bege) 92%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: transform var(--duration-medium) var(--ease-padrao);
+  &[data-hidden="true"] {
+    transform: translateY(-100%);
+  }
+  &[data-open="true"] {
+    background-color: var(--color-bege);
+  }
+}
+.nav-link {
+  font-size: var(--text-base);
+  font-weight: 500;
+  text-decoration: none;
+  padding-block: 0.25rem;
+  background-image: linear-gradient(var(--color-salvia), var(--color-salvia));
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size var(--duration-short) var(--ease-padrao);
+  &:hover,
+  &[aria-current="page"] {
+    background-size: 100% 2px;
+  }
+}
+.nav-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  color: var(--color-cafe);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: background-color var(--duration-short) var(--ease-padrao);
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-cafe) 8%, transparent);
+  }
+}
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  top: 4.5rem;
+  z-index: 39;
+  background-color: var(--color-bege);
+  overflow-y: auto;
+}
+html.js .mobile-menu-item {
+  opacity: 0;
+  transform: translateY(var(--offset-min));
+}
+html.js .mobile-menu[data-open="true"] .mobile-menu-item {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity var(--duration-medium) var(--ease-padrao),
+    transform var(--duration-medium) var(--ease-padrao);
+  transition-delay: calc(var(--i) * var(--stagger-item));
+}
+
+/* Rodapé */
+.footer-heading {
+  margin-bottom: 1rem;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-bege) 75%, transparent);
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: var(--text-base);
+  & a {
+    text-decoration: none;
+    text-underline-offset: 4px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Abertura de sessão: só aparece com data-opening no html (BootScript). */
+.opening {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bege);
+  transition: opacity var(--duration-short) var(--ease-saida);
+}
+html[data-opening="1"] .opening {
+  display: flex;
+}
+.opening[data-state="leaving"] {
+  opacity: 0;
+}
+.opening-video {
+  width: min(60vw, 22rem);
+  height: auto;
+}
+.opening-skip {
+  position: absolute;
+  right: var(--spacing-gutter);
+  bottom: var(--spacing-gutter);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--color-cafe) 40%, transparent);
+  background: transparent;
+  color: var(--color-cafe);
+  font: inherit;
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------
+   Home
+   ------------------------------------------------------------------ */
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: min(88svh, 56rem);
+  overflow: hidden;
+  isolation: isolate;
+}
+.hero-inner {
+  position: relative;
+  padding-block: var(--spacing-section);
+}
+.hero-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--color-branco);
+  background-size: cover;
+  background-position: center;
+}
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity var(--duration-long) var(--ease-padrao);
+}
+.hero-veil {
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-bege);
+  opacity: var(--veil-hero);
+  transition: opacity var(--duration-long) var(--ease-padrao);
+}
+html.js .hero[data-scrolled="true"] .hero-video {
+  opacity: calc(1 - var(--hero-video-fade));
+}
+html.js .hero[data-scrolled="true"] .hero-veil {
+  opacity: var(--veil-hero-scrolled);
+}
+@media (prefers-reduced-motion: reduce), (prefers-reduced-data: reduce) {
+  .hero-video {
+    display: none;
+  }
+}
+.lead {
+  font-size: var(--text-xl);
+  line-height: 1.5;
+  max-width: var(--container-measure);
+}
+@media (min-width: 48rem) {
+  .lead {
+    font-size: var(--text-2xl);
+  }
+}
+
+/* Faixas de andar: quatro faixas; no hover a faixa expande e revela o nome. */
+.floor-bands {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 1fr;
+}
+.floor-band-wrap {
+  min-width: 0;
+}
+.floor-band {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 1rem;
+  aspect-ratio: 4 / 3;
+  color: var(--color-bege);
+  text-decoration: none;
+  isolation: isolate;
+}
+.floor-band-picture,
+.floor-band-picture img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.floor-band-picture img {
+  transition: transform var(--duration-medium) var(--ease-padrao);
+}
+.floor-band:hover .floor-band-picture img,
+.floor-band:focus-visible .floor-band-picture img {
+  transform: scale(var(--hover-scale));
+}
+.floor-band-veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, var(--accent) 0%, color-mix(in srgb, var(--accent) 40%, transparent) 45%, transparent 75%);
+}
+.floor-band-label {
+  position: absolute;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.floor-band-ordinal {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.floor-band-name {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  line-height: 1;
+}
+@media (min-width: 64rem) {
+  .floor-bands {
+    grid-template-columns: repeat(4, 1fr);
+    height: 30rem;
+    transition: grid-template-columns var(--duration-medium) var(--ease-padrao);
+  }
+  .floor-bands:has(> :nth-child(1):hover),
+  .floor-bands:has(> :nth-child(1):focus-within) {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+  .floor-bands:has(> :nth-child(2):hover),
+  .floor-bands:has(> :nth-child(2):focus-within) {
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+  }
+  .floor-bands:has(> :nth-child(3):hover),
+  .floor-bands:has(> :nth-child(3):focus-within) {
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+  }
+  .floor-bands:has(> :nth-child(4):hover),
+  .floor-bands:has(> :nth-child(4):focus-within) {
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+  }
+  .floor-band-wrap,
+  .floor-band {
+    height: 100%;
+  }
+  .floor-band {
+    aspect-ratio: auto;
+  }
+  html.js .floor-band-name {
+    opacity: 0;
+    transform: translateY(var(--offset-min));
+    transition:
+      opacity var(--duration-medium) var(--ease-padrao),
+      transform var(--duration-medium) var(--ease-padrao);
+  }
+  html.js .floor-band:hover .floor-band-name,
+  html.js .floor-band:focus-visible .floor-band-name {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .floor-bands {
+    transition: none;
+  }
+  html.js .floor-band-name {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Mapa esquemático em verde sálvia. */
+.stylized-map {
+  width: 100%;
+  height: auto;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  fill: var(--color-cafe);
+  --draw-width: 2.5;
+}
+.stylized-map .map-river {
+  fill: none;
+  stroke: var(--color-salvia);
+  stroke-width: 3;
+}
+.stylized-map .map-road {
+  fill: none;
+  stroke: var(--color-cafe);
+  stroke-width: 2;
+  stroke-dasharray: 1;
+}
+html.js .stylized-map .map-road.draw-path {
+  stroke-dasharray: 1;
+}
+.stylized-map .map-city circle {
+  fill: var(--color-cafe);
+}
+.stylized-map .map-hotel circle {
+  fill: var(--color-cafe);
+}
+.stylized-map .map-hotel-ring {
+  fill: none !important;
+  stroke: var(--color-salvia);
+  stroke-width: 2;
+}
+.stylized-map .map-hotel-label {
+  font-family: var(--font-display);
+  font-size: 26px;
+}
+.stylized-map .map-label-river {
+  fill: var(--color-salvia);
+  font-style: italic;
+}
+.stylized-map .map-label-road {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+/* Placeholder de imagem de detalhe ainda não gerada. */
+.detalhe-placeholder {
+  background-color: var(--color-bege-escuro);
+  background-image: repeating-linear-gradient(135deg, transparent 0 14px, color-mix(in srgb, var(--color-salvia) 25%, transparent) 14px 16px);
+}
+
+/* Formulários */
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  & label {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+}
+.field-error {
+  font-size: var(--text-sm);
+  color: var(--color-cafe);
+  font-weight: 600;
+}
+.hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
