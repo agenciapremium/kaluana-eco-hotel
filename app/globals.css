@@ -988,3 +988,417 @@ main:has(.scene-hero) {
     inset: 0;
   }
 }
+
+/* ------------------------------------------------------------------
+   Acomodações (etapa 2, 5.3 a 5.10)
+   ------------------------------------------------------------------ */
+
+/* Frase do hero das categorias em display, abaixo do H1. */
+.hero-headline {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 1rem + 2.2vw, 2.75rem);
+  line-height: 1.15;
+  max-width: 28ch;
+}
+
+/* Filtro por perfil: três chips. Sem JavaScript os chips não aparecem e a grade mostra tudo. */
+.filtro-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+html:not(.js) .filtro-chips {
+  display: none;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 2.75rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--color-cafe) 35%, transparent);
+  background-color: transparent;
+  color: var(--color-cafe);
+  font: inherit;
+  font-size: var(--text-base);
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color var(--duration-short) var(--ease-padrao),
+    border-color var(--duration-short) var(--ease-padrao),
+    color var(--duration-short) var(--ease-padrao);
+  &::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 999px;
+    background-color: var(--color-salvia);
+  }
+  &:hover {
+    border-color: var(--color-cafe);
+  }
+  &[aria-pressed="true"] {
+    background-color: var(--color-cafe);
+    border-color: var(--color-cafe);
+    color: var(--color-bege);
+  }
+}
+
+/* Grade de categorias: cruza em fade de 300 ms ao trocar o filtro (metade sai, metade entra). */
+.categorias {
+  display: grid;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: opacity calc(var(--duration-filter) / 2) var(--ease-padrao);
+}
+.categorias[data-fading="true"] {
+  opacity: 0;
+}
+@media (min-width: 48rem) {
+  .categorias {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 64rem) {
+  .categorias {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+/* No celular, faixa com snap: rolagem manual, sem carrossel automático. */
+@media (max-width: 47.99rem) {
+  .categorias {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-inline: calc(-1 * var(--spacing-gutter));
+    padding-inline: var(--spacing-gutter);
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;
+  }
+  .categorias::-webkit-scrollbar {
+    display: none;
+  }
+  .categorias > li {
+    flex: 0 0 min(85%, 22rem);
+    scroll-snap-align: start;
+  }
+}
+.categoria-link {
+  position: relative;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.categoria-media {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background-color: var(--color-bege-escuro);
+}
+.categoria-body {
+  padding-top: 1.25rem;
+}
+.categoria-nome {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  line-height: 1.05;
+}
+.categoria-frase {
+  margin-top: 0.35rem;
+  font-size: var(--text-base);
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+/* Véu em verde sálvia que sobe no hover com o nome e a frase de perfil (5.3, movimento).
+   Texto grande (título e 20 px em negrito) para o contraste mínimo de 3:1 de texto grande. */
+.categoria-veil {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.75rem;
+  background-color: color-mix(in srgb, var(--color-salvia) 94%, transparent);
+  color: var(--color-cafe);
+  transform: translateY(100%);
+  transition: transform var(--duration-medium) var(--ease-padrao);
+}
+.categoria-veil-nome {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  line-height: 1.05;
+}
+.categoria-veil-frase {
+  margin-top: 0.5rem;
+  font-size: var(--text-xl);
+  font-weight: 600;
+}
+@media (hover: hover) {
+  .categoria-link:hover .categoria-veil {
+    transform: none;
+  }
+}
+.categoria-link:focus-visible .categoria-veil {
+  transform: none;
+}
+
+/* Ficha do quarto e regras da casa: lista em duas colunas com traço em sálvia. */
+.ficha-list {
+  display: grid;
+  gap: 0.6rem 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 48rem) {
+  .ficha-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.ficha-list li {
+  position: relative;
+  padding-left: 1.75rem;
+  font-size: var(--text-lg);
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    width: 1rem;
+    height: 2px;
+    background-color: var(--color-salvia);
+  }
+}
+
+/* Nomes dos quartos por andar: etiquetas que se acendem em verde sálvia no hover.
+   O texto continua café (sálvia como fundo cheio não atinge 4,5:1). */
+.uh-grupos {
+  display: grid;
+  gap: 2rem;
+}
+.uh-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+}
+.uh-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--color-cafe) 30%, transparent);
+  color: var(--color-cafe);
+  font-size: var(--text-base);
+  text-decoration: none;
+  transition:
+    border-color var(--duration-short) var(--ease-padrao),
+    background-color var(--duration-short) var(--ease-padrao),
+    box-shadow var(--duration-short) var(--ease-padrao);
+  &:hover,
+  &:focus-visible {
+    border-color: var(--color-salvia);
+    background-color: color-mix(in srgb, var(--color-salvia) 22%, transparent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-salvia) 30%, transparent);
+  }
+}
+.scene .uh-chip {
+  color: var(--color-bege);
+  border-color: color-mix(in srgb, var(--color-bege) 45%, transparent);
+  &:hover,
+  &:focus-visible {
+    border-color: var(--color-salvia);
+    background-color: color-mix(in srgb, var(--color-salvia) 35%, transparent);
+  }
+}
+
+/* Faixa de detalhes: rolagem nativa com snap, arraste com o mouse (DragScroller). */
+.galeria {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding-block: 0.25rem;
+  cursor: grab;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  &[data-dragging="true"] {
+    cursor: grabbing;
+    scroll-snap-type: none;
+    user-select: none;
+  }
+  & > * {
+    flex: 0 0 min(80%, 34rem);
+    scroll-snap-align: start;
+  }
+  & img {
+    pointer-events: none;
+  }
+}
+
+/* Duplo King (5.5): o detalhe ganha foco e o resto da foto escurece 20% no hover. */
+.foco-card .framed-inner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background-color: var(--color-cafe);
+  opacity: 0;
+  pointer-events: none;
+  mask-image: radial-gradient(ellipse at 50% 55%, transparent 28%, black 78%);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 55%, transparent 28%, black 78%);
+  transition: opacity var(--duration-medium) var(--ease-padrao);
+}
+.foco-card:hover .framed-inner::after {
+  opacity: var(--hover-darken-photo);
+}
+
+/* Suíte Terraço Lateral Aberto (5.8): deriva de luz de 12 s sobre a foto do hero, só no
+   desktop e só com movimento permitido. É a única animação em loop das categorias. */
+.luz-deriva {
+  position: absolute;
+  inset: 0 -40%;
+  opacity: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    100deg,
+    transparent 35%,
+    color-mix(in srgb, var(--color-bege) 40%, transparent) 50%,
+    transparent 65%
+  );
+  mix-blend-mode: soft-light;
+}
+@media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
+  html.js .luz-deriva {
+    opacity: 1;
+    transform: translateX(-30%);
+    animation: luz-deriva var(--duration-light-drift) ease-in-out infinite alternate;
+    will-change: transform;
+  }
+}
+@keyframes luz-deriva {
+  from {
+    transform: translateX(-30%);
+  }
+  to {
+    transform: translateX(30%);
+  }
+}
+
+/* Suíte Terraço Lateral Fechado (5.9): segunda foto entra em fade lento conforme a rolagem
+   (animação nativa de rolagem). Sem suporte ou com movimento reduzido, fica a primeira foto. */
+.scene-picture-2 {
+  opacity: 0;
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .scene-picture-2 {
+      animation: fade-in linear both;
+      animation-timeline: scroll(root);
+      animation-range: 0 70vh;
+      will-change: opacity;
+    }
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Suíte Presidencial (5.10): nome gigante em fade de 1,2 s, pilha de cenas com sticky e
+   movimento mais lento que nas demais páginas (durações e escalonamento no teto). */
+[data-variante="suite-presidencial-onca-pintada"] {
+  --duration-medium: var(--duration-long);
+  --duration-mask: var(--duration-xlong);
+  --stagger-item: var(--stagger-max);
+}
+.hero-fade-title .nome-prefixo {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.hero-fade-title .nome-gigante {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: var(--text-giant);
+  line-height: 0.95;
+}
+html.js .hero-fade-title {
+  opacity: 0;
+  animation: fade-in var(--duration-slow-fade) var(--ease-padrao) forwards;
+  animation-delay: var(--duration-short);
+}
+.stack {
+  position: relative;
+}
+@media (min-width: 64rem) {
+  .stack > .scene {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 -24px 48px -24px color-mix(in srgb, var(--color-preto) 45%, transparent);
+  }
+}
+
+/* Superior Acessível (5.6): movimento reduzido por padrão, sem animação automática,
+   contraste reforçado e foco visível maior. */
+html.js [data-variante="superior-acessivel"] [data-reveal],
+html.js [data-variante="superior-acessivel"] [data-reveal] > * {
+  opacity: 1;
+  transform: none;
+  clip-path: none;
+  transition: none;
+}
+html.js [data-variante="superior-acessivel"] .word-title .word {
+  opacity: 1;
+  transform: none;
+  animation: none;
+}
+html.js [data-variante="superior-acessivel"] .draw-path {
+  stroke-dashoffset: 0;
+  fill-opacity: 1;
+  animation: none;
+}
+[data-variante="superior-acessivel"] .parallax-fill .parallax-layer {
+  inset: 0;
+  animation: none;
+}
+[data-variante="superior-acessivel"] .card-zoom:hover img {
+  transform: none;
+}
+[data-variante="superior-acessivel"] .categoria-frase,
+[data-variante="superior-acessivel"] .hero-text {
+  color: inherit;
+}
+[data-variante="superior-acessivel"] :focus-visible {
+  outline-width: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .hero-fade-title {
+    animation-duration: var(--duration-reduced);
+    animation-delay: 0ms;
+  }
+  .categorias {
+    transition: none;
+  }
+  .categoria-veil {
+    transition-duration: var(--duration-reduced);
+  }
+}
