@@ -56,3 +56,23 @@ export function hashString(s: string): number {
   for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
   return h;
 }
+
+/**
+ * Espalha os bits do hash (finalizador do MurmurHash3). O djb2 puro, tirado o resto por um
+ * número pequeno, agrupa slugs parecidos no mesmo balde: sem isto, nove dos catorze rios
+ * caíam no mesmo loop de som. Continua determinístico.
+ */
+export function mixHash(h: number): number {
+  let x = h >>> 0;
+  x ^= x >>> 16;
+  x = Math.imul(x, 0x85ebca6b);
+  x ^= x >>> 13;
+  x = Math.imul(x, 0xc2b2ae35);
+  x ^= x >>> 16;
+  return x >>> 0;
+}
+
+/** Índice estável e bem distribuído dentro de uma lista, a partir de um slug. */
+export function escolhaEstavel(slug: string, total: number): number {
+  return total > 0 ? mixHash(hashString(slug)) % total : 0;
+}

@@ -17,7 +17,8 @@
     "build:audio": "tsx scripts/build-audio.ts",
     "check:copy": "tsx scripts/check-copy.ts",
     "screenshots": "tsx scripts/screenshots.ts",
-    "lighthouse": "tsx scripts/lighthouse.ts"
+    "lighthouse": "tsx scripts/lighthouse.ts",
+    "build:cantos": "tsx scripts/build-cantos.ts"
   },
   "dependencies": {
     "motion": "^13.2.0",

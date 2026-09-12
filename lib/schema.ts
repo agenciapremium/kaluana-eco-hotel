@@ -216,3 +216,89 @@ export function roomsCollectionSchema(opts: {
     },
   };
 }
+
+/* ------------------------------------------------------------------
+   Universo Kaluanã (etapa 3): Article por elemento, ImageObject e
+   CollectionPage com ItemList nos hubs. Parte 4.3 e Parte 6.0.
+   ------------------------------------------------------------------ */
+
+export type ArticleSchemaInput = {
+  url: string;
+  titulo: string;
+  descricao: string;
+  /** Nome do elemento e nome científico, quando houver. */
+  sobre: { nome: string; cientifico?: string | null; tipo: "BodyOfWater" | "Thing" };
+  imagem?: { url: string; alt: string; width: number; height: number };
+  /** Data de atualização, visível no rodapé de autoria da página. */
+  atualizadoEm: string;
+};
+
+export function imageObjectSchema(img: {
+  url: string;
+  alt: string;
+  width: number;
+  height: number;
+}): JsonLd {
+  return {
+    "@type": "ImageObject",
+    url: img.url,
+    contentUrl: img.url,
+    caption: img.alt,
+    width: img.width,
+    height: img.height,
+  };
+}
+
+export function articleSchema(a: ArticleSchemaInput): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${siteUrl}${a.url}#artigo`,
+    headline: a.titulo,
+    description: a.descricao,
+    url: `${siteUrl}${a.url}`,
+    inLanguage: "pt-BR",
+    mainEntityOfPage: `${siteUrl}${a.url}`,
+    author: { "@id": `${siteUrl}/#organization` },
+    publisher: { "@id": `${siteUrl}/#organization` },
+    dateModified: a.atualizadoEm,
+    ...(a.imagem ? { image: imageObjectSchema(a.imagem) } : {}),
+    about: {
+      "@type": a.sobre.tipo,
+      name: a.sobre.nome,
+      ...(a.sobre.cientifico ? { alternateName: a.sobre.cientifico } : {}),
+    },
+    isPartOf: { "@id": `${siteUrl}/#website` },
+  };
+}
+
+/** CollectionPage com ItemList genérica, usada nos seis hubs do Universo. */
+export function colecaoSchema(opts: {
+  url: string;
+  nome: string;
+  descricao: string;
+  itens: { url: string; nome: string; imagem?: string }[];
+}): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${siteUrl}${opts.url}#pagina`,
+    name: opts.nome,
+    description: opts.descricao,
+    url: `${siteUrl}${opts.url}`,
+    inLanguage: "pt-BR",
+    isPartOf: { "@id": `${siteUrl}/#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      itemListOrder: "https://schema.org/ItemListOrderAscending",
+      numberOfItems: opts.itens.length,
+      itemListElement: opts.itens.map((it, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${siteUrl}${it.url}`,
+        name: it.nome,
+        ...(it.imagem ? { image: it.imagem } : {}),
+      })),
+    },
+  };
+}

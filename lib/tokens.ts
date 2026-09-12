@@ -133,6 +133,14 @@ export const motion = {
     crossfade: 600,
     /** Troca da grade de acomodações ao mudar o filtro por perfil (5.3). */
     filter: 300,
+    /** Reorganização da grade de árvores ao filtrar por uso (5.14). */
+    filterGrid: 400,
+    /** Zoom out do hero das páginas do Universo, de 1,05 para 1,0 (Parte 6.0). */
+    heroZoom: 1500,
+    /** Bando de pontos que cruza o topo do Andar das Aves, uma vez só (5.15). */
+    bando: 2000,
+    /** Flutuação dos cards do Andar dos Peixes (5.13). */
+    flutuacao: 6000,
     /** Deriva de luz na foto do terraço aberto (5.8): ciclo de 12 s, só desktop. */
     lightDrift: 12000,
     /** Fade lento do nome da Suíte Presidencial (5.10). */
@@ -146,6 +154,10 @@ export const motion = {
   parallaxMax: 0.08,
   /** Parallax do hero do Superior Família com Terraço (5.7). */
   parallaxTerraco: 0.06,
+  /** Zoom inicial do hero das páginas do Universo (Parte 6.0). */
+  heroZoomFrom: 1.05,
+  /** Deslocamento da flutuação dos cards de peixe, em pixels (5.13). */
+  flutuacaoPx: 4,
   hoverScale: { min: 1.03, max: 1.04 },
   pressScale: 0.98,
   /** Fração do elemento visível para disparar a entrada. */

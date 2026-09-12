@@ -54,6 +54,10 @@
   --duration-press: 100ms;
   --duration-crossfade: 600ms;
   --duration-filter: 300ms;
+  --duration-filter-grid: 400ms;
+  --duration-hero-zoom: 1500ms;
+  --duration-bando: 2000ms;
+  --duration-flutuacao: 6000ms;
   --duration-light-drift: 12000ms;
   --duration-slow-fade: 1200ms;
   --stagger-min: 40ms;
@@ -66,6 +70,8 @@
   --parallax-max: 0.08;
   --parallax-terraco: 0.06;
   --hover-darken-photo: 0.2;
+  --hero-zoom-from: 1.05;
+  --flutuacao-px: 4px;
   --hover-scale: 1.03;
   --hover-scale-max: 1.04;
   --press-scale: 0.98;
