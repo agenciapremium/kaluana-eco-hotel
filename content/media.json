@@ -1,0 +1,304 @@
+{
+  "imagens": {
+    "andares/rio-machado": {
+      "grupo": "andares",
+      "slug": "rio-machado",
+      "alt": "Rio Machado, proa de barco na água em Ji-Paraná",
+      "width": 1024,
+      "height": 1024,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAQCdASoQABAAA4BaJQBOgBIe+AAA/TXzqCVboEQyMKB5kKFdIHd/vSUdVQwb2DOC6P6ZcMhHyRYHFfbkZKjZKWW9f1YOlI4EHupG2Q4pH0HofkAgAAAA",
+      "original": "RIO MACHADO 4.jpg"
+    },
+    "andares/jau": {
+      "grupo": "andares",
+      "slug": "jau",
+      "alt": "Jaú, bagre de couro visto de lado",
+      "width": 1024,
+      "height": 1024,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQABAAA4BaJbACdAEV+ueMv6AA/sGEzZ5Flf821cF9fDj6/jLixdTwmgbO8kbkNuT9Q1ZuPAoW2LwQL0LZiDMw7Dcy+R3hmfdHDRyoGmL5BqhRSALNtzwkYAA=",
+      "original": "Jau 2.jpg"
+    },
+    "andares/samauma": {
+      "grupo": "andares",
+      "slug": "samauma",
+      "alt": "Samaúma, tronco e sapopemas vistos de baixo",
+      "width": 1920,
+      "height": 1920,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABwAgCdASoQABAAA4BaJYwAD48PhD6JsHOvuw2QAP7zU0zQ5oFqxX6P5cxLPwwrG0ffwFkHjtJm1OvB3JdTAiJsccrKYsUDDzekx4DQfiN1Y6V7++YBz6674HogYYXwajf47l4acfen/v64AAA=",
+      "original": "Samauma 2.jpeg"
+    },
+    "andares/coruja": {
+      "grupo": "andares",
+      "slug": "coruja",
+      "alt": "Coruja-buraqueira de frente, pousada em tronco",
+      "width": 1920,
+      "height": 1920,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQABAAA4BaJZgCdADHc3S55V0AAAD+3NTY+k1Whr8B0jjmqu79FPGCyuG5Xs37hzoyusJFXa0pjnLf5WbZXBoT1MRqxhMge/3wR1GAAAA=",
+      "original": "coruja.jpg"
+    },
+    "detalhes/maos-no-balcao": {
+      "grupo": "detalhes",
+      "slug": "maos-no-balcao",
+      "alt": "Mãos sobre um balcão de madeira, uma delas com uma chave",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAQCdASoQAAwAA4BaJZACdAClt3lsAP7SLVdmSQWov0lebL3tP3euqUFG/ElmQc6WnxIuhc4A8wz9NjpzBlFhPbh2vM0X2ct+VbZehWD9W2UCvTAAAA==",
+      "original": "maos-no-balcao.jpg"
+    },
+    "detalhes/mesa-com-cafe": {
+      "grupo": "detalhes",
+      "slug": "mesa-com-cafe",
+      "alt": "Mesa de madeira com notebook fechado, caneca de café e bloco de notas",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAwAA4BaJZgCsAEJ3uq+IP1wAP72EtzaZLP89XgtW1vpg4KRuCY7OzkPYJE1VINOTHXotg2tEEXhchBSxdNPDVj5PTkE0+AX/HipNWLWZNiReIDzmwShUB66nAAA",
+      "original": "mesa-com-cafe.jpg"
+    },
+    "detalhes/cadeira-na-varanda": {
+      "grupo": "detalhes",
+      "slug": "cadeira-na-varanda",
+      "alt": "Cadeira de madeira com almofada de linho, folhagem ao fundo",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAwAA4BaJagCdADjNeufljQAAP7qFuUxsg6LACwigPTSabuhiYq6+T7rdOKP7NEITCVmr41xDwrMcXrvectaNcAUan98OLtWSPn9iHCvsY1/bgxx6NiYXiFaAAAA",
+      "original": "cadeira-na-varanda.jpg"
+    },
+    "detalhes/textura-madeira": {
+      "grupo": "detalhes",
+      "slug": "textura-madeira",
+      "alt": "Superfície de madeira escura com um feixe de luz de janela",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkAA4BaJZACdADcpqzW42AA/uJ4mVrDX6mixOkvnpKU6z1Fs1J/H469g3QbWeXiqj4fXsdtDWnr3LRSKSWjGnngAA==",
+      "original": "textura-madeira.jpg"
+    },
+    "detalhes/textura-terra": {
+      "grupo": "detalhes",
+      "slug": "textura-terra",
+      "alt": "Terra vermelha seca, rachada, com folhas caídas",
+      "width": 1920,
+      "height": 823,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAcAA4BaJbACdAEfxAs26F2kAAD+6f6L6cyg0qAjRmi/glHxZuT2LHi5NPN8zkgkn5HN84TnW2Tn2CXHj49NPF8AAAAA",
+      "original": "textura-terra.jpg"
+    },
+    "detalhes/luz-de-janela": {
+      "grupo": "detalhes",
+      "slug": "luz-de-janela",
+      "alt": "Tecido de linho bege com luz suave de janela",
+      "width": 1920,
+      "height": 1280,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJYgCdADPhvSHu4AAAP63A9pj0JGoE8NfXpSUbsQ/XCj4zVgRSCXxFKG3w9+5E7tKxW4zwK2OZfXwtWNI58g+zxdqwwmDkpV6a5gAAAA=",
+      "original": "luz-de-janela.jpg"
+    },
+    "detalhes/prato-de-peixe": {
+      "grupo": "detalhes",
+      "slug": "prato-de-peixe",
+      "alt": "Peixe grelhado em prato de cerâmica com farofa, vinagrete e limão",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoQAAwAA4BaJbACdAYs2xl3qZ9AAP5AtGNRojmpXJeY5TbqunBuKjKxjQCMuladxi/U7A1jpJDAXbKD7dpWkR8Wu8ukFUqkQz8qvURAW4Ivp3xjDBmtjloA9GlaNd0c58AAAA==",
+      "original": "prato-de-peixe.jpg"
+    },
+    "detalhes/maos-na-obra": {
+      "grupo": "detalhes",
+      "slug": "maos-na-obra",
+      "alt": "Mãos segurando um punhado de terra vermelha, folhas ao fundo",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAwAA4BaJZgCdACZ7WudAAD+73nTt7DNfgi/RpubVxNkZYdBNxG+4j0+TDrdijbkwZqltudEdbdyRVZ+Z43ZP7XFcxjUeDOK1RqV0E0cpa1/kAA=",
+      "original": "maos-na-obra.jpg"
+    },
+    "atmosfera/rio-amanhecer": {
+      "grupo": "atmosfera",
+      "slug": "rio-amanhecer",
+      "alt": "Rio amazônico ao amanhecer, com névoa baixa sobre a água e mata escura nas margens",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJQBdgB0+Du9GSQAA/uo5G9lkvtAhVnnb+rfQzZlZaaD8Ix+RN8uupKRArjP/0SKArkSk/aRfpwh+7+RMrw1TXAA=",
+      "original": "rio-amanhecer.jpg"
+    },
+    "atmosfera/rio-mata": {
+      "grupo": "atmosfera",
+      "slug": "rio-mata",
+      "alt": "Curva de rio dentro da mata, água parada refletindo as árvores, névoa fina",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAkAA4BaJZQC7AEVYS0JE+WgAP70sNJamUU8248nqs/8swvIU8XaSutbh0BbWDW3rFXc0dAAAA==",
+      "original": "rio-mata.jpg"
+    },
+    "atmosfera/agua-corrente": {
+      "grupo": "atmosfera",
+      "slug": "agua-corrente",
+      "alt": "Raios de luz entrando em água escura de rio, partículas e raízes ao fundo",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAkAA4BaJbACdADHUl3NAIAA/vaTigQ7xlwIUekI5PAW2VOOfphBW75sM06xSJMGS78KI8lsk/nraXsCn4bF9hcfkAAA",
+      "original": "agua-corrente.jpg"
+    },
+    "atmosfera/copa-mata": {
+      "grupo": "atmosfera",
+      "slug": "copa-mata",
+      "alt": "Copa da mata vista de baixo, troncos altos convergindo e luz entre as folhas",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkAA4BaJQBdgBMuqLgAAP70nf26rEZEaGrYgHq7vjBopObQ2OpModbQxE37S4kh0TwlAKkk4ce0zAA=",
+      "original": "copa-mata.jpg"
+    },
+    "atmosfera/ceu-entardecer": {
+      "grupo": "atmosfera",
+      "slug": "ceu-entardecer",
+      "alt": "Céu de entardecer sobre a linha escura da mata, do ocre ao azul-cinza",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAgCdASoQAAkAA4BaJYwCdH8AGBTTUiAAAP7a0PNJxZx5rkDB2+sQ8d6ovD/IWI5lM8+AAAA=",
+      "original": "ceu-entardecer.jpg"
+    },
+    "atmosfera/nevoa-mata": {
+      "grupo": "atmosfera",
+      "slug": "nevoa-mata",
+      "alt": "Névoa entre troncos escuros na mata, com um brilho quente baixo no horizonte",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQAAkAA4BaJZQAAu0d219dnAD+95duyibbCkdrFrqc0vSIRF0VIT2lmAA=",
+      "original": "nevoa-mata.jpg"
+    },
+    "atmosfera/estrada-terra": {
+      "grupo": "atmosfera",
+      "slug": "estrada-terra",
+      "alt": "Estrada de terra vermelha reta entre a mata, luz de fim de tarde",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAkAA4BaJZgCdAED/ymWGX+gAP71ztTrKcXtBIClXmfXZDGCvKq9swAWIf0N05U66QpqE9PLDUAA",
+      "original": "estrada-terra.jpg"
+    }
+  },
+  "videos": {
+    "hero-bg": {
+      "mp4": "/media/video/hero-bg.mp4",
+      "webm": "/media/video/hero-bg.webm",
+      "poster": "/media/video/hero-bg-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 14.8
+    },
+    "abertura": {
+      "mp4": "/media/video/abertura.mp4",
+      "webm": "/media/video/abertura.webm",
+      "hevcAlpha": "/media/video/abertura-alpha.mp4",
+      "poster": "/media/video/abertura-poster.webp",
+      "width": 480,
+      "height": 504,
+      "duration": 1.83
+    }
+  }
+}

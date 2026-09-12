@@ -1,0 +1,1467 @@
+{
+  "grupo": "peixes",
+  "nome_grupo": "Andar dos Peixes",
+  "andar": 2,
+  "cor": "#4F7A6B",
+  "intro_grupo": "O segundo andar do Kaluanã leva o nome de dezoito peixes. Alguns chegam à mesa do restaurante, como o tambaqui e o pirarucu. Outros são gigantes de couro que vivem no fundo dos poços, como o jaú e a piraíba. Um deles dá choque. Todos nadam nos rios do andar de baixo.\n",
+  "itens": [
+    {
+      "id": "pirarucu",
+      "nome": "Pirarucu",
+      "subtitulo": "O gigante que respira ar",
+      "cientifico": "Arapaima gigas",
+      "uh": "201",
+      "quarto": 1,
+      "abertura": "O pirarucu é o maior peixe de escamas de água doce do mundo. Pode passar de 2 metros e chegar perto de 200 quilos. E ele sobe à superfície para respirar, como nós.\n",
+      "no_kaluana": "O andar dos peixes abre com o pirarucu por tamanho e por história. Ele quase desapareceu dos rios e voltou graças às comunidades que aprenderam a contar, proteger e pescar com regra. É o peixe que mostra que a Amazônia sabe se cuidar.\n",
+      "historia": "O pirarucu vive nos lagos e várzeas da bacia amazônica, inclusive no Guaporé e no Madeira. Tem uma bexiga natatória que funciona como pulmão e precisa vir à tona a cada 10 ou 20 minutos. Esse hábito facilitou a pesca por séculos, com arpão, no momento em que o peixe respira.\n\nNo fim do século XX a espécie estava em queda em quase toda a Amazônia. A partir de 1999, na Reserva Mamirauá, no Amazonas, pescadores passaram a contar os peixes nos lagos e a retirar só uma parte, com cota. As populações se recuperaram e o manejo virou modelo para toda a região.\n\nO nome vem do tupi: pira é peixe e urucu é vermelho, pelas escamas avermelhadas da cauda. A carne firme e sem espinhas intramusculares rendeu o apelido de bacalhau da Amazônia.\n",
+      "curiosidades": [
+        "As escamas do pirarucu são grandes e duras. Viram lixas de unha, bolsas, sapatos e artesanato.",
+        "A língua é óssea e áspera. Seca, era usada para ralar guaraná em bastão.",
+        "O macho cuida dos filhotes. Ele os guia pela água e os protege na boca em caso de perigo.",
+        "Rondônia cria pirarucu em cativeiro. A piscicultura do estado está entre as maiores do país."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Arapaima gigas"
+        ],
+        [
+          "Família",
+          "Arapaimidae"
+        ],
+        [
+          "Tamanho",
+          "Até 3 m e cerca de 200 kg"
+        ],
+        [
+          "Alimentação",
+          "Peixes, crustáceos e insetos"
+        ],
+        [
+          "Onde vive",
+          "Lagos e várzeas da Amazônia, inclusive Guaporé e Madeira"
+        ],
+        [
+          "Situação",
+          "Recuperado onde há manejo comunitário"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que o pirarucu sobe para respirar?",
+          "r": "Porque suas brânquias não são suficientes. Ele tem uma bexiga natatória vascularizada que funciona como pulmão e o obriga a subir à superfície a cada 10 ou 20 minutos."
+        },
+        {
+          "p": "O pirarucu está ameaçado de extinção?",
+          "r": "A pesca sem controle reduziu muito as populações no século XX. Hoje, nas áreas com manejo comunitário, os estoques se recuperaram. A pesca do pirarucu selvagem segue regulada por cotas e período de defeso."
+        },
+        {
+          "p": "Qual é o gosto do pirarucu?",
+          "r": "A carne é branca, firme e de sabor suave. Por não ter espinhas intramusculares, é uma das mais fáceis de servir. É preparada assada, grelhada, em moqueca e desfiada."
+        }
+      ],
+      "seo": {
+        "title": "Pirarucu: o gigante da Amazônia que respira ar | Kaluanã",
+        "description": "Pirarucu (Arapaima gigas): tamanho, respiração, manejo comunitário e curiosidades. O tema do quarto 201 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "pirarucu",
+          "arapaima gigas",
+          "maior peixe de água doce",
+          "pirarucu respira ar",
+          "bacalhau da amazônia"
+        ],
+        "resposta": "O pirarucu (Arapaima gigas) é o maior peixe de escamas de água doce do mundo, com até 3 metros e cerca de 200 quilos. Vive nos lagos e várzeas da Amazônia, respira ar atmosférico e precisa subir à superfície a cada 10 ou 20 minutos.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/pirarucu_757650421.jpg",
+          "uso": "hero",
+          "nota": "2500 x 1406 px. Peixe inteiro em aquário, lateral. Apta para hero. Nome de arquivo sugere banco de imagens: confirmar licença."
+        },
+        {
+          "arquivo": "Peixes/Pirarucu 4.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 576 px. Pirarucu na superfície com floresta ao fundo."
+        }
+      ]
+    },
+    {
+      "id": "tambaqui",
+      "nome": "Tambaqui",
+      "subtitulo": "O peixe que come fruta",
+      "cientifico": "Colossoma macropomum",
+      "uh": "202",
+      "quarto": 2,
+      "abertura": "O tambaqui espera a floresta alagar para comer. Ele nada entre as árvores submersas e cata as frutas e sementes que caem na água. Depois espalha essas sementes pelo rio. É um peixe que planta floresta.\n",
+      "no_kaluana": "Nenhum peixe é mais rondoniense que o tambaqui. O estado está entre os maiores produtores do Brasil e a costela de tambaqui é o prato que define a cozinha daqui. Se você provar um só peixe no restaurante do Kaluanã, prove este.\n",
+      "historia": "O tambaqui é um parente do pacu e vive na bacia amazônica e no Orinoco. Pode passar de 1 metro e de 30 quilos. Tem dentes largos, parecidos com molares, feitos para quebrar sementes duras, inclusive as da seringueira.\n\nNa cheia, ele entra na floresta alagada e come frutos por meses, acumulando gordura. Na seca, volta para o rio e vive dessa reserva. Boa parte da dispersão de sementes das várzeas amazônicas passa pela barriga do tambaqui.\n\nEle se adaptou bem ao cativeiro e se tornou o peixe nativo mais criado no Brasil. Rondônia está entre os líderes desse movimento há anos, com viveiros escavados em quase todas as regiões do estado, inclusive na região de Ji-Paraná.\n",
+      "curiosidades": [
+        "A costela de tambaqui é servida assada ou frita e é o prato mais pedido nos restaurantes de Rondônia e do Amazonas.",
+        "O tambaqui jovem tem uma mancha escura na cauda que serve de camuflagem e some com a idade.",
+        "Ele consegue viver em água com pouco oxigênio esticando o lábio inferior para respirar na superfície.",
+        "O cruzamento do tambaqui com o pacu ou o pirapitinga gera híbridos criados em cativeiro, chamados tambacu e tambatinga."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Colossoma macropomum"
+        ],
+        [
+          "Família",
+          "Serrasalmidae, a mesma das piranhas e dos pacus"
+        ],
+        [
+          "Tamanho",
+          "Até 1 m e mais de 30 kg"
+        ],
+        [
+          "Alimentação",
+          "Frutos, sementes e zooplâncton"
+        ],
+        [
+          "Onde vive",
+          "Bacia amazônica e Orinoco; criado em cativeiro em toda Rondônia"
+        ],
+        [
+          "Situação",
+          "Abundante em cativeiro; pescado com regras na natureza"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O que o tambaqui come?",
+          "r": "Principalmente frutos e sementes que caem na água durante a cheia. Com dentes fortes, ele quebra até sementes de seringueira. Também se alimenta de zooplâncton."
+        },
+        {
+          "p": "Por que Rondônia produz tanto tambaqui?",
+          "r": "Pelo clima quente o ano inteiro, pela água abundante e pela adaptação do peixe aos viveiros escavados. O estado está entre os maiores produtores do país há mais de uma década."
+        },
+        {
+          "p": "Como se prepara a costela de tambaqui?",
+          "r": "A costela é a parte da barriga, com as espinhas em formato de costela. É temperada, assada ou frita e servida com farofa, vinagrete e pirão. É o prato mais tradicional da cozinha rondoniense."
+        }
+      ],
+      "seo": {
+        "title": "Tambaqui: o peixe símbolo de Rondônia | Kaluanã",
+        "description": "Tambaqui (Colossoma macropomum): o que come, por que espalha sementes e por que Rondônia produz tanto. O tema do quarto 202 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "tambaqui",
+          "colossoma macropomum",
+          "costela de tambaqui",
+          "tambaqui rondônia",
+          "piscicultura rondônia"
+        ],
+        "resposta": "O tambaqui (Colossoma macropomum) é um peixe da bacia amazônica que se alimenta de frutos e sementes na floresta alagada e pode passar de 1 metro e 30 quilos. É o peixe nativo mais criado no Brasil, e Rondônia está entre os maiores produtores do país.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Tambaqui.jpg",
+          "uso": "hero",
+          "nota": "1000 x 665 px. Peixe adulto em aquário. Resolução limita hero; buscar imagem maior ou fotografar em piscicultura da região."
+        },
+        {
+          "arquivo": "Peixes/tambaqui 2.jpeg",
+          "uso": "galeria",
+          "nota": "2121 x 1414 px, mas arquivo de 52 KB, muito comprimido. Verificar qualidade na tela."
+        }
+      ]
+    },
+    {
+      "id": "tucunare",
+      "nome": "Tucunaré",
+      "subtitulo": "O predador do falso olho",
+      "cientifico": "Cichla spp.",
+      "uh": "203",
+      "quarto": 3,
+      "abertura": "O tucunaré tem um olho a mais. A mancha redonda na base da cauda parece um olho e confunde quem o ataca. Ele é o peixe mais procurado da pesca esportiva na Amazônia e um dos mais bonitos dos rios.\n",
+      "no_kaluana": "O tucunaré está neste andar porque é o peixe que traz gente para Rondônia. Pescadores de todo o país vêm ao Guaporé, ao Machado e aos lagos do estado atrás dele. Para muitos hóspedes do Kaluanã, ele é o motivo da viagem.\n",
+      "historia": "Tucunaré é o nome de um grupo de peixes do gênero Cichla, parentes das tilápias e dos acarás. Existem mais de dez espécies, do tucunaré-açu, que passa de 1 metro, ao tucunaré-borboleta, menor e mais colorido.\n\nEle caça de dia, à vista, em água clara ou parada. Ataca com violência iscas de superfície e por isso é o sonho da pesca com caniço. Depois de fisgado, salta e briga até o fim.\n\nNa reprodução, o casal limpa um pedaço de fundo, guarda os ovos e depois escolta os filhotes por semanas. O macho desenvolve uma protuberância na testa nessa fase.\n",
+      "curiosidades": [
+        "O ocelo da cauda funciona como falso olho. Um predador que mira ali erra o alvo, e piranhas que tentam morder o olho verdadeiro se confundem.",
+        "O tucunaré foi levado para reservatórios de outras bacias, como a do Paraná, e virou espécie invasora fora da Amazônia.",
+        "Em torneios de pesca esportiva o peixe é medido, fotografado e devolvido vivo ao rio.",
+        "A carne é branca e firme. Na Amazônia é servida assada na brasa ou em caldeirada."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Cichla spp., várias espécies"
+        ],
+        [
+          "Família",
+          "Cichlidae"
+        ],
+        [
+          "Tamanho",
+          "De 30 cm a mais de 1 m, conforme a espécie"
+        ],
+        [
+          "Alimentação",
+          "Peixes menores, camarões e insetos"
+        ],
+        [
+          "Onde vive",
+          "Rios, lagos e reservatórios da Amazônia, inclusive Guaporé e Machado"
+        ],
+        [
+          "Situação",
+          "Comum; pesca esportiva com soltura"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que o tucunaré tem uma mancha na cauda?",
+          "r": "A mancha é um ocelo, um falso olho. Ela confunde predadores e peixes que tentam morder a cabeça, desviando o ataque para a cauda."
+        },
+        {
+          "p": "Onde pescar tucunaré em Rondônia?",
+          "r": "No rio Guaporé, no Machado, no lago de Samuel e em outros rios e lagos do estado, sempre respeitando o período de defeso e as regras de pesca esportiva."
+        },
+        {
+          "p": "Quantas espécies de tucunaré existem?",
+          "r": "Mais de dez espécies reconhecidas do gênero Cichla. As mais conhecidas são o tucunaré-açu, o tucunaré-amarelo e o tucunaré-borboleta."
+        }
+      ],
+      "seo": {
+        "title": "Tucunaré: o predador do falso olho | Kaluanã",
+        "description": "Tucunaré (Cichla): espécies, o ocelo da cauda, hábitos de caça e onde pescar em Rondônia. O tema do quarto 203 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "tucunaré",
+          "cichla",
+          "pesca de tucunaré",
+          "tucunaré rondônia",
+          "tucunaré açu"
+        ],
+        "resposta": "O tucunaré é um grupo de peixes do gênero Cichla, da família dos ciclídeos, conhecido pelo ocelo na base da cauda que funciona como falso olho. É um predador diurno e o peixe mais procurado da pesca esportiva na Amazônia, inclusive nos rios Guaporé e Machado, em Rondônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Tucunaré 2.jpg",
+          "uso": "hero",
+          "nota": "750 x 500 px. Cabeça e listras em detalhe. Baixa resolução para hero."
+        },
+        {
+          "arquivo": "Peixes/Tucunaré.jpg",
+          "uso": "galeria",
+          "nota": "1090 x 624 px. Grupo em aquário."
+        }
+      ]
+    },
+    {
+      "id": "surubim",
+      "nome": "Surubim",
+      "subtitulo": "O bagre listrado dos rios de Rondônia",
+      "cientifico": "Pseudoplatystoma punctifer",
+      "uh": "204",
+      "quarto": 4,
+      "abertura": "O surubim é um bagre de couro liso, corpo comprido e listras escuras que descem pelas costas. Caça de noite, guiado por três pares de barbilhões que sentem o fundo do rio no escuro.\n",
+      "no_kaluana": "Este andar tem quatro quartos com bagres listrados da mesma família: surubim, cachara, pintado e caparari. Eles se parecem e são confundidos o tempo todo. O surubim abre a série porque é o nome que os pescadores de Rondônia mais usam.\n",
+      "historia": "Surubim é o nome dado, na Amazônia, ao Pseudoplatystoma punctifer, que os cientistas por muito tempo chamaram de Pseudoplatystoma fasciatum. É um peixe de couro, sem escamas, com cabeça achatada e boca larga.\n\nAs listras verticais que se ramificam pelas costas diferem das listras largas e curvas do caparari e das pintas do pintado. É por elas que se reconhece cada espécie.\n\nO surubim faz longas migrações para desovar na piracema, subindo os rios no início das chuvas. É pescado no Madeira, no Guaporé e no Machado e é um dos peixes de couro mais valorizados no comércio.\n",
+      "curiosidades": [
+        "O surubim pode passar de 1 metro e de 20 quilos.",
+        "Como todo bagre, ele sente o gosto pela pele e pelos barbilhões, o que permite caçar sem enxergar.",
+        "A carne é branca, sem espinhas e muito procurada. Em Rondônia é servida em postas fritas ou em caldeirada.",
+        "Filhotes de surubim ficam entre folhas submersas nas várzeas até crescerem o suficiente para enfrentar o rio aberto."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Pseudoplatystoma punctifer"
+        ],
+        [
+          "Família",
+          "Pimelodidae"
+        ],
+        [
+          "Tamanho",
+          "Até cerca de 1,3 m"
+        ],
+        [
+          "Alimentação",
+          "Peixes e crustáceos"
+        ],
+        [
+          "Onde vive",
+          "Bacia amazônica, inclusive Madeira, Guaporé e Machado"
+        ],
+        [
+          "Hábito",
+          "Noturno, migrador"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre surubim, pintado, cachara e caparari?",
+          "r": "Todos são bagres do gênero Pseudoplatystoma. O surubim e o caparari são amazônicos; o pintado e a cachara vêm das bacias do Paraná e do Paraguai. O desenho da pele muda: listras finas que se ramificam no surubim, listras largas em laços no caparari, pintas no pintado e listras em rede na cachara."
+        },
+        {
+          "p": "O surubim tem espinhas?",
+          "r": "Não tem espinhas intramusculares. É um peixe de couro, com carne branca e firme, fácil de servir."
+        },
+        {
+          "p": "Quando é a piracema do surubim?",
+          "r": "No início do período chuvoso, entre novembro e fevereiro, quando os rios sobem e os peixes migram para desovar. Nesse período a pesca é proibida ou restrita."
+        }
+      ],
+      "seo": {
+        "title": "Surubim: o bagre listrado da Amazônia | Kaluanã",
+        "description": "Surubim (Pseudoplatystoma punctifer): como reconhecer, onde vive, piracema e diferença para pintado e caparari. O tema do quarto 204 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "surubim",
+          "pseudoplatystoma",
+          "surubim amazônia",
+          "peixe de couro",
+          "surubim rondônia"
+        ],
+        "resposta": "O surubim (Pseudoplatystoma punctifer) é um bagre de couro da bacia amazônica, com corpo comprido, cabeça achatada e listras escuras verticais. Caça à noite, migra na piracema e pode passar de 1 metro. Vive nos rios Madeira, Guaporé e Machado, em Rondônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Surubim 2.jpg",
+          "uso": "hero",
+          "nota": "1024 x 686 px. Peixe inteiro entre raízes submersas."
+        },
+        {
+          "arquivo": "Peixes/Surubim.jpg",
+          "uso": "galeria",
+          "nota": "1080 x 518 px. Lateral em aquário."
+        }
+      ]
+    },
+    {
+      "id": "curimata",
+      "nome": "Curimatã",
+      "subtitulo": "O peixe que limpa o rio",
+      "cientifico": "Prochilodus nigricans",
+      "uh": "205",
+      "quarto": 5,
+      "abertura": "O curimatã come lodo. Com lábios grossos, ele raspa o fundo e aproveita a matéria orgânica que outros peixes não usam. Depois vira comida de quase todo mundo, inclusive de gente. Sem ele, a cadeia do rio não fecha.\n",
+      "no_kaluana": "Ele está neste andar por ser o peixe do povo. É barato, abundante e forma cardumes que os pescadores de Rondônia esperam o ano inteiro. Dá nome ao quarto porque nenhum rio da Amazônia funcionaria sem ele.\n",
+      "historia": "O curimatã é um peixe de escamas prateadas, corpo alto e boca em forma de ventosa, adaptada para raspar o fundo. Ele se alimenta de detritos e algas, e converte esse material em proteína que alimenta bagres, tucunarés, botos e aves.\n\nNa piracema, forma cardumes enormes que sobem os rios com barulho de água batendo. Em muitas cidades ribeirinhas, a subida do curimatã marca o calendário.\n\nPode chegar a 40 centímetros e a pouco mais de 2 quilos. É um dos peixes mais consumidos da Amazônia, geralmente frito ou assado, com as espinhas finas cortadas na hora do preparo.\n",
+      "curiosidades": [
+        "No sul do país, parentes do curimatã são chamados de curimba ou curimbatá. O hábito é o mesmo: comer o fundo.",
+        "As espinhas finas em Y são cortadas com facas em cortes paralelos antes da fritura. É a técnica do peixe ticado.",
+        "Um único curimatã pode desovar centenas de milhares de ovos em uma temporada.",
+        "Ele é um dos peixes mais estudados como indicador da saúde dos rios amazônicos, porque depende da qualidade do sedimento."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Prochilodus nigricans"
+        ],
+        [
+          "Família",
+          "Prochilodontidae"
+        ],
+        [
+          "Tamanho",
+          "Até 40 cm e cerca de 2 kg"
+        ],
+        [
+          "Alimentação",
+          "Detritos, algas e microrganismos do fundo"
+        ],
+        [
+          "Onde vive",
+          "Rios e lagos de toda a bacia amazônica"
+        ],
+        [
+          "Hábito",
+          "Migrador, forma grandes cardumes"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O que o curimatã come?",
+          "r": "Lodo. Ele raspa o fundo com os lábios e digere a matéria orgânica, as algas e os microrganismos que encontra no sedimento."
+        },
+        {
+          "p": "O curimatã tem muitas espinhas?",
+          "r": "Sim, espinhas finas em Y ao longo do corpo. Por isso ele costuma ser ticado, com cortes paralelos na carne, antes de ir para a frigideira."
+        },
+        {
+          "p": "Qual a importância do curimatã para o rio?",
+          "r": "Ele transforma detritos em proteína e serve de alimento para grandes predadores. É a base da cadeia alimentar em muitos rios da Amazônia."
+        }
+      ],
+      "seo": {
+        "title": "Curimatã: o peixe que limpa o rio | Kaluanã",
+        "description": "Curimatã (Prochilodus nigricans): o que come, piracema, importância para o rio e preparo. O tema do quarto 205 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "curimatã",
+          "prochilodus nigricans",
+          "curimatã peixe",
+          "curimba",
+          "piracema"
+        ],
+        "resposta": "O curimatã (Prochilodus nigricans) é um peixe de escamas da Amazônia que se alimenta de detritos do fundo dos rios e forma grandes cardumes migradores. Chega a 40 cm e é um dos peixes mais consumidos da região e base da cadeia alimentar dos rios.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Curimatã 3.jpg",
+          "uso": "hero",
+          "nota": "1536 x 1024 px. Peixe em água clara com fundo de pedras. Apta para hero em telas médias."
+        },
+        {
+          "arquivo": "Peixes/Curimatã.jpg",
+          "uso": "galeria",
+          "nota": "799 x 600 px. Lateral em água clara."
+        }
+      ]
+    },
+    {
+      "id": "matrinxa",
+      "nome": "Matrinxã",
+      "subtitulo": "O peixe que salta para pegar fruta",
+      "cientifico": "Brycon amazonicus",
+      "uh": "206",
+      "quarto": 6,
+      "abertura": "O matrinxã fica de olho nos galhos. Quando uma fruta cai ou um inseto pousa, ele salta e pega no ar. É rápido, briguento e uma das carnes mais elogiadas dos rios do Norte.\n",
+      "no_kaluana": "Ele está neste andar pelo prato e pela briga. O matrinxã é criado em viveiros de Rondônia, chega assado à mesa e é o peixe favorito de quem pesca com fruta na ponta do anzol. Um quarto para quem gosta de energia.\n",
+      "historia": "O matrinxã é um peixe de escamas prateadas, corpo fusiforme e cauda escura. Pertence ao gênero Brycon, o mesmo da piraputanga e da piabanha. Vive na bacia amazônica e prefere água corrente.\n\nCome de tudo: frutos, sementes, insetos, flores e peixes pequenos. Na cheia, entra na mata alagada e se farta de frutas. Na pesca esportiva, a isca costuma ser fruta ou massa, e o peixe ataca na superfície.\n\nPassa de meio metro e pode chegar a 5 quilos. Adaptou-se bem à piscicultura e é criado em Rondônia ao lado do tambaqui.\n",
+      "curiosidades": [
+        "O matrinxã salta para fora da água para alcançar frutos pendurados em galhos baixos.",
+        "Ele faz longas migrações na piracema e pode ser visto em cardumes subindo corredeiras.",
+        "No Amazonas, o matrinxã assado na brasa com farinha é prato de fim de semana.",
+        "Os dentes são fortes e em várias fileiras, capazes de cortar fruta e inseto com casca."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Brycon amazonicus"
+        ],
+        [
+          "Família",
+          "Bryconidae"
+        ],
+        [
+          "Tamanho",
+          "Até 80 cm e cerca de 5 kg"
+        ],
+        [
+          "Alimentação",
+          "Onívoro: frutos, sementes, insetos e peixes pequenos"
+        ],
+        [
+          "Onde vive",
+          "Rios de água corrente da bacia amazônica; criado em cativeiro em Rondônia"
+        ],
+        [
+          "Hábito",
+          "Diurno, migrador"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre matrinxã e piraputanga?",
+          "r": "São parentes do mesmo gênero, Brycon. O matrinxã é amazônico. A piraputanga vive nas bacias do Paraguai e do Paraná e tem as nadadeiras mais avermelhadas."
+        },
+        {
+          "p": "O matrinxã é bom para comer?",
+          "r": "Sim. A carne é saborosa e um pouco gordurosa, ideal para assar. Tem espinhas finas, como o curimatã, e costuma ser ticado antes do preparo."
+        },
+        {
+          "p": "Como pescar matrinxã?",
+          "r": "Com iscas naturais como frutas, sementes e massas, ou iscas artificiais de superfície. O peixe ataca rápido e briga muito depois de fisgado."
+        }
+      ],
+      "seo": {
+        "title": "Matrinxã: o peixe que salta para pegar fruta | Kaluanã",
+        "description": "Matrinxã (Brycon amazonicus): alimentação, tamanho, pesca e preparo. O tema do quarto 206 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "matrinxã",
+          "brycon amazonicus",
+          "matrinxã peixe",
+          "pesca de matrinxã",
+          "matrinxã assado"
+        ],
+        "resposta": "O matrinxã (Brycon amazonicus) é um peixe de escamas da Amazônia, onívoro, que come frutos, sementes e insetos e chega a saltar para alcançá-los. Passa de meio metro, é forte na pesca esportiva e é criado em viveiros em Rondônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Matrinxã 3.jpg",
+          "uso": "hero",
+          "nota": "826 x 512 px. Cardume em água clara. Baixa resolução para hero."
+        },
+        {
+          "arquivo": "Peixes/Matrinxã 2.jpg",
+          "uso": "galeria",
+          "nota": "700 x 480 px. Lateral em aquário."
+        }
+      ]
+    },
+    {
+      "id": "bodo",
+      "nome": "Bodó",
+      "subtitulo": "O peixe de armadura",
+      "cientifico": "Pterygoplichthys pardalis",
+      "uh": "207",
+      "quarto": 7,
+      "abertura": "O bodó parece um peixe pré-histórico. O corpo é coberto de placas ósseas, a boca é uma ventosa e ele consegue respirar fora da água por horas. Em Manaus, é prato de domingo.\n",
+      "no_kaluana": "Ele está neste andar por ser o mais improvável. Feio para uns, perfeito para outros, o bodó é o peixe que mais surpreende quem chega de fora. Dar um quarto a ele é um jeito de dizer que a Amazônia não é só cartão-postal.\n",
+      "historia": "Bodó, acari-bodó ou cascudo. O nome muda, o peixe é o mesmo: um cascudo grande da família Loricariidae, com o corpo protegido por placas e a boca em ventosa, usada para grudar em pedras e troncos e raspar algas.\n\nEle respira ar quando a água fica pobre em oxigênio. Engole na superfície e o estômago funciona como pulmão. Por isso sobrevive em lagos que secam e chega vivo ao mercado, sem gelo.\n\nEm Manaus e em cidades do Amazonas o bodó é vendido vivo e preparado em caldeirada. A carne fica escondida sob a armadura e é retirada depois do cozimento.\n",
+      "curiosidades": [
+        "O bodó cava túneis nos barrancos para desovar. Uma margem cheia de buracos costuma ser sinal de bodó.",
+        "Vendido como pleco em lojas de aquário, ele virou espécie invasora em rios da Ásia e dos Estados Unidos.",
+        "Pode passar de 40 centímetros.",
+        "Uma receita tradicional é o bodó cozido com tucupi."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Pterygoplichthys pardalis"
+        ],
+        [
+          "Família",
+          "Loricariidae, os cascudos"
+        ],
+        [
+          "Tamanho",
+          "Até cerca de 50 cm"
+        ],
+        [
+          "Alimentação",
+          "Algas e detritos"
+        ],
+        [
+          "Onde vive",
+          "Rios, lagos e igarapés da Amazônia"
+        ],
+        [
+          "Hábito",
+          "Noturno, respira ar quando necessário"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O bodó pode ser comido?",
+          "r": "Sim. É um dos peixes mais consumidos no Amazonas, principalmente em caldeirada. A carne é retirada de dentro das placas depois de cozida."
+        },
+        {
+          "p": "Como o bodó respira fora da água?",
+          "r": "Ele engole ar na superfície e absorve oxigênio pelo estômago, que é rico em vasos sanguíneos. Isso permite sobreviver por horas fora da água em ambiente úmido."
+        },
+        {
+          "p": "Bodó e cascudo são a mesma coisa?",
+          "r": "Bodó é o nome amazônico para os cascudos grandes. Cascudo é o nome geral da família, usado em todo o Brasil."
+        }
+      ],
+      "seo": {
+        "title": "Bodó: o peixe de armadura da Amazônia | Kaluanã",
+        "description": "Bodó ou acari-bodó (Pterygoplichthys pardalis): armadura, respiração de ar, caldeirada e curiosidades. O tema do quarto 207 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "bodó",
+          "acari-bodó",
+          "cascudo",
+          "pterygoplichthys",
+          "caldeirada de bodó"
+        ],
+        "resposta": "O bodó (Pterygoplichthys pardalis) é um cascudo grande da Amazônia, com corpo coberto de placas ósseas e boca em ventosa. Come algas e detritos, respira ar quando falta oxigênio e é muito consumido no Amazonas, principalmente em caldeirada.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Bodó 3.jpg",
+          "uso": "hero",
+          "nota": "1200 x 675 px. Peixe em detalhe com placas. Resolução mediana."
+        },
+        {
+          "arquivo": "Peixes/Bodó.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 595 px. Sobre cascalho em aquário."
+        }
+      ]
+    },
+    {
+      "id": "cachara",
+      "nome": "Cachara",
+      "subtitulo": "O bagre de listras em rede",
+      "cientifico": "Pseudoplatystoma reticulatum",
+      "uh": "208",
+      "quarto": 8,
+      "abertura": "A cachara é prima do surubim. Tem o mesmo corpo comprido e a mesma cabeça achatada, mas as listras se cruzam e formam uma rede. Vive nos rios do Pantanal e do Paraguai, onde é a estrela dos pescadores.\n",
+      "no_kaluana": "Ela está neste andar por ser o nome que muita gente traz na bagagem. Rondônia foi povoada por famílias do Centro-Oeste e do Sul, que chegaram chamando o bagre listrado de cachara. O quarto é para elas.\n",
+      "historia": "A cachara, Pseudoplatystoma reticulatum, vive nas bacias do Paraguai e do Paraná, com o Pantanal como seu grande território. É um bagre noturno que caça peixes menores perto do fundo e passa de 1 metro.\n\nAs listras, que formam desenhos em rede, dão o nome científico reticulatum. É por elas que se diferencia do pintado, de pele com pintas.\n\nNa piscicultura, a cachara é cruzada com o pintado, e o híbrido pintachara é criado em várias regiões do Brasil. Em Rondônia, o nome cachara aparece nos mercados aplicado a bagres listrados amazônicos.\n",
+      "curiosidades": [
+        "Em torneios de pesca no Pantanal, a cachara é um dos troféus mais disputados.",
+        "Ela pode chegar a 1,2 metro e a mais de 15 quilos.",
+        "Os barbilhões longos servem para sentir o fundo e localizar presas no escuro.",
+        "Como todo Pseudoplatystoma, ela migra rio acima na piracema, entre outubro e fevereiro."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Pseudoplatystoma reticulatum"
+        ],
+        [
+          "Família",
+          "Pimelodidae"
+        ],
+        [
+          "Tamanho",
+          "Até 1,2 m"
+        ],
+        [
+          "Alimentação",
+          "Peixes"
+        ],
+        [
+          "Onde vive",
+          "Bacias do Paraguai e do Paraná, com destaque para o Pantanal"
+        ],
+        [
+          "Hábito",
+          "Noturno, migrador"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre cachara e pintado?",
+          "r": "A cachara tem listras que se cruzam e formam uma rede. O pintado tem pintas escuras espalhadas pelo corpo. As duas espécies vivem nas mesmas bacias e são cruzadas em cativeiro."
+        },
+        {
+          "p": "A cachara vive na Amazônia?",
+          "r": "A espécie é das bacias do Paraguai e do Paraná. Na Amazônia, o nome cachara é usado às vezes para o surubim e o caparari, que são parentes próximos."
+        },
+        {
+          "p": "A cachara tem espinhas?",
+          "r": "Não tem espinhas intramusculares. É um peixe de couro, de carne branca e firme."
+        }
+      ],
+      "seo": {
+        "title": "Cachara: o bagre listrado do Pantanal | Kaluanã",
+        "description": "Cachara (Pseudoplatystoma reticulatum): como reconhecer, onde vive, piracema e diferença para o pintado. O tema do quarto 208 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "cachara",
+          "pseudoplatystoma reticulatum",
+          "cachara peixe",
+          "cachara e pintado",
+          "pesca de cachara"
+        ],
+        "resposta": "A cachara (Pseudoplatystoma reticulatum) é um bagre de couro das bacias do Paraguai e do Paraná, com listras escuras que se cruzam em forma de rede. É noturna, migradora e pode passar de 1 metro. É prima do surubim amazônico e do pintado.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Cachara.jpg",
+          "uso": "hero",
+          "nota": "750 x 500 px. Peixe inteiro em aquário. Baixa resolução para hero."
+        },
+        {
+          "arquivo": "Peixes/Cachara 2.jpg",
+          "uso": "galeria",
+          "nota": "600 x 360 px. Sobre areia. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "jau",
+      "nome": "Jaú",
+      "subtitulo": "O gigante dos poços",
+      "cientifico": "Zungaro zungaro",
+      "uh": "209",
+      "quarto": 9,
+      "abertura": "O jaú vive no fundo. Escolhe os poços mais profundos do rio, fica parado e espera. Pode passar de 1 metro e de 100 quilos. É um dos maiores bagres do Brasil e um dos mais difíceis de ver.\n",
+      "no_kaluana": "O jaú está neste andar por representar o que fica escondido. Todo rio de Rondônia tem seus poços, e todo pescador tem uma história de jaú. É o quarto de quem gosta de silêncio e profundidade.\n",
+      "historia": "O jaú é um bagre de couro de corpo largo, cabeça enorme e boca que abre quase como a largura do corpo. Tem cor parda com manchas e uma pele grossa. Vive nos rios da Amazônia e, em outra espécie muito parecida, na bacia do Paraná.\n\nCaça à noite, engolindo peixes inteiros, e passa o dia em poços fundos, sob barrancos e pedras. É pescado com linha de mão e iscas grandes, em noites de rio baixo.\n\nNa piracema, sobe os rios e é visto nas corredeiras. O crescimento é lento e a espécie sofre com a pesca excessiva e as barragens, que interrompem a migração.\n",
+      "curiosidades": [
+        "Registros de jaú com mais de 1,4 metro e 100 quilos são conhecidos em várias bacias.",
+        "A boca larga permite engolir peixes de quase metade do seu tamanho.",
+        "Pescadores dizem que o jaú morde e afunda. Tirar um do poço é trabalho de horas.",
+        "A carne é firme e amarelada e aparece em ensopados nas cidades ribeirinhas."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Zungaro zungaro"
+        ],
+        [
+          "Família",
+          "Pimelodidae"
+        ],
+        [
+          "Tamanho",
+          "Até 1,4 m e mais de 100 kg"
+        ],
+        [
+          "Alimentação",
+          "Peixes"
+        ],
+        [
+          "Onde vive",
+          "Poços profundos de rios da bacia amazônica"
+        ],
+        [
+          "Hábito",
+          "Noturno, de fundo, migrador"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual o tamanho de um jaú?",
+          "r": "Adultos passam de 1 metro com facilidade. Registros confiáveis chegam perto de 1,5 metro e 100 quilos, o que faz dele um dos maiores bagres do Brasil."
+        },
+        {
+          "p": "Onde o jaú vive?",
+          "r": "Nos poços mais fundos dos rios, sob barrancos e pedras. Ele fica parado durante o dia e sai para caçar à noite."
+        },
+        {
+          "p": "O jaú está ameaçado?",
+          "r": "Em algumas bacias sim, por causa da pesca excessiva e das barragens que impedem a migração. Na Amazônia a situação é melhor, mas a espécie cresce devagar e precisa de proteção."
+        }
+      ],
+      "seo": {
+        "title": "Jaú: o bagre gigante dos poços | Kaluanã",
+        "description": "Jaú (Zungaro zungaro): tamanho, onde vive, hábitos de caça e pesca. O tema do quarto 209 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "jaú",
+          "zungaro zungaro",
+          "jaú peixe",
+          "maior bagre do brasil",
+          "pesca de jaú"
+        ],
+        "resposta": "O jaú (Zungaro zungaro) é um dos maiores bagres do Brasil, com mais de 1 metro e até 100 quilos. Vive no fundo dos poços profundos dos rios amazônicos, caça à noite e migra na piracema. Cresce devagar e é sensível à pesca excessiva.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Jau 2.jpg",
+          "uso": "hero",
+          "nota": "2048 x 1536 px. Peixe inteiro em aquário. Apta para hero."
+        },
+        {
+          "arquivo": "Peixes/Jau 3.jpg",
+          "uso": "galeria",
+          "nota": "1000 x 750 px. Jaú saltando na água."
+        }
+      ]
+    },
+    {
+      "id": "sardinha-da-amazonia",
+      "nome": "Sardinha-da-Amazônia",
+      "subtitulo": "A sardinha que não é sardinha",
+      "cientifico": "Triportheus spp.",
+      "uh": "210",
+      "quarto": 10,
+      "abertura": "Ela é prateada, tem corpo achatado e nada em cardume. Parece sardinha, mas é parente do lambari e do matrinxã. Come sementes, salta atrás de insetos e é o petisco mais comum das margens da Amazônia.\n",
+      "no_kaluana": "A sardinha está neste andar porque é o peixe do dia a dia. Frita, com farinha e limão, ela está na beira de todos os rios de Rondônia. É o quarto para quem entende que o simples também tem lugar.\n",
+      "historia": "Sardinha-da-Amazônia é o nome de várias espécies do gênero Triportheus. Todas têm a barriga em quilha, nadadeiras peitorais longas e escamas prateadas. Não têm parentesco com a sardinha do mar, que é de outra ordem de peixes.\n\nVivem na superfície de rios e lagos, em cardumes. Comem sementes, frutos pequenos e insetos que caem na água, e saltam para pegá-los. Na cheia, entram na mata alagada.\n\nChegam a cerca de 30 centímetros. São capturadas em grande quantidade e vendidas frescas ou salgadas. É um dos peixes mais baratos e mais presentes na mesa amazônica.\n",
+      "curiosidades": [
+        "As nadadeiras peitorais longas ajudam a sardinha a planar por um instante fora da água quando foge de predadores.",
+        "Ela é isca preferida para pescar tucunaré e bagres grandes.",
+        "Em algumas regiões é chamada de sardinha-papuda, pela quilha da barriga.",
+        "Pequenas e numerosas, alimentam botos, garças, aves de rapina e quase todos os peixes maiores."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Triportheus angulatus e outras espécies do gênero"
+        ],
+        [
+          "Família",
+          "Triportheidae"
+        ],
+        [
+          "Tamanho",
+          "Até cerca de 30 cm"
+        ],
+        [
+          "Alimentação",
+          "Sementes, frutos pequenos e insetos"
+        ],
+        [
+          "Onde vive",
+          "Superfície de rios e lagos da Amazônia"
+        ],
+        [
+          "Hábito",
+          "Diurno, em cardumes"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "A sardinha-da-Amazônia é parente da sardinha do mar?",
+          "r": "Não. A do mar é da ordem dos clupeiformes. A da Amazônia é um caracídeo, parente do lambari, do piau e do matrinxã. O nome vem do formato e da cor prateada."
+        },
+        {
+          "p": "Como se come a sardinha-da-Amazônia?",
+          "r": "Frita inteira, depois de ticada, com farinha e limão. Também é salgada e seca para conservar."
+        },
+        {
+          "p": "Ela serve de isca?",
+          "r": "Sim. É uma das iscas vivas mais usadas para pescar tucunaré, surubim e outros predadores."
+        }
+      ],
+      "seo": {
+        "title": "Sardinha-da-Amazônia: a sardinha de água doce | Kaluanã",
+        "description": "Sardinha-da-Amazônia (Triportheus): o que é, o que come, como se prepara e por que não é sardinha. O tema do quarto 210 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "sardinha da amazônia",
+          "triportheus",
+          "sardinha de água doce",
+          "sardinha papuda",
+          "peixes da amazônia"
+        ],
+        "resposta": "A sardinha-da-Amazônia é o nome de peixes do gênero Triportheus, caracídeos prateados de corpo achatado que vivem em cardumes na superfície dos rios amazônicos. Chegam a 30 cm, comem sementes e insetos e não têm parentesco com a sardinha marinha.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Sardinha da amazonia.jpg",
+          "uso": "hero",
+          "nota": "2000 x 1000 px. Lateral em água esverdeada. Apta para hero panorâmico."
+        },
+        {
+          "arquivo": "Peixes/Sardinha da amazonia 3.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 491 px. Lateral com fundo de folhas."
+        }
+      ]
+    },
+    {
+      "id": "filhote",
+      "nome": "Filhote",
+      "subtitulo": "A piraíba jovem, o maior bagre da Amazônia",
+      "cientifico": "Brachyplatystoma filamentosum",
+      "uh": "211",
+      "quarto": 11,
+      "abertura": "Filhote é o nome que a Amazônia dá à piraíba antes de ela virar gigante. Adulta, a piraíba passa de 2 metros e chega perto de 200 quilos. É o maior bagre do continente e faz uma das migrações mais longas entre os peixes de água doce.\n",
+      "no_kaluana": "Este quarto leva o nome de mercado, não o nome de livro. Nas feiras de Rondônia e do Pará, o que se compra é filhote, em postas grandes e brancas. O Kaluanã escolheu o nome que o pescador usa.\n",
+      "historia": "A piraíba, Brachyplatystoma filamentosum, é um bagre de couro cinza-prateado, de cabeça larga e barbilhões longos. Vive nos grandes rios de água branca, do estuário do Amazonas até o sopé dos Andes.\n\nEla nasce perto da foz e sobe o rio ao longo da vida. Animais jovens, os filhotes, são abundantes nos trechos médios dos rios. Os adultos, raros, chegam às cabeceiras. Estudos indicam migrações de milhares de quilômetros dentro da bacia.\n\nA carne branca e sem espinhas é uma das mais valorizadas da Amazônia. A espécie sofre com a pesca dos exemplares grandes e com as barragens, que interrompem o caminho até as cabeceiras.\n",
+      "curiosidades": [
+        "Histórias antigas dizem que a piraíba engole gente. O que se sabe é que ela engole peixes de tamanho considerável.",
+        "Os barbilhões dos jovens são compridos como filamentos, o que deu origem ao nome científico.",
+        "Junto com a dourada, sua parente, a piraíba percorre o rio Madeira em migração. As usinas do Madeira mudaram esse caminho.",
+        "Nas feiras, as postas de filhote são vendidas em fatias largas, sem espinha, e vão para o forno ou para a moqueca."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Brachyplatystoma filamentosum"
+        ],
+        [
+          "Família",
+          "Pimelodidae"
+        ],
+        [
+          "Tamanho",
+          "Até cerca de 3 m e 200 kg na fase adulta"
+        ],
+        [
+          "Alimentação",
+          "Peixes"
+        ],
+        [
+          "Onde vive",
+          "Grandes rios de água branca da Amazônia, inclusive Madeira"
+        ],
+        [
+          "Hábito",
+          "Migrador de longa distância"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Filhote e piraíba são o mesmo peixe?",
+          "r": "Sim. Filhote é o nome comercial da piraíba jovem, com até algumas dezenas de quilos. Piraíba é o nome do animal adulto, que pode chegar perto de 200 quilos."
+        },
+        {
+          "p": "Qual o tamanho da piraíba?",
+          "r": "Adultos passam de 2 metros e registros chegam perto de 3 metros e 200 quilos. É o maior bagre da América do Sul."
+        },
+        {
+          "p": "A piraíba vive em Rondônia?",
+          "r": "Sim. Ela sobe o rio Madeira em migração e é pescada no estado. As barragens do Madeira alteraram parte dessa rota."
+        }
+      ],
+      "seo": {
+        "title": "Filhote: a piraíba, o maior bagre da Amazônia | Kaluanã",
+        "description": "Filhote ou piraíba (Brachyplatystoma filamentosum): tamanho, migração, pesca e preparo. O tema do quarto 211 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "filhote peixe",
+          "piraíba",
+          "brachyplatystoma filamentosum",
+          "maior bagre da amazônia",
+          "peixe filhote"
+        ],
+        "resposta": "Filhote é o nome dado na Amazônia à piraíba jovem (Brachyplatystoma filamentosum), o maior bagre da América do Sul, que adulto passa de 2 metros e chega perto de 200 quilos. Vive nos grandes rios de água branca, inclusive o Madeira, e migra por milhares de quilômetros.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": null,
+          "uso": "hero",
+          "nota": "SEM IMAGEM NA PASTA. Providenciar foto de piraíba ou filhote (banco de imagens licenciado ou captação em feira de peixe de Ji-Paraná)."
+        }
+      ]
+    },
+    {
+      "id": "curvina",
+      "nome": "Curvina",
+      "subtitulo": "A pescada de água doce que faz barulho",
+      "cientifico": "Plagioscion squamosissimus",
+      "uh": "212",
+      "quarto": 12,
+      "abertura": "A curvina canta. Ela contrai músculos contra a bexiga natatória e produz um ronco que se ouve de dentro do barco. É a pescada-branca dos rios amazônicos, de carne clara e macia, e uma das mais procuradas nos mercados.\n",
+      "no_kaluana": "Ela está neste andar pelo som. O rio não é silencioso, e a curvina é a prova. É o quarto para quem presta atenção no que quase ninguém escuta.\n",
+      "historia": "A curvina, ou pescada-branca, é um dos poucos peixes da família das corvinas marinhas que vive em água doce. Tem corpo prateado, boca grande e um par de otólitos, pedras de cálcio dentro da cabeça, maiores que os de quase qualquer peixe do seu tamanho.\n\nVive em rios, lagos e reservatórios da Amazônia, onde come peixes menores e camarões. Foi introduzida em represas do Nordeste e do Sudeste e se espalhou.\n\nChega a 80 centímetros. A carne branca, de espinhas fáceis, faz dela uma das espécies mais vendidas nas feiras de Porto Velho e Manaus.\n",
+      "curiosidades": [
+        "Os otólitos da curvina, chamados de pedras da cabeça, são usados em colares, brincos e amuletos.",
+        "O ronco da curvina serve para atrair parceiros na reprodução. Em época de desova, o barulho dos cardumes se ouve na superfície.",
+        "Ela é predadora e ataca iscas artificiais, o que a torna comum na pesca esportiva de lagos.",
+        "Na grafia oficial, o peixe se chama corvina. Curvina é a forma popular em Rondônia e no Amazonas."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Plagioscion squamosissimus"
+        ],
+        [
+          "Família",
+          "Sciaenidae"
+        ],
+        [
+          "Tamanho",
+          "Até cerca de 80 cm"
+        ],
+        [
+          "Alimentação",
+          "Peixes e camarões"
+        ],
+        [
+          "Onde vive",
+          "Rios, lagos e reservatórios da Amazônia"
+        ],
+        [
+          "Hábito",
+          "Predador, produz sons"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Curvina e pescada-branca são o mesmo peixe?",
+          "r": "Sim. Plagioscion squamosissimus é chamada de curvina em Rondônia e no Amazonas e de pescada-branca em outras regiões."
+        },
+        {
+          "p": "Por que a curvina faz barulho?",
+          "r": "Ela contrai músculos ao redor da bexiga natatória e produz um ronco. O som é usado na reprodução, para atrair parceiros e marcar território."
+        },
+        {
+          "p": "O que são as pedras da cabeça da curvina?",
+          "r": "São os otólitos, estruturas de cálcio do ouvido interno que ajudam no equilíbrio. Na curvina eles são grandes e viram artesanato e amuletos."
+        }
+      ],
+      "seo": {
+        "title": "Curvina: a pescada-branca da Amazônia | Kaluanã",
+        "description": "Curvina ou pescada-branca (Plagioscion squamosissimus): som, otólitos, onde vive e preparo. O tema do quarto 212 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "curvina",
+          "corvina de água doce",
+          "pescada branca",
+          "plagioscion squamosissimus",
+          "pedra da curvina"
+        ],
+        "resposta": "A curvina, ou pescada-branca (Plagioscion squamosissimus), é um peixe de água doce da Amazônia, da família das corvinas marinhas. Chega a 80 cm, produz sons com a bexiga natatória e tem otólitos grandes usados em artesanato. É uma das espécies mais vendidas nas feiras da região.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Corvina 4.jpg",
+          "uso": "hero",
+          "nota": "1024 x 699 px. ATENÇÃO: a imagem mostra uma corvina marinha em aquário, não a pescada-branca de água doce. Substituir por foto de Plagioscion squamosissimus."
+        },
+        {
+          "arquivo": "Peixes/Corvina 3.jpg",
+          "uso": "galeria",
+          "nota": "600 x 400 px. Mesma ressalva: espécie marinha. Substituir."
+        }
+      ]
+    },
+    {
+      "id": "lambari",
+      "nome": "Lambari",
+      "subtitulo": "O pequeno que alimenta o rio inteiro",
+      "cientifico": "Astyanax spp. e outros gêneros",
+      "uh": "213",
+      "quarto": 13,
+      "abertura": "O lambari cabe na palma da mão. Vive em cardumes, come de tudo e está em todo igarapé, lago e rio do Brasil. Sem ele, tucunaré, garça e boto passariam fome. Frito, é o petisco mais brasileiro que existe.\n",
+      "no_kaluana": "Ele está neste andar porque começa a cadeia. Cada peixe grande dos quartos vizinhos cresceu comendo lambari. É o quarto do início, e por isso está aqui de propósito.\n",
+      "historia": "Lambari é o nome popular de dezenas de espécies de peixes pequenos, na maioria do gênero Astyanax e parentes. Na Amazônia também são chamados de piabas. Têm corpo prateado, às vezes com manchas ou nadadeiras coloridas, e chegam a 10 ou 15 centímetros.\n\nComem insetos, algas, sementes e restos. Reproduzem-se rápido e em grande número, o que os torna a base alimentar de quase todos os predadores de água doce.\n\nEm várias regiões do Brasil o lambari é criado em tanques para servir de isca e para o consumo, frito e crocante, como tira-gosto.\n",
+      "curiosidades": [
+        "Existem mais de cem espécies de lambari descritas no Brasil, e novas são encontradas todo ano.",
+        "O lambari-de-rabo-vermelho e o lambari-de-rabo-amarelo são os mais conhecidos no Sudeste.",
+        "Em igarapés de água escura vivem lambaris coloridos que abastecem o mercado de aquários, como o cardinal e o néon.",
+        "Um cardume de lambaris pode limpar um pedaço de pele de um banhista em segundos. Eles beliscam, mas não machucam."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Astyanax spp. e gêneros próximos"
+        ],
+        [
+          "Família",
+          "Characidae"
+        ],
+        [
+          "Tamanho",
+          "De 5 a 15 cm"
+        ],
+        [
+          "Alimentação",
+          "Onívoro"
+        ],
+        [
+          "Onde vive",
+          "Todos os ambientes de água doce do Brasil"
+        ],
+        [
+          "Hábito",
+          "Diurno, em cardumes"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Lambari e piaba são a mesma coisa?",
+          "r": "Em geral, sim. Piaba é o nome mais usado no Norte e no Nordeste para os mesmos peixes pequenos que o Sudeste e o Sul chamam de lambari."
+        },
+        {
+          "p": "Como se come lambari?",
+          "r": "Frito inteiro, bem crocante, com limão e sal. É um petisco clássico de beira de rio."
+        },
+        {
+          "p": "Por que o lambari é importante?",
+          "r": "Porque é a base da cadeia alimentar. Ele transforma insetos e restos em proteína e alimenta peixes maiores, aves e mamíferos aquáticos."
+        }
+      ],
+      "seo": {
+        "title": "Lambari: o pequeno que alimenta o rio | Kaluanã",
+        "description": "Lambari ou piaba (Astyanax): espécies, alimentação, importância e como se come. O tema do quarto 213 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "lambari",
+          "piaba",
+          "astyanax",
+          "lambari frito",
+          "peixes pequenos de água doce"
+        ],
+        "resposta": "Lambari é o nome popular de dezenas de espécies de peixes pequenos, na maioria do gênero Astyanax, que vivem em cardumes em todos os ambientes de água doce do Brasil. Chegam a 15 cm, comem de tudo e são a base da cadeia alimentar dos rios.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/lambari.jpg",
+          "uso": "hero",
+          "nota": "6365 x 3305 px. Lateral com nadadeiras amarelas. Apta para hero; reduzir o arquivo antes de publicar."
+        },
+        {
+          "arquivo": "Peixes/lambari 2.jpg",
+          "uso": "galeria",
+          "nota": "1200 x 628 px. Lambari com olho vermelho."
+        }
+      ]
+    },
+    {
+      "id": "piau",
+      "nome": "Piau",
+      "subtitulo": "O peixe das três pintas",
+      "cientifico": "Leporinus friderici",
+      "uh": "214",
+      "quarto": 14,
+      "abertura": "O piau tem três manchas redondas no corpo, como se alguém tivesse carimbado. Nada com a cabeça um pouco para baixo, come frutas, insetos e plantas e sobe o rio em cardume quando chega a chuva.\n",
+      "no_kaluana": "Ele está neste andar porque é o peixe da piracema. Quando o piau sobe, o pescador de Rondônia sabe que a estação virou. É o quarto do ciclo, da chuva que volta todo ano.\n",
+      "historia": "Piau é o nome de vários peixes do gênero Leporinus. O mais comum na Amazônia é o piau-três-pintas, Leporinus friderici, que tem exatamente isso: três manchas escuras na lateral. Outros piaus têm listras ou faixas.\n\nTem boca pequena, dentes fortes e um hábito curioso de nadar inclinado, com a cabeça voltada para o fundo, procurando comida. É onívoro.\n\nPassa de 40 centímetros e faz migrações reprodutivas. É pescado com anzol pequeno e iscas de fruta, minhoca ou massa e é muito consumido frito.\n",
+      "curiosidades": [
+        "O nome piau, em tupi, remete a peixe de pele manchada.",
+        "Em Minas Gerais e em Goiás, o piau é o peixe mais popular da pesca de barranco.",
+        "O piau consegue morder e cortar galhos finos e folhas com os dentes.",
+        "Ele é um dos primeiros a aparecer nos cardumes de piracema, antes dos bagres grandes."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Leporinus friderici"
+        ],
+        [
+          "Família",
+          "Anostomidae"
+        ],
+        [
+          "Tamanho",
+          "Até cerca de 40 cm"
+        ],
+        [
+          "Alimentação",
+          "Onívoro: frutos, insetos, plantas e pequenos animais"
+        ],
+        [
+          "Onde vive",
+          "Rios e lagos da Amazônia e de outras bacias"
+        ],
+        [
+          "Hábito",
+          "Diurno, migrador"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que o piau tem três pintas?",
+          "r": "As manchas ajudam a confundir predadores e a reconhecer a espécie. O piau-três-pintas é o mais comum dos piaus e leva o nome por causa delas."
+        },
+        {
+          "p": "O que o piau come?",
+          "r": "De tudo um pouco: frutos, sementes, insetos, plantas e pequenos invertebrados. Por isso é fácil de pescar com iscas variadas."
+        },
+        {
+          "p": "O piau é bom de comer?",
+          "r": "Sim. A carne é saborosa e é servida frita ou assada. Tem espinhas finas, que se resolvem com o corte ticado."
+        }
+      ],
+      "seo": {
+        "title": "Piau: o peixe das três pintas | Kaluanã",
+        "description": "Piau (Leporinus friderici): as três pintas, alimentação, piracema e preparo. O tema do quarto 214 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "piau",
+          "piau três pintas",
+          "leporinus friderici",
+          "piau peixe",
+          "piracema piau"
+        ],
+        "resposta": "O piau (Leporinus friderici), ou piau-três-pintas, é um peixe de escamas de água doce, com três manchas escuras na lateral, boca pequena e hábito onívoro. Passa de 40 cm, migra na piracema e é comum nos rios da Amazônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/Piau.jpg",
+          "uso": "hero",
+          "nota": "984 x 635 px. Peixe com as três pintas em aquário. Resolução limita hero."
+        },
+        {
+          "arquivo": "Peixes/Piau 2.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 537 px. Lateral com manchas visíveis."
+        }
+      ]
+    },
+    {
+      "id": "pintado",
+      "nome": "Pintado",
+      "subtitulo": "O bagre de pintas",
+      "cientifico": "Pseudoplatystoma corruscans",
+      "uh": "215",
+      "quarto": 15,
+      "abertura": "O pintado tem o corpo salpicado de pintas pretas, do dorso à cauda. É um dos maiores bagres do Brasil, pode passar de 1,5 metro e é o rei dos rios do Pantanal, do Paraná e do São Francisco.\n",
+      "no_kaluana": "Ele está neste andar ao lado do surubim, da cachara e do caparari, os quatro primos listrados. O pintado é o mais famoso dos quatro no resto do Brasil. Aqui, ele é o quarto de quem chegou de outras águas.\n",
+      "historia": "O pintado, Pseudoplatystoma corruscans, é um bagre de couro de corpo alongado, cabeça achatada e pele cinza coberta de pintas. Vive nas bacias do Paraná, do Paraguai e do São Francisco e é noturno.\n\nCaça peixes perto do fundo, sobe os rios na piracema e cresce devagar, o que o torna sensível à pesca excessiva. Em vários estados a pesca do pintado tem tamanho mínimo e período de defeso.\n\nNa piscicultura, o cruzamento com a cachara gera o pintachara, criado em Mato Grosso, Mato Grosso do Sul e outros estados. Na Amazônia, o nome pintado é usado por muitos pescadores para os surubins locais.\n",
+      "curiosidades": [
+        "Registros de pintado passam de 1,5 metro e 100 quilos.",
+        "Os três pares de barbilhões detectam vibrações e sabores na água escura.",
+        "Ele é o peixe mais valorizado da pesca esportiva do Pantanal, ao lado da cachara e do dourado.",
+        "Em Mato Grosso do Sul, o pintado na telha é prato tradicional."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Pseudoplatystoma corruscans"
+        ],
+        [
+          "Família",
+          "Pimelodidae"
+        ],
+        [
+          "Tamanho",
+          "Até 1,5 m e mais de 80 kg"
+        ],
+        [
+          "Alimentação",
+          "Peixes"
+        ],
+        [
+          "Onde vive",
+          "Bacias do Paraná, do Paraguai e do São Francisco"
+        ],
+        [
+          "Hábito",
+          "Noturno, migrador"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O pintado vive na Amazônia?",
+          "r": "A espécie Pseudoplatystoma corruscans é das bacias do Paraná, do Paraguai e do São Francisco. Na Amazônia, o nome pintado é usado para o surubim e para o caparari, parentes próximos."
+        },
+        {
+          "p": "Qual a diferença entre pintado e surubim?",
+          "r": "O pintado tem pintas espalhadas pelo corpo. O surubim tem listras verticais que se ramificam. Vivem em bacias diferentes."
+        },
+        {
+          "p": "O pintado está ameaçado?",
+          "r": "Em algumas bacias a pesca excessiva reduziu as populações. Por isso a espécie tem tamanho mínimo de captura e período de defeso em vários estados."
+        }
+      ],
+      "seo": {
+        "title": "Pintado: o bagre de pintas dos grandes rios | Kaluanã",
+        "description": "Pintado (Pseudoplatystoma corruscans): como reconhecer, onde vive, piracema e diferença para o surubim. O tema do quarto 215 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "pintado peixe",
+          "pseudoplatystoma corruscans",
+          "pintado e surubim",
+          "pesca de pintado",
+          "pintado pantanal"
+        ],
+        "resposta": "O pintado (Pseudoplatystoma corruscans) é um grande bagre de couro das bacias do Paraná, do Paraguai e do São Francisco, reconhecido pelas pintas pretas no corpo. É noturno, migra na piracema e pode passar de 1,5 metro. É primo do surubim amazônico.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/pintado 3.jpg",
+          "uso": "hero",
+          "nota": "1280 x 850 px. Bagre em aquário escuro. Resolução mediana."
+        },
+        {
+          "arquivo": "Peixes/pintado 2.jpg",
+          "uso": "galeria",
+          "nota": "640 x 384 px. Sobre areia. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "caparari",
+      "nome": "Caparari",
+      "subtitulo": "O surubim-tigre",
+      "cientifico": "Pseudoplatystoma tigrinum",
+      "uh": "216",
+      "quarto": 16,
+      "abertura": "O caparari tem listras largas e curvas que se fecham em laços pelas costas, como um tigre. É o mais desenhado dos bagres listrados da Amazônia e um dos mais pescados no Madeira.\n",
+      "no_kaluana": "Ele fecha a série dos quatro primos listrados deste andar. Está aqui porque é amazônico de verdade, dos rios de Rondônia, e porque ninguém esquece a pele de um caparari depois de ver de perto.\n",
+      "historia": "O caparari, Pseudoplatystoma tigrinum, vive nas bacias do Amazonas e do Orinoco. Tem corpo comprido, cabeça achatada e três pares de barbilhões. As listras escuras são largas e se curvam, formando desenhos em alça, o que deu o nome científico, tigrinum.\n\nCaça de noite, perto do fundo, e sobe os rios na piracema. Pode chegar a 1,3 metro. Divide o território com o surubim, e os dois costumam ser vendidos sob o mesmo nome nas feiras.\n\nNo Madeira e no Guaporé, o caparari é um dos bagres mais capturados, tanto pela pesca comercial quanto pela esportiva.\n",
+      "curiosidades": [
+        "Em algumas regiões é chamado de surubim-tigre ou pintado-tigre.",
+        "O caparari e o surubim cruzam na natureza e produzem híbridos com desenhos intermediários.",
+        "Como os parentes, tem carne branca, sem espinhas intramusculares.",
+        "Filhotes de caparari ficam em áreas alagadas rasas e só depois descem para o rio principal."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Pseudoplatystoma tigrinum"
+        ],
+        [
+          "Família",
+          "Pimelodidae"
+        ],
+        [
+          "Tamanho",
+          "Até 1,3 m"
+        ],
+        [
+          "Alimentação",
+          "Peixes"
+        ],
+        [
+          "Onde vive",
+          "Bacias do Amazonas e do Orinoco, inclusive Madeira e Guaporé"
+        ],
+        [
+          "Hábito",
+          "Noturno, migrador"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre caparari e surubim?",
+          "r": "As listras. No caparari são largas, curvas e formam laços fechados. No surubim são mais finas, verticais e se ramificam. Os dois vivem nos mesmos rios amazônicos."
+        },
+        {
+          "p": "O caparari vive em Rondônia?",
+          "r": "Sim. É comum no Madeira, no Guaporé e nos afluentes do estado."
+        },
+        {
+          "p": "Por que o nome científico é tigrinum?",
+          "r": "Por causa do desenho da pele, que lembra as listras de um tigre."
+        }
+      ],
+      "seo": {
+        "title": "Caparari: o surubim-tigre da Amazônia | Kaluanã",
+        "description": "Caparari (Pseudoplatystoma tigrinum): como reconhecer, onde vive em Rondônia e diferença para o surubim. O tema do quarto 216 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "caparari",
+          "pseudoplatystoma tigrinum",
+          "surubim tigre",
+          "caparari peixe",
+          "bagres da amazônia"
+        ],
+        "resposta": "O caparari (Pseudoplatystoma tigrinum) é um bagre de couro das bacias do Amazonas e do Orinoco, com listras largas e curvas que formam laços, semelhantes às de um tigre. Noturno e migrador, chega a 1,3 metro e é comum nos rios Madeira e Guaporé, em Rondônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/caparari 2.jpg",
+          "uso": "hero",
+          "nota": "800 x 453 px. Lateral em aquário. Baixa resolução para hero."
+        },
+        {
+          "arquivo": "Peixes/caparari 3.jpg",
+          "uso": "galeria",
+          "nota": "640 x 427 px. Detalhe das listras. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "poraque",
+      "nome": "Poraquê",
+      "subtitulo": "O peixe que dá choque",
+      "cientifico": "Electrophorus spp.",
+      "uh": "217",
+      "quarto": 17,
+      "abertura": "O poraquê é uma bateria viva. Ele produz descargas de centenas de volts para caçar, se defender e enxergar no escuro. Passa de 2 metros, respira ar e não é enguia, apesar do apelido.\n",
+      "no_kaluana": "Ele está neste andar por ser o peixe mais falado das rodas de conversa. Todo pescador de Rondônia tem uma história de choque. É o quarto da eletricidade, e talvez o que mais renda pergunta na recepção.\n",
+      "historia": "O poraquê pertence à ordem dos peixes-faca, parente distante dos lambaris, e não das enguias verdadeiras. Tem corpo cilíndrico e comprido, sem nadadeira dorsal, e nada ondulando a nadadeira anal.\n\nTrês órgãos elétricos ocupam a maior parte do corpo. Com descargas fracas ele mapeia o ambiente e se comunica. Com descargas fortes, atordoa presas e afasta ameaças. A espécie mais potente, descrita em 2019, chega a 860 volts.\n\nVive em água parada, rasa e pobre em oxigênio, e por isso respira ar, subindo à superfície a cada poucos minutos. Ocorre em toda a bacia amazônica, inclusive em igarapés de Rondônia.\n",
+      "curiosidades": [
+        "Em 2019 cientistas descobriram que o poraquê não é uma espécie, mas três. Uma delas, Electrophorus voltai, é o animal com a descarga elétrica mais forte que se conhece.",
+        "Pesquisadores já observaram poraquês caçando em grupo, cercando cardumes e disparando juntos.",
+        "Ele consegue saltar para fora da água para dar choque em um animal que ameace de cima.",
+        "O nome vem do tupi e é usado em toda a Amazônia. Em outras regiões chamam de peixe-elétrico ou enguia-elétrica."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Electrophorus electricus, E. voltai e E. varii"
+        ],
+        [
+          "Família",
+          "Gymnotidae"
+        ],
+        [
+          "Tamanho",
+          "Até 2,5 m"
+        ],
+        [
+          "Alimentação",
+          "Peixes, crustáceos e pequenos animais"
+        ],
+        [
+          "Onde vive",
+          "Águas paradas e rasas de toda a Amazônia"
+        ],
+        [
+          "Descarga",
+          "Até 860 volts"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O choque do poraquê mata?",
+          "r": "Pode ser perigoso. A descarga é forte o suficiente para derrubar um cavalo e já causou afogamentos por atordoamento. Em geral não é fatal por si só, mas exige respeito e distância."
+        },
+        {
+          "p": "O poraquê é uma enguia?",
+          "r": "Não. Apesar do apelido enguia-elétrica, ele é um peixe-faca, da ordem Gymnotiformes, parente dos lambaris e dos bagres, e não das enguias verdadeiras."
+        },
+        {
+          "p": "Como o poraquê produz eletricidade?",
+          "r": "Com células chamadas eletrócitos, empilhadas em três órgãos ao longo do corpo. Cada célula gera uma voltagem pequena, e milhares delas somadas produzem a descarga."
+        }
+      ],
+      "seo": {
+        "title": "Poraquê: o peixe elétrico da Amazônia | Kaluanã",
+        "description": "Poraquê (Electrophorus): como produz choque, quantos volts, se é enguia e onde vive. O tema do quarto 217 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "poraquê",
+          "peixe elétrico",
+          "enguia elétrica",
+          "electrophorus",
+          "choque do poraquê"
+        ],
+        "resposta": "O poraquê (Electrophorus) é um peixe-faca da Amazônia capaz de produzir descargas elétricas de até 860 volts, usadas para caçar, se defender e navegar no escuro. Chega a 2,5 metros, respira ar e não é uma enguia verdadeira. Desde 2019 são reconhecidas três espécies.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/poraque.jpg",
+          "uso": "hero",
+          "nota": "2400 x 1600 px. Corpo inteiro sobre cascalho. Apta para hero."
+        },
+        {
+          "arquivo": "Peixes/poraque 2.jpg",
+          "uso": "galeria",
+          "nota": "2256 x 1496 px. Cabeça em detalhe."
+        },
+        {
+          "arquivo": "Peixes/poraque 4.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 600 px. Entre troncos submersos. Há ainda poraque 3.jpg, de baixa qualidade."
+        }
+      ]
+    },
+    {
+      "id": "pirarara",
+      "nome": "Pirarara",
+      "subtitulo": "O bagre de cauda vermelha",
+      "cientifico": "Phractocephalus hemioliopterus",
+      "uh": "218",
+      "quarto": 18,
+      "abertura": "A pirarara tem dorso escuro, barriga clara e uma cauda vermelha que parece pintada à mão. É o bagre mais colorido da Amazônia, chega a mais de 1 metro e come tudo o que cabe na boca, inclusive fruta.\n",
+      "no_kaluana": "Ela fecha o andar dos peixes porque junta os dois mundos do Kaluanã: o nome vem do peixe e da arara, o pássaro do andar de cima. É a ponte entre a água e o céu.\n",
+      "historia": "O nome é tupi: pira, peixe, e arara, pela cor. A pirarara é um bagre de couro de cabeça larga e achatada, corpo robusto e nadadeiras alaranjadas. Vive nas bacias do Amazonas e do Orinoco, em rios, lagos e áreas alagadas.\n\nÉ onívora e oportunista. Come peixes, caranguejos, insetos e frutos que caem na água. Caça de noite, perto do fundo, e usa os barbilhões para encontrar comida.\n\nÉ um dos peixes de água doce mais conhecidos do mundo, por ser criado em aquários públicos e vendido no comércio de peixes ornamentais quando pequeno. Adulta, precisa de tanques enormes.\n",
+      "curiosidades": [
+        "A pirarara pode passar de 1,3 metro e de 50 quilos, com registros maiores.",
+        "Ela emite um som parecido com um ronco quando é retirada da água.",
+        "Pescadores amazônicos dizem que a carne escurece e não é das mais apreciadas. A pesca é mais esportiva que comercial.",
+        "Em aquários, a pirarara vive mais de 20 anos."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Phractocephalus hemioliopterus"
+        ],
+        [
+          "Família",
+          "Pimelodidae"
+        ],
+        [
+          "Tamanho",
+          "Até cerca de 1,3 m e 50 kg, com registros maiores"
+        ],
+        [
+          "Alimentação",
+          "Onívora: peixes, crustáceos, insetos e frutos"
+        ],
+        [
+          "Onde vive",
+          "Bacias do Amazonas e do Orinoco"
+        ],
+        [
+          "Hábito",
+          "Noturno, de fundo"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que o peixe se chama pirarara?",
+          "r": "Pelo nome tupi: pira é peixe e arara é a ave. A cauda vermelha e as nadadeiras alaranjadas lembram as cores da arara."
+        },
+        {
+          "p": "A pirarara é boa para comer?",
+          "r": "A carne escurece depois de cozida e não é muito valorizada na Amazônia. Ela é mais procurada na pesca esportiva e no aquarismo."
+        },
+        {
+          "p": "A pirarara vive em Rondônia?",
+          "r": "Sim. Ela ocorre em toda a bacia amazônica, inclusive no Madeira, no Guaporé e no Machado."
+        }
+      ],
+      "seo": {
+        "title": "Pirarara: o bagre de cauda vermelha | Kaluanã",
+        "description": "Pirarara (Phractocephalus hemioliopterus): cores, tamanho, alimentação e origem do nome. O tema do quarto 218 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "pirarara",
+          "phractocephalus hemioliopterus",
+          "bagre cauda vermelha",
+          "pirarara peixe",
+          "redtail catfish"
+        ],
+        "resposta": "A pirarara (Phractocephalus hemioliopterus) é um bagre de couro da Amazônia com cauda vermelha e nadadeiras alaranjadas. Onívora e noturna, passa de 1 metro e vive em rios e lagos das bacias do Amazonas e do Orinoco, inclusive em Rondônia. O nome tupi une peixe e arara.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Peixes/pirarara.jpg",
+          "uso": "hero",
+          "nota": "1200 x 902 px. Cauda vermelha em destaque. Resolução mediana."
+        },
+        {
+          "arquivo": "Peixes/pirarara 2.jpg",
+          "uso": "galeria",
+          "nota": "1200 x 666 px. Cabeça de frente com barbilhões."
+        }
+      ]
+    }
+  ]
+}

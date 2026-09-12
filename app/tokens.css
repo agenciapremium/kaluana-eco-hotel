@@ -1,0 +1,71 @@
+/* Gerado por scripts/build-tokens.ts a partir de lib/tokens.ts. Não editar à mão. */
+@theme {
+  --color-cafe: #552F22;
+  --color-salvia: #929777;
+  --color-bege: #ECE5DF;
+  --color-branco: #FFFFFF;
+  --color-preto: #101010;
+  --color-cafe-escuro: #4E2B1F;
+  --color-bege-escuro: #DED4CB;
+  --color-rios: #3E5C6B;
+  --color-peixes: #4F7A6B;
+  --color-arvores: #6B7A3E;
+  --color-aves: #8C6A3D;
+  --color-guardioes: #552F22;
+  --font-sans: var(--font-source-sans), 'Source Sans 3', system-ui, sans-serif;
+  --font-display: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-display: clamp(2.25rem, 1.2rem + 4.5vw, 5rem);
+  --text-title: clamp(1.75rem, 1rem + 2.6vw, 3.25rem);
+  --text-giant: clamp(3rem, 1rem + 9vw, 9rem);
+  --spacing-gutter: clamp(1rem, 4vw, 2.5rem);
+  --spacing-section: clamp(4rem, 9vw, 8rem);
+  --spacing-section-sm: clamp(2.5rem, 6vw, 5rem);
+  --spacing-measure: 38rem;
+  --spacing-container: 80rem;
+  --container-site: 80rem;
+  --container-measure: 38rem;
+  --ease-padrao: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-saida: cubic-bezier(0.55, 0, 1, 0.45);
+}
+
+:root {
+  --duration-short: 220ms;
+  --duration-medium: 500ms;
+  --duration-long: 900ms;
+  --duration-xlong: 1200ms;
+  --duration-xlong-max: 1800ms;
+  --duration-reduced: 150ms;
+  --duration-curtain-in: 400ms;
+  --duration-curtain-out: 500ms;
+  --duration-mask: 700ms;
+  --duration-accordion: 250ms;
+  --duration-stroke: 1200ms;
+  --duration-opening: 1800ms;
+  --duration-press: 100ms;
+  --duration-crossfade: 600ms;
+  --stagger-min: 40ms;
+  --stagger-word: 60ms;
+  --stagger-item: 60ms;
+  --stagger-max: 90ms;
+  --offset-min: 16px;
+  --offset-default: 20px;
+  --offset-max: 24px;
+  --parallax-max: 0.08;
+  --hover-scale: 1.03;
+  --hover-scale-max: 1.04;
+  --press-scale: 0.98;
+  --arrow-slide: 4px;
+  --veil-hero: 0.2;
+  --veil-hero-scrolled: 0.35;
+  --hero-video-fade: 0.15;
+}

@@ -19,6 +19,15 @@ npm run dev        # http://localhost:3000
 
 `NEXT_PUBLIC_SITE_PHASE=pre` publica a página de pré-inauguração. `full` publica o site completo.
 
+## QA
+
+```bash
+npm run check:copy                 # vetos de linguagem no conteúdo e no código
+PORT=3100 bash scripts/qa.sh pre   # build, servidor, capturas (Playwright) e Lighthouse
+npm run build:media                # imagens, vídeo do hero e abertura (local, precisa de ffmpeg)
+npm run build:audio                # loops de exemplo do som ambiente (local)
+```
+
 ## Documentação
 
 - `docs/etapas.md`: checklist de cada etapa

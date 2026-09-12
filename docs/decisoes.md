@@ -1,0 +1,48 @@
+# Decisões técnicas
+
+Registro das decisões que não estão no CLAUDE.md nem no documento mestre, com o motivo. Toda dependência nova entra aqui.
+
+## Etapa 1
+
+### Dependências
+
+| Pacote | Uso | Motivo |
+|---|---|---|
+| `next` 16.3 | Framework | App Router, TypeScript, geração estática. Versão estável no início da etapa (12/09/2026). |
+| `tailwindcss` 4 + `@tailwindcss/postcss` | Estilo | Tokens da marca em `@theme`, exigido pelo CLAUDE.md. |
+| `motion` 13 | Movimento | Biblioteca pedida no CLAUDE.md. Usada na cortina de transição e no `useInView` das entradas por interseção. |
+| `zod` 4 | Validação | Schemas dos YAML e dos formulários. |
+| `yaml` 2 | Pipeline de conteúdo | Leitura dos arquivos de DOCS/SITE/dados. |
+| `sharp` | Pipeline de imagens | WebP e AVIF em quatro larguras, posters, PNG da marca. |
+| `resend` | Formulários | Envio de e-mail das server actions, conforme CLAUDE.md. |
+| `tsx` (dev) | Scripts | Roda os scripts TypeScript de pipeline sem build. |
+| `playwright` (dev) | QA | Capturas de tela desktop e mobile. |
+| `lighthouse` (dev) | QA | Auditoria de desempenho, acessibilidade, boas práticas e SEO. |
+| `prettier` + `prettier-plugin-tailwindcss` (dev) | Formatação | Padrão de código. |
+
+### Arquitetura
+
+1. **Conteúdo e mídia versionados.** `content/*.json`, `public/media/` e `public/audio/` são gerados localmente (precisam de `../DOCS` e do ffmpeg) e entram no git. Na Vercel não existem DOCS nem ffmpeg: `build-content` detecta a ausência de DOCS e usa os JSON versionados; `build-media` e `build-audio` só rodam localmente. O `prebuild` roda só tokens e conteúdo.
+2. **Um arquivo de tokens.** `lib/tokens.ts` é a única fonte de cores, acentos, tipografia, espaçamento e movimento. `scripts/build-tokens.ts` gera `app/tokens.css` (o `@theme` do Tailwind) a partir dele. Componentes de movimento importam os mesmos valores do TS.
+3. **Movimento em CSS, disparado por JavaScript.** As entradas por interseção, o título palavra a palavra e o traço do símbolo são CSS puro, ligados pela classe `html.js` que um script inline põe antes da primeira pintura. Sem JavaScript, nada fica invisível (critério de aceite). O `motion` entra onde há estado: cortina de transição e `useInView`.
+4. **Abertura de sessão decidida antes da pintura.** O mesmo script inline decide `data-opening` no `html` (uma vez por sessão, nunca com movimento reduzido, nunca em `/universo` ou `/q/`). As fontes do vídeo só são anexadas quando a abertura toca, para não baixar 180 KB nas outras visitas. Formatos: WebM VP9 com alfa (Chrome, Firefox), HEVC com alfa (Safari) e MP4 H.264 sobre bege como último recurso.
+5. **Imagens em `<picture>` estático, não em `next/image`.** O pipeline já gera AVIF e WebP em 640, 1024, 1600 e 1920 px. Servir esses arquivos direto evita reprocessar na borda da Vercel (custo e latência) e mantém as dimensões declaradas (sem deslocamento de layout). `next/image` continua disponível para importações estáticas.
+6. **Faixas de andar com `grid-template-columns` animado.** A regra geral é animar só `opacity`, `transform` e `clip-path`. A expansão da faixa (20% para 40%) pedida no documento mestre não é possível só com transformações sem distorcer a foto; usa-se a transição de `grid-template-columns`, o mesmo mecanismo que o documento libera para acordeões (`grid-template-rows`). Só no desktop; no mobile são cards empilhados.
+7. **Kicker em café com traço sálvia.** Verde sálvia sobre bege fica em 2,6:1, abaixo dos 4,5:1 exigidos. O kicker usa a cor do texto corrente e um traço curto em sálvia como acento, preservando a regra da Parte 2.7.
+8. **Marrom da interface.** Os SVGs do logo horizontal usam #421C14; os demais, #552F22. Os componentes de marca (`components/brand/`) usam `currentColor`, e a interface usa só #552F22, como recomenda o documento mestre (1.7).
+9. **Logo horizontal reconstruída.** `logomarca_horicontal.svg` tem "ECO HOTEL" como texto vivo (depende da fonte Candara instalada). O cabeçalho usa `simbolo.svg` + `logotipo.svg`, ambos com o texto em curvas.
+10. **Página de formulário enviado (`/obrigado`).** O envio redireciona para uma página estática, o que funciona com e sem JavaScript e mantém a Home totalmente estática (sem `searchParams`). Ela fica com `noindex` e bloqueada no `robots.txt`, como a Parte 4.2 prevê para "páginas de formulário enviado". O evento `lead_pre_inauguracao` dispara nela, uma vez por sessão.
+11. **Limite por IP em memória.** O anti-spam usa honeypot mais 5 envios por IP a cada 10 minutos, guardados em memória da instância. Na Vercel isso vale por instância; é suficiente para o volume esperado e não exige serviço externo.
+12. **Prefetch só de rotas construídas.** `lib/routes.ts` lista as rotas existentes; `SiteLink` desliga o prefetch das demais para não gerar 404 no console enquanto as etapas seguintes não chegam.
+13. **Vídeo do hero.** O `BG - KALUAMÃ.mp4` original é vertical (1080 x 1920) e tem 2,5 s. O pipeline recorta o centro em 16:9, escala para 1280 x 720 e faz loop ida e volta até 14,8 s. Como o conteúdo é quase branco, o MP4 fica em 25 KB e o WebM em 22 KB. Decisão do responsável: manter na etapa 1; um loop novo no Higgsfield fica como opção.
+14. **FAQPage na pré-inauguração.** O bloco de SEO da 5.30 pede FAQPage com 3 perguntas, mas a copy da página não traz perguntas. Usam-se três da página Perguntas frequentes (5.25) que não têm campos pendentes: onde fica, quando abre e o que significa Kaluanã. Elas ficam visíveis na página, como a regra do schema exige.
+15. **Copy fora do documento mestre.** Marcada com `TODO(copy)` no código: banner de consentimento, página `/obrigado`, texto de apoio do formulário ("Seus dados ficam com o hotel."). Escritas no padrão do brandbook, a revisar.
+16. **Áudio com placeholders sintetizados.** Ver `registro-audio.md`. Sem licença de terceiros na etapa 1.
+17. **Página de teste `/dev/audio`.** Só existe em desenvolvimento (retorna 404 em produção). Serve para ouvir o `AmbientAudio` antes de o Universo existir.
+18. **Originais do Higgsfield em JPEG q92.** As saídas selecionadas chegam em PNG de 4 a 7 MB cada. Como só servem de origem para WebP e AVIF até 1920 px, ficam em `media-src/higgsfield/` como JPEG de qualidade 92 (250 a 900 KB), o que mantém o repositório leve para o clone da Vercel. As variações não selecionadas ficam na galeria da conta, identificadas por job no `registro-higgsfield.md`.
+19. **Máscara de entrada no primeiro filho.** Com `clip-path: inset(100% 0 0 0)` no próprio elemento observado, o IntersectionObserver do Chrome nunca o vê entrar na tela. A máscara vai no primeiro filho do elemento `data-reveal="mask"`.
+20. **Lighthouse e a abertura de sessão.** O Lighthouse mede sempre a primeira visita, com a abertura tocando. Três medidas mantiveram o desempenho mobile acima de 90 sem tirar a abertura: o vídeo é pedido só depois da primeira pintura (fora do grafo crítico do simulador), o motor do `motion` carrega sob demanda (`LazyMotion`) e as fontes ficaram em quatro arquivos estáticos (Source Sans 3 400 e 600, Cormorant 500 normal e itálico). O título palavra a palavra roda sob a cortina na primeira visita e aparece pronto quando ela sobe; nas navegações seguintes da sessão, sem abertura, ele entra animado.
+21. **Direção visual conceitual (pedido do responsável em 12/09/2026, referência resortkaskady.com).** A Home vira uma sequência de cenas em tela cheia: foto de fundo com véu café ou preto, título em Cormorant centralizado, molduras finas desenhadas por dentro de fotos e cards, cards emoldurados sobre cena. Os quatro andares viram painéis de 100svh empilhados com `position: sticky` (efeito de elevador sem sequestrar a rolagem). Fundos: atmosferas geradas no Higgsfield, sem espécie (as fotos do inventário, com licença ainda não confirmada, ficam em cards menores). O vídeo BG quase branco saiu do hero; a abertura com a logo continua. O `motion` segue como única biblioteca de animação; GSAP e anime.js foram avaliados e dispensados: fariam o mesmo com 70 KB a mais e um segundo sistema de animação.
+22. **Cabeçalho sobre a foto.** Sem JavaScript o cabeçalho é absoluto (rola com o hero, sem problema de contraste); com JavaScript é fixo, transparente em bege sobre o hero e sólido em bege claro ao rolar. Um script inline no hero marca `data-hero-page` no `html` antes da pintura.
+23. **Hero em foto e LCP.** A foto do hero é o LCP: entra com `fetchpriority="high"` e `<link rel="preload">` do AVIF (via `ReactDOM.preload`), em 640, 1024, 1600 e 1920 px.
+24. **`motion` pelas APIs leves, e parallax nativo em CSS.** O runtime React do `motion` (`m`, `LazyMotion`, `useScroll`) custava 46 KB comprimidos no bundle inicial mais 30 KB carregados depois, e derrubou o Lighthouse mobile para 90. A biblioteca continua em uso, mas pelas APIs sem React: `inView` (entradas por interseção) e `animate` de `motion/mini` (cortina de transição, por WAAPI). Parallax e a palavra em contorno usam animação nativa de rolagem em CSS (`animation-timeline: view()`), sem JavaScript; navegadores sem suporte mostram a foto parada. `overflow: clip` no lugar de `hidden` nas cenas, porque `hidden` cria contêiner de rolagem e quebraria o `view()`. JavaScript inicial: de 226 KB para 152 KB comprimidos.

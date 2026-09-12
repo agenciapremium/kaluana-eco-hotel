@@ -1,0 +1,702 @@
+{
+  "101": {
+    "uh": "101",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-amazonas",
+    "nome": "Rio Amazonas",
+    "url": "/universo/rios/rio-amazonas",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "102": {
+    "uh": "102",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-solimoes",
+    "nome": "Rio Solimões",
+    "url": "/universo/rios/rio-solimoes",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "103": {
+    "uh": "103",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-negro",
+    "nome": "Rio Negro",
+    "url": "/universo/rios/rio-negro",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "104": {
+    "uh": "104",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-madeira",
+    "nome": "Rio Madeira",
+    "url": "/universo/rios/rio-madeira",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "105": {
+    "uh": "105",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-guapore",
+    "nome": "Rio Guaporé",
+    "url": "/universo/rios/rio-guapore",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "106": {
+    "uh": "106",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-mamore",
+    "nome": "Rio Mamoré",
+    "url": "/universo/rios/rio-mamore",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "107": {
+    "uh": "107",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-tapajos",
+    "nome": "Rio Tapajós",
+    "url": "/universo/rios/rio-tapajos",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "108": {
+    "uh": "108",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-xingu",
+    "nome": "Rio Xingu",
+    "url": "/universo/rios/rio-xingu",
+    "categoria": "Superior Acessível",
+    "categoriaUrl": "/acomodacoes/superior-acessivel"
+  },
+  "109": {
+    "uh": "109",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-purus",
+    "nome": "Rio Purus",
+    "url": "/universo/rios/rio-purus",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "110": {
+    "uh": "110",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-jurua",
+    "nome": "Rio Juruá",
+    "url": "/universo/rios/rio-jurua",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "111": {
+    "uh": "111",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-jamari",
+    "nome": "Rio Jamari",
+    "url": "/universo/rios/rio-jamari",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "112": {
+    "uh": "112",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-machado",
+    "nome": "Rio Machado",
+    "url": "/universo/rios/rio-machado",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "113": {
+    "uh": "113",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-araguaia",
+    "nome": "Rio Araguaia",
+    "url": "/universo/rios/rio-araguaia",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "114": {
+    "uh": "114",
+    "grupo": "rios",
+    "andar": 1,
+    "slug": "rio-roosevelt",
+    "nome": "Rio Roosevelt",
+    "url": "/universo/rios/rio-roosevelt",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "201": {
+    "uh": "201",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "pirarucu",
+    "nome": "Pirarucu",
+    "url": "/universo/peixes/pirarucu",
+    "categoria": "Suíte Terraço Lateral Aberto",
+    "categoriaUrl": "/acomodacoes/suite-terraco-lateral-aberto"
+  },
+  "202": {
+    "uh": "202",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "tambaqui",
+    "nome": "Tambaqui",
+    "url": "/universo/peixes/tambaqui",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "203": {
+    "uh": "203",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "tucunare",
+    "nome": "Tucunaré",
+    "url": "/universo/peixes/tucunare",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "204": {
+    "uh": "204",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "surubim",
+    "nome": "Surubim",
+    "url": "/universo/peixes/surubim",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "205": {
+    "uh": "205",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "curimata",
+    "nome": "Curimatã",
+    "url": "/universo/peixes/curimata",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "206": {
+    "uh": "206",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "matrinxa",
+    "nome": "Matrinxã",
+    "url": "/universo/peixes/matrinxa",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "207": {
+    "uh": "207",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "bodo",
+    "nome": "Bodó",
+    "url": "/universo/peixes/bodo",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "208": {
+    "uh": "208",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "cachara",
+    "nome": "Cachara",
+    "url": "/universo/peixes/cachara",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "209": {
+    "uh": "209",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "jau",
+    "nome": "Jaú",
+    "url": "/universo/peixes/jau",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "210": {
+    "uh": "210",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "sardinha-da-amazonia",
+    "nome": "Sardinha-da-Amazônia",
+    "url": "/universo/peixes/sardinha-da-amazonia",
+    "categoria": "Superior Acessível",
+    "categoriaUrl": "/acomodacoes/superior-acessivel"
+  },
+  "211": {
+    "uh": "211",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "filhote",
+    "nome": "Filhote",
+    "url": "/universo/peixes/filhote",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "212": {
+    "uh": "212",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "curvina",
+    "nome": "Curvina",
+    "url": "/universo/peixes/curvina",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "213": {
+    "uh": "213",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "lambari",
+    "nome": "Lambari",
+    "url": "/universo/peixes/lambari",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "214": {
+    "uh": "214",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "piau",
+    "nome": "Piau",
+    "url": "/universo/peixes/piau",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "215": {
+    "uh": "215",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "pintado",
+    "nome": "Pintado",
+    "url": "/universo/peixes/pintado",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "216": {
+    "uh": "216",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "caparari",
+    "nome": "Caparari",
+    "url": "/universo/peixes/caparari",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "217": {
+    "uh": "217",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "poraque",
+    "nome": "Poraquê",
+    "url": "/universo/peixes/poraque",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "218": {
+    "uh": "218",
+    "grupo": "peixes",
+    "andar": 2,
+    "slug": "pirarara",
+    "nome": "Pirarara",
+    "url": "/universo/peixes/pirarara",
+    "categoria": "Superior Família com Terraço",
+    "categoriaUrl": "/acomodacoes/superior-familia-com-terraco"
+  },
+  "301": {
+    "uh": "301",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "samauma",
+    "nome": "Samaúma",
+    "url": "/universo/arvores/samauma",
+    "categoria": "Suíte Terraço Lateral Aberto",
+    "categoriaUrl": "/acomodacoes/suite-terraco-lateral-aberto"
+  },
+  "302": {
+    "uh": "302",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "castanheira",
+    "nome": "Castanheira",
+    "url": "/universo/arvores/castanheira",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "303": {
+    "uh": "303",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "copaiba",
+    "nome": "Copaíba",
+    "url": "/universo/arvores/copaiba",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "304": {
+    "uh": "304",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "andiroba",
+    "nome": "Andiroba",
+    "url": "/universo/arvores/andiroba",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "305": {
+    "uh": "305",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "acai",
+    "nome": "Açaí",
+    "url": "/universo/arvores/acai",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "306": {
+    "uh": "306",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "cumaru",
+    "nome": "Cumaru",
+    "url": "/universo/arvores/cumaru",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "307": {
+    "uh": "307",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "cedro",
+    "nome": "Cedro",
+    "url": "/universo/arvores/cedro",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "308": {
+    "uh": "308",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "mogno",
+    "nome": "Mogno",
+    "url": "/universo/arvores/mogno",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "309": {
+    "uh": "309",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "ipe",
+    "nome": "Ipê",
+    "url": "/universo/arvores/ipe",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "310": {
+    "uh": "310",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "jatoba",
+    "nome": "Jatobá",
+    "url": "/universo/arvores/jatoba",
+    "categoria": "Superior Acessível",
+    "categoriaUrl": "/acomodacoes/superior-acessivel"
+  },
+  "311": {
+    "uh": "311",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "bacaba",
+    "nome": "Bacaba",
+    "url": "/universo/arvores/bacaba",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "312": {
+    "uh": "312",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "tucuma",
+    "nome": "Tucumã",
+    "url": "/universo/arvores/tucuma",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "313": {
+    "uh": "313",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "angelim",
+    "nome": "Angelim",
+    "url": "/universo/arvores/angelim",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "314": {
+    "uh": "314",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "macaranduba",
+    "nome": "Maçaranduba",
+    "url": "/universo/arvores/macaranduba",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "315": {
+    "uh": "315",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "jenipapo",
+    "nome": "Jenipapo",
+    "url": "/universo/arvores/jenipapo",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "316": {
+    "uh": "316",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "itauba",
+    "nome": "Itaúba",
+    "url": "/universo/arvores/itauba",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "317": {
+    "uh": "317",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "seringueira",
+    "nome": "Seringueira",
+    "url": "/universo/arvores/seringueira",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "318": {
+    "uh": "318",
+    "grupo": "arvores",
+    "andar": 3,
+    "slug": "jequitiba",
+    "nome": "Jequitibá",
+    "url": "/universo/arvores/jequitiba",
+    "categoria": "Superior Família com Terraço",
+    "categoriaUrl": "/acomodacoes/superior-familia-com-terraco"
+  },
+  "401": {
+    "uh": "401",
+    "grupo": "guardioes",
+    "andar": 4,
+    "slug": "onca-pintada",
+    "nome": "Onça-pintada",
+    "url": "/universo/guardioes/onca-pintada",
+    "categoria": "Suíte Presidencial Onça-Pintada",
+    "categoriaUrl": "/acomodacoes/suite-presidencial-onca-pintada"
+  },
+  "402": {
+    "uh": "402",
+    "grupo": "guardioes",
+    "andar": 4,
+    "slug": "jaguatirica",
+    "nome": "Jaguatirica",
+    "url": "/universo/guardioes/jaguatirica",
+    "categoria": "Suíte Terraço Lateral Fechado",
+    "categoriaUrl": "/acomodacoes/suite-terraco-lateral-fechado"
+  },
+  "403": {
+    "uh": "403",
+    "grupo": "guardioes",
+    "andar": 4,
+    "slug": "jacare-acu",
+    "nome": "Jacaré-açu",
+    "url": "/universo/guardioes/jacare-acu",
+    "categoria": "Suíte Terraço Lateral Aberto",
+    "categoriaUrl": "/acomodacoes/suite-terraco-lateral-aberto"
+  },
+  "404": {
+    "uh": "404",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "arara",
+    "nome": "Arara",
+    "url": "/universo/aves/arara",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "405": {
+    "uh": "405",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "tucano",
+    "nome": "Tucano",
+    "url": "/universo/aves/tucano",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "406": {
+    "uh": "406",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "papagaio",
+    "nome": "Papagaio",
+    "url": "/universo/aves/papagaio",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "407": {
+    "uh": "407",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "gaviao-real",
+    "nome": "Gavião-real",
+    "url": "/universo/aves/gaviao-real",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "408": {
+    "uh": "408",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "uirapuru",
+    "nome": "Uirapuru",
+    "url": "/universo/aves/uirapuru",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "409": {
+    "uh": "409",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "beija-flor",
+    "nome": "Beija-flor",
+    "url": "/universo/aves/beija-flor",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "410": {
+    "uh": "410",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "garca",
+    "nome": "Garça",
+    "url": "/universo/aves/garca",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "411": {
+    "uh": "411",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "mutum",
+    "nome": "Mutum",
+    "url": "/universo/aves/mutum",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "412": {
+    "uh": "412",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "coruja",
+    "nome": "Coruja",
+    "url": "/universo/aves/coruja",
+    "categoria": "Superior Acessível",
+    "categoriaUrl": "/acomodacoes/superior-acessivel"
+  },
+  "413": {
+    "uh": "413",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "carcara",
+    "nome": "Carcará",
+    "url": "/universo/aves/carcara",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "414": {
+    "uh": "414",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "maracana",
+    "nome": "Maracanã",
+    "url": "/universo/aves/maracana",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "415": {
+    "uh": "415",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "anu-preto",
+    "nome": "Anu-preto",
+    "url": "/universo/aves/anu-preto",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "416": {
+    "uh": "416",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "tangara",
+    "nome": "Tangará",
+    "url": "/universo/aves/tangara",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "417": {
+    "uh": "417",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "colhereiro",
+    "nome": "Colhereiro",
+    "url": "/universo/aves/colhereiro",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "418": {
+    "uh": "418",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "curio",
+    "nome": "Curió",
+    "url": "/universo/aves/curio",
+    "categoria": "Duplo King",
+    "categoriaUrl": "/acomodacoes/duplo-king"
+  },
+  "419": {
+    "uh": "419",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "andorinha",
+    "nome": "Andorinha",
+    "url": "/universo/aves/andorinha",
+    "categoria": "Superior Família",
+    "categoriaUrl": "/acomodacoes/superior-familia"
+  },
+  "420": {
+    "uh": "420",
+    "grupo": "aves",
+    "andar": 4,
+    "slug": "cardeal-da-amazonia",
+    "nome": "Cardeal-da-Amazônia",
+    "url": "/universo/aves/cardeal-da-amazonia",
+    "categoria": "Superior Família com Terraço",
+    "categoriaUrl": "/acomodacoes/superior-familia-com-terraco"
+  }
+}

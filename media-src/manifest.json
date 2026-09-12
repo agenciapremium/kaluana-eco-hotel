@@ -1,0 +1,169 @@
+{
+  "$comment": "Manifesto dos originais de imagem. Caminhos relativos a ../DOCS ou a media-src/. O pipeline (scripts/build-media.ts) gera WebP e AVIF em 640, 1024, 1600 e 1920 px em public/media/<grupo>/<slug>-<largura>.<ext>, sem ampliar além do original.",
+  "imagens": [
+    {
+      "grupo": "andares",
+      "slug": "rio-machado",
+      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO MACHADO 4.jpg",
+      "alt": "Rio Machado, proa de barco na água em Ji-Paraná",
+      "uso": "Faixa do andar dos rios na Home",
+      "crop": "1:1"
+    },
+    {
+      "grupo": "andares",
+      "slug": "jau",
+      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Jau 2.jpg",
+      "alt": "Jaú, bagre de couro visto de lado",
+      "uso": "Faixa do andar dos peixes na Home",
+      "crop": "1:1"
+    },
+    {
+      "grupo": "andares",
+      "slug": "samauma",
+      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Samauma 2.jpeg",
+      "alt": "Samaúma, tronco e sapopemas vistos de baixo",
+      "uso": "Faixa do andar das árvores na Home",
+      "crop": "1:1"
+    },
+    {
+      "grupo": "andares",
+      "slug": "coruja",
+      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/coruja.jpg",
+      "alt": "Coruja-buraqueira de frente, pousada em tronco",
+      "uso": "Faixa do andar das aves na Home",
+      "crop": "1:1"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "maos-no-balcao",
+      "src": "media-src/higgsfield/maos-no-balcao.jpg",
+      "alt": "Mãos sobre um balcão de madeira, uma delas com uma chave",
+      "uso": "Card Chegou cansado, na Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "mesa-com-cafe",
+      "src": "media-src/higgsfield/mesa-com-cafe.jpg",
+      "alt": "Mesa de madeira com notebook fechado, caneca de café e bloco de notas",
+      "uso": "Card Precisa produzir, na Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "cadeira-na-varanda",
+      "src": "media-src/higgsfield/cadeira-na-varanda.jpg",
+      "alt": "Cadeira de madeira com almofada de linho, folhagem ao fundo",
+      "uso": "Card Precisa parar, na Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "textura-madeira",
+      "src": "media-src/higgsfield/textura-madeira.jpg",
+      "alt": "Superfície de madeira escura com um feixe de luz de janela",
+      "uso": "Reserva para as próximas etapas",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "textura-terra",
+      "src": "media-src/higgsfield/textura-terra.jpg",
+      "alt": "Terra vermelha seca, rachada, com folhas caídas",
+      "uso": "Fundo da chamada final da Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "luz-de-janela",
+      "src": "media-src/higgsfield/luz-de-janela.jpg",
+      "alt": "Tecido de linho bege com luz suave de janela",
+      "uso": "Reserva para as próximas etapas",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "prato-de-peixe",
+      "src": "media-src/higgsfield/prato-de-peixe.jpg",
+      "alt": "Peixe grelhado em prato de cerâmica com farofa, vinagrete e limão",
+      "uso": "Seção Restaurante da Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "detalhes",
+      "slug": "maos-na-obra",
+      "src": "media-src/higgsfield/maos-na-obra.jpg",
+      "alt": "Mãos segurando um punhado de terra vermelha, folhas ao fundo",
+      "uso": "Seção Histórias da Home completa",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "atmosfera",
+      "slug": "rio-amanhecer",
+      "src": "media-src/higgsfield/rio-amanhecer.jpg",
+      "alt": "Rio amazônico ao amanhecer, com névoa baixa sobre a água e mata escura nas margens",
+      "uso": "Hero das duas fases",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "atmosfera",
+      "slug": "rio-mata",
+      "src": "media-src/higgsfield/rio-mata.jpg",
+      "alt": "Curva de rio dentro da mata, água parada refletindo as árvores, névoa fina",
+      "uso": "Painel do andar dos rios",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "atmosfera",
+      "slug": "agua-corrente",
+      "src": "media-src/higgsfield/agua-corrente.jpg",
+      "alt": "Raios de luz entrando em água escura de rio, partículas e raízes ao fundo",
+      "uso": "Painel do andar dos peixes",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "atmosfera",
+      "slug": "copa-mata",
+      "src": "media-src/higgsfield/copa-mata.jpg",
+      "alt": "Copa da mata vista de baixo, troncos altos convergindo e luz entre as folhas",
+      "uso": "Painel do andar das árvores",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "atmosfera",
+      "slug": "ceu-entardecer",
+      "src": "media-src/higgsfield/ceu-entardecer.jpg",
+      "alt": "Céu de entardecer sobre a linha escura da mata, do ocre ao azul-cinza",
+      "uso": "Painel do andar das aves",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "atmosfera",
+      "slug": "nevoa-mata",
+      "src": "media-src/higgsfield/nevoa-mata.jpg",
+      "alt": "Névoa entre troncos escuros na mata, com um brilho quente baixo no horizonte",
+      "uso": "Cena O nome, nas duas fases",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "atmosfera",
+      "slug": "estrada-terra",
+      "src": "media-src/higgsfield/estrada-terra.jpg",
+      "alt": "Estrada de terra vermelha reta entre a mata, luz de fim de tarde",
+      "uso": "Cena Ji-Paraná (full) e Empresas (pre)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    }
+  ],
+  "videos": [
+    {
+      "slug": "hero-bg",
+      "src": "DOCS/LOGO/ANIMADA/BG - KALUAMÃ.mp4",
+      "uso": "Vídeo de fundo do hero. Original vertical de 2,5 s: recorte central 16:9, loop ida e volta até 12 s, 1280 px, sem áudio, MP4 e WebM até 2 MB, poster WebP."
+    }
+  ],
+  "abertura": {
+    "slug": "abertura",
+    "src": "DOCS/LOGO/ANIMADA/LOGO ANIMADA.mov",
+    "uso": "Abertura de sessão. Master com alfa: WebM VP9 com alfa e MP4 H.264 sobre bege, acelerado para caber em 1,8 s, poster WebP."
+  }
+}

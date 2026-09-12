@@ -1,0 +1,1092 @@
+{
+  "grupo": "rios",
+  "nome_grupo": "Andar dos Rios",
+  "andar": 1,
+  "cor": "#3E5C6B",
+  "intro_grupo": "O primeiro andar do Kaluanã leva o nome de catorze rios. Alguns você já conhece de nome, como o Amazonas e o Negro. Outros nascem e terminam aqui perto, como o Machado, que corta Ji-Paraná, e o Jamari. Todos contam a mesma história por caminhos diferentes: a água que passa por Rondônia é a água que forma a Amazônia.\n",
+  "itens": [
+    {
+      "id": "rio-amazonas",
+      "nome": "Rio Amazonas",
+      "subtitulo": "O maior rio do mundo em volume de água",
+      "uh": "101",
+      "quarto": 1,
+      "abertura": "Você dorme no quarto que leva o nome do maior rio do planeta. Nenhum outro carrega tanta água. Cerca de um quinto de toda a água doce que chega aos oceanos passa por ele.\n",
+      "no_kaluana": "O primeiro andar do Kaluanã é o andar dos rios. O Amazonas abre a sequência porque dá nome a tudo o que está ao redor: a floresta, a bacia, a região. Quase todos os outros rios deste andar correm para ele. O Machado, que passa por Ji-Paraná, chega ao Madeira e o Madeira chega ao Amazonas. A água daqui termina lá.\n",
+      "historia": "O Amazonas nasce nos Andes peruanos, a mais de 5 mil metros de altitude, e atravessa o continente de oeste para leste. No Brasil ele muda de nome no caminho. Da fronteira com o Peru até Manaus se chama Solimões. A partir do encontro com o rio Negro, em frente a Manaus, passa a se chamar Amazonas.\n\nO nome vem de 1542. O espanhol Francisco de Orellana desceu o rio inteiro e contou ter enfrentado mulheres guerreiras nas margens. A referência às amazonas da mitologia grega ficou no mapa.\n\nNa foz, entre o Pará e o Amapá, o rio se abre em centenas de quilômetros de largura e forma a ilha de Marajó. Navios de grande porte sobem o rio até Manaus, a 1.500 quilômetros do mar. Em toda a sua extensão não existe uma única ponte cruzando o Amazonas.\n",
+      "curiosidades": [
+        "A vazão média fica perto de 200 mil metros cúbicos por segundo. É mais água do que os sete rios seguintes do ranking mundial somados.",
+        "Na cheia, em alguns trechos, a margem oposta desaparece no horizonte. O rio chega a dezenas de quilômetros de largura.",
+        "A pororoca é o encontro da maré do Atlântico com a correnteza do rio. A onda sobe o rio por quilômetros e chega a ser surfada.",
+        "O boto-cor-de-rosa vive aqui. Ele é um golfinho de água doce e aparece nas lendas de quase todas as comunidades ribeirinhas.",
+        "O Amazonas descarrega no oceano uma pluma de água doce que pode ser percebida a mais de 100 quilômetros da costa."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Andes peruanos"
+        ],
+        [
+          "Foz",
+          "Oceano Atlântico, entre Pará e Amapá"
+        ],
+        [
+          "Extensão",
+          "Entre 6.400 e 7.000 km, conforme o critério de medição"
+        ],
+        [
+          "Vazão média",
+          "Cerca de 200 mil m³ por segundo"
+        ],
+        [
+          "Tipo de água",
+          "Branca, rica em sedimentos"
+        ],
+        [
+          "Países",
+          "Peru, Colômbia e Brasil"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde nasce o rio Amazonas?",
+          "r": "Nos Andes peruanos, em nascentes de altitude que formam rios como o Ucayali e o Marañón. A partir dali a água desce até a planície e cruza o Brasil até o Atlântico."
+        },
+        {
+          "p": "Por que o Amazonas é considerado o maior rio do mundo?",
+          "r": "Pelo volume de água. Nenhum rio despeja tanta água doce no oceano. Em extensão, ele disputa o primeiro lugar com o Nilo, e o resultado depende de onde se marca a nascente."
+        },
+        {
+          "p": "O rio Amazonas passa por Rondônia?",
+          "r": "Não diretamente. Rondônia fica na bacia do rio Madeira, o maior afluente do Amazonas. A água que passa por Ji-Paraná pelo rio Machado chega ao Madeira e depois ao Amazonas."
+        }
+      ],
+      "seo": {
+        "title": "Rio Amazonas: o maior rio do mundo | Kaluanã",
+        "description": "Nascente, extensão, vazão e curiosidades do rio Amazonas, o rio que dá nome ao quarto 101 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "rio amazonas",
+          "maior rio do mundo",
+          "nascente do rio amazonas",
+          "vazão do rio amazonas",
+          "encontro das águas"
+        ],
+        "resposta": "O rio Amazonas é o maior rio do mundo em volume de água. Nasce nos Andes peruanos, cruza o Brasil de oeste para leste e deságua no Atlântico entre o Pará e o Amapá. No Brasil, o trecho entre a fronteira com o Peru e Manaus se chama Solimões.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO AMAZONAS 4.jpg",
+          "uso": "hero",
+          "nota": "5464 x 3640 px. Aérea com bancos de areia. Apta para hero em qualquer tela."
+        },
+        {
+          "arquivo": "RIOS/RIO AMAZONAS 5.jpg",
+          "uso": "galeria",
+          "nota": "1800 x 1150 px. Aérea com curva e floresta."
+        },
+        {
+          "arquivo": "RIOS/RIO AMAZONAS.jpg",
+          "uso": "galeria",
+          "nota": "1920 x 1080 px. Meandro visto de cima."
+        }
+      ]
+    },
+    {
+      "id": "rio-solimoes",
+      "nome": "Rio Solimões",
+      "subtitulo": "O Amazonas antes de Manaus",
+      "uh": "102",
+      "quarto": 2,
+      "abertura": "No Brasil, o Amazonas tem dois nomes. Da fronteira com o Peru até Manaus, ele se chama Solimões. É o mesmo rio, com água barrenta e cheia de sedimentos que desceram dos Andes.\n",
+      "no_kaluana": "O Solimões está ao lado do Amazonas neste andar porque os dois são um só. Colocar os dois nomes em quartos vizinhos é uma forma de contar isso a quem chega. Quem dorme aqui dorme no trecho do rio que fertiliza as várzeas e alimenta as maiores populações de peixes da Amazônia.\n",
+      "historia": "O nome Solimões vem do período colonial e remete a povos que habitavam as margens do rio. Ele vale por cerca de 1.600 quilômetros dentro do Brasil, de Tabatinga, na tríplice fronteira com Peru e Colômbia, até Manaus.\n\nA água do Solimões é chamada de água branca. Ela carrega argila e minerais que vêm dos Andes e, a cada cheia, deposita esse material nas margens. É isso que torna as várzeas do Solimões tão férteis e tão importantes para a pesca.\n\nA poucos quilômetros de Manaus acontece o Encontro das Águas. O Solimões, barrento, corre ao lado do rio Negro, escuro, por vários quilômetros sem se misturar. A partir desse ponto o rio passa a se chamar Amazonas.\n",
+      "curiosidades": [
+        "No Encontro das Águas, o Solimões é mais frio, mais denso e mais rápido que o Negro. É essa diferença que faz as duas águas correrem lado a lado sem se misturar.",
+        "A Reserva Mamirauá, no encontro do Solimões com o Japurá, é a maior área protegida de várzea do Brasil. Foi lá que o manejo comunitário recuperou o pirarucu.",
+        "Cidades como Tefé, Coari e Manacapuru vivem do rio. A cheia e a seca ditam o calendário de pesca, plantio e transporte.",
+        "O barranco das margens cede na cheia. Os ribeirinhos chamam o fenômeno de terra caída."
+      ],
+      "ficha": [
+        [
+          "Trecho",
+          "Da tríplice fronteira (Tabatinga) até Manaus"
+        ],
+        [
+          "Extensão do trecho",
+          "Cerca de 1.600 km"
+        ],
+        [
+          "Tipo de água",
+          "Branca, barrenta"
+        ],
+        [
+          "Principais afluentes",
+          "Içá, Japurá, Juruá, Purus"
+        ],
+        [
+          "Encontro das Águas",
+          "Cerca de 10 km de Manaus"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Solimões e Amazonas são o mesmo rio?",
+          "r": "Sim. Solimões é o nome que o rio Amazonas recebe no Brasil entre a fronteira com o Peru e Manaus. Depois do encontro com o rio Negro ele passa a se chamar Amazonas."
+        },
+        {
+          "p": "Por que as águas do Solimões e do Negro não se misturam?",
+          "r": "Por diferenças de temperatura, velocidade e densidade. O Solimões é mais frio, mais rápido e carrega sedimentos. O Negro é mais quente e mais lento. As duas águas correm lado a lado por quilômetros antes de se misturar."
+        },
+        {
+          "p": "Onde fica o Encontro das Águas?",
+          "r": "Em frente a Manaus, no Amazonas. É um dos passeios mais procurados da cidade e pode ser visto de barco ou do alto."
+        }
+      ],
+      "seo": {
+        "title": "Rio Solimões: o Amazonas antes de Manaus | Kaluanã",
+        "description": "O que é o rio Solimões, por que ele muda de nome em Manaus e como funciona o Encontro das Águas. O tema do quarto 102 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "rio solimões",
+          "encontro das águas",
+          "solimões e amazonas",
+          "várzea amazônica"
+        ],
+        "resposta": "O rio Solimões é o nome do rio Amazonas no trecho brasileiro entre a fronteira com o Peru, em Tabatinga, e Manaus. Ali ele encontra o rio Negro e passa a se chamar Amazonas. Tem água branca, rica em sedimentos dos Andes.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO SOLIMÕES (ENCONTRO).jpg",
+          "uso": "hero",
+          "nota": "1080 x 720 px. Encontro das Águas visto de cima. Resolução limita o uso em telas grandes; buscar versão maior."
+        },
+        {
+          "arquivo": "RIOS/Rio Solimões.jpg.jpeg",
+          "uso": "galeria",
+          "nota": "2000 x 1333 px. Aérea com banco de areia. Renomear o arquivo (extensão duplicada)."
+        }
+      ]
+    },
+    {
+      "id": "rio-negro",
+      "nome": "Rio Negro",
+      "subtitulo": "O maior rio de água preta do mundo",
+      "uh": "103",
+      "quarto": 3,
+      "abertura": "A água do Negro parece chá forte. A cor vem das folhas e raízes que se decompõem na floresta e liberam ácidos na água. É por isso que ele tem poucos mosquitos e quase nenhum sedimento.\n",
+      "no_kaluana": "O Negro fecha a trinca dos rios de Manaus neste andar. Amazonas, Solimões e Negro estão em quartos vizinhos de propósito. Quem entende os três entende como a Amazônia se organiza: água branca dos Andes, água preta da floresta e o encontro das duas.\n",
+      "historia": "O rio Negro nasce na Colômbia, onde se chama Guainía, marca um trecho da fronteira com a Venezuela e entra no Brasil pelo Amazonas. Somando o trecho colombiano, tem mais de 2 mil quilômetros.\n\nSua água é ácida e pobre em nutrientes. Isso limita a quantidade de peixes grandes, mas cria o ambiente perfeito para peixes ornamentais como o cardinal, exportado a partir de Barcelos para aquários do mundo inteiro.\n\nNo meio do rio ficam dois dos maiores arquipélagos fluviais do planeta: Mariuá, perto de Barcelos, e Anavilhanas, perto de Novo Airão. Anavilhanas é Parque Nacional e reúne centenas de ilhas que somem e aparecem conforme o nível da água.\n\nManaus fica na margem esquerda do Negro. A ponte que liga a cidade a Iranduba, inaugurada em 2011, tem mais de 3 quilômetros e é uma das poucas pontes sobre os grandes rios da Amazônia.\n",
+      "curiosidades": [
+        "A acidez da água, com pH parecido com o de um suco de laranja, impede a proliferação de larvas de mosquito. Navegar no Negro é navegar sem picadas.",
+        "Nas praias de água escura de Manaus, como Ponta Negra, a areia é clara e a água é morna.",
+        "Na seca, o Negro chega a baixar mais de 10 metros em relação ao nível da cheia. As marcas ficam nas rochas do porto de Manaus.",
+        "São Gabriel da Cachoeira, no alto rio Negro, é o município mais indígena do Brasil. Ali se falam dezenas de línguas."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Colômbia, como rio Guainía"
+        ],
+        [
+          "Foz",
+          "Rio Solimões, em Manaus, formando o Amazonas"
+        ],
+        [
+          "Extensão",
+          "Mais de 2.000 km, incluindo o trecho colombiano"
+        ],
+        [
+          "Tipo de água",
+          "Preta, ácida, pobre em sedimentos"
+        ],
+        [
+          "Cidades",
+          "São Gabriel da Cachoeira, Barcelos, Novo Airão, Manaus"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que a água do rio Negro é escura?",
+          "r": "Porque ela carrega matéria orgânica dissolvida. Folhas, raízes e troncos se decompõem na floresta alagada e liberam ácidos que tingem a água de marrom escuro, quase preto."
+        },
+        {
+          "p": "O rio Negro tem mosquitos?",
+          "r": "Muito menos que os rios de água branca. A acidez da água dificulta a vida das larvas. É um dos motivos de o turismo de barco ser tão forte nele."
+        },
+        {
+          "p": "Dá para nadar no rio Negro?",
+          "r": "Sim. Manaus e Novo Airão têm praias fluviais de água escura e morna. Ponta Negra, em Manaus, é a mais conhecida."
+        }
+      ],
+      "seo": {
+        "title": "Rio Negro: o rio de água preta da Amazônia | Kaluanã",
+        "description": "Por que o rio Negro é escuro, onde ele nasce, o que é Anavilhanas e por que ele tem poucos mosquitos. O tema do quarto 103 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "rio negro",
+          "água preta",
+          "anavilhanas",
+          "rio negro manaus",
+          "por que o rio negro é escuro"
+        ],
+        "resposta": "O rio Negro é o maior rio de água preta do mundo. Nasce na Colômbia, atravessa o Amazonas e encontra o Solimões em Manaus, formando o rio Amazonas. Sua cor vem da matéria orgânica dissolvida, que deixa a água ácida e com poucos mosquitos.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO NEGRO 2.jpg",
+          "uso": "hero",
+          "nota": "964 x 640 px. Ilhas de Anavilhanas vistas do alto. Resolução baixa para hero; buscar versão maior ou aérea própria."
+        },
+        {
+          "arquivo": "RIOS/RIO NEGRO 3.jpg",
+          "uso": "galeria",
+          "nota": "538 x 336 px. Pôr do sol com a ponte. Baixa resolução, usar só em miniatura."
+        }
+      ]
+    },
+    {
+      "id": "rio-madeira",
+      "nome": "Rio Madeira",
+      "subtitulo": "O rio de Rondônia",
+      "uh": "104",
+      "quarto": 4,
+      "abertura": "Toda a água que passa por Ji-Paraná chega ao Madeira. Ele é o maior afluente do Amazonas e o rio que organiza a vida de Rondônia. Porto Velho, a capital, nasceu na sua margem.\n",
+      "no_kaluana": "Se o andar dos rios tem um rio da casa, é este. O Machado, o Jamari, o Guaporé e o Mamoré, todos vizinhos de corredor, terminam no Madeira. Ele é o rio que liga Rondônia ao resto da Amazônia e ao mundo.\n",
+      "historia": "O Madeira nasce do encontro de dois rios que vêm da Bolívia, o Mamoré e o Beni, na fronteira com Rondônia. Dali segue para o nordeste, passa por Porto Velho e deságua no Amazonas, a leste de Manaus.\n\nO nome vem dos troncos. Na cheia, o rio arrasta uma quantidade enorme de madeira arrancada das margens. Os primeiros navegadores portugueses batizaram o rio pelo que viam boiar.\n\nEle carrega mais sedimento que quase qualquer outro rio do mundo. Essa carga vem dos Andes e dá ao Madeira a cor de barro que ele mantém até o Amazonas.\n\nAs cachoeiras do trecho entre Porto Velho e Guajará-Mirim impediam a navegação. Foi para contorná-las que se construiu a Estrada de Ferro Madeira-Mamoré, entre 1907 e 1912. Hoje, no mesmo trecho, ficam as usinas de Santo Antônio e Jirau.\n",
+      "curiosidades": [
+        "O Madeira é o principal corredor de transporte de Rondônia. A soja que sai de Porto Velho desce o rio de balsa até Itacoatiara e segue para o porto.",
+        "Em 2014 o rio registrou a maior cheia da história de Porto Velho. Dez anos depois, viveu uma das secas mais severas já medidas.",
+        "Somando os rios que o formam, o sistema Madeira-Mamoré-Grande passa de 3 mil quilômetros. É um dos maiores sistemas fluviais do mundo.",
+        "Grandes bagres migradores como a dourada e a piraíba sobem o Madeira para desovar. É uma das migrações de peixes de água doce mais longas que se conhece."
+      ],
+      "ficha": [
+        [
+          "Formação",
+          "Encontro dos rios Mamoré e Beni, na fronteira com a Bolívia"
+        ],
+        [
+          "Foz",
+          "Rio Amazonas, a leste de Manaus"
+        ],
+        [
+          "Extensão",
+          "Cerca de 1.450 km como Madeira; mais de 3.000 km com os formadores"
+        ],
+        [
+          "Tipo de água",
+          "Branca, com carga altíssima de sedimentos"
+        ],
+        [
+          "Cidades",
+          "Nova Mamoré, Porto Velho, Humaitá, Manicoré, Borba"
+        ],
+        [
+          "Afluentes rondonienses",
+          "Jamari, Machado (Ji-Paraná), Aripuanã"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que o rio se chama Madeira?",
+          "r": "Por causa dos troncos e galhos que ele arrasta na cheia. Os primeiros navegadores viram tanta madeira boiando que o nome ficou."
+        },
+        {
+          "p": "Onde o rio Madeira nasce?",
+          "r": "No encontro dos rios Mamoré e Beni, que descem dos Andes bolivianos e se juntam na fronteira com Rondônia, perto de Nova Mamoré."
+        },
+        {
+          "p": "O rio Madeira passa por Ji-Paraná?",
+          "r": "Não. O rio de Ji-Paraná é o Machado, que corre para o norte e deságua no Madeira em Calama, distrito de Porto Velho."
+        }
+      ],
+      "seo": {
+        "title": "Rio Madeira: o maior afluente do Amazonas | Kaluanã",
+        "description": "Onde nasce o rio Madeira, por que ele tem esse nome e como ele liga Rondônia à Amazônia. O tema do quarto 104 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "rio madeira",
+          "rio madeira rondônia",
+          "maior afluente do amazonas",
+          "porto velho rio madeira",
+          "madeira-mamoré"
+        ],
+        "resposta": "O rio Madeira é o maior afluente do Amazonas e o principal rio de Rondônia. Nasce do encontro dos rios Mamoré e Beni, na fronteira com a Bolívia, passa por Porto Velho e deságua no Amazonas a leste de Manaus. Recebe os rios Jamari e Machado, que cruzam o interior do estado.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO MADEIRA 2.jpg",
+          "uso": "hero",
+          "nota": "1600 x 900 px. Entardecer com canoa. Apta para hero em telas médias."
+        },
+        {
+          "arquivo": "RIOS/RIO MADEIRA 3.jpg",
+          "uso": "galeria",
+          "nota": "960 x 540 px. Margem com floresta."
+        }
+      ]
+    },
+    {
+      "id": "rio-guapore",
+      "nome": "Rio Guaporé",
+      "subtitulo": "A fronteira de água entre Brasil e Bolívia",
+      "uh": "105",
+      "quarto": 5,
+      "abertura": "O Guaporé corre devagar e tem água clara. Por centenas de quilômetros, uma margem é Brasil e a outra é Bolívia. Do lado de lá, ele se chama Iténez.\n",
+      "no_kaluana": "Rondônia tem um vale inteiro com o nome deste rio. O Vale do Guaporé guarda o forte mais antigo do estado, os quilombos, o pantanal rondoniense e uma das águas mais limpas da Amazônia. É um rio de Rondônia, e por isso está aqui.\n",
+      "historia": "O Guaporé nasce na Chapada dos Parecis, em Mato Grosso, e desce para o oeste até virar fronteira. Passa por Vila Bela da Santíssima Trindade, a primeira capital de Mato Grosso, e entra em Rondônia já dividindo os dois países.\n\nNo século XVIII ele foi rota do ouro e linha de defesa. Para marcar a posse portuguesa, a Coroa construiu o Real Forte Príncipe da Beira, em Costa Marques, entre 1776 e 1783. É a maior fortificação portuguesa da Amazônia e ainda está de pé.\n\nNa margem brasileira ficam a Reserva Biológica do Guaporé e o Pantanal do Guaporé, uma planície alagável que lembra o Pantanal mato-grossense. Comunidades quilombolas como Santo Antônio do Guaporé e Forte Príncipe vivem ali desde o período colonial.\n\nO Guaporé termina no Mamoré, que segue para formar o Madeira.\n",
+      "curiosidades": [
+        "A água é tão clara que, em alguns trechos, dá para ver o fundo a vários metros.",
+        "Pirarucu, tucunaré e pintado vivem no rio. A pesca esportiva é uma das principais atividades da região de Costa Marques e Pimenteiras.",
+        "Vila Bela, na margem mato-grossense, guarda uma das culturas afro-brasileiras mais preservadas do Centro-Oeste, com festas que atravessam séculos.",
+        "O forte foi erguido com pedras cortadas no local e nunca entrou em combate."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Chapada dos Parecis, Mato Grosso"
+        ],
+        [
+          "Foz",
+          "Rio Mamoré, em Rondônia"
+        ],
+        [
+          "Extensão",
+          "Cerca de 1.500 km"
+        ],
+        [
+          "Tipo de água",
+          "Clara"
+        ],
+        [
+          "Fronteira",
+          "Brasil e Bolívia por centenas de quilômetros"
+        ],
+        [
+          "Cidades",
+          "Vila Bela da Santíssima Trindade, Pimenteiras do Oeste, Costa Marques"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde fica o rio Guaporé?",
+          "r": "Entre Mato Grosso e Rondônia, no Brasil, e o departamento de Beni, na Bolívia. Ele forma a fronteira entre os dois países até encontrar o rio Mamoré."
+        },
+        {
+          "p": "O que é o Forte Príncipe da Beira?",
+          "r": "Uma fortaleza portuguesa construída no século XVIII, em Costa Marques, Rondônia, para proteger a fronteira com os domínios espanhóis. É a maior fortificação da Amazônia e é tombada como patrimônio nacional."
+        },
+        {
+          "p": "Dá para pescar no rio Guaporé?",
+          "r": "Sim, com respeito às regras de proteção e ao período de defeso. A região é conhecida pela pesca esportiva de tucunaré e pintado."
+        }
+      ],
+      "seo": {
+        "title": "Rio Guaporé: a fronteira de água de Rondônia | Kaluanã",
+        "description": "Rio Guaporé: nascente, forte Príncipe da Beira, Vale do Guaporé e a fronteira entre Brasil e Bolívia. O tema do quarto 105 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "rio guaporé",
+          "vale do guaporé",
+          "forte príncipe da beira",
+          "guaporé rondônia",
+          "fronteira brasil bolívia"
+        ],
+        "resposta": "O rio Guaporé nasce em Mato Grosso, forma a fronteira entre Brasil e Bolívia ao longo de Rondônia e deságua no rio Mamoré. Tem água clara, abriga o Forte Príncipe da Beira e o Pantanal do Guaporé e dá nome a uma das regiões mais preservadas do estado.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/Rio Guaporé.jpg",
+          "uso": "hero",
+          "nota": "1780 x 1076 px. Vista elevada do rio entre morros."
+        },
+        {
+          "arquivo": "RIOS/RIO GUAPORE 2.jpg",
+          "uso": "galeria",
+          "nota": "1056 x 616 px. Reflexo da floresta na água parada."
+        }
+      ]
+    },
+    {
+      "id": "rio-mamore",
+      "nome": "Rio Mamoré",
+      "subtitulo": "O rio que virou trilho",
+      "uh": "106",
+      "quarto": 6,
+      "abertura": "O Mamoré desce dos Andes bolivianos e chega a Rondônia em Guajará-Mirim. Do outro lado da água, Guayaramerín. Foi para vencer as cachoeiras deste rio e do Madeira que se construiu a Estrada de Ferro Madeira-Mamoré.\n",
+      "no_kaluana": "O Mamoré é o pai do Madeira. Quando ele encontra o Beni, nasce o maior afluente do Amazonas. Ele está neste andar porque a história de Rondônia começa com ele: a ferrovia, os seringais e a fronteira viva com a Bolívia.\n",
+      "historia": "O Mamoré nasce nas encostas dos Andes, no centro da Bolívia, e corre para o norte por quase 2 mil quilômetros. Recebe o Guaporé e, a partir daí, passa a dividir Brasil e Bolívia. Em Guajará-Mirim, a cidade brasileira e a boliviana se olham de uma margem à outra.\n\nNo início do século XX, a borracha da Bolívia precisava de um caminho até o Atlântico. As cachoeiras do Mamoré e do Madeira tornavam a navegação impossível. O Tratado de Petrópolis, de 1903, que incorporou o Acre ao Brasil, também comprometeu o país a construir uma ferrovia.\n\nA Estrada de Ferro Madeira-Mamoré foi aberta em 1912, ligando Porto Velho a Guajará-Mirim. Milhares de trabalhadores de dezenas de países morreram na obra, por malária e febre amarela. A ferrovia ficou conhecida como ferrovia do diabo. Porto Velho e Guajará-Mirim nasceram dela.\n\nPouco depois de Guajará-Mirim, o Mamoré encontra o Beni e forma o rio Madeira.\n",
+      "curiosidades": [
+        "Guajará-Mirim é chamada de Pérola do Mamoré. A travessia de barco até Guayaramerín leva poucos minutos.",
+        "A ferrovia foi desativada nos anos 1970. Um trecho curto voltou a funcionar em Porto Velho como passeio turístico e memória da cidade.",
+        "Bagres gigantes, tucunarés e pacus são pescados no rio pelas comunidades das duas margens.",
+        "Na estação chuvosa o Mamoré alaga grandes planícies bolivianas. Na seca, expõe praias de areia."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Andes bolivianos, região de Cochabamba"
+        ],
+        [
+          "Foz",
+          "Encontro com o rio Beni, formando o Madeira"
+        ],
+        [
+          "Extensão",
+          "Cerca de 1.900 km"
+        ],
+        [
+          "Tipo de água",
+          "Branca"
+        ],
+        [
+          "Fronteira",
+          "Brasil (Rondônia) e Bolívia (Beni)"
+        ],
+        [
+          "Cidades",
+          "Guajará-Mirim, Nova Mamoré, Guayaramerín"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde fica o rio Mamoré?",
+          "r": "Nasce na Bolívia e, no trecho final, forma a fronteira com Rondônia. Guajará-Mirim, no Brasil, e Guayaramerín, na Bolívia, ficam em margens opostas."
+        },
+        {
+          "p": "O que foi a Estrada de Ferro Madeira-Mamoré?",
+          "r": "Uma ferrovia inaugurada em 1912 para contornar as cachoeiras do Madeira e do Mamoré e escoar a borracha boliviana. Ligava Porto Velho a Guajará-Mirim e deu origem às duas cidades."
+        },
+        {
+          "p": "Mamoré e Madeira são o mesmo rio?",
+          "r": "Não. O Madeira nasce quando o Mamoré encontra o Beni. O Mamoré é um dos dois rios formadores."
+        }
+      ],
+      "seo": {
+        "title": "Rio Mamoré: o rio da ferrovia Madeira-Mamoré | Kaluanã",
+        "description": "Rio Mamoré: da Bolívia à fronteira com Rondônia, Guajará-Mirim e a história da Estrada de Ferro Madeira-Mamoré. O tema do quarto 106 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "rio mamoré",
+          "guajará-mirim",
+          "estrada de ferro madeira-mamoré",
+          "mamoré rondônia",
+          "fronteira bolívia rondônia"
+        ],
+        "resposta": "O rio Mamoré nasce nos Andes bolivianos e, no trecho final, divide a Bolívia de Rondônia, entre Guajará-Mirim e Guayaramerín. Ao encontrar o rio Beni ele forma o rio Madeira. Suas cachoeiras motivaram a construção da Estrada de Ferro Madeira-Mamoré, aberta em 1912.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/Rio Mamoré.jpg",
+          "uso": "hero",
+          "nota": "1280 x 720 px. Aérea com ilha e barcos. Resolução mediana."
+        },
+        {
+          "arquivo": "RIOS/Rio Mamoré 2.jpg",
+          "uso": "galeria",
+          "nota": "821 x 621 px. Reflexo do céu ao entardecer. O arquivo .webp de mesmo nome é duplicado."
+        }
+      ]
+    },
+    {
+      "id": "rio-tapajos",
+      "nome": "Rio Tapajós",
+      "subtitulo": "Água verde e praias de areia branca",
+      "uh": "107",
+      "quarto": 7,
+      "abertura": "O Tapajós é um rio de água clara. Na seca ele expõe praias de areia branca que lembram o mar. Alter do Chão, perto de Santarém, é a mais conhecida delas.\n",
+      "no_kaluana": "Ele entra neste andar como o rio das praias. Rondônia não tem mar, e a Amazônia inventou o seu: praias de rio, água morna e areia fina. O Tapajós é o melhor exemplo disso.\n",
+      "historia": "O Tapajós nasce do encontro dos rios Juruena e Teles Pires, na divisa de Mato Grosso com o Pará. Corre para o norte e deságua no Amazonas em Santarém, onde a água verde do Tapajós encontra a água barrenta do Amazonas em um novo encontro das águas.\n\nO nome vem dos Tapajó, povo que viveu na região por séculos e deixou uma cerâmica sofisticada, hoje conhecida como cultura Santarém.\n\nNos anos 1920, Henry Ford tentou plantar seringueiras às margens do Tapajós e construiu uma cidade americana no meio da floresta, Fordlândia. O projeto fracassou, mas a cidade ainda existe.\n\nNa margem direita fica a Floresta Nacional do Tapajós, uma das áreas de pesquisa florestal mais estudadas da Amazônia.\n",
+      "curiosidades": [
+        "Alter do Chão é chamada de Caribe amazônico. Na seca, uma língua de areia chamada Ilha do Amor surge no meio do rio.",
+        "A água é clara porque o Tapajós corre sobre solos antigos do Planalto Central, que soltam pouco sedimento.",
+        "Em Santarém, os dois rios correm lado a lado sem se misturar por quilômetros, como acontece em Manaus.",
+        "O Tapajós tem um dos maiores arquipélagos de ilhas de areia da Amazônia. Muitas só existem entre agosto e dezembro."
+      ],
+      "ficha": [
+        [
+          "Formação",
+          "Encontro dos rios Juruena e Teles Pires"
+        ],
+        [
+          "Foz",
+          "Rio Amazonas, em Santarém, Pará"
+        ],
+        [
+          "Extensão",
+          "Cerca de 800 km como Tapajós; perto de 2.000 km com os formadores"
+        ],
+        [
+          "Tipo de água",
+          "Clara, esverdeada"
+        ],
+        [
+          "Cidades",
+          "Itaituba, Aveiro, Belterra, Santarém"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde fica Alter do Chão?",
+          "r": "Em Santarém, no Pará, na margem direita do rio Tapajós. É a praia de rio mais famosa da Amazônia e recebe visitantes de todo o país na temporada de seca."
+        },
+        {
+          "p": "Por que a água do Tapajós é clara?",
+          "r": "Porque ele nasce em terrenos antigos e estáveis do Planalto Central, que liberam pouco sedimento. Sem argila em suspensão, a água fica transparente e esverdeada."
+        },
+        {
+          "p": "Quais rios formam o Tapajós?",
+          "r": "O Juruena e o Teles Pires, que se encontram na divisa de Mato Grosso com o Pará."
+        }
+      ],
+      "seo": {
+        "title": "Rio Tapajós: praias e água clara na Amazônia | Kaluanã",
+        "description": "Rio Tapajós: onde nasce, Alter do Chão, Fordlândia e por que a água é clara. O tema do quarto 107 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "rio tapajós",
+          "alter do chão",
+          "praias do tapajós",
+          "fordlândia",
+          "santarém"
+        ],
+        "resposta": "O rio Tapajós nasce do encontro dos rios Juruena e Teles Pires, entre Mato Grosso e Pará, e deságua no Amazonas em Santarém. É um rio de água clara e esverdeada, famoso pelas praias de areia branca de Alter do Chão.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO TAPAJÓS 3.jpg",
+          "uso": "hero",
+          "nota": "1000 x 562 px. Aérea com bancos de areia. Resolução limita hero; buscar versão maior."
+        },
+        {
+          "arquivo": "RIOS/RIO TAPAJÓS 5.jpg",
+          "uso": "galeria",
+          "nota": "612 x 344 px. Entardecer com píer. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "rio-xingu",
+      "nome": "Rio Xingu",
+      "subtitulo": "O rio dos povos e das corredeiras",
+      "uh": "108",
+      "quarto": 8,
+      "abertura": "O Xingu nasce em Mato Grosso e atravessa o Pará até chegar ao Amazonas. Suas águas claras cruzam o Parque Indígena do Xingu, o primeiro grande território indígena demarcado no Brasil.\n",
+      "no_kaluana": "Este quarto tem o nome de um rio que ensinou o país a demarcar terra. O Xingu está neste andar como lembrete de que a Amazônia é feita de gente, não só de água.\n",
+      "historia": "O rio nasce no planalto mato-grossense, corre para o norte por cerca de 2 mil quilômetros e deságua no Amazonas, no Pará. Sua água é clara e o leito é cheio de pedras e corredeiras.\n\nEm 1961, por iniciativa dos irmãos Villas-Bôas, foi criado o Parque Indígena do Xingu, o primeiro grande território indígena do Brasil. Ali vivem dezenas de povos, e é onde acontece o Kuarup, cerimônia de homenagem aos mortos que ficou conhecida no país inteiro.\n\nAntes de desaguar, o rio faz uma curva de cerca de 100 quilômetros chamada Volta Grande do Xingu, um trecho de corredeiras onde vivem peixes que não existem em nenhum outro lugar do mundo. É nessa região que fica a usina de Belo Monte.\n",
+      "curiosidades": [
+        "O acari-zebra, um peixe preto e branco listrado muito procurado por aquaristas, só existe na Volta Grande do Xingu.",
+        "Altamira, no Pará, é o maior município do Brasil em área. O Xingu passa por ele.",
+        "O cacique Raoni, do povo Kayapó, tornou o Xingu conhecido no mundo inteiro na defesa da floresta.",
+        "As cabeceiras do Xingu são cercadas de lavouras. Proteger as nascentes virou uma das principais campanhas ambientais de Mato Grosso."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Planalto de Mato Grosso"
+        ],
+        [
+          "Foz",
+          "Rio Amazonas, no Pará"
+        ],
+        [
+          "Extensão",
+          "Cerca de 2.000 km"
+        ],
+        [
+          "Tipo de água",
+          "Clara"
+        ],
+        [
+          "Cidades",
+          "Canarana, São Félix do Xingu, Altamira, Porto de Moz"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde nasce e onde deságua o rio Xingu?",
+          "r": "Nasce no planalto de Mato Grosso e deságua no rio Amazonas, no Pará, perto de Porto de Moz."
+        },
+        {
+          "p": "O que é o Parque Indígena do Xingu?",
+          "r": "Um território indígena criado em 1961, no alto Xingu, em Mato Grosso, onde vivem dezenas de povos. Foi o primeiro grande território do tipo demarcado no Brasil."
+        },
+        {
+          "p": "O que é a Volta Grande do Xingu?",
+          "r": "Uma curva de cerca de 100 quilômetros com corredeiras, no Pará, antes da foz. É uma área de peixes endêmicos e de conflito ambiental por causa da usina de Belo Monte."
+        }
+      ],
+      "seo": {
+        "title": "Rio Xingu: o rio dos povos indígenas | Kaluanã",
+        "description": "Rio Xingu: nascente, foz, Parque Indígena do Xingu, Volta Grande e curiosidades. O tema do quarto 108 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "rio xingu",
+          "parque indígena do xingu",
+          "volta grande do xingu",
+          "xingu mato grosso pará"
+        ],
+        "resposta": "O rio Xingu nasce no planalto de Mato Grosso, corre por cerca de 2.000 km e deságua no Amazonas, no Pará. Tem água clara, atravessa o Parque Indígena do Xingu e forma a Volta Grande, trecho de corredeiras com peixes que só existem ali.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO XINGU 2.jpg",
+          "uso": "hero",
+          "nota": "984 x 656 px. Corredeiras vistas do alto. Resolução limita hero."
+        },
+        {
+          "arquivo": "RIOS/RIO XINGU 3.jpg",
+          "uso": "galeria",
+          "nota": "811 x 541 px. Aérea com ilhas e pedras."
+        }
+      ]
+    },
+    {
+      "id": "rio-purus",
+      "nome": "Rio Purus",
+      "subtitulo": "O rio mais sinuoso da Amazônia",
+      "uh": "109",
+      "quarto": 9,
+      "abertura": "O Purus quase não anda em linha reta. Ele avança em curvas tão fechadas que o caminho pela água chega a dobrar a distância. Vem do Peru, atravessa o Acre e o Amazonas e chega ao Solimões.\n",
+      "no_kaluana": "O Purus está aqui pelo desenho. Visto do alto, ele é a assinatura dos rios de planície: curvas, lagos abandonados e floresta alagada. É o rio que ensina paciência.\n",
+      "historia": "O Purus nasce no Peru, entra no Brasil pelo Acre e corre por cerca de 3.200 quilômetros até desaguar no Solimões, a oeste de Manaus. Quase todo esse caminho é feito de meandros. Quando uma curva se fecha, o rio a abandona e deixa um lago em forma de ferradura.\n\nFoi por suas margens que a borracha sustentou o Acre e o sul do Amazonas no fim do século XIX. Seringais, barracões e regatões subiam o rio na cheia.\n\nHoje o Purus banha cidades como Manoel Urbano, Boca do Acre, Lábrea e Tapauá. Grande parte de suas margens está protegida por reservas extrativistas e terras indígenas.\n",
+      "curiosidades": [
+        "A distância em linha reta entre a nascente e a foz é bem menor que a metade do que o rio percorre. Poucos rios do mundo são tão sinuosos.",
+        "Na seca, alguns trechos ficam com pouco mais de um metro de profundidade. Barcos grandes só sobem na cheia.",
+        "O Purus é um rio de água branca. Suas várzeas são férteis e produzem melancia, mandioca e feijão nas praias que aparecem na seca.",
+        "Casas flutuantes acompanham o nível do rio. Elas sobem e descem mais de 10 metros ao longo do ano."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Peru, na região de Ucayali"
+        ],
+        [
+          "Foz",
+          "Rio Solimões, a oeste de Manaus"
+        ],
+        [
+          "Extensão",
+          "Cerca de 3.200 km"
+        ],
+        [
+          "Tipo de água",
+          "Branca"
+        ],
+        [
+          "Cidades",
+          "Manoel Urbano, Boca do Acre, Lábrea, Canutama, Tapauá"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde fica o rio Purus?",
+          "r": "Nasce no Peru, atravessa o Acre e o sul do Amazonas e deságua no rio Solimões. É um dos maiores afluentes do Amazonas."
+        },
+        {
+          "p": "Por que o Purus tem tantas curvas?",
+          "r": "Porque corre sobre uma planície quase sem declive. Sem inclinação, a água serpenteia, cava curvas cada vez mais fechadas e abandona as antigas, formando lagos."
+        },
+        {
+          "p": "O rio Purus é navegável?",
+          "r": "Sim, principalmente na cheia. Na seca a navegação fica restrita a embarcações menores em vários trechos."
+        }
+      ],
+      "seo": {
+        "title": "Rio Purus: o rio mais sinuoso da Amazônia | Kaluanã",
+        "description": "Rio Purus: onde nasce, por que tem tantas curvas, cidades e história da borracha. O tema do quarto 109 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "rio purus",
+          "rio purus acre",
+          "rio purus amazonas",
+          "rio mais sinuoso",
+          "meandros amazônia"
+        ],
+        "resposta": "O rio Purus nasce no Peru, atravessa o Acre e o Amazonas e deságua no Solimões. Com cerca de 3.200 km, é conhecido como o rio mais sinuoso da Amazônia, por correr em curvas fechadas sobre uma planície quase plana.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO PURUS 3.jpg",
+          "uso": "hero",
+          "nota": "3456 x 1944 px. Entardecer na margem. Apta para hero."
+        },
+        {
+          "arquivo": "RIOS/RIO PURUS 2.jpg",
+          "uso": "galeria",
+          "nota": "500 x 333 px. Aérea com curva. Baixa resolução, usar só em miniatura."
+        }
+      ]
+    },
+    {
+      "id": "rio-jurua",
+      "nome": "Rio Juruá",
+      "subtitulo": "O rio da borracha e das curvas",
+      "uh": "110",
+      "quarto": 10,
+      "abertura": "Como o Purus, o Juruá faz curvas sem fim. Nasce no Peru, cruza o Acre e o Amazonas e desemboca no Solimões. Foi por suas margens que a borracha saiu da floresta no fim do século XIX.\n",
+      "no_kaluana": "O Juruá está aqui pela história. Foi nele que o Brasil criou a primeira reserva extrativista, em 1990, e provou que floresta em pé pode ser economia. É uma ideia que o Kaluanã leva a sério.\n",
+      "historia": "O Juruá nasce no Peru e corre por mais de 3 mil quilômetros até o Solimões, no oeste do Amazonas. Sua principal cidade é Cruzeiro do Sul, no Acre, fundada no auge do ciclo da borracha.\n\nEm 1990 foi criada a Reserva Extrativista do Alto Juruá, a primeira do Brasil. O modelo, defendido pelos seringueiros, garantiu que as comunidades continuassem vivendo da floresta sem derrubá-la. Ele foi copiado em toda a Amazônia.\n\nO rio banha ainda Eirunepé, Carauari e Juruá, no Amazonas, e serpenteia ao lado da Serra do Divisor, uma das áreas de maior biodiversidade do país.\n",
+      "curiosidades": [
+        "Juruá e Purus correm quase paralelos, os dois muito sinuosos. Vistos do avião, parecem dois cordões jogados sobre a floresta.",
+        "Em Cruzeiro do Sul, a farinha de mandioca é tão famosa que virou marca registrada da região.",
+        "Povos como Ashaninka, Kaxinawá e Kuntanawa vivem no vale do Juruá e mantêm territórios demarcados.",
+        "Na seca, o rio expõe praias que as famílias usam para plantar e para acampar."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Peru"
+        ],
+        [
+          "Foz",
+          "Rio Solimões, no oeste do Amazonas"
+        ],
+        [
+          "Extensão",
+          "Mais de 3.000 km"
+        ],
+        [
+          "Tipo de água",
+          "Branca"
+        ],
+        [
+          "Cidades",
+          "Cruzeiro do Sul, Eirunepé, Carauari, Juruá"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde nasce o rio Juruá?",
+          "r": "No Peru, perto da fronteira com o Acre. Ele entra no Brasil e corre para o nordeste até o Solimões."
+        },
+        {
+          "p": "O que foi a Reserva Extrativista do Alto Juruá?",
+          "r": "A primeira reserva extrativista do Brasil, criada em 1990 no Acre. Ela garante que as comunidades vivam da coleta de produtos da floresta sem desmatar. O modelo se espalhou por toda a Amazônia."
+        },
+        {
+          "p": "Qual a diferença entre o Juruá e o Purus?",
+          "r": "Os dois nascem no Peru, são muito sinuosos e deságuam no Solimões. O Juruá fica mais a oeste e passa por Cruzeiro do Sul. O Purus fica mais a leste e passa por Boca do Acre e Lábrea."
+        }
+      ],
+      "seo": {
+        "title": "Rio Juruá: o rio da primeira reserva extrativista | Kaluanã",
+        "description": "Rio Juruá: nascente, Cruzeiro do Sul, a Reserva Extrativista do Alto Juruá e a história da borracha. O tema do quarto 110 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "rio juruá",
+          "juruá acre",
+          "reserva extrativista alto juruá",
+          "cruzeiro do sul",
+          "rio juruá amazonas"
+        ],
+        "resposta": "O rio Juruá nasce no Peru, atravessa o Acre e o Amazonas e deságua no Solimões, com mais de 3.000 km de curso muito sinuoso. Em suas margens foi criada, em 1990, a primeira reserva extrativista do Brasil.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO JURUÁ.jpg",
+          "uso": "hero",
+          "nota": "1280 x 853 px. Aérea com estrada de água na floresta."
+        },
+        {
+          "arquivo": "RIOS/RIO JURUÁ 3.jpg",
+          "uso": "galeria",
+          "nota": "958 x 640 px. Meandro na floresta."
+        }
+      ]
+    },
+    {
+      "id": "rio-jamari",
+      "nome": "Rio Jamari",
+      "subtitulo": "Um rio inteiramente rondoniense",
+      "uh": "111",
+      "quarto": 11,
+      "abertura": "O Jamari nasce e termina em Rondônia. Desce das serras do centro do estado, passa por Ariquemes, forma o lago da Usina de Samuel e chega ao Madeira perto de Porto Velho.\n",
+      "no_kaluana": "O Jamari está neste andar porque é nosso. Junto com o Machado, é o rio que dá nome a uma região inteira de Rondônia, o Vale do Jamari. Colocar seu nome em um quarto é dizer de onde o Kaluanã fala.\n",
+      "historia": "O Jamari nasce nas serras do centro-oeste de Rondônia e corre para o norte. No caminho, atravessa a região de Ariquemes, uma das áreas de maior produção de cassiterita do país, e dá nome ao Vale do Jamari.\n\nPerto de Candeias do Jamari, o rio foi represado para formar a Usina Hidrelétrica de Samuel, inaugurada em 1989, a primeira grande usina de Rondônia. O lago de Samuel virou área de lazer e pesca.\n\nNa margem direita, fica a Floresta Nacional do Jamari, criada em 1984. Em 2008 ela foi a primeira floresta pública do Brasil a receber uma concessão de manejo florestal, com corte planejado e controlado.\n\nO Jamari deságua no Madeira a jusante de Porto Velho.\n",
+      "curiosidades": [
+        "Candeias do Jamari, vizinha de Porto Velho, leva o nome do rio.",
+        "O lago de Samuel é um dos pontos de pesca esportiva mais procurados perto da capital.",
+        "A concessão florestal na Flona do Jamari virou referência nacional de manejo com corte seletivo e monitoramento por satélite.",
+        "Segundo o governo do estado, as bacias do Jamari e do Machado são as mais pressionadas de Rondônia. Por isso, são também as que mais precisam de cuidado."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Serras do centro-oeste de Rondônia"
+        ],
+        [
+          "Foz",
+          "Rio Madeira, a jusante de Porto Velho"
+        ],
+        [
+          "Estado",
+          "Inteiramente em Rondônia"
+        ],
+        [
+          "Usina",
+          "Samuel, em Candeias do Jamari (1989)"
+        ],
+        [
+          "Cidades",
+          "Ariquemes, Candeias do Jamari"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde fica o rio Jamari?",
+          "r": "Em Rondônia. Ele nasce no centro-oeste do estado, passa pela região de Ariquemes e deságua no rio Madeira perto de Porto Velho."
+        },
+        {
+          "p": "O que é a Floresta Nacional do Jamari?",
+          "r": "Uma floresta pública federal criada em 1984 na bacia do Jamari. Em 2008 foi a primeira do país a ter concessão de manejo florestal, com exploração de madeira planejada e fiscalizada."
+        },
+        {
+          "p": "O que é o lago de Samuel?",
+          "r": "O reservatório formado pela Usina Hidrelétrica de Samuel, no rio Jamari, em Candeias do Jamari. Além de gerar energia, é área de pesca e lazer perto da capital."
+        }
+      ],
+      "seo": {
+        "title": "Rio Jamari: o rio do Vale do Jamari, em Rondônia | Kaluanã",
+        "description": "Rio Jamari: nascente, Ariquemes, Usina de Samuel e Floresta Nacional do Jamari. O tema do quarto 111 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "rio jamari",
+          "vale do jamari",
+          "usina de samuel",
+          "floresta nacional do jamari",
+          "rios de rondônia"
+        ],
+        "resposta": "O rio Jamari é um rio inteiramente rondoniense. Nasce nas serras do centro-oeste do estado, passa pela região de Ariquemes, forma o lago da Usina de Samuel e deságua no rio Madeira perto de Porto Velho. Dá nome ao Vale do Jamari.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/Rio Jamarari 2.jpg",
+          "uso": "hero",
+          "nota": "1000 x 662 px. Margem com canoas e casa. Renomear para Rio Jamari. Resolução limita hero."
+        },
+        {
+          "arquivo": "RIOS/RIO JAMARI 3.jpg",
+          "uso": "galeria",
+          "nota": "500 x 333 px. Curva do rio. Baixa resolução. Recomendação: captação própria, o rio fica a poucas horas do hotel."
+        }
+      ]
+    },
+    {
+      "id": "rio-machado",
+      "nome": "Rio Machado",
+      "subtitulo": "O rio de Ji-Paraná",
+      "uh": "112",
+      "quarto": 12,
+      "abertura": "Este é o rio que corta a cidade onde você está. Ji-Paraná, em tupi, quer dizer rio do machado. O Machado divide a cidade em duas e segue para o norte até o Madeira.\n",
+      "no_kaluana": "Se fosse para escolher um único quarto para explicar o Kaluanã, seria este. O hotel fala de Ji-Paraná, e Ji-Paraná é o rio. Ele é o único rio deste andar que você pode ver a poucos minutos daqui.\n",
+      "historia": "O Machado nasce do encontro de dois rios que descem da Chapada dos Parecis, na região de Vilhena: o Pimenta Bueno, também chamado Apidiá, e o Comemoração, também chamado Barão de Melgaço. Os dois se juntam em Pimenta Bueno.\n\nDali o rio corre para o norte, passa por Cacoal e chega a Ji-Paraná, onde separa o primeiro e o segundo distrito da cidade. Segue por Tabajara e deságua no Madeira em Calama, distrito de Porto Velho, em um trecho navegável.\n\nO nome indígena, Ji-Paraná, batizou a cidade. Ji é machado e paraná é rio. O povoado nasceu de uma estação telegráfica da Comissão Rondon, no ponto em que o rio Urupá encontra o Machado. A vila cresceu, chamou-se Vila de Rondônia e virou município com o nome do rio em 1977.\n",
+      "curiosidades": [
+        "A ponte sobre o Machado é a costura de Ji-Paraná. É por ela que a cidade atravessa de um distrito para o outro todos os dias.",
+        "O Machado é o maior rio que nasce e termina dentro de Rondônia.",
+        "Na seca, o rio expõe praias de areia em Ji-Paraná e Cacoal. Elas fazem parte do calendário de lazer das duas cidades.",
+        "Tambaqui, pintado, tucunaré e piau vivem no rio. Os pescadores da região conhecem os poços pelo nome."
+      ],
+      "ficha": [
+        [
+          "Formação",
+          "Rios Pimenta Bueno (Apidiá) e Comemoração (Barão de Melgaço), em Pimenta Bueno"
+        ],
+        [
+          "Foz",
+          "Rio Madeira, em Calama, distrito de Porto Velho"
+        ],
+        [
+          "Estado",
+          "Inteiramente em Rondônia"
+        ],
+        [
+          "Nome indígena",
+          "Ji-Paraná, rio do machado"
+        ],
+        [
+          "Cidades",
+          "Pimenta Bueno, Cacoal, Ji-Paraná, Tabajara"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que Ji-Paraná se chama assim?",
+          "r": "Por causa do rio. Ji-Paraná é o nome tupi do rio Machado e significa rio do machado. A cidade, antes chamada Vila de Rondônia, adotou o nome do rio ao virar município, em 1977."
+        },
+        {
+          "p": "Onde o rio Machado nasce e deságua?",
+          "r": "Nasce em Pimenta Bueno, do encontro dos rios Pimenta Bueno e Comemoração, que vêm da Chapada dos Parecis. Deságua no rio Madeira em Calama, distrito de Porto Velho."
+        },
+        {
+          "p": "O rio Machado e o rio Ji-Paraná são o mesmo rio?",
+          "r": "Sim. Machado é o nome em português, o mais usado na região. Ji-Paraná é o nome indígena, que aparece nos mapas oficiais e batizou a cidade."
+        }
+      ],
+      "seo": {
+        "title": "Rio Machado, o rio de Ji-Paraná | Kaluanã",
+        "description": "Rio Machado, ou rio Ji-Paraná: onde nasce, por que tem esse nome e como ele divide a cidade. O tema do quarto 112 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "rio machado",
+          "rio ji-paraná",
+          "rio machado ji-paraná",
+          "significado de ji-paraná",
+          "rios de rondônia"
+        ],
+        "resposta": "O rio Machado, também chamado rio Ji-Paraná, é o rio que corta a cidade de Ji-Paraná, em Rondônia. Nasce em Pimenta Bueno, do encontro dos rios Pimenta Bueno e Comemoração, e deságua no rio Madeira em Calama. O nome tupi Ji-Paraná significa rio do machado e deu nome ao município.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO MACHADO 4.jpg",
+          "uso": "hero",
+          "nota": "1600 x 1200 px. Proa de barco no rio. Apta para hero em telas médias."
+        },
+        {
+          "arquivo": "RIOS/RIO MACHADO 2.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 702 px. Margem com morros. Recomendação forte: captação própria em Ji-Paraná (drone ao amanhecer, ponte, praia da seca). É o rio do território do hotel."
+        }
+      ]
+    },
+    {
+      "id": "rio-araguaia",
+      "nome": "Rio Araguaia",
+      "subtitulo": "O rio das praias e da maior ilha fluvial do mundo",
+      "uh": "113",
+      "quarto": 13,
+      "abertura": "O Araguaia é rio de areia. Na seca, entre junho e setembro, praias de quilômetros aparecem nas margens. No meio do caminho ele se divide e abraça a Ilha do Bananal, a maior ilha fluvial do mundo.\n",
+      "no_kaluana": "O Araguaia é o único rio deste andar que não corre para o Amazonas. Ele está aqui porque marca o outro lado do Brasil Central, o lado do Cerrado, de onde vieram muitas das famílias que ajudaram a construir Ji-Paraná.\n",
+      "historia": "O Araguaia nasce na Serra do Caiapó, na divisa de Goiás com Mato Grosso, e corre para o norte por mais de 2 mil quilômetros. No caminho, serve de fronteira natural entre Goiás e Mato Grosso e depois entre Tocantins e Pará.\n\nEm certo ponto o rio se divide em dois braços que só voltam a se encontrar 350 quilômetros depois. Entre eles fica a Ilha do Bananal, com cerca de 20 mil quilômetros quadrados, onde vivem os povos Karajá e Javaé.\n\nO Araguaia deságua no rio Tocantins, que segue para a baía de Marajó. Os dois formam a bacia Tocantins-Araguaia, vizinha da bacia amazônica.\n",
+      "curiosidades": [
+        "Em julho, cidades como Aruanã, em Goiás, e Barra do Garças, em Mato Grosso, montam acampamentos nas praias do rio. É a temporada mais movimentada do ano.",
+        "A Ilha do Bananal abriga o Parque Nacional do Araguaia, um dos mais antigos do Brasil.",
+        "Pirarucu, tucunaré e pintado atraem pescadores de todo o país ao Araguaia.",
+        "Os Karajá são conhecidos pelas bonecas de cerâmica, reconhecidas como patrimônio cultural do Brasil."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Serra do Caiapó, divisa de Goiás com Mato Grosso"
+        ],
+        [
+          "Foz",
+          "Rio Tocantins"
+        ],
+        [
+          "Extensão",
+          "Mais de 2.000 km"
+        ],
+        [
+          "Bacia",
+          "Tocantins-Araguaia"
+        ],
+        [
+          "Ilha do Bananal",
+          "Cerca de 20.000 km², a maior ilha fluvial do mundo"
+        ],
+        [
+          "Cidades",
+          "Aruanã, Barra do Garças, Conceição do Araguaia"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde nasce o rio Araguaia?",
+          "r": "Na Serra do Caiapó, na divisa entre Goiás e Mato Grosso. De lá ele corre para o norte até encontrar o rio Tocantins."
+        },
+        {
+          "p": "O que é a Ilha do Bananal?",
+          "r": "A maior ilha fluvial do mundo, formada por dois braços do Araguaia, no Tocantins. Tem cerca de 20 mil quilômetros quadrados e abriga povos indígenas e o Parque Nacional do Araguaia."
+        },
+        {
+          "p": "O Araguaia faz parte da bacia amazônica?",
+          "r": "Não. Ele pertence à bacia Tocantins-Araguaia, que deságua na baía de Marajó, ao lado da foz do Amazonas."
+        }
+      ],
+      "seo": {
+        "title": "Rio Araguaia: praias e a Ilha do Bananal | Kaluanã",
+        "description": "Rio Araguaia: nascente, praias de temporada, Ilha do Bananal e povos Karajá. O tema do quarto 113 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "rio araguaia",
+          "ilha do bananal",
+          "praias do araguaia",
+          "temporada do araguaia",
+          "aruanã"
+        ],
+        "resposta": "O rio Araguaia nasce na Serra do Caiapó, entre Goiás e Mato Grosso, corre mais de 2.000 km para o norte e deságua no Tocantins. É famoso pelas praias que surgem na seca e por abraçar a Ilha do Bananal, a maior ilha fluvial do mundo.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/RIO ARAGUAIA 5.jpg",
+          "uso": "hero",
+          "nota": "640 x 421 px. Pôr do sol. Baixa resolução, substituir por imagem de praia do Araguaia com licença."
+        },
+        {
+          "arquivo": "RIOS/RIO ARAGUAIA 2.jpg",
+          "uso": "galeria",
+          "nota": "620 x 350 px. Barco no entardecer. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "rio-roosevelt",
+      "nome": "Rio Roosevelt",
+      "subtitulo": "O rio da Dúvida",
+      "uh": "114",
+      "quarto": 14,
+      "abertura": "Até 1914 este rio não tinha nome no mapa. Chamavam de rio da Dúvida. Naquele ano, o marechal Cândido Rondon e o ex-presidente americano Theodore Roosevelt desceram suas corredeiras. O rio ganhou o nome de um deles.\n",
+      "no_kaluana": "O Roosevelt fecha o andar dos rios porque conta como Rondônia foi desenhada. Rondon abriu as linhas do telégrafo, batizou rios e deu nome ao estado. Este quarto é o quarto da expedição.\n",
+      "historia": "O rio nasce na Chapada dos Parecis, na divisa de Mato Grosso com Rondônia, corre para o norte e deságua no Aripuanã, que segue até o Madeira. Tem cerca de 760 quilômetros.\n\nEntre dezembro de 1913 e abril de 1914, a Expedição Científica Roosevelt-Rondon percorreu o rio desconhecido. Roosevelt feriu a perna em uma corredeira, teve infecção e malária e quase morreu. Três homens se perderam na descida. No fim, Rondon batizou o rio com o nome do americano.\n\nRoosevelt escreveu um livro sobre a jornada, publicado ainda em 1914, que apresentou a Amazônia ao público dos Estados Unidos. Rondon seguiu mapeando o território. Em 1956, o então Território do Guaporé recebeu o nome de Rondônia em sua homenagem.\n",
+      "curiosidades": [
+        "Um dos filhos de Roosevelt, Kermit, fez parte da expedição e foi decisivo no resgate do pai.",
+        "Antes de virar Roosevelt, o rio também aparece nos registros como rio Teodoro.",
+        "O rio atravessa terras do povo Cinta Larga, no leste de Rondônia.",
+        "As corredeiras que atrasaram a expedição continuam lá. Descer o Roosevelt ainda é uma aventura."
+      ],
+      "ficha": [
+        [
+          "Nascente",
+          "Chapada dos Parecis, divisa de Mato Grosso com Rondônia"
+        ],
+        [
+          "Foz",
+          "Rio Aripuanã, afluente do Madeira"
+        ],
+        [
+          "Extensão",
+          "Cerca de 760 km"
+        ],
+        [
+          "Estados",
+          "Mato Grosso, Rondônia e Amazonas"
+        ],
+        [
+          "Expedição",
+          "Roosevelt-Rondon, 1913 a 1914"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde fica o rio Roosevelt?",
+          "r": "Nasce na divisa de Mato Grosso com Rondônia, corre pelo leste rondoniense e entra no Amazonas, onde deságua no rio Aripuanã."
+        },
+        {
+          "p": "Por que o rio se chama Roosevelt?",
+          "r": "Em homenagem a Theodore Roosevelt, ex-presidente dos Estados Unidos, que desceu o rio com Cândido Rondon em 1914. Até então ele era chamado de rio da Dúvida, porque ninguém sabia onde terminava."
+        },
+        {
+          "p": "O rio Roosevelt passa por Rondônia?",
+          "r": "Sim. Boa parte do seu curso fica no leste de Rondônia, em uma região de floresta e terras indígenas."
+        }
+      ],
+      "seo": {
+        "title": "Rio Roosevelt, o rio da Dúvida | Kaluanã",
+        "description": "Rio Roosevelt: a expedição Roosevelt-Rondon de 1914, onde o rio nasce e por que ele se chamava rio da Dúvida. O tema do quarto 114 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "rio roosevelt",
+          "rio da dúvida",
+          "expedição roosevelt rondon",
+          "rio roosevelt rondônia",
+          "cândido rondon"
+        ],
+        "resposta": "O rio Roosevelt, antes chamado rio da Dúvida, nasce na Chapada dos Parecis, na divisa de Mato Grosso com Rondônia, e deságua no rio Aripuanã, afluente do Madeira. Recebeu o nome em 1914, após a expedição de Cândido Rondon e Theodore Roosevelt.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "RIOS/rio Roosevelt.jpg",
+          "uso": "hero",
+          "nota": "1600 x 898 px. Aérea com curva e floresta. Apta para hero em telas médias. Só uma imagem disponível; buscar segunda."
+        }
+      ]
+    }
+  ]
+}
