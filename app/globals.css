@@ -861,7 +861,7 @@ main:has(.scene-hero) {
   left: 50%;
   bottom: 1.5rem;
   transform: translateX(-50%);
-  display: inline-flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   gap: 0.35rem;
@@ -871,6 +871,22 @@ main:has(.scene-hero) {
   text-transform: uppercase;
   color: color-mix(in srgb, var(--color-bege) 80%, transparent);
   text-decoration: none;
+}
+@media (min-width: 48rem) {
+  .scroll-cue {
+    display: inline-flex;
+  }
+}
+/* Botão do cabeçalho: uma linha só, mais compacto no celular. */
+.site-header .btn {
+  white-space: nowrap;
+}
+@media (max-width: 40rem) {
+  .site-header .btn {
+    min-height: 2.5rem;
+    padding: 0.5rem 1rem;
+    font-size: var(--text-sm);
+  }
 }
 
 /* Painéis de andar: empilhados com sticky, o efeito de elevador sem sequestrar a rolagem. */
