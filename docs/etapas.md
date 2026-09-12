@@ -147,7 +147,7 @@ Como na etapa 1, o LCP simulado no mobile é a abertura de sessão da primeira v
 
 ## Etapa 3: Universo Kaluanã
 
-**Status:** aguardando "aprovado" do responsável da Premium.
+**Status:** aprovada pelo responsável da Premium em 12/09/2026 e integrada à `main`.
 **Branch:** `etapa-3`.
 **Período:** 12/09/2026.
 **Créditos Higgsfield gastos:** 43,75 (teto: 400). Saldo: 8.701,85. Acumulado do projeto: 113,75.
@@ -211,7 +211,7 @@ Como nas etapas anteriores, o LCP simulado no mobile é inflado pelo simulador d
 
 ## Etapa 4: O Kaluanã, Restaurante, Eventos, Ji-Paraná e Histórias
 
-**Status:** aguardando "aprovado" do responsável da Premium.
+**Status:** aprovada pelo responsável da Premium em 12/09/2026 e integrada à `main`.
 **Branch:** `etapa-4`.
 **Período:** 12/09/2026.
 **Créditos Higgsfield gastos:** 24 (teto: 120). Saldo: 8.677,85. Acumulado do projeto: 137,75.
@@ -273,7 +273,7 @@ O 66 de SEO em Eventos é o `noindex` pedido pelo documento mestre e confirmado 
 
 ## Etapa 5: conversão, contato, legais e auditoria
 
-**Status:** aguardando "aprovado" do responsável da Premium.
+**Status:** aprovada pelo responsável da Premium em 12/09/2026 e integrada à `main`.
 **Branch:** `etapa-5`.
 **Período:** 12/09/2026.
 **Créditos Higgsfield gastos:** 0. Saldo: 8.677,85. Acumulado do projeto: 137,75.
