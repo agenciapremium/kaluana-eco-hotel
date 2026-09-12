@@ -58,8 +58,8 @@ export default function Page() {
       { id: "almoco", nome: "Almoço", texto: frases[1] ?? "", faixa: [11, 16] },
       { id: "jantar", nome: "Jantar", texto: frases[2] ?? "", faixa: [18, 24] },
     ] satisfies Refeicao[]
-  ).filter((r) => r.texto);
-  const observacao = frases.slice(3).join(" ");
+  ).filter((_, i) => Boolean(cru[i]));
+  const observacao = frases.slice(3).filter(Boolean).join(" ");
 
   return (
     <>

@@ -6,19 +6,19 @@ Registro das decisões que não estão no CLAUDE.md nem no documento mestre, com
 
 ### Dependências
 
-| Pacote | Uso | Motivo |
-|---|---|---|
-| `next` 16.3 | Framework | App Router, TypeScript, geração estática. Versão estável no início da etapa (12/09/2026). |
-| `tailwindcss` 4 + `@tailwindcss/postcss` | Estilo | Tokens da marca em `@theme`, exigido pelo CLAUDE.md. |
-| `motion` 13 | Movimento | Biblioteca pedida no CLAUDE.md. Usada na cortina de transição e no `useInView` das entradas por interseção. |
-| `zod` 4 | Validação | Schemas dos YAML e dos formulários. |
-| `yaml` 2 | Pipeline de conteúdo | Leitura dos arquivos de DOCS/SITE/dados. |
-| `sharp` | Pipeline de imagens | WebP e AVIF em quatro larguras, posters, PNG da marca. |
-| `resend` | Formulários | Envio de e-mail das server actions, conforme CLAUDE.md. |
-| `tsx` (dev) | Scripts | Roda os scripts TypeScript de pipeline sem build. |
-| `playwright` (dev) | QA | Capturas de tela desktop e mobile. |
-| `lighthouse` (dev) | QA | Auditoria de desempenho, acessibilidade, boas práticas e SEO. |
-| `prettier` + `prettier-plugin-tailwindcss` (dev) | Formatação | Padrão de código. |
+| Pacote                                           | Uso                  | Motivo                                                                                                      |
+| ------------------------------------------------ | -------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `next` 16.3                                      | Framework            | App Router, TypeScript, geração estática. Versão estável no início da etapa (12/09/2026).                   |
+| `tailwindcss` 4 + `@tailwindcss/postcss`         | Estilo               | Tokens da marca em `@theme`, exigido pelo CLAUDE.md.                                                        |
+| `motion` 13                                      | Movimento            | Biblioteca pedida no CLAUDE.md. Usada na cortina de transição e no `useInView` das entradas por interseção. |
+| `zod` 4                                          | Validação            | Schemas dos YAML e dos formulários.                                                                         |
+| `yaml` 2                                         | Pipeline de conteúdo | Leitura dos arquivos de DOCS/SITE/dados.                                                                    |
+| `sharp`                                          | Pipeline de imagens  | WebP e AVIF em quatro larguras, posters, PNG da marca.                                                      |
+| `resend`                                         | Formulários          | Envio de e-mail das server actions, conforme CLAUDE.md.                                                     |
+| `tsx` (dev)                                      | Scripts              | Roda os scripts TypeScript de pipeline sem build.                                                           |
+| `playwright` (dev)                               | QA                   | Capturas de tela desktop e mobile.                                                                          |
+| `lighthouse` (dev)                               | QA                   | Auditoria de desempenho, acessibilidade, boas práticas e SEO.                                               |
+| `prettier` + `prettier-plugin-tailwindcss` (dev) | Formatação           | Padrão de código.                                                                                           |
 
 ### Arquitetura
 
@@ -102,4 +102,3 @@ Sem dependência nova.
 63. **Três posts de partida, escritos de fatos do documento mestre.** Histórias nasceria vazia: não existe nenhum post nos dados. Os três posts usam só fatos que já estão no mestre (o nome, o rio Machado, o guardrail da obra), trazem `revisar: true`, aparecem com um aviso na própria página e alimentam a linha do tempo de O Kaluanã, como a nota da 5.2 prevê. Datas a confirmar.
 64. **`useSyncExternalStore` no lugar de efeito com setState.** A regra `react-hooks/set-state-in-effect` reprova ler a hora do navegador dentro de um efeito. O `Cardapio` lê por `useSyncExternalStore`, com instantâneo nulo no servidor: o HTML sai com tudo aberto e o navegador destaca a refeição do momento, sem renderização em cascata.
 65. **Mapa de Ji-Paraná acompanha a leitura.** O mapa fica pregado (`sticky`) ao lado do texto no desktop, e um componente cliente de vinte linhas acende o ponto correspondente ao bloco que está na tela, ligado por atributo de dado. Mapa e blocos continuam renderizados no servidor. Sem JavaScript, os pontos ficam todos visíveis.
-
