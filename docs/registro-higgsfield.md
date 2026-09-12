@@ -10,6 +10,7 @@ Regras aplicadas em todos os prompts: sem pessoas identificáveis (sem rostos), 
 |---|---|---|---|
 | 12/09/2026 | 8.815,6 | 24 | 8.791,6 |
 | 12/09/2026 | 8.791,6 | 18 | 8.773,6 |
+| 12/09/2026 | 8.773,6 | 28 | 8.745,6 |
 
 ## Etapa 1: detalhes da Home
 
@@ -74,6 +75,48 @@ Motivo: a nova direção visual (cenas em tela cheia, ver `decisoes.md`, item 21
 | 39 | Estrada de terra | Estrada de terra vermelha reta entre a mata, sombras longas | 3fef485d-34a4-47fc-aece-d6940302e7e1 | `media-src/higgsfield/estrada-terra.jpg` | selecionada (Ji-Paraná e Empresas) |
 | 40 | Estrada de terra | Estrada de laterita curvando sobre morro com pastagem | 63797e4f-8052-4ec4-9b93-3c1667376ddc | galeria | descartada: coníferas no alto do morro |
 | 41 | Estrada de terra | Estrada de terra após chuva, poças refletindo o céu | 8c422ae2-161f-474d-9ed7-98f514e0a5be | galeria | alternativa |
+
+## Etapa 2: detalhes abstratos das sete categorias
+
+Regra 7 do CLAUDE.md: nenhum quarto, banheiro, fachada ou lobby; só detalhes (têxtil, madeira, luz, mesa, objetos). Nada que mostre cama.
+
+**Preflight:** 12/09/2026, `seedream_v4_5`, 4:3, basic, `get_cost: true` → 1 crédito por imagem.
+**Leva:** 28 gerações em três remessas (`generate_image_batch`), 7 categorias × 4 variações, 1 crédito cada, `use_unlim: false`. Total: 28 créditos (teto da etapa: 90). Saídas em 2304 × 1728.
+
+**Final em 2K.** O `seedream_v4_5` em `basic` já entrega 2304 px de largura, acima de 2K, e o pipeline serve até 1920 px. A variação que o responsável aprovar não precisa de nova geração; se quiser 4K, é um `upscale_image` (custo a confirmar com `get_cost` na hora). As escolhas abaixo marcadas como **hero provisório** são a minha sugestão para o responsável escolher; as demais variações da categoria entram na faixa de detalhes da página. Folhas de contato em `docs/higgsfield/etapa-2/`.
+
+| # | Categoria | Prompt (resumo) | Job | Arquivo | Status |
+|---|---|---|---|---|---|
+| 0 | Superior Família | Três lençóis de linho dobrados sobre madeira escura, luz de manhã | 4b455373-4101-4e21-a307-cb9b8100021c | `media-src/higgsfield/acomodacoes/superior-familia-1.jpg` | hero provisório |
+| 1 | Superior Família | Três canecas em verde-oliva, areia e terracota numa bandeja, cortina de linho | b36f19df-fd1e-4b69-9dab-4f8293e0cbd6 | `superior-familia-2.jpg` | faixa de detalhes |
+| 2 | Superior Família | Três mantas de algodão dobradas sobre um banco de madeira | f28316a7-5317-4c6d-a0ea-8ac2a39ec153 | `superior-familia-3.jpg` | faixa de detalhes |
+| 3 | Superior Família | Três chapéus de palha em cabides de madeira, parede de barro | 45be4b25-405e-4952-a726-61568092db38 | `superior-familia-4.jpg` | faixa de detalhes |
+| 4 | Duplo King | Luminária de latão apagada, caderno de couro e caneta, luz de janela | 4ab8da00-ea65-4b90-9be6-8c31913df2d2 | `duplo-king-1.jpg` | hero provisório |
+| 5 | Duplo King | Caderno aberto em branco, lápis e café, vistos de cima | ebc7f6ee-a730-466a-8bd8-ece456ab23a6 | `duplo-king-2.jpg` | faixa e seção Perfis (foto com foco) |
+| 6 | Duplo King | Caderno de couro, caneta-tinteiro e xícara verde, cortina de linho | dd2cb9dc-99bc-4105-bd59-c8871fa47730 | `duplo-king-3.jpg` | faixa de detalhes |
+| 7 | Duplo King | Luminária acesa ao entardecer, notebook fechado, sombra de persiana | d79e9445-80d5-4e35-8896-611d35a84079 | `duplo-king-4.jpg` | faixa de detalhes (luz artificial, a única da leva) |
+| 8 | Superior Acessível | Macro de barra de apoio em aço escovado sobre azulejo cor de areia | 69de6824-095c-4f4a-a3c0-6c262295e34d | `superior-acessivel-1.jpg` | hero provisório |
+| 9 | Superior Acessível | Maçaneta de alavanca em metal escovado numa porta de carvalho | fd57e291-34ed-442b-b8b0-08c4c4142f91 | `superior-acessivel-2.jpg` | faixa e seção Como chegar ao quarto |
+| 10 | Superior Acessível | Encontro sem degrau entre piso de pedra e piso de madeira | ac771f40-3f2d-43d1-b618-fe325f71339d | `superior-acessivel-3.jpg` | faixa de detalhes (confirmar leitura de "sem degrau") |
+| 11 | Superior Acessível | Corrimão de madeira ao longo de parede de reboco | 2ed4f83b-61c7-4d26-8f34-07fdaf291c70 | `superior-acessivel-4.jpg` | faixa de detalhes |
+| 12 | Superior Família com Terraço | Xícara e cafeteira de êmbolo em mesa de madeira ao ar livre, folhagem | 61fd9c17-0c98-4deb-9136-0dd31d7d8450 | `superior-familia-com-terraco-1.jpg` | hero provisório |
+| 13 | Superior Família com Terraço | Canto de mesa externa com guardanapo de linho e copo de água, sombra de palmeira | 74709fb7-d396-44e8-9c2c-7c2a53360d7b | `superior-familia-com-terraco-2.jpg` | faixa e seção Perfis |
+| 14 | Superior Família com Terraço | Tábuas de deck com orvalho e uma folha caída | d1ae8472-cbe6-4ff0-b136-c689acd8097d | `superior-familia-com-terraco-3.jpg` | faixa de detalhes |
+| 15 | Superior Família com Terraço | Rede de algodão cru com listra verde-oliva, folhagem desfocada | d8d53e4d-5407-4139-891f-242187e690b5 | `superior-familia-com-terraco-4.jpg` | faixa de detalhes (rede pode ser lida como amenidade: confirmar com o cliente) |
+| 16 | Suíte Terraço Lateral Aberto | Céu aberto ao fim da tarde entre folhas de palmeira | 2dcdf3cc-9b8b-45bc-990e-f3de7e45f807 | `suite-terraco-lateral-aberto-1.jpg` | hero provisório |
+| 17 | Suíte Terraço Lateral Aberto | Encosto de cadeira de madeira com almofada de linho sob o céu | 3d8987ea-2ae7-46d1-8747-27a0f13d44bc | `suite-terraco-lateral-aberto-2.jpg` | faixa de detalhes |
+| 18 | Suíte Terraço Lateral Aberto | Cortina de linho ao vento contra o céu claro | 8fd51b3c-b6ee-482e-b884-89f308d9999f | `suite-terraco-lateral-aberto-3.jpg` | faixa de detalhes |
+| 19 | Suíte Terraço Lateral Aberto | Vaso de barro com samambaia num deck sob o céu | c521e664-f1b6-414a-a955-2f32209a8896 | galeria | descartada: beiral e pilar de varanda, lê como ambiente do hotel |
+| 20 | Suíte Terraço Lateral Fechado | Sombras de veneziana sobre madeira escura polida, fim de tarde | ff245184-7e29-4f41-a2c0-8d4645465d3c | `suite-terraco-lateral-fechado-1.jpg` | hero provisório |
+| 21 | Suíte Terraço Lateral Fechado | Veneziana entreaberta com folhagem iluminada do lado de fora | c7d07c30-26ce-4f69-b7d7-eeb5dc002d26 | `suite-terraco-lateral-fechado-2.jpg` | faixa e segunda foto do fade do hero |
+| 22 | Suíte Terraço Lateral Fechado | Linho de poltrona com faixas de luz de veneziana | 38fc3431-e84d-482f-8a93-24980771e8e0 | `suite-terraco-lateral-fechado-3.jpg` | faixa de detalhes |
+| 23 | Suíte Terraço Lateral Fechado | Tampo de vidro com reflexos de veneziana e uma xícara verde | 1ae3ea67-8b4e-45aa-8968-89a4e0635b5e | `suite-terraco-lateral-fechado-4.jpg` | faixa de detalhes |
+| 24 | Suíte Presidencial | Linho escuro sobre braço de nogueira, luz dourada rasante | 2b560187-3414-4b8e-8de7-82db340653ce | `suite-presidencial-onca-pintada-1.jpg` | hero provisório |
+| 25 | Suíte Presidencial | Copo de cristal sobre nogueira polida, luz dourada | 8ceac7ca-f234-4931-abf3-c4d39f8e941b | `suite-presidencial-onca-pintada-2.jpg` | pilha de cenas (a suíte) |
+| 26 | Suíte Presidencial | Cortina de linho escuro com luz de pôr do sol | 43d056de-2994-4318-86be-0f4559f90258 | `suite-presidencial-onca-pintada-3.jpg` | pilha de cenas (o nome) |
+| 27 | Suíte Presidencial | Cinto de couro com fivela de latão sobre mesa lateral | f3c785fb-26ac-4a67-85f5-a50331288f39 | galeria | descartada: objeto pessoal fora de contexto |
+
+Arquivos em `media-src/higgsfield/acomodacoes/`, JPEG q92 como na etapa 1. Estilo comum: "photorealistic, natural daylight, warm earthy palette with olive green accents, muted matte tones, no people, no faces, no text, no logos, no full room visible". Créditos da etapa 2: 28 de 90.
 
 ## Não gerado nesta etapa
 

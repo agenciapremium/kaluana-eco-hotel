@@ -152,6 +152,214 @@
       "alt": "Estrada de terra vermelha reta entre a mata, luz de fim de tarde",
       "uso": "Cena Ji-Paraná (full) e Empresas (pre)",
       "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-familia-1",
+      "src": "media-src/higgsfield/acomodacoes/superior-familia-1.jpg",
+      "alt": "Três lençóis de linho dobrados sobre uma mesa de madeira, com luz de janela",
+      "uso": "Etapa 2, Superior Família (variação 1, job índice 0)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-familia-2",
+      "src": "media-src/higgsfield/acomodacoes/superior-familia-2.jpg",
+      "alt": "Três canecas de cerâmica em verde-oliva, areia e terracota sobre uma bandeja de madeira",
+      "uso": "Etapa 2, Superior Família (variação 2, job índice 1)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-familia-3",
+      "src": "media-src/higgsfield/acomodacoes/superior-familia-3.jpg",
+      "alt": "Três mantas de algodão dobradas, em cru, areia e verde-oliva, sobre um banco de madeira",
+      "uso": "Etapa 2, Superior Família (variação 3, job índice 2)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-familia-4",
+      "src": "media-src/higgsfield/acomodacoes/superior-familia-4.jpg",
+      "alt": "Três chapéus de palha pendurados em cabides de madeira numa parede de barro",
+      "uso": "Etapa 2, Superior Família (variação 4, job índice 3)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "duplo-king-1",
+      "src": "media-src/higgsfield/acomodacoes/duplo-king-1.jpg",
+      "alt": "Luminária de latão, caderno de couro e caneta sobre uma mesa de trabalho com luz de manhã",
+      "uso": "Etapa 2, Duplo King (variação 1, job índice 4)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "duplo-king-2",
+      "src": "media-src/higgsfield/acomodacoes/duplo-king-2.jpg",
+      "alt": "Caderno aberto em branco, lápis e xícara de café vistos de cima sobre uma mesa de madeira",
+      "uso": "Etapa 2, Duplo King (variação 2, job índice 5)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "duplo-king-3",
+      "src": "media-src/higgsfield/acomodacoes/duplo-king-3.jpg",
+      "alt": "Caderno de couro com caneta-tinteiro e uma xícara verde sobre uma mesa de madeira",
+      "uso": "Etapa 2, Duplo King (variação 3, job índice 6)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "duplo-king-4",
+      "src": "media-src/higgsfield/acomodacoes/duplo-king-4.jpg",
+      "alt": "Luminária de latão acesa sobre uma mesa escura ao entardecer, com um notebook fechado ao lado",
+      "uso": "Etapa 2, Duplo King (variação 4, job índice 7)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-acessivel-1",
+      "src": "media-src/higgsfield/acomodacoes/superior-acessivel-1.jpg",
+      "alt": "Barra de apoio em aço escovado fixada em azulejos cor de areia",
+      "uso": "Etapa 2, Superior Acessível (variação 1, job índice 8)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-acessivel-2",
+      "src": "media-src/higgsfield/acomodacoes/superior-acessivel-2.jpg",
+      "alt": "Maçaneta de alavanca em metal escovado numa porta de carvalho claro",
+      "uso": "Etapa 2, Superior Acessível (variação 2, job índice 9)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-acessivel-3",
+      "src": "media-src/higgsfield/acomodacoes/superior-acessivel-3.jpg",
+      "alt": "Encontro sem degrau entre um piso de pedra clara e um piso de madeira",
+      "uso": "Etapa 2, Superior Acessível (variação 3, job índice 10)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-acessivel-4",
+      "src": "media-src/higgsfield/acomodacoes/superior-acessivel-4.jpg",
+      "alt": "Corrimão de madeira ao longo de uma parede de reboco com luz de janela",
+      "uso": "Etapa 2, Superior Acessível (variação 4, job índice 11)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-familia-com-terraco-1",
+      "src": "media-src/higgsfield/acomodacoes/superior-familia-com-terraco-1.jpg",
+      "alt": "Xícara de café e cafeteira de êmbolo sobre uma mesa de madeira ao ar livre, com folhagem ao fundo",
+      "uso": "Etapa 2, Superior Família com Terraço (variação 1, job índice 12)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-familia-com-terraco-2",
+      "src": "media-src/higgsfield/acomodacoes/superior-familia-com-terraco-2.jpg",
+      "alt": "Canto de mesa de madeira ao ar livre com guardanapo de linho e copo de água sob a sombra de palmeiras",
+      "uso": "Etapa 2, Superior Família com Terraço (variação 2, job índice 13)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-familia-com-terraco-3",
+      "src": "media-src/higgsfield/acomodacoes/superior-familia-com-terraco-3.jpg",
+      "alt": "Tábuas de deck de madeira com orvalho e uma folha caída",
+      "uso": "Etapa 2, Superior Família com Terraço (variação 3, job índice 14)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "superior-familia-com-terraco-4",
+      "src": "media-src/higgsfield/acomodacoes/superior-familia-com-terraco-4.jpg",
+      "alt": "Detalhe de rede de algodão cru com listras verde-oliva, folhagem desfocada ao fundo",
+      "uso": "Etapa 2, Superior Família com Terraço (variação 4, job índice 15)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-terraco-lateral-aberto-1",
+      "src": "media-src/higgsfield/acomodacoes/suite-terraco-lateral-aberto-1.jpg",
+      "alt": "Céu aberto ao fim da tarde visto entre folhas de palmeira",
+      "uso": "Etapa 2, Suíte Terraço Lateral Aberto (variação 1, job índice 16)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-terraco-lateral-aberto-2",
+      "src": "media-src/higgsfield/acomodacoes/suite-terraco-lateral-aberto-2.jpg",
+      "alt": "Encosto de cadeira de madeira com almofada de linho verde-oliva sob o céu aberto",
+      "uso": "Etapa 2, Suíte Terraço Lateral Aberto (variação 2, job índice 17)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-terraco-lateral-aberto-3",
+      "src": "media-src/higgsfield/acomodacoes/suite-terraco-lateral-aberto-3.jpg",
+      "alt": "Cortina de linho verde-oliva ao vento contra o céu claro",
+      "uso": "Etapa 2, Suíte Terraço Lateral Aberto (variação 3, job índice 18)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-terraco-lateral-fechado-1",
+      "src": "media-src/higgsfield/acomodacoes/suite-terraco-lateral-fechado-1.jpg",
+      "alt": "Sombras de veneziana de madeira sobre uma superfície de madeira escura ao fim da tarde",
+      "uso": "Etapa 2, Suíte Terraço Lateral Fechado (variação 1, job índice 20)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-terraco-lateral-fechado-2",
+      "src": "media-src/higgsfield/acomodacoes/suite-terraco-lateral-fechado-2.jpg",
+      "alt": "Veneziana de madeira entreaberta com folhagem iluminada do lado de fora",
+      "uso": "Etapa 2, Suíte Terraço Lateral Fechado (variação 2, job índice 21)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-terraco-lateral-fechado-3",
+      "src": "media-src/higgsfield/acomodacoes/suite-terraco-lateral-fechado-3.jpg",
+      "alt": "Tecido de linho de uma poltrona com faixas de luz de veneziana",
+      "uso": "Etapa 2, Suíte Terraço Lateral Fechado (variação 3, job índice 22)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-terraco-lateral-fechado-4",
+      "src": "media-src/higgsfield/acomodacoes/suite-terraco-lateral-fechado-4.jpg",
+      "alt": "Tampo de vidro com reflexos de luz de veneziana e uma xícara de cerâmica verde",
+      "uso": "Etapa 2, Suíte Terraço Lateral Fechado (variação 4, job índice 23)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-presidencial-onca-pintada-1",
+      "src": "media-src/higgsfield/acomodacoes/suite-presidencial-onca-pintada-1.jpg",
+      "alt": "Linho escuro sobre o braço de madeira nobre de uma poltrona, com luz dourada de fim de tarde",
+      "uso": "Etapa 2, Suíte Presidencial Onça-Pintada (variação 1, job índice 24)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-presidencial-onca-pintada-2",
+      "src": "media-src/higgsfield/acomodacoes/suite-presidencial-onca-pintada-2.jpg",
+      "alt": "Copo de cristal sobre madeira escura polida com luz dourada de fim de tarde",
+      "uso": "Etapa 2, Suíte Presidencial Onça-Pintada (variação 2, job índice 25)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "acomodacoes",
+      "slug": "suite-presidencial-onca-pintada-3",
+      "src": "media-src/higgsfield/acomodacoes/suite-presidencial-onca-pintada-3.jpg",
+      "alt": "Cortina de linho escuro com a luz do pôr do sol atravessando",
+      "uso": "Etapa 2, Suíte Presidencial Onça-Pintada (variação 3, job índice 26)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
     }
   ],
   "videos": [
