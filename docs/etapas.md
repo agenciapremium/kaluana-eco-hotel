@@ -4,7 +4,8 @@ Checklist de cada etapa, com o que foi feito, o que ficou pendente e os crédito
 
 ## Etapa 1: fundação e Home
 
-**Branch:** `etapa-1` (será integrada à `main` após a aprovação).
+**Status:** aprovada pelo responsável da Premium em 12/09/2026 e integrada à `main`.
+**Branch:** `etapa-1`.
 **Período:** 12/09/2026.
 **Créditos Higgsfield gastos:** 42 (teto: 250). Saldo: 8.773,6.
 **Revisão de 12/09/2026:** direção visual refeita a pedido do responsável (cenas em tela cheia, referência resortkaskady.com). Ver `decisoes.md`, itens 21 a 24.
@@ -81,4 +82,4 @@ Pipelines locais (precisam de ../DOCS e ffmpeg): `npm run build:media`, `npm run
 
 ## Etapa 2: Acomodações
 
-Aguardando "aprovado" da etapa 1.
+Aguardando o prompt da etapa 2. Trabalho em branch `etapa-2`.
