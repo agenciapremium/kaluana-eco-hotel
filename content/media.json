@@ -670,6 +670,1797 @@
       ],
       "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwAA4BaJbAC7AEQdNtHNOuoAAD+9u073T/hePJDOvMQ1PNlFxewj63+DAppnCNK3rUENM7qXNRThToAepSMyT4CB69QWyV9wAAA",
       "original": "suite-presidencial-onca-pintada-3.jpg"
+    },
+    "universo/rios-rio-amazonas": {
+      "grupo": "universo",
+      "slug": "rios-rio-amazonas",
+      "alt": "Rio Amazonas, aérea com bancos de areia",
+      "width": 1920,
+      "height": 1279,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAsAA4BaJYgCdAEegUvvjmqtQAD33iZzSEdMeeAEDUQ8XAnnLHiVd7gzLlpKiJPdJVloiiHxbXnY3ZRDeEdl0O4zKz15DhP8Sp9xsQAAAA==",
+      "original": "RIO AMAZONAS 4.jpg"
+    },
+    "universo/rios-rio-amazonas-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-amazonas-1",
+      "alt": "Rio Amazonas, aérea com curva e floresta",
+      "width": 1600,
+      "height": 1022,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAoAA4BaJbACdAELV6Kq+mAA/mZ/MqiDXgUWgmUri4v3mX5+ForwwOVU/J0aIb1Ma6JuAWrfr6AD3Px/nCthzxpKyWwA",
+      "original": "RIO AMAZONAS 5.jpg"
+    },
+    "universo/rios-rio-amazonas-2": {
+      "grupo": "universo",
+      "slug": "rios-rio-amazonas-2",
+      "alt": "Rio Amazonas, meandro visto de cima",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAkAA4BaJZACdAD0ogt9m7oAAOJ949B5VoQjRvkWBHKbNe6fDOmSGRU26WmmqqRwmq/KvkmCn9QHVjprKGgSxZAQsVsIZE/KjpQj4AA=",
+      "original": "RIO AMAZONAS.jpg"
+    },
+    "universo/rios-rio-solimoes": {
+      "grupo": "universo",
+      "slug": "rios-rio-solimoes",
+      "alt": "Rio Solimões, encontro das Águas visto de cima",
+      "width": 1024,
+      "height": 683,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsAA4BaJbACdAEWZNT2V8/AAP7uWdmMzDmtAWyElgg4/LdPN4jjZ2TcsJCslrK3UUtQfVB3iNuTsIu/I+BGuAA=",
+      "original": "RIO SOLIMÕES (ENCONTRO).jpg"
+    },
+    "universo/rios-rio-solimoes-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-solimoes-1",
+      "alt": "Rio Solimões, aérea com banco de areia",
+      "width": 1920,
+      "height": 1280,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsAA4BaJbACdAEO9+Kt64AA/uktlvVlkfRfaegKIM4PwOLJv41ZacaauJwr9jKtDJXc+Ln3snRtreU4AAAA",
+      "original": "Rio Solimões.jpg.jpeg"
+    },
+    "universo/rios-rio-negro": {
+      "grupo": "universo",
+      "slug": "rios-rio-negro",
+      "alt": "Rio Negro, ilhas de Anavilhanas vistas do alto",
+      "width": 640,
+      "height": 425,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsAA4BaJQBWACG5VDH8aAAA/uDbrIV7tAW3/Evy6/i3IpOAeyopVliDW4LYgtjQ/ISVYeDyvdZ+RGynoAAA",
+      "original": "RIO NEGRO 2.jpg"
+    },
+    "universo/rios-rio-negro-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-negro-1",
+      "alt": "Rio Negro, pôr do sol com a ponte",
+      "width": 538,
+      "height": 336,
+      "widths": [
+        538
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAoAA4BaJbACdADcEM/PVAAA/jrCAO9SZok5K5Ky6zHE2blX7BG63QpSAeKvC+cS6z4R5NF2D3UnJ27IyhgA",
+      "original": "RIO NEGRO 3.jpg"
+    },
+    "universo/rios-rio-madeira": {
+      "grupo": "universo",
+      "slug": "rios-rio-madeira",
+      "alt": "Rio Madeira, entardecer com canoa",
+      "width": 1600,
+      "height": 900,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAkAA4BaJbACdADpxOzycAD+SaSt4SeYDKW8WnadsMU5gdb3WUB3Fo6ln0NLQfctg3ykMXdxvcAGBVazvAAA",
+      "original": "RIO MADEIRA 2.jpg"
+    },
+    "universo/rios-rio-madeira-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-madeira-1",
+      "alt": "Rio Madeira, margem com floresta",
+      "width": 640,
+      "height": 360,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAkAA4BaJQBOgBcSwuGQAOIEen/pjV57gJUvekVozLw8F44Tf39UZwnB5fEVfmW2AAAA",
+      "original": "RIO MADEIRA 3.jpg"
+    },
+    "universo/rios-rio-guapore": {
+      "grupo": "universo",
+      "slug": "rios-rio-guapore",
+      "alt": "Rio Guaporé, vista elevada do rio entre morros",
+      "width": 1600,
+      "height": 967,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAoAA4BaJYwCdAEULdAIXn4AAP7tivtBCd00f87Qv1WCeOHXZGq4Q997SCFzGmeCXCgmDZne3zUg+dhsRkAA",
+      "original": "Rio Guaporé.jpg"
+    },
+    "universo/rios-rio-guapore-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-guapore-1",
+      "alt": "Rio Guaporé, reflexo da floresta na água parada",
+      "width": 1024,
+      "height": 597,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJYgCdAEPDXiMSYAAzCba+KWm4qMPO+3GUqDG+KdeYAb7z0cMx3Dm12pFG/xM507CMXcTcF71i4AA",
+      "original": "RIO GUAPORE 2.jpg"
+    },
+    "universo/rios-rio-mamore": {
+      "grupo": "universo",
+      "slug": "rios-rio-mamore",
+      "alt": "Rio Mamoré, aérea com ilha e barcos",
+      "width": 1024,
+      "height": 576,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJagCdAEC3fUYgAD335HYDYtXz96xzPZAVGaMp+22V9t47iHSz/79JVDbOBWLAo5UUXAruRJ8sxYIAAA=",
+      "original": "Rio Mamoré.jpg"
+    },
+    "universo/rios-rio-mamore-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-mamore-1",
+      "alt": "Rio Mamoré, reflexo do céu ao entardecer",
+      "width": 640,
+      "height": 484,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwAA4BaJaACdH8AGMKQ5n+gAP5NIYWapNix3oCa7KB/VCrPAkxIDrZ7HzUjNyzNjSDc8XwHihTGDQk8cWgyLrBttpaPJhKsHrOHhVV5eixQ2AAAAA==",
+      "original": "Rio Mamoré 2.jpg"
+    },
+    "universo/rios-rio-tapajos": {
+      "grupo": "universo",
+      "slug": "rios-rio-tapajos",
+      "alt": "Rio Tapajós, aérea com bancos de areia",
+      "width": 640,
+      "height": 360,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAkAA4BaJQBOgBwovVmVYAAA99/vz73tqoHXA4f7Zopxy7xzpdHue06OToIBRTv5viIfo52wGdHph9JY9npKpM+ji+NUUOaBdDAA",
+      "original": "RIO TAPAJÓS 3.jpg"
+    },
+    "universo/rios-rio-tapajos-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-tapajos-1",
+      "alt": "Rio Tapajós, entardecer com píer",
+      "width": 612,
+      "height": 344,
+      "widths": [
+        612
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABQAgCdASoQAAkAA4BaJZACdEyAAdY2wgdrkKAA4ATGol382sUvx6YzCcK61D8sciqwBufWYc0jiOSXGVDNAnz8dDYEJGzhK8i6AAAA",
+      "original": "RIO TAPAJÓS 5.jpg"
+    },
+    "universo/rios-rio-xingu": {
+      "grupo": "universo",
+      "slug": "rios-rio-xingu",
+      "alt": "Rio Xingu, corredeiras vistas do alto",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoQAAsAA4BaJQBOj+AC+j7gaJsc6ZAA3md9igNCwUUFjbA2tq4Sun1AVlHH9Ic+DMjyv7d/0QLw8H8xPf6/dOcdzFn1mgTCqEhqdsHRBr8doAAA",
+      "original": "RIO XINGU 2.jpg"
+    },
+    "universo/rios-rio-xingu-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-xingu-1",
+      "alt": "Rio Xingu, aérea com ilhas e pedras",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJbACdIExGKu6f6iewADgN0TPitFlxLeSMXdNcq2Xblbvyrsl9WMjiq9W/NjqFz93Ubq8TEykM+el2kAygWv5Wsi0/60CVSkGa5kiva1cAAAA",
+      "original": "RIO XINGU 3.jpg"
+    },
+    "universo/rios-rio-purus": {
+      "grupo": "universo",
+      "slug": "rios-rio-purus",
+      "alt": "Rio Purus, entardecer na margem",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJQBOgCPfCC83eAD8ApSzlvGKysf55u7K2kGm5i9YHkMNBh5hR5fHi5VNHDCYd477BcifUOm/HfUUL395HgAA",
+      "original": "RIO PURUS 3.jpg"
+    },
+    "universo/rios-rio-purus-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-purus-1",
+      "alt": "Rio Purus, aérea com curva",
+      "width": 500,
+      "height": 333,
+      "widths": [
+        500
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoQAAsAA4BaJZgCdH8AGBxM+/FOkAAA/pec9US0B+VX9Ctxrg1npZDWSpB55DZB2y8YsHg136C10vftOHQwydH+G+LrK6sAAAA=",
+      "original": "RIO PURUS 2.jpg"
+    },
+    "universo/rios-rio-jurua": {
+      "grupo": "universo",
+      "slug": "rios-rio-jurua",
+      "alt": "Rio Juruá, aérea com estrada de água na floresta",
+      "width": 1024,
+      "height": 682,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsAA4BaJYgC7AEDdy2XdhAA/rtP77Ho4xBuFYStUZlPrhFwpIrIYWMzVT2/2VLcKqhg44djSHMLr8IAAA==",
+      "original": "RIO JURUÁ.jpg"
+    },
+    "universo/rios-rio-jurua-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-jurua-1",
+      "alt": "Rio Juruá, meandro na floresta",
+      "width": 640,
+      "height": 428,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoQAAsAA4BaJQBOgBoEYAAA/t2iD3uERAp9Uc5Pkb1VVloDWyFvoW87yYCAW4F/VCqCvbYhIgAAAA==",
+      "original": "RIO JURUÁ 3.jpg"
+    },
+    "universo/rios-rio-jamari": {
+      "grupo": "universo",
+      "slug": "rios-rio-jamari",
+      "alt": "Rio Jamari, margem com canoas e casa",
+      "width": 640,
+      "height": 424,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAoAA4BaJQBOgCLvmpS8g+QAAP6yDijKk+pPiwTxEaRySLty2fkVWwtqV/CczsgRuBCQoiuyUxHlYsscITRCDAF+B2hOAAA=",
+      "original": "Rio Jamarari 2.jpg"
+    },
+    "universo/rios-rio-jamari-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-jamari-1",
+      "alt": "Rio Jamari, curva do rio",
+      "width": 500,
+      "height": 333,
+      "widths": [
+        500
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAsAA4BaJZgCdIExGBuqVvNAAAD45fDVUQ3UJE2xcJyHW3Fp7uHLOzfcBQvwwqIPrcx17eMP9mQYNuLLyL4YAAA=",
+      "original": "RIO JAMARI 3.jpg"
+    },
+    "universo/rios-rio-machado": {
+      "grupo": "universo",
+      "slug": "rios-rio-machado",
+      "alt": "Rio Machado, proa de barco no rio",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAwAA4BaJZQC7ACylult4AAAyzzn5f1mnYoCe9iWGEn+Pfst4Xtk99s13sexmOSR6053KvY3RG5hqWDAAewbujmLVgAA",
+      "original": "RIO MACHADO 4.jpg"
+    },
+    "universo/rios-rio-machado-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-machado-1",
+      "alt": "Rio Machado, margem com morros",
+      "width": 1024,
+      "height": 702,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAsAA4BaJbACdAEQFMafDFAoAP7z5BZwso3eGeRtttLw68Z+dPQhmr/Xm9bI/veC6Tb+culrjCLeYlMDgbdlcg7lYyOiCT0YPOHUId+AB+AA",
+      "original": "RIO MACHADO 2.jpg"
+    },
+    "universo/rios-rio-araguaia": {
+      "grupo": "universo",
+      "slug": "rios-rio-araguaia",
+      "alt": "Rio Araguaia, pôr do sol",
+      "width": 640,
+      "height": 421,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAoAA4BaJbACdAC28zht2MAA/oYk9FWljwbVeCsYJ+Z79Sb9HoanqClfD5CilVHabPWxz5RO1RGBw8ag8AAA",
+      "original": "RIO ARAGUAIA 5.jpg"
+    },
+    "universo/rios-rio-araguaia-1": {
+      "grupo": "universo",
+      "slug": "rios-rio-araguaia-1",
+      "alt": "Rio Araguaia, barco no entardecer",
+      "width": 620,
+      "height": 350,
+      "widths": [
+        620
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAkAA4BaJbACdADwGaBMAAD+tdVgsFxJ2ep9Nws+0vil1xy91u9V1NS/6Z6BkPZQ8I/Mrlnk31rBCJch8UAA",
+      "original": "RIO ARAGUAIA 2.jpg"
+    },
+    "universo/rios-rio-roosevelt": {
+      "grupo": "universo",
+      "slug": "rios-rio-roosevelt",
+      "alt": "Rio Roosevelt, aérea com curva e floresta",
+      "width": 1600,
+      "height": 898,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAkAA4BaJZAC7AEOe2kSTcAA9kRA2p6+DGWcxn2Xs0h0234rm0yoAZXNRcYAzVKkksRp3pSccwTfeHJj3eggAAA=",
+      "original": "rio Roosevelt.jpg"
+    },
+    "universo/peixes-pirarucu": {
+      "grupo": "universo",
+      "slug": "peixes-pirarucu",
+      "alt": "Pirarucu, peixe inteiro em aquário, lateral",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAkAA4BaJZQCdADvZ7+AAP67Z1LsUcObiBkzrtLuNjBf+GQ8I3b+Qhwdw1uik9+d0EAA",
+      "original": "pirarucu_757650421.jpg"
+    },
+    "universo/peixes-pirarucu-1": {
+      "grupo": "universo",
+      "slug": "peixes-pirarucu-1",
+      "alt": "Pirarucu, pirarucu na superfície com floresta ao fundo",
+      "width": 1024,
+      "height": 576,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAkAA4BaJQBOgBulEf/5aAD+71ON2omM+nQj5ObZd1kr1JpyC4LoMS7JgIj2jUEtJln5RS4uT0fgAAA=",
+      "original": "Pirarucu 4.jpg"
+    },
+    "universo/peixes-tambaqui": {
+      "grupo": "universo",
+      "slug": "peixes-tambaqui",
+      "alt": "Tambaqui, peixe adulto em aquário",
+      "width": 640,
+      "height": 426,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQAAsAA4BaJbACdAYvXlJuk8NNAAD+9FbKUPXhmvgBgM4mggNsvWN0rdStjrJm+fWbwT16LIqmoWDd+rg0IdzzKp+PWS8aIFul6yXQ61LppDFex3egwhBOHzEAGAAA",
+      "original": "Tambaqui.jpg"
+    },
+    "universo/peixes-tambaqui-1": {
+      "grupo": "universo",
+      "slug": "peixes-tambaqui-1",
+      "alt": "Tambaqui, verificar qualidade na tela",
+      "width": 1920,
+      "height": 1280,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsAA4BaJbACdAEO7pMX+gMAAP50x/Zp4mBaNV6qQJAqYdkxfMYCPDWqheChlZLIC5Rk8jAD9u5i3kPmVtOEh1/7AsQAAAA=",
+      "original": "tambaqui 2.jpeg"
+    },
+    "universo/peixes-tucunare": {
+      "grupo": "universo",
+      "slug": "peixes-tucunare",
+      "alt": "Tucunaré, cabeça e listras em detalhe",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAAsAA4BaJQBOgB3+tzZ2peAA/PEs9lZsf8sOeLrkRmkD1EcGXQOMk65fzqUTdHIYuZADozJc2rp4xf315WE/j8sJSG4mMoX1MA/xQn7XAptqSdLUpbQqLgAAAA==",
+      "original": "Tucunaré 2.jpg"
+    },
+    "universo/peixes-tucunare-1": {
+      "grupo": "universo",
+      "slug": "peixes-tucunare-1",
+      "alt": "Tucunaré, grupo em aquário",
+      "width": 1024,
+      "height": 586,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAkAA4BaJZACdADPl9fJUmAA+xcRaHRAonkdom4KyAxyu4XurjU+0x2WqRYf3fYlczX6uB2qi1vYDdQ9d04vkJXOogcVz/BsWkFThc0j+AAA",
+      "original": "Tucunaré.jpg"
+    },
+    "universo/peixes-surubim": {
+      "grupo": "universo",
+      "slug": "peixes-surubim",
+      "alt": "Surubim, peixe inteiro entre raízes submersas",
+      "width": 1024,
+      "height": 686,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsAA4BaJZAAAqH86/XxAXAA4nF3iJxTgkOfAsaO7CGv2fkrEGbez+GkSkcdMwbEeNNEHCENDP/zZn8jIAAA",
+      "original": "Surubim 2.jpg"
+    },
+    "universo/peixes-surubim-1": {
+      "grupo": "universo",
+      "slug": "peixes-surubim-1",
+      "alt": "Surubim, lateral em aquário",
+      "width": 1024,
+      "height": 491,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAgAA4BaJYwC7AEO/+v8C8AA/ula+yXgaMMMxBCyZN1FItEzuz/+pJROH5S8rGfEeeNsNg6STAAA",
+      "original": "Surubim.jpg"
+    },
+    "universo/peixes-curimata": {
+      "grupo": "universo",
+      "slug": "peixes-curimata",
+      "alt": "Curimatã, peixe em água clara com fundo de pedras",
+      "width": 1024,
+      "height": 683,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAsAA4BaJbACdAEOeqnN3DCyQAD+0b2b/9ilajeyWSMOfDF9cLqcGO63WosYLlSzOgBdKOW+AblwWlO93hpMjgA=",
+      "original": "Curimatã 3.jpg"
+    },
+    "universo/peixes-curimata-1": {
+      "grupo": "universo",
+      "slug": "peixes-curimata-1",
+      "alt": "Curimatã, lateral em água clara",
+      "width": 640,
+      "height": 481,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAwAA4BaJbACdADbXZfnEAD+qM5fFJGMQWkVVoKNKHCoWh19EMdAPSIpfOWVmoo1jWSqEdIFlQ8fe8sgqUTlVAOJrZ+F0bSFAAAA",
+      "original": "Curimatã.jpg"
+    },
+    "universo/peixes-matrinxa": {
+      "grupo": "universo",
+      "slug": "peixes-matrinxa",
+      "alt": "Matrinxã, cardume em água clara",
+      "width": 640,
+      "height": 397,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAoAA4BaJaAC7AD7yFQCgyAA/uNfkz64TzsOlqcZm6IEF8Qz6x2Mimq4OuY0FSXTwy8AAAA=",
+      "original": "Matrinxã 3.jpg"
+    },
+    "universo/peixes-matrinxa-1": {
+      "grupo": "universo",
+      "slug": "peixes-matrinxa-1",
+      "alt": "Matrinxã, lateral em aquário",
+      "width": 640,
+      "height": 439,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAsAA4BaJZACw7Yuu/Rkk+AA/t2N76iQ6+XzN7PC3JMUqKuXcqvUvQb4krbuINSWIJ5opjcHa3c0zZoM+5kd/3IWcjHJG/LZXgyBoAA=",
+      "original": "Matrinxã 2.jpg"
+    },
+    "universo/peixes-bodo": {
+      "grupo": "universo",
+      "slug": "peixes-bodo",
+      "alt": "Bodó, peixe em detalhe com placas",
+      "width": 1024,
+      "height": 576,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAQCdASoQAAkAA4BaJQBdgBrYWngA/uYDHzfAjm/fS1fgffLrVCf/ycDRF0+XrJLqtoKkiH3J0YimlN+QYkTGatuhtCwW9cTthQYUBn5w6AAA",
+      "original": "Bodó 3.jpg"
+    },
+    "universo/peixes-bodo-1": {
+      "grupo": "universo",
+      "slug": "peixes-bodo-1",
+      "alt": "Bodó, sobre cascalho em aquário",
+      "width": 1024,
+      "height": 595,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAkAA4BaJbACdAEflA2kvobwAP5Ah0lb0/W/CZqFuA4M8nnOcNlJKHBgDYyTh4gjljlsF7fjnJ9xAkP9sPjRPXrMAf6l/cXn1WAA",
+      "original": "Bodó.jpg"
+    },
+    "universo/peixes-cachara": {
+      "grupo": "universo",
+      "slug": "peixes-cachara",
+      "alt": "Cachara, peixe inteiro em aquário",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAsAA4BaJaAC7AEPQ3W/TH4eAAD+8XPmQY2fqVobSS576ehhoQB1Y5pr3AUz3VXMGodP6+G7k4pqaPMvipECudRR8j8emxiNXQAA",
+      "original": "Cachara.jpg"
+    },
+    "universo/peixes-cachara-1": {
+      "grupo": "universo",
+      "slug": "peixes-cachara-1",
+      "alt": "Cachara, sobre areia",
+      "width": 600,
+      "height": 360,
+      "widths": [
+        600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAoAA4BaJQBdgB9S19aAgAD+7yC1tcxkJq4BZ2hQT5cnA9CSlCTyRpagWi0Jc0Uc7xFpXOYj1nY4AAA=",
+      "original": "Cachara 2.jpg"
+    },
+    "universo/peixes-jau": {
+      "grupo": "universo",
+      "slug": "peixes-jau",
+      "alt": "Jaú, peixe inteiro em aquário",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAwAA4BaJaACdAD5jqO9ywFAIAD+5esgMCgpjUz2Vz1FPU+PT+yVoarE7immlhAZK4KYfaN1G+zwYbKKAe+dZFesIAIdhlOcgLaKTAAAAA==",
+      "original": "Jau 2.jpg"
+    },
+    "universo/peixes-jau-1": {
+      "grupo": "universo",
+      "slug": "peixes-jau-1",
+      "alt": "Jaú, jaú saltando na água",
+      "width": 640,
+      "height": 480,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAwAA4BaJQBOgCHhwCQ8AAD+8NOZQeA8A89n346VhhkEqeDZG+f+VpiAtNIL5ICv9f0BeatI1UI9wAA=",
+      "original": "Jau 3.jpg"
+    },
+    "universo/peixes-sardinha-da-amazonia": {
+      "grupo": "universo",
+      "slug": "peixes-sardinha-da-amazonia",
+      "alt": "Sardinha-da-Amazônia, lateral em água esverdeada",
+      "width": 1920,
+      "height": 960,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAgAA4BaJQBOgB6JMUAAAP7sRJB3vNgydi8jtCqIZKzH6uC+khGsFU9mBBeH6oYpY4PbvXJ+tAyIAAA=",
+      "original": "Sardinha da amazonia.jpg"
+    },
+    "universo/peixes-sardinha-da-amazonia-1": {
+      "grupo": "universo",
+      "slug": "peixes-sardinha-da-amazonia-1",
+      "alt": "Sardinha-da-Amazônia, lateral com fundo de folhas",
+      "width": 1024,
+      "height": 491,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAgAA4BaJQBOgCKaUIjFcgAA/oQYC6m050SwEJcGM2G0hejvYBNcdngLJ4YScF6zvcUTFswNOoraiIAAAA==",
+      "original": "Sardinha da amazonia 3.jpg"
+    },
+    "universo/peixes-curvina": {
+      "grupo": "universo",
+      "slug": "peixes-curvina",
+      "alt": "Curvina, aTENÇÃO: a imagem mostra uma corvina marinha em aquário, não a pescada-branca de água doce",
+      "width": 1024,
+      "height": 699,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAsAA4BaJbACdAD2NfflejUAAP7zJUBiix+wXOihckiqGbrj94pR1iuJoOWglI1A/CB7Ek+ts2uI+eIVUc02PvYJCM5D1i54G0B+3taGrko7MI7LBiB8EAA=",
+      "original": "Corvina 4.jpg"
+    },
+    "universo/peixes-curvina-1": {
+      "grupo": "universo",
+      "slug": "peixes-curvina-1",
+      "alt": "Curvina, mesma ressalva: espécie marinha",
+      "width": 600,
+      "height": 400,
+      "widths": [
+        600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAsAA4BaJbACdLoAAq2rvEgAAPuAxTmvETdJuBm2pTkgOLljBNgl4QurwpMVrF5dP8T0tPep9S//i5KcKmWpXWcgUdGHFsAAAA==",
+      "original": "Corvina 3.jpg"
+    },
+    "universo/peixes-lambari": {
+      "grupo": "universo",
+      "slug": "peixes-lambari",
+      "alt": "Lambari, lateral com nadadeiras amarelas",
+      "width": 1920,
+      "height": 997,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAgAA4BaJZgCdADxNErJ9QAA/vRTbmtGNRK3sGytY0W41KJqcKUcd0bgRJUVxnUpqbbNlQp9lPeD8NHc6LYAAAA=",
+      "original": "lambari.jpg"
+    },
+    "universo/peixes-lambari-1": {
+      "grupo": "universo",
+      "slug": "peixes-lambari-1",
+      "alt": "Lambari, lambari com olho vermelho",
+      "width": 1024,
+      "height": 536,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAgAA4BaJaACdAEfZrIT74eKgAD+8OYJAmHw1wqIAl4n1+vAIY1ROjE/pCG0c+16mr+huOosi3QO8NGotHwSoAA=",
+      "original": "lambari 2.jpg"
+    },
+    "universo/peixes-piau": {
+      "grupo": "universo",
+      "slug": "peixes-piau",
+      "alt": "Piau, peixe com as três pintas em aquário",
+      "width": 640,
+      "height": 413,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAoAA4BaJZgCdAD8ta1zJ/HAAP7tK3Ia8xCV6u2WovmsDYz3Y0lWXW5E5X/9VU3RhZ9szCEod2IKLAqHGOUVLZrGbDDwRItvJtlhJjQHl8AA",
+      "original": "Piau.jpg"
+    },
+    "universo/peixes-piau-1": {
+      "grupo": "universo",
+      "slug": "peixes-piau-1",
+      "alt": "Piau, lateral com manchas visíveis",
+      "width": 1024,
+      "height": 537,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQAAgAA4BaJQBOgMWW2/XkU7dMAAD+g48cU1ZMzOq+PnnXxg/M9UBJw06nQxAtfFiVlRoDts402bLwAAA=",
+      "original": "Piau 2.jpg"
+    },
+    "universo/peixes-pintado": {
+      "grupo": "universo",
+      "slug": "peixes-pintado",
+      "alt": "Pintado, bagre em aquário escuro",
+      "width": 1024,
+      "height": 680,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoQAAsAA4BaJQBYdhE329AAAPzPOCbIXz7jhvbUa9pdxdXIXmWCFiuD/wF4nsBPDWTk0exY/+ep1lVkZmNeCr/zAUBD6uhgAAA=",
+      "original": "pintado 3.jpg"
+    },
+    "universo/peixes-pintado-1": {
+      "grupo": "universo",
+      "slug": "peixes-pintado-1",
+      "alt": "Pintado, sobre areia",
+      "width": 640,
+      "height": 384,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAoAA4BaJQBdgB8wZdk/SAAA/u8gtbXMZCbk6VU4tVvUhcmIUWPMJhec8DEG2W96J8BMrL/vnhQx486gAA==",
+      "original": "pintado 2.jpg"
+    },
+    "universo/peixes-caparari": {
+      "grupo": "universo",
+      "slug": "peixes-caparari",
+      "alt": "Caparari, lateral em aquário",
+      "width": 640,
+      "height": 362,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAkAA4BaJYwC7AC3GF/WAAD+756JWlEOLauV6Imk/u5FQ3Ut3zTdjs2h+GMD/p2y6zoWr51s6ClEX4SOqXKJH46D8nOo5etGAAAA",
+      "original": "caparari 2.jpg"
+    },
+    "universo/peixes-caparari-1": {
+      "grupo": "universo",
+      "slug": "peixes-caparari-1",
+      "alt": "Caparari, detalhe das listras",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAsAA4BaJYgAAl3ZbD4A4wAA/svoi8a5FGguoyzVl4nUkB02Ro+3XWPG2Zg22p0eEogWZYLLF9Ox/X97lWwAAAA=",
+      "original": "caparari 3.jpg"
+    },
+    "universo/peixes-poraque": {
+      "grupo": "universo",
+      "slug": "peixes-poraque",
+      "alt": "Poraquê, corpo inteiro sobre cascalho",
+      "width": 1920,
+      "height": 1280,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABQAgCdASoQAAsAA4BaJbACdH8AGZquP1kUwiAA/vXc7rBzUN2+VMe0vCIrD6asDCAZex5zqdkefF5dcUrnlbdBG3eMwgXZq8V1cGD9zc1YwAAA",
+      "original": "poraque.jpg"
+    },
+    "universo/peixes-poraque-1": {
+      "grupo": "universo",
+      "slug": "peixes-poraque-1",
+      "alt": "Poraquê, cabeça em detalhe",
+      "width": 1920,
+      "height": 1273,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAsAA4BaJQAAXaz/qgMOIwAA/ulfwDXtCSHjz3Jv9ufsdZKAilJ8hoiuhWz6im/xlBR6+U8nBKXrAqvB+7U+aUpvWdD1RezHtjgA",
+      "original": "poraque 2.jpg"
+    },
+    "universo/peixes-poraque-2": {
+      "grupo": "universo",
+      "slug": "peixes-poraque-2",
+      "alt": "Poraquê, entre troncos submersos",
+      "width": 1024,
+      "height": 600,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAkAA4BaJYgCsAEWs5YTP0gAAP7b6TrfRyxL0NQ7FF1wxM0NNjvEz+jGyv9Cl+69X9WVQLHmIwR4RbCQ3fORGwNmo5hDsxgyHopIQAA=",
+      "original": "poraque 4.jpg"
+    },
+    "universo/peixes-pirarara": {
+      "grupo": "universo",
+      "slug": "peixes-pirarara",
+      "alt": "Pirarara, cauda vermelha em destaque",
+      "width": 1024,
+      "height": 770,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACwAQCdASoQAAwAA4BaJQBYdiGFFZYIAP7uh3Jvb3AM/Di5WSo+yVqTV2txQ9s6QxW33IG63yA3qcNDtzrYgXzRwRYpLzVRwAH8Htdy/x716C2lAJ1uAAAA",
+      "original": "pirarara.jpg"
+    },
+    "universo/peixes-pirarara-1": {
+      "grupo": "universo",
+      "slug": "peixes-pirarara-1",
+      "alt": "Pirarara, cabeça de frente com barbilhões",
+      "width": 1024,
+      "height": 568,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAkAA4BaJbACdAEfhxqzXKgfAAD+98c2Zkv+D8NWq8Mtlko2h88MdLptydXC0W4O3+v8JygDDWy+E5b3QRl3nVYSiBeybZVwETuD7e02oeKE1cAAAA==",
+      "original": "pirarara 2.jpg"
+    },
+    "universo/arvores-samauma": {
+      "grupo": "universo",
+      "slug": "arvores-samauma",
+      "alt": "Samaúma, tronco e sapopemas de baixo para cima",
+      "width": 1920,
+      "height": 2560,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JZQAD5eoP2/qJhZYod6T6YbLXA4AA/uovulrkRSwPcGtEE8YwPitx1W0q6Enrr/bgU7PGjzs6ZDrM66iaSsoE7UVdstoyKWRQCbem1ZVEBI08HiCb+pCS08qkKWo8ViaA0j73jrzfxBU+7d8JhQ1w4Fb+E0iz3OvlJ4AA",
+      "original": "Samauma 2.jpeg"
+    },
+    "universo/arvores-samauma-1": {
+      "grupo": "universo",
+      "slug": "arvores-samauma-1",
+      "alt": "Samaúma, árvore inteira à beira do rio",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAsAA4BaJQBdgCPuL6S+/OZoAP6Y+OJbUHL57lY/b/ZYi0SkQwquNhddkJC48vB7kw0Wuzd5xQCNkGwhiY36GrKNvhriNrE4AA==",
+      "original": "Samauma.jpg"
+    },
+    "universo/arvores-castanheira": {
+      "grupo": "universo",
+      "slug": "arvores-castanheira",
+      "alt": "Castanheira, árvore isolada com copa alta",
+      "width": 1024,
+      "height": 597,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJYwAApGCv7xgAAD+6EW82Vcv/xXRAWvh9NG2o5g9BwxfhUOW0phgo+L89BDav7QS9vWVjG5kn6Sn9B7AeAAA",
+      "original": "Castanheira 2.jpg"
+    },
+    "universo/arvores-castanheira-1": {
+      "grupo": "universo",
+      "slug": "arvores-castanheira-1",
+      "alt": "Castanheira, tronco visto de baixo",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAsAA4BaJaAAD4fsEcXef0qYAAD+wkF7Gjog/XGQdcGy/p13WZ2R6xTy/h+eb2bvzFU5uvbuzPOLRSjPo9E6jOjClNw1/U//BZnWFYAAAA==",
+      "original": "Castanheira 3.jpg"
+    },
+    "universo/arvores-copaiba": {
+      "grupo": "universo",
+      "slug": "arvores-copaiba",
+      "alt": "Copaíba, copa vista de baixo com galhos",
+      "width": 1024,
+      "height": 768,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAwAA4BaJYgCw7EN9zEoHIEgAP7wzMDY5hRiesxt6aUMjMq2cm5UA7swawEzzm8YdtA2+n4JNuw7UE9grWHZp6Id/YxE4RvF4AAA",
+      "original": "Copaiba 4.jpg"
+    },
+    "universo/arvores-copaiba-1": {
+      "grupo": "universo",
+      "slug": "arvores-copaiba-1",
+      "alt": "Copaíba, árvore inteira contra o céu azul",
+      "width": 1024,
+      "height": 1024,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQABAAA4BaJbACdADsvFiEiwAA/i3jJxvVLvvM9NyPhOYo0yTnd/5YkbAyirqpeDiu9srLJJ2DYyyyP1mj+sWWzQ7c06TCllPy6TmBAAA=",
+      "original": "Copaiba 2.jpg"
+    },
+    "universo/arvores-andiroba": {
+      "grupo": "universo",
+      "slug": "arvores-andiroba",
+      "alt": "Andiroba, frutos e folhas em detalhe",
+      "width": 1920,
+      "height": 2560,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JaACsMoABXLhCfBf1W0XQAP4z4/8U25ZKDX9fjnPFqWr8icBJJbuvJtBHenjmMJflCKmkKuKnM8Cw5a+qBhUMLBSES/4D0hYZPhPQk3aqu88sToMmqP/6HTu+AAg2h+WyE/Yb6afLZw5QMiiDqAshN5XEB4OAAAA=",
+      "original": "Andiroba 3.jpg"
+    },
+    "universo/arvores-andiroba-1": {
+      "grupo": "universo",
+      "slug": "arvores-andiroba-1",
+      "alt": "Andiroba, copa vista de baixo",
+      "width": 620,
+      "height": 465,
+      "widths": [
+        620
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAAwAA4BaJbACdAD6yzZYa3AA/vNOxZOShBh54YQg/mhqzq1O6isucTAgw0JUuVwGO0OrsvVXgicLGPb8bcVnZ0tmM+9gTq6JCId9jwYRm5f9LuOcirGn9VgAAA==",
+      "original": "Andiroba 2.jpeg"
+    },
+    "universo/arvores-acai": {
+      "grupo": "universo",
+      "slug": "arvores-acai",
+      "alt": "Açaí, açaizal com vários troncos",
+      "width": 1920,
+      "height": 1300,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAsAA4BaJYgCdAEVLXpDFWAAAP7GB6I3zTFKSmX+W5TBhX4pVhdGo5C+bOG9Z9/BE/Jj4p0XS4u3/yNibPU7p1+ftxcqsmAAAA==",
+      "original": "açai 3.jpg"
+    },
+    "universo/arvores-acai-1": {
+      "grupo": "universo",
+      "slug": "arvores-acai-1",
+      "alt": "Açaí, cacho com frutos maduros",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsAA4BaJbACdAEfboZdTTPkIADieXjDHi/C0Ce4fy0JUjvb1airyJKFm6YmJg8vUaDW4YvVo6Pr0jkna4ivUwZcH/5wUavtDdYad/pZxDP6G+wlBxNAAAA=",
+      "original": "açai.jpg"
+    },
+    "universo/arvores-cumaru": {
+      "grupo": "universo",
+      "slug": "arvores-cumaru",
+      "alt": "Cumaru, tronco reto visto de baixo",
+      "width": 640,
+      "height": 853,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOmUABiBRPI3rQmpMSN4AD+5aBQ+QL61QAW7AI8oOo8yczg8ycWZMO2K/xQHkY0lbuWMLqE5A1rt58Rs9R44ACUjr3PClHcAX5w1StUXjRxx3kU3U7PMTVvZd3Txdq0a2bllxOMqrgAAAA=",
+      "original": "cumaru 3.jpg"
+    },
+    "universo/arvores-cumaru-1": {
+      "grupo": "universo",
+      "slug": "arvores-cumaru-1",
+      "alt": "Cumaru, copa contra o céu",
+      "width": 640,
+      "height": 480,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQAgCdASoQAAwAA4BaJZQCdAYubyl/t9ct+AAA/apCYrxXtlZ50TVgsbIpuQHhoW/13LPT6Mz63L4AL6puoxTWaEwAOM+AZu2Xe7JhrmG1rfuyAIXSLuAfJFSmJSTk0uqVUxJ2FvPwFLUyQoBigAAA",
+      "original": "cumaru 2.jpg"
+    },
+    "universo/arvores-cedro": {
+      "grupo": "universo",
+      "slug": "arvores-cedro",
+      "alt": "Cedro, árvore inteira contra o céu",
+      "width": 640,
+      "height": 853,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoRwACAvgCvdmqnxOHW5C4AA8ABmX5/gF8W4cGlV8I8et205BuSwjqW0KPQ95xicJ8426QBt/+drAsVRD4VLVlUw31zHscSaeZsyWuXs52t8SnTqZFNwWBti641PAT0WWfpQhOwVkaF54gAA",
+      "original": "cedro 3.jpg"
+    },
+    "universo/arvores-cedro-1": {
+      "grupo": "universo",
+      "slug": "arvores-cedro-1",
+      "alt": "Cedro, dossel genérico; verificar se a imagem representa cedro",
+      "width": 1024,
+      "height": 538,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAgAA4BaJQAAREP5vtAA/rydnBTdXs+ianLK1egEv1AXz0FoZwGGMbOpQMWwLeu97SnoT5MC/4hIRuggAA==",
+      "original": "cedro 4.jpg"
+    },
+    "universo/arvores-mogno": {
+      "grupo": "universo",
+      "slug": "arvores-mogno",
+      "alt": "Mogno, tronco e copa vistos de baixo",
+      "width": 640,
+      "height": 426,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQAgCdASoQAAsAA4BaJbACdAYuu3Tc73UAAP69xsRzD1uVhjB004FSHunO24HNOH/nkT5XndScrbcF89u3U3Cm3wM8VsvDMmId80jzo5Izqn1mw9Sa0+oe599Pks4ybM6WF5lVqGtG5OwWAAA=",
+      "original": "mogno.jpg"
+    },
+    "universo/arvores-mogno-1": {
+      "grupo": "universo",
+      "slug": "arvores-mogno-1",
+      "alt": "Mogno, tronco reto",
+      "width": 598,
+      "height": 900,
+      "widths": [
+        598
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAABQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwCdAYww5SCyNFvNMbsyrYOAAPwyCzuRmovVz7iw4t7mT1E+MOTUXRF2bZGvkQOIr32tOyo4hMvsd8Q2YfOXPKKC0Lf/H+63+a/TlSwLVCYAqoZcGVY4nVQz/Fc3zwa3teecS5Iih6A8n20aDYuZL8NqsjYJlhHpDCycrOc78USxWZjESPkCgC7L0cx3AAA=",
+      "original": "mogno 3.jpg"
+    },
+    "universo/arvores-ipe": {
+      "grupo": "universo",
+      "slug": "arvores-ipe",
+      "alt": "Ipê, copa amarela vista de baixo",
+      "width": 1600,
+      "height": 1067,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACQAgCdASoQAAsAA4BaJbACdAYuH2aJYRmuxLlZQAD5TZYLL8TAPnFtfxS9J/Aqr2sSiOR8ZdqBOUyW86sDTSxo89wiau+twKNAufu9Hy/bCN1Q4be1C6JwmOJ9nWj3k3d/eBsycGu27AAA",
+      "original": "Ipê 4.jpg"
+    },
+    "universo/arvores-ipe-1": {
+      "grupo": "universo",
+      "slug": "arvores-ipe-1",
+      "alt": "Ipê, ipê-roxo florido em solo vermelho",
+      "width": 640,
+      "height": 640,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoQABAAA4BaJbACdACTiCR2HwAA9G2XKyPgvLMdQNKYqeT5JBOhvOAeNJ/R1asF+pZDc56rX+TbjeSQqU/z9fZO3nS1HmbpF/qGfxQ1AB0x5LHXjxKHvwd2SN18SQ8roAAAAA==",
+      "original": "Ipê 3.jpg"
+    },
+    "universo/arvores-jatoba": {
+      "grupo": "universo",
+      "slug": "arvores-jatoba",
+      "alt": "Jatobá, árvore isolada em gramado",
+      "width": 1024,
+      "height": 1024,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABQAgCdASoQABAAA4BaJQAB8Y4uzbzeKpFptgAA/vQMi5//MgmHeE7x+rYzC/PjXyvmwjEHIjqNEf6rw8JjIQa+DaGU4KJbPlNqT4FdP9uNl+Bu/M7GoX3HRzEhWgVSA2VQSdGzXtHw6Ip4a5K6Uoft3tNsITdmP62Nw9NqzGgAAA==",
+      "original": "jatobá 3.jpg"
+    },
+    "universo/arvores-jatoba-1": {
+      "grupo": "universo",
+      "slug": "arvores-jatoba-1",
+      "alt": "Jatobá, copa ampla",
+      "width": 1024,
+      "height": 768,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAwAA4BaJZACdAEPDqFhvVeAAP7uatOAPwCNZcBuF/gkv/+mG8ghThpVxVtq6yqhI2uU6oQrJWAniNQih6nX3UIQ09kUa2TFZ593VEYAAA==",
+      "original": "jatobá 4.jpg"
+    },
+    "universo/arvores-bacaba": {
+      "grupo": "universo",
+      "slug": "arvores-bacaba",
+      "alt": "Bacaba, palmeira com cachos vermelhos",
+      "width": 640,
+      "height": 720,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADwAwCdASoQABIAPu1iqU2ppaOiMAgBMB2JQBOgA3J/KdyAibGBMnWAAPv4+Z0owx/6/0pxvalDsfzFpGYJgFQXUeMwp55A3HVhEcpcDVSBeMPEC7jc6H9iGnUw11pZVJDFsQaXcOESGrNUfVk1yPivzxP+4wtN1vdfvaAKy9vD6Ecx+ynqhQEEG2R2ba/SNspMFX3qhq1CoZCAAAA=",
+      "original": "bacaba 3.jpg"
+    },
+    "universo/arvores-bacaba-1": {
+      "grupo": "universo",
+      "slug": "arvores-bacaba-1",
+      "alt": "Bacaba, cacho em detalhe",
+      "width": 640,
+      "height": 1096,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAABQBACdASoQABsAPu1iqk4ppaQiMAgBMB2JaACsAYx2lMNByRRAbW6t8rYAAP2ZOdoC+0WTyAqrwf1aM31vv3yjHZKXUVeCPb2JtcisRs2Hf4LKjS7Jm+Jdau8pEwmMEZ6vCDdur7KbZiR3xqQji2/ocBXRJXzVzEeepcGe02TbRn+5tscneAejsbmGAV9wAzaLGfk0LpHiRR2jEEcDjlQdsb0NAggAAAA=",
+      "original": "bacaba 2.jpg"
+    },
+    "universo/arvores-tucuma": {
+      "grupo": "universo",
+      "slug": "arvores-tucuma",
+      "alt": "Tucumã, cacho de frutos laranja",
+      "width": 530,
+      "height": 617,
+      "widths": [
+        530
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACwAwCdASoQABMAPu1iqU2ppaOiMAgBMB2JZAC7MoADN71jQs0RgAD+qrg1ejlq72F2YNcD7N1PNRHYD9UH+wXuSRZPCrbUl06bKR+l1N/nDAMzL3ayAplC9lmGKOQ8ThfDJD5M8TIW70Cifyr2PtB6QgExs0U+yIVTB/sQjglrkoAgoQAAAA==",
+      "original": "tucumã 5.jpg"
+    },
+    "universo/arvores-tucuma-1": {
+      "grupo": "universo",
+      "slug": "arvores-tucuma-1",
+      "alt": "Tucumã, palmeira inteira",
+      "width": 640,
+      "height": 480,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQAgCdASoQAAwAA4BaJbACdAD7CH9ubMxgAP21sZzHaa23v14M2tDegLzcyp0LtvHjzbJY4KLZ+/CNsulNEQpiGjHX3Q+dXjhdcnZg/jUInLGYENL4YOfqkBTp8bQj0zaqlY8CYkwqhxG9/8htVFTYSAA=",
+      "original": "tucumã 3.jpg"
+    },
+    "universo/arvores-angelim": {
+      "grupo": "universo",
+      "slug": "arvores-angelim",
+      "alt": "Angelim, tronco reto visto de baixo, sem galhos",
+      "width": 1920,
+      "height": 1272,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJQBOgCbf4ZcBS42AAP7uw90GRZ2DChFa3BUc1i4wW16UpZN7pLFPTWm3TBufsD/4TLAk6IakUrAKfnrIq1h4rnpsqfys8kxCZxxGUAA=",
+      "original": "angelim.jpg"
+    },
+    "universo/arvores-angelim-1": {
+      "grupo": "universo",
+      "slug": "arvores-angelim-1",
+      "alt": "Angelim, sapopema e tronco",
+      "width": 640,
+      "height": 853,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JYwC06YxswPjvnPCjFqPmhiaAAPrz+XFHNdKFykzK0nvPGSjDs9vTQdzuWeAk8y0WBpHF8VZ9B7nsU2HU/yrewcmuk6N6w8mxmV/CaSAMpSTCU4kbdVfoXzRCAtUBRd6s62w3R9Kac+Dp17w95Rx4RjJXQAAA",
+      "original": "angelim 3.jpg"
+    },
+    "universo/arvores-macaranduba": {
+      "grupo": "universo",
+      "slug": "arvores-macaranduba",
+      "alt": "Maçaranduba, galhos e tronco vistos de baixo",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAQCdASoQAAwAA4BaJZQAAtl4QqgAAP7BozxtVx/6DrZE1fmj7VbiXT4j9H7QMGMf1Dx0SP40anvTC1JQBQSTm9yLi7FU5YTWajI+Eo2NbD9OcdCWHhbw6hAAAA==",
+      "original": "maçaranduba.JPG"
+    },
+    "universo/arvores-macaranduba-1": {
+      "grupo": "universo",
+      "slug": "arvores-macaranduba-1",
+      "alt": "Maçaranduba, frutos entre as folhas",
+      "width": 1024,
+      "height": 1365,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbAC7MoR4GdCVDTdsoBq3DnqKwAD+26Wb9pwDotde2l/a3SEjLSYRnUsofo81CZRn23LGRM6eTrZe6Eti7XeprR53Gld9Uf5O69PJZ062fM1QGAgGqzD8zg+3QP8W6kmvBJZ7m9ROarsPYw/tUKADQ0GEaBTOYg8mPRHmMCjr0LExi15AAA==",
+      "original": "maçaranduba 5.jpg"
+    },
+    "universo/arvores-jenipapo": {
+      "grupo": "universo",
+      "slug": "arvores-jenipapo",
+      "alt": "Jenipapo, frutos verdes na árvore com céu azul",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAQAgCdASoQAAwAA4BaJbACdAYtK4ygSFIAAOAPSwPn+RTY4P6dpLoRLvKgo4CJ+WeGLJLoJW6fc2OtGnRmxzPW0ZLbXh+mzMhXSnpMdYbBd2KOox8JR9VQNIbs8EO3Qnl3lcqoOWcRCwAA",
+      "original": "jenipapo 5.JPG"
+    },
+    "universo/arvores-jenipapo-1": {
+      "grupo": "universo",
+      "slug": "arvores-jenipapo-1",
+      "alt": "Jenipapo, fruto entre folhas",
+      "width": 620,
+      "height": 465,
+      "widths": [
+        620
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAQCdASoQAAwAA4BaJYgCdADViyh4AP68kJMz1EiGWxECRL77T2fhPTdxCKSVeroE7aPlo3ofx8kqsKGEvDv0sEptYvcuzSK0pvy5/yAAAA==",
+      "original": "jenipapo.jpg"
+    },
+    "universo/arvores-itauba": {
+      "grupo": "universo",
+      "slug": "arvores-itauba",
+      "alt": "Itaúba, casca em placas em detalhe",
+      "width": 640,
+      "height": 752,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwAwCdASoQABMAPu1iqU2ppaOiMAgBMB2JZgCo9YwS1W1S4B8uIAD9/IVF0iDfmEO8Ae0KEwk5LMSdGHOHzauDYu+B1yW2TGZX0t89TBdVfrOCJ2TGiT7EVc3yWoZR2zL2Vxjhr+I9g74V5qcf44lnp6cCXftIOxIOUr/D7BCPVTIAAAA=",
+      "original": "itaúba.jpg"
+    },
+    "universo/arvores-itauba-1": {
+      "grupo": "universo",
+      "slug": "arvores-itauba-1",
+      "alt": "Itaúba, tronco visto de baixo",
+      "width": 334,
+      "height": 500,
+      "widths": [
+        334
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JQBfq+AQWAvDqM421+Cya8ijZOD/8APzYMbLAR9nob7WV7YOzrgqj8OIhECG/l2n4+bDdYXUzM5Qo7e//3cWw2qIeHvzJS9DwrRp+OqV5fi1LtVOy8SZ3RUaI4W1nlXq7oub3u1YcpUc+0ZZap/6kggZ4/yKOozx08EvnkN1O8APnTTy10nh8sQOz1XLwik3yMYEcwPemvfuQAAA=",
+      "original": "itaúba 2.jpg"
+    },
+    "universo/arvores-seringueira": {
+      "grupo": "universo",
+      "slug": "arvores-seringueira",
+      "alt": "Seringueira, seringal com tigelas nos troncos",
+      "width": 1920,
+      "height": 1280,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAsAA4BaJaACdADJRS6FwAD+T2IYjX01I270gxHdO1BCAE18eFA6KU88fm7zoZctHi14UoZJXkE8hVgLc/1Cy6zrKaCgi6uaLiGyb9lx9oAA",
+      "original": "seringueira 2.jpg"
+    },
+    "universo/arvores-seringueira-1": {
+      "grupo": "universo",
+      "slug": "arvores-seringueira-1",
+      "alt": "Seringueira, corte e látex escorrendo em detalhe",
+      "width": 1600,
+      "height": 1063,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJbACdAYuvRiGIa42AAD8jqufZwjXEPpydY4y3xiVJiG+HbsSEcRkT8jZ36GPjl1OB1t1ntQNsUnVoZG1CN3iV3+p9THvk1g0ymf4SSPeAAAA",
+      "original": "seringueira 3.jpg"
+    },
+    "universo/arvores-jequitiba": {
+      "grupo": "universo",
+      "slug": "arvores-jequitiba",
+      "alt": "Jequitibá, tronco imenso visto de baixo",
+      "width": 1920,
+      "height": 2891,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZACdAYyKWr+wKUX63oRPQAD9jiuOPapCw5fW9N0JHBm9C/Yb2ynwgA/rKgN8V0lRz5qkmPurUjeuF0t0flXNFaGvgzVsp6PmQdXupz3NhhHyVVlEoB7Lq9G/a59xHTXvzRg7So7LKX2nWSmc8Poo1AOEvHC2YGMQJQlL8AA=",
+      "original": "jequitiba.jpg"
+    },
+    "universo/arvores-jequitiba-1": {
+      "grupo": "universo",
+      "slug": "arvores-jequitiba-1",
+      "alt": "Jequitibá, árvore isolada em campo",
+      "width": 1024,
+      "height": 685,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAsAA4BaJZAAAxYst+KGQAD+7j80OqlT25+L7AtEHfu7vn8hakxb5fgMs/e+Nc7yjKFiLriBLSr8XW6ofDnUf7UAsPbUvSAAAA==",
+      "original": "jequitiba 2.jpg"
+    },
+    "universo/aves-arara": {
+      "grupo": "universo",
+      "slug": "aves-arara",
+      "alt": "Arara, casal de araras-vermelhas em galho",
+      "width": 1920,
+      "height": 1920,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQABAAA4BaJYgCdADRtcd6QAAA/vXO47cKR2W1Ls/jzSu3r5tWJN8c06t9FK0d2m4ClV1vrD8e8j4ium8PpNaNI/2XajnKa00AAA==",
+      "original": "Arara 2.jpg"
+    },
+    "universo/aves-arara-1": {
+      "grupo": "universo",
+      "slug": "aves-arara-1",
+      "alt": "Arara, araras-azuis em voo",
+      "width": 637,
+      "height": 421,
+      "widths": [
+        637
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAQCdASoQAAsAA4BaJaACdADrg+4AAP4vIKQJnLysixZVOd1egcHrRCtsumt48uAJqtm19QiREmVV6XOKfMdOybY7x2un64Ir7ZRd55DhvzknIgAAAA==",
+      "original": "arara 3.jpg"
+    },
+    "universo/aves-tucano": {
+      "grupo": "universo",
+      "slug": "aves-tucano",
+      "alt": "Tucano, tucanuçu em voo contra o céu azul",
+      "width": 1024,
+      "height": 553,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAkAA4BaJbACdADRdCmogAD3CCGtiM5UIq3Ssvu+eNHuQaqr9+NW+KaUA73S7mltqsY79+QUQnPeFg9GO51hH1JURVOFDKNSt9Ke4AA=",
+      "original": "tucano 2.jpg"
+    },
+    "universo/aves-tucano-1": {
+      "grupo": "universo",
+      "slug": "aves-tucano-1",
+      "alt": "Tucano, tucano pousado em palmeira",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoQAAsAA4BaJbACdADVik8AAPfQlQhs6fGCMoHf4g0O0/k/VIvB/uzY9UWurHbs9OHhMwTtObDL6/BM6Nr3NPtGEkLx7mAA",
+      "original": "tucano 3.jpg"
+    },
+    "universo/aves-papagaio": {
+      "grupo": "universo",
+      "slug": "aves-papagaio",
+      "alt": "Papagaio, papagaio comendo fruto na árvore",
+      "width": 640,
+      "height": 640,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoQABAAA4BaJbACdAdwLf/cWPmzswAA94W907nvojRDMZ3Kps9RnkoceITDwspeOZpEsdmqnVT2o8rFtpCeYCb/MC4kB01XmVsckYASTHo7tlvuJqsVQzYbIeqO5RBh2jWVBSEmpeVAAA==",
+      "original": "papagaio 4.jpg"
+    },
+    "universo/aves-papagaio-1": {
+      "grupo": "universo",
+      "slug": "aves-papagaio-1",
+      "alt": "Papagaio, papagaio-verdadeiro em galho seco",
+      "width": 1024,
+      "height": 538,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAgAA4BaJZgCdAC4NgXaagAA/FqKUTF3YZALYSVQ7D/tc0bIxIw2RtcgWMPoiZr/YlkNM/qDyxCiTN1qgAAA",
+      "original": "papagaio.jpg"
+    },
+    "universo/aves-gaviao-real": {
+      "grupo": "universo",
+      "slug": "aves-gaviao-real",
+      "alt": "Gavião-real, harpia pousada com penacho aberto",
+      "width": 1024,
+      "height": 683,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoQAAsAA4BaJZgCdAEMHb0AAP7BaO/itocIyJ7JL3FlLK7w7MM7vqUM8z9nayrCmM58dJrXyM2VUraSWRZz6pEkUxfFwAAA",
+      "original": "gavião real.jpg"
+    },
+    "universo/aves-gaviao-real-1": {
+      "grupo": "universo",
+      "slug": "aves-gaviao-real-1",
+      "alt": "Gavião-real, harpia entre folhagens",
+      "width": 1024,
+      "height": 819,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwAgCdASoQAA0AA4BaJbAAD5LQ9QQW3APtMADiXu9nkc9/6/Du8k9T6lu7CZxcogYIRTFli9ea61ii5wuCey7+IP2R4spIN+InWy+8ODllDdh/+kYrbSiH/zN+sPOzMhz2d1guQIAAAA==",
+      "original": "gavião real 6.jpg"
+    },
+    "universo/aves-uirapuru": {
+      "grupo": "universo",
+      "slug": "aves-uirapuru",
+      "alt": "Uirapuru, uirapuru-verdadeiro, marrom com rosto alaranjado, em tronco caído",
+      "width": 640,
+      "height": 427,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABwAgCdASoQAAsAA4BaJZACdIExG5qLX7v13uoAAP08fnoFE2AOwY3fLrHNeklHEJczfue4Y23rzob3PkxFdBQWkhDNZyzf7qIedGAM5HfHIMsVg+8YJHpuAAA=",
+      "original": "urapuru 4.jpg"
+    },
+    "universo/aves-uirapuru-1": {
+      "grupo": "universo",
+      "slug": "aves-uirapuru-1",
+      "alt": "Uirapuru, aTENÇÃO: ave vermelha, provavelmente um piprídeo (uirapuru-laranja ou parente)",
+      "width": 640,
+      "height": 480,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAwAA4BaJbACdAC8cJSYwADvoBNbzGZbYMUjs+C4M8gqei5w/u7oT0ECiY1v59sLpuMbVXt3zny+kq2MaB7LNsMz2RvDYlLspabxKRKgAA==",
+      "original": "urapuru.jpg"
+    },
+    "universo/aves-beija-flor": {
+      "grupo": "universo",
+      "slug": "aves-beija-flor",
+      "alt": "Beija-flor, beija-flor verde pousado em galho",
+      "width": 1920,
+      "height": 1008,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAgAA4BaJbAAAmrYtJ4dE6AA/qwNDIu+eBvBStrjMvxHhIAiKzTDxzDHyfMBA6CALsf/+uHx9V1PrIfv+SAA",
+      "original": "beija flor 5.jpg"
+    },
+    "universo/aves-beija-flor-1": {
+      "grupo": "universo",
+      "slug": "aves-beija-flor-1",
+      "alt": "Beija-flor, beija-flor-tesoura pairando em flor vermelha",
+      "width": 1024,
+      "height": 680,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoQAAsAA4BaJbACdAEQdSADo7el1PAA/guHhxIYjigkBQo4CxtA6dGYSGu7Ro9dkArygLSTBg15GKwz1ACH7UcMe1AZsVTwT3xzQWrzfuGKaYwS1F6H8OxhEoBiPSHqw4YAAA==",
+      "original": "beija flor.jpg"
+    },
+    "universo/aves-garca": {
+      "grupo": "universo",
+      "slug": "aves-garca",
+      "alt": "Garça, garça-moura em voo contra o céu",
+      "width": 1920,
+      "height": 1280,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAsAA4BaJbACdLoAAjchlrEDoAD+jO+ZB2cv6+Sk/bBVKPFvfGky02LkDcbZaL2mDDanb94A1L9eO09a8YTv4Hur6N0zjhAAAA==",
+      "original": "garça 6.jpg"
+    },
+    "universo/aves-garca-1": {
+      "grupo": "universo",
+      "slug": "aves-garca-1",
+      "alt": "Garça, garça-branca-grande em voo sobre a água",
+      "width": 1600,
+      "height": 1075,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAsAA4BaJZQCdAD8LUaj3yAA/dlnJpdhXWHKqBAP7/lpXLKB1eXM+OWhAAAA",
+      "original": "garça 2.jpg"
+    },
+    "universo/aves-mutum": {
+      "grupo": "universo",
+      "slug": "aves-mutum",
+      "alt": "Mutum, mutum preto com bico vermelho em galho",
+      "width": 1920,
+      "height": 1278,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJQBdgCIbEskJRmPHIAD+iGevUngViynPAgr037gC2pWHxh6leD3moVBcKbUdeB7W0Tl5Xd7K/49krahDy4kCUHwnbvSrhuLZNA19IraQ+AAA",
+      "original": "mutum 2.jpg"
+    },
+    "universo/aves-mutum-1": {
+      "grupo": "universo",
+      "slug": "aves-mutum-1",
+      "alt": "Mutum, fêmea barrada de mutum-de-penacho no chão da mata",
+      "width": 640,
+      "height": 480,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoQAAwAA4BaJbACdAC3vyla/LAA/sIN/MC2enwQD4TWLn76CBPyCHx+dOtsJUTY86pSuuFG2z3/dxW2IKSRhKNBFBAKWYJDrBic8WsxVTKk0munqrsC64syX2JjvRNgU/LoAA==",
+      "original": "mutum 3.jpg"
+    },
+    "universo/aves-coruja": {
+      "grupo": "universo",
+      "slug": "aves-coruja",
+      "alt": "Coruja, coruja-buraqueira de frente em tronco",
+      "width": 1920,
+      "height": 1461,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAwAA4BaJZACdADp7Vh1QAD+3NN2LZlYhw0cBRbqOFojbBRC5ETZfEsId4oxZ2AbNUb1tYa1Qdr493NirXuWiiMdoAAA",
+      "original": "coruja.jpg"
+    },
+    "universo/aves-coruja-1": {
+      "grupo": "universo",
+      "slug": "aves-coruja-1",
+      "alt": "Coruja, coruja-buraqueira no campo com flores",
+      "width": 1920,
+      "height": 1213,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoQAAoAA4BaJbACdAD7FuSDca7kNAAA/p9wkkm77VhjAynqtKXXrdJaM48Pbw+MyoDrTGfbI73enpeC9B+JK8uNu7fx/o84J/EeWHeyMQqGeUAA",
+      "original": "coruja 4.jpg"
+    },
+    "universo/aves-carcara": {
+      "grupo": "universo",
+      "slug": "aves-carcara",
+      "alt": "Carcará, carcará pousado em galho contra o céu",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAQCdASoQAAwAA4BaJbACdABvqu1AAKXGSSNUPx4RjAjWyKd1eS549T+P5ZPbg+NO0tJyjo/fihM7dZHqqnRrJRFN9Ct5CT2kQ1EDUIAAAA==",
+      "original": "carcara 5.jpg"
+    },
+    "universo/aves-carcara-1": {
+      "grupo": "universo",
+      "slug": "aves-carcara-1",
+      "alt": "Carcará, carcará de asas abertas",
+      "width": 1600,
+      "height": 1067,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQAgCdASoQAAsAA4BaJbACdAYuRqn23td/n4AA/rCvwdUxSqyScr2gyc1kwDjtK0IuM/nlNPpmhaF9NlR9uJWBlR+nUQ0S0HmtYWRbyaPIlGapVzPj4LJOVtOEfyPrLJFHb7aXh/kch8I4AAA=",
+      "original": "carcará 2.jpg"
+    },
+    "universo/aves-anu-preto": {
+      "grupo": "universo",
+      "slug": "aves-anu-preto",
+      "alt": "Anu-preto, anu em cerca de arame com pasto ao fundo",
+      "width": 640,
+      "height": 479,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAwAA4BaJbACdAEJZG8lAAD+01RljqRz2gVTUMSmtO+mywQSQqvGA9sHWZGiUEjfunz/rrUU4uWjXBX0vsAA",
+      "original": "anu preto 4.jpg"
+    },
+    "universo/aves-anu-preto-1": {
+      "grupo": "universo",
+      "slug": "aves-anu-preto-1",
+      "alt": "Anu-preto, anu em galho",
+      "width": 599,
+      "height": 800,
+      "widths": [
+        599
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAwBACdASoQABYAPu1iqU2ppaOiMAgBMB2JZAAAXjQQSk0pX0lmF47C6hAAzjrGGqX7p9nixU4WhZuOIYUBcdAn4gPi7piW3fNwUa3fDHDnd2Yk7oOVf2Blf5WxmsHMgH+xcn81o9NnyTSyJgKqg7SRNxpm0np48C0QY/cdApWSPtZ6RUcAAA==",
+      "original": "anu preto.jpg"
+    },
+    "universo/aves-tangara": {
+      "grupo": "universo",
+      "slug": "aves-tangara",
+      "alt": "Tangará, piprídeo de cabeça vermelha em galho",
+      "width": 1024,
+      "height": 768,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAwAA4BaJagCdACi7YFhkAD+d+ZZcJCnU0+b3sjssOD479wI0GL9wEhZv1cvW4yrTMfQZM60QH6U3hBZZBA6vr8NpXbd7RDeOsI8NAAAAA==",
+      "original": "tangará 6.jpg"
+    },
+    "universo/aves-tangara-1": {
+      "grupo": "universo",
+      "slug": "aves-tangara-1",
+      "alt": "Tangará, aTENÇÃO: a ave parece uma saíra (traupídeo), não um piprídeo",
+      "width": 1920,
+      "height": 1375,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoQAAsAA4BaJZgCdAfwA33d113YAP7BgbcCbT/NaStfc+nGhyTFRhtaIB8KU/R8SCZlBmqz/LbvzQdW0jMGYRpBARY6ktmv17JAOcKZVDW6TDqILYpQfoeoy4AVfekNymW0AA==",
+      "original": "tangará 3.jpg"
+    },
+    "universo/aves-colhereiro": {
+      "grupo": "universo",
+      "slug": "aves-colhereiro",
+      "alt": "Colhereiro, dois colhereiros na água, um de asas abertas",
+      "width": 1920,
+      "height": 1280,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAQCdASoQAAsAA4BaJbACdADperOgAP70VHENXz/u4U8+QC+hjDZa1KGR3gBlwOBUkhXyQq07VpjYJVC1jtZafqWlEul+SJObPa0M/nemcdukHX7+kLFkIXpUE0oAAAA=",
+      "original": "colhereiro 3.jpg"
+    },
+    "universo/aves-colhereiro-1": {
+      "grupo": "universo",
+      "slug": "aves-colhereiro-1",
+      "alt": "Colhereiro, aTENÇÃO: colhereiro branco, aparentemente espécie europeia",
+      "width": 640,
+      "height": 960,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JbAC06BrG/P1F9QUPwAAA/tpYOOYczWBWw+xJPi24iMmQ2QRWVbtGvfcoiXx7864Tyx0SZ90XKBdrILTOjQZQaD+LjXOSUDL9rhm3ovT9Q59MAQ1KVaipbmWeE0xXaV6VHi4WrDnExTGv/JZmbPpM6zKAAAAA",
+      "original": "colhereiro 5.jpg"
+    },
+    "universo/aves-curio": {
+      "grupo": "universo",
+      "slug": "aves-curio",
+      "alt": "Curió, curió macho em capim, espécie correta",
+      "width": 1024,
+      "height": 576,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAQCdASoQAAkAA4BaJbAAAOq5oADNMu4crEND3LOgvajJz0uzG+0BoGjEFwJcqfBIeFZSEX/8RdQBtdf6XgAA",
+      "original": "curió 3.jpg"
+    },
+    "universo/aves-curio-1": {
+      "grupo": "universo",
+      "slug": "aves-curio-1",
+      "alt": "Curió, aTENÇÃO: ave azul, não é curió (parece saí ou sanhaço)",
+      "width": 640,
+      "height": 480,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoQAAwAA4BaJYwC7AYtBnXLTs0ZI0AA9cN7FwJuZsH71Pkta6UTeM0UGmMe/0uq19peNapDreNNzlPDYdu3KgvVrKSRwfJLAAA=",
+      "original": "curió 5.jpg"
+    },
+    "universo/aves-andorinha": {
+      "grupo": "universo",
+      "slug": "aves-andorinha",
+      "alt": "Andorinha, andorinha-azul-e-branca pousada em galho",
+      "width": 1920,
+      "height": 1280,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAsAA4BaJYgCdAEJ3rKAAAD+UfM6WZeMRPyRxp5yyAV7GHKizfEyfj1vsTpN2Hbm8HEYAAA=",
+      "original": "andorinha.jpg"
+    },
+    "universo/aves-andorinha-1": {
+      "grupo": "universo",
+      "slug": "aves-andorinha-1",
+      "alt": "Andorinha, andorinhas no chão",
+      "width": 640,
+      "height": 349,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJYgCdAD1qP3kzgAA/sTWiHVqHs3YeMruPvRAhvw7Ux+FGCYE8hR4/42b1TcOGBk+vMazsRfJjYLetiT+RfQAAAA=",
+      "original": "andorinha 3.jpg"
+    },
+    "universo/aves-cardeal-da-amazonia": {
+      "grupo": "universo",
+      "slug": "aves-cardeal-da-amazonia",
+      "alt": "Cardeal-da-Amazônia, cardeal em galho com folhagem",
+      "width": 640,
+      "height": 840,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JaACdAYv+xa5Eh/owaYw4AP5ypnjEP1R6hbvXnuFOr7T0LimlPKW3hb3dJ/Wj8S387mRRQqmCyb0fhE8Mpb8c6ZznVJryFMUlLZBY0mJTINuQ+hlQz7o/X86OxO5rYM5zyqm+rnnFZolSig6/pvSNOpa6gGo36aYLmLnbxwG51sXnjkaAAP8AD+AAAA==",
+      "original": "cardel da amazonia 4.jpg"
+    },
+    "universo/aves-cardeal-da-amazonia-1": {
+      "grupo": "universo",
+      "slug": "aves-cardeal-da-amazonia-1",
+      "alt": "Cardeal-da-Amazônia, cardeal em galho seco contra o céu",
+      "width": 640,
+      "height": 384,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAoAA4BaJbACdADWNuGcAAD+FiTDQIPiv64K0czvnxdj73QCWbxvZZX/gJGNt9SFwgzgyU6p4t477DFQAA==",
+      "original": "cardel da amazonia 5.jpg"
+    },
+    "universo/guardioes-onca-pintada": {
+      "grupo": "universo",
+      "slug": "guardioes-onca-pintada",
+      "alt": "Onça-pintada, rosto da onça entre folhagens",
+      "width": 1600,
+      "height": 1067,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAsAA4BaJZACdAC3Zw15VAAA/vSRxOfC/RWYfaaTVSNy6mCBjDc9IXvswj02NLS74K6QgSKEC60bY2W1ebjxcZrrFOXimET9PsAAAAA=",
+      "original": "onça pintada 3.jpg"
+    },
+    "universo/guardioes-onca-pintada-1": {
+      "grupo": "universo",
+      "slug": "guardioes-onca-pintada-1",
+      "alt": "Onça-pintada, onça sentada na mata",
+      "width": 1024,
+      "height": 576,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAkAA4BaJZgCdAEDyNroPWAA/sBnTOWpsx7Ct57tkTbaBxtdL1MEMf+DzBqjTEpNISksOJP5K7aFMr/yaDH/g2RzU2QhliAAAA==",
+      "original": "onça pintada 5.jpg"
+    },
+    "universo/guardioes-jaguatirica": {
+      "grupo": "universo",
+      "slug": "guardioes-jaguatirica",
+      "alt": "Jaguatirica, jaguatirica deitada em tronco",
+      "width": 1920,
+      "height": 1335,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAsAA4BaJQBOgCIaXLZzsZ0NIAD+8Z4gBy+JZjuAxgkycD8uSTN1PEimcfsRfNqepjM/AHULeAGkUyoXWC56P5+xoB0WO9oAAA==",
+      "original": "jaguatirica 2.jpg"
+    },
+    "universo/guardioes-jaguatirica-1": {
+      "grupo": "universo",
+      "slug": "guardioes-jaguatirica-1",
+      "alt": "Jaguatirica, jaguatirica andando sobre galho",
+      "width": 1024,
+      "height": 614,
+      "widths": [
+        640,
+        1024
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAoAA4BaJQBOgCMCaOKlxXTwAP4eYqCYTugXJDPHpBXLVS5hJt0/r7naDGPP49nQmVRFMTHa87uboAA=",
+      "original": "jaguatirica.jpg"
+    },
+    "universo/guardioes-jacare-acu": {
+      "grupo": "universo",
+      "slug": "guardioes-jacare-acu",
+      "alt": "Jacaré-açu, jacaré visto de cima na água com folhas",
+      "width": 640,
+      "height": 853,
+      "widths": [
+        640
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdAYuQuwQCqiEwVWgAAMoxyNVtJg8V+wc7s1lgpqJ7M831J+F0SpN+zUAHDg+nT8y1MqfzZun0hLKrTWg2AnYgPJN/m22eEM7ta3N8KxPsh8zOUTVvUkcnX19tnut0Bgz9sT03xxmoTvyPElcWTG7BJ+Ycr5Sr/2cXInjwYeVoGddMz8XlVaotUuP+nL6v8E8giAAAAA==",
+      "original": "jacaré açu 4.jpg"
+    },
+    "universo/guardioes-jacare-acu-1": {
+      "grupo": "universo",
+      "slug": "guardioes-jacare-acu-1",
+      "alt": "Jacaré-açu, jacaré na água escura ao entardecer",
+      "width": 1600,
+      "height": 1067,
+      "widths": [
+        640,
+        1024,
+        1600
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAQAgCdASoQAAsAA4BaJZwC7AEfmrCCJkMAAP6sv0kzZHj2JPcsQaQmZp83GPKQ4AA=",
+      "original": "jacaré açu 2.jpg"
     }
   },
   "videos": {
@@ -689,6 +2480,46 @@
       "width": 480,
       "height": 504,
       "duration": 1.83
+    },
+    "andar-rios": {
+      "mp4": "/media/video/andar-rios.mp4",
+      "webm": "/media/video/andar-rios.webm",
+      "poster": "/media/video/andar-rios-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
+    },
+    "andar-peixes": {
+      "mp4": "/media/video/andar-peixes.mp4",
+      "webm": "/media/video/andar-peixes.webm",
+      "poster": "/media/video/andar-peixes-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
+    },
+    "andar-arvores": {
+      "mp4": "/media/video/andar-arvores.mp4",
+      "webm": "/media/video/andar-arvores.webm",
+      "poster": "/media/video/andar-arvores-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
+    },
+    "andar-aves": {
+      "mp4": "/media/video/andar-aves.mp4",
+      "webm": "/media/video/andar-aves.webm",
+      "poster": "/media/video/andar-aves-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
+    },
+    "andar-guardioes": {
+      "mp4": "/media/video/andar-guardioes.mp4",
+      "webm": "/media/video/andar-guardioes.webm",
+      "poster": "/media/video/andar-guardioes-poster.webp",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.1
     }
   }
 }

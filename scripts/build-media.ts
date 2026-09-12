@@ -7,7 +7,7 @@
  *
  * Precisa de ffmpeg no PATH e da pasta ../DOCS. Roda localmente; as saídas são versionadas,
  * porque a Vercel não tem ffmpeg nem DOCS.
- * Use: npm run build:media [-- --only=imagens|video|abertura|marca] [--grupo=<grupo de imagens>]
+ * Use: npm run build:media [-- --only=imagens|video|andares|abertura|marca] [--grupo=<grupo de imagens>]
  */
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
@@ -24,7 +24,13 @@ type ManifestImage = {
   crop?: string;
 };
 type ManifestVideo = { slug: string; src: string; uso?: string };
-type Manifest = { imagens: ManifestImage[]; videos: ManifestVideo[]; abertura: ManifestVideo };
+type Manifest = {
+  imagens: ManifestImage[];
+  videos: ManifestVideo[];
+  abertura: ManifestVideo;
+  /** Loops de fundo dos hubs de andar (etapa 3). Já vêm em 16:9. */
+  videosAndares: ManifestVideo[];
+};
 
 type MediaImage = {
   grupo: string;
@@ -294,6 +300,82 @@ async function buildHeroVideo() {
   }
 }
 
+/**
+ * Loops de fundo dos hubs de andar. As fontes já são 16:9 em 1080p e 5 s: aqui viram
+ * 1280 px, laço de ida e volta (sem corte visível ao repetir), sem áudio, abaixo de 2 MB,
+ * com poster em WebP para quem pede movimento reduzido ou tem o vídeo bloqueado.
+ */
+async function buildFloorVideos() {
+  const outDir = resolve(root, "public/media/video");
+  mkdirSync(outDir, { recursive: true });
+  /** Orçamento de desempenho da Parte 2.6: a página do Universo fica abaixo de 700 KB. */
+  const tetoKb = 700;
+  for (const v of manifest.videosAndares) {
+    const input = srcPath(v.src);
+    const info = ffprobe(input);
+    const filtro =
+      "[0:v]scale=1280:-2:flags=lanczos,setsar=1,fps=24,split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1:a=0[out]";
+    const mp4 = resolve(outDir, `${v.slug}.mp4`);
+    const webm = resolve(outDir, `${v.slug}.webm`);
+    const poster = resolve(outDir, `${v.slug}-poster.webp`);
+    const comum = ["-i", input, "-filter_complex", filtro, "-map", "[out]", "-an"];
+
+    // A densidade varia muito entre as cenas (a copa da mata comprime bem pior que o céu).
+    // Em vez de um crf fixo, sobe a compressão até caber no teto, no máximo quatro tentativas.
+    const encodar = (arquivo: string, crfInicial: number, args: (crf: number) => string[]) => {
+      let crf = crfInicial;
+      for (let tentativa = 0; tentativa < 4; tentativa++) {
+        ffmpeg([...comum, ...args(crf), arquivo]);
+        if (kb(arquivo) <= tetoKb) return crf;
+        crf += 4;
+      }
+      throw new Error(`vídeo ${v.slug} não coube em ${tetoKb} KB: ${basename(arquivo)}`);
+    };
+
+    const crfMp4 = encodar(mp4, 32, (crf) => [
+      "-c:v",
+      "libx264",
+      "-profile:v",
+      "high",
+      "-pix_fmt",
+      "yuv420p",
+      "-preset",
+      "slow",
+      "-crf",
+      String(crf),
+      "-movflags",
+      "+faststart",
+    ]);
+    const crfWebm = encodar(webm, 42, (crf) => [
+      "-c:v",
+      "libvpx-vp9",
+      "-b:v",
+      "0",
+      "-crf",
+      String(crf),
+      "-row-mt",
+      "1",
+      "-deadline",
+      "good",
+      "-cpu-used",
+      "2",
+    ]);
+    await posterFrom(mp4, poster, 0, 70);
+    const out = ffprobe(mp4);
+    media.videos[v.slug] = {
+      mp4: `/media/video/${v.slug}.mp4`,
+      webm: `/media/video/${v.slug}.webm`,
+      poster: `/media/video/${v.slug}-poster.webp`,
+      width: out.width,
+      height: out.height,
+      duration: Math.round(out.duration * 10) / 10,
+    };
+    process.stdout.write(
+      `andar: ${v.slug} ${out.width}x${out.height} ${out.duration.toFixed(1)} s (fonte ${info.duration.toFixed(1)} s), mp4 ${kb(mp4)} KB crf ${crfMp4}, webm ${kb(webm)} KB crf ${crfWebm}, poster ${kb(poster)} KB\n`,
+    );
+  }
+}
+
 async function buildAbertura() {
   const outDir = resolve(root, "public/media/video");
   mkdirSync(outDir, { recursive: true });
@@ -400,6 +482,7 @@ async function buildAbertura() {
 (async () => {
   if (!only || only === "imagens") await buildImages();
   if (!only || only === "video") await buildHeroVideo();
+  if (!only || only === "andares") await buildFloorVideos();
   if (!only || only === "abertura") await buildAbertura();
   if (!only || only === "marca") await buildMarca();
   mkdirSync(resolve(root, "content"), { recursive: true });

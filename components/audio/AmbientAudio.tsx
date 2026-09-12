@@ -5,7 +5,7 @@ import { track } from "@/lib/analytics";
 import { audioBanks, audioUrl } from "@/lib/audio/banks";
 import { AmbientPlayer, pickAudioExt } from "@/lib/audio/ambient-player";
 import type { FloorKey } from "@/lib/content-schema";
-import { hashString } from "@/lib/copy";
+import { escolhaEstavel } from "@/lib/copy";
 import { audio as audioTokens } from "@/lib/tokens";
 
 const SESSION_KEY = "kaluana:audio";
@@ -43,7 +43,7 @@ export function AmbientAudio({
 
   const loop = useMemo(() => {
     const bank = [...audioBanks[andar], ...extraLoops];
-    return bank[hashString(elemento) % bank.length];
+    return bank[escolhaEstavel(elemento, bank.length)];
   }, [andar, elemento, extraLoops]);
 
   const getPlayer = () => {

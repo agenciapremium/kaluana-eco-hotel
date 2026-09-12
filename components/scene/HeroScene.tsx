@@ -3,7 +3,7 @@ import { CopyText } from "@/components/Copy";
 import { Parallax } from "@/components/motion/Parallax";
 import { WordTitle } from "@/components/motion/WordTitle";
 import { MediaImage } from "@/components/ui/MediaImage";
-import { hasImage } from "@/lib/media";
+import { getVideo, hasImage } from "@/lib/media";
 import { motion as motionTokens } from "@/lib/tokens";
 
 type Props = {
@@ -21,7 +21,24 @@ type Props = {
   style?: CSSProperties;
   /** Camadas extras sobre a foto: segunda foto em fade (5.9), deriva de luz (5.8). */
   bgExtra?: ReactNode;
+  /**
+   * Loop de fundo (id em content/media.json). Substitui a foto. O poster pinta primeiro e
+   * continua no lugar do vídeo com movimento reduzido (Parte 2.3).
+   */
+  video?: string;
 };
+
+/**
+ * Marca a página como "de hero" (cabeçalho transparente) antes da primeira pintura e, só
+ * depois dela, anexa as fontes do vídeo de fundo. O poster já pintou; o loop, que pesa
+ * cerca de 1 MB, fica fora do caminho crítico e não entra na conta do LCP.
+ * Com movimento reduzido o vídeo nem é carregado: fica o poster.
+ */
+const heroScript = `document.documentElement.setAttribute('data-hero-page','1');
+(function(){var v=document.currentScript&&document.currentScript.parentNode.querySelector('.hero-video');if(!v)return;
+if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+function go(){['webm','mp4'].forEach(function(t){var u=v.getAttribute('data-'+t);if(!u)return;var s=document.createElement('source');s.src=u;s.type='video/'+t;v.appendChild(s);});v.load();var p=v.play();if(p&&p.catch)p.catch(function(){});}
+if(document.readyState==='complete')setTimeout(go,0);else window.addEventListener('load',function(){setTimeout(go,0);});})();`;
 
 /**
  * Hero em tela cheia: foto de fundo com parallax e véu café, título centralizado palavra a
@@ -43,8 +60,10 @@ export function HeroScene({
   veilOpacity = 0.5,
   style,
   bgExtra,
+  video,
 }: Props) {
-  const has = hasImage(image);
+  const loop = video ? getVideo(video) : null;
+  const has = !loop && hasImage(image);
   return (
     <section
       className="scene scene-hero scene-center hero-scene"
@@ -57,7 +76,26 @@ export function HeroScene({
         } as CSSProperties
       }
     >
-      <div className="scene-bg" aria-hidden="true">
+      <div
+        className="scene-bg"
+        aria-hidden="true"
+        style={loop ? { backgroundImage: `url(${loop.poster})` } : undefined}
+      >
+        {loop ? (
+          <video
+            className="hero-video"
+            poster={loop.poster}
+            width={loop.width}
+            height={loop.height}
+            data-webm={loop.webm}
+            data-mp4={loop.mp4}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+          />
+        ) : null}
         {has ? (
           <Parallax>
             <MediaImage
@@ -107,7 +145,7 @@ export function HeroScene({
       </a>
       <script
         dangerouslySetInnerHTML={{
-          __html: "document.documentElement.setAttribute('data-hero-page','1');",
+          __html: heroScript,
         }}
       />
     </section>

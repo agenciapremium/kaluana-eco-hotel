@@ -829,6 +829,25 @@ main:has(.scene-hero) {
   }
 }
 
+/* Loop de fundo do hero (hubs de andar). O poster fica no fundo da camada: com movimento
+   reduzido, ou sem o vídeo carregar, é ele que aparece. */
+.scene-bg {
+  background-size: cover;
+  background-position: center;
+}
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-video {
+    display: none;
+  }
+}
+
 /* Hero em cena. */
 .hero-scene h1 {
   max-width: 24ch;
@@ -1401,5 +1420,794 @@ html.js [data-variante="superior-acessivel"] .draw-path {
   }
   .categoria-veil {
     transition-duration: var(--duration-reduced);
+  }
+}
+
+/* ------------------------------------------------------------------
+   Universo Kaluanã (etapa 3, 5.11 a 5.17 e Parte 6)
+   ------------------------------------------------------------------ */
+
+/* Barra de hóspede: só aparece quando a página abre pelo QR Code (Parte 6.0, item 1). */
+.barra-hospede {
+  position: sticky;
+  top: 0;
+  z-index: 45;
+  background-color: var(--accent, var(--color-cafe));
+  color: var(--color-bege);
+}
+.barra-hospede-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  padding-block: 0.75rem;
+}
+.barra-hospede-saudacao {
+  font-size: var(--text-base);
+  & strong {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 500;
+  }
+}
+.barra-hospede-uh {
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background-color: color-mix(in srgb, var(--color-bege) 20%, transparent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+.barra-hospede-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  & a {
+    color: inherit;
+    text-decoration: none;
+    text-underline-offset: 4px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.barra-hospede-audio .btn {
+  min-height: 2.5rem;
+  padding: 0.4rem 1rem;
+  font-size: var(--text-sm);
+}
+
+/* Hero da página de elemento: foto em tela cheia com véu escuro no terço inferior. */
+.elemento-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  display: flex;
+  align-items: flex-end;
+  min-height: 82svh;
+  padding-block: calc(var(--header-h) + 2rem) var(--spacing-section-sm);
+  background-color: var(--accent, var(--color-cafe));
+  color: var(--color-bege);
+}
+.elemento-veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--color-preto) 82%, transparent) 0%,
+    color-mix(in srgb, var(--color-preto) 55%, transparent) 33%,
+    color-mix(in srgb, var(--color-preto) 15%, transparent) 66%,
+    transparent 100%
+  );
+}
+.elemento-sem-foto {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      120% 80% at 50% 100%,
+      color-mix(in srgb, var(--accent) 70%, black),
+      transparent
+    ),
+    var(--accent);
+}
+/* Zoom out lento de 1,05 para 1,0 em 1,5 s, uma vez só, na entrada (Parte 6.0). */
+.hero-zoom {
+  position: absolute;
+  inset: 0;
+}
+html.js .hero-zoom {
+  transform: scale(var(--hero-zoom-from));
+  animation: hero-zoom-out var(--duration-hero-zoom) var(--ease-padrao) forwards;
+  will-change: transform;
+}
+@keyframes hero-zoom-out {
+  to {
+    transform: none;
+  }
+}
+.elemento-hero-conteudo {
+  position: relative;
+  width: 100%;
+}
+.elemento-nome {
+  font-family: var(--font-display);
+  font-size: var(--text-giant);
+  font-weight: 500;
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  max-width: 18ch;
+}
+.elemento-sub {
+  margin-top: 1rem;
+  font-size: var(--text-xl);
+  max-width: 40ch;
+}
+@media (min-width: 48rem) {
+  .elemento-sub {
+    font-size: var(--text-2xl);
+  }
+}
+.elemento-cientifico {
+  margin-top: 0.35rem;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--text-xl);
+  color: color-mix(in srgb, var(--color-bege) 80%, transparent);
+}
+.elemento-hero-acoes {
+  margin-top: 2rem;
+}
+
+/* Corpo da página de elemento. */
+.elemento-corpo {
+  padding-bottom: var(--spacing-section);
+}
+.elemento-secao {
+  padding-block: var(--spacing-section-sm);
+}
+.elemento-abertura {
+  padding-top: var(--spacing-section);
+}
+.elemento-abertura .lead {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 1rem + 1.8vw, 2.1rem);
+  line-height: 1.25;
+  max-width: 30ch;
+}
+.elemento-texto p + p {
+  margin-top: 1.1rem;
+}
+.elemento-duas-colunas {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+}
+@media (min-width: 64rem) {
+  .elemento-duas-colunas {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+.curiosidades {
+  display: grid;
+  gap: 1rem;
+  max-width: var(--container-measure);
+  margin-top: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+.curiosidades li {
+  position: relative;
+  padding-left: 2rem;
+  font-size: var(--text-lg);
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.75em;
+    width: 1.25rem;
+    height: 2px;
+    background-color: var(--accent, var(--color-salvia));
+  }
+}
+
+/* Ficha rápida: preenche linha a linha. */
+.ficha-rapida {
+  max-width: var(--container-measure);
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--color-bege-escuro);
+}
+.ficha-linha {
+  display: grid;
+  gap: 0.15rem 1.5rem;
+  padding-block: 0.85rem;
+  border-bottom: 1px solid var(--color-bege-escuro);
+}
+@media (min-width: 40rem) {
+  .ficha-linha {
+    grid-template-columns: 12rem 1fr;
+  }
+}
+.ficha-linha dt {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.ficha-linha dd {
+  margin: 0;
+  font-size: var(--text-lg);
+}
+
+/* Perguntas em acordeão de 250 ms. <details> funciona sem JavaScript. */
+.perguntas {
+  max-width: var(--container-measure);
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--color-bege-escuro);
+}
+.pergunta {
+  border-bottom: 1px solid var(--color-bege-escuro);
+}
+.pergunta summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-block: 1.1rem;
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: 1.2;
+  list-style: none;
+  &::-webkit-details-marker {
+    display: none;
+  }
+}
+.pergunta-seta {
+  transition: transform var(--duration-accordion) var(--ease-padrao);
+}
+.pergunta[open] .pergunta-seta {
+  transform: rotate(180deg);
+}
+.pergunta-corpo {
+  overflow: hidden;
+  padding-bottom: 1.1rem;
+  font-size: var(--text-lg);
+  max-width: 60ch;
+}
+html.js .pergunta[open] .pergunta-corpo {
+  animation: acordeao var(--duration-accordion) var(--ease-padrao);
+}
+@keyframes acordeao {
+  from {
+    opacity: 0;
+    transform: translateY(calc(-1 * var(--offset-min)));
+  }
+}
+
+/* Navegação de andar. */
+.nav-andar {
+  margin-top: var(--spacing-section-sm);
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-bege-escuro);
+}
+.nav-andar-vizinhos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.nav-vizinho {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem 0;
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--duration-short) var(--ease-padrao);
+  &:hover .nav-vizinho-nome {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+}
+.nav-vizinho-depois {
+  text-align: right;
+  align-items: flex-end;
+}
+.nav-vizinho-rotulo {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+.nav-vizinho-nome {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  line-height: 1.1;
+}
+.nav-andar-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+.elemento-autoria {
+  margin-top: 2.5rem;
+  font-size: var(--text-sm);
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+
+/* Cards e grades dos hubs de andar. */
+.grade-elementos {
+  display: grid;
+  gap: 1.75rem 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  transition: opacity calc(var(--duration-filter-grid) / 2) var(--ease-padrao);
+}
+@media (min-width: 48rem) {
+  .grade-elementos {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 64rem) {
+  .grade-elementos {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+.grade-elementos[data-fading="true"] {
+  opacity: 0;
+}
+.card-elemento {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.card-elemento-media {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-bege-escuro);
+}
+.card-elemento-corpo {
+  padding-top: 0.85rem;
+}
+.card-elemento-nome {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  line-height: 1.1;
+}
+.card-elemento-sub {
+  margin-top: 0.2rem;
+  font-size: var(--text-base);
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+.card-elemento-uh {
+  margin-top: 0.35rem;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent, var(--color-cafe));
+}
+
+/* 2º andar: os cards flutuam 4 px em 6 s, dessincronizados, só no desktop (5.13). */
+@media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
+  html.js .grade-elementos[data-andar="peixes"] > li {
+    animation: flutua var(--duration-flutuacao) ease-in-out infinite alternate;
+    animation-delay: calc(var(--f, 0) * -1200ms);
+    will-change: transform;
+  }
+}
+@keyframes flutua {
+  from {
+    transform: translateY(calc(-0.5 * var(--flutuacao-px)));
+  }
+  to {
+    transform: translateY(calc(0.5 * var(--flutuacao-px)));
+  }
+}
+/* 2º andar: a imagem escala 4% no hover (5.13). */
+.grade-elementos[data-andar="peixes"] .card-zoom:hover img {
+  transform: scale(var(--hover-scale-max));
+}
+/* 3º andar: as fotos verticais sobem um pouco mais rápido que o texto (5.14). */
+@supports (animation-timeline: view()) {
+  @media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
+    .grade-arvores .card-elemento-media img {
+      animation: sobe-mais linear both;
+      animation-timeline: view();
+      will-change: transform;
+    }
+  }
+}
+@keyframes sobe-mais {
+  from {
+    transform: translateY(3%);
+  }
+  to {
+    transform: translateY(-3%);
+  }
+}
+
+/* 1º andar: mapa esquemático da bacia. */
+.mapa-bacia-wrap {
+  max-width: 56rem;
+  margin-inline: auto;
+  --draw-width: 3.5;
+}
+.mapa-bacia {
+  width: 100%;
+  height: auto;
+  font-family: var(--font-sans);
+}
+.mapa-rio-traco {
+  fill: none;
+  stroke: var(--accent, var(--color-salvia));
+  stroke-width: 3.5px;
+  transition:
+    stroke-width var(--duration-short) var(--ease-padrao),
+    opacity var(--duration-short) var(--ease-padrao);
+}
+/* Contorno em bege por baixo do texto: o rótulo continua legível se cruzar um traço. */
+.mapa-rio-nome,
+.mapa-hotel-nome {
+  paint-order: stroke;
+  stroke: var(--color-bege);
+  stroke-width: 6px;
+  stroke-linejoin: round;
+}
+.mapa-rio-nome {
+  font-size: 18px;
+  fill: var(--color-cafe);
+}
+.mapa-rio[data-destaque="true"] .mapa-rio-traco {
+  stroke-width: 8px;
+}
+.mapa-rio[data-destaque="true"] .mapa-rio-nome {
+  font-weight: 700;
+}
+.mapa-hotel {
+  fill: var(--color-cafe);
+}
+.mapa-hotel-nome {
+  font-size: 17px;
+  font-weight: 700;
+  fill: var(--color-cafe);
+}
+.mapa-bacia-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+.uh-chip[data-destaque="true"],
+[data-rio-card][data-destaque="true"] .card-elemento-nome {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+[data-rio-card][data-destaque="true"] .card-elemento-media {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+/* No celular o mapa fica largo demais: mostra só as etiquetas. */
+@media (max-width: 47.99rem) {
+  .mapa-bacia {
+    display: none;
+  }
+}
+
+/* 4º andar: bando de pontos cruza o topo uma vez só, em 2 s (5.15). */
+.bando {
+  position: relative;
+  height: 0;
+  pointer-events: none;
+}
+.bando-ponto {
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  width: calc(6px * var(--s));
+  height: calc(6px * var(--s));
+  border-radius: 999px;
+  background-color: var(--color-salvia);
+  opacity: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html.js .bando-ponto {
+    animation: bando-cruza var(--duration-bando) var(--ease-padrao) forwards;
+    animation-delay: var(--d);
+    will-change: transform, opacity;
+  }
+}
+@keyframes bando-cruza {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  15% {
+    opacity: 0.9;
+  }
+  85% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(115vw);
+  }
+}
+
+/* Guardiões: três painéis em tela cheia com snap (5.16). */
+.guardioes {
+  scroll-snap-type: y proximity;
+}
+.guardiao {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  display: flex;
+  align-items: center;
+  min-height: 100svh;
+  scroll-snap-align: start;
+  background-color: var(--color-preto);
+  color: var(--color-bege);
+}
+.guardiao-veil {
+  position: absolute;
+  inset: 0;
+  background-color: color-mix(in srgb, var(--color-preto) 62%, transparent);
+}
+.guardiao-conteudo {
+  position: relative;
+  width: 100%;
+}
+.guardiao-card {
+  position: relative;
+  max-width: 38rem;
+  padding: clamp(1.75rem, 5vw, 3rem);
+  background-color: color-mix(in srgb, var(--color-preto) 45%, transparent);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.guardiao-nome {
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 1rem + 7vw, 6rem);
+  line-height: 0.95;
+}
+.guardiao-texto {
+  margin-top: 1.25rem;
+  font-size: var(--text-lg);
+  color: color-mix(in srgb, var(--color-bege) 90%, transparent);
+}
+.guardiao-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+/* Hub do Universo: o elevador. */
+.elevador-wrap {
+  position: relative;
+}
+.elevador {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 30;
+  background-color: color-mix(in srgb, var(--color-bege) 94%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-block: 1px solid var(--color-bege-escuro);
+}
+.elevador-lista {
+  display: flex;
+  gap: 0.25rem;
+  overflow-x: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem var(--spacing-gutter);
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.elevador-parada {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--duration-short) var(--ease-padrao);
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-cafe) 7%, transparent);
+  }
+  &[aria-current="true"] {
+    background-color: color-mix(in srgb, var(--accent) 16%, transparent);
+  }
+}
+.elevador-ordinal {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+.elevador-nome {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: 1;
+}
+.elevador-parada[aria-current="true"] .elevador-ordinal {
+  color: var(--accent);
+}
+/* No desktop o elevador vira um trilho lateral. */
+@media (min-width: 64rem) {
+  .elevador {
+    position: fixed;
+    top: 50%;
+    left: var(--spacing-gutter);
+    transform: translateY(-50%);
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border: 0;
+  }
+  .elevador-lista {
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0;
+    border-left: 2px solid color-mix(in srgb, var(--color-bege) 45%, transparent);
+  }
+  .elevador-parada {
+    padding: 0.55rem 0.9rem;
+    border-radius: 0;
+    color: var(--color-bege);
+    &:hover {
+      background-color: color-mix(in srgb, var(--color-bege) 14%, transparent);
+    }
+    &[aria-current="true"] {
+      background-color: color-mix(in srgb, var(--color-bege) 18%, transparent);
+      box-shadow: inset 3px 0 0 var(--color-bege);
+    }
+  }
+  .elevador-ordinal,
+  .elevador-parada[aria-current="true"] .elevador-ordinal {
+    color: color-mix(in srgb, var(--color-bege) 75%, transparent);
+  }
+}
+.andar-bloco {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  display: flex;
+  align-items: center;
+  min-height: 100svh;
+  padding-block: var(--spacing-section);
+  background-color: var(--accent);
+  color: var(--color-bege);
+}
+.andar-bloco-veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    color-mix(in srgb, var(--accent) 92%, transparent) 0%,
+    color-mix(in srgb, var(--accent) 70%, transparent) 55%,
+    color-mix(in srgb, var(--accent) 35%, transparent) 100%
+  );
+}
+.andar-bloco-conteudo {
+  position: relative;
+  width: 100%;
+}
+.andar-bloco-texto {
+  max-width: 34rem;
+}
+@media (min-width: 64rem) {
+  .andar-bloco-texto {
+    margin-left: 9rem;
+  }
+}
+.andar-bloco-nome {
+  font-family: var(--font-display);
+  font-size: var(--text-giant);
+  line-height: 0.95;
+}
+.andar-bloco-lead {
+  margin-top: 1.25rem;
+  font-size: var(--text-xl);
+  color: color-mix(in srgb, var(--color-bege) 92%, transparent);
+}
+
+/* Busca por nome ou número do quarto. */
+.busca {
+  position: relative;
+  text-align: left;
+}
+html:not(.js) .busca {
+  display: none;
+}
+.busca-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+.busca-resultados {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  margin: 0.35rem 0 0;
+  padding: 0.35rem;
+  list-style: none;
+  border-radius: 0.6rem;
+  border: 1px solid var(--color-bege-escuro);
+  background-color: var(--color-branco);
+  box-shadow: 0 18px 40px -24px rgba(16, 16, 16, 0.5);
+  & a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.4rem;
+    color: inherit;
+    text-decoration: none;
+    &:hover,
+    &:focus-visible {
+      background-color: color-mix(in srgb, var(--color-salvia) 18%, transparent);
+    }
+  }
+}
+.busca-nome {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+}
+.busca-andar {
+  font-size: var(--text-sm);
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+
+.andar-rodape {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-bege-escuro);
+}
+.andar-rodape-texto {
+  flex: 1 1 18rem;
+  font-size: var(--text-base);
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .hero-zoom {
+    transform: none;
+    animation: none;
+  }
+  html.js .bando-ponto {
+    animation: none;
+  }
+  html.js .pergunta[open] .pergunta-corpo {
+    animation: none;
+  }
+  .grade-elementos {
+    transition: none;
   }
 }
