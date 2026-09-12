@@ -1083,8 +1083,9 @@ html:not(.js) .filtro-chips {
   .categorias::-webkit-scrollbar {
     display: none;
   }
+  /* 76% para o card seguinte aparecer pela borda e sinalizar a rolagem. */
   .categorias > li {
-    flex: 0 0 min(85%, 22rem);
+    flex: 0 0 min(76%, 20rem);
     scroll-snap-align: start;
   }
 }

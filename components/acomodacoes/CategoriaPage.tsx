@@ -63,6 +63,8 @@ export function CategoriaPage({ categoria: c }: { categoria: Categoria }) {
   const extras = pagina.secoes.filter((s) => !fixas.includes(s.nome));
   const universoLink = pagina.links_internos.find((l) => /^\/universo\/[^/]+\/[^/]+/.test(l));
   const galeria = c.galeria.filter(hasImage);
+  /** A faixa de detalhes mostra as variações que não são o hero. */
+  const faixa = galeria.slice(1);
   const presidencial = c.slug === "suite-presidencial-onca-pintada";
   const acessivel = c.slug === "superior-acessivel";
   const resposta = pagina.seo.resposta.trim();
@@ -105,7 +107,7 @@ export function CategoriaPage({ categoria: c }: { categoria: Categoria }) {
   const kicker = hero.kicker && hero.kicker !== c.nome && !presidencial ? hero.kicker : null;
   const titleNode = presidencial ? (
     <>
-      <span className="nome-prefixo">{hero.kicker}</span>
+      <span className="nome-prefixo">{hero.kicker}</span>{" "}
       <span className="nome-gigante">{hero.titulo}</span>
     </>
   ) : undefined;
@@ -150,10 +152,10 @@ export function CategoriaPage({ categoria: c }: { categoria: Categoria }) {
           />
         </div>
 
-        {galeria.length > 1 && !presidencial ? (
+        {faixa.length > 0 && !presidencial ? (
           <div className="container-site pb-4">
             <DragScroller label={`Detalhes: ${c.nome}`}>
-              {galeria.map((id, i) => (
+              {faixa.map((id, i) => (
                 <FramedImage
                   key={id}
                   id={id}
@@ -243,7 +245,7 @@ export function CategoriaPage({ categoria: c }: { categoria: Categoria }) {
               <ExtraSection
                 key={s.nome}
                 secao={s}
-                image={galeria[(i + 1) % galeria.length]}
+                image={galeria[(i + 2) % galeria.length]}
                 foco={c.slug === "duplo-king"}
                 tone={i % 2 === 0 ? "branco" : "bege"}
               />
@@ -271,7 +273,7 @@ export function CategoriaPage({ categoria: c }: { categoria: Categoria }) {
 
         <Scene
           id="chamada-final"
-          image={galeria[galeria.length - 1] ?? c.imagem}
+          image={c.imagem}
           veil="cafe"
           veilOpacity={0.7}
           height="auto"
