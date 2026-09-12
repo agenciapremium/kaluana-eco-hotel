@@ -1,0 +1,7 @@
+node_modules
+.next
+out
+content/*.json
+public/media
+public/audio
+package-lock.json
