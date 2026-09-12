@@ -43,11 +43,14 @@ const targets = [
     await page.waitForTimeout(1500);
     await page.evaluate(async () => {
       // rola até o fim para disparar as entradas por interseção
-      const step = window.innerHeight / 2;
+      // passos curtos e pausas para o IntersectionObserver ver cada seção entrar na tela
+      const step = window.innerHeight / 3;
       for (let y = 0; y < document.body.scrollHeight; y += step) {
         window.scrollTo(0, y);
-        await new Promise((r) => setTimeout(r, 120));
+        await new Promise((r) => setTimeout(r, 200));
       }
+      window.scrollTo(0, document.body.scrollHeight);
+      await new Promise((r) => setTimeout(r, 1000));
       window.scrollTo(0, 0);
       await new Promise((r) => setTimeout(r, 2500));
     });
