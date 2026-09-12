@@ -1,0 +1,43 @@
+# TODO(copy): post escrito a partir da seção 5.2 (Linha do tempo) e do guardrail de frame
+# da Parte 5.21. Sem planta, sem volumetria, sem valores. A revisar, inclusive a data.
+slug: construido-a-vista
+titulo: Construído à vista
+resumo: >-
+  Desde o início da obra o Kaluanã mostra o que está fazendo. Sem revelar o projeto, mostra
+  o processo.
+categoria: obra
+data: "2026-09-05"
+capa: detalhes/maos-na-obra
+keywords:
+  - obra kaluanã eco hotel
+  - hotel em construção rondônia
+  - novo hotel ji-paraná
+abertura: >-
+  O Kaluanã abre em dezembro de 2026 e, até lá, mostra a obra em vez de mostrar render. Sem
+  revelar o projeto, mostra o processo: a terra, a estrutura, as pessoas e a luz.
+corpo:
+  - tipo: paragrafo
+    texto: >-
+      A decisão de mostrar a obra tem uma razão simples. Um render promete um prédio que
+      ainda não existe. Uma foto de obra mostra o que já foi feito, e o que já foi feito não
+      volta atrás.
+  - tipo: subtitulo
+    texto: O que entra e o que não entra
+  - tipo: paragrafo
+    texto: >-
+      Entram mãos, materiais, terra, estrutura, pessoas e luz. Não entram planta,
+      volumetria nem fachada completa. Isso fica para a inauguração, quando houver prédio
+      para mostrar.
+  - tipo: subtitulo
+    texto: Eco é jeito de fazer
+  - tipo: paragrafo
+    texto: >-
+      O Kaluanã não promete natureza. Cada decisão de obra que preservou o entorno, cada
+      material escolhido pela durabilidade e cada sistema pensado para gastar menos água e
+      energia vai ser publicado aqui com data. Esta seção lista o que foi feito, nunca o que
+      se pretende fazer.
+a_seguir: >-
+  A linha do tempo da obra fica na página O Kaluanã e é alimentada por estes posts.
+links:
+  - /o-kaluana
+revisar: true

@@ -2211,3 +2211,552 @@ html:not(.js) .busca {
     transition: none;
   }
 }
+
+/* ------------------------------------------------------------------
+   Etapa 4: O Kaluanã, Restaurante, Eventos, Ji-Paraná e Histórias
+   ------------------------------------------------------------------ */
+
+/* Traço de progresso de leitura, ligado à rolagem sem JavaScript (5.2 e 5.22). */
+.trilho-leitura {
+  position: fixed;
+  left: 0.9rem;
+  top: 22vh;
+  bottom: 22vh;
+  width: 2px;
+  z-index: 20;
+  background-color: color-mix(in srgb, var(--color-salvia) 28%, transparent);
+  pointer-events: none;
+  display: none;
+}
+@media (min-width: 80rem) {
+  .trilho-leitura {
+    display: block;
+  }
+}
+.trilho-leitura-barra {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-origin: top;
+  transform: scaleY(0);
+  background-color: var(--color-salvia);
+}
+.progresso-topo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 50;
+  pointer-events: none;
+}
+.progresso-topo-barra {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-origin: left;
+  transform: scaleX(0);
+  background-color: var(--color-salvia);
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .trilho-leitura-barra,
+    .progresso-topo-barra {
+      animation: progresso linear both;
+      animation-timeline: scroll(root block);
+      will-change: transform;
+    }
+    .trilho-leitura-barra {
+      animation-name: progresso-y;
+    }
+  }
+}
+@keyframes progresso {
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes progresso-y {
+  to {
+    transform: scaleY(1);
+  }
+}
+
+/* Linha do tempo da obra (5.2). Só datas, nunca quantidades. */
+.linha-do-tempo {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 2rem;
+  border-left: 2px solid var(--color-bege-escuro);
+}
+.linha-do-tempo li {
+  position: relative;
+  padding-bottom: 2.25rem;
+  &::before {
+    content: "";
+    position: absolute;
+    left: calc(-2rem - 7px);
+    top: 0.45rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 999px;
+    background-color: var(--color-salvia);
+  }
+  &:last-child {
+    padding-bottom: 0;
+    &::before {
+      background-color: var(--color-cafe);
+    }
+  }
+}
+.linha-do-tempo-data {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+.linha-do-tempo-titulo {
+  margin-top: 0.2rem;
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  line-height: 1.15;
+  & a {
+    color: inherit;
+    text-decoration: none;
+    text-underline-offset: 4px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.linha-do-tempo-texto {
+  margin-top: 0.35rem;
+  font-size: var(--text-base);
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+  max-width: 42ch;
+}
+
+/* Cardápio por refeição (5.18). Reaproveita o acordeão das perguntas. */
+.cardapio {
+  max-width: var(--container-measure);
+  border-top: 1px solid var(--color-bege-escuro);
+}
+.refeicao {
+  border-bottom: 1px solid var(--color-bege-escuro);
+}
+.refeicao summary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1.1rem;
+  cursor: pointer;
+  list-style: none;
+  &::-webkit-details-marker {
+    display: none;
+  }
+}
+.refeicao-nome {
+  flex: 1;
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  line-height: 1.1;
+}
+.refeicao-agora {
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  background-color: color-mix(in srgb, var(--color-salvia) 26%, transparent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+.refeicao[open] .pergunta-seta {
+  transform: rotate(180deg);
+}
+/* Sem horário confirmado, a refeição é só um nome na lista. */
+.refeicao-simples {
+  padding-block: 1.1rem;
+  margin: 0;
+}
+
+/* Eventos: planta esquemática e formulário em etapas. */
+.aviso-interno {
+  padding: 0.9rem 1.1rem;
+  border: 1px dashed var(--color-salvia);
+  border-radius: 0.5rem;
+  background-color: color-mix(in srgb, var(--color-salvia) 12%, transparent);
+  font-size: var(--text-base);
+  & code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.9em;
+  }
+}
+.planta {
+  --draw-width: 2;
+}
+.planta-svg {
+  width: 100%;
+  height: auto;
+}
+.planta-traco {
+  fill: none;
+  stroke: var(--color-cafe);
+  stroke-width: 2px;
+  transition: stroke-width var(--duration-short) var(--ease-padrao);
+}
+.planta-espaco:hover .planta-traco {
+  stroke-width: 5px;
+  stroke: var(--color-salvia);
+}
+.planta-rotulo {
+  font-family: var(--font-display);
+  font-size: 22px;
+  fill: var(--color-cafe);
+}
+.planta-nota,
+.planta-legenda {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  fill: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+.planta-legenda {
+  margin-top: 0.75rem;
+  font-size: var(--text-sm);
+}
+.formatos {
+  display: grid;
+  gap: 0.75rem;
+  max-width: var(--container-measure);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.formatos li {
+  position: relative;
+  padding-left: 1.75rem;
+  font-size: var(--text-lg);
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    width: 1rem;
+    height: 2px;
+    background-color: var(--color-salvia);
+  }
+}
+.form-passos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+html:not(.js) .form-passos {
+  display: none;
+}
+.form-passo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--color-cafe) 30%, transparent);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  cursor: pointer;
+  &[aria-current="step"] {
+    background-color: var(--color-cafe);
+    border-color: var(--color-cafe);
+    color: var(--color-bege);
+  }
+}
+.form-passo-numero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 999px;
+  background-color: color-mix(in srgb, var(--color-salvia) 35%, transparent);
+  color: var(--color-cafe);
+  font-size: var(--text-xs);
+}
+.form-painel {
+  display: grid;
+  gap: 1rem;
+}
+/* Sem JavaScript, todos os painéis aparecem e o envio manda o formulário inteiro. */
+html:not(.js) .form-painel[hidden] {
+  display: grid;
+}
+html.js .form-painel {
+  animation: painel-entra var(--duration-medium) var(--ease-padrao);
+}
+@keyframes painel-entra {
+  from {
+    opacity: 0;
+    transform: translateX(var(--offset-default));
+  }
+}
+.field-set {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  & legend {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+}
+.field-radio {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-right: 1.25rem;
+  font-size: var(--text-base);
+}
+.form-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+/* Com JavaScript, enviar só aparece no último passo. */
+html.js .form-evento:not([data-passo="2"]) .form-enviar {
+  display: none;
+}
+
+/* Ji-Paraná: mapa que acompanha a leitura. */
+.guia {
+  display: grid;
+  gap: 2.5rem;
+  padding-block: var(--spacing-section-sm);
+}
+@media (min-width: 64rem) {
+  .guia {
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+  .guia-mapa {
+    position: sticky;
+    top: calc(var(--header-h) + 2rem);
+  }
+}
+.guia-bloco {
+  padding-block: var(--spacing-section-sm);
+  &:first-child {
+    padding-top: 0;
+  }
+}
+.mapa-cidade {
+  margin: 0;
+  --draw-width: 2.5;
+}
+.map-road-fina {
+  stroke-width: 1.5;
+  opacity: 0.7;
+}
+.map-ponto-halo {
+  fill: color-mix(in srgb, var(--color-salvia) 30%, transparent);
+  opacity: 0;
+  transition: opacity var(--duration-medium) var(--ease-padrao);
+}
+.map-ponto-nucleo {
+  fill: var(--color-cafe);
+}
+.map-ponto-nome {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 600;
+  fill: var(--color-cafe);
+  paint-order: stroke;
+  stroke: var(--color-bege);
+  stroke-width: 5px;
+  stroke-linejoin: round;
+}
+.map-ponto[data-ativo="true"] .map-ponto-halo {
+  opacity: 1;
+}
+.map-ponto[data-ativo="true"] .map-ponto-nucleo {
+  fill: var(--color-salvia);
+}
+
+/* Histórias: listagem e post. */
+.lista-posts {
+  display: grid;
+  gap: 2.5rem 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: opacity calc(var(--duration-filter) / 2) var(--ease-padrao);
+}
+@media (min-width: 48rem) {
+  .lista-posts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.lista-posts[data-fading="true"] {
+  opacity: 0;
+}
+.card-post {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.card-post-media {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background-color: var(--color-bege-escuro);
+}
+/* A data desliza para dentro no hover (5.21). */
+.card-post-data {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 3;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background-color: var(--color-bege);
+  color: var(--color-cafe);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  transform: translateX(calc(-100% - 1.5rem));
+  transition: transform var(--duration-medium) var(--ease-padrao);
+}
+@media (hover: hover) {
+  .card-post:hover .card-post-data,
+  .card-post:focus-visible .card-post-data {
+    transform: none;
+  }
+}
+@media (hover: none) {
+  .card-post-data {
+    transform: none;
+  }
+}
+.card-post-corpo {
+  padding-top: 1rem;
+}
+.card-post-titulo {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  line-height: 1.08;
+}
+.card-post-resumo {
+  margin-top: 0.5rem;
+  font-size: var(--text-base);
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+  max-width: 46ch;
+}
+.card-post-tempo {
+  margin-top: 0.5rem;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+
+.post-cabecalho {
+  padding-top: calc(var(--header-h) + 2rem);
+  padding-bottom: 2rem;
+}
+.post-titulo {
+  margin-top: 0.5rem;
+  font-family: var(--font-display);
+  font-size: var(--text-display);
+  line-height: 1.02;
+  max-width: 20ch;
+}
+.post-meta {
+  margin-top: 1rem;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+.post-capa {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  max-height: 70svh;
+  overflow: hidden;
+  background-color: var(--color-bege-escuro);
+}
+.post-capa-picture,
+.post-capa-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.post-corpo {
+  max-width: 46rem;
+  padding-block: var(--spacing-section);
+}
+.post-abertura {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 1rem + 1.6vw, 1.9rem);
+  line-height: 1.3;
+}
+.post-paragrafo {
+  margin-top: 1.25rem;
+  font-size: var(--text-lg);
+}
+.post-subtitulo {
+  margin-top: 2.75rem;
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  line-height: 1.12;
+}
+.post-citacao {
+  margin: 2rem 0 0;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--color-salvia);
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  line-height: 1.25;
+}
+.post-lista {
+  margin-top: 1.5rem;
+}
+.post-figura {
+  margin: 2.5rem 0 0;
+  & figcaption {
+    margin-top: 0.75rem;
+    font-size: var(--text-sm);
+    color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+  }
+}
+.post-a-seguir {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-bege-escuro);
+  font-size: var(--text-lg);
+}
+.post-relacionados {
+  padding-block: var(--spacing-section);
+  background-color: var(--color-branco);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-post-data {
+    transform: none;
+    transition: none;
+  }
+  html.js .form-painel {
+    animation: none;
+  }
+  .lista-posts {
+    transition: none;
+  }
+}

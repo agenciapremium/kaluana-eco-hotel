@@ -3,7 +3,7 @@
  * expressões eco genéricas, travessões, emojis e o telefone provisório.
  * Uso: npm run check:copy
  */
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
 const root = process.cwd();
@@ -71,6 +71,45 @@ function walkJson(value: unknown, file: string, path: string) {
 }
 
 for (const d of dirs) walk(join(root, d));
+
+/**
+ * Se houver build, confere o HTML gerado: nenhum campo ⟨entre colchetes⟩ pode chegar à
+ * produção (veto 5). É a checagem que pega o que escapa dos componentes, inclusive dentro
+ * de dados estruturados.
+ */
+function conferirBuild() {
+  const dir = join(root, ".next/server/app");
+  if (!existsSync(dir)) {
+    process.stdout.write("check-copy: sem build para conferir (rode npm run build antes)\n");
+    return;
+  }
+  const pilha = [dir];
+  let arquivos = 0;
+  while (pilha.length) {
+    const atual = pilha.pop() as string;
+    for (const nome of readdirSync(atual)) {
+      const p = join(atual, nome);
+      if (statSync(p).isDirectory()) {
+        pilha.push(p);
+        continue;
+      }
+      if (!nome.endsWith(".html")) continue;
+      arquivos++;
+      const html = readFileSync(p, "utf8");
+      const achados = html.match(/⟨[^⟩]{0,60}⟩/g);
+      if (achados) {
+        problemas++;
+        process.stdout.write(
+          `${relative(root, p)}: campo pendente visível: ${[...new Set(achados)].join(", ")}\n`,
+        );
+      }
+    }
+  }
+  process.stdout.write(`check-copy: ${arquivos} página(s) do build conferidas\n`);
+}
+
+conferirBuild();
+
 process.stdout.write(
   problemas ? `check-copy: ${problemas} ocorrência(s)\n` : "check-copy: nenhum veto encontrado\n",
 );

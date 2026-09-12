@@ -208,3 +208,65 @@ Como nas etapas anteriores, o LCP simulado no mobile é inflado pelo simulador d
 | Lista de madeiras da obra, com documento de origem | Cliente | A seção "No hotel" do 3º andar só entra com ela |
 | Hipótese da correspondência quarto/UH (Parte 6.0) | Cliente | Vale para os 70 QR Codes |
 | Páginas ligadas que ainda não existem (`/restaurante`, `/contato`, `/perguntas-frequentes`, `/reservas`) | Etapas 4 e 5 | Links sem prefetch até lá |
+
+## Etapa 4: O Kaluanã, Restaurante, Eventos, Ji-Paraná e Histórias
+
+**Status:** aguardando "aprovado" do responsável da Premium.
+**Branch:** `etapa-4`.
+**Período:** 12/09/2026.
+**Créditos Higgsfield gastos:** 24 (teto: 120). Saldo: 8.677,85. Acumulado do projeto: 137,75.
+
+### Critérios de aceite
+
+| Critério | Status | Evidência |
+|---|---|---|
+| Build limpo (`npm run build`) | Feito | 172 rotas; `typecheck`, `lint` e `check:copy` limpos |
+| Lighthouse acima de 90 em mobile nas páginas públicas | Feito | Ver tabela; Eventos tem SEO 66 por ser `noindex`, de propósito |
+| O Kaluanã (5.2) | Feito | Sem a seção "Como construímos", que depende de fatos do cliente |
+| Restaurante (5.18) com Restaurant no JSON-LD | Feito | Sem horário nem cardápio no schema, que são campos pendentes |
+| Eventos (5.19) fora do menu, com `noindex` | Feito | Testado: `noindex, nofollow`, zero links no menu, aviso interno na página |
+| Formulário de eventos com `lead_evento` | Feito | Testado de ponta a ponta: envia, redireciona e dispara o evento |
+| Ji-Paraná (5.20) com FAQPage e mapa estilizado | Feito | Quatro perguntas, mapa que acende o ponto do bloco em leitura |
+| Histórias (5.21) com listagem e filtro por assunto | Feito | Três posts de partida, chips filtrando sem recarregar |
+| Modelo de post (5.22) com BlogPosting | Feito | Barra de progresso, blocos tipados, três relacionados |
+| Nenhum campo ⟨entre colchetes⟩ em produção | Feito | `check:copy` varre as 97 páginas do build; pegou e corrigiu um vazamento |
+| Nenhuma frase vetada | Feito | `npm run check:copy` sem ocorrências |
+| Capturas em `docs/screenshots/etapa-4/` | Feito | 12 capturas, desktop e mobile |
+| Docs atualizados | Feito | `etapas.md`, `decisoes.md` (55 a 65), `registro-higgsfield.md` |
+
+### Lighthouse (12/09/2026, Lighthouse 13.4, throttling simulado, fase `full`)
+
+| Página | Desempenho | Acessibilidade | Boas práticas | SEO |
+|---|---|---|---|---|
+| `/o-kaluana`, mobile / desktop | 92 / 99 | 100 | 100 | 100 |
+| `/restaurante`, mobile / desktop | 92 / 99 | 100 | 100 | 100 |
+| `/ji-parana`, mobile / desktop | 93 / 99 | 100 | 100 | 100 |
+| `/historias`, mobile / desktop | 94 / 99 | 100 | 100 | 100 |
+| `/historias/por-que-kaluana`, mobile / desktop | 94 / 100 | 100 | 100 | 100 |
+| `/eventos`, mobile / desktop | 95 / 99 | 100 | 100 | 66 |
+
+O 66 de SEO em Eventos é o `noindex` pedido pelo documento mestre e confirmado por você. É o único critério reprovado na página (`is-crawlable`). Sai junto com a autorização do cliente.
+
+### O que foi feito
+
+1. **O Kaluanã:** leitura longa com o traço de progresso na lateral, o nome em cena escura, o lugar, os andares, a linha do tempo alimentada pelos posts e a chamada final. JSON-LD: AboutPage e Organization.
+2. **Restaurante:** hero com o prato em close, cozinha, horários em acordeão por refeição e mesa para empresas. JSON-LD: Restaurant com endereço do hotel, cozinhas e reservas aceitas.
+3. **Eventos:** planta esquemática dos espaços em SVG sem escala, formatos, hospedagem para grupos e pedido de proposta em três passos, com server action, Zod, honeypot e limite por IP. Fora do menu e com `noindex` até a autorização.
+4. **Ji-Paraná:** guia com o mapa estilizado pregado ao lado do texto, acendendo o ponto de cada bloco, as fotos reais do rio Machado e as quatro perguntas com FAQPage. JSON-LD: TouristDestination e FAQPage.
+5. **Histórias:** listagem em duas colunas com capa 4 por 5, a data deslizando no hover, chips de assunto filtrando sem recarregar, e o modelo de post com barra de progresso, blocos tipados, bloco final e três relacionados.
+6. **Pipeline de posts:** `posts/*.yaml` validados por Zod viram `content/posts.json` no prebuild. A agência escreve post novo criando um arquivo.
+7. **Correção que vale para o site inteiro:** campo pendente agora tira a frase inteira em produção, e o `check:copy` passou a varrer o HTML do build atrás de ⟨colchetes⟩.
+
+### Pendente ou aguardando decisão
+
+| Item | Depende de | Onde |
+|---|---|---|
+| Práticas reais de obra, com data, para a seção "Como construímos" | Cliente (Adriano) | Sem elas a seção não é publicada (nota da 5.2) |
+| Horários do restaurante, cardápio, chef e preços | Cliente | Liberam o schema de horário e o destaque da refeição do momento |
+| Autorização para divulgar auditório e centro de convenções | Cliente | `NEXT_PUBLIC_EVENTOS_AUTORIZADO=true` tira o `noindex` e põe no menu |
+| Capacidades, equipamentos, área e vagas dos espaços | Cliente | Liberam a calculadora de formato (5.19) |
+| Tempo do hotel até o aeroporto e até a rodoviária | Cliente | Duas frases do guia e uma resposta do FAQ saem do ar sem isso |
+| Parque, praça, museu ou memorial de referência em Ji-Paraná | Cliente e analista | Seção "O que fazer" |
+| Nomes e cargos publicáveis da equipe, e fotos com autorização | Cliente | Seção "Quem faz" |
+| Revisar os três posts de partida e as datas | Responsável | `posts/*.yaml`, campo `revisar` |
+| Fotos próprias do canteiro | Premium | Os assuntos madeira e telhas saíram errados no Higgsfield |

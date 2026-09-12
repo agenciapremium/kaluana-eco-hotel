@@ -24,6 +24,43 @@ export function stripPlaceholders(text: string): string {
     .replace(/\s{2,}/g, " ")
     .replace(/\s+([.,;:])/g, "$1")
     .replace(/\(\s*\)/g, "")
+    .replace(/\.(\s*\.)+/g, ".")
+    .trim();
+}
+
+/**
+ * Uma frase como ela vai ao ar em produção, sem os campos ⟨pendentes⟩ (veto 5).
+ *
+ * Se o campo é o complemento do fim da frase ("Banheiro privativo com ⟨amenidades⟩"), sobra
+ * a frase sem ele. Se a frase depende do campo ("Café da manhã das ⟨hora⟩ às ⟨hora⟩"), ela
+ * sai inteira: melhor não dizer do que dizer pela metade.
+ */
+export function frasePublicavel(frase: string): string | null {
+  const f = frase.trim();
+  if (!f) return null;
+  if (!hasPlaceholder(f)) return f;
+  const complemento = f.match(/^(.*\S)\s+(?:com|e|de|a|em|por)\s+(?:⟨[^⟩]*⟩[\s,]*)+\.?$/);
+  if (complemento) {
+    const sobra = `${complemento[1].replace(/[\s,]+$/, "")}.`;
+    // Se o que sobrou ainda tem campo pendente, a frase sai inteira: nenhum ⟨colchete⟩
+    // pode chegar à produção (veto 5).
+    return hasPlaceholder(sobra) ? null : sobra;
+  }
+  // Campo isolado entre pontos ("⟨Museu ou memorial⟩."): a frase inteira sai.
+  return null;
+}
+
+/**
+ * O texto como ele vai ao ar em produção: frase a frase, tirando o que depende de campo
+ * pendente. Em desenvolvimento o texto volta inteiro, com os campos visíveis.
+ */
+export function copyDeProducao(texto: string): string {
+  return texto
+    .split(/(?<=\.)\s+/)
+    .map(frasePublicavel)
+    .filter((f): f is string => Boolean(f))
+    .join(" ")
+    .replace(/\s{2,}/g, " ")
     .trim();
 }
 

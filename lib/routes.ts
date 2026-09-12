@@ -19,12 +19,18 @@ const exatas = new Set<string>([
   "/acomodacoes/suite-terraco-lateral-fechado",
   "/acomodacoes/suite-presidencial-onca-pintada",
   "/universo",
+  "/o-kaluana",
+  "/restaurante",
+  "/eventos",
+  "/ji-parana",
+  "/historias",
 ]);
 
-/** Os cinco hubs de andar e as 70 páginas de elemento, todas geradas no build. */
+/** Hubs de andar, páginas de elemento e posts, todos gerados no build. */
 const padroes = [
   /^\/universo\/(rios|peixes|arvores|aves|guardioes)$/,
   /^\/universo\/(rios|peixes|arvores|aves|guardioes)\/[a-z0-9-]+$/,
+  /^\/historias\/[a-z0-9-]+$/,
 ];
 
 export function isBuilt(href: string): boolean {

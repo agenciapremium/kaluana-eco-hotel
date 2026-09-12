@@ -4,8 +4,16 @@
  */
 import { site, siteUrl, eventosAutorizado } from "./site";
 import type { Faq } from "./content-schema";
+import { copyDeProducao } from "./copy";
 
 type JsonLd = Record<string, unknown>;
+
+/**
+ * Texto que vai para dados estruturados. Campos ⟨pendentes⟩ nunca entram, em nenhum
+ * ambiente: o schema é lido por máquina e a Parte 4.3 exige que tudo nele esteja visível
+ * na página, que por sua vez esconde esses campos em produção.
+ */
+const limpo = (texto: string) => copyDeProducao(texto);
 
 export function postalAddress(): JsonLd {
   return {
@@ -102,10 +110,11 @@ export function breadcrumbSchema(items: { name: string; url: string }[]): JsonLd
 }
 
 export function faqSchema(faq: Faq[]): JsonLd {
+  const perguntas = faq.map((f) => ({ p: limpo(f.p), r: limpo(f.r) })).filter((f) => f.p && f.r);
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: faq.map((f) => ({
+    mainEntity: perguntas.map((f) => ({
       "@type": "Question",
       name: f.p,
       acceptedAnswer: { "@type": "Answer", text: f.r },
@@ -300,5 +309,149 @@ export function colecaoSchema(opts: {
         ...(it.imagem ? { image: it.imagem } : {}),
       })),
     },
+  };
+}
+
+/* ------------------------------------------------------------------
+   Etapa 4: institucional, restaurante, eventos, território e blog.
+   Regra de sempre: só declarar o que está visível na página.
+   ------------------------------------------------------------------ */
+
+export function aboutPageSchema(opts: { url: string; nome: string; descricao: string }): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": `${siteUrl}${opts.url}#pagina`,
+    name: opts.nome,
+    description: opts.descricao,
+    url: `${siteUrl}${opts.url}`,
+    inLanguage: "pt-BR",
+    isPartOf: { "@id": `${siteUrl}/#website` },
+    mainEntity: { "@id": `${siteUrl}/#organization` },
+  };
+}
+
+/**
+ * Restaurante (5.18). Sem `openingHoursSpecification` e sem `menu` enquanto os horários e o
+ * cardápio forem campos pendentes: o schema não declara o que a página não mostra.
+ */
+export function restaurantSchema(opts: {
+  url: string;
+  descricao: string;
+  cozinhas: string[];
+  image?: string;
+}): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "@id": `${siteUrl}${opts.url}#restaurante`,
+    name: "Restaurante Kaluanã",
+    description: opts.descricao,
+    url: `${siteUrl}${opts.url}`,
+    ...(opts.image ? { image: opts.image } : {}),
+    address: postalAddress(),
+    servesCuisine: opts.cozinhas,
+    acceptsReservations: true,
+    ...(site.phone ? { telephone: site.phone } : {}),
+    ...(site.geo ? { geo: { "@type": "GeoCoordinates", ...site.geo } } : {}),
+    containedInPlace: { "@id": `${siteUrl}/#hotel` },
+    parentOrganization: { "@id": `${siteUrl}/#organization` },
+  };
+}
+
+/** Eventos (5.19). Capacidade só entra quando o cliente confirmar. */
+export function eventVenueSchema(opts: {
+  url: string;
+  descricao: string;
+  capacidade?: number | null;
+}): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "EventVenue",
+    "@id": `${siteUrl}${opts.url}#local`,
+    name: "Centro de convenções Kaluanã",
+    description: opts.descricao,
+    url: `${siteUrl}${opts.url}`,
+    address: postalAddress(),
+    ...(opts.capacidade ? { maximumAttendeeCapacity: opts.capacidade } : {}),
+    containedInPlace: { "@id": `${siteUrl}/#hotel` },
+  };
+}
+
+export function serviceSchema(opts: { url: string; nome: string; descricao: string }): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `${siteUrl}${opts.url}#servico`,
+    name: opts.nome,
+    description: opts.descricao,
+    serviceType: "Organização de eventos",
+    provider: { "@id": `${siteUrl}/#organization` },
+    areaServed: { "@type": "City", name: site.city },
+  };
+}
+
+/** Ji-Paraná (5.20): a cidade como entidade, para o GEO. */
+export function touristDestinationSchema(opts: {
+  url: string;
+  nome: string;
+  descricao: string;
+}): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    "@id": `${siteUrl}${opts.url}#destino`,
+    name: opts.nome,
+    description: opts.descricao,
+    url: `${siteUrl}${opts.url}`,
+    inLanguage: "pt-BR",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: site.city,
+      addressRegion: site.stateCode,
+      addressCountry: site.address.country,
+    },
+    containsPlace: { "@id": `${siteUrl}/#hotel` },
+  };
+}
+
+export function blogSchema(opts: { url: string; nome: string; descricao: string }): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": `${siteUrl}${opts.url}#blog`,
+    name: opts.nome,
+    description: opts.descricao,
+    url: `${siteUrl}${opts.url}`,
+    inLanguage: "pt-BR",
+    publisher: { "@id": `${siteUrl}/#organization` },
+  };
+}
+
+export function blogPostingSchema(opts: {
+  url: string;
+  titulo: string;
+  descricao: string;
+  publicadoEm: string;
+  atualizadoEm: string;
+  keywords: string[];
+  imagem?: { url: string; alt: string; width: number; height: number };
+}): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${siteUrl}${opts.url}#post`,
+    headline: opts.titulo,
+    description: opts.descricao,
+    url: `${siteUrl}${opts.url}`,
+    inLanguage: "pt-BR",
+    mainEntityOfPage: `${siteUrl}${opts.url}`,
+    datePublished: opts.publicadoEm,
+    dateModified: opts.atualizadoEm,
+    author: { "@id": `${siteUrl}/#organization` },
+    publisher: { "@id": `${siteUrl}/#organization` },
+    ...(opts.keywords.length ? { keywords: opts.keywords.join(", ") } : {}),
+    ...(opts.imagem ? { image: imageObjectSchema(opts.imagem) } : {}),
+    isPartOf: { "@id": `${siteUrl}/historias#blog` },
   };
 }

@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "construido-a-vista",
+    "titulo": "Construído à vista",
+    "resumo": "Desde o início da obra o Kaluanã mostra o que está fazendo. Sem revelar o projeto, mostra o processo.",
+    "categoria": "obra",
+    "data": "2026-09-05",
+    "capa": "detalhes/maos-na-obra",
+    "keywords": [
+      "obra kaluanã eco hotel",
+      "hotel em construção rondônia",
+      "novo hotel ji-paraná"
+    ],
+    "abertura": "O Kaluanã abre em dezembro de 2026 e, até lá, mostra a obra em vez de mostrar render. Sem revelar o projeto, mostra o processo: a terra, a estrutura, as pessoas e a luz.",
+    "corpo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "A decisão de mostrar a obra tem uma razão simples. Um render promete um prédio que ainda não existe. Uma foto de obra mostra o que já foi feito, e o que já foi feito não volta atrás."
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "O que entra e o que não entra"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Entram mãos, materiais, terra, estrutura, pessoas e luz. Não entram planta, volumetria nem fachada completa. Isso fica para a inauguração, quando houver prédio para mostrar."
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "Eco é jeito de fazer"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O Kaluanã não promete natureza. Cada decisão de obra que preservou o entorno, cada material escolhido pela durabilidade e cada sistema pensado para gastar menos água e energia vai ser publicado aqui com data. Esta seção lista o que foi feito, nunca o que se pretende fazer."
+      }
+    ],
+    "a_seguir": "A linha do tempo da obra fica na página O Kaluanã e é alimentada por estes posts.",
+    "links": [
+      "/o-kaluana"
+    ],
+    "revisar": true
+  },
+  {
+    "slug": "o-rio-que-da-nome-a-cidade",
+    "titulo": "O rio que dá nome à cidade",
+    "resumo": "Ji-Paraná, em tupi, quer dizer rio do machado. O Machado corta a cidade em dois e dá nome a ela e a um dos quartos do hotel.",
+    "categoria": "ji-parana",
+    "data": "2026-08-12",
+    "capa": "universo/rios-rio-machado",
+    "keywords": [
+      "rio machado",
+      "ji-paraná rondônia",
+      "por que ji-paraná se chama assim"
+    ],
+    "abertura": "Ji-Paraná, em tupi, quer dizer rio do machado. O Machado divide a cidade em dois distritos, nasce e termina dentro de Rondônia e deu o nome ao município em 1977.",
+    "corpo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "O Machado nasce em Pimenta Bueno, do encontro de dois rios que descem da Chapada dos Parecis. Corre para o norte, passa por Cacoal, chega a Ji-Paraná e deságua no Madeira, em Calama, distrito de Porto Velho."
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "A cidade nasceu do rio"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O povoado começou numa estação telegráfica da Comissão Rondon, no ponto em que o rio Urupá encontra o Machado. A vila cresceu, chamou-se Vila de Rondônia e virou município com o nome do rio."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Hoje a ponte sobre o Machado é a costura de Ji-Paraná. É por ela que a cidade atravessa de um distrito para o outro todos os dias."
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "Na seca, o rio vira praia"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Entre maio e setembro o rio baixa e expõe praias de areia em Ji-Paraná e em Cacoal. Elas entram no calendário de lazer das duas cidades."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "É o maior rio que nasce e termina dentro de Rondônia.",
+          "Tambaqui, pintado, tucunaré e piau vivem nele.",
+          "Os pescadores da região conhecem os poços pelo nome."
+        ]
+      }
+    ],
+    "a_seguir": "A história completa do rio está na página do Universo Kaluanã, e o guia de Ji-Paraná explica como chegar à cidade.",
+    "links": [
+      "/universo/rios/rio-machado",
+      "/ji-parana"
+    ],
+    "revisar": true
+  },
+  {
+    "slug": "por-que-kaluana",
+    "titulo": "Por que Kaluanã",
+    "resumo": "O nome do hotel foi escolhido antes de qualquer desenho. Kaluanã é palavra de origem indígena e quer dizer grande guerreiro.",
+    "categoria": "nomes",
+    "data": "2026-07-15",
+    "capa": "detalhes/textura-madeira",
+    "keywords": [
+      "significado de kaluanã",
+      "kaluanã eco hotel",
+      "nome kaluanã"
+    ],
+    "abertura": "Kaluanã é uma palavra de origem indígena e significa grande guerreiro. O nome do hotel foi escolhido antes de qualquer desenho, porque diz o que ele quer ser: firme com a terra, firme com a cidade e firme com quem se hospeda.",
+    "corpo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Escolher o nome antes do projeto inverte a ordem de sempre. Em geral o prédio vem primeiro e o nome vem depois, como rótulo. Aqui foi o contrário: o nome veio primeiro e passou a cobrar do projeto aquilo que ele promete."
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "O que um guerreiro faz"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Um guerreiro não faz barulho. Faz o que precisa ser feito. É assim que o Kaluanã quer ser lembrado, e é por isso que o site mostra processo em vez de prometer natureza."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A mesma ideia aparece nas suítes. As três maiores acomodações do hotel levam o nome dos três grandes predadores da floresta: onça-pintada, jaguatirica e jacaré-açu. São os guardiões da casa."
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "O til não é enfeite"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Kaluanã se escreve sempre com til. É a grafia do nome, e é assim que ele aparece na porta, no site e na placa de cada quarto."
+      }
+    ],
+    "a_seguir": "As três suítes com nome de guardião estão no Universo Kaluanã, junto com os outros nomes.",
+    "links": [
+      "/o-kaluana",
+      "/universo/guardioes"
+    ],
+    "revisar": true
+  }
+]

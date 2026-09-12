@@ -12,6 +12,7 @@ Regras aplicadas em todos os prompts: sem pessoas identificáveis (sem rostos), 
 | 12/09/2026 | 8.791,6 | 18 | 8.773,6 |
 | 12/09/2026 | 8.773,6 | 28 | 8.745,6 |
 | 12/09/2026 | 8.745,6 | 43,75 | 8.701,85 |
+| 12/09/2026 | 8.701,85 | 24 | 8.677,85 |
 
 ## Etapa 1: detalhes da Home
 
@@ -144,6 +145,42 @@ Processamento (`scripts/build-media.ts --only=andares`): 1280 px, 24 fps, laço 
 Nenhuma geração. As 137 fotos do inventário (68 heroes e 69 de galeria) entraram pelo pipeline como estão, conforme a coluna de uso. Os 17 heroes abaixo de 1.000 px ficaram sem upscale: o custo seria 34 créditos, mas o upscale envia a foto do cliente ao Higgsfield e a licença dessas imagens é a pendência 24 da Parte 8, ainda aberta. Recomendação: confirmar a licença antes, e então decidir.
 
 Filhote e Maracanã continuam sem foto. A regra 6 proíbe gerar espécie só por texto, e o Commons não tem as espécies. As duas páginas ficam com o fundo do andar e uma nota de pendência, sem custo.
+
+## Etapa 4: detalhes do Restaurante e da obra
+
+**Preflight:** 12/09/2026, `seedream_v4_5`, 4:3, basic, `get_cost: true` → 1 crédito por imagem.
+**Leva:** 24 gerações em duas remessas, 8 assuntos × 3 variações, 1 crédito cada, `use_unlim: false`. Total: **24 créditos** de 120. Saídas em 2304 × 1728. Folhas de contato em `docs/higgsfield/etapa-4/`.
+
+Nenhuma imagem para a página de Eventos: auditório e centro de convenções são ambientes do hotel, vetados até a inauguração (regra 7). A página usa a planta esquemática em SVG, sem escala.
+
+| # | Assunto | Prompt (resumo) | Job | Arquivo | Status |
+|---|---|---|---|---|---|
+| 47 | Prato de peixe | Peixe grelhado inteiro em tigela de cerâmica verde, limão e ervas, luz de janela | 00cdf80c-8403-44df-afbb-934ccf372bad | `restaurante/peixe-na-tigela` | selecionada (hero) |
+| 48 | Prato de peixe | Peixe inteiro em travessa com rodelas de limão, visto de cima | 139c516d-07ae-48cc-83ba-3bf9237ef4ba | galeria | alternativa |
+| 49 | Prato de peixe | Garfo levantando uma lasca, com vapor, prato escuro | 17b2710e-6db3-4078-a43f-402fae184027 | `restaurante/lasca-de-peixe` | selecionada |
+| 50 | Farinha e pirão | Três tigelas de barro com farinha, pirão e vinagrete, de cima | bc154fdd-42fe-40c3-a328-ae446af6de76 | `restaurante/farinha-e-pirao` | selecionada |
+| 51 | Farinha e pirão | Tigela de farinha com colher de pau e pano de linho | 8e899261-2432-483b-b38d-d67685deab7d | galeria | alternativa |
+| 52 | Farinha e pirão | Pilha de tigelas de terracota com maço de ervas | 253ac40a-2912-448c-8e76-f8230f8aae68 | galeria | alternativa |
+| 53 | Mesa ao meio-dia | Canto de mesa posta com guardanapo, talheres e copo, sol duro | 7a6ac465-ca6b-4557-bf77-165344b80a10 | `restaurante/mesa-ao-meio-dia` | selecionada |
+| 54 | Mesa ao meio-dia | Dois lugares postos vistos de cima, com passadeira de linho | d619f6a8-dda4-45b3-98a7-ff70e67c2f27 | galeria | descartada: cadeiras e parede leem como salão do hotel |
+| 55 | Mesa ao meio-dia | Guardanapos de linho em fila numa mesa longa, com jarra | 62f111e9-b51a-4e19-a786-0d2c30048f85 | `restaurante/guardanapos-em-fila` | selecionada |
+| 56 | Café da manhã | Xícara de café e pão de queijo num balcão ao amanhecer | d8b0c9b6-e8c3-4bfe-9080-7b9d8bd357a6 | `restaurante/cafe-da-manha` | selecionada |
+| 57 | Café da manhã | Frutas fatiadas numa tábua com bule de cerâmica | 68405af8-dd27-48fc-8d5a-807b91c32154 | galeria | alternativa |
+| 58 | Café da manhã | Café sendo servido numa xícara, com vapor | d19e27d1-961b-4a17-ae3c-776b9764d8d4 | galeria | alternativa |
+| 59 | Madeira bruta | Tábua serrada sobre cavalete, com serragem | 74202f37-7b35-46cb-ba65-9b9f19fec708 | galeria | descartada: madeira tratada esverdeada |
+| 60 | Madeira bruta | Vigas empilhadas com poeira vermelha | b14c1952-024a-4e8f-bcf1-fc256ea20395 | galeria | descartada: madeira tratada esverdeada |
+| 61 | Madeira bruta | Macro do topo de uma viga, com anéis de crescimento | 21495175-45bf-48d6-bb68-fe8c101b1693 | galeria | descartada: madeira tratada esverdeada |
+| 62 | Terra vermelha | Terra revolvida com marca de lâmina, de cima | f5ff0d6b-8a1b-45cc-a514-3c7a42e2ca9b | galeria | descartada: marca de pneu, não de enxada |
+| 63 | Terra vermelha | Enxada apoiada num monte de terra vermelha | fd4a1df7-607b-43b3-9c83-c8d5efe49d10 | `obra/terra-e-enxada` | selecionada (hero de O Kaluanã) |
+| 64 | Terra vermelha | Camadas de terra numa vala rasa, com raízes e pedras | 9671acb2-36f1-4c88-a43c-0397cbe4063f | `obra/perfil-do-solo` | selecionada |
+| 65 | Prumo e linha | Prumo pendurado num fio contra o céu | 57ffc8d2-6fa9-490c-ab53-d8a383fe31ef | `obra/prumo` | selecionada |
+| 66 | Prumo e linha | Linha de pedreiro entre estacas sobre terra vermelha | 1841a3da-86ad-42c1-ab4a-8ef9dd3d75b8 | `obra/linha-e-estacas` | selecionada |
+| 67 | Prumo e linha | Lápis de carpinteiro e trena sobre tábua | 44bbd8c2-e69a-4394-8b62-cf0fe9441651 | galeria | descartada: números da trena são texto na imagem |
+| 68 | Telhas | Pilha de telhas de barro sobre terra vermelha | b72870b7-bc22-4664-b61d-e70d9771a48c | galeria | descartada: musgo, leem como telhas reaproveitadas |
+| 69 | Telhas | Macro de telhas sobrepostas com musgo nas ranhuras | c234a1ba-bd4c-485f-a5b6-1d15af9f6404 | galeria | descartada: musgo |
+| 70 | Telhas | Telha erguida contra o chão de terra | 8bbb9c71-1166-4c4b-b3a1-505a37cd5be2 | galeria | descartada: musgo |
+
+Aproveitamento: 10 de 24. Os dois assuntos descartados inteiros (madeira e telhas) saíram com a mesma falha: o modelo entregou madeira tratada esverdeada e telhas velhas com musgo, quando a marca pede madeira amazônica de manejo e obra nova. Para uma próxima leva, o caminho é captação própria no canteiro, que a pendência 25 da Parte 8 já recomenda.
 
 ## Não gerado nesta etapa
 

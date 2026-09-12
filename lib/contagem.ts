@@ -34,6 +34,9 @@ const semNumero: Record<string, string> = {
   "As 18 árvores dos quartos": "As árvores dos quartos",
   "As 17 aves dos quartos": "As aves dos quartos",
   "Os dezoito peixes da Amazônia": "Os peixes da Amazônia",
+  // Guia de Ji-Paraná (5.20): o número do quarto não existe antes da inauguração.
+  "e é o mesmo rio que dá nome ao quarto 112 do hotel":
+    "e é o mesmo rio que dá nome a um dos quartos do hotel",
 };
 
 /** Aplica as variantes de pré-inauguração. Na fase completa, devolve o texto original. */
