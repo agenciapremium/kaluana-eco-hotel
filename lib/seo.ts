@@ -8,9 +8,12 @@
  *
  * TODO(copy): três descrições estendidas pela Premium, a revisar pelo responsável.
  */
+import { phase } from "./site";
+
 const descricoes: Record<string, string> = {
+  // Sem "e eventos": o bloqueio de quartos para eventos só é divulgado com a autorização (veto 3).
   reservas:
-    "Reserve sua estadia no Kaluanã Eco Hotel, em Ji-Paraná. Tarifas, disponibilidade, conta corporativa e bloqueio de quartos para grupos e eventos.",
+    "Reserve sua estadia no Kaluanã Eco Hotel, em Ji-Paraná. Tarifas, disponibilidade, conta corporativa e bloqueio de quartos para grupos.",
   "politica-de-privacidade":
     "Como o Kaluanã Eco Hotel coleta, usa e protege os dados pessoais de hóspedes e visitantes do site, conforme a LGPD: cookies, formulários e direitos.",
   "termos-de-uso":
@@ -21,3 +24,12 @@ const descricoes: Record<string, string> = {
 export function descricaoDe(id: string, original: string): string {
   return descricoes[id] ?? original;
 }
+
+/**
+ * Páginas que a Parte 3.5 põe na fase 1 (inauguração): O Kaluanã, Restaurante, Ji-Paraná,
+ * Histórias, Reservas, Contato, Perguntas frequentes e Trabalhe conosco. Na pré-inauguração
+ * elas existem (pré-visualização, atalho da Home para Histórias), mas ficam fora do índice e
+ * do sitemap, como Acomodações (decisão 27). A fase 0 indexa a Home, o Universo e as duas
+ * páginas legais, que o formulário de interesse e o banner de consentimento citam.
+ */
+export const foraDoIndiceNaPre = phase === "pre" ? { robots: { index: false, follow: false } } : {};

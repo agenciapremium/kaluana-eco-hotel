@@ -23,6 +23,7 @@ import {
   type QrMap,
   type UniversoIndexEntry,
 } from "../lib/content-schema";
+import { aplicarAjustesDeVeto } from "./ajustes-de-veto";
 
 const root = process.cwd();
 const dadosDir = resolve(root, "../DOCS/SITE/dados");
@@ -58,6 +59,7 @@ for (const key of floorKeys) {
     process.stderr.write(`content: ${key}.yaml declara grupo "${result.data.grupo}"\n`);
     process.exit(1);
   }
+  aplicarAjustesDeVeto(key, result.data);
   grupos[key] = result.data;
   write(`${key}.json`, result.data);
 }

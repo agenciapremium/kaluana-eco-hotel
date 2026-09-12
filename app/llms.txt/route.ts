@@ -1,6 +1,6 @@
 import { categorias } from "@/lib/acomodacoes";
 import { grupos } from "@/lib/content";
-import { phase, site, siteUrl } from "@/lib/site";
+import { eventosAutorizado, phase, site, siteUrl } from "@/lib/site";
 import { floorOrder, floors } from "@/lib/tokens";
 
 /**
@@ -9,7 +9,8 @@ import { floorOrder, floors } from "@/lib/tokens";
  *
  * É gerado a partir dos dados, e não escrito à mão, para não envelhecer quando o conteúdo
  * mudar. As contagens de elementos só entram na fase completa, como no resto do site
- * (Parte 3.5).
+ * (Parte 3.5), e o auditório e o centro de convenções só com a autorização do cliente
+ * (veto 3).
  */
 export const dynamic = "force-static";
 
@@ -23,7 +24,9 @@ function linhas(): string[] {
     `> Eco hotel em ${site.city}, ${site.state}, Brasil. Inauguração prevista para ${site.openingLabel}.`,
   );
   out.push(
-    "> Restaurante aberto ao público, auditório e centro de convenções. Quartos nomeados com",
+    eventosAutorizado
+      ? "> Restaurante aberto ao público, auditório e centro de convenções. Quartos nomeados com"
+      : "> Restaurante aberto ao público. Quartos nomeados com",
   );
   out.push("> rios, peixes, árvores e aves da Amazônia. Kaluanã é um nome de origem indígena que");
   out.push("> significa grande guerreiro.");

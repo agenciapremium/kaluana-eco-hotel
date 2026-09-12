@@ -12,7 +12,7 @@ import { SiteLink as Link } from "@/components/ui/SiteLink";
 import { getPagina, getSecao } from "@/lib/content";
 import { splitParagraphs } from "@/lib/copy";
 import { eventVenueSchema, serviceSchema } from "@/lib/schema";
-import { eventosAutorizado } from "@/lib/site";
+import { eventosAutorizado, notasInternas } from "@/lib/site";
 
 const pagina = getPagina("eventos");
 
@@ -77,7 +77,7 @@ export default function Page() {
           <Breadcrumbs items={[{ name: pagina.seo.h1, url: pagina.url }]} />
         </div>
 
-        {!eventosAutorizado ? (
+        {!eventosAutorizado && notasInternas ? (
           <div className="container-site">
             <p className="aviso-interno" role="note">
               Página fora do menu e com <code>noindex</code> até a autorização formal do cliente

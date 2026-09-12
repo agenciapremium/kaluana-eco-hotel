@@ -22,7 +22,8 @@ import {
   tempoDeLeitura,
 } from "@/lib/posts";
 import { blogPostingSchema } from "@/lib/schema";
-import { siteUrl } from "@/lib/site";
+import { foraDoIndiceNaPre } from "@/lib/seo";
+import { notasInternas, siteUrl } from "@/lib/site";
 import { motion as motionTokens } from "@/lib/tokens";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -43,6 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: post.resumo,
     keywords: post.keywords,
     alternates: { canonical: postUrl(post.slug) },
+    ...foraDoIndiceNaPre,
     openGraph: {
       title,
       description: post.resumo,
@@ -192,7 +194,7 @@ export default async function Page({ params }: Props) {
           </Reveal>
         ) : null}
 
-        {post.revisar ? (
+        {post.revisar && notasInternas ? (
           <p className="aviso-interno mt-10" role="note">
             Post escrito a partir de fatos já presentes no documento mestre, para a página não
             nascer vazia. A revisar pelo responsável da Premium, inclusive a data.

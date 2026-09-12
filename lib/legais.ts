@@ -8,7 +8,7 @@
  *
  * TODO(copy): texto a validar com o jurídico do cliente antes da inauguração.
  */
-import { site } from "./site";
+import { eventosAutorizado, site } from "./site";
 
 export type BlocoLegal = { titulo: string; paragrafos: string[]; itens?: string[] };
 
@@ -30,7 +30,11 @@ export const politicaDePrivacidade: BlocoLegal[] = [
     itens: [
       "Formulário de pré-reserva e de aviso de abertura: nome, e-mail, telefone, datas previstas e empresa, quando informada.",
       "Formulário de contato: nome, e-mail, telefone, assunto e mensagem.",
-      "Pedido de proposta de evento: nome, empresa, e-mail, telefone, tipo de evento, data, número de pessoas e necessidades de hospedagem e alimentação.",
+      ...(eventosAutorizado
+        ? [
+            "Pedido de proposta de evento: nome, empresa, e-mail, telefone, tipo de evento, data, número de pessoas e necessidades de hospedagem e alimentação.",
+          ]
+        : []),
       "Envio de currículo: nome, e-mail, telefone, área de interesse, experiência e o arquivo que você anexar.",
       "Medição de audiência: páginas visitadas, origem da visita, tipo de dispositivo e identificadores de cookies, apenas com o seu consentimento.",
     ],
@@ -87,7 +91,8 @@ export const termosDeUso: BlocoLegal[] = [
   {
     titulo: "O que o site oferece",
     paragrafos: [
-      `O site apresenta o ${site.name}, as categorias de acomodação, o restaurante, os espaços de evento, o conteúdo do Universo Kaluanã e os canais de contato. A inauguração está prevista para ${site.openingLabel}.`,
+      // No corpo, "o Kaluanã"; os espaços de evento só com a autorização do cliente (veto 3).
+      `O site apresenta o Kaluanã, as categorias de acomodação, o restaurante, ${eventosAutorizado ? "os espaços de evento, " : ""}o conteúdo do Universo Kaluanã e os canais de contato. A inauguração está prevista para ${site.openingLabel}.`,
       "Enquanto o motor de reservas não estiver no ar, o site capta interesse de reserva por formulário. O envio do formulário não gera reserva nem garante disponibilidade ou tarifa.",
     ],
   },

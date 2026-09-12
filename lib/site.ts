@@ -14,6 +14,13 @@ export const isProduction = process.env.NODE_ENV === "production";
 /** Página Eventos e menções ao auditório só entram com autorização do cliente (veto 3). */
 export const eventosAutorizado = process.env.NEXT_PUBLIC_EVENTOS_AUTORIZADO === "true";
 
+/**
+ * Avisos internos (minuta jurídica, post a revisar, página fora do menu) aparecem em
+ * desenvolvimento e na pré-visualização da Vercel, para quem revisa, e nunca no deploy de
+ * produção. VERCEL_ENV é definida pela Vercel no build.
+ */
+export const notasInternas = process.env.VERCEL_ENV !== "production";
+
 /** URL do motor de reservas. Enquanto não houver, o botão Reservar leva a /reservas. */
 export const reservasUrl = process.env.NEXT_PUBLIC_RESERVAS_URL || "/reservas";
 

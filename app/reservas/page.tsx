@@ -9,9 +9,9 @@ import { HeroScene } from "@/components/scene/HeroScene";
 import { Arrow } from "@/components/ui/Arrow";
 import { SiteLink as Link } from "@/components/ui/SiteLink";
 import { getPagina, getSecao } from "@/lib/content";
-import { descricaoDe } from "@/lib/seo";
+import { descricaoDe, foraDoIndiceNaPre } from "@/lib/seo";
 import { hotelReservaSchema, webPageSchema } from "@/lib/schema";
-import { reservasUrl } from "@/lib/site";
+import { eventosAutorizado, reservasUrl } from "@/lib/site";
 
 const pagina = getPagina("reservas");
 const descricao = descricaoDe("reservas", pagina.seo.description);
@@ -24,6 +24,7 @@ export const metadata: Metadata = {
   description: descricao,
   keywords: pagina.seo.keywords,
   alternates: { canonical: pagina.url },
+  ...foraDoIndiceNaPre,
   openGraph: { title: pagina.seo.title, description: descricao, url: pagina.url },
 };
 
@@ -112,7 +113,11 @@ export default function Page() {
                 <CopyText text={grupos.titulo ?? ""} />
               </h2>
               {grupos.texto ? <CopyParagraphs text={grupos.texto} /> : null}
-              <Link href="/eventos" className="btn btn-secondary mt-6">
+              {/* Eventos só com a autorização do cliente (veto 3); até lá, o pedido vai pelo Contato. */}
+              <Link
+                href={eventosAutorizado ? "/eventos" : "/contato"}
+                className="btn btn-secondary mt-6"
+              >
                 {grupos.cta_secundario}
                 <Arrow />
               </Link>
