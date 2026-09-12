@@ -1,13 +1,30 @@
 import type { MetadataRoute } from "next";
-import { siteUrl } from "@/lib/site";
+import { eventosAutorizado, siteUrl } from "@/lib/site";
 
 /**
- * Libera busca e robôs de resposta; bloqueia o atalho do QR e a página de formulário enviado.
- * A política para robôs de treinamento (GPTBot, CCBot) depende de decisão do cliente (Parte 4.6).
+ * robots.txt (Parte 4.2, item 4, e Parte 4.6).
+ *
+ * A recomendação do documento mestre é liberar busca e robôs de resposta para todo o site,
+ * porque o objetivo do Universo Kaluanã é justamente ser citado. Bloqueamos só o atalho do
+ * QR, a página de formulário enviado e a de Eventos enquanto não houver autorização.
+ *
+ * Se o cliente preferir barrar o uso do conteúdo para treinamento, basta ligar
+ * NEXT_PUBLIC_BLOQUEAR_TREINO_IA=true: a busca e as respostas continuam liberadas e só os
+ * agentes de treinamento (GPTBot, CCBot) passam a ser bloqueados. A decisão fica registrada
+ * em docs/decisoes.md.
  */
+const bloquearTreino = process.env.NEXT_PUBLIC_BLOQUEAR_TREINO_IA === "true";
+
+const agentesDeTreino = ["GPTBot", "CCBot"];
+
 export default function robots(): MetadataRoute.Robots {
+  const proibido = ["/q/", "/obrigado", ...(eventosAutorizado ? [] : ["/eventos"])];
   return {
-    rules: [{ userAgent: "*", allow: "/", disallow: ["/q/", "/obrigado"] }],
+    rules: [
+      { userAgent: "*", allow: "/", disallow: proibido },
+      ...(bloquearTreino ? [{ userAgent: agentesDeTreino, disallow: "/" }] : []),
+    ],
     sitemap: `${siteUrl}/sitemap.xml`,
+    host: siteUrl,
   };
 }

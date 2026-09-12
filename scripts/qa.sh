@@ -9,6 +9,8 @@ LH_PATHS="${4:-/}"
 PORT="${PORT:-3100}"
 export NEXT_PUBLIC_SITE_PHASE="$PHASE"
 npm run build
+npm run check:copy
+npm run check:schema
 npx next start -p "$PORT" >/tmp/kaluana-next-"$PHASE".log 2>&1 &
 PID=$!
 trap 'kill $PID 2>/dev/null || true' EXIT

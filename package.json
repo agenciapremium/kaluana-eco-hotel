@@ -19,7 +19,8 @@
     "screenshots": "tsx scripts/screenshots.ts",
     "lighthouse": "tsx scripts/lighthouse.ts",
     "build:cantos": "tsx scripts/build-cantos.ts",
-    "build:posts": "tsx scripts/build-posts.ts"
+    "build:posts": "tsx scripts/build-posts.ts",
+    "check:schema": "tsx scripts/check-schema.ts"
   },
   "dependencies": {
     "motion": "^13.2.0",

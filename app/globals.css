@@ -2760,3 +2760,163 @@ html.js .form-evento:not([data-passo="2"]) .form-enviar {
     transition: none;
   }
 }
+
+/* ------------------------------------------------------------------
+   Etapa 5: conversão, contato, respostas, legais e 404
+   ------------------------------------------------------------------ */
+
+.form-site {
+  max-width: 34rem;
+}
+.field-arquivo {
+  padding: 0.55rem 1rem;
+  line-height: 1.4;
+  &::file-selector-button {
+    margin-right: 0.9rem;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-bege-escuro);
+    background-color: var(--color-bege);
+    color: var(--color-cafe);
+    font: inherit;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+/* Reservas: três blocos lado a lado. */
+.blocos-reserva {
+  display: grid;
+  gap: 2rem;
+  padding-bottom: var(--spacing-section-sm);
+}
+@media (min-width: 64rem) {
+  .blocos-reserva {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+}
+.bloco-reserva {
+  padding-top: 2rem;
+  border-top: 2px solid var(--color-salvia);
+  font-size: var(--text-base);
+}
+.bloco-reserva-titulo {
+  margin-bottom: 0.75rem;
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  line-height: 1.12;
+}
+
+/* Contato: canais em cards e mapa sob demanda. */
+.canais {
+  display: grid;
+  gap: 1.25rem;
+}
+@media (min-width: 48rem) {
+  .canais {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 64rem) {
+  .canais {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+.canal {
+  padding: 1.5rem;
+  border: 1px solid var(--color-bege-escuro);
+  background-color: var(--color-branco);
+}
+.canal-valor {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: 1.2;
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 4px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.mapa-espera {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 2.5rem;
+  border: 1px dashed var(--color-bege-escuro);
+  background-color: var(--color-branco);
+}
+.mapa-espera-nota {
+  font-size: var(--text-sm);
+  color: color-mix(in srgb, var(--color-cafe) 80%, transparent);
+}
+.mapa-embutido {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: var(--color-bege-escuro);
+  & iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+/* Perguntas frequentes: busca e grupos por tema. */
+.busca-faq {
+  max-width: 34rem;
+}
+.grupo-faq {
+  padding-bottom: 2.5rem;
+  scroll-margin-top: calc(var(--header-h) + 1rem);
+}
+
+/* Páginas legais: coluna única, leitura corrida. */
+.pagina-legal {
+  padding-block: calc(var(--header-h) + 2rem) var(--spacing-section);
+}
+.texto-legal {
+  max-width: 46rem;
+  margin-top: 2.5rem;
+  & h2 {
+    margin-top: 2.75rem;
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    line-height: 1.12;
+  }
+  & p {
+    margin-top: 1rem;
+    font-size: var(--text-lg);
+  }
+  & ul {
+    margin-top: 1rem;
+    display: grid;
+    gap: 0.6rem;
+    list-style: none;
+    padding: 0;
+  }
+  & li {
+    position: relative;
+    padding-left: 1.75rem;
+    font-size: var(--text-lg);
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.8em;
+      width: 1rem;
+      height: 2px;
+      background-color: var(--color-salvia);
+    }
+  }
+}
+
+.pagina-404 {
+  padding-top: calc(var(--header-h) + 3rem);
+}

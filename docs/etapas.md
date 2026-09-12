@@ -147,7 +147,7 @@ Como na etapa 1, o LCP simulado no mobile é a abertura de sessão da primeira v
 
 ## Etapa 3: Universo Kaluanã
 
-**Status:** aguardando "aprovado" do responsável da Premium.
+**Status:** aprovada pelo responsável da Premium em 12/09/2026 e integrada à `main`.
 **Branch:** `etapa-3`.
 **Período:** 12/09/2026.
 **Créditos Higgsfield gastos:** 43,75 (teto: 400). Saldo: 8.701,85. Acumulado do projeto: 113,75.
@@ -211,7 +211,7 @@ Como nas etapas anteriores, o LCP simulado no mobile é inflado pelo simulador d
 
 ## Etapa 4: O Kaluanã, Restaurante, Eventos, Ji-Paraná e Histórias
 
-**Status:** aguardando "aprovado" do responsável da Premium.
+**Status:** aprovada pelo responsável da Premium em 12/09/2026 e integrada à `main`.
 **Branch:** `etapa-4`.
 **Período:** 12/09/2026.
 **Créditos Higgsfield gastos:** 24 (teto: 120). Saldo: 8.677,85. Acumulado do projeto: 137,75.
@@ -270,3 +270,63 @@ O 66 de SEO em Eventos é o `noindex` pedido pelo documento mestre e confirmado 
 | Nomes e cargos publicáveis da equipe, e fotos com autorização     | Cliente            | Seção "Quem faz"                                                     |
 | Revisar os três posts de partida e as datas                       | Responsável        | `posts/*.yaml`, campo `revisar`                                      |
 | Fotos próprias do canteiro                                        | Premium            | Os assuntos madeira e telhas saíram errados no Higgsfield            |
+
+## Etapa 5: conversão, contato, legais e auditoria
+
+**Status:** aprovada pelo responsável da Premium em 12/09/2026 e integrada à `main`.
+**Branch:** `etapa-5`.
+**Período:** 12/09/2026.
+**Créditos Higgsfield gastos:** 0. Saldo: 8.677,85. Acumulado do projeto: 137,75.
+
+### Critérios de aceite
+
+| Critério                                           | Status | Evidência                                                             |
+| -------------------------------------------------- | ------ | --------------------------------------------------------------------- |
+| Build limpo nas duas fases                         | Feito  | 179 rotas em `full`, 172 em `pre`; `typecheck` e `lint` limpos        |
+| Lighthouse acima de 90 em mobile nas páginas novas | Feito  | Ver tabela; 100 em acessibilidade, boas práticas e SEO em todas       |
+| Reservas com modo pré-reserva (5.23)               | Feito  | Formulário testado; `ReserveAction` entra sozinho quando houver motor |
+| Contato (5.24) com NAP e mapa sob demanda          | Feito  | Mapa só carrega no clique e dispara `mapa_click`                      |
+| Perguntas frequentes (5.25) com busca e FAQPage    | Feito  | Busca filtra de 11 para 1 no termo "estacionamento"                   |
+| Trabalhe conosco (5.26) com envio de arquivo       | Feito  | PDF aceito, PNG recusado com mensagem, nada é gravado                 |
+| Legais (5.27 e 5.28)                               | Feito  | Minutas da Premium, com aviso de validação jurídica                   |
+| 404 (5.29) com status 404 de verdade               | Feito  | Testado: `/rota-que-nao-existe` devolve 404                           |
+| `sitemap.ts`, `robots.ts` e `llms.txt`             | Feito  | 98 URLs no sitemap; `llms.txt` gerado dos dados                       |
+| Auditoria de todos os JSON-LD                      | Feito  | `npm run check:schema`: 100 páginas, nenhum problema                  |
+| Auditoria de titles e descriptions                 | Feito  | Nenhum title acima de 60; quatro descriptions corrigidas              |
+| Nenhum campo ⟨entre colchetes⟩ em produção         | Feito  | `check:copy` nas 103 páginas do build                                 |
+| Capturas em `docs/screenshots/etapa-5/`            | Feito  | 12 capturas, desktop e mobile                                         |
+| Docs atualizados                                   | Feito  | `etapas.md`, `decisoes.md` (66 a 77)                                  |
+
+### Lighthouse (12/09/2026, Lighthouse 13.4, throttling simulado, fase `full`)
+
+| Página                                       | Desempenho | Acessibilidade | Boas práticas | SEO |
+| -------------------------------------------- | ---------- | -------------- | ------------- | --- |
+| `/reservas`, mobile / desktop                | 94 / 99    | 100            | 100           | 100 |
+| `/contato`, mobile / desktop                 | 94 / 99    | 100            | 100           | 100 |
+| `/perguntas-frequentes`, mobile / desktop    | 94 / 99    | 100            | 100           | 100 |
+| `/trabalhe-conosco`, mobile / desktop        | 94 / 99    | 100            | 100           | 100 |
+| `/politica-de-privacidade`, mobile / desktop | 96 / 100   | 100            | 100           | 100 |
+
+### O que foi feito
+
+1. **Reservas:** modo pré-reserva com nome, contato e datas previstas, mais os três blocos de corporativo, grupos e políticas. O widget e o `ReserveAction` entram sozinhos quando o motor for contratado.
+2. **Contato:** canais em cards, endereço, formulário com assunto e mapa que só carrega no clique. Telefone e e-mail entram quando o cliente definir.
+3. **Perguntas frequentes:** as catorze perguntas agrupadas em quatro temas com âncora, busca filtrando em tempo real e FAQPage. Respostas que dependem de campo pendente saem do ar; a de eventos volta com a autorização.
+4. **Trabalhe conosco:** currículo em PDF ou DOCX até 5 MB, anexado no e-mail e não guardado.
+5. **Legais:** minutas de privacidade e termos escritas a partir dos fatos do projeto, com aviso de validação jurídica.
+6. **404 definitiva:** símbolo em traço, atalhos e a busca sobre os setenta nomes do Universo.
+7. **`llms.txt`, `robots.txt` e `sitemap.xml`:** o primeiro gerado dos dados; o robots libera robôs de IA, com interruptor para barrar treinamento; o sitemap cobre as 98 URLs indexáveis da fase completa.
+8. **`check:schema`:** auditoria de H1, title, description, canônica, JSON-LD e referências `@id` sobre o HTML do build. Entrou no `qa.sh` e passa a rodar em todas as etapas.
+
+### Pendente ou aguardando decisão
+
+| Item                                                                 | Depende de            | Onde                                                            |
+| -------------------------------------------------------------------- | --------------------- | --------------------------------------------------------------- |
+| Validação jurídica das duas minutas legais                           | Cliente               | `lib/legais.ts`; o aviso na página sai junto                    |
+| Telefone oficial, WhatsApp, e-mail, CEP e coordenadas                | Cliente (prazo 31/10) | Liberam os canais do Contato e os campos do schema              |
+| Handles de Instagram, Facebook e LinkedIn, e link da ficha do Google | Cliente               | Seção Redes e o `sameAs` do schema                              |
+| Prazo de cancelamento e meios de pagamento                           | Cliente               | Bloco Políticas em Reservas                                     |
+| Política para animais de estimação                                   | Cliente               | Uma pergunta do FAQ fica fora até lá                            |
+| Motor de reservas contratado                                         | Cliente e agência     | `NEXT_PUBLIC_RESERVAS_URL` troca o modo pré-reserva pelo widget |
+| Decisão sobre bloquear GPTBot e CCBot                                | Cliente               | `NEXT_PUBLIC_BLOQUEAR_TREINO_IA`; o padrão libera               |
+| Revisão das três descrições estendidas                               | Responsável           | `lib/seo.ts`                                                    |

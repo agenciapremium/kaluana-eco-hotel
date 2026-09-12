@@ -24,6 +24,12 @@ const exatas = new Set<string>([
   "/eventos",
   "/ji-parana",
   "/historias",
+  "/reservas",
+  "/contato",
+  "/perguntas-frequentes",
+  "/trabalhe-conosco",
+  "/politica-de-privacidade",
+  "/termos-de-uso",
 ]);
 
 /** Hubs de andar, páginas de elemento e posts, todos gerados no build. */
