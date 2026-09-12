@@ -40,6 +40,8 @@ for (const [name, value] of Object.entries(motion.offset)) {
   lines.push(`  --offset-${kebab(name)}: ${value}px;`);
 }
 lines.push(`  --parallax-max: ${motion.parallaxMax};`);
+lines.push(`  --parallax-terraco: ${motion.parallaxTerraco};`);
+lines.push(`  --hover-darken-photo: ${motion.hoverDarkenPhoto};`);
 lines.push(`  --hover-scale: ${motion.hoverScale.min};`);
 lines.push(`  --hover-scale-max: ${motion.hoverScale.max};`);
 lines.push(`  --press-scale: ${motion.pressScale};`);

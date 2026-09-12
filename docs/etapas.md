@@ -82,4 +82,65 @@ Pipelines locais (precisam de ../DOCS e ffmpeg): `npm run build:media`, `npm run
 
 ## Etapa 2: Acomodações
 
-Aguardando o prompt da etapa 2. Trabalho em branch `etapa-2`.
+**Status:** aprovada pelo responsável da Premium em 12/09/2026 e integrada à `main`. As variações de imagem seguem as provisórias (a primeira de cada folha de contato); a escolha final continua pendente e pode ser trocada sem refazer as páginas.
+**Branch:** `etapa-2`.
+**Período:** 12/09/2026.
+**Créditos Higgsfield gastos:** 28 (teto: 90). Saldo: 8.745,6. Acumulado do projeto: 70.
+
+### Critérios de aceite
+
+| Critério | Status | Evidência |
+|---|---|---|
+| Build limpo (`npm run build`) | Feito | Sem erros nem avisos; `typecheck` e `lint` limpos |
+| Lighthouse acima de 90 nos quatro eixos em mobile no hub e em uma categoria | Feito | Ver tabela abaixo |
+| Hub e as sete páginas de categoria (5.3 a 5.10) com a copy do documento mestre | Feito | `app/acomodacoes/` |
+| UHs importadas do YAML e cada nome ligado à página do Universo | Feito | `lib/acomodacoes.ts` cruza `paginas.json` com `qr-map.json`; 70 UHs, 0 sem categoria |
+| Filtro por perfil (chegou cansado, precisa produzir, precisa parar) | Feito | `FiltroPerfil.tsx`; sem JavaScript mostra tudo |
+| Schema HotelRoom e Product com Offer para o motor de reservas por variável de ambiente | Feito | `lib/schema.ts`; `NEXT_PUBLIC_RESERVAS_URL` |
+| Mídias só com detalhes abstratos, 4 variações por categoria em 1 crédito | Feito | 28 gerações, 26 aproveitadas, 2 descartadas; `registro-higgsfield.md` |
+| Nenhuma animação automática além das previstas pelo mestre | Feito | Só a deriva de luz de 12 s do Terraço Aberto (5.8), desktop e sem movimento reduzido |
+| `prefers-reduced-motion` respeitado; Superior Acessível sem movimento por padrão | Feito | `data-variante="superior-acessivel"` em `globals.css` |
+| Nenhuma frase vetada | Feito | `npm run check:copy` sem ocorrências |
+| Nenhum campo ⟨entre colchetes⟩ nem número de UH visível em produção | Feito | `FichaList` (decisão 28); `NomesUh` mostra só nomes |
+| Tokens sem valores soltos | Feito | Novos tokens `filter`, `lightDrift`, `slowFade`, `parallaxTerraco`, `hoverDarkenPhoto` |
+| Docs atualizados | Feito | `etapas.md`, `decisoes.md` (26 a 38), `registro-higgsfield.md` |
+| Capturas desktop e mobile em `docs/screenshots/etapa-2/` | Feito | 16 capturas (hub e sete categorias, fase `full`) |
+
+### Lighthouse (12/09/2026, Lighthouse 13.4, throttling simulado, fase `full`)
+
+| Página | Desempenho | Acessibilidade | Boas práticas | SEO | LCP | CLS |
+|---|---|---|---|---|---|---|
+| `/acomodacoes`, mobile | 92 | 100 | 100 | 100 | 3,3 s | 0 |
+| `/acomodacoes`, desktop | 99 | 100 | 100 | 100 | 0,7 s | 0 |
+| `/acomodacoes/superior-familia`, mobile | 93 | 100 | 100 | 100 | 3,1 s | 0 |
+| `/acomodacoes/superior-familia`, desktop | 99 | 100 | 100 | 100 | 0,7 s | 0 |
+| `/acomodacoes/suite-presidencial-onca-pintada`, mobile | 94 | 100 | 100 | 100 | 3,0 s | 0 |
+| `/acomodacoes/suite-presidencial-onca-pintada`, desktop | 99 | 100 | 100 | 100 | 0,7 s | 0 |
+| Home `pre`, mobile (regressão após a decisão 39) | 92 | 100 | 100 | 100 | 3,3 s | 0 |
+
+Como na etapa 1, o LCP simulado no mobile é a abertura de sessão da primeira visita, inflado pelo simulador (decisões 20 e 24). Zero avisos no console nas 16 capturas. Relatórios HTML em `docs/lighthouse/etapa-2/`.
+
+### O que foi feito
+
+1. `lib/acomodacoes.ts`: as sete categorias a partir de `content/paginas.json` (código, capacidade, UHs), cada UH cruzada com `content/qr-map.json` (nome, andar, URL do Universo) e agrupada por andar; tags de perfil (decisão 26) em `lib/perfis.ts`.
+2. Hub `/acomodacoes` (5.3): hero em foto, migalhas, filtro com três chips e grade de cards grandes (véu sálvia no hover com nome e frase de perfil; faixa com snap no celular), "Sete categorias. Muitas histórias." com a resposta direta, regras da casa, chamada final. JSON-LD: CollectionPage com ItemList de HotelRoom, BreadcrumbList.
+3. Sete páginas `/acomodacoes/[slug]` (5.4 a 5.10), estáticas: hero com a foto de detalhe, migalhas, faixa de detalhes arrastável, ficha item a item com a resposta direta, seções de texto com foto (Perfis, Como chegar ao quarto, Ocasiões), os nomes dos quartos por andar com link para o Universo, chamada final. JSON-LD: HotelRoom (Suite nas suítes), Product com Offer (PreOrder, sem preço), BreadcrumbList.
+4. Variações de movimento do mestre (decisão 32): Acessível sem movimento e com foco maior; Família com Terraço com parallax de 6%; Terraço Aberto com deriva de luz; Terraço Fechado com segunda foto em fade pela rolagem; Presidencial com nome gigante em fade de 1,2 s, pilha de cenas com sticky e durações no teto.
+5. Botões Reservar com `reservar_click` e o código da categoria; "Hospedagem corporativa" e "Falar com o hotel" levam a `/contato`.
+6. Fase `pre`: hub e categorias com `noindex` e fora do sitemap (Parte 3.5); fase `full`: no sitemap e no menu.
+7. 28 explorações no Higgsfield (`seedream_v4_5`, 4:3, 1 crédito): hero provisório e faixa de detalhes por categoria; folhas de contato em `docs/higgsfield/etapa-2/`.
+8. Scripts de QA com rotas e pasta por etapa; `build:media -- --grupo=`.
+
+### Pendente ou aguardando decisão
+
+| Item | Depende de | Onde |
+|---|---|---|
+| Escolher a variação final de cada categoria (hoje a primeira de cada folha de contato é o hero) | Responsável | `docs/higgsfield/etapa-2/`, `lib/acomodacoes.ts` (ordem da `galeria`) |
+| Validar as tags de perfil por categoria | Cliente | decisão 26 |
+| Metragem, camas, amenidades, largura de porta, banco de banho, serviços exclusivos da Presidencial | Cliente | campos ⟨pendentes⟩ nos YAML, ocultos em produção |
+| Horários e políticas das regras da casa (validar com o Adriano) | Cliente | nota da 5.3 |
+| Hipótese UH 403 = Apartamento Luxo Jacaré-Açu | Cliente | nota da 5.8 |
+| A rede da variação 4 do Terraço pode ser lida como amenidade; confirmar se existe | Cliente | `registro-higgsfield.md`, item 15 |
+| URL do motor de reservas | Cliente e agência | `NEXT_PUBLIC_RESERVAS_URL` |
+| Fotos reais das categorias após a inauguração (substituem a faixa de detalhes) | Cliente | `media-src/manifest.json` |
+| Páginas ligadas (`/universo/...`, `/contato`, `/reservas`) | Etapas 3 a 5 | Links sem prefetch até lá |

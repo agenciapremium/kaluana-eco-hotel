@@ -1,6 +1,6 @@
 /**
- * Lighthouse na Home (mobile por padrão). Grava JSON e HTML em docs/lighthouse/etapa-1/.
- * Uso: npm run lighthouse -- --phase=pre --url=http://localhost:3000 [--preset=desktop]
+ * Lighthouse em uma rota (mobile por padrão). Grava JSON e HTML em docs/lighthouse/<etapa>/.
+ * Uso: npm run lighthouse -- --phase=pre --url=http://localhost:3000 [--path=/acomodacoes] [--preset=desktop] [--out=docs/lighthouse/etapa-2]
  */
 import { execFileSync } from "node:child_process";
 import { mkdirSync, readFileSync } from "node:fs";
@@ -11,12 +11,14 @@ const arg = (k: string, d: string) =>
 const phase = arg("phase", "pre");
 const url = arg("url", "http://localhost:3000");
 const preset = arg("preset", "mobile");
-const outDir = resolve(process.cwd(), "docs/lighthouse/etapa-1");
+const path = arg("path", "/");
+const name = path === "/" ? "home" : path.replace(/^\/|\/$/g, "").replace(/\//g, "-");
+const outDir = resolve(process.cwd(), arg("out", "docs/lighthouse/etapa-1"));
 mkdirSync(outDir, { recursive: true });
-const base = resolve(outDir, `home-${phase}-${preset}`);
+const base = resolve(outDir, `${name}-${phase}-${preset}`);
 
 const args = [
-  url,
+  `${url}${path}`,
   "--output=json",
   "--output=html",
   `--output-path=${base}`,
@@ -37,4 +39,4 @@ const linha = Object.entries(report.categories)
   .join(" ");
 const lcp = report.audits["largest-contentful-paint"]?.displayValue ?? "";
 const cls = report.audits["cumulative-layout-shift"]?.displayValue ?? "";
-process.stdout.write(`lighthouse ${phase} ${preset}: ${linha} (LCP ${lcp}, CLS ${cls})\n`);
+process.stdout.write(`lighthouse ${name} ${phase} ${preset}: ${linha} (LCP ${lcp}, CLS ${cls})\n`);

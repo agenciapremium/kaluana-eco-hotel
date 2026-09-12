@@ -6,7 +6,8 @@
  *   content/media.json com dimensões e caminhos, consumido por lib/media.ts
  *
  * Precisa de ffmpeg no PATH e da pasta ../DOCS. Roda localmente; as saídas são versionadas,
- * porque a Vercel não tem ffmpeg nem DOCS. Use: npm run build:media [-- --only=imagens|video|abertura]
+ * porque a Vercel não tem ffmpeg nem DOCS.
+ * Use: npm run build:media [-- --only=imagens|video|abertura|marca] [--grupo=<grupo de imagens>]
  */
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
@@ -57,6 +58,8 @@ const manifest = JSON.parse(
   readFileSync(resolve(root, "media-src/manifest.json"), "utf8"),
 ) as Manifest;
 const only = process.argv.find((a) => a.startsWith("--only="))?.slice(7);
+/** Processa só um grupo de imagens (ex.: --grupo=acomodacoes), para não refazer tudo a cada etapa. */
+const grupo = process.argv.find((a) => a.startsWith("--grupo="))?.slice(8);
 const mediaJsonPath = resolve(root, "content/media.json");
 const media: MediaJson = existsSync(mediaJsonPath)
   ? (JSON.parse(readFileSync(mediaJsonPath, "utf8")) as MediaJson)
@@ -141,6 +144,7 @@ function kb(file: string) {
 
 async function buildImages() {
   for (const img of manifest.imagens) {
+    if (grupo && img.grupo !== grupo) continue;
     const input = srcPath(img.src);
     const outDir = resolve(root, "public/media", img.grupo);
     mkdirSync(outDir, { recursive: true });
