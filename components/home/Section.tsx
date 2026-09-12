@@ -10,7 +10,7 @@ type Props = {
   children?: ReactNode;
   className?: string;
   align?: "left" | "center";
-  tone?: "bege" | "branco" | "cafe";
+  tone?: "bege" | "branco" | "cafe" | "preto";
 };
 
 /** Seção padrão da Home: kicker, título em display e conteúdo, tudo entrando por interseção. */
@@ -25,7 +25,14 @@ export function Section({
   tone = "bege",
 }: Props) {
   const Heading = as;
-  const toneClass = tone === "cafe" ? "bg-cafe text-bege" : tone === "branco" ? "bg-branco" : "";
+  const toneClass =
+    tone === "cafe"
+      ? "bg-cafe text-bege"
+      : tone === "preto"
+        ? "bg-preto text-bege"
+        : tone === "branco"
+          ? "bg-branco"
+          : "";
   return (
     <section id={id} className={["section-y", toneClass, className].filter(Boolean).join(" ")}>
       <div className={["container-site", align === "center" ? "text-center" : ""].join(" ")}>

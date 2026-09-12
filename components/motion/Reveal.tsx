@@ -1,7 +1,14 @@
 "use client";
 
-import { useInView } from "motion/react";
-import { useRef, type CSSProperties, type ElementType, type ReactNode } from "react";
+import { inView } from "motion";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type ElementType,
+  type ReactNode,
+} from "react";
 import { motion as motionTokens } from "@/lib/tokens";
 
 export type RevealVariant = "up" | "fade" | "mask" | "draw";
@@ -19,8 +26,9 @@ type Props = {
 };
 
 /**
- * Entrada por interseção, uma vez só. O componente só marca data-inview;
- * a animação está em app/globals.css e depende de html.js.
+ * Entrada por interseção, uma vez só, com o `inView` do motion (a API leve, sem o runtime
+ * React da biblioteca). O componente só marca data-inview; a animação está em
+ * app/globals.css e depende de html.js.
  */
 export function Reveal({
   as,
@@ -33,14 +41,27 @@ export function Reveal({
   children,
 }: Props) {
   const ref = useRef<HTMLElement>(null);
-  const inView = useInView(ref, { once: true, amount: amount ?? motionTokens.inViewAmount });
+  const [seen, setSeen] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const stop = inView(
+      el,
+      () => {
+        setSeen(true);
+        stop();
+      },
+      { amount: amount ?? motionTokens.inViewAmount },
+    );
+    return stop;
+  }, [amount]);
   const Tag = (as ?? "div") as ElementType;
   return (
     <Tag
       ref={ref}
       id={id}
       data-reveal={variant}
-      data-inview={inView ? "true" : undefined}
+      data-inview={seen ? "true" : undefined}
       className={className}
       style={{ ...style, "--reveal-delay": `${delay}ms` } as CSSProperties}
     >

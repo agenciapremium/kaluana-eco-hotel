@@ -9,11 +9,12 @@ Regras aplicadas em todos os prompts: sem pessoas identificáveis (sem rostos), 
 | Data | Saldo antes | Gasto | Saldo depois |
 |---|---|---|---|
 | 12/09/2026 | 8.815,6 | 24 | 8.791,6 |
+| 12/09/2026 | 8.791,6 | 18 | 8.773,6 |
 
 ## Etapa 1: detalhes da Home
 
 **Preflight:** 12/09/2026, `seedream_v4_5`, 4:3, basic, `get_cost: true` → 1 crédito por imagem.
-**Leva:** 24 gerações em duas remessas (`generate_image_batch`), 8 assuntos × 3 variações, 1 crédito cada, `use_unlim: false`. Total: 24 créditos.
+**Leva:** 24 gerações em duas remessas (`generate_image_batch`), 8 assuntos × 3 variações, 1 crédito cada, `use_unlim: false`. Total: 24 créditos. Total da etapa com a segunda leva abaixo: 42 créditos.
 
 Status: **selecionada** (na Home, aguardando aprovação do responsável), **alternativa** (explorada, disponível na galeria), **descartada** (motivo indicado).
 
@@ -45,6 +46,34 @@ Status: **selecionada** (na Home, aguardando aprovação do responsável), **alt
 | 23 | Mãos na obra | seedream_v4_5, 4:3, basic | Mãos com punhado de terra vermelha, folhas de palmeira ao fundo | 1 | 8505c0ef-3015-4f22-b239-112894fcfa79 | `media-src/higgsfield/maos-na-obra.jpg` | selecionada |
 
 Prompts completos (em inglês, como enviados) estão no histórico da conta por job. Estilo comum a todos: "photorealistic, natural daylight, warm earthy palette with olive green accents, muted matte tones, no faces, no text, no logos".
+
+## Etapa 1, segunda leva: atmosferas para as cenas em tela cheia
+
+Motivo: a nova direção visual (cenas em tela cheia, ver `decisoes.md`, item 21) pede fotos de fundo. A licença das fotos do inventário não está confirmada (Parte 8.3, item 24), então os fundos da Home são atmosferas geradas, sem espécie identificável (regra 6) e sem ambiente do hotel (regra 7). As fotos do inventário aparecem só como cards emoldurados, menores, nos painéis de andar.
+
+**Preflight:** 12/09/2026, `seedream_v4_5`, 16:9, basic, `get_cost: true` → 1 crédito por imagem.
+**Leva:** 18 gerações em duas remessas, 6 assuntos × 3 variações, 1 crédito cada, `use_unlim: false`. Total: 18 créditos. Saídas em 2560 x 1440.
+
+| # | Assunto | Prompt (resumo) | Job | Arquivo | Status |
+|---|---|---|---|---|---|
+| 24 | Rio ao amanhecer | Rio amazônico calmo ao amanhecer, névoa baixa, margens em silhueta, luz quente | 89bca03d-aa21-4bc8-8537-84a9e2a00ccf | `media-src/higgsfield/rio-amanhecer.jpg` | selecionada (hero) |
+| 25 | Rio ao amanhecer | Rio largo visto do barranco na hora dourada, bancos de areia, palmeiras | dc9c98a8-274d-472d-b653-65693bbd14eb | galeria | alternativa: muito cartão-postal |
+| 26 | Rio ao amanhecer | Curva de rio dentro da mata, água parada, névoa fina, luz difusa | d1479865-fb85-438b-9fa5-bdfcb34da6a2 | `media-src/higgsfield/rio-mata.jpg` | selecionada (painel dos rios) |
+| 27 | Água corrente | Água escura de rio correndo sobre pedras lisas | df13e08e-0391-4db2-abfc-baaff79b103d | galeria | alternativa |
+| 28 | Água corrente | Raios de luz em água escura, partículas, raízes submersas | e397b1cb-e65c-4aeb-8f1f-b67571db79dc | `media-src/higgsfield/agua-corrente.jpg` | selecionada (painel dos peixes) |
+| 29 | Água corrente | Superfície do rio ao entardecer com ondas concêntricas | 0cc88316-56d1-4dcd-83a6-5bc5bcde1a64 | galeria | alternativa |
+| 30 | Copa da mata | Copa vista de baixo, troncos convergindo, luz entre as folhas | 59757619-beab-4b03-8982-9d1edfed0c32 | `media-src/higgsfield/copa-mata.jpg` | selecionada (painel das árvores) |
+| 31 | Copa da mata | Sub-bosque com tronco de sapopemas, samambaias e névoa | fc47fd12-6e6e-49a5-8f1d-c4bf9d242c97 | galeria | alternativa |
+| 32 | Copa da mata | Copa vista de cima ao amanhecer, névoa entre as árvores | 4ef3a799-68e9-491c-8567-618d0ad58a17 | galeria | alternativa |
+| 33 | Céu de entardecer | Céu de entardecer sobre a linha escura da mata, sem aves | 34d0622c-7de0-493d-8b10-e966ca30276e | `media-src/higgsfield/ceu-entardecer.jpg` | selecionada (painel das aves) |
+| 34 | Céu de entardecer | Névoa sobre a borda da mata com uma árvore emergente | 07ead826-2a1c-4ded-963e-544e0aebf6fd | galeria | descartada: a árvore é um pinheiro |
+| 35 | Céu de entardecer | Fim de tarde com sol difuso atrás das nuvens, palmeiras em silhueta | c71cda83-0373-460c-a28e-c44ff3702d61 | galeria | alternativa |
+| 36 | Névoa na mata | Chuva na mata escura, folhas molhadas em primeiro plano | 3f87fd84-a18e-4cba-858c-e8dabf6297fb | galeria | alternativa |
+| 37 | Névoa na mata | Névoa entre troncos escuros, brilho quente baixo no horizonte | fa20ad66-8c5e-4370-af99-74a0ea7b9d1f | `media-src/higgsfield/nevoa-mata.jpg` | selecionada (cena O nome) |
+| 38 | Névoa na mata | Folha grande molhada em close, fundo escuro | 6144b6d2-c5b5-4bfb-b039-86fbe64d69e2 | galeria | descartada: costela-de-adão, espécie ornamental |
+| 39 | Estrada de terra | Estrada de terra vermelha reta entre a mata, sombras longas | 3fef485d-34a4-47fc-aece-d6940302e7e1 | `media-src/higgsfield/estrada-terra.jpg` | selecionada (Ji-Paraná e Empresas) |
+| 40 | Estrada de terra | Estrada de laterita curvando sobre morro com pastagem | 63797e4f-8052-4ec4-9b93-3c1667376ddc | galeria | descartada: coníferas no alto do morro |
+| 41 | Estrada de terra | Estrada de terra após chuva, poças refletindo o céu | 8c422ae2-161f-474d-9ed7-98f514e0a5be | galeria | alternativa |
 
 ## Não gerado nesta etapa
 

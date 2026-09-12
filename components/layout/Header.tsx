@@ -15,6 +15,7 @@ import { mainNav, phase, reservasUrl, site } from "@/lib/site";
  */
 export function Header() {
   const [hidden, setHidden] = useState(false);
+  const [solid, setSolid] = useState(false);
   const [open, setOpen] = useState(false);
   const menuId = useId();
   const firstLink = useRef<HTMLAnchorElement>(null);
@@ -27,12 +28,14 @@ export function Header() {
       ticking = true;
       window.requestAnimationFrame(() => {
         const y = window.scrollY;
+        setSolid(y > 40);
         if (y > 120 && y > last + 4) setHidden(true);
         else if (y < last - 4 || y <= 120) setHidden(false);
         last = y;
         ticking = false;
       });
     };
+    onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
@@ -57,6 +60,7 @@ export function Header() {
     <header
       className="site-header"
       data-hidden={hidden && !open ? "true" : undefined}
+      data-solid={solid ? "true" : undefined}
       data-open={open ? "true" : undefined}
     >
       <div className="container-site flex items-center justify-between gap-6 py-4 lg:py-5">

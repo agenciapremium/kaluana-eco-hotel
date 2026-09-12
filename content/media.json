@@ -175,6 +175,111 @@
       ],
       "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAwAA4BaJZgCdACZ7WudAAD+73nTt7DNfgi/RpubVxNkZYdBNxG+4j0+TDrdijbkwZqltudEdbdyRVZ+Z43ZP7XFcxjUeDOK1RqV0E0cpa1/kAA=",
       "original": "maos-na-obra.jpg"
+    },
+    "atmosfera/rio-amanhecer": {
+      "grupo": "atmosfera",
+      "slug": "rio-amanhecer",
+      "alt": "Rio amazônico ao amanhecer, com névoa baixa sobre a água e mata escura nas margens",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJQBdgB0+Du9GSQAA/uo5G9lkvtAhVnnb+rfQzZlZaaD8Ix+RN8uupKRArjP/0SKArkSk/aRfpwh+7+RMrw1TXAA=",
+      "original": "rio-amanhecer.jpg"
+    },
+    "atmosfera/rio-mata": {
+      "grupo": "atmosfera",
+      "slug": "rio-mata",
+      "alt": "Curva de rio dentro da mata, água parada refletindo as árvores, névoa fina",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAkAA4BaJZQC7AEVYS0JE+WgAP70sNJamUU8248nqs/8swvIU8XaSutbh0BbWDW3rFXc0dAAAA==",
+      "original": "rio-mata.jpg"
+    },
+    "atmosfera/agua-corrente": {
+      "grupo": "atmosfera",
+      "slug": "agua-corrente",
+      "alt": "Raios de luz entrando em água escura de rio, partículas e raízes ao fundo",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAkAA4BaJbACdADHUl3NAIAA/vaTigQ7xlwIUekI5PAW2VOOfphBW75sM06xSJMGS78KI8lsk/nraXsCn4bF9hcfkAAA",
+      "original": "agua-corrente.jpg"
+    },
+    "atmosfera/copa-mata": {
+      "grupo": "atmosfera",
+      "slug": "copa-mata",
+      "alt": "Copa da mata vista de baixo, troncos altos convergindo e luz entre as folhas",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkAA4BaJQBdgBMuqLgAAP70nf26rEZEaGrYgHq7vjBopObQ2OpModbQxE37S4kh0TwlAKkk4ce0zAA=",
+      "original": "copa-mata.jpg"
+    },
+    "atmosfera/ceu-entardecer": {
+      "grupo": "atmosfera",
+      "slug": "ceu-entardecer",
+      "alt": "Céu de entardecer sobre a linha escura da mata, do ocre ao azul-cinza",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAgCdASoQAAkAA4BaJYwCdH8AGBTTUiAAAP7a0PNJxZx5rkDB2+sQ8d6ovD/IWI5lM8+AAAA=",
+      "original": "ceu-entardecer.jpg"
+    },
+    "atmosfera/nevoa-mata": {
+      "grupo": "atmosfera",
+      "slug": "nevoa-mata",
+      "alt": "Névoa entre troncos escuros na mata, com um brilho quente baixo no horizonte",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQAAkAA4BaJZQAAu0d219dnAD+95duyibbCkdrFrqc0vSIRF0VIT2lmAA=",
+      "original": "nevoa-mata.jpg"
+    },
+    "atmosfera/estrada-terra": {
+      "grupo": "atmosfera",
+      "slug": "estrada-terra",
+      "alt": "Estrada de terra vermelha reta entre a mata, luz de fim de tarde",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAkAA4BaJZgCdAED/ymWGX+gAP71ztTrKcXtBIClXmfXZDGCvKq9swAWIf0N05U66QpqE9PLDUAA",
+      "original": "estrada-terra.jpg"
     }
   },
   "videos": {
