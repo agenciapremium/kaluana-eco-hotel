@@ -617,7 +617,7 @@ html[data-hero-page="1"]
 main {
   padding-top: var(--header-h);
 }
-main:has(> .scene-hero:first-child) {
+main:has(.scene-hero) {
   padding-top: 0;
 }
 
