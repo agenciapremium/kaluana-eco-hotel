@@ -43,6 +43,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     { url: `${siteUrl}/ji-parana`, lastModified: agora, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/historias`, lastModified: agora, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${siteUrl}/reservas`, lastModified: agora, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${siteUrl}/contato`, lastModified: agora, changeFrequency: "monthly", priority: 0.8 },
+    {
+      url: `${siteUrl}/perguntas-frequentes`,
+      lastModified: agora,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${siteUrl}/trabalhe-conosco`,
+      lastModified: agora,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
+      url: `${siteUrl}/politica-de-privacidade`,
+      lastModified: agora,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${siteUrl}/termos-de-uso`,
+      lastModified: agora,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
     ...posts.map((p) => ({
       url: `${siteUrl}/historias/${p.slug}`,
       lastModified: new Date(`${p.atualizado ?? p.data}T12:00:00Z`),

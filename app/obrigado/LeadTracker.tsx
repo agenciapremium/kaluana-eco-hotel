@@ -24,6 +24,13 @@ export function LeadTracker() {
       track("lead_evento", { origem: "eventos" });
       return;
     }
+    // Contato, pré-reserva e currículo entram como lead da pré-inauguração, com a origem
+    // no parâmetro, para o GA4 separar por formulário.
+    if (perfil === "contato" || perfil === "pre-reserva" || perfil === "curriculo") {
+      track("lead_pre_inauguracao", { perfil });
+      if (perfil === "pre-reserva") track("reservar_click", { origem: "pre_reserva" });
+      return;
+    }
     track("lead_pre_inauguracao", { perfil });
     if (perfil === "empresa") track("lead_corporativo", { origem: "pre_inauguracao" });
   }, [perfil]);

@@ -455,3 +455,88 @@ export function blogPostingSchema(opts: {
     isPartOf: { "@id": `${siteUrl}/historias#blog` },
   };
 }
+
+/* ------------------------------------------------------------------
+   Etapa 5: conversão, contato, legais e a página de respostas.
+   ------------------------------------------------------------------ */
+
+export function webPageSchema(opts: {
+  url: string;
+  nome: string;
+  descricao: string;
+  tipo?: "WebPage" | "ContactPage";
+}): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": opts.tipo ?? "WebPage",
+    "@id": `${siteUrl}${opts.url}#pagina`,
+    name: opts.nome,
+    description: limpo(opts.descricao),
+    url: `${siteUrl}${opts.url}`,
+    inLanguage: "pt-BR",
+    isPartOf: { "@id": `${siteUrl}/#website` },
+    about: { "@id": `${siteUrl}/#hotel` },
+  };
+}
+
+/**
+ * Hotel da página de Reservas (5.23). O `potentialAction` de reserva só entra quando existir
+ * motor de verdade: apontar ReserveAction para a própria página de pré-reserva seria
+ * declarar uma capacidade que o site ainda não tem.
+ */
+export function hotelReservaSchema(opts: { descricao: string; motorUrl: string | null }): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "@id": `${siteUrl}/#hotel`,
+    name: site.name,
+    description: limpo(opts.descricao),
+    url: siteUrl,
+    address: postalAddress(),
+    openingDate: site.openingDate,
+    ...(site.phone ? { telephone: site.phone } : {}),
+    ...(opts.motorUrl
+      ? {
+          potentialAction: {
+            "@type": "ReserveAction",
+            target: {
+              "@type": "EntryPoint",
+              urlTemplate: opts.motorUrl,
+              actionPlatform: [
+                "http://schema.org/DesktopWebPlatform",
+                "http://schema.org/MobileWebPlatform",
+              ],
+            },
+            result: { "@type": "LodgingReservation", name: "Reserva no Kaluanã Eco Hotel" },
+          },
+        }
+      : {}),
+  };
+}
+
+/**
+ * Hotel da página de Contato (5.24), com o NAP completo. Telefone, geo, CEP e ficha do
+ * Google entram quando o cliente fornecer: a Parte 4.4 exige que o site espelhe a ficha, e
+ * declarar dado errado é pior do que não declarar.
+ */
+export function hotelContatoSchema(opts: { descricao: string }): JsonLd {
+  const sameAs = Object.values(site.social).filter(Boolean);
+  return {
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "@id": `${siteUrl}/#hotel`,
+    name: site.name,
+    alternateName: site.shortName,
+    description: limpo(opts.descricao),
+    url: siteUrl,
+    logo: `${siteUrl}/media/marca/logo-vertical.png`,
+    address: postalAddress(),
+    openingDate: site.openingDate,
+    ...(site.phone ? { telephone: site.phone } : {}),
+    ...(site.email ? { email: site.email } : {}),
+    ...(site.geo ? { geo: { "@type": "GeoCoordinates", ...site.geo } } : {}),
+    ...(site.social.googleMaps ? { hasMap: site.social.googleMaps } : {}),
+    ...(sameAs.length ? { sameAs } : {}),
+    parentOrganization: { "@id": `${siteUrl}/#organization` },
+  };
+}
