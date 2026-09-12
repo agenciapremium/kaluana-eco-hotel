@@ -1,10 +1,11 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useRef } from "react";
 import { enviarMensagem, type EstadoFormulario } from "@/app/actions/contato";
 import { Arrow } from "@/components/ui/Arrow";
 import { CampoErro } from "./CampoErro";
 import { Honeypot } from "./Honeypot";
+import { useFocoNoErro } from "./useFocoNoErro";
 
 const assuntos = [
   { value: "reserva", label: "Reserva" },
@@ -17,10 +18,13 @@ const assuntos = [
 /** Formulário de mensagem do Contato (5.24). Funciona sem JavaScript. */
 export function FormularioContato() {
   const [estado, action, enviando] = useActionState<EstadoFormulario, FormData>(enviarMensagem, {});
+  const form = useRef<HTMLFormElement>(null);
+  useFocoNoErro(estado, form);
   const erro = (campo: string) => estado?.campos?.[campo];
+  const descrito = (campo: string) => (erro(campo) ? `ct-${campo}-erro` : undefined);
 
   return (
-    <form action={action} className="form-site">
+    <form ref={form} action={action} className="form-site">
       <Honeypot id="ct" />
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="field-group">
@@ -33,8 +37,9 @@ export function FormularioContato() {
             required
             autoComplete="name"
             aria-invalid={Boolean(erro("nome"))}
+            aria-describedby={descrito("nome")}
           />
-          <CampoErro mensagem={erro("nome")} />
+          <CampoErro id="ct-nome-erro" mensagem={erro("nome")} />
         </div>
         <div className="field-group">
           <label htmlFor="ct-email">E-mail</label>
@@ -46,8 +51,9 @@ export function FormularioContato() {
             required
             autoComplete="email"
             aria-invalid={Boolean(erro("email"))}
+            aria-describedby={descrito("email")}
           />
-          <CampoErro mensagem={erro("email")} />
+          <CampoErro id="ct-email-erro" mensagem={erro("email")} />
         </div>
         <div className="field-group">
           <label htmlFor="ct-telefone">Telefone</label>
@@ -59,19 +65,28 @@ export function FormularioContato() {
             required
             autoComplete="tel"
             aria-invalid={Boolean(erro("telefone"))}
+            aria-describedby={descrito("telefone")}
           />
-          <CampoErro mensagem={erro("telefone")} />
+          <CampoErro id="ct-telefone-erro" mensagem={erro("telefone")} />
         </div>
         <div className="field-group">
           <label htmlFor="ct-assunto">Assunto</label>
-          <select id="ct-assunto" name="assunto" className="field" required defaultValue="reserva">
+          <select
+            id="ct-assunto"
+            name="assunto"
+            className="field"
+            required
+            defaultValue="reserva"
+            aria-invalid={Boolean(erro("assunto"))}
+            aria-describedby={descrito("assunto")}
+          >
             {assuntos.map((a) => (
               <option key={a.value} value={a.value}>
                 {a.label}
               </option>
             ))}
           </select>
-          <CampoErro mensagem={erro("assunto")} />
+          <CampoErro id="ct-assunto-erro" mensagem={erro("assunto")} />
         </div>
       </div>
       <div className="field-group mt-4">
@@ -83,11 +98,12 @@ export function FormularioContato() {
           rows={5}
           required
           aria-invalid={Boolean(erro("mensagem"))}
+          aria-describedby={descrito("mensagem")}
         />
-        <CampoErro mensagem={erro("mensagem")} />
+        <CampoErro id="ct-mensagem-erro" mensagem={erro("mensagem")} />
       </div>
       {estado?.erro ? (
-        <p className="field-error mt-4" role="alert">
+        <p className="field-error mt-4" role="alert" tabIndex={-1} data-erro-geral>
           {estado.erro}
         </p>
       ) : null}
@@ -95,6 +111,7 @@ export function FormularioContato() {
         {enviando ? "Enviando" : "Enviar mensagem"}
         <Arrow />
       </button>
+      {/* TODO(copy): "Seus dados ficam com o hotel." não consta no documento mestre. */}
       <p className="mt-3 text-sm">Seus dados ficam com o hotel.</p>
     </form>
   );

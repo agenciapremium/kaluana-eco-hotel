@@ -1,14 +1,19 @@
 "use server";
 
 import { redirect } from "next/navigation";
-import { headers } from "next/headers";
-import { Resend } from "resend";
 import { z } from "zod";
+import {
+  criarLimitador,
+  enviarEmail,
+  errosPorCampo,
+  ipDaRequisicao,
+  registrarFalha,
+} from "@/lib/formularios";
 
 /**
- * Pedido de proposta de evento (5.19). Mesma proteção do formulário de leads da etapa 1:
- * validação com Zod, honeypot e limite por IP, sem CAPTCHA visível. O evento de conversão
- * lead_evento dispara na página de obrigado.
+ * Pedido de proposta de evento (5.19). Mesma proteção dos demais formulários: validação com
+ * Zod, honeypot e limite por IP, sem CAPTCHA visível. O evento de conversão lead_evento
+ * dispara na página de obrigado.
  */
 const EventoSchema = z.object({
   nome: z.string().trim().min(2, "Escreva seu nome.").max(120),
@@ -25,64 +30,45 @@ const EventoSchema = z.object({
 
 export type EstadoEvento = { erro?: string; campos?: Record<string, string> };
 
-/** Limite por IP guardado em memória da instância, como em app/actions/lead.ts. */
-const janelaMs = 10 * 60 * 1000;
-const limite = 5;
-const acessos = new Map<string, number[]>();
-
-function passouDoLimite(ip: string) {
-  const agora = Date.now();
-  const anteriores = (acessos.get(ip) ?? []).filter((t) => agora - t < janelaMs);
-  anteriores.push(agora);
-  acessos.set(ip, anteriores);
-  return anteriores.length > limite;
-}
+const passouDoLimite = criarLimitador();
 
 export async function enviarPedidoDeEvento(
   _estado: EstadoEvento,
   form: FormData,
 ): Promise<EstadoEvento> {
-  if (String(form.get("website") ?? "")) return {};
-
-  const h = await headers();
-  const ip = (h.get("x-forwarded-for") ?? "desconhecido").split(",")[0].trim();
-  if (passouDoLimite(ip)) {
-    return { erro: "Muitos envios seguidos. Tente de novo em alguns minutos." };
-  }
+  // Honeypot preenchido: robô. Finge sucesso e não envia nada.
+  if (String(form.get("website") ?? "")) redirect("/obrigado?perfil=evento");
 
   const dados = EventoSchema.safeParse(Object.fromEntries(form));
   if (!dados.success) {
-    const campos: Record<string, string> = {};
-    for (const issue of dados.error.issues) {
-      const campo = String(issue.path[0] ?? "");
-      if (campo && !campos[campo]) campos[campo] = issue.message;
-    }
-    return { erro: "Confira os campos destacados.", campos };
+    return { erro: "Confira os campos destacados.", campos: errosPorCampo(dados.error.issues) };
+  }
+
+  if (passouDoLimite(await ipDaRequisicao())) {
+    return { erro: "Muitos envios seguidos. Tente de novo em alguns minutos." };
   }
 
   const d = dados.data;
-  const chave = process.env.RESEND_API_KEY;
-  const para = process.env.LEAD_TO_EMAIL;
-  if (chave && para) {
-    const resend = new Resend(chave);
-    const linhas = [
-      `Nome: ${d.nome}`,
-      d.empresa ? `Empresa: ${d.empresa}` : null,
-      `E-mail: ${d.email}`,
-      `Telefone: ${d.telefone}`,
-      `Tipo de evento: ${d.tipo}`,
-      d.data ? `Data pretendida: ${d.data}` : null,
-      d.pessoas ? `Pessoas: ${d.pessoas}` : null,
-      `Hospedagem: ${d.hospedagem === "sim" ? "sim" : "não"}`,
-      `Alimentação: ${d.alimentacao === "sim" ? "sim" : "não"}`,
-      d.mensagem ? `Mensagem: ${d.mensagem}` : null,
-    ].filter(Boolean);
-    await resend.emails.send({
-      from: process.env.LEAD_FROM_EMAIL ?? "site@kaluanaecohotel.com.br",
-      to: para,
-      subject: `Proposta de evento: ${d.tipo}`,
-      text: linhas.join("\n"),
+  try {
+    await enviarEmail({
+      assunto: `Proposta de evento: ${d.tipo}, ${d.nome}`,
+      responderPara: d.email,
+      linhas: [
+        `Nome: ${d.nome}`,
+        d.empresa ? `Empresa: ${d.empresa}` : null,
+        `E-mail: ${d.email}`,
+        `Telefone: ${d.telefone}`,
+        `Tipo de evento: ${d.tipo}`,
+        d.data ? `Data pretendida: ${d.data}` : null,
+        d.pessoas ? `Pessoas: ${d.pessoas}` : null,
+        `Hospedagem: ${d.hospedagem === "sim" ? "sim" : "não"}`,
+        `Alimentação: ${d.alimentacao === "sim" ? "sim" : "não"}`,
+        d.mensagem ? `Mensagem: ${d.mensagem}` : null,
+      ],
     });
+  } catch (e) {
+    registrarFalha("evento", e);
+    return { erro: "Não conseguimos enviar agora. Tente de novo em instantes." };
   }
 
   redirect("/obrigado?perfil=evento");
