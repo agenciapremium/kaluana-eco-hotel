@@ -1,0 +1,52 @@
+# TODO(copy): post escrito a partir de fatos já presentes no documento mestre
+# (seção 5.20 e a página do Rio Machado, Parte 6.2). A revisar, inclusive a data.
+slug: o-rio-que-da-nome-a-cidade
+titulo: O rio que dá nome à cidade
+resumo: >-
+  Ji-Paraná, em tupi, quer dizer rio do machado. O Machado corta a cidade em dois e dá nome
+  a ela e a um dos quartos do hotel.
+categoria: ji-parana
+data: "2026-08-12"
+capa: universo/rios-rio-machado
+keywords:
+  - rio machado
+  - ji-paraná rondônia
+  - por que ji-paraná se chama assim
+abertura: >-
+  Ji-Paraná, em tupi, quer dizer rio do machado. O Machado divide a cidade em dois distritos,
+  nasce e termina dentro de Rondônia e deu o nome ao município em 1977.
+corpo:
+  - tipo: paragrafo
+    texto: >-
+      O Machado nasce em Pimenta Bueno, do encontro de dois rios que descem da Chapada dos
+      Parecis. Corre para o norte, passa por Cacoal, chega a Ji-Paraná e deságua no Madeira,
+      em Calama, distrito de Porto Velho.
+  - tipo: subtitulo
+    texto: A cidade nasceu do rio
+  - tipo: paragrafo
+    texto: >-
+      O povoado começou numa estação telegráfica da Comissão Rondon, no ponto em que o rio
+      Urupá encontra o Machado. A vila cresceu, chamou-se Vila de Rondônia e virou município
+      com o nome do rio.
+  - tipo: paragrafo
+    texto: >-
+      Hoje a ponte sobre o Machado é a costura de Ji-Paraná. É por ela que a cidade
+      atravessa de um distrito para o outro todos os dias.
+  - tipo: subtitulo
+    texto: Na seca, o rio vira praia
+  - tipo: paragrafo
+    texto: >-
+      Entre maio e setembro o rio baixa e expõe praias de areia em Ji-Paraná e em Cacoal.
+      Elas entram no calendário de lazer das duas cidades.
+  - tipo: lista
+    itens:
+      - É o maior rio que nasce e termina dentro de Rondônia.
+      - Tambaqui, pintado, tucunaré e piau vivem nele.
+      - Os pescadores da região conhecem os poços pelo nome.
+a_seguir: >-
+  A história completa do rio está na página do Universo Kaluanã, e o guia de Ji-Paraná
+  explica como chegar à cidade.
+links:
+  - /universo/rios/rio-machado
+  - /ji-parana
+revisar: true

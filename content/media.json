@@ -2461,6 +2461,156 @@
       ],
       "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAQAgCdASoQAAsAA4BaJZwC7AEfmrCCJkMAAP6sv0kzZHj2JPcsQaQmZp83GPKQ4AA=",
       "original": "jacaré açu 2.jpg"
+    },
+    "restaurante/peixe-na-tigela": {
+      "grupo": "restaurante",
+      "slug": "peixe-na-tigela",
+      "alt": "Peixe grelhado inteiro numa tigela de cerâmica verde, com limão e ervas, sobre mesa de madeira",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoQAAwAA4BaJZACdAYrnlJ8/t+Q0gAAzjlYsA+tjFYvU8Qm7QB3CBY4lw5/gaaKTABO1UsUTxP77L4ArIHLh8XeEtu3p7Wd/sUMkD0W53mVUqlgvUOx+nBPf7GpTwKl5NYAAA==",
+      "original": "restaurante-peixe-na-tigela.jpg"
+    },
+    "restaurante/lasca-de-peixe": {
+      "grupo": "restaurante",
+      "slug": "lasca-de-peixe",
+      "alt": "Garfo levantando uma lasca de peixe grelhado, com vapor, sobre prato escuro",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQAAwAA4BaJagCdAC9ze33qqHAAP7uyzDXejBEdiVIRletmEgCV/eqBccwsAWH9fSuHyVUD1JM3CHWKS0PPOPzrWl0mPUS4gKMDxn7NSGbwi/j+TkEtZ3LM3dmzz0gAAA=",
+      "original": "restaurante-lasca-de-peixe.jpg"
+    },
+    "restaurante/farinha-e-pirao": {
+      "grupo": "restaurante",
+      "slug": "farinha-e-pirao",
+      "alt": "Três tigelas de barro com farinha, pirão e vinagrete, vistas de cima",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwAgCdASoQAAwAA4BaJbACdAYu5mo40UW+mAD+7oxeN2iC27X/3RPjWx4fFEjRdKwp3csUNPLQmxYsXzp5WL7U8h6vBb1LMFUxHb3UEmirZTbdSmh19JvG9kv8KJqwlFU1o73gfwgoAAAA",
+      "original": "restaurante-farinha-e-pirao.jpg"
+    },
+    "restaurante/cafe-da-manha": {
+      "grupo": "restaurante",
+      "slug": "cafe-da-manha",
+      "alt": "Xícara de café e um pedaço de pão de queijo num balcão de madeira ao amanhecer",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAwAA4BaJagCdADdKMBp31BQAAD+6db6Dqn3IRH5scaeocyB19Kv/MdbU6PeZbfsio86Frr4Co+pfgNoVYiUcwW5Zm7jw9DgAA==",
+      "original": "restaurante-cafe-da-manha.jpg"
+    },
+    "restaurante/mesa-ao-meio-dia": {
+      "grupo": "restaurante",
+      "slug": "mesa-ao-meio-dia",
+      "alt": "Canto de mesa posta ao meio-dia, com guardanapo de linho, talheres e copo de água",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwAgCdASoQAAwAA4BaJbACdAYtf2sK6AXf3AD+xuKOs727OfeeK4Ab/Ubqa9vDpFH0OPI7fEOVpfCrWFSayPpx+PsSYzdy52T9ErFG3+06x5bpJi9Yq9EvmBcqL+i/at3YhWQjXZ5bJTGCAAA=",
+      "original": "restaurante-mesa-ao-meio-dia.jpg"
+    },
+    "restaurante/guardanapos-em-fila": {
+      "grupo": "restaurante",
+      "slug": "guardanapos-em-fila",
+      "alt": "Guardanapos de linho verde dobrados em fila numa mesa longa, com jarra de água",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQAgCdASoQAAwAA4BaJbACdAD7Er/5C14AAP5BNjL87irJC/e7YdXkan7AKr2EvDb37R5Vg8b0CN1tNDmC2E4X1xlfq9DI5sr+Jw7mc/hT67HlRugfkb8TMHLPf654aj0l08UT1N1Jlk4AAAA=",
+      "original": "restaurante-guardanapos-em-fila.jpg"
+    },
+    "obra/terra-e-enxada": {
+      "grupo": "obra",
+      "slug": "terra-e-enxada",
+      "alt": "Enxada de cabo de madeira apoiada num monte de terra vermelha",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAwAA4BaJbACdAEG+7UOl9BAAPYsQ5/fRFWbbyqsL9tW/sbnhesPYEONiMgn5NCs77n1dgMNsckX7L/MnBHgvgs3bLOODZGyNCWPNvvlDAAA",
+      "original": "obra-terra-e-enxada.jpg"
+    },
+    "obra/linha-e-estacas": {
+      "grupo": "obra",
+      "slug": "linha-e-estacas",
+      "alt": "Linha de pedreiro esticada entre estacas de madeira sobre terra vermelha, ao fim da tarde",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAwAA4BaJbACdAEem2Gm3zu0+AD+7RrJIk8PC7eMVlarPIbPgpxoESUSlGrnQe4qkELg7WUtWGZQ/4E8p7YqhU9rVjwcP6q0tQE/sYaOffYAAAA=",
+      "original": "obra-linha-e-estacas.jpg"
+    },
+    "obra/perfil-do-solo": {
+      "grupo": "obra",
+      "slug": "perfil-do-solo",
+      "alt": "Camadas de terra vermelha expostas numa vala rasa, com raízes e pedras",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwAA4BaJaACdAEQUBdvFCxOAAD9U87Rj8dRUEPwL0DNz1rYCTHvIC/n7l5Bd8F9PekEvgbyRITsy2PRSWjatAbqK9aKAAA=",
+      "original": "obra-perfil-do-solo.jpg"
+    },
+    "obra/prumo": {
+      "grupo": "obra",
+      "slug": "prumo",
+      "alt": "Prumo pendurado num fio contra o céu claro",
+      "width": 1920,
+      "height": 1440,
+      "widths": [
+        640,
+        1024,
+        1600,
+        1920
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAwAA4BaJaACdAEalko/GXaAAP7c1FFNgWDSa+JSyIUe/PWBvwUQd2Ebu17ruWQ200yQOKHBd5qLu0SZ3cdQGAAAAA==",
+      "original": "obra-prumo.jpg"
     }
   },
   "videos": {

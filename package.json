@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "npm run build:tokens && npm run build:content",
+    "predev": "npm run build:tokens && npm run build:content && npm run build:posts",
     "dev": "next dev",
-    "prebuild": "npm run build:tokens && npm run build:content",
+    "prebuild": "npm run build:tokens && npm run build:content && npm run build:posts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -18,7 +18,8 @@
     "check:copy": "tsx scripts/check-copy.ts",
     "screenshots": "tsx scripts/screenshots.ts",
     "lighthouse": "tsx scripts/lighthouse.ts",
-    "build:cantos": "tsx scripts/build-cantos.ts"
+    "build:cantos": "tsx scripts/build-cantos.ts",
+    "build:posts": "tsx scripts/build-posts.ts"
   },
   "dependencies": {
     "motion": "^13.2.0",

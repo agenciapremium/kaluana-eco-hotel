@@ -1,0 +1,48 @@
+# TODO(copy): post escrito a partir de fatos que já estão no documento mestre
+# (Parte 1.1 e seção 5.2). Nada foi inventado. A revisar pelo responsável da Premium,
+# inclusive a data de publicação.
+slug: por-que-kaluana
+titulo: Por que Kaluanã
+resumo: >-
+  O nome do hotel foi escolhido antes de qualquer desenho. Kaluanã é palavra de origem
+  indígena e quer dizer grande guerreiro.
+categoria: nomes
+data: "2026-07-15"
+capa: detalhes/textura-madeira
+keywords:
+  - significado de kaluanã
+  - kaluanã eco hotel
+  - nome kaluanã
+abertura: >-
+  Kaluanã é uma palavra de origem indígena e significa grande guerreiro. O nome do hotel foi
+  escolhido antes de qualquer desenho, porque diz o que ele quer ser: firme com a terra,
+  firme com a cidade e firme com quem se hospeda.
+corpo:
+  - tipo: paragrafo
+    texto: >-
+      Escolher o nome antes do projeto inverte a ordem de sempre. Em geral o prédio vem
+      primeiro e o nome vem depois, como rótulo. Aqui foi o contrário: o nome veio primeiro
+      e passou a cobrar do projeto aquilo que ele promete.
+  - tipo: subtitulo
+    texto: O que um guerreiro faz
+  - tipo: paragrafo
+    texto: >-
+      Um guerreiro não faz barulho. Faz o que precisa ser feito. É assim que o Kaluanã quer
+      ser lembrado, e é por isso que o site mostra processo em vez de prometer natureza.
+  - tipo: paragrafo
+    texto: >-
+      A mesma ideia aparece nas suítes. As três maiores acomodações do hotel levam o nome
+      dos três grandes predadores da floresta: onça-pintada, jaguatirica e jacaré-açu. São
+      os guardiões da casa.
+  - tipo: subtitulo
+    texto: O til não é enfeite
+  - tipo: paragrafo
+    texto: >-
+      Kaluanã se escreve sempre com til. É a grafia do nome, e é assim que ele aparece na
+      porta, no site e na placa de cada quarto.
+a_seguir: >-
+  As três suítes com nome de guardião estão no Universo Kaluanã, junto com os outros nomes.
+links:
+  - /o-kaluana
+  - /universo/guardioes
+revisar: true

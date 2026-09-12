@@ -1319,6 +1319,86 @@
       "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/jacaré açu 2.jpg",
       "alt": "Jacaré-açu, jacaré na água escura ao entardecer",
       "uso": "Galeria de Jacaré-açu (guardioes)"
+    },
+    {
+      "grupo": "restaurante",
+      "slug": "peixe-na-tigela",
+      "src": "media-src/higgsfield/etapa-4/restaurante-peixe-na-tigela.jpg",
+      "alt": "Peixe grelhado inteiro numa tigela de cerâmica verde, com limão e ervas, sobre mesa de madeira",
+      "uso": "Hero do Restaurante (job índice 0)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "restaurante",
+      "slug": "lasca-de-peixe",
+      "src": "media-src/higgsfield/etapa-4/restaurante-lasca-de-peixe.jpg",
+      "alt": "Garfo levantando uma lasca de peixe grelhado, com vapor, sobre prato escuro",
+      "uso": "Seção Cozinha do Restaurante (job índice 2)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "restaurante",
+      "slug": "farinha-e-pirao",
+      "src": "media-src/higgsfield/etapa-4/restaurante-farinha-e-pirao.jpg",
+      "alt": "Três tigelas de barro com farinha, pirão e vinagrete, vistas de cima",
+      "uso": "Seção Cozinha do Restaurante (job índice 3)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "restaurante",
+      "slug": "cafe-da-manha",
+      "src": "media-src/higgsfield/etapa-4/restaurante-cafe-da-manha.jpg",
+      "alt": "Xícara de café e um pedaço de pão de queijo num balcão de madeira ao amanhecer",
+      "uso": "Horário do café da manhã (job índice 9)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "restaurante",
+      "slug": "mesa-ao-meio-dia",
+      "src": "media-src/higgsfield/etapa-4/restaurante-mesa-ao-meio-dia.jpg",
+      "alt": "Canto de mesa posta ao meio-dia, com guardanapo de linho, talheres e copo de água",
+      "uso": "Horário do almoço (job índice 6)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "restaurante",
+      "slug": "guardanapos-em-fila",
+      "src": "media-src/higgsfield/etapa-4/restaurante-guardanapos-em-fila.jpg",
+      "alt": "Guardanapos de linho verde dobrados em fila numa mesa longa, com jarra de água",
+      "uso": "Seção Para empresas (job índice 8)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "obra",
+      "slug": "terra-e-enxada",
+      "src": "media-src/higgsfield/etapa-4/obra-terra-e-enxada.jpg",
+      "alt": "Enxada de cabo de madeira apoiada num monte de terra vermelha",
+      "uso": "Hero de O Kaluanã (job índice 16)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "obra",
+      "slug": "linha-e-estacas",
+      "src": "media-src/higgsfield/etapa-4/obra-linha-e-estacas.jpg",
+      "alt": "Linha de pedreiro esticada entre estacas de madeira sobre terra vermelha, ao fim da tarde",
+      "uso": "Linha do tempo da obra (job índice 19)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "obra",
+      "slug": "perfil-do-solo",
+      "src": "media-src/higgsfield/etapa-4/obra-perfil-do-solo.jpg",
+      "alt": "Camadas de terra vermelha expostas numa vala rasa, com raízes e pedras",
+      "uso": "Seção O lugar (job índice 17)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
+    },
+    {
+      "grupo": "obra",
+      "slug": "prumo",
+      "src": "media-src/higgsfield/etapa-4/obra-prumo.jpg",
+      "alt": "Prumo pendurado num fio contra o céu claro",
+      "uso": "Seção Quem faz (job índice 18)",
+      "origem": "Higgsfield, seedream_v4_5 (ver docs/registro-higgsfield.md)"
     }
   ],
   "videos": [

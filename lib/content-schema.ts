@@ -135,3 +135,57 @@ export type Pagina = z.infer<typeof PaginaSchema>;
 export type QrEntry = z.infer<typeof QrEntrySchema>;
 export type QrMap = z.infer<typeof QrMapSchema>;
 export type UniversoIndexEntry = z.infer<typeof UniversoIndexEntrySchema>;
+
+/* ------------------------------------------------------------------
+   Histórias (etapa 4). Os posts não vêm de DOCS: são escritos no
+   repositório do site, em posts/*.yaml, e validados aqui.
+   ------------------------------------------------------------------ */
+
+export const categoriasDePost = ["obra", "nomes", "ji-parana", "hotel"] as const;
+export const CategoriaPostSchema = z.enum(categoriasDePost);
+
+/** Bloco do corpo do post. Sem markdown: a estrutura é explícita e validada. */
+export const BlocoPostSchema = z.discriminatedUnion("tipo", [
+  z.object({ tipo: z.literal("paragrafo"), texto: z.string().min(1) }),
+  z.object({ tipo: z.literal("subtitulo"), texto: z.string().min(1) }),
+  z.object({ tipo: z.literal("citacao"), texto: z.string().min(1) }),
+  z.object({ tipo: z.literal("lista"), itens: z.array(z.string().min(1)).min(1) }),
+  z.object({
+    tipo: z.literal("imagem"),
+    /** Id no manifesto de mídia (content/media.json). */
+    id: z.string().min(1),
+    legenda: z.string().min(1),
+  }),
+]);
+
+export const PostSchema = z.object({
+  slug: z.string().regex(/^[a-z0-9-]+$/),
+  titulo: z.string().min(1),
+  /** Resumo de até 155 caracteres: vira a meta description (5.22). */
+  resumo: z.string().min(1).max(155),
+  categoria: CategoriaPostSchema,
+  /** Data de publicação, ISO (AAAA-MM-DD). */
+  data: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  atualizado: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/)
+    .optional(),
+  /** Imagem de capa: id no manifesto de mídia. */
+  capa: z.string().min(1),
+  keywords: z.array(z.string()).default([]),
+  /** Primeiro parágrafo, escrito como resposta direta ao tema (até 60 palavras). */
+  abertura: z.string().min(1),
+  corpo: z.array(BlocoPostSchema).min(1),
+  /** Bloco final "o que vem a seguir" (5.22). */
+  a_seguir: z.string().optional(),
+  /** Links para páginas do site, um por post no mínimo (Parte 3.3). */
+  links: z.array(z.string()).default([]),
+  /** Copy fora do documento mestre, a revisar. */
+  revisar: z.boolean().default(false),
+});
+
+export const PostsArquivoSchema = z.array(PostSchema);
+
+export type CategoriaPost = z.infer<typeof CategoriaPostSchema>;
+export type BlocoPost = z.infer<typeof BlocoPostSchema>;
+export type Post = z.infer<typeof PostSchema>;
