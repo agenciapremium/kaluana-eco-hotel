@@ -9,8 +9,9 @@ export type ParadaElevador = { id: string; ordinal: string; nome: string; accent
  * rolagem de 1º a 4º andar; no celular vira uma faixa de abas fixa no topo. Os links são
  * âncoras comuns, então funcionam sem JavaScript; o destaque do andar atual depende dele.
  *
- * No desktop o trilho é fixo. Fora da sequência de andares ele sai de cena (data-fora), para
- * o texto bege não passar sobre as seções claras e o rodapé (etapa 6).
+ * No desktop o trilho é fixo. Ele só aparece quando a sequência de andares cobre toda a altura
+ * do trilho (data-fora), para o texto bege não passar sobre as seções claras, as migalhas e o
+ * rodapé, nem cobrir um link focado fora dos andares (etapa 6).
  */
 export function Elevador({ paradas }: { paradas: ParadaElevador[] }) {
   const [atual, setAtual] = useState(paradas[0]?.id ?? "");
@@ -36,23 +37,29 @@ export function Elevador({ paradas }: { paradas: ParadaElevador[] }) {
   }, [paradas]);
 
   useEffect(() => {
-    // A faixa do meio da tela, onde o trilho fica, precisa estar sobre os andares.
-    const sequencia = secoesDe(paradas);
-    if (sequencia.length === 0) return;
-    const visiveis = new Set<Element>();
-    const observer = new IntersectionObserver(
-      (entradas) => {
-        for (const e of entradas) {
-          if (e.isIntersecting) visiveis.add(e.target);
-          else visiveis.delete(e.target);
-        }
-        setFora(visiveis.size === 0);
-      },
-      { rootMargin: "-45% 0px -45% 0px" },
-    );
-    for (const s of sequencia) observer.observe(s);
-    return () => observer.disconnect();
-  }, [paradas]);
+    const trilho = nav.current;
+    const sequencia = trilho?.closest(".elevador-wrap");
+    if (!trilho || !sequencia) return;
+    let agendado = false;
+    const conferir = () => {
+      agendado = false;
+      const t = trilho.getBoundingClientRect();
+      const s = sequencia.getBoundingClientRect();
+      setFora(!(s.top <= t.top && s.bottom >= t.bottom));
+    };
+    const aoRolar = () => {
+      if (agendado) return;
+      agendado = true;
+      window.requestAnimationFrame(conferir);
+    };
+    aoRolar();
+    window.addEventListener("scroll", aoRolar, { passive: true });
+    window.addEventListener("resize", aoRolar);
+    return () => {
+      window.removeEventListener("scroll", aoRolar);
+      window.removeEventListener("resize", aoRolar);
+    };
+  }, []);
 
   return (
     <nav ref={nav} className="elevador" aria-label="Andares" data-fora={fora ? "true" : undefined}>
@@ -73,10 +80,4 @@ export function Elevador({ paradas }: { paradas: ParadaElevador[] }) {
       </ol>
     </nav>
   );
-}
-
-function secoesDe(paradas: ParadaElevador[]): HTMLElement[] {
-  return paradas
-    .map((p) => document.getElementById(p.id))
-    .filter((el): el is HTMLElement => Boolean(el));
 }

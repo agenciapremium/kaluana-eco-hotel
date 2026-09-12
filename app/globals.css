@@ -2988,3 +2988,15 @@ html:has(.site-header[data-hidden="true"]:not(:focus-within)) .barra-hospede {
     transition-delay: 0ms;
   }
 }
+
+/* Etapa 6, depois do percurso de teclado. Painéis empilhados com sticky: o painel seguinte
+   cobria o botão focado do anterior; o painel com foco passa à frente. */
+.panel:focus-within {
+  z-index: 1;
+}
+/* Campo de data: o foco fica na parte interna (dia, mês, ano) e o :focus-visible do campo não
+   aparecia. */
+.field[type="date"]:focus {
+  outline: 2px solid var(--focus-ring, var(--color-cafe));
+  outline-offset: 1px;
+}
