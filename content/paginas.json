@@ -1,0 +1,2020 @@
+{
+  "home": {
+    "id": "home",
+    "url": "/",
+    "nome": "Início",
+    "tipo": "Página principal",
+    "pai": null,
+    "ordem": 0,
+    "objetivo": "Apresentar o hotel em dez segundos, provar que ele existe e levar à reserva. É a página que recebe o tráfego pago, o Google Meu Negócio e o Instagram.",
+    "publico": "Todos os perfis. Prioridade para quem decide reserva corporativa (Cristina) e para quem chega de estrada (Ricardo).",
+    "seo": {
+      "title": "Kaluanã Eco Hotel | Hotel em Ji-Paraná, Rondônia",
+      "description": "Eco hotel em Ji-Paraná com restaurante aberto ao público e espaços para eventos. Quartos com nome de rios, peixes, árvores e aves da Amazônia. Reserve online.",
+      "h1": "Hotel em Ji-Paraná para quem chega cansado, precisa produzir ou precisa parar.",
+      "keywords": [
+        "hotel em ji-paraná",
+        "hotel ji-paraná ro",
+        "eco hotel rondônia",
+        "hospedagem ji-paraná",
+        "kaluanã eco hotel"
+      ],
+      "schema": [
+        "Hotel (com address, geo, telephone, sameAs, amenityFeature, checkinTime, checkoutTime, image)",
+        "Organization",
+        "WebSite (com SearchAction opcional)",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Kaluanã Eco Hotel é um hotel em Ji-Paraná, Rondônia, na Rodovia Pastor Severo Antonio de Araujo, 2015. Tem restaurante aberto ao público, auditório e centro de convenções, e quartos nomeados com rios, peixes, árvores e aves da Amazônia. Inauguração prevista para dezembro de 2026.\n"
+    },
+    "movimento": "Hero com vídeo de fundo (BG - KALUAMÃ.mp4 em loop, sem som, 12 a 20 segundos, comprimido para menos de 2 MB) e a logo animada (LOGO ANIMADA KALUAMÃ.mp4) tocando uma única vez por sessão como abertura, com duração máxima de 1,8 segundo e botão de pular. O título entra em fade de baixo para cima, palavra por palavra, com 60 ms entre cada uma. Ao rolar, o vídeo perde 15 por cento de opacidade e ganha uma névoa em bege claro. Os três cards de perfil entram em sequência quando 30 por cento deles estão visíveis. Nenhum elemento se move sem que o usuário role ou passe o mouse.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Ji-Paraná, Rondônia",
+        "titulo": "Hotel em Ji-Paraná para quem chega cansado, precisa produzir ou precisa parar.",
+        "texto": "O Kaluanã é um eco hotel novo em Ji-Paraná, com restaurante aberto ao público e espaços para eventos. Quartos com nome de rio, de peixe, de árvore e de ave. Abre em dezembro de 2026.\n",
+        "cta_primario": "Reservar",
+        "cta_secundario": "Conhecer o hotel",
+        "imagem": "Vídeo BG - KALUAMÃ.mp4 em loop; fallback com frame estático em WebP. Sem fotos do projeto arquitetônico até a inauguração."
+      },
+      {
+        "nome": "Três jeitos de chegar",
+        "kicker": "Para quem é",
+        "titulo": "Três jeitos de chegar no Kaluanã.",
+        "texto": "Cada hóspede chega de um jeito. O hotel foi pensado para três deles.\n\nChegou cansado. Veio de estrada, chegou tarde, precisa de cama, chuveiro e silêncio. Check-in rápido, café cedo e a certeza de acordar apresentável.\n\nPrecisa produzir. Tem reunião amanhã, relatório hoje e uma ligação daqui a pouco. Mesa de trabalho, internet que funciona, café à mão e um lugar para receber gente.\n\nPrecisa parar. Não tem hora para nada. Restaurante sem pressa, varanda, uma tarde sem agenda e um quarto com nome de rio para saber onde está.\n",
+        "cta_primario": "Ver acomodações",
+        "imagem": "Três imagens de detalhe, sem ambiente completo: mãos no balcão do check-in, mesa com notebook e café, cadeira na varanda. Captação própria após a obra."
+      },
+      {
+        "nome": "O nome",
+        "kicker": "Kaluanã",
+        "titulo": "Grande guerreiro.",
+        "texto": "Kaluanã é um nome de origem indígena. Quer dizer grande guerreiro. Foi a primeira decisão do hotel e é a que explica todas as outras: um lugar que respeita a terra onde está, a cidade que o recebe e a pessoa que entra pela porta.\n",
+        "cta_secundario": "A história do Kaluanã",
+        "imagem": "Símbolo da marca em linha, animado por traço (stroke) ao entrar na tela."
+      },
+      {
+        "nome": "Os andares",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Cada quarto tem um nome. Cada nome tem uma história.",
+        "texto": "No primeiro andar, os rios. No segundo, os peixes. No terceiro, as árvores. No quarto, as aves. Cada porta leva o nome de um elemento da Amazônia e cada quarto tem um QR Code que conta a história dele. Você pode dormir no Rio Machado, que corta Ji-Paraná, ou na Samaúma, a árvore mais alta da floresta.\n",
+        "cta_primario": "Explorar os andares",
+        "imagem": "Quatro faixas horizontais com uma foto de referência de cada andar (RIO MACHADO 4, Jau 2, Samauma 2, coruja.jpg). Ao passar o mouse, a faixa expande e revela o nome do andar."
+      },
+      {
+        "nome": "Restaurante",
+        "kicker": "Restaurante Kaluanã",
+        "titulo": "Aberto para quem está hospedado e para quem não está.",
+        "texto": "O Restaurante Kaluanã fica no hotel e atende a cidade. Café da manhã, almoço e jantar, com peixe de Rondônia no cardápio e mesa para quem quer sentar sem hora para levantar.\n",
+        "cta_secundario": "Conhecer o restaurante",
+        "imagem": "Detalhe de prato ou de mesa posta. Captação própria."
+      },
+      {
+        "nome": "Eventos",
+        "kicker": "Eventos e convenções",
+        "titulo": "Um auditório e um centro de convenções em Ji-Paraná.",
+        "texto": "Reunião de equipe, treinamento, congresso regional, formatura ou casamento. O Kaluanã tem espaço, hospedagem e restaurante no mesmo endereço.\n",
+        "cta_secundario": "Solicitar proposta",
+        "imagem": "Só após autorização do cliente para divulgar auditório e centro de convenções.",
+        "nota": "Seção condicionada à autorização do cliente. Até lá, não publicar."
+      },
+      {
+        "nome": "Ji-Paraná",
+        "kicker": "Onde estamos",
+        "titulo": "Ji-Paraná, o coração de Rondônia.",
+        "texto": "A segunda maior cidade do estado, cortada pelo rio Machado e atravessada pela BR-364. Polo de negócios, de saúde, de ensino e de agro. O Kaluanã fica na Rodovia Pastor Severo Antonio de Araujo, 2015.\n",
+        "cta_secundario": "Como chegar",
+        "imagem": "Mapa estilizado em verde sálvia com o ponto do hotel. Sem foto aérea do terreno até a inauguração."
+      },
+      {
+        "nome": "Histórias",
+        "kicker": "Diário do Kaluanã",
+        "titulo": "A obra, contada por quem constrói.",
+        "texto": "Antes de abrir as portas, o Kaluanã está sendo construído à vista de todo mundo. Acompanhe.\n",
+        "cta_secundario": "Ler as histórias",
+        "imagem": "Três últimos posts com imagem de capa."
+      },
+      {
+        "nome": "Chamada final",
+        "kicker": null,
+        "titulo": "Chegue. O resto a gente resolve.",
+        "texto": "Reservas abertas para dezembro de 2026.\n",
+        "cta_primario": "Reservar",
+        "cta_secundario": "Falar com o hotel"
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/universo",
+      "/restaurante",
+      "/eventos",
+      "/ji-parana",
+      "/historias",
+      "/reservas",
+      "/contato"
+    ],
+    "notas": [
+      "A frase de abertura do hero é a mesma base do posicionamento do brandbook (três perfis). Não trocar por slogan eco genérico.",
+      "Enquanto o motor de reservas não estiver contratado, o botão Reservar leva para /reservas, que explica o caminho disponível.",
+      "Nada de número de apartamentos, valores ou planta até a inauguração."
+    ]
+  },
+  "o-kaluana": {
+    "id": "o-kaluana",
+    "url": "/o-kaluana",
+    "nome": "O Kaluanã",
+    "tipo": "Institucional",
+    "pai": "home",
+    "ordem": 1,
+    "objetivo": "Contar a história, o nome e o jeito de construir. Dar ao hóspede e à empresa contratante a justificativa percebida para escolher o Kaluanã.",
+    "publico": "Cristina (decide a reserva corporativa), Fernanda (moradora curiosa), imprensa e parceiros.",
+    "seo": {
+      "title": "O Kaluanã | Um eco hotel em Ji-Paraná",
+      "description": "A história do Kaluanã Eco Hotel: o nome que significa grande guerreiro, o lugar em Ji-Paraná e o jeito de construir com processos que respeitam o entorno.",
+      "h1": "O Kaluanã",
+      "keywords": [
+        "kaluanã",
+        "significado de kaluanã",
+        "eco hotel ji-paraná",
+        "hotel sustentável rondônia"
+      ],
+      "schema": [
+        "AboutPage",
+        "Organization (founder, foundingLocation, description)",
+        "BreadcrumbList"
+      ],
+      "resposta": "Kaluanã é um nome de origem indígena que significa grande guerreiro. O Kaluanã Eco Hotel é um hotel em construção em Ji-Paraná, Rondônia, com inauguração prevista para dezembro de 2026, restaurante aberto ao público e espaços para eventos.\n"
+    },
+    "movimento": "Página de leitura longa. Imagens entram com máscara de baixo para cima (clip-path) em 700 ms. Um traço vertical em verde sálvia acompanha a rolagem na lateral esquerda, marcando o progresso da leitura. Os números da linha do tempo da obra aparecem por contagem só quando forem datas, nunca quantidades.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "O Kaluanã",
+        "titulo": "Um hotel com nome de guerreiro e quartos com nome de floresta.",
+        "texto": "O Kaluanã nasce em Ji-Paraná, na Rodovia Pastor Severo Antonio de Araujo, para receber quem chega à cidade a trabalho, de passagem ou para ficar um pouco. Abre em dezembro de 2026.\n",
+        "imagem": "Detalhe de material da obra: madeira, terra, mãos. Sem volumetria."
+      },
+      {
+        "nome": "O nome",
+        "kicker": "Grande guerreiro",
+        "titulo": "Por que Kaluanã.",
+        "texto": "Kaluanã é uma palavra de origem indígena. Significa grande guerreiro. O nome foi escolhido antes de qualquer desenho, porque diz o que o hotel quer ser: firme com a terra, firme com a cidade e firme com quem se hospeda.\n\nUm guerreiro não faz barulho. Faz o que precisa ser feito. É assim que o Kaluanã quer ser lembrado.\n"
+      },
+      {
+        "nome": "O lugar",
+        "kicker": "Ji-Paraná",
+        "titulo": "Uma cidade que recebe.",
+        "texto": "Ji-Paraná é a segunda maior cidade de Rondônia e o centro de uma região que vive do agro, do comércio, da saúde e do ensino. Quem vem a trabalho chega de estrada pela BR-364 ou de avião pelo aeroporto José Coleto. O rio Machado corta a cidade ao meio e dá nome a ela: Ji-Paraná, em tupi, quer dizer rio do machado.\n\nO hotel fica no acesso à cidade, com estacionamento e chegada fácil para quem vem de carro.\n",
+        "cta_secundario": "Conhecer Ji-Paraná"
+      },
+      {
+        "nome": "Como construímos",
+        "kicker": "Processo",
+        "titulo": "Eco não é adjetivo. É jeito de fazer.",
+        "texto": "O Kaluanã não promete natureza. Mostra processo. Cada decisão de obra que preservou o entorno, cada material escolhido pela durabilidade e cada sistema pensado para gastar menos água e energia está registrado aqui, com data.\n\nEsta seção lista apenas o que foi feito. Não lista intenções.\n",
+        "imagem": "Série de fotos de detalhe da obra, uma por prática.",
+        "nota": "Preencher somente com práticas reais e verificáveis, informadas pelo Adriano: preservação de árvores no terreno, origem da madeira (manejo com documento), sistema de água, energia, resíduos, fornecedores locais. Cada item com uma frase e, quando houver, uma foto de detalhe. Nunca usar as expressões vetadas."
+      },
+      {
+        "nome": "Os andares",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Rios, peixes, árvores e aves.",
+        "texto": "Os quartos do Kaluanã não têm só número. Têm nome. O primeiro andar leva o nome de rios da Amazônia, do Amazonas ao Machado. O segundo, de peixes. O terceiro, de árvores. O quarto, de aves. As três maiores acomodações levam o nome dos três grandes predadores da floresta: onça-pintada, jaguatirica e jacaré-açu.\n\nEm cada quarto, um QR Code leva à história do nome. É uma forma de hospedar Rondônia junto com o hóspede.\n",
+        "cta_primario": "Explorar o Universo Kaluanã"
+      },
+      {
+        "nome": "Linha do tempo",
+        "kicker": "A obra",
+        "titulo": "Construído à vista.",
+        "texto": "Desde o início da obra, o Kaluanã mostra o que está fazendo. Sem revelar o projeto, mostra o processo: a terra, a estrutura, as pessoas, a luz.\n",
+        "nota": "Linha do tempo com marcos datados (início da obra, etapas, inauguração), alimentada pelos posts de Histórias. Sem planta, sem render, sem fachada completa até a inauguração."
+      },
+      {
+        "nome": "Quem faz",
+        "kicker": "Equipe",
+        "titulo": "Gente de Ji-Paraná.",
+        "texto": "O Kaluanã é conduzido por uma equipe local, com gestão geral de Adriano Siqueira. Quem recebe você conhece a cidade e sabe indicar caminho, restaurante e horário.\n",
+        "nota": "Validar com o cliente quais nomes e cargos podem ser publicados. Fotos de equipe só com autorização individual."
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Venha ver de perto.",
+        "texto": "Reservas abertas para dezembro de 2026. Para eventos e hospedagem corporativa, fale com a equipe.\n",
+        "cta_primario": "Reservar",
+        "cta_secundario": "Falar com o hotel"
+      }
+    ],
+    "links_internos": [
+      "/universo",
+      "/ji-parana",
+      "/historias",
+      "/reservas",
+      "/contato",
+      "/eventos"
+    ],
+    "notas": [
+      "A seção Como construímos só existe com fatos. Sem fatos, não publicar a seção."
+    ]
+  },
+  "acomodacoes": {
+    "id": "acomodacoes",
+    "url": "/acomodacoes",
+    "nome": "Acomodações",
+    "tipo": "Hub de produto",
+    "pai": "home",
+    "ordem": 2,
+    "objetivo": "Mostrar as categorias de quarto, deixar claro para quem cada uma serve e levar à reserva.",
+    "publico": "Ricardo (corporativo), Cristina (reserva para terceiros), famílias e casais.",
+    "seo": {
+      "title": "Acomodações | Quartos e suítes em Ji-Paraná | Kaluanã",
+      "description": "Quartos e suítes do Kaluanã Eco Hotel em Ji-Paraná: Superior Família, Duplo King, Superior Acessível, suítes com terraço e Suíte Presidencial.",
+      "h1": "Acomodações",
+      "keywords": [
+        "quartos hotel ji-paraná",
+        "suíte ji-paraná",
+        "hotel com quarto acessível ji-paraná",
+        "hotel para família ji-paraná"
+      ],
+      "schema": [
+        "CollectionPage",
+        "ItemList de HotelRoom",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Kaluanã Eco Hotel, em Ji-Paraná, oferece sete categorias de acomodação: Superior Família, Duplo King, Superior Acessível, Superior Família com Terraço, Suíte Terraço Lateral Aberto, Suíte Terraço Lateral Fechado e Suíte Presidencial. Todos os quartos levam nomes de rios, peixes, árvores e aves da Amazônia.\n"
+    },
+    "movimento": "Grade de categorias com cards grandes. Ao passar o mouse, a foto escala 3 por cento e um véu em verde sálvia sobe com o nome da categoria e a frase de perfil. No mobile, os cards são um carrossel com snap. A troca de andar no filtro faz a grade cruzar em fade de 300 ms.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Acomodações",
+        "titulo": "Um quarto para cada jeito de chegar.",
+        "texto": "Do quarto para uma noite de estrada à suíte para uma semana de trabalho. Todos com cama que descansa, chuveiro que funciona e silêncio. E todos com um nome da Amazônia na porta.\n",
+        "cta_primario": "Reservar"
+      },
+      {
+        "nome": "Filtro por perfil",
+        "kicker": "Escolha pelo que você precisa",
+        "titulo": "Chegou cansado. Precisa produzir. Precisa parar.",
+        "texto": "Filtre as acomodações pelo que importa hoje: cama e silêncio, mesa e internet, ou varanda e tempo.\n",
+        "nota": "Filtro com três chips. Cada categoria recebe uma ou mais tags de perfil."
+      },
+      {
+        "nome": "Categorias",
+        "kicker": "Categorias",
+        "titulo": "Sete categorias. Setenta histórias.",
+        "texto": "Superior Família, para até três pessoas. Duplo King, para quem quer cama grande e mesa de trabalho. Superior Acessível, com banheiro e circulação adaptados. Superior Família com Terraço, para ficar mais tempo. Suíte Terraço Lateral Aberto e Fechado, com espaço externo privativo. E a Suíte Presidencial Onça-Pintada, no último andar.\n",
+        "nota": "A palavra Setenta no título só entra após a inauguração, quando o veto ao número de apartamentos cair. Até lá, usar Sete categorias. Muitas histórias."
+      },
+      {
+        "nome": "Regras da casa",
+        "kicker": "Bom saber",
+        "titulo": "Horários e regras.",
+        "texto": "Check-in a partir das 14h. Check-out até as 12h. Café da manhã incluído. Estacionamento no hotel. Animais de estimação: consulte. Fumar: apenas nas áreas externas indicadas.\n",
+        "nota": "Validar todos os horários e políticas com o Adriano antes de publicar."
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Escolheu? Reserve.",
+        "texto": "Tarifas e disponibilidade no motor de reservas. Para grupos e empresas, fale com a equipe.\n",
+        "cta_primario": "Reservar",
+        "cta_secundario": "Hospedagem corporativa"
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes/superior-familia",
+      "/acomodacoes/duplo-king",
+      "/acomodacoes/superior-acessivel",
+      "/acomodacoes/superior-familia-com-terraco",
+      "/acomodacoes/suite-terraco-lateral-aberto",
+      "/acomodacoes/suite-terraco-lateral-fechado",
+      "/acomodacoes/suite-presidencial-onca-pintada",
+      "/universo",
+      "/reservas"
+    ],
+    "notas": [
+      "Nomes públicos das categorias: Superior Handicap vira Superior Acessível. Suíte Master Panorâmica vira Suíte Presidencial Onça-Pintada.",
+      "Metragem, tipo de cama, capacidade e amenidades por categoria: pendentes com o cliente. As páginas abaixo têm a copy pronta e os campos marcados para preencher."
+    ]
+  },
+  "superior-familia": {
+    "id": "superior-familia",
+    "url": "/acomodacoes/superior-familia",
+    "nome": "Superior Família",
+    "tipo": "Categoria de quarto",
+    "pai": "acomodacoes",
+    "ordem": 1,
+    "codigo": "SUPF",
+    "capacidade": 3,
+    "objetivo": "Vender a categoria mais numerosa do hotel para famílias e para viajantes que precisam de espaço.",
+    "publico": "Famílias, equipes de trabalho que dividem quarto, hóspedes de longa estadia.",
+    "seo": {
+      "title": "Superior Família | Quarto para 3 em Ji-Paraná | Kaluanã",
+      "description": "Quarto Superior Família do Kaluanã Eco Hotel, em Ji-Paraná: até 3 pessoas, mesa de trabalho e nome de rio, peixe, árvore ou ave da Amazônia na porta.",
+      "h1": "Superior Família",
+      "keywords": [
+        "quarto para família ji-paraná",
+        "quarto triplo ji-paraná",
+        "hotel família rondônia"
+      ],
+      "schema": [
+        "HotelRoom (occupancy 3, bed, amenityFeature)",
+        "Product com Offer apontando para o motor",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Superior Família é o quarto para até três pessoas do Kaluanã Eco Hotel, em Ji-Paraná, com mesa de trabalho e banheiro privativo. Está presente em todos os andares e leva nomes de rios, peixes, árvores e aves da Amazônia.\n"
+    },
+    "movimento": "Galeria em faixa horizontal com rolagem arrastável. A ficha técnica entra em lista, item a item, ao chegar na viewport. Os nomes dos quartos da categoria aparecem como etiquetas que se acendem em verde sálvia ao passar o mouse e abrem a página do Universo.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Superior Família",
+        "titulo": "Espaço para três. Silêncio para todos.",
+        "texto": "O quarto para quem viaja acompanhado. Cama de casal e cama de solteiro, mesa de trabalho, banheiro privativo e ar-condicionado. Disponível em todos os andares, com nome de rio, de peixe, de árvore ou de ave.\n",
+        "cta_primario": "Reservar esta categoria"
+      },
+      {
+        "nome": "Ficha",
+        "kicker": "O quarto",
+        "titulo": "O que tem no quarto.",
+        "texto": "Até 3 pessoas. ⟨metragem⟩ m². ⟨configuração de camas⟩. Ar-condicionado. Internet sem fio. Mesa de trabalho. TV. Frigobar. Banheiro privativo com ⟨amenidades⟩. Café da manhã incluído.\n",
+        "nota": "Campos entre ⟨ ⟩ a preencher com o cliente."
+      },
+      {
+        "nome": "Perfis",
+        "kicker": "Para quem",
+        "titulo": "Para quem chega com a família ou com a equipe.",
+        "texto": "Três colegas em viagem de trabalho. Um casal com filho. Uma pessoa que fica a semana inteira e quer espaço. O Superior Família resolve os três.\n"
+      },
+      {
+        "nome": "Os nomes",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Este quarto pode se chamar Rio Amazonas. Ou Tucunaré. Ou Copaíba.",
+        "texto": "Os quartos Superior Família estão nos quatro andares. Você pode dormir no andar dos rios, dos peixes, das árvores ou das aves. Cada porta tem um nome e cada nome tem uma história para ler no QR Code do quarto.\n",
+        "nota": "Listar as UHs desta categoria com link para a página de cada nome."
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Reserve o Superior Família.",
+        "cta_primario": "Ver disponibilidade",
+        "cta_secundario": "Outras categorias"
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/universo",
+      "/reservas"
+    ],
+    "uhs": [
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "203",
+      "204",
+      "205",
+      "206",
+      "207",
+      "208",
+      "211",
+      "212",
+      "213",
+      "214",
+      "215",
+      "217",
+      "303",
+      "304",
+      "305",
+      "306",
+      "307",
+      "308",
+      "311",
+      "312",
+      "313",
+      "314",
+      "315",
+      "317",
+      "405",
+      "406",
+      "407",
+      "408",
+      "409",
+      "410",
+      "413",
+      "414",
+      "415",
+      "416",
+      "417",
+      "419"
+    ]
+  },
+  "duplo-king": {
+    "id": "duplo-king",
+    "url": "/acomodacoes/duplo-king",
+    "nome": "Duplo King",
+    "tipo": "Categoria de quarto",
+    "pai": "acomodacoes",
+    "ordem": 2,
+    "codigo": "DPLK",
+    "capacidade": 2,
+    "objetivo": "Vender o quarto do viajante corporativo e do casal.",
+    "publico": "Ricardo (corporativo), casais.",
+    "seo": {
+      "title": "Duplo King | Quarto com cama king em Ji-Paraná | Kaluanã",
+      "description": "Quarto Duplo King do Kaluanã Eco Hotel, em Ji-Paraná: cama king, mesa de trabalho e silêncio para quem chega de estrada e precisa produzir no dia seguinte.",
+      "h1": "Duplo King",
+      "keywords": [
+        "quarto cama king ji-paraná",
+        "hotel executivo ji-paraná",
+        "hotel para viagem de trabalho rondônia"
+      ],
+      "schema": [
+        "HotelRoom (occupancy 2, bed King)",
+        "Product com Offer",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Duplo King é o quarto para duas pessoas do Kaluanã Eco Hotel, em Ji-Paraná, com cama king e mesa de trabalho. É a categoria indicada para viagens de trabalho e para casais.\n"
+    },
+    "movimento": "Mesma estrutura do Superior Família. Destaque animado para a mesa de trabalho: a foto de detalhe ganha foco enquanto o restante da imagem escurece 20 por cento ao passar o mouse.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Duplo King",
+        "titulo": "Chegou tarde. Amanhã cedo, está pronto.",
+        "texto": "Cama king, mesa de trabalho com tomadas à mão, internet que aguenta videochamada e cortina que fecha de verdade. O quarto para quem vem a trabalho e precisa render.\n",
+        "cta_primario": "Reservar esta categoria"
+      },
+      {
+        "nome": "Ficha",
+        "kicker": "O quarto",
+        "titulo": "O que tem no quarto.",
+        "texto": "Até 2 pessoas. ⟨metragem⟩ m². Cama king. Ar-condicionado. Internet sem fio. Mesa de trabalho com tomadas e USB. TV. Frigobar. Banheiro privativo com ⟨amenidades⟩. Café da manhã incluído.\n"
+      },
+      {
+        "nome": "Perfis",
+        "kicker": "Para quem",
+        "titulo": "Para quem precisa produzir.",
+        "texto": "Gerente regional, representante, médico de passagem, consultor. Quem chega no fim do dia e sai cedo. O Duplo King foi desenhado para essa rotina.\n"
+      },
+      {
+        "nome": "Os nomes",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Rio Tapajós, Tambaqui, Castanheira, Arara.",
+        "texto": "Há um Duplo King em cada andar. Escolha dormir com o nome de um rio, de um peixe, de uma árvore ou de uma ave.\n"
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Reserve o Duplo King.",
+        "cta_primario": "Ver disponibilidade",
+        "cta_secundario": "Hospedagem corporativa"
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/universo",
+      "/reservas",
+      "/eventos"
+    ],
+    "uhs": [
+      "107",
+      "114",
+      "202",
+      "209",
+      "216",
+      "302",
+      "309",
+      "316",
+      "404",
+      "411",
+      "418"
+    ]
+  },
+  "superior-acessivel": {
+    "id": "superior-acessivel",
+    "url": "/acomodacoes/superior-acessivel",
+    "nome": "Superior Acessível",
+    "tipo": "Categoria de quarto",
+    "pai": "acomodacoes",
+    "ordem": 3,
+    "codigo": "SHDC",
+    "capacidade": 2,
+    "objetivo": "Garantir que pessoas com deficiência ou mobilidade reduzida encontrem o quarto certo com informação clara.",
+    "publico": "Pessoas com deficiência, idosos, acompanhantes, empresas que precisam cumprir acessibilidade em eventos.",
+    "seo": {
+      "title": "Superior Acessível | Quarto adaptado em Ji-Paraná | Kaluanã",
+      "description": "Quarto acessível do Kaluanã Eco Hotel, em Ji-Paraná: banheiro adaptado, barras de apoio, circulação livre e porta ampla. Um em cada andar, com nome da Amazônia.",
+      "h1": "Superior Acessível",
+      "keywords": [
+        "hotel acessível ji-paraná",
+        "quarto adaptado ji-paraná",
+        "hotel com acessibilidade rondônia"
+      ],
+      "schema": [
+        "HotelRoom com accessibilityFeature",
+        "Product com Offer",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Superior Acessível é o quarto adaptado do Kaluanã Eco Hotel, em Ji-Paraná, com banheiro acessível, barras de apoio e circulação livre. Há um em cada andar, para até duas pessoas.\n"
+    },
+    "movimento": "Página com movimento reduzido por padrão. Nenhuma animação automática. Contraste reforçado e foco visível em todos os elementos.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Superior Acessível",
+        "titulo": "Acessível de verdade.",
+        "texto": "Porta ampla, banheiro adaptado com barras de apoio e chuveiro sem degrau, circulação livre para cadeira de rodas e interruptores ao alcance. Um quarto por andar, ao lado do elevador.\n",
+        "cta_primario": "Reservar esta categoria"
+      },
+      {
+        "nome": "Ficha",
+        "kicker": "O quarto",
+        "titulo": "O que tem no quarto.",
+        "texto": "Até 2 pessoas. ⟨metragem⟩ m². ⟨configuração de camas⟩. Porta de ⟨largura⟩ cm. Banheiro com barras de apoio, box sem degrau e ⟨banco de banho⟩. Alarme visual e sonoro. Ar-condicionado. Internet sem fio. Mesa de trabalho. TV. Frigobar. Café da manhã incluído.\n",
+        "nota": "Confirmar cada item com o projeto executivo e a norma técnica de acessibilidade. Só publicar o que existe."
+      },
+      {
+        "nome": "Como chegar ao quarto",
+        "kicker": "Acesso",
+        "titulo": "Da rua ao quarto sem barreiras.",
+        "texto": "Vaga reservada no estacionamento, rampa de acesso, recepção com balcão rebaixado, elevador com sinalização em braile e áudio, corredores com largura livre. Se precisar de ajuda, a equipe acompanha.\n",
+        "nota": "Validar cada item."
+      },
+      {
+        "nome": "Os nomes",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Rio Xingu, Sardinha-da-Amazônia, Jatobá, Coruja.",
+        "texto": "Os quartos acessíveis ficam em todos os andares. Escolha o andar e o nome.\n"
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Precisa de algo específico? Fale antes de chegar.",
+        "texto": "Conte o que você precisa e a equipe prepara o quarto.\n",
+        "cta_primario": "Ver disponibilidade",
+        "cta_secundario": "Falar com o hotel"
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/universo",
+      "/reservas",
+      "/contato"
+    ],
+    "uhs": [
+      "108",
+      "210",
+      "310",
+      "412"
+    ]
+  },
+  "superior-familia-com-terraco": {
+    "id": "superior-familia-com-terraco",
+    "url": "/acomodacoes/superior-familia-com-terraco",
+    "nome": "Superior Família com Terraço",
+    "tipo": "Categoria de quarto",
+    "pai": "acomodacoes",
+    "ordem": 4,
+    "codigo": "SFT",
+    "capacidade": 3,
+    "objetivo": "Vender o quarto de longa estadia e de quem precisa pausar.",
+    "publico": "Famílias, hóspedes de longa estadia, quem precisa parar.",
+    "seo": {
+      "title": "Superior Família com Terraço | Kaluanã, Ji-Paraná",
+      "description": "Quarto Superior Família com Terraço do Kaluanã Eco Hotel, em Ji-Paraná: até 3 pessoas e um terraço privativo para quem fica mais tempo ou precisa parar.",
+      "h1": "Superior Família com Terraço",
+      "keywords": [
+        "quarto com terraço ji-paraná",
+        "hotel longa estadia ji-paraná",
+        "quarto com varanda rondônia"
+      ],
+      "schema": [
+        "HotelRoom (occupancy 3)",
+        "Product com Offer",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Superior Família com Terraço é o quarto do Kaluanã Eco Hotel para até três pessoas com terraço privativo, indicado para estadias longas e para quem quer um espaço externo. Há um no segundo, no terceiro e no quarto andar.\n"
+    },
+    "movimento": "Hero com parallax leve entre a foto do terraço e o texto (deslocamento máximo de 6 por cento). O restante segue o padrão das categorias.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Superior Família com Terraço",
+        "titulo": "Um pedaço de fora só seu.",
+        "texto": "O quarto Superior Família com um terraço privativo. Para tomar café do lado de fora, estender uma semana de trabalho ou simplesmente não fazer nada por uma tarde.\n",
+        "cta_primario": "Reservar esta categoria"
+      },
+      {
+        "nome": "Ficha",
+        "kicker": "O quarto",
+        "titulo": "O que tem no quarto.",
+        "texto": "Até 3 pessoas. ⟨metragem⟩ m² internos e ⟨metragem⟩ m² de terraço. ⟨configuração de camas⟩. Ar-condicionado. Internet sem fio. Mesa de trabalho. TV. Frigobar. Banheiro privativo. Café da manhã incluído.\n"
+      },
+      {
+        "nome": "Perfis",
+        "kicker": "Para quem",
+        "titulo": "Para quem fica mais tempo.",
+        "texto": "Uma semana de auditoria. Um mês de projeto. Férias com a família na cidade. Um terraço muda a estadia longa.\n"
+      },
+      {
+        "nome": "Os nomes",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Pirarara, Jequitibá, Cardeal-da-Amazônia.",
+        "texto": "Esta categoria fecha cada andar. O último peixe, a última árvore, a última ave.\n"
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Reserve o Superior Família com Terraço.",
+        "cta_primario": "Ver disponibilidade",
+        "cta_secundario": "Outras categorias"
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/universo",
+      "/reservas"
+    ],
+    "uhs": [
+      "218",
+      "318",
+      "420"
+    ]
+  },
+  "suite-terraco-lateral-aberto": {
+    "id": "suite-terraco-lateral-aberto",
+    "url": "/acomodacoes/suite-terraco-lateral-aberto",
+    "nome": "Suíte Terraço Lateral Aberto",
+    "tipo": "Categoria de quarto",
+    "pai": "acomodacoes",
+    "ordem": 5,
+    "codigo": "STLA",
+    "capacidade": 2,
+    "objetivo": "Vender a suíte com terraço aberto para casais e executivos seniores.",
+    "publico": "Casais, executivos, hóspedes que precisam parar.",
+    "seo": {
+      "title": "Suíte Terraço Lateral Aberto | Kaluanã, Ji-Paraná",
+      "description": "Suíte com terraço lateral aberto do Kaluanã Eco Hotel, em Ji-Paraná: para duas pessoas, com espaço externo privativo. Uma por andar, do segundo ao quarto.",
+      "h1": "Suíte Terraço Lateral Aberto",
+      "keywords": [
+        "suíte com terraço ji-paraná",
+        "suíte hotel ji-paraná",
+        "hotel para casal rondônia"
+      ],
+      "schema": [
+        "HotelRoom (occupancy 2, Suite)",
+        "Product com Offer",
+        "BreadcrumbList"
+      ],
+      "resposta": "A Suíte Terraço Lateral Aberto é uma suíte para duas pessoas do Kaluanã Eco Hotel, em Ji-Paraná, com terraço privativo a céu aberto. Há uma no segundo, no terceiro e no quarto andar, com os nomes Pirarucu, Samaúma e Jacaré-Açu.\n"
+    },
+    "movimento": "Padrão das categorias. A foto do terraço tem um leve movimento de luz (gradiente animado de 12 segundos) simulando o passar do dia, só no desktop e só com movimento permitido pelo sistema.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Suíte Terraço Lateral Aberto",
+        "titulo": "Céu aberto. Porta fechada.",
+        "texto": "Uma suíte para dois com terraço lateral a céu aberto. Mais espaço, mais silêncio e um lugar para ficar do lado de fora sem sair do quarto.\n",
+        "cta_primario": "Reservar esta categoria"
+      },
+      {
+        "nome": "Ficha",
+        "kicker": "A suíte",
+        "titulo": "O que tem na suíte.",
+        "texto": "Até 2 pessoas. ⟨metragem⟩ m² internos e ⟨metragem⟩ m² de terraço aberto. Cama king. Ar-condicionado. Internet sem fio. Mesa de trabalho. TV. Frigobar. Banheiro privativo com ⟨amenidades⟩. Café da manhã incluído.\n"
+      },
+      {
+        "nome": "Os nomes",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Pirarucu, Samaúma, Jacaré-Açu.",
+        "texto": "As suítes de terraço aberto abrem o segundo e o terceiro andar com os nomes do maior peixe e da maior árvore da Amazônia. No quarto andar, é o Apartamento Luxo Jacaré-Açu.\n",
+        "nota": "Validar a hipótese de que a UH 403 (STLA) corresponde ao Apartamento Luxo Jacaré-Açu."
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Reserve a suíte.",
+        "cta_primario": "Ver disponibilidade",
+        "cta_secundario": "Outras categorias"
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/universo/peixes/pirarucu",
+      "/universo/arvores/samauma",
+      "/universo/guardioes/jacare-acu",
+      "/reservas"
+    ],
+    "uhs": [
+      "201",
+      "301",
+      "403"
+    ]
+  },
+  "suite-terraco-lateral-fechado": {
+    "id": "suite-terraco-lateral-fechado",
+    "url": "/acomodacoes/suite-terraco-lateral-fechado",
+    "nome": "Suíte Terraço Lateral Fechado",
+    "tipo": "Categoria de quarto",
+    "pai": "acomodacoes",
+    "ordem": 6,
+    "codigo": "STLF",
+    "capacidade": 2,
+    "objetivo": "Vender a suíte com terraço fechado, a segunda maior acomodação do hotel.",
+    "publico": "Executivos, casais, hóspedes de longa estadia.",
+    "seo": {
+      "title": "Suíte Terraço Lateral Fechado | Kaluanã, Ji-Paraná",
+      "description": "Suíte com terraço lateral fechado do Kaluanã Eco Hotel, em Ji-Paraná: para duas pessoas, com espaço extra coberto e climatizado. O Apartamento Luxo Jaguatirica.",
+      "h1": "Suíte Terraço Lateral Fechado",
+      "keywords": [
+        "suíte luxo ji-paraná",
+        "apartamento luxo ji-paraná",
+        "melhor hotel ji-paraná"
+      ],
+      "schema": [
+        "HotelRoom (occupancy 2, Suite)",
+        "Product com Offer",
+        "BreadcrumbList"
+      ],
+      "resposta": "A Suíte Terraço Lateral Fechado é a suíte do Kaluanã Eco Hotel com terraço coberto e fechado, para duas pessoas, no quarto andar. Leva o nome Jaguatirica e é apresentada como Apartamento Luxo.\n"
+    },
+    "movimento": "Padrão das categorias, com transição de foto em fade lento entre o terraço e o quarto.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Apartamento Luxo Jaguatirica",
+        "titulo": "Um quarto a mais, dentro do quarto.",
+        "texto": "A suíte com terraço lateral fechado. Um ambiente extra, coberto e climatizado, para trabalhar, receber ou descansar. No último andar, com o nome do felino mais discreto da floresta.\n",
+        "cta_primario": "Reservar esta suíte"
+      },
+      {
+        "nome": "Ficha",
+        "kicker": "A suíte",
+        "titulo": "O que tem na suíte.",
+        "texto": "Até 2 pessoas. ⟨metragem⟩ m² internos e ⟨metragem⟩ m² de terraço fechado. Cama king. Ar-condicionado nos dois ambientes. Internet sem fio. Mesa de trabalho. TV. Frigobar. Banheiro privativo com ⟨amenidades⟩. Café da manhã incluído.\n"
+      },
+      {
+        "nome": "O nome",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Jaguatirica.",
+        "texto": "A jaguatirica é a onça pequena da Amazônia. Sobe em tudo, nada, anda quilômetros por noite e não faz barulho. É o nome desta suíte.\n",
+        "cta_secundario": "A história da jaguatirica"
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Reserve o Apartamento Luxo Jaguatirica.",
+        "cta_primario": "Ver disponibilidade",
+        "cta_secundario": "Suíte Presidencial"
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/universo/guardioes/jaguatirica",
+      "/acomodacoes/suite-presidencial-onca-pintada",
+      "/reservas"
+    ],
+    "uhs": [
+      "402"
+    ]
+  },
+  "suite-presidencial-onca-pintada": {
+    "id": "suite-presidencial-onca-pintada",
+    "url": "/acomodacoes/suite-presidencial-onca-pintada",
+    "nome": "Suíte Presidencial Onça-Pintada",
+    "tipo": "Categoria de quarto",
+    "pai": "acomodacoes",
+    "ordem": 7,
+    "codigo": "SMPA",
+    "capacidade": 2,
+    "objetivo": "Ancorar o posicionamento do hotel com a maior acomodação. Servir a diretoria, noivos e ocasiões.",
+    "publico": "Diretoria, casais em ocasiões especiais, autoridades em eventos.",
+    "seo": {
+      "title": "Suíte Presidencial Onça-Pintada | Kaluanã, Ji-Paraná",
+      "description": "A Suíte Presidencial do Kaluanã Eco Hotel, em Ji-Paraná: a maior acomodação do hotel, no último andar, com o nome do maior felino das Américas.",
+      "h1": "Suíte Presidencial Onça-Pintada",
+      "keywords": [
+        "suíte presidencial ji-paraná",
+        "suíte master ji-paraná",
+        "hotel de luxo rondônia"
+      ],
+      "schema": [
+        "HotelRoom (occupancy 2, Suite)",
+        "Product com Offer",
+        "BreadcrumbList"
+      ],
+      "resposta": "A Suíte Presidencial Onça-Pintada é a maior acomodação do Kaluanã Eco Hotel, em Ji-Paraná. Fica no quarto andar, tem vista panorâmica e leva o nome do maior felino das Américas.\n"
+    },
+    "movimento": "Hero com foto em tela cheia e o nome da suíte em tipografia grande, entrando em fade lento de 1,2 segundo. Rolagem revela a suíte em três imagens que se sobrepõem em camadas (sticky stack). Movimento mais lento que nas demais páginas, para marcar hierarquia.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Suíte Presidencial",
+        "titulo": "Onça-Pintada.",
+        "texto": "A maior acomodação do Kaluanã, no ponto mais alto do hotel. Vista panorâmica, sala, quarto e o nome do animal que manda na floresta.\n",
+        "cta_primario": "Reservar a Suíte Presidencial"
+      },
+      {
+        "nome": "Ficha",
+        "kicker": "A suíte",
+        "titulo": "O que tem na suíte.",
+        "texto": "Até 2 pessoas. ⟨metragem⟩ m². Sala de estar e quarto separados. Cama king. Vista panorâmica. Ar-condicionado. Internet sem fio. Mesa de trabalho. TV nos dois ambientes. Frigobar. Banheiro privativo com ⟨amenidades⟩. Café da manhã incluído. ⟨serviços exclusivos⟩.\n",
+        "nota": "Definir com o cliente os serviços exclusivos da suíte: transfer, café no quarto, late check-out."
+      },
+      {
+        "nome": "O nome",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Grande guerreiro, grande felino.",
+        "texto": "Kaluanã quer dizer grande guerreiro. A suíte principal leva o nome da onça-pintada, o maior felino das Américas e o símbolo de força de dezenas de povos da Amazônia. Não é coincidência.\n",
+        "cta_secundario": "A história da onça-pintada"
+      },
+      {
+        "nome": "Ocasiões",
+        "kicker": "Para quando",
+        "titulo": "Para a noite que precisa ser diferente.",
+        "texto": "Diretoria em visita. Palestrante do congresso. Aniversário de casamento. Lua de mel na cidade. A suíte para o dia em que o quarto importa.\n"
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Reserve a Suíte Presidencial.",
+        "cta_primario": "Ver disponibilidade",
+        "cta_secundario": "Falar com o hotel"
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/universo/guardioes/onca-pintada",
+      "/reservas",
+      "/contato"
+    ],
+    "uhs": [
+      "401"
+    ]
+  },
+  "universo": {
+    "id": "universo",
+    "url": "/universo",
+    "nome": "Universo Kaluanã",
+    "tipo": "Hub de conteúdo",
+    "pai": "home",
+    "ordem": 3,
+    "objetivo": "Ser a porta de entrada do conteúdo dos QR Codes, o maior ativo de SEO do site, e transformar a nomenclatura dos quartos em experiência de marca.",
+    "publico": "Hóspedes no quarto (via QR), curiosos, estudantes, público de busca orgânica sobre Amazônia e Rondônia.",
+    "seo": {
+      "title": "Universo Kaluanã | Rios, peixes, árvores e aves da Amazônia",
+      "description": "Cada quarto do Kaluanã Eco Hotel leva o nome de um rio, um peixe, uma árvore ou uma ave da Amazônia. Conheça as histórias por trás dos nomes dos andares.",
+      "h1": "Universo Kaluanã",
+      "keywords": [
+        "universo kaluanã",
+        "rios da amazônia",
+        "peixes da amazônia",
+        "árvores da amazônia",
+        "aves da amazônia",
+        "fauna e flora de rondônia"
+      ],
+      "schema": [
+        "CollectionPage",
+        "ItemList com os cinco grupos",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Universo Kaluanã é a coleção de histórias por trás dos nomes dos quartos do Kaluanã Eco Hotel, em Ji-Paraná. O primeiro andar leva nomes de rios, o segundo de peixes, o terceiro de árvores e o quarto de aves, além das três suítes com nome de onça-pintada, jaguatirica e jacaré-açu.\n"
+    },
+    "movimento": "A página é um elevador. Ao rolar, um indicador lateral sobe de 1º para 4º andar e cada andar ocupa a tela com sua cor e uma imagem em parallax de 8 por cento. Os nomes dos quartos aparecem em uma grade que se preenche em cascata (stagger de 40 ms). No topo, um campo de busca filtra os setenta nomes conforme o usuário digita. No mobile, os andares viram abas fixas no topo.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Universo Kaluanã",
+        "titulo": "Cada porta tem um nome. Cada nome tem uma história.",
+        "texto": "No Kaluanã, os quartos não têm só número. No primeiro andar, rios. No segundo, peixes. No terceiro, árvores. No quarto, aves. Todos da Amazônia, muitos de Rondônia. Escolha um andar e conheça o que dá nome ao seu quarto.\n"
+      },
+      {
+        "nome": "Como funciona",
+        "kicker": "No quarto",
+        "titulo": "Aponte a câmera. Leia a história.",
+        "texto": "Em cada quarto há um QR Code. Ele abre a página do nome do quarto: de onde vem, o que faz, por que está aqui. Leva dois minutos e vale a pena antes de dormir.\n"
+      },
+      {
+        "nome": "Andar dos Rios",
+        "kicker": "1º andar",
+        "titulo": "Rios.",
+        "texto": "Do Amazonas ao Machado, que corta Ji-Paraná. Catorze rios que explicam como a água organiza a Amazônia.\n",
+        "cta_secundario": "Ver o andar dos rios"
+      },
+      {
+        "nome": "Andar dos Peixes",
+        "kicker": "2º andar",
+        "titulo": "Peixes.",
+        "texto": "Do pirarucu, que respira ar, ao poraquê, que dá choque. Dezoito peixes que vivem nos rios do andar de baixo.\n",
+        "cta_secundario": "Ver o andar dos peixes"
+      },
+      {
+        "nome": "Andar das Árvores",
+        "kicker": "3º andar",
+        "titulo": "Árvores.",
+        "texto": "Da samaúma, a mais alta, à seringueira, que trouxe gente para Rondônia. Dezoito árvores que dão madeira, óleo, fruta e sombra.\n",
+        "cta_secundario": "Ver o andar das árvores"
+      },
+      {
+        "nome": "Andar das Aves",
+        "kicker": "4º andar",
+        "titulo": "Aves.",
+        "texto": "Da arara ao cardeal-da-amazônia. Dezessete aves que voam sobre tudo isso.\n",
+        "cta_secundario": "Ver o andar das aves"
+      },
+      {
+        "nome": "Os Guardiões",
+        "kicker": "Suítes",
+        "titulo": "Onça-pintada, jaguatirica e jacaré-açu.",
+        "texto": "As três maiores acomodações levam o nome dos três grandes predadores da floresta. Kaluanã quer dizer grande guerreiro. Estes são os guardiões da casa.\n",
+        "cta_secundario": "Ver os guardiões"
+      },
+      {
+        "nome": "Busca",
+        "kicker": "Procure um nome",
+        "titulo": "Em que quarto você está?",
+        "texto": "Digite o nome ou o número do quarto.\n",
+        "nota": "Campo de busca com autocomplete sobre os setenta nomes e as UHs."
+      }
+    ],
+    "links_internos": [
+      "/universo/rios",
+      "/universo/peixes",
+      "/universo/arvores",
+      "/universo/aves",
+      "/universo/guardioes",
+      "/acomodacoes"
+    ],
+    "notas": [
+      "Este hub e as setenta páginas são o principal motor de tráfego orgânico do site. Conteúdo com valor próprio, não dependente de reserva.",
+      "Os números catorze, dezoito e dezessete entram só após a inauguração. Antes, usar Rios, Peixes, Árvores e Aves sem contagem."
+    ]
+  },
+  "universo-rios": {
+    "id": "universo-rios",
+    "url": "/universo/rios",
+    "nome": "Andar dos Rios",
+    "tipo": "Hub de andar",
+    "pai": "universo",
+    "ordem": 1,
+    "objetivo": "Listar os catorze rios com imagem, nome, número do quarto e uma frase, e distribuir autoridade para as páginas de cada rio.",
+    "publico": "Hóspedes do primeiro andar, público de busca sobre rios da Amazônia e de Rondônia.",
+    "seo": {
+      "title": "Andar dos Rios | Os 14 rios dos quartos | Kaluanã",
+      "description": "Amazonas, Solimões, Negro, Madeira, Guaporé, Mamoré, Tapajós, Xingu, Purus, Juruá, Jamari, Machado, Araguaia e Roosevelt: os rios do 1º andar do Kaluanã.",
+      "h1": "Andar dos Rios",
+      "keywords": [
+        "rios da amazônia",
+        "rios de rondônia",
+        "principais rios da amazônia",
+        "rio madeira",
+        "rio machado"
+      ],
+      "schema": [
+        "CollectionPage",
+        "ItemList de 14 itens (cada um com url, name, image)",
+        "BreadcrumbList"
+      ],
+      "resposta": "O primeiro andar do Kaluanã Eco Hotel leva o nome de catorze rios: Amazonas, Solimões, Negro, Madeira, Guaporé, Mamoré, Tapajós, Xingu, Purus, Juruá, Jamari, Machado, Araguaia e Roosevelt. Quatro deles, Madeira, Guaporé, Jamari e Machado, correm por Rondônia.\n"
+    },
+    "movimento": "Mapa esquemático da bacia em linhas finas (SVG) que se desenha ao entrar na tela. Cada rio é um traço; ao passar o mouse, o traço engrossa e o card correspondente se destaca. No mobile, lista vertical com a imagem em faixa.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "1º andar",
+        "titulo": "Catorze rios. Uma bacia.",
+        "texto": "Alguns você conhece de nome, como o Amazonas e o Negro. Outros nascem e terminam aqui perto, como o Machado, que corta Ji-Paraná, e o Jamari. Todos contam a mesma história por caminhos diferentes: a água que passa por Rondônia é a água que forma a Amazônia.\n"
+      },
+      {
+        "nome": "Lista",
+        "kicker": "Quartos 101 a 114",
+        "titulo": "Os rios.",
+        "nota": "Grade com os 14 cards: imagem hero de cada rio, nome, subtítulo e número do quarto. Ordem pela numeração."
+      },
+      {
+        "nome": "Rondônia",
+        "kicker": "Os rios da casa",
+        "titulo": "Madeira, Guaporé, Jamari e Machado.",
+        "texto": "Quatro rios deste andar correm por Rondônia. O Machado passa a poucos minutos do hotel.\n"
+      }
+    ],
+    "links_internos": [
+      "/universo",
+      "/universo/peixes",
+      "/universo/rios/rio-machado",
+      "/universo/rios/rio-madeira"
+    ]
+  },
+  "universo-peixes": {
+    "id": "universo-peixes",
+    "url": "/universo/peixes",
+    "nome": "Andar dos Peixes",
+    "tipo": "Hub de andar",
+    "pai": "universo",
+    "ordem": 2,
+    "objetivo": "Listar os dezoito peixes e distribuir autoridade para as páginas de cada um.",
+    "publico": "Hóspedes do segundo andar, pescadores, público de busca sobre peixes amazônicos e culinária regional.",
+    "seo": {
+      "title": "Andar dos Peixes | Os 18 peixes dos quartos | Kaluanã",
+      "description": "Pirarucu, tambaqui, tucunaré, surubim, poraquê, pirarara e outros. Os dezoito peixes da Amazônia que dão nome ao 2º andar do Kaluanã Eco Hotel, em Ji-Paraná.",
+      "h1": "Andar dos Peixes",
+      "keywords": [
+        "peixes da amazônia",
+        "peixes de rondônia",
+        "peixes de água doce do brasil",
+        "pirarucu",
+        "tambaqui"
+      ],
+      "schema": [
+        "CollectionPage",
+        "ItemList de 18 itens",
+        "BreadcrumbList"
+      ],
+      "resposta": "O segundo andar do Kaluanã Eco Hotel leva o nome de dezoito peixes: pirarucu, tambaqui, tucunaré, surubim, curimatã, matrinxã, bodó, cachara, jaú, sardinha-da-amazônia, filhote, curvina, lambari, piau, pintado, caparari, poraquê e pirarara.\n"
+    },
+    "movimento": "Os cards flutuam com um deslocamento vertical suave e dessincronizado (2 a 4 px, 6 segundos), só no desktop e só com movimento permitido. Ao passar o mouse, a imagem do peixe escala 4 por cento.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "2º andar",
+        "titulo": "Dezoito peixes. Um deles dá choque.",
+        "texto": "Alguns chegam à mesa do restaurante, como o tambaqui e o pirarucu. Outros são gigantes de couro que vivem no fundo dos poços, como o jaú e a piraíba. Todos nadam nos rios do andar de baixo.\n"
+      },
+      {
+        "nome": "Lista",
+        "kicker": "Quartos 201 a 218",
+        "titulo": "Os peixes.",
+        "nota": "Grade com 18 cards."
+      },
+      {
+        "nome": "À mesa",
+        "kicker": "Restaurante Kaluanã",
+        "titulo": "Alguns destes nomes estão no cardápio.",
+        "texto": "Tambaqui, pirarucu, tucunaré e matrinxã. Peixe de Rondônia, preparado do jeito daqui.\n",
+        "cta_secundario": "Ver o restaurante"
+      }
+    ],
+    "links_internos": [
+      "/universo",
+      "/universo/arvores",
+      "/restaurante",
+      "/universo/peixes/tambaqui"
+    ]
+  },
+  "universo-arvores": {
+    "id": "universo-arvores",
+    "url": "/universo/arvores",
+    "nome": "Andar das Árvores",
+    "tipo": "Hub de andar",
+    "pai": "universo",
+    "ordem": 3,
+    "objetivo": "Listar as dezoito árvores e distribuir autoridade para as páginas de cada uma.",
+    "publico": "Hóspedes do terceiro andar, público de busca sobre árvores amazônicas, madeira, óleos e frutas.",
+    "seo": {
+      "title": "Andar das Árvores | As 18 árvores dos quartos | Kaluanã",
+      "description": "Samaúma, castanheira, copaíba, andiroba, açaí, cumaru, ipê, jatobá, seringueira e outras. As árvores da Amazônia que dão nome ao 3º andar do Kaluanã Eco Hotel.",
+      "h1": "Andar das Árvores",
+      "keywords": [
+        "árvores da amazônia",
+        "árvores de rondônia",
+        "madeiras da amazônia",
+        "samaúma",
+        "castanheira"
+      ],
+      "schema": [
+        "CollectionPage",
+        "ItemList de 18 itens",
+        "BreadcrumbList"
+      ],
+      "resposta": "O terceiro andar do Kaluanã Eco Hotel leva o nome de dezoito árvores: samaúma, castanheira, copaíba, andiroba, açaí, cumaru, cedro, mogno, ipê, jatobá, bacaba, tucumã, angelim, maçaranduba, jenipapo, itaúba, seringueira e jequitibá.\n"
+    },
+    "movimento": "Ao rolar, as imagens das árvores, na maioria verticais, sobem em parallax um pouco mais rápido que o texto, criando a sensação de olhar para cima. Um filtro por uso (madeira, óleo, fruta, sombra) reorganiza a grade com transição de 400 ms.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "3º andar",
+        "titulo": "Dezoito árvores. Muitas delas estão no que você toca.",
+        "texto": "Algumas passam de 50 metros, como a samaúma e a castanheira. Outras dão óleo, fruta, látex, tinta e remédio. Todas crescem em Rondônia. Várias estão no material deste hotel: no piso, nos móveis, na mesa do restaurante.\n"
+      },
+      {
+        "nome": "Lista",
+        "kicker": "Quartos 301 a 318",
+        "titulo": "As árvores.",
+        "nota": "Grade com 18 cards e filtro por uso."
+      },
+      {
+        "nome": "No hotel",
+        "kicker": "Materiais",
+        "titulo": "A madeira do Kaluanã tem nome e origem.",
+        "texto": "As madeiras usadas na obra vêm de manejo florestal com documento de origem. Esta lista diz quais são e onde estão.\n",
+        "nota": "Publicar somente com a lista real de madeiras usadas na obra e os documentos de origem, fornecidos pelo cliente. Sem isso, não publicar a seção."
+      }
+    ],
+    "links_internos": [
+      "/universo",
+      "/universo/aves",
+      "/o-kaluana",
+      "/universo/arvores/samauma"
+    ]
+  },
+  "universo-aves": {
+    "id": "universo-aves",
+    "url": "/universo/aves",
+    "nome": "Andar das Aves",
+    "tipo": "Hub de andar",
+    "pai": "universo",
+    "ordem": 4,
+    "objetivo": "Listar as dezessete aves e distribuir autoridade para as páginas de cada uma.",
+    "publico": "Hóspedes do quarto andar, observadores de aves, público de busca.",
+    "seo": {
+      "title": "Andar das Aves | As 17 aves dos quartos | Kaluanã",
+      "description": "Arara, tucano, papagaio, gavião-real, uirapuru, beija-flor, garça, mutum, coruja e outras. As aves da Amazônia que dão nome ao 4º andar do Kaluanã Eco Hotel.",
+      "h1": "Andar das Aves",
+      "keywords": [
+        "aves da amazônia",
+        "aves de rondônia",
+        "pássaros da amazônia",
+        "arara",
+        "gavião real"
+      ],
+      "schema": [
+        "CollectionPage",
+        "ItemList de 17 itens",
+        "BreadcrumbList"
+      ],
+      "resposta": "O quarto andar do Kaluanã Eco Hotel leva o nome de dezessete aves: arara, tucano, papagaio, gavião-real, uirapuru, beija-flor, garça, mutum, coruja, carcará, maracanã, anu-preto, tangará, colhereiro, curió, andorinha e cardeal-da-amazônia.\n"
+    },
+    "movimento": "Ao entrar na página, um bando de pontos em verde sálvia cruza o topo da tela uma única vez, em 2 segundos, e some. Os cards entram de cima para baixo. Cada card tem um botão de som com o canto da ave (áudio licenciado, acionado só por clique).\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "4º andar",
+        "titulo": "Dezessete aves. O andar mais perto do céu.",
+        "texto": "É o andar mais alto, e por isso ficou com quem voa. Arara, tucano e papagaio abrem a lista. O gavião-real, a maior águia das Américas, faz o ninho nas árvores do andar de baixo. Várias destas aves podem ser vistas nos arredores do hotel.\n"
+      },
+      {
+        "nome": "Lista",
+        "kicker": "Quartos 404 a 420",
+        "titulo": "As aves.",
+        "nota": "Grade com 17 cards e botão de canto por ave. Áudio de fontes licenciadas, como WikiAves com autorização dos autores ou xeno-canto com licença compatível."
+      },
+      {
+        "nome": "Observação",
+        "kicker": "Perto do hotel",
+        "titulo": "Quais destas você vê em Ji-Paraná.",
+        "texto": "Garça, anu-preto, carcará, coruja-buraqueira, beija-flor e andorinha aparecem na cidade e nos arredores. Tucano e papagaio, em áreas arborizadas. Arara, nas matas próximas, ao entardecer.\n"
+      }
+    ],
+    "links_internos": [
+      "/universo",
+      "/universo/guardioes",
+      "/universo/arvores",
+      "/universo/aves/gaviao-real"
+    ]
+  },
+  "universo-guardioes": {
+    "id": "universo-guardioes",
+    "url": "/universo/guardioes",
+    "nome": "Os Guardiões",
+    "tipo": "Hub de andar",
+    "pai": "universo",
+    "ordem": 5,
+    "objetivo": "Apresentar as três suítes especiais pelo nome, ligando conteúdo e produto premium.",
+    "publico": "Hóspedes das suítes, público corporativo sênior, curiosos.",
+    "seo": {
+      "title": "Os Guardiões | Onça, jaguatirica e jacaré-açu | Kaluanã",
+      "description": "As três maiores acomodações do Kaluanã Eco Hotel levam o nome dos grandes predadores da Amazônia: onça-pintada, jaguatirica e jacaré-açu.",
+      "h1": "Os Guardiões",
+      "keywords": [
+        "onça pintada",
+        "jaguatirica",
+        "jacaré açu",
+        "predadores da amazônia",
+        "suíte presidencial ji-paraná"
+      ],
+      "schema": [
+        "CollectionPage",
+        "ItemList de 3 itens",
+        "BreadcrumbList"
+      ],
+      "resposta": "Os Guardiões são as três acomodações especiais do quarto andar do Kaluanã Eco Hotel: a Suíte Presidencial Onça-Pintada e os apartamentos de luxo Jaguatirica e Jacaré-Açu, nomeados com os três grandes predadores da Amazônia.\n"
+    },
+    "movimento": "Três painéis em tela cheia com rolagem por snap. Cada painel tem a foto do animal em fundo escuro, o nome em tipografia grande e um único botão. A transição entre painéis é um fade cruzado de 600 ms.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Suítes",
+        "titulo": "Três guardiões. Três suítes.",
+        "texto": "No quarto andar, três acomodações fogem da regra das aves. São as maiores do hotel e levam o nome dos três grandes predadores da Amazônia. Kaluanã quer dizer grande guerreiro. Estes são os guardiões da casa.\n"
+      },
+      {
+        "nome": "Lista",
+        "kicker": "Quartos 401 a 403",
+        "titulo": "Onça-pintada. Jaguatirica. Jacaré-açu.",
+        "nota": "Três painéis, cada um com link para a história e para a página da acomodação."
+      }
+    ],
+    "links_internos": [
+      "/universo",
+      "/acomodacoes/suite-presidencial-onca-pintada",
+      "/acomodacoes/suite-terraco-lateral-fechado",
+      "/acomodacoes/suite-terraco-lateral-aberto"
+    ]
+  },
+  "qr-redirect": {
+    "id": "qr-redirect",
+    "url": "/q/{uh}",
+    "nome": "Atalho do QR Code",
+    "tipo": "Rota técnica",
+    "pai": "universo",
+    "ordem": 6,
+    "objetivo": "Dar a cada quarto um endereço curto e estável para o QR Code, independente do nome. Se o nome de um quarto mudar, o QR na placa continua válido.",
+    "publico": "Hóspede no quarto.",
+    "seo": {
+      "title": "(sem indexação)",
+      "description": "Redirecionamento 301 para a página do nome do quarto. Marcar com noindex.",
+      "h1": "(não se aplica)",
+      "keywords": [],
+      "schema": [],
+      "resposta": "Rota /q/101 redireciona para /universo/rios/rio-amazonas?uh=101. A página de destino reconhece o parâmetro e mostra a barra de hóspede.\n"
+    },
+    "movimento": "Sem interface própria. O destino abre com a barra de hóspede já expandida e uma saudação: Você está no quarto Rio Amazonas.\n",
+    "secoes": [
+      {
+        "nome": "Regra",
+        "titulo": "Um QR por quarto, apontando para /q/{número da UH}.",
+        "texto": "O QR impresso na placa do quarto aponta para kaluanaecohotel.com.br/q/101, e não para a URL longa. O servidor faz o redirecionamento 301 para a página do nome. Assim a placa nunca precisa ser reimpressa e o acesso pode ser medido por quarto.\n",
+        "nota": "Tabela de redirecionamento gerada a partir do inventário de UHs deste documento. Registrar o acesso por UH no analytics como evento qr_scan com o parâmetro uh."
+      }
+    ],
+    "links_internos": [
+      "/universo"
+    ]
+  },
+  "restaurante": {
+    "id": "restaurante",
+    "url": "/restaurante",
+    "nome": "Restaurante",
+    "tipo": "Página de produto",
+    "pai": "home",
+    "ordem": 4,
+    "objetivo": "Apresentar o Restaurante Kaluanã como restaurante da cidade, não só do hotel. Gerar reservas de mesa e visitas de moradores.",
+    "publico": "Fernanda (moradora), hóspedes, empresas que almoçam com clientes.",
+    "seo": {
+      "title": "Restaurante Kaluanã | Restaurante em Ji-Paraná",
+      "description": "O Restaurante Kaluanã fica no Kaluanã Eco Hotel e é aberto ao público. Café da manhã, almoço e jantar em Ji-Paraná, com peixe de Rondônia e mesa sem pressa.",
+      "h1": "Restaurante Kaluanã",
+      "keywords": [
+        "restaurante ji-paraná",
+        "restaurante em ji-paraná ro",
+        "onde comer em ji-paraná",
+        "restaurante de hotel ji-paraná",
+        "peixe ji-paraná"
+      ],
+      "schema": [
+        "Restaurant (servesCuisine, openingHoursSpecification, menu, acceptsReservations, address igual ao do hotel)",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Restaurante Kaluanã é o restaurante do Kaluanã Eco Hotel, em Ji-Paraná, aberto ao público para café da manhã, almoço e jantar. Fica na Rodovia Pastor Severo Antonio de Araujo, 2015, e tem peixe de Rondônia no cardápio.\n"
+    },
+    "movimento": "Hero com foto de prato em close e um leve zoom out de 1,04 para 1,0 em 1,5 segundo. O cardápio abre em acordeão por refeição. O horário do dia é destacado automaticamente conforme a hora do acesso.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Restaurante Kaluanã",
+        "titulo": "Aberto para a cidade.",
+        "texto": "O Restaurante Kaluanã fica dentro do hotel e é de todo mundo. Café da manhã cedo para quem viaja, almoço para quem trabalha por perto, jantar para quem quer sentar sem hora para levantar.\n",
+        "cta_primario": "Reservar mesa",
+        "cta_secundario": "Ver o cardápio"
+      },
+      {
+        "nome": "Cozinha",
+        "kicker": "O que servimos",
+        "titulo": "Peixe de Rondônia, feito do jeito daqui.",
+        "texto": "Tambaqui, pirarucu, tucunaré e matrinxã. Farinha, pirão, vinagrete e o que a estação der. Uma cozinha que conhece o rio de onde o peixe veio.\n",
+        "nota": "Cardápio, chef, preços e horários: pendentes com o cliente. Não inventar pratos. A frase acima usa os peixes do Universo Kaluanã como direção, a validar."
+      },
+      {
+        "nome": "Horários",
+        "kicker": "Quando",
+        "titulo": "Café, almoço e jantar.",
+        "texto": "Café da manhã das ⟨hora⟩ às ⟨hora⟩. Almoço das ⟨hora⟩ às ⟨hora⟩. Jantar das ⟨hora⟩ às ⟨hora⟩. Hóspedes têm o café incluído.\n"
+      },
+      {
+        "nome": "Para empresas",
+        "kicker": "Almoço de negócios",
+        "titulo": "Mesa reservada para quem fecha negócio no almoço.",
+        "texto": "Espaço para reuniões à mesa e coffee break para eventos no hotel.\n",
+        "cta_secundario": "Falar com o restaurante"
+      },
+      {
+        "nome": "Chamada final",
+        "titulo": "Reserve sua mesa.",
+        "cta_primario": "Reservar mesa",
+        "cta_secundario": "Como chegar"
+      }
+    ],
+    "links_internos": [
+      "/universo/peixes",
+      "/eventos",
+      "/contato",
+      "/ji-parana"
+    ],
+    "notas": [
+      "No Google Meu Negócio, o restaurante é categoria secundária da ficha do hotel, sem ficha própria. O site segue a mesma regra: uma página, sem subdomínio."
+    ]
+  },
+  "eventos": {
+    "id": "eventos",
+    "url": "/eventos",
+    "nome": "Eventos",
+    "tipo": "Página de produto",
+    "pai": "home",
+    "ordem": 5,
+    "objetivo": "Captar propostas para o auditório e o centro de convenções. É o eixo do LinkedIn pós-inauguração.",
+    "publico": "Empresas, associações, organizadores de congressos, noivos.",
+    "seo": {
+      "title": "Eventos e Convenções em Ji-Paraná | Kaluanã Eco Hotel",
+      "description": "Auditório e centro de convenções em Ji-Paraná, com hospedagem e restaurante no mesmo endereço. Reuniões, treinamentos, congressos e celebrações.",
+      "h1": "Eventos e convenções",
+      "keywords": [
+        "centro de convenções ji-paraná",
+        "auditório ji-paraná",
+        "espaço para eventos ji-paraná",
+        "hotel para eventos rondônia",
+        "salão de festas ji-paraná"
+      ],
+      "schema": [
+        "EventVenue (maximumAttendeeCapacity, amenityFeature)",
+        "Service (Organização de eventos)",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Kaluanã Eco Hotel, em Ji-Paraná, tem auditório e centro de convenções para reuniões, treinamentos, congressos e celebrações, com hospedagem e restaurante no mesmo endereço. Propostas pelo formulário da página ou pelo telefone do hotel.\n"
+    },
+    "movimento": "Planta esquemática dos espaços em SVG, sem escala e sem dimensões reais, que se ilumina por espaço ao passar o mouse. Calculadora simples: número de pessoas e formato (auditório, escola, U, banquete) devolve o espaço indicado. Formulário em etapas, com transição lateral.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Eventos e convenções",
+        "titulo": "O evento inteiro no mesmo endereço.",
+        "texto": "Auditório, centro de convenções, hospedagem e restaurante. Reunião de equipe, treinamento, congresso regional, formatura ou casamento, sem deslocar ninguém.\n",
+        "cta_primario": "Solicitar proposta"
+      },
+      {
+        "nome": "Espaços",
+        "kicker": "Os espaços",
+        "titulo": "Auditório e centro de convenções.",
+        "texto": "Auditório para ⟨capacidade⟩ pessoas, com ⟨equipamentos⟩. Centro de convenções com ⟨área⟩ m², divisível em ⟨número⟩ salas. Foyer para coffee break e credenciamento. ⟨Estacionamento⟩ vagas.\n",
+        "nota": "Publicar somente após autorização formal do cliente. Capacidades e equipamentos a confirmar."
+      },
+      {
+        "nome": "Formatos",
+        "kicker": "Para que serve",
+        "titulo": "Do treinamento de dez pessoas ao congresso regional.",
+        "texto": "Reuniões de diretoria. Treinamentos e convenções de vendas. Congressos e seminários da região central de Rondônia. Formaturas, casamentos e aniversários.\n"
+      },
+      {
+        "nome": "Hospedagem para grupos",
+        "kicker": "Pacotes",
+        "titulo": "Quem vem para o evento dorme aqui.",
+        "texto": "Tarifas de grupo, bloqueio de quartos e café da manhã para os participantes. A equipe monta o pacote com o organizador.\n"
+      },
+      {
+        "nome": "Formulário",
+        "kicker": "Proposta",
+        "titulo": "Conte o que você precisa.",
+        "texto": "Tipo de evento, data, número de pessoas, precisa de hospedagem, precisa de alimentação. A equipe responde em até um dia útil.\n",
+        "nota": "Campos: nome, empresa, e-mail, telefone, tipo de evento, data, pessoas, hospedagem (sim ou não), alimentação (sim ou não), mensagem. Evento de conversão: lead_evento."
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/restaurante",
+      "/contato",
+      "/ji-parana"
+    ],
+    "notas": [
+      "Página inteira condicionada à autorização do cliente para divulgar auditório e centro de convenções. Até a autorização, fica fora do menu e com noindex."
+    ]
+  },
+  "ji-parana": {
+    "id": "ji-parana",
+    "url": "/ji-parana",
+    "nome": "Ji-Paraná",
+    "tipo": "Guia do território",
+    "pai": "home",
+    "ordem": 6,
+    "objetivo": "Ancorar o SEO local, cumprir o pilar Território do posicionamento e ajudar quem chega à cidade. Página de entidade para o GEO.",
+    "publico": "Quem vai a Ji-Paraná pela primeira vez, assistentes que decidem reserva, moradores.",
+    "seo": {
+      "title": "Ji-Paraná, Rondônia | Guia de quem chega | Kaluanã Eco Hotel",
+      "description": "Como chegar a Ji-Paraná, o que fazer, onde fica o rio Machado e por que a cidade é o coração de Rondônia. O guia do Kaluanã Eco Hotel para quem chega à cidade.",
+      "h1": "Ji-Paraná",
+      "keywords": [
+        "ji-paraná",
+        "ji-paraná rondônia",
+        "o que fazer em ji-paraná",
+        "como chegar em ji-paraná",
+        "aeroporto de ji-paraná",
+        "ji-paraná coração de rondônia"
+      ],
+      "schema": [
+        "Article ou TouristDestination",
+        "Place (Ji-Paraná) com geo",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "resposta": "Ji-Paraná é a segunda maior cidade de Rondônia, no centro do estado, cortada pelo rio Machado e atravessada pela BR-364. É polo regional de comércio, saúde, ensino e agronegócio. Tem aeroporto próprio, o José Coleto, e fica a cerca de 370 km de Porto Velho.\n"
+    },
+    "movimento": "Mapa estilizado em verde sálvia com o rio Machado desenhado em traço animado, o hotel, o aeroporto e a BR-364. Os pontos de interesse acendem conforme a rolagem passa por cada bloco. Distâncias aparecem por contagem curta.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Onde estamos",
+        "titulo": "O coração de Rondônia.",
+        "texto": "Ji-Paraná fica no centro do estado, cortada ao meio pelo rio Machado. É a segunda maior cidade de Rondônia e o ponto de encontro de quem faz negócio na região. O Kaluanã fica na Rodovia Pastor Severo Antonio de Araujo, 2015.\n",
+        "cta_secundario": "Como chegar ao hotel"
+      },
+      {
+        "nome": "Como chegar",
+        "kicker": "Chegando",
+        "titulo": "De avião, de carro ou de ônibus.",
+        "texto": "De avião: o aeroporto José Coleto recebe voos regulares e fica a ⟨minutos⟩ do hotel. De carro: a BR-364 cruza a cidade; Porto Velho fica a cerca de 370 km, Cacoal a cerca de 95 km, Ariquemes a cerca de 195 km e Vilhena a cerca de 330 km. De ônibus: a rodoviária fica a ⟨minutos⟩ do hotel.\n",
+        "nota": "Confirmar distâncias e tempos com o cliente. Os valores acima são aproximados por rodovia."
+      },
+      {
+        "nome": "O rio",
+        "kicker": "Rio Machado",
+        "titulo": "O rio que dá nome à cidade.",
+        "texto": "Ji-Paraná, em tupi, quer dizer rio do machado. O Machado divide a cidade em dois distritos e é o mesmo rio que dá nome ao quarto 112 do hotel. Na seca, expõe praias. O ano inteiro, é o lugar onde a cidade se encontra.\n",
+        "cta_secundario": "A história do rio Machado"
+      },
+      {
+        "nome": "O que fazer",
+        "kicker": "Na cidade",
+        "titulo": "Para quem tem uma tarde livre.",
+        "texto": "A orla do rio Machado. O comércio do centro. ⟨Parque ou praça de referência⟩. ⟨Museu ou memorial⟩. Feira de produtos da região. E, no fim de semana, as praias do rio na seca.\n",
+        "nota": "Lista a validar com o cliente e com a analista da conta. Só pontos reais e abertos."
+      },
+      {
+        "nome": "Negócios",
+        "kicker": "Para quem vem a trabalho",
+        "titulo": "Uma cidade que trabalha.",
+        "texto": "Agro, comércio, saúde e ensino. Ji-Paraná concentra empresas, hospitais, universidades e distribuidoras que atendem a região central de Rondônia. Quem vem a trabalho encontra o que precisa a poucos minutos do hotel.\n"
+      },
+      {
+        "nome": "Perguntas",
+        "kicker": "Perguntas frequentes",
+        "titulo": "O que perguntam sobre Ji-Paraná.",
+        "nota": "FAQ com schema FAQPage."
+      }
+    ],
+    "links_internos": [
+      "/universo/rios/rio-machado",
+      "/contato",
+      "/acomodacoes",
+      "/restaurante"
+    ],
+    "faq": [
+      {
+        "p": "Onde fica Ji-Paraná?",
+        "r": "No centro de Rondônia, na BR-364, a cerca de 370 km de Porto Velho. É a segunda maior cidade do estado."
+      },
+      {
+        "p": "Ji-Paraná tem aeroporto?",
+        "r": "Sim, o aeroporto José Coleto, com voos regulares. O Kaluanã fica a ⟨minutos⟩ do aeroporto."
+      },
+      {
+        "p": "Por que Ji-Paraná se chama assim?",
+        "r": "Por causa do rio. Ji-Paraná é o nome tupi do rio Machado e significa rio do machado. A cidade adotou o nome do rio ao virar município, em 1977."
+      },
+      {
+        "p": "Qual a melhor época para visitar Ji-Paraná?",
+        "r": "A seca, de maio a setembro, tem menos chuva, estradas melhores e as praias do rio Machado. A chuva, de outubro a abril, é a época mais verde."
+      }
+    ]
+  },
+  "historias": {
+    "id": "historias",
+    "url": "/historias",
+    "nome": "Histórias",
+    "tipo": "Blog",
+    "pai": "home",
+    "ordem": 7,
+    "objetivo": "Sustentar o pilar A obra como narrativa antes da inauguração e virar o canal de novidades depois. Alimentar SEO com conteúdo recorrente e servir de fonte para as redes.",
+    "publico": "Fernanda (curiosa sobre a obra), imprensa local, futuros hóspedes.",
+    "seo": {
+      "title": "Histórias | Diário do Kaluanã Eco Hotel",
+      "description": "A obra do Kaluanã Eco Hotel contada por quem constrói, as histórias dos nomes dos quartos e as novidades do hotel em Ji-Paraná.",
+      "h1": "Histórias",
+      "keywords": [
+        "kaluanã eco hotel obra",
+        "novo hotel ji-paraná",
+        "diário de obra hotel",
+        "hotel em construção rondônia"
+      ],
+      "schema": [
+        "Blog",
+        "BlogPosting em cada post (author Organization, datePublished, image)",
+        "BreadcrumbList"
+      ],
+      "resposta": "Histórias é o diário do Kaluanã Eco Hotel: posts sobre a construção do hotel em Ji-Paraná, sobre os nomes dos quartos e sobre as novidades da operação.\n"
+    },
+    "movimento": "Lista de posts em duas colunas com a capa em proporção 4 por 5. Ao passar o mouse, a capa escala 3 por cento e a data desliza para dentro. Categorias como chips no topo, filtrando sem recarregar.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Diário do Kaluanã",
+        "titulo": "Construído à vista de todo mundo.",
+        "texto": "A obra, as decisões, as pessoas, os nomes. O que acontece no Kaluanã, contado antes de acontecer.\n"
+      },
+      {
+        "nome": "Categorias",
+        "kicker": "Assuntos",
+        "titulo": "Obra. Nomes. Ji-Paraná. Hotel.",
+        "texto": "Obra: o que foi feito nesta semana. Nomes: as histórias do Universo Kaluanã. Ji-Paraná: a cidade e a região. Hotel: novidades da operação.\n"
+      },
+      {
+        "nome": "Lista",
+        "nota": "Lista paginada, 12 por página."
+      }
+    ],
+    "links_internos": [
+      "/historias/{slug}",
+      "/universo",
+      "/o-kaluana"
+    ],
+    "notas": [
+      "Cada post segue o guardrail de frame: sem planta, sem volumetria, sem valores. Mãos, materiais, terra, estrutura, pessoas, luz.",
+      "Os posts do Instagram podem virar posts do blog com texto ampliado. Não copiar a legenda; reescrever."
+    ]
+  },
+  "historia-post": {
+    "id": "historia-post",
+    "url": "/historias/{slug}",
+    "nome": "Post",
+    "tipo": "Modelo de post",
+    "pai": "historias",
+    "ordem": 1,
+    "objetivo": "Modelo de página de post com estrutura fixa para SEO e leitura.",
+    "publico": "Leitores do blog, busca orgânica.",
+    "seo": {
+      "title": "{Título do post} | Histórias | Kaluanã",
+      "description": "{Resumo de até 155 caracteres}",
+      "h1": "{Título do post}",
+      "keywords": [
+        "{palavras do post}"
+      ],
+      "schema": [
+        "BlogPosting (headline, image, datePublished, dateModified, author, publisher)",
+        "BreadcrumbList"
+      ],
+      "resposta": "{Primeiro parágrafo do post, escrito como resposta direta ao tema, com até 60 palavras.}\n"
+    },
+    "movimento": "Barra de progresso de leitura em verde sálvia no topo. Imagens entram com máscara. Ao final, três posts relacionados.\n",
+    "secoes": [
+      {
+        "nome": "Estrutura",
+        "titulo": "Kicker (categoria). Título. Data. Tempo de leitura. Imagem de capa. Primeiro parágrafo como resposta direta. Corpo com subtítulos H2. Imagens com legenda. Bloco final: o que vem a seguir. Posts relacionados.",
+        "nota": "Tamanho mínimo de 400 palavras. Uma imagem a cada 250 palavras. Legenda em toda imagem."
+      }
+    ],
+    "links_internos": [
+      "/historias",
+      "/universo"
+    ]
+  },
+  "reservas": {
+    "id": "reservas",
+    "url": "/reservas",
+    "nome": "Reservas",
+    "tipo": "Conversão",
+    "pai": "home",
+    "ordem": 8,
+    "objetivo": "Ser o destino de todos os botões Reservar. Enquanto o motor não existe, explica o caminho e capta o interesse. Com o motor, embute ou redireciona.",
+    "publico": "Todos.",
+    "seo": {
+      "title": "Reservas | Kaluanã Eco Hotel, Ji-Paraná",
+      "description": "Reserve sua estadia no Kaluanã Eco Hotel, em Ji-Paraná. Tarifas, disponibilidade e reservas para grupos e empresas.",
+      "h1": "Reservas",
+      "keywords": [
+        "reservar hotel ji-paraná",
+        "reserva kaluanã",
+        "hotel ji-paraná preço"
+      ],
+      "schema": [
+        "WebPage",
+        "Hotel com potentialAction ReserveAction (quando o motor existir)",
+        "BreadcrumbList"
+      ],
+      "resposta": "As reservas do Kaluanã Eco Hotel, em Ji-Paraná, são feitas pelo motor de reservas do site. Para grupos, eventos e contas corporativas, o hotel atende por telefone e formulário.\n"
+    },
+    "movimento": "Página sem distração. O widget do motor de reservas carrega no topo. Abaixo, três blocos com ícones em linha que se desenham ao entrar.\n",
+    "secoes": [
+      {
+        "nome": "Motor",
+        "kicker": "Reservar",
+        "titulo": "Escolha as datas.",
+        "texto": "Datas, número de hóspedes, categoria. Tarifas e disponibilidade em tempo real.\n",
+        "nota": "Embutir o widget do motor contratado. Enquanto não houver motor, exibir o bloco Fase de pré-reserva: Reservas abertas em breve. Deixe seu contato e avisamos primeiro. Formulário com nome, e-mail, telefone, datas previstas, empresa (opcional)."
+      },
+      {
+        "nome": "Empresas",
+        "kicker": "Corporativo",
+        "titulo": "Conta corporativa.",
+        "texto": "Tarifa acordada, faturamento mensal e reserva por e-mail para quem hospeda a equipe com frequência.\n",
+        "cta_secundario": "Abrir conta corporativa"
+      },
+      {
+        "nome": "Grupos e eventos",
+        "kicker": "Grupos",
+        "titulo": "Bloqueio de quartos para eventos.",
+        "texto": "Congresso, casamento, torneio. A equipe monta o bloqueio e o pacote.\n",
+        "cta_secundario": "Solicitar proposta"
+      },
+      {
+        "nome": "Políticas",
+        "kicker": "Bom saber",
+        "titulo": "Cancelamento, pagamento e check-in.",
+        "texto": "Cancelamento gratuito até ⟨prazo⟩ antes da chegada. Pagamento por ⟨meios⟩. Check-in a partir das 14h e check-out até as 12h.\n",
+        "nota": "Validar todas as políticas."
+      }
+    ],
+    "links_internos": [
+      "/acomodacoes",
+      "/eventos",
+      "/contato",
+      "/politica-de-privacidade"
+    ]
+  },
+  "contato": {
+    "id": "contato",
+    "url": "/contato",
+    "nome": "Contato",
+    "tipo": "Conversão",
+    "pai": "home",
+    "ordem": 9,
+    "objetivo": "Dar todos os caminhos de contato e reforçar o NAP (nome, endereço, telefone) igual ao do Google Meu Negócio.",
+    "publico": "Todos.",
+    "seo": {
+      "title": "Contato e localização | Kaluanã Eco Hotel, Ji-Paraná",
+      "description": "Endereço, telefone, WhatsApp e mapa do Kaluanã Eco Hotel: Rodovia Pastor Severo Antonio de Araujo, 2015, Ji-Paraná, Rondônia.",
+      "h1": "Contato",
+      "keywords": [
+        "kaluanã eco hotel telefone",
+        "kaluanã eco hotel endereço",
+        "hotel rodovia pastor severo ji-paraná"
+      ],
+      "schema": [
+        "ContactPage",
+        "Hotel com address, telephone, geo, hasMap, openingHoursSpecification",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Kaluanã Eco Hotel fica na Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2, em Ji-Paraná, Rondônia. Telefone ⟨número oficial⟩. WhatsApp ⟨número oficial⟩. E-mail ⟨contato@kaluanaecohotel.com.br⟩.\n"
+    },
+    "movimento": "Mapa embutido carrega só depois da interação (clique em Ver mapa), para não pesar a página. Os canais de contato aparecem como cards grandes com o ícone em traço.\n",
+    "secoes": [
+      {
+        "nome": "Canais",
+        "kicker": "Fale com o hotel",
+        "titulo": "Como quiser.",
+        "texto": "Telefone ⟨número oficial⟩. WhatsApp ⟨número oficial⟩. E-mail ⟨contato@kaluanaecohotel.com.br⟩. Recepção 24 horas.\n",
+        "nota": "Número oficial pendente com o cliente (prazo 31/10). O provisório (69) 2201-0050 não deve ir para o site."
+      },
+      {
+        "nome": "Endereço",
+        "kicker": "Onde",
+        "titulo": "Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2. Ji-Paraná, RO.",
+        "texto": "CEP ⟨CEP⟩. Coordenadas ⟨lat, long⟩. Estacionamento no local.\n",
+        "cta_primario": "Abrir no mapa"
+      },
+      {
+        "nome": "Formulário",
+        "kicker": "Mensagem",
+        "titulo": "Escreva para a gente.",
+        "texto": "Nome, e-mail, telefone, assunto (reserva, evento, restaurante, imprensa, outro), mensagem.\n"
+      },
+      {
+        "nome": "Redes",
+        "kicker": "Siga",
+        "titulo": "Instagram, Facebook e LinkedIn.",
+        "nota": "Handles a preencher. Mesmos links do sameAs no schema."
+      }
+    ],
+    "links_internos": [
+      "/reservas",
+      "/eventos",
+      "/restaurante",
+      "/ji-parana"
+    ]
+  },
+  "perguntas-frequentes": {
+    "id": "perguntas-frequentes",
+    "url": "/perguntas-frequentes",
+    "nome": "Perguntas frequentes",
+    "tipo": "AEO",
+    "pai": "home",
+    "ordem": 10,
+    "objetivo": "Responder, em uma frase cada, o que as pessoas e os assistentes de IA perguntam sobre o hotel. Alimentar o FAQPage e o llms.txt.",
+    "publico": "Quem pesquisa antes de reservar; motores de resposta.",
+    "seo": {
+      "title": "Perguntas frequentes | Kaluanã Eco Hotel",
+      "description": "Horários, café da manhã, estacionamento, acessibilidade, restaurante, eventos, animais e distâncias. As respostas do Kaluanã Eco Hotel, em Ji-Paraná.",
+      "h1": "Perguntas frequentes",
+      "keywords": [
+        "kaluanã eco hotel",
+        "hotel ji-paraná café da manhã",
+        "hotel ji-paraná estacionamento",
+        "hotel ji-paraná aceita pet"
+      ],
+      "schema": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "resposta": "As perguntas mais comuns sobre o Kaluanã Eco Hotel, em Ji-Paraná: horários de check-in e check-out, café da manhã incluído, estacionamento, acessibilidade, restaurante aberto ao público, eventos, política para animais e distâncias do aeroporto e da rodoviária.\n"
+    },
+    "movimento": "Acordeão com abertura de 250 ms. Busca no topo filtra as perguntas em tempo real. Agrupamento por tema em âncoras.\n",
+    "secoes": [
+      {
+        "nome": "Lista",
+        "nota": "Cada resposta com no máximo 60 palavras, escrita como frase completa que faz sentido isolada. Marcar com FAQPage."
+      }
+    ],
+    "links_internos": [
+      "/reservas",
+      "/acomodacoes",
+      "/restaurante",
+      "/eventos",
+      "/contato",
+      "/universo"
+    ],
+    "faq": [
+      {
+        "p": "Onde fica o Kaluanã Eco Hotel?",
+        "r": "Na Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2, em Ji-Paraná, Rondônia."
+      },
+      {
+        "p": "Quando o Kaluanã Eco Hotel abre?",
+        "r": "A inauguração está prevista para dezembro de 2026."
+      },
+      {
+        "p": "Qual o horário de check-in e check-out?",
+        "r": "Check-in a partir das 14h e check-out até as 12h. ⟨Validar.⟩"
+      },
+      {
+        "p": "O café da manhã está incluído?",
+        "r": "Sim, o café da manhã está incluído em todas as categorias. ⟨Validar.⟩"
+      },
+      {
+        "p": "O hotel tem estacionamento?",
+        "r": "Sim, estacionamento no local para hóspedes e clientes do restaurante. ⟨Validar.⟩"
+      },
+      {
+        "p": "O hotel tem quartos acessíveis?",
+        "r": "Sim, há um quarto Superior Acessível em cada andar, com banheiro adaptado e circulação livre."
+      },
+      {
+        "p": "O restaurante é aberto ao público?",
+        "r": "Sim. O Restaurante Kaluanã atende hóspedes e a cidade, no café da manhã, no almoço e no jantar."
+      },
+      {
+        "p": "O hotel aceita animais de estimação?",
+        "r": "⟨Definir com o cliente.⟩"
+      },
+      {
+        "p": "O hotel tem espaço para eventos?",
+        "r": "Sim, auditório e centro de convenções, com hospedagem e restaurante no mesmo endereço. ⟨Publicar após autorização.⟩"
+      },
+      {
+        "p": "Qual a distância do aeroporto?",
+        "r": "O aeroporto José Coleto fica a ⟨minutos⟩ do hotel."
+      },
+      {
+        "p": "Por que os quartos têm nome de rio, peixe, árvore e ave?",
+        "r": "Porque cada andar do Kaluanã homenageia um elemento da Amazônia. O QR Code de cada quarto conta a história do nome."
+      },
+      {
+        "p": "O que significa Kaluanã?",
+        "r": "Kaluanã é um nome de origem indígena que significa grande guerreiro."
+      },
+      {
+        "p": "O hotel tem internet?",
+        "r": "Sim, internet sem fio em todos os quartos e áreas comuns, sem custo. ⟨Validar.⟩"
+      },
+      {
+        "p": "Como faço uma reserva para empresa?",
+        "r": "Pelo formulário de conta corporativa na página de reservas ou pelo telefone do hotel. A equipe define tarifa acordada e faturamento."
+      }
+    ]
+  },
+  "trabalhe-conosco": {
+    "id": "trabalhe-conosco",
+    "url": "/trabalhe-conosco",
+    "nome": "Trabalhe conosco",
+    "tipo": "Institucional",
+    "pai": "home",
+    "ordem": 11,
+    "objetivo": "Captar currículos para a operação, que abre em dezembro. Reforçar o vínculo com a cidade.",
+    "publico": "Profissionais de hotelaria, gastronomia e eventos de Ji-Paraná e região.",
+    "seo": {
+      "title": "Trabalhe conosco | Vagas no Kaluanã Eco Hotel, Ji-Paraná",
+      "description": "O Kaluanã Eco Hotel abre em Ji-Paraná em dezembro de 2026 e está montando a equipe. Envie seu currículo para hotelaria, restaurante e eventos.",
+      "h1": "Trabalhe conosco",
+      "keywords": [
+        "vagas hotel ji-paraná",
+        "emprego hotelaria ji-paraná",
+        "trabalhar no kaluanã"
+      ],
+      "schema": [
+        "WebPage",
+        "JobPosting por vaga aberta (quando houver)",
+        "BreadcrumbList"
+      ],
+      "resposta": "O Kaluanã Eco Hotel está montando a equipe para a inauguração em Ji-Paraná, em dezembro de 2026, nas áreas de recepção, governança, restaurante, cozinha, manutenção e eventos. Currículos pelo formulário da página.\n"
+    },
+    "movimento": "Página simples, formulário com envio de arquivo. Sem animação além do padrão de entrada.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Equipe",
+        "titulo": "Um hotel novo precisa de gente da cidade.",
+        "texto": "O Kaluanã abre em dezembro de 2026 e está montando a equipe. Recepção, governança, restaurante, cozinha, manutenção, eventos. Se você é de Ji-Paraná ou da região e quer fazer parte, mande o currículo.\n",
+        "cta_primario": "Enviar currículo"
+      },
+      {
+        "nome": "Formulário",
+        "titulo": "Seu currículo.",
+        "texto": "Nome, telefone, e-mail, área de interesse, experiência, arquivo do currículo.\n"
+      }
+    ],
+    "links_internos": [
+      "/o-kaluana",
+      "/contato"
+    ]
+  },
+  "politica-de-privacidade": {
+    "id": "politica-de-privacidade",
+    "url": "/politica-de-privacidade",
+    "nome": "Política de privacidade",
+    "tipo": "Legal",
+    "pai": "home",
+    "ordem": 12,
+    "objetivo": "Cumprir a LGPD e informar o uso de cookies, analytics, pixel e formulários.",
+    "publico": "Todos.",
+    "seo": {
+      "title": "Política de privacidade | Kaluanã Eco Hotel",
+      "description": "Como o Kaluanã Eco Hotel coleta, usa e protege os dados pessoais de hóspedes e visitantes do site, conforme a LGPD.",
+      "h1": "Política de privacidade",
+      "keywords": [],
+      "schema": [
+        "WebPage"
+      ],
+      "resposta": "O Kaluanã Eco Hotel coleta dados pessoais para reservas, atendimento e comunicação, com base na LGPD. O site usa cookies de análise e de mídia, com consentimento.\n"
+    },
+    "movimento": "Sem animação.",
+    "secoes": [
+      {
+        "nome": "Conteúdo",
+        "nota": "Texto jurídico a ser fornecido ou validado pelo cliente. Incluir: controlador (KALUANA ECO HOTEL LTDA, CNPJ 47.562.282/0001-84), dados coletados, finalidades, cookies (GA4, GTM, Pixel e CAPI da Meta), compartilhamento com o motor de reservas, direitos do titular, contato do encarregado. Banner de consentimento obrigatório."
+      }
+    ],
+    "links_internos": [
+      "/termos-de-uso"
+    ]
+  },
+  "termos-de-uso": {
+    "id": "termos-de-uso",
+    "url": "/termos-de-uso",
+    "nome": "Termos de uso",
+    "tipo": "Legal",
+    "pai": "home",
+    "ordem": 13,
+    "objetivo": "Regras de uso do site e das reservas online.",
+    "publico": "Todos.",
+    "seo": {
+      "title": "Termos de uso | Kaluanã Eco Hotel",
+      "description": "Termos de uso do site e das reservas online do Kaluanã Eco Hotel, em Ji-Paraná.",
+      "h1": "Termos de uso",
+      "keywords": [],
+      "schema": [
+        "WebPage"
+      ],
+      "resposta": "Os termos de uso regulam o uso do site kaluanaecohotel.com.br e as reservas feitas por ele.\n"
+    },
+    "movimento": "Sem animação.",
+    "secoes": [
+      {
+        "nome": "Conteúdo",
+        "nota": "Texto jurídico a ser fornecido ou validado pelo cliente. Incluir política de cancelamento e de no-show."
+      }
+    ],
+    "links_internos": [
+      "/politica-de-privacidade"
+    ]
+  },
+  "pagina-404": {
+    "id": "pagina-404",
+    "url": "/404",
+    "nome": "Página não encontrada",
+    "tipo": "Utilitária",
+    "pai": "home",
+    "ordem": 14,
+    "objetivo": "Recuperar o visitante perdido com a linguagem da marca.",
+    "publico": "Todos.",
+    "seo": {
+      "title": "Página não encontrada | Kaluanã Eco Hotel",
+      "description": "Esta página não existe. Volte ao início ou explore o Universo Kaluanã.",
+      "h1": "Este caminho não leva a lugar nenhum.",
+      "keywords": [],
+      "schema": [],
+      "resposta": "Página de erro 404 com retorno ao início, busca e atalho para o Universo Kaluanã. Retorna status HTTP 404.\n"
+    },
+    "movimento": "O símbolo da marca em traço se desenha e se apaga em loop lento. Nada mais se move.\n",
+    "secoes": [
+      {
+        "nome": "Conteúdo",
+        "titulo": "Este caminho não leva a lugar nenhum.",
+        "texto": "Até o rio da Dúvida tinha um fim. Esta página não tem. Volte ao início ou escolha um andar.\n",
+        "cta_primario": "Voltar ao início",
+        "cta_secundario": "Explorar o Universo Kaluanã"
+      }
+    ],
+    "links_internos": [
+      "/",
+      "/universo"
+    ]
+  },
+  "pre-inauguracao": {
+    "id": "pre-inauguracao",
+    "url": "/ (fase 0)",
+    "nome": "Página de pré-inauguração",
+    "tipo": "Fase 0",
+    "pai": null,
+    "ordem": 15,
+    "objetivo": "Existir antes do hotel. Resolver a pendência de canal de conversão até 30/09, dar destino ao tráfego pago, instalar GA4, GTM e Pixel e captar interesse de hóspedes e empresas antes de dezembro.",
+    "publico": "Fernanda (curiosa), Cristina e Ricardo (corporativo), imprensa.",
+    "seo": {
+      "title": "Kaluanã Eco Hotel | Abre em dezembro de 2026 em Ji-Paraná",
+      "description": "O Kaluanã Eco Hotel abre em dezembro de 2026 em Ji-Paraná, Rondônia. Acompanhe a obra, conheça os nomes dos quartos e seja avisado quando as reservas abrirem.",
+      "h1": "Um hotel novo em Ji-Paraná. Abre em dezembro de 2026.",
+      "keywords": [
+        "novo hotel ji-paraná",
+        "kaluanã eco hotel",
+        "hotel ji-paraná inauguração"
+      ],
+      "schema": [
+        "Hotel com openingDate e status Abre em breve, igual ao Google Meu Negócio",
+        "Organization",
+        "FAQPage (3 perguntas)"
+      ],
+      "resposta": "O Kaluanã Eco Hotel é um hotel em construção em Ji-Paraná, Rondônia, com inauguração prevista para dezembro de 2026. Terá restaurante aberto ao público, espaços para eventos e quartos nomeados com rios, peixes, árvores e aves da Amazônia.\n"
+    },
+    "movimento": "Uma página só, com o vídeo de fundo e a logo animada. Rolagem curta: hero, três blocos, formulário, rodapé. Mesmo sistema de movimento do site final, para que a transição em dezembro seja de conteúdo, não de linguagem.\n",
+    "secoes": [
+      {
+        "nome": "Hero",
+        "kicker": "Ji-Paraná, Rondônia",
+        "titulo": "Um hotel novo em Ji-Paraná. Abre em dezembro de 2026.",
+        "texto": "O Kaluanã é um eco hotel para quem chega cansado, precisa produzir ou precisa parar. Está sendo construído à vista de todo mundo.\n",
+        "cta_primario": "Quero ser avisado",
+        "cta_secundario": "Acompanhar a obra"
+      },
+      {
+        "nome": "O nome",
+        "titulo": "Kaluanã quer dizer grande guerreiro.",
+        "texto": "Nome de origem indígena. Foi a primeira decisão do hotel e explica todas as outras.\n"
+      },
+      {
+        "nome": "Os andares",
+        "titulo": "Rios, peixes, árvores e aves.",
+        "texto": "Cada quarto vai ter um nome da Amazônia e uma história para ler no QR Code. Enquanto o hotel não abre, as histórias já estão aqui.\n",
+        "cta_secundario": "Explorar o Universo Kaluanã",
+        "nota": "O Universo Kaluanã pode ir ao ar antes do hotel, sem números de quarto e sem contagem. É o único conteúdo que não depende da inauguração e já gera busca orgânica."
+      },
+      {
+        "nome": "Empresas",
+        "titulo": "Sua empresa hospeda gente em Ji-Paraná?",
+        "texto": "Deixe o contato e a equipe apresenta as condições corporativas antes da abertura.\n",
+        "cta_secundario": "Falar sobre hospedagem corporativa"
+      },
+      {
+        "nome": "Formulário",
+        "titulo": "Avisamos você primeiro.",
+        "texto": "Nome, e-mail, telefone, sou (hóspede, empresa, imprensa, fornecedor).\n",
+        "nota": "Evento de conversão: lead_pre_inauguracao. Este é o destino sugerido para a campanha de tráfego de setembro em diante, no lugar do perfil do Instagram, se o cliente aprovar."
+      },
+      {
+        "nome": "Rodapé",
+        "texto": "Kaluanã Eco Hotel. Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2, Ji-Paraná, RO. Instagram. Facebook. LinkedIn.\n"
+      }
+    ],
+    "links_internos": [
+      "/universo",
+      "/historias"
+    ],
+    "notas": [
+      "Recomendação da Premium: publicar a fase 0 em outubro, com o Universo Kaluanã completo, e trocar para o site completo na inauguração."
+    ]
+  }
+}

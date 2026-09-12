@@ -1,0 +1,1467 @@
+{
+  "grupo": "arvores",
+  "nome_grupo": "Andar das Árvores",
+  "andar": 3,
+  "cor": "#6B7A3E",
+  "intro_grupo": "O terceiro andar do Kaluanã leva o nome de dezoito árvores. Algumas passam de 50 metros, como a samaúma e a castanheira. Outras dão óleo, fruta, látex, tinta e remédio. Todas crescem em Rondônia. Muitas delas estão no material que você toca neste hotel: no piso, nos móveis, na mesa do restaurante.\n",
+  "itens": [
+    {
+      "id": "samauma",
+      "nome": "Samaúma",
+      "subtitulo": "A mãe das árvores",
+      "cientifico": "Ceiba pentandra",
+      "uh": "301",
+      "quarto": 1,
+      "abertura": "A samaúma é a árvore mais alta que você vai ver na Amazônia. Passa de 60 metros e a copa se abre acima de toda a floresta. Na base, raízes em forma de parede sustentam o tronco. Bater nelas produz um som que viaja por quilômetros.\n",
+      "no_kaluana": "O andar das árvores abre com a samaúma porque ela é a referência. Quem anda na floresta se orienta por ela. Para muitos povos da Amazônia, ela é a mãe das árvores, a que liga a terra ao céu. É o quarto de quem gosta de olhar para cima.\n",
+      "historia": "A samaúma cresce nas várzeas e nas matas de terra firme de toda a Amazônia. O tronco chega a 3 metros de diâmetro e as sapopemas, as raízes tabulares, alcançam vários metros de altura. Elas dão estabilidade em solos rasos e encharcados.\n\nUma vez por ano ela perde todas as folhas e floresce. As flores abrem à noite e são polinizadas por morcegos. Os frutos soltam uma fibra branca e leve, a paina, que antes enchia colchões, travesseiros e coletes salva-vidas.\n\nO mesmo gênero existe na América Central e na África. Para os maias, a ceiba era a árvore sagrada que sustentava o mundo. Na Amazônia, a samaúma aparece em lendas como morada de espíritos e como o meio de comunicação da floresta: batendo nas sapopemas com um pedaço de pau, o som se propaga e avisa quem está longe.\n",
+      "curiosidades": [
+        "A samaúma cresce rápido nos primeiros anos, chegando a 4 metros por ano em condições boas.",
+        "A copa de uma samaúma adulta abriga orquídeas, bromélias, colmeias, ninhos de gavião-real e centenas de espécies de insetos.",
+        "A madeira é leve e macia. Era usada em canoas de uma peça só e ainda vira compensado.",
+        "Em muitas comunidades, derrubar uma samaúma é considerado má sorte. Por isso ela sobrevive em pastos onde tudo mais foi cortado."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Ceiba pentandra"
+        ],
+        [
+          "Família",
+          "Malvaceae"
+        ],
+        [
+          "Altura",
+          "Até 60 m, com registros maiores"
+        ],
+        [
+          "Onde vive",
+          "Várzeas e terra firme de toda a Amazônia"
+        ],
+        [
+          "Floração",
+          "Anual, após perder as folhas; polinizada por morcegos"
+        ],
+        [
+          "Usos",
+          "Paina, madeira leve, sombra e referência na floresta"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a altura de uma samaúma?",
+          "r": "Adultas passam de 60 metros, com registros acima de 70. É a árvore mais alta da várzea amazônica e uma das mais altas da floresta."
+        },
+        {
+          "p": "Para que servem as raízes da samaúma?",
+          "r": "As sapopemas, raízes em forma de parede, sustentam a árvore em solos rasos e alagáveis. Elas também servem como caixa de som natural: batendo nelas, o som viaja longe."
+        },
+        {
+          "p": "A samaúma existe em Rondônia?",
+          "r": "Sim. Ela é comum nas margens dos rios do estado e aparece isolada em pastos, onde é preservada por tradição."
+        }
+      ],
+      "seo": {
+        "title": "Samaúma: a mãe das árvores da Amazônia | Kaluanã",
+        "description": "Samaúma (Ceiba pentandra): altura, sapopemas, paina, lendas e por que ela é a mãe das árvores. O tema do quarto 301 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "samaúma",
+          "ceiba pentandra",
+          "mãe das árvores",
+          "sapopema",
+          "árvore mais alta da amazônia"
+        ],
+        "resposta": "A samaúma (Ceiba pentandra) é uma das árvores mais altas da Amazônia, com mais de 60 metros, sustentada por raízes tabulares chamadas sapopemas. Perde as folhas uma vez por ano, é polinizada por morcegos e produz a paina. Muitos povos amazônicos a consideram a mãe das árvores.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/Samauma 2.jpeg",
+          "uso": "hero",
+          "nota": "1920 x 2560 px, vertical. Tronco e sapopemas de baixo para cima. Ótima para mobile e para hero com recorte."
+        },
+        {
+          "arquivo": "Árvores/Samauma.jpg",
+          "uso": "galeria",
+          "nota": "640 x 427 px. Árvore inteira à beira do rio. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "castanheira",
+      "nome": "Castanheira",
+      "subtitulo": "A árvore que depende de todo mundo",
+      "cientifico": "Bertholletia excelsa",
+      "uh": "302",
+      "quarto": 2,
+      "abertura": "A castanheira só produz na floresta inteira. Precisa de abelhas grandes para polinizar, e essas abelhas precisam de orquídeas. Precisa da cutia para abrir o ouriço e plantar a semente. Tire uma peça e a castanha desaparece.\n",
+      "no_kaluana": "Ela está neste andar porque é a economia da floresta em pé. Famílias de Rondônia vivem da coleta de castanha há gerações, sem derrubar uma árvore. O Kaluanã acredita nesse jeito de fazer.\n",
+      "historia": "A castanheira passa de 50 metros e vive mais de 500 anos. A copa se abre acima da floresta, e o tronco reto, sem galhos por dezenas de metros, é reconhecido de longe.\n\nAs flores só são polinizadas por abelhas de grande porte, como as mamangavas e as abelhas-das-orquídeas. Os machos dessas abelhas dependem do perfume de orquídeas para atrair fêmeas. Sem orquídea, sem abelha. Sem abelha, sem castanha.\n\nO fruto é o ouriço, uma esfera de casca dura que pesa até 2 quilos e guarda de 10 a 25 castanhas. Ele cai no chão inteiro. Só a cutia consegue roê-lo. Ela come parte das castanhas e enterra o resto, e as esquecidas viram novas árvores.\n\nPor lei, a castanheira não pode ser cortada. A coleta do ouriço é feita entre dezembro e março, na chuva, e sustenta comunidades extrativistas em Rondônia, no Acre, no Amazonas e no Pará.\n",
+      "curiosidades": [
+        "A castanha-do-brasil é uma das maiores fontes de selênio que existem. Duas por dia bastam.",
+        "Um ouriço cai de 50 metros de altura. Coletores usam capacete e não trabalham em dias de vento.",
+        "Plantios de castanheira fora da floresta produzem pouco, porque as abelhas polinizadoras não vivem ali.",
+        "O nome científico homenageia Claude Louis Berthollet, químico francês do século XVIII."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Bertholletia excelsa"
+        ],
+        [
+          "Família",
+          "Lecythidaceae"
+        ],
+        [
+          "Altura",
+          "Até 50 m ou mais"
+        ],
+        [
+          "Idade",
+          "Mais de 500 anos"
+        ],
+        [
+          "Fruto",
+          "Ouriço com 10 a 25 castanhas"
+        ],
+        [
+          "Proteção",
+          "Corte proibido por lei em todo o Brasil"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que a castanheira não pode ser cortada?",
+          "r": "Porque é protegida por lei federal, pelo valor econômico e social da castanha. A árvore sustenta comunidades extrativistas e não se reproduz bem fora da floresta."
+        },
+        {
+          "p": "Quem abre o ouriço da castanha?",
+          "r": "A cutia, um roedor com dentes fortes o suficiente para roer a casca. Ela come parte das castanhas e enterra o resto, o que planta novas árvores."
+        },
+        {
+          "p": "Castanha-do-pará e castanha-do-brasil são a mesma coisa?",
+          "r": "Sim. É a mesma semente da mesma árvore. O nome castanha-do-brasil é o mais usado hoje, porque a produção vem de vários estados, inclusive Rondônia."
+        }
+      ],
+      "seo": {
+        "title": "Castanheira: a árvore da castanha-do-brasil | Kaluanã",
+        "description": "Castanheira (Bertholletia excelsa): altura, ouriço, abelhas, cutia e o extrativismo em Rondônia. O tema do quarto 302 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "castanheira",
+          "bertholletia excelsa",
+          "castanha do brasil",
+          "castanha do pará",
+          "ouriço da castanha"
+        ],
+        "resposta": "A castanheira (Bertholletia excelsa) é uma árvore amazônica de mais de 50 metros e 500 anos que produz a castanha-do-brasil. Depende de abelhas grandes para polinizar e da cutia para abrir o ouriço e espalhar as sementes. Seu corte é proibido por lei.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/Castanheira 2.jpg",
+          "uso": "hero",
+          "nota": "1200 x 700 px. Árvore isolada com copa alta. Resolução mediana."
+        },
+        {
+          "arquivo": "Árvores/Castanheira 3.jpg",
+          "uso": "galeria",
+          "nota": "984 x 656 px. Tronco visto de baixo."
+        }
+      ]
+    },
+    {
+      "id": "copaiba",
+      "nome": "Copaíba",
+      "subtitulo": "A árvore que dá óleo sem cair",
+      "cientifico": "Copaifera spp.",
+      "uh": "303",
+      "quarto": 3,
+      "abertura": "A copaíba guarda óleo dentro do tronco. Um furo, um cano e um balde bastam para colher. A árvore fecha o furo, refaz o estoque e pode ser colhida de novo anos depois. É remédio de floresta há séculos.\n",
+      "no_kaluana": "Ela está neste andar por mostrar o que sustentabilidade quer dizer na prática: usar sem destruir. O óleo de copaíba está nas farmácias, nas cosméticas e nas casas de Rondônia. É o quarto do cuidado.\n",
+      "historia": "Copaíba é o nome de várias espécies do gênero Copaifera. Na Amazônia, a mais comum é a Copaifera multijuga. São árvores de 25 a 40 metros, de tronco reto e casca áspera, que crescem em terra firme.\n\nO óleo-resina circula por canais dentro do tronco. Povos indígenas o usam há gerações como cicatrizante e anti-inflamatório, e a medicina popular do Norte o adotou. Pesquisas modernas estudam seus compostos, os sesquiterpenos, para novos medicamentos.\n\nA extração é feita com trado, um furo de cerca de 2 centímetros no tronco. O óleo escorre por horas ou dias. Depois o furo é vedado e a árvore descansa. Uma copaíba adulta pode render litros por colheita.\n",
+      "curiosidades": [
+        "O óleo de copaíba já foi testado como combustível de motores a diesel, sem refino.",
+        "A madeira, chamada de pau-d'óleo, é usada em móveis e construção quando a árvore morre.",
+        "Comunidades extrativistas de Rondônia e do Amazonas vendem o óleo para a indústria de cosméticos.",
+        "Nem toda copaíba produz muito. As de várzea e as maiores costumam render mais."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Copaifera multijuga e outras espécies"
+        ],
+        [
+          "Família",
+          "Fabaceae"
+        ],
+        [
+          "Altura",
+          "De 25 a 40 m"
+        ],
+        [
+          "Onde vive",
+          "Terra firme e várzea da Amazônia"
+        ],
+        [
+          "Produto",
+          "Óleo-resina extraído do tronco sem derrubar"
+        ],
+        [
+          "Usos",
+          "Medicina tradicional, cosméticos, madeira"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Para que serve o óleo de copaíba?",
+          "r": "Na medicina tradicional, como cicatrizante, anti-inflamatório e antisséptico. É usado em feridas, dores e inflamações e entra em cosméticos e sabonetes."
+        },
+        {
+          "p": "Como se extrai o óleo de copaíba?",
+          "r": "Com um furo no tronco, feito com trado, por onde o óleo escorre para um recipiente. Depois o furo é fechado e a árvore se recupera. A mesma árvore pode ser colhida de novo anos depois."
+        },
+        {
+          "p": "A copaíba existe em Rondônia?",
+          "r": "Sim. É comum nas florestas do estado e o óleo é vendido em feiras e farmácias de Ji-Paraná e Porto Velho."
+        }
+      ],
+      "seo": {
+        "title": "Copaíba: a árvore do óleo que cura | Kaluanã",
+        "description": "Copaíba (Copaifera): como o óleo é extraído sem derrubar a árvore, usos tradicionais e curiosidades. O tema do quarto 303 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "copaíba",
+          "óleo de copaíba",
+          "copaifera",
+          "para que serve o óleo de copaíba",
+          "árvores da amazônia"
+        ],
+        "resposta": "A copaíba (Copaifera) é uma árvore amazônica de até 40 metros que produz um óleo-resina dentro do tronco, extraído por um furo sem derrubar a árvore. O óleo é usado há séculos como cicatrizante e anti-inflamatório e abastece a indústria de cosméticos.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/Copaiba 4.jpg",
+          "uso": "hero",
+          "nota": "1212 x 909 px. Copa vista de baixo com galhos. Resolução mediana."
+        },
+        {
+          "arquivo": "Árvores/Copaiba 2.jpg",
+          "uso": "galeria",
+          "nota": "1080 x 1080 px, quadrada. Árvore inteira contra o céu azul."
+        }
+      ]
+    },
+    {
+      "id": "andiroba",
+      "nome": "Andiroba",
+      "subtitulo": "A árvore do óleo que espanta mosquito",
+      "cientifico": "Carapa guianensis",
+      "uh": "304",
+      "quarto": 4,
+      "abertura": "A andiroba solta sementes que boiam. Elas descem o rio, encalham e viram árvores. Das mesmas sementes sai um óleo amargo que afasta insetos, alivia dores e acende velas nas casas ribeirinhas.\n",
+      "no_kaluana": "Ela está neste andar pela utilidade cotidiana. A vela de andiroba, o óleo no braço antes de sair, o remédio na prateleira. É uma árvore de casa. Um quarto para o que funciona.\n",
+      "historia": "A andiroba é parente do mogno e do cedro, da família Meliaceae. Cresce em várzeas e igapós, chega a 30 metros e tem madeira boa, avermelhada, usada em móveis e construção.\n\nO que a faz famosa é a semente. Elas caem entre fevereiro e junho, são recolhidas na água e no chão e cozidas. Depois de dias de descanso, a massa é amassada e o óleo escorre. É um processo lento, feito principalmente por mulheres em comunidades do Pará, do Amazonas e de Rondônia.\n\nO óleo é usado como repelente, anti-inflamatório e cicatrizante. Em velas, afasta mosquitos. Na indústria, entra em sabonetes e cosméticos.\n",
+      "curiosidades": [
+        "Uma árvore adulta pode produzir mais de 100 quilos de sementes por ano.",
+        "As velas de andiroba são feitas há mais de um século e viraram produto de exportação.",
+        "As sementes flutuam por semanas, o que permite à espécie colonizar margens distantes.",
+        "A madeira da andiroba é resistente a cupins."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Carapa guianensis"
+        ],
+        [
+          "Família",
+          "Meliaceae"
+        ],
+        [
+          "Altura",
+          "Até 30 m"
+        ],
+        [
+          "Onde vive",
+          "Várzeas e igapós da Amazônia"
+        ],
+        [
+          "Produto",
+          "Óleo das sementes"
+        ],
+        [
+          "Usos",
+          "Repelente, anti-inflamatório, velas, cosméticos, madeira"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Para que serve o óleo de andiroba?",
+          "r": "Como repelente de insetos, anti-inflamatório e cicatrizante. É passado na pele, usado em massagens e em velas que afastam mosquitos."
+        },
+        {
+          "p": "Como se faz o óleo de andiroba?",
+          "r": "As sementes são cozidas, deixadas em repouso por dias e amassadas. A massa é colocada ao sol ou em prensas e o óleo escorre lentamente."
+        },
+        {
+          "p": "Andiroba e copaíba são a mesma coisa?",
+          "r": "Não. A andiroba dá óleo das sementes. A copaíba dá óleo-resina do tronco. Os dois são usados na medicina popular, muitas vezes juntos."
+        }
+      ],
+      "seo": {
+        "title": "Andiroba: a árvore do óleo repelente | Kaluanã",
+        "description": "Andiroba (Carapa guianensis): sementes, extração do óleo, usos e velas. O tema do quarto 304 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "andiroba",
+          "óleo de andiroba",
+          "carapa guianensis",
+          "vela de andiroba",
+          "para que serve andiroba"
+        ],
+        "resposta": "A andiroba (Carapa guianensis) é uma árvore amazônica de até 30 metros, parente do mogno, cujas sementes produzem um óleo usado como repelente, anti-inflamatório e cicatrizante. As sementes flutuam e são colhidas na água, e o óleo é extraído por cozimento e prensagem.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/Andiroba 3.jpg",
+          "uso": "hero",
+          "nota": "1920 x 2560 px, vertical. Frutos e folhas em detalhe. Boa para mobile e recorte."
+        },
+        {
+          "arquivo": "Árvores/Andiroba 2.jpeg",
+          "uso": "galeria",
+          "nota": "620 x 465 px. Copa vista de baixo. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "acai",
+      "nome": "Açaí",
+      "subtitulo": "A palmeira que alimenta o Norte",
+      "cientifico": "Euterpe precatoria e Euterpe oleracea",
+      "uh": "305",
+      "quarto": 5,
+      "abertura": "Antes de virar tigela com granola, o açaí era almoço. No Norte ele é servido gelado e sem açúcar, com farinha e peixe frito. A palmeira que dá o fruto cresce à beira dos rios e é colhida à mão, subindo o tronco com uma peconha nos pés.\n",
+      "no_kaluana": "Ele está neste andar porque é o sabor que mais viaja de Rondônia para o mundo. O açaí daqui é o solteiro, de tronco único, nativo das matas do estado. É o quarto para quem quer provar a Amazônia do jeito de quem mora nela.\n",
+      "historia": "Existem duas palmeiras chamadas açaí. No Pará e na foz do Amazonas, o açaí-de-touceira, Euterpe oleracea, cresce em moitas com vários troncos. No oeste da Amazônia, em Rondônia, no Acre e no Amazonas, o comum é o açaí-solteiro, Euterpe precatoria, de tronco único e mais alto.\n\nOs cachos carregam centenas de frutos pequenos e roxos, com muito pouca polpa. Ela é separada do caroço na máquina ou à mão, com água, e vira o vinho de açaí, uma bebida grossa e escura.\n\nO açaí é rico em gorduras boas, fibras e antioxidantes. Nas cidades do Norte é comida do dia a dia. No resto do país, virou tigela doce. A palmeira também dá palmito e as folhas cobrem casas ribeirinhas.\n",
+      "curiosidades": [
+        "O peconheiro sobe até 20 metros de tronco liso com uma alça de fibra ou saco nos pés, a peconha.",
+        "Cada fruto tem 90 por cento de caroço. A polpa é uma película fina em volta.",
+        "Em Rondônia, o açaí-solteiro é colhido em matas nativas e em plantios recentes.",
+        "A palavra açaí vem do tupi e é traduzida como fruta que chora, pela água que escorre do fruto amassado."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Euterpe precatoria (açaí-solteiro) e Euterpe oleracea (açaí-de-touceira)"
+        ],
+        [
+          "Família",
+          "Arecaceae, as palmeiras"
+        ],
+        [
+          "Altura",
+          "Até 20 m ou mais"
+        ],
+        [
+          "Onde vive",
+          "Várzeas, igapós e terra firme de toda a Amazônia"
+        ],
+        [
+          "Produto",
+          "Polpa do fruto, palmito, folhas"
+        ],
+        [
+          "Colheita",
+          "Manual, subindo o tronco"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre açaí-solteiro e açaí-de-touceira?",
+          "r": "O solteiro, Euterpe precatoria, tem tronco único e é nativo do oeste da Amazônia, inclusive Rondônia. O de touceira, Euterpe oleracea, cresce em moitas e domina o Pará. O sabor é parecido; o solteiro costuma ser considerado mais encorpado."
+        },
+        {
+          "p": "Como se come açaí no Norte?",
+          "r": "Gelado ou em temperatura ambiente, sem açúcar, com farinha de mandioca e acompanhado de peixe frito, camarão ou carne. É prato principal, não sobremesa."
+        },
+        {
+          "p": "O açaí é saudável?",
+          "r": "É rico em gorduras insaturadas, fibras e antioxidantes. O que muda o perfil nutricional são os acréscimos, como xarope de guaraná e açúcar nas versões de tigela."
+        }
+      ],
+      "seo": {
+        "title": "Açaí: a palmeira que alimenta a Amazônia | Kaluanã",
+        "description": "Açaí (Euterpe): açaí-solteiro e açaí-de-touceira, colheita com peconha, como se come no Norte e curiosidades. O tema do quarto 305 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "açaí",
+          "euterpe precatoria",
+          "açaí solteiro",
+          "palmeira do açaí",
+          "açaí rondônia"
+        ],
+        "resposta": "Açaí é o fruto de palmeiras do gênero Euterpe. Em Rondônia e no oeste da Amazônia predomina o açaí-solteiro (Euterpe precatoria), de tronco único; no Pará, o açaí-de-touceira (Euterpe oleracea). A polpa vira o vinho de açaí, servido no Norte com farinha e peixe.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/açai 3.jpg",
+          "uso": "hero",
+          "nota": "3456 x 2340 px. Açaizal com vários troncos. Apta para hero; reduzir o arquivo antes de publicar."
+        },
+        {
+          "arquivo": "Árvores/açai.jpg",
+          "uso": "galeria",
+          "nota": "924 x 616 px. Cacho com frutos maduros."
+        }
+      ]
+    },
+    {
+      "id": "cumaru",
+      "nome": "Cumaru",
+      "subtitulo": "A árvore da fava que cheira a baunilha",
+      "cientifico": "Dipteryx odorata",
+      "uh": "306",
+      "quarto": 6,
+      "abertura": "O cumaru tem uma das madeiras mais duras da Amazônia e uma das sementes mais perfumadas do mundo. A fava-tonca, que cheira a baunilha e amêndoa, entra em perfumes franceses. A madeira entra em decks que duram décadas ao tempo.\n",
+      "no_kaluana": "Ele está neste andar pelo cheiro e pela resistência. Quem passa a mão em uma tábua de cumaru entende por que ela foi escolhida para viver ao ar livre. É o quarto de quem gosta de coisa que dura.\n",
+      "historia": "O cumaru chega a 30 ou 40 metros e cresce em terra firme por toda a Amazônia. Floresce em tons de rosa e lilás e produz frutos com uma semente única, a fava-tonca, muito rica em cumarina, o composto que dá o cheiro doce.\n\nA fava já foi usada para aromatizar tabaco e comida. Hoje seu uso principal é a perfumaria. Em muitos países ela é proibida em alimentos, porque a cumarina em excesso faz mal ao fígado.\n\nA madeira é densa, pesada e resistente a fungos, cupins e umidade. É a preferida para decks, pisos externos e pontes. Morcegos comem a polpa dos frutos e espalham as sementes pela floresta.\n",
+      "curiosidades": [
+        "A madeira do cumaru afunda na água. Sua densidade passa de 1 grama por centímetro cúbico.",
+        "A fava-tonca é vendida por peso, como especiaria, e uma única semente perfuma uma sobremesa inteira.",
+        "Comunidades extrativistas do Pará e do Amazonas coletam a fava para a indústria de perfumes.",
+        "Em plantios, o cumaru é usado para recuperar áreas degradadas, porque fixa nitrogênio no solo."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Dipteryx odorata"
+        ],
+        [
+          "Família",
+          "Fabaceae"
+        ],
+        [
+          "Altura",
+          "De 30 a 40 m"
+        ],
+        [
+          "Onde vive",
+          "Terra firme da Amazônia"
+        ],
+        [
+          "Produto",
+          "Madeira densa e fava-tonca"
+        ],
+        [
+          "Usos",
+          "Decks, pisos, perfumaria"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O que é a fava-tonca?",
+          "r": "A semente do cumaru. Ela concentra cumarina, um composto de cheiro doce parecido com baunilha e amêndoa, usado em perfumes e, com restrições, em gastronomia."
+        },
+        {
+          "p": "Por que a madeira de cumaru é usada em decks?",
+          "r": "Porque é densa, dura e resiste a fungos, cupins e chuva por décadas sem tratamento químico. É uma das madeiras mais duráveis da Amazônia."
+        },
+        {
+          "p": "O cumaru existe em Rondônia?",
+          "r": "Sim. É comum nas florestas de terra firme do estado e aparece em áreas de manejo florestal."
+        }
+      ],
+      "seo": {
+        "title": "Cumaru: fava-tonca e a madeira que dura | Kaluanã",
+        "description": "Cumaru (Dipteryx odorata): fava-tonca, cumarina, madeira para decks e curiosidades. O tema do quarto 306 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "cumaru",
+          "dipteryx odorata",
+          "fava tonca",
+          "madeira cumaru",
+          "deck de cumaru"
+        ],
+        "resposta": "O cumaru (Dipteryx odorata) é uma árvore amazônica de até 40 metros conhecida por duas coisas: a madeira densa e durável, usada em decks e pisos, e a fava-tonca, semente rica em cumarina que cheira a baunilha e é usada em perfumaria.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/cumaru 3.jpg",
+          "uso": "hero",
+          "nota": "768 x 1024 px, vertical. Tronco reto visto de baixo. Boa para mobile; resolução limita telas grandes."
+        },
+        {
+          "arquivo": "Árvores/cumaru 2.jpg",
+          "uso": "galeria",
+          "nota": "640 x 480 px. Copa contra o céu. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "cedro",
+      "nome": "Cedro",
+      "subtitulo": "A madeira que cheira e protege",
+      "cientifico": "Cedrela odorata",
+      "uh": "307",
+      "quarto": 7,
+      "abertura": "O cedro amazônico não é o cedro dos Alpes. É parente do mogno e tem uma madeira rosada e perfumada que os insetos evitam. Por isso guarda charutos, forra armários e sustenta o braço de violões há séculos.\n",
+      "no_kaluana": "Ele está neste andar pelo cheiro. Abra um móvel de cedro e a floresta aparece. É o quarto da memória, das casas antigas de Rondônia feitas com a madeira que não apodrece.\n",
+      "historia": "O cedro, Cedrela odorata, é uma árvore de 30 a 40 metros, de tronco reto e copa alta, que perde as folhas na seca. Cresce em terra firme e em várzeas altas por toda a Amazônia e a América tropical.\n\nA madeira é leve, macia de trabalhar e rica em óleos aromáticos que afastam cupins e traças. Foi a madeira preferida das construções coloniais, das caixas de charuto e dos instrumentos musicais. Ainda é a primeira escolha para portas e esquadrias.\n\nA exploração intensa levou o gênero Cedrela a entrar na lista de espécies com comércio internacional controlado. Hoje só pode ser explorado com plano de manejo aprovado.\n",
+      "curiosidades": [
+        "Cedro é o nome de várias espécies do gênero Cedrela. O cedro-rosa e o cedro-vermelho são os mais comuns no Brasil.",
+        "As sementes são aladas e viajam com o vento.",
+        "O cedro cresce rápido e é usado em reflorestamento, mas sofre com uma broca que ataca o broto principal.",
+        "O cheiro da madeira é o mesmo que se sente em caixas de charuto cubanas, feitas de cedro americano."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Cedrela odorata"
+        ],
+        [
+          "Família",
+          "Meliaceae, a mesma do mogno"
+        ],
+        [
+          "Altura",
+          "De 30 a 40 m"
+        ],
+        [
+          "Onde vive",
+          "Terra firme e várzea alta da Amazônia e da América tropical"
+        ],
+        [
+          "Produto",
+          "Madeira leve, rosada e aromática"
+        ],
+        [
+          "Situação",
+          "Comércio internacional controlado; exploração só com manejo"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O cedro da Amazônia é o mesmo cedro do Líbano?",
+          "r": "Não. O cedro-do-líbano é uma conífera, parente do pinheiro. O cedro amazônico, Cedrela odorata, é uma árvore de folhas largas da família do mogno. Só o nome é igual."
+        },
+        {
+          "p": "Por que a madeira de cedro não dá cupim?",
+          "r": "Porque contém óleos aromáticos naturais que repelem cupins e traças. É por isso que ela é usada em armários, baús e caixas de charuto."
+        },
+        {
+          "p": "O cedro está ameaçado?",
+          "r": "A exploração sem controle reduziu muito as populações. O gênero está na lista de comércio internacional controlado e a extração legal depende de plano de manejo."
+        }
+      ],
+      "seo": {
+        "title": "Cedro: a madeira que cheira e protege | Kaluanã",
+        "description": "Cedro (Cedrela odorata): madeira aromática, usos, diferença para o cedro-do-líbano e conservação. O tema do quarto 307 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "cedro",
+          "cedrela odorata",
+          "madeira de cedro",
+          "cedro rosa",
+          "cedro amazônico"
+        ],
+        "resposta": "O cedro amazônico (Cedrela odorata) é uma árvore da família do mogno, de 30 a 40 metros, com madeira rosada e aromática que repele cupins e traças. É usado em portas, móveis, caixas de charuto e instrumentos musicais e hoje só pode ser explorado com manejo.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/cedro 3.jpg",
+          "uso": "hero",
+          "nota": "768 x 1024 px, vertical. Árvore inteira contra o céu. Boa para mobile."
+        },
+        {
+          "arquivo": "Árvores/cedro 4.jpg",
+          "uso": "galeria",
+          "nota": "1200 x 630 px. Dossel genérico; verificar se a imagem representa cedro."
+        }
+      ]
+    },
+    {
+      "id": "mogno",
+      "nome": "Mogno",
+      "subtitulo": "O ouro verde",
+      "cientifico": "Swietenia macrophylla",
+      "uh": "308",
+      "quarto": 8,
+      "abertura": "O mogno já foi a madeira mais valiosa do mundo. Uma única árvore valia uma casa. Foi tão cortado que virou símbolo do que a Amazônia não pode mais perder. Hoje só sai da floresta com licença e sob controle internacional.\n",
+      "no_kaluana": "Ele está neste andar como lembrete. Rondônia viu muito mogno sair de caminhão. O quarto leva o nome para dizer o contrário: aqui, madeira nobre é a que fica em pé ou a que vem de manejo certificado.\n",
+      "historia": "O mogno chega a 50 metros e vive séculos. A madeira é avermelhada, estável, fácil de trabalhar e com um brilho que nenhuma outra imita. Foi a escolha dos móveis ingleses do século XVIII e dos painéis de navios e trens de luxo.\n\nNo Brasil, a exploração se concentrou no sul do Pará, em Mato Grosso, no Acre e em Rondônia, a partir dos anos 1970. Em três décadas, boa parte das populações naturais foi retirada, quase sempre de forma ilegal.\n\nEm 2001 o país suspendeu a exploração e, em 2003, o mogno entrou na lista de comércio internacional controlado. Desde então, o corte só é permitido com manejo aprovado, e os plantios crescem em vários estados.\n",
+      "curiosidades": [
+        "Uma tora de mogno chegou a valer dezenas de milhares de dólares no mercado internacional.",
+        "Plantios de mogno fora da floresta sofrem com a broca-do-ponteiro, uma mariposa que deforma a árvore.",
+        "O nome científico homenageia Gerard van Swieten, médico holandês do século XVIII.",
+        "Mogno-africano, muito plantado hoje no Brasil, é de outro gênero, Khaya."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Swietenia macrophylla"
+        ],
+        [
+          "Família",
+          "Meliaceae"
+        ],
+        [
+          "Altura",
+          "Até 50 m"
+        ],
+        [
+          "Onde vive",
+          "Terra firme do sul da Amazônia, inclusive Rondônia"
+        ],
+        [
+          "Produto",
+          "Madeira nobre avermelhada"
+        ],
+        [
+          "Situação",
+          "Comércio internacional controlado desde 2003; exploração só com manejo"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O mogno está em extinção?",
+          "r": "Está ameaçado. A exploração intensa reduziu drasticamente as populações naturais. Desde 2003 seu comércio internacional é controlado e o corte no Brasil depende de manejo autorizado."
+        },
+        {
+          "p": "Por que o mogno é tão valioso?",
+          "r": "Pela combinação de cor, estabilidade, facilidade de trabalho e brilho. É uma madeira que não empena, não racha e aceita acabamento como poucas."
+        },
+        {
+          "p": "Ainda dá para comprar móveis de mogno?",
+          "r": "Sim, de madeira legal, com origem comprovada por documento de manejo, ou de plantios. Móveis antigos também circulam no mercado."
+        }
+      ],
+      "seo": {
+        "title": "Mogno: o ouro verde da Amazônia | Kaluanã",
+        "description": "Mogno (Swietenia macrophylla): por que é tão valioso, a história da exploração e a proteção atual. O tema do quarto 308 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "mogno",
+          "swietenia macrophylla",
+          "madeira de mogno",
+          "mogno em extinção",
+          "ouro verde"
+        ],
+        "resposta": "O mogno (Swietenia macrophylla) é uma árvore amazônica de até 50 metros com uma das madeiras mais valiosas do mundo. Foi explorado de forma intensa entre os anos 1970 e 2000, entrou na lista de comércio internacional controlado em 2003 e hoje só pode ser cortado com manejo autorizado.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/mogno.jpg",
+          "uso": "hero",
+          "nota": "1000 x 666 px. Tronco e copa vistos de baixo. Resolução limita hero."
+        },
+        {
+          "arquivo": "Árvores/mogno 3.jpg",
+          "uso": "galeria",
+          "nota": "598 x 900 px, vertical. Tronco reto. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "ipe",
+      "nome": "Ipê",
+      "subtitulo": "A árvore que floresce sem folhas",
+      "cientifico": "Handroanthus spp.",
+      "uh": "309",
+      "quarto": 9,
+      "abertura": "O ipê espera a seca chegar, perde todas as folhas e então floresce. Por uma ou duas semanas a copa inteira fica amarela, roxa ou rosa. Em Rondônia isso acontece no fim do inverno, quando as estradas ficam pontuadas de ipês.\n",
+      "no_kaluana": "Ele está neste andar por ser a árvore que todo mundo reconhece. O ipê é a cor de Ji-Paraná em agosto. É o quarto da floração, do momento em que a cidade para para olhar.\n",
+      "historia": "Ipê é o nome de várias árvores do gênero Handroanthus, antes classificadas como Tabebuia. O ipê-amarelo, o ipê-roxo e o ipê-branco são os mais conhecidos. Todos crescem em Rondônia, nas matas e no cerrado do sul do estado.\n\nA floração acontece quando a árvore está sem folhas, o que deixa a copa inteiramente colorida. As flores em forma de trombeta atraem abelhas e beija-flores. Poucos dias depois caem e formam um tapete no chão.\n\nA madeira do ipê é uma das mais densas e resistentes do mundo. Contém lapachol, uma substância que a protege de fungos e insetos, e é usada em decks, pisos, pontes e dormentes. O ipê-amarelo é considerado símbolo nacional.\n",
+      "curiosidades": [
+        "O nome vem do tupi e é traduzido como árvore de casca grossa.",
+        "A madeira de ipê é tão densa que afunda na água e é difícil de pregar sem furar antes.",
+        "Cada espécie floresce em uma época. O roxo abre primeiro, no meio da seca. O amarelo vem depois. O branco fecha a estação.",
+        "O ipê é uma das árvores mais plantadas nas cidades brasileiras, por ser resistente e florir todo ano."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Handroanthus spp."
+        ],
+        [
+          "Família",
+          "Bignoniaceae"
+        ],
+        [
+          "Altura",
+          "De 8 a 35 m, conforme a espécie"
+        ],
+        [
+          "Onde vive",
+          "Matas e cerrados de todo o Brasil, inclusive Rondônia"
+        ],
+        [
+          "Floração",
+          "Na seca, com a árvore sem folhas"
+        ],
+        [
+          "Produto",
+          "Madeira densa e durável"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Quando o ipê floresce em Rondônia?",
+          "r": "Na estação seca, entre junho e setembro. O ipê-roxo costuma abrir primeiro, o amarelo em agosto e setembro, e o branco no fim da estação. A época varia um pouco a cada ano."
+        },
+        {
+          "p": "Por que o ipê perde as folhas antes de florescer?",
+          "r": "É uma estratégia da seca. Sem folhas, a árvore economiza água e concentra energia nas flores, que ficam mais visíveis para os polinizadores."
+        },
+        {
+          "p": "Qual é a diferença entre ipê e pau-d'arco?",
+          "r": "São a mesma árvore. Pau-d'arco é o nome dado ao ipê em várias regiões do Norte e do Nordeste, por causa do uso da madeira em arcos."
+        }
+      ],
+      "seo": {
+        "title": "Ipê: a árvore que floresce sem folhas | Kaluanã",
+        "description": "Ipê (Handroanthus): quando floresce em Rondônia, espécies, madeira e curiosidades. O tema do quarto 309 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "ipê",
+          "ipê amarelo",
+          "ipê roxo",
+          "handroanthus",
+          "quando o ipê floresce"
+        ],
+        "resposta": "O ipê (Handroanthus) é uma árvore brasileira que perde as folhas na seca e floresce com a copa inteira colorida, em amarelo, roxo, rosa ou branco. Em Rondônia a floração vai de junho a setembro. A madeira é uma das mais densas e resistentes do mundo.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/Ipê 4.jpg",
+          "uso": "hero",
+          "nota": "1600 x 1067 px. Copa amarela vista de baixo. Apta para hero em telas médias."
+        },
+        {
+          "arquivo": "Árvores/Ipê 3.jpg",
+          "uso": "galeria",
+          "nota": "650 x 650 px, quadrada. Ipê-roxo florido em solo vermelho. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "jatoba",
+      "nome": "Jatobá",
+      "subtitulo": "A árvore da farinha, da resina e dos séculos",
+      "cientifico": "Hymenaea courbaril",
+      "uh": "310",
+      "quarto": 10,
+      "abertura": "O jatobá dá uma vagem dura com uma farinha doce dentro. Solta uma resina que vira verniz, incenso e, com o tempo, âmbar. E vive tanto que uma mesma árvore pode ter visto chegar os primeiros colonos e ainda estar de pé.\n",
+      "no_kaluana": "Ele está neste andar pela longevidade. O jatobá é a árvore que atravessa gerações. É o quarto do tempo longo, do que se planta para os netos.\n",
+      "historia": "O jatobá chega a 40 metros, tem tronco grosso e copa densa. Cresce em terra firme na Amazônia e no Cerrado e é uma das árvores mais longevas do Brasil, com séculos de vida.\n\nO fruto é uma vagem lenhosa e escura. Dentro, uma polpa seca e farinhenta, de cheiro forte, que povos indígenas comem e transformam em farinha e mingau. É rica em fibras e energia.\n\nDo tronco escorre uma resina amarelada, a jutaicica, usada como verniz, incenso e remédio. Enterrada por milhões de anos, essa resina vira âmbar. A madeira é dura, pesada e avermelhada, uma das mais usadas em pisos no Brasil.\n",
+      "curiosidades": [
+        "A casca do jatobá é usada em chás e garrafadas na medicina popular.",
+        "A farinha de jatobá aparece em pães e biscoitos de padarias do Cerrado e da Amazônia.",
+        "Cutias e macacos comem a polpa e espalham as sementes.",
+        "O nome jatobá vem do tupi e é associado a fruto de casca dura."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Hymenaea courbaril"
+        ],
+        [
+          "Família",
+          "Fabaceae"
+        ],
+        [
+          "Altura",
+          "Até 40 m"
+        ],
+        [
+          "Onde vive",
+          "Amazônia e Cerrado"
+        ],
+        [
+          "Produtos",
+          "Farinha do fruto, resina, casca, madeira"
+        ],
+        [
+          "Longevidade",
+          "Séculos"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Como se come o jatobá?",
+          "r": "A polpa seca dentro da vagem pode ser comida pura ou transformada em farinha, que entra em mingaus, pães e bolos. O cheiro é forte, mas o sabor é doce."
+        },
+        {
+          "p": "Para que serve a resina do jatobá?",
+          "r": "Como verniz natural, incenso e remédio na medicina popular. Fossilizada, ela vira âmbar."
+        },
+        {
+          "p": "O jatobá existe em Rondônia?",
+          "r": "Sim. É comum nas florestas de terra firme do estado e em áreas de cerrado no sul de Rondônia."
+        }
+      ],
+      "seo": {
+        "title": "Jatobá: a árvore da farinha e da resina | Kaluanã",
+        "description": "Jatobá (Hymenaea courbaril): fruto, farinha, resina, madeira e longevidade. O tema do quarto 310 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "jatobá",
+          "hymenaea courbaril",
+          "farinha de jatobá",
+          "resina de jatobá",
+          "árvore jatobá"
+        ],
+        "resposta": "O jatobá (Hymenaea courbaril) é uma árvore de até 40 metros da Amazônia e do Cerrado, de vida longa, que produz uma vagem com polpa farinhenta comestível, uma resina usada como verniz e incenso, e uma madeira dura muito usada em pisos.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/jatobá 3.jpg",
+          "uso": "hero",
+          "nota": "1024 x 1024 px, quadrada. Árvore isolada em gramado. Resolução limita hero."
+        },
+        {
+          "arquivo": "Árvores/jatobá 4.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 768 px. Copa ampla."
+        }
+      ]
+    },
+    {
+      "id": "bacaba",
+      "nome": "Bacaba",
+      "subtitulo": "A prima do açaí que dá óleo de oliva",
+      "cientifico": "Oenocarpus bacaba",
+      "uh": "311",
+      "quarto": 11,
+      "abertura": "A bacaba é a palmeira que os ribeirinhos tomam quando o açaí acaba. O vinho é mais claro, mais gorduroso e, para muita gente, mais gostoso. Do mesmo fruto sai um óleo parecido com o de oliva.\n",
+      "no_kaluana": "Ela está neste andar por ser a menos conhecida das palmeiras da mesa. Quem prova bacaba em Rondônia não esquece. É o quarto da descoberta.\n",
+      "historia": "A bacaba cresce em terra firme por toda a Amazônia e chega a 20 metros. Tem tronco único, folhas grandes e cachos pendentes de frutos roxos, um pouco maiores que os do açaí.\n\nO preparo é igual ao do açaí: os frutos são amolecidos em água morna e amassados até soltar a polpa, que vira uma bebida grossa e cremosa, o vinho de bacaba. É servida com farinha e açúcar ou com peixe.\n\nA polpa é rica em gordura. O óleo extraído dela é claro, com perfil de ácidos graxos parecido com o do azeite de oliva, e é usado na cozinha e em cosméticos.\n",
+      "curiosidades": [
+        "As folhas jovens da bacaba são usadas em cestos e coberturas de casas.",
+        "Os cachos são pesados e podem passar de 10 quilos.",
+        "Aves e macacos disputam os frutos maduros na copa.",
+        "Existem outras espécies próximas, como a bacaba-de-leque e o patauá, com usos parecidos."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Oenocarpus bacaba"
+        ],
+        [
+          "Família",
+          "Arecaceae"
+        ],
+        [
+          "Altura",
+          "Até 20 m"
+        ],
+        [
+          "Onde vive",
+          "Terra firme de toda a Amazônia"
+        ],
+        [
+          "Produtos",
+          "Vinho de bacaba, óleo, folhas"
+        ],
+        [
+          "Colheita",
+          "Manual, subindo o tronco"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre bacaba e açaí?",
+          "r": "São palmeiras de gêneros diferentes. A bacaba tem fruto um pouco maior, polpa mais gordurosa e vinho mais claro. O preparo e o jeito de servir são iguais."
+        },
+        {
+          "p": "Como é o óleo de bacaba?",
+          "r": "Claro, de sabor suave e rico em ácido oleico, como o azeite de oliva. É usado na cozinha regional e em cosméticos."
+        },
+        {
+          "p": "Onde encontrar bacaba em Rondônia?",
+          "r": "Em feiras e mercados das cidades do estado, na época da safra, e em comunidades ribeirinhas."
+        }
+      ],
+      "seo": {
+        "title": "Bacaba: a palmeira prima do açaí | Kaluanã",
+        "description": "Bacaba (Oenocarpus bacaba): vinho de bacaba, óleo, diferença para o açaí e usos. O tema do quarto 311 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "bacaba",
+          "oenocarpus bacaba",
+          "vinho de bacaba",
+          "óleo de bacaba",
+          "bacaba e açaí"
+        ],
+        "resposta": "A bacaba (Oenocarpus bacaba) é uma palmeira amazônica de até 20 metros cujos frutos roxos produzem o vinho de bacaba, uma bebida cremosa preparada como o açaí, e um óleo claro com perfil parecido com o do azeite de oliva.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/bacaba 3.jpg",
+          "uso": "hero",
+          "nota": "800 x 900 px, vertical. Palmeira com cachos vermelhos. Resolução limita hero."
+        },
+        {
+          "arquivo": "Árvores/bacaba 2.jpg",
+          "uso": "galeria",
+          "nota": "736 x 1260 px, vertical. Cacho em detalhe."
+        }
+      ]
+    },
+    {
+      "id": "tucuma",
+      "nome": "Tucumã",
+      "subtitulo": "A palmeira de espinhos e fruta laranja",
+      "cientifico": "Astrocaryum aculeatum",
+      "uh": "312",
+      "quarto": 12,
+      "abertura": "O tucumã se defende com espinhos. O tronco inteiro é coberto deles. Mas o fruto, laranja e oleoso, é uma das maiores fontes de vitamina A que existem. Em Manaus, ele vai no pão com queijo no café da manhã.\n",
+      "no_kaluana": "Ele está neste andar pelo sanduíche. O X-caboquinho, pão com tucumã, queijo coalho e banana frita, é a cara do café amazônico. É o quarto de quem acorda com fome.\n",
+      "historia": "O tucumã-do-amazonas cresce em terra firme, em capoeiras e áreas abertas, e chega a 20 metros. O tronco é armado com espinhos longos e pretos, e as folhas também. Colher o fruto exige cuidado.\n\nA polpa fina e laranja envolve um caroço duro. É comida crua, em lascas, ou processada em sorvetes e cremes. É rica em betacaroteno, que o corpo transforma em vitamina A, e em gorduras boas.\n\nDas folhas de palmeiras do mesmo gênero se tiram as fibras de tucum, usadas há séculos para redes, cordas e artesanato. O caroço vira anéis e botões.\n",
+      "curiosidades": [
+        "O X-caboquinho é o sanduíche mais famoso de Manaus: pão francês, tucumã em lascas, queijo coalho e banana pacovan frita.",
+        "As sementes do tucumã resistem ao fogo. Por isso a palmeira domina áreas queimadas.",
+        "Um cacho pode ter mais de 200 frutos.",
+        "O tucumã-do-pará é outra espécie, com fruto parecido e uso semelhante."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Astrocaryum aculeatum"
+        ],
+        [
+          "Família",
+          "Arecaceae"
+        ],
+        [
+          "Altura",
+          "Até 20 m"
+        ],
+        [
+          "Onde vive",
+          "Terra firme e áreas abertas da Amazônia"
+        ],
+        [
+          "Produtos",
+          "Polpa do fruto, fibra de tucum, caroço para artesanato"
+        ],
+        [
+          "Nutrição",
+          "Rico em betacaroteno e gorduras insaturadas"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Como se come tucumã?",
+          "r": "A polpa é cortada em lascas finas e comida crua, pura ou no pão com queijo coalho. Também vira sorvete, creme e recheio."
+        },
+        {
+          "p": "O tucumã é saudável?",
+          "r": "É uma das frutas mais ricas em betacaroteno, precursor da vitamina A, e tem gorduras insaturadas. É calórico, por isso a porção costuma ser pequena."
+        },
+        {
+          "p": "Por que o tucumã tem espinhos?",
+          "r": "Para proteger o tronco e os frutos de animais. Os espinhos são longos e pretos e cobrem o tronco e as folhas."
+        }
+      ],
+      "seo": {
+        "title": "Tucumã: a palmeira da fruta laranja | Kaluanã",
+        "description": "Tucumã (Astrocaryum aculeatum): fruto, vitamina A, X-caboquinho, espinhos e fibra de tucum. O tema do quarto 312 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "tucumã",
+          "astrocaryum aculeatum",
+          "x-caboquinho",
+          "fruta tucumã",
+          "palmeira tucumã"
+        ],
+        "resposta": "O tucumã (Astrocaryum aculeatum) é uma palmeira amazônica de tronco coberto de espinhos cujo fruto laranja, rico em betacaroteno, é comido em lascas, principalmente no pão com queijo coalho, o X-caboquinho. Das folhas de palmeiras do gênero saem as fibras de tucum.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/tucumã 5.jpg",
+          "uso": "hero",
+          "nota": "530 x 617 px, vertical. Cacho de frutos laranja. Baixa resolução, mas forte visualmente. Buscar versão maior."
+        },
+        {
+          "arquivo": "Árvores/tucumã 3.jpg",
+          "uso": "galeria",
+          "nota": "640 x 480 px. Palmeira inteira. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "angelim",
+      "nome": "Angelim",
+      "subtitulo": "A família da árvore mais alta da Amazônia",
+      "cientifico": "Dinizia excelsa e Hymenolobium spp.",
+      "uh": "313",
+      "quarto": 13,
+      "abertura": "Angelim é nome de gigantes. A árvore mais alta já medida na Amazônia é um angelim-vermelho de mais de 88 metros. A madeira é tão pesada que sustenta pontes e dormentes de ferrovia.\n",
+      "no_kaluana": "Ele está neste andar pela estrutura. O angelim é a madeira que segura peso. É o quarto da firmeza, do que aguenta o tempo sem reclamar.\n",
+      "historia": "Angelim é o nome popular de várias árvores de madeira pesada. O angelim-vermelho, Dinizia excelsa, e o angelim-pedra, Hymenolobium petraeum, são os mais conhecidos. Crescem em terra firme, com troncos retos que passam de 40 metros antes do primeiro galho.\n\nEm 2019 uma expedição encontrou, na região do rio Jari, entre Amapá e Pará, um angelim-vermelho de 88,5 metros. Ele foi medido em 2022 e confirmado como a árvore mais alta da Amazônia e uma das mais altas das florestas tropicais do mundo.\n\nA madeira do angelim é dura, densa e resistente à umidade e a insetos. Vai para estruturas, pontes, postes, dormentes e pisos pesados. Em Rondônia é uma das espécies mais manejadas.\n",
+      "curiosidades": [
+        "O angelim-vermelho gigante foi visto primeiro em imagens de satélite e de laser aéreo, antes de alguém chegar até ele a pé.",
+        "A madeira do angelim-vermelho tem cheiro forte quando serrada e pode irritar a pele.",
+        "Angelim-pedra tem casca clara e lisa, diferente do vermelho, de casca escura e fissurada.",
+        "Árvores desse porte armazenam toneladas de carbono cada uma."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Dinizia excelsa (angelim-vermelho), Hymenolobium petraeum (angelim-pedra)"
+        ],
+        [
+          "Família",
+          "Fabaceae"
+        ],
+        [
+          "Altura",
+          "De 40 a mais de 80 m"
+        ],
+        [
+          "Onde vive",
+          "Terra firme da Amazônia"
+        ],
+        [
+          "Produto",
+          "Madeira densa para estruturas"
+        ],
+        [
+          "Registro",
+          "Angelim-vermelho de 88,5 m no rio Jari"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual é a árvore mais alta da Amazônia?",
+          "r": "Um angelim-vermelho, Dinizia excelsa, com 88,5 metros, encontrado na região do rio Jari, na divisa do Amapá com o Pará, e medido em 2022."
+        },
+        {
+          "p": "Para que serve a madeira de angelim?",
+          "r": "Para estruturas que exigem resistência: vigas, pontes, dormentes, postes e pisos de tráfego pesado. É densa e resiste à umidade e a insetos."
+        },
+        {
+          "p": "Quantos tipos de angelim existem?",
+          "r": "Vários. Os mais conhecidos são o angelim-vermelho, o angelim-pedra, o angelim-amargoso e o angelim-rajado, de gêneros diferentes, todos de madeira pesada."
+        }
+      ],
+      "seo": {
+        "title": "Angelim: a família da árvore mais alta da Amazônia | Kaluanã",
+        "description": "Angelim: angelim-vermelho, angelim-pedra, a árvore de 88,5 metros e a madeira que sustenta pontes. O tema do quarto 313 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "angelim",
+          "angelim vermelho",
+          "dinizia excelsa",
+          "árvore mais alta da amazônia",
+          "madeira de angelim"
+        ],
+        "resposta": "Angelim é o nome de várias árvores amazônicas de madeira pesada, como o angelim-vermelho (Dinizia excelsa) e o angelim-pedra (Hymenolobium petraeum). Um angelim-vermelho de 88,5 metros, na região do rio Jari, é a árvore mais alta já medida na Amazônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/angelim.jpg",
+          "uso": "hero",
+          "nota": "1920 x 1272 px. Tronco reto visto de baixo, sem galhos. Apta para hero."
+        },
+        {
+          "arquivo": "Árvores/angelim 3.jpg",
+          "uso": "galeria",
+          "nota": "640 x 853 px, vertical. Sapopema e tronco. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "macaranduba",
+      "nome": "Maçaranduba",
+      "subtitulo": "A madeira que afunda e o fruto que adoça",
+      "cientifico": "Manilkara huberi",
+      "uh": "314",
+      "quarto": 14,
+      "abertura": "A maçaranduba é tão densa que afunda na água. Do tronco sai um látex que já foi chiclete e correia de máquina. E o fruto, pequeno e marrom, é doce como o sapoti, seu parente.\n",
+      "no_kaluana": "Ela está neste andar por ser a árvore de muitas vidas. Madeira, látex e fruta da mesma planta. É o quarto do aproveitamento, do nada se perde.\n",
+      "historia": "A maçaranduba é uma árvore de 40 a 50 metros da família do sapoti e da sapota. Cresce em terra firme por toda a Amazônia e tem uma casca escura que, cortada, solta um látex branco e grosso.\n\nEsse látex, chamado balata, foi exportado da Amazônia para fábricas de correias, bolas de golfe e isolantes de cabos submarinos, antes de a borracha sintética existir. Com açúcar, virava uma goma de mascar rústica.\n\nA madeira é vermelha, pesada, durável ao ar livre e resistente a cupins. É usada em decks, dormentes, pontes e pisos. O fruto é comido por macacos, aves e gente.\n",
+      "curiosidades": [
+        "A densidade da madeira de maçaranduba passa de 1 grama por centímetro cúbico. Uma tábua jogada no rio vai ao fundo.",
+        "O nome maçaranduba vem do tupi.",
+        "Os balateiros, coletores de látex, viveram na Amazônia um ciclo parecido com o dos seringueiros, mas menos conhecido.",
+        "A madeira, exposta ao sol, escurece para um vermelho profundo."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Manilkara huberi"
+        ],
+        [
+          "Família",
+          "Sapotaceae"
+        ],
+        [
+          "Altura",
+          "De 40 a 50 m"
+        ],
+        [
+          "Onde vive",
+          "Terra firme da Amazônia"
+        ],
+        [
+          "Produtos",
+          "Madeira densa, látex (balata), fruto"
+        ],
+        [
+          "Usos",
+          "Decks, pontes, dormentes, pisos"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "A madeira de maçaranduba é boa?",
+          "r": "É uma das mais duráveis da Amazônia. Densa, resistente à umidade e a cupins, dura décadas ao ar livre. Por ser pesada, exige estrutura reforçada."
+        },
+        {
+          "p": "O que é balata?",
+          "r": "O látex da maçaranduba. Foi usado em correias industriais, bolas de golfe e revestimento de cabos antes das borrachas sintéticas."
+        },
+        {
+          "p": "O fruto da maçaranduba é comestível?",
+          "r": "Sim. É pequeno, marrom e doce, parecido com o sapoti, da mesma família."
+        }
+      ],
+      "seo": {
+        "title": "Maçaranduba: a madeira que afunda na água | Kaluanã",
+        "description": "Maçaranduba (Manilkara huberi): madeira densa, látex balata e fruto doce. O tema do quarto 314 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "maçaranduba",
+          "manilkara huberi",
+          "madeira maçaranduba",
+          "balata",
+          "deck de maçaranduba"
+        ],
+        "resposta": "A maçaranduba (Manilkara huberi) é uma árvore amazônica de até 50 metros, parente do sapoti, com madeira vermelha tão densa que afunda na água, usada em decks e pontes. Seu látex, a balata, foi matéria-prima industrial, e o fruto é doce e comestível.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/maçaranduba.JPG",
+          "uso": "hero",
+          "nota": "1600 x 1200 px. Galhos e tronco vistos de baixo. Apta para hero em telas médias."
+        },
+        {
+          "arquivo": "Árvores/maçaranduba 5.jpg",
+          "uso": "galeria",
+          "nota": "1536 x 2048 px, vertical. Frutos entre as folhas. Boa para mobile."
+        }
+      ]
+    },
+    {
+      "id": "jenipapo",
+      "nome": "Jenipapo",
+      "subtitulo": "A fruta que vira tinta",
+      "cientifico": "Genipa americana",
+      "uh": "315",
+      "quarto": 15,
+      "abertura": "O suco do jenipapo verde é transparente. Passado na pele, escurece em poucas horas e fica azul quase preto por duas semanas. É a tinta dos povos indígenas do Brasil há milhares de anos. Madura, a fruta vira licor e doce.\n",
+      "no_kaluana": "Ele está neste andar por ser a árvore da pintura. O corpo pintado de jenipapo é uma das imagens mais fortes do Brasil. É o quarto da cor, da marca que fica.\n",
+      "historia": "O jenipapo é uma árvore de 15 a 20 metros, da mesma família do café, que cresce em várzeas e matas úmidas da Amazônia, do Cerrado e da Mata Atlântica. O fruto é redondo, marrom e de cheiro forte quando maduro.\n\nVerde, o fruto contém genipina, uma substância que reage com as proteínas da pele e produz cor azul-escura. Povos indígenas usam essa tinta em pinturas corporais de festas, lutos e ritos, combinada com o vermelho do urucum.\n\nMaduro, o jenipapo vira licor, compota, doce em calda e suco. No Nordeste, o licor de jenipapo é tradição de festa junina.\n",
+      "curiosidades": [
+        "A tinta de jenipapo não sai com água nem sabão. Ela desaparece só quando a pele se renova, em uma ou duas semanas.",
+        "A genipina é estudada como corante azul natural para alimentos e cosméticos.",
+        "O nome vem do tupi e é traduzido como fruta que serve para pintar.",
+        "A madeira do jenipapo é dura e usada em cabos de ferramentas."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Genipa americana"
+        ],
+        [
+          "Família",
+          "Rubiaceae, a mesma do café"
+        ],
+        [
+          "Altura",
+          "De 15 a 20 m"
+        ],
+        [
+          "Onde vive",
+          "Várzeas e matas úmidas de todo o Brasil"
+        ],
+        [
+          "Produtos",
+          "Fruto, tinta corporal, licor, madeira"
+        ],
+        [
+          "Cor da tinta",
+          "Azul-escuro a preto, temporária"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Como se faz a tinta de jenipapo?",
+          "r": "O fruto verde é ralado ou espremido e o suco é misturado com um pouco de carvão ou aplicado puro. Ele escurece na pele em algumas horas e dura cerca de duas semanas."
+        },
+        {
+          "p": "A tinta de jenipapo faz mal?",
+          "r": "Não, quando usada na pele. É natural e temporária. Pode causar reação em pessoas sensíveis, como qualquer produto."
+        },
+        {
+          "p": "Como se come jenipapo?",
+          "r": "Maduro, em licor, doce em calda, compota e suco. O sabor é forte e adocicado."
+        }
+      ],
+      "seo": {
+        "title": "Jenipapo: a fruta que vira tinta | Kaluanã",
+        "description": "Jenipapo (Genipa americana): tinta corporal indígena, genipina, licor e curiosidades. O tema do quarto 315 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "jenipapo",
+          "genipa americana",
+          "tinta de jenipapo",
+          "pintura indígena jenipapo",
+          "licor de jenipapo"
+        ],
+        "resposta": "O jenipapo (Genipa americana) é uma árvore da família do café cujo fruto verde contém genipina, substância que escurece na pele e produz a tinta azul-escura usada por povos indígenas em pinturas corporais. Maduro, o fruto vira licor, doce e suco.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/jenipapo 5.JPG",
+          "uso": "hero",
+          "nota": "1600 x 1200 px. Frutos verdes na árvore com céu azul. Apta para hero em telas médias."
+        },
+        {
+          "arquivo": "Árvores/jenipapo.jpg",
+          "uso": "galeria",
+          "nota": "620 x 465 px. Fruto entre folhas. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "itauba",
+      "nome": "Itaúba",
+      "subtitulo": "A madeira das canoas",
+      "cientifico": "Mezilaurus itauba",
+      "uh": "316",
+      "quarto": 16,
+      "abertura": "A itaúba é a madeira dos barcos da Amazônia. Aguenta água, sol e chuva por décadas sem apodrecer. O nome, em tupi, quer dizer madeira de pedra. Quem constrói canoa sabe que é verdade.\n",
+      "no_kaluana": "Ela está neste andar por ser a madeira do rio. Todo barco que sobe o Madeira ou o Machado tem itaúba em algum lugar. É o quarto da travessia.\n",
+      "historia": "A itaúba é uma árvore da família do louro e do abacate, de 30 a 40 metros, com tronco reto e casca que se solta em placas. Cresce em terra firme na Amazônia central e ocidental, inclusive em Rondônia.\n\nA madeira é amarelada quando cortada e escurece para um marrom oliva. É densa, oleosa e resiste ao apodrecimento mesmo submersa. Por isso é a escolha tradicional para cascos de canoas e barcos regionais, além de decks, pontes e assoalhos.\n\nCresce devagar e, por causa da demanda, é explorada com plano de manejo nas florestas do estado.\n",
+      "curiosidades": [
+        "Barcos de itaúba com mais de 50 anos ainda navegam pelos rios amazônicos.",
+        "O nome científico, Mezilaurus itauba, mantém a palavra indígena.",
+        "A madeira solta um cheiro característico ao ser serrada, parecido com o do louro.",
+        "Além de barcos, a itaúba é usada em pontes e passarelas sobre igarapés, onde a madeira fica molhada o ano inteiro."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Mezilaurus itauba"
+        ],
+        [
+          "Família",
+          "Lauraceae"
+        ],
+        [
+          "Altura",
+          "De 30 a 40 m"
+        ],
+        [
+          "Onde vive",
+          "Terra firme da Amazônia, inclusive Rondônia"
+        ],
+        [
+          "Produto",
+          "Madeira densa e resistente à água"
+        ],
+        [
+          "Usos",
+          "Barcos, canoas, decks, pontes, assoalhos"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que a itaúba é usada em barcos?",
+          "r": "Porque resiste à umidade constante sem apodrecer e é densa o suficiente para aguentar impactos. É a madeira tradicional dos cascos na Amazônia."
+        },
+        {
+          "p": "O que significa itaúba?",
+          "r": "Vem do tupi: itá é pedra e ybá é árvore ou madeira. Madeira de pedra, pela dureza e durabilidade."
+        },
+        {
+          "p": "A itaúba é uma madeira legal?",
+          "r": "Sim, quando vem de plano de manejo aprovado, com documento de origem. Em Rondônia, várias áreas de manejo produzem itaúba."
+        }
+      ],
+      "seo": {
+        "title": "Itaúba: a madeira das canoas da Amazônia | Kaluanã",
+        "description": "Itaúba (Mezilaurus itauba): a madeira que resiste à água, usos em barcos e decks e o significado do nome. O tema do quarto 316 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "itaúba",
+          "mezilaurus itauba",
+          "madeira itaúba",
+          "madeira para barco",
+          "itaúba rondônia"
+        ],
+        "resposta": "A itaúba (Mezilaurus itauba) é uma árvore amazônica da família do louro, de 30 a 40 metros, com madeira densa e oleosa que resiste à água por décadas. É a madeira tradicional dos barcos e canoas da Amazônia. O nome tupi significa madeira de pedra.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/itaúba.jpg",
+          "uso": "hero",
+          "nota": "650 x 764 px, vertical. Casca em placas em detalhe. Baixa resolução; buscar imagem maior ou fotografar em estaleiro ou marcenaria."
+        },
+        {
+          "arquivo": "Árvores/itaúba 2.jpg",
+          "uso": "galeria",
+          "nota": "334 x 500 px. Tronco visto de baixo. Muito baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "seringueira",
+      "nome": "Seringueira",
+      "subtitulo": "A árvore que construiu Rondônia",
+      "cientifico": "Hevea brasiliensis",
+      "uh": "317",
+      "quarto": 17,
+      "abertura": "Todo pneu do mundo tem um pouco desta árvore. A seringueira solta um látex branco que vira borracha, e foi por ele que milhares de pessoas vieram para a Amazônia. Rondônia nasceu dos seringais e da ferrovia que escoava a borracha.\n",
+      "no_kaluana": "Se uma árvore explica por que existe um hotel em Ji-Paraná, é esta. A seringueira trouxe gente, abriu caminho e deu nome a bairros e cidades. É o quarto da origem.\n",
+      "historia": "A seringueira é nativa da Amazônia. Chega a 30 metros, tem tronco liso e folhas em grupos de três. O látex circula sob a casca e é colhido de madrugada, com cortes em espiral que não matam a árvore.\n\nEntre 1879 e 1912 a borracha amazônica sustentou o primeiro ciclo. Manaus e Belém enriqueceram, e seringais se espalharam pelo Acre, pelo Amazonas e pelo que viria a ser Rondônia. A Estrada de Ferro Madeira-Mamoré foi construída para escoar a borracha boliviana.\n\nEm 1876, sementes contrabandeadas para a Inglaterra deram origem às plantações da Ásia, mais produtivas. O ciclo acabou. Na Segunda Guerra, o Brasil recrutou os soldados da borracha, nordestinos enviados aos seringais. Muitos ficaram e formaram as primeiras comunidades de Rondônia.\n\nNa Amazônia, a seringueira só produz na floresta, espalhada, porque um fungo ataca as plantações densas. Foi por isso que Fordlândia fracassou.\n",
+      "curiosidades": [
+        "O tambaqui come as sementes da seringueira na floresta alagada e ajuda a espalhá-las.",
+        "O seringueiro corta a casca antes do amanhecer, quando o látex escorre mais.",
+        "Chico Mendes, seringueiro do Acre, tornou a floresta em pé uma causa mundial.",
+        "Hoje a maior parte da borracha natural brasileira vem de plantios em São Paulo, fora do alcance do fungo."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Hevea brasiliensis"
+        ],
+        [
+          "Família",
+          "Euphorbiaceae"
+        ],
+        [
+          "Altura",
+          "Até 30 m"
+        ],
+        [
+          "Onde vive",
+          "Nativa da Amazônia; plantada em várias regiões"
+        ],
+        [
+          "Produto",
+          "Látex, matéria-prima da borracha natural"
+        ],
+        [
+          "História",
+          "Ciclos da borracha (1879 a 1912 e 1942 a 1945)"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Como se extrai o látex da seringueira?",
+          "r": "Com cortes finos em espiral na casca, feitos de madrugada. O látex escorre por uma bica até uma tigela. O corte é refeito a cada poucos dias e a árvore não morre."
+        },
+        {
+          "p": "O que foram os soldados da borracha?",
+          "r": "Trabalhadores, na maioria nordestinos, recrutados pelo governo brasileiro entre 1942 e 1945 para produzir borracha na Amazônia durante a Segunda Guerra. Muitos se fixaram em Rondônia e no Acre."
+        },
+        {
+          "p": "Por que não há grandes plantações de seringueira na Amazônia?",
+          "r": "Por causa do mal-das-folhas, um fungo nativo que se espalha rápido em plantios densos. Na floresta, as seringueiras crescem afastadas e escapam dele."
+        }
+      ],
+      "seo": {
+        "title": "Seringueira: a árvore que construiu Rondônia | Kaluanã",
+        "description": "Seringueira (Hevea brasiliensis): látex, ciclos da borracha, soldados da borracha e a formação de Rondônia. O tema do quarto 317 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "seringueira",
+          "hevea brasiliensis",
+          "ciclo da borracha",
+          "soldados da borracha",
+          "seringueira rondônia"
+        ],
+        "resposta": "A seringueira (Hevea brasiliensis) é a árvore amazônica que produz o látex da borracha natural. Os ciclos da borracha, entre 1879 e 1912 e durante a Segunda Guerra, trouxeram milhares de trabalhadores para a Amazônia e deram origem às primeiras comunidades de Rondônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/seringueira 2.jpg",
+          "uso": "hero",
+          "nota": "2500 x 1667 px. Seringal com tigelas nos troncos. Apta para hero."
+        },
+        {
+          "arquivo": "Árvores/seringueira 3.jpg",
+          "uso": "galeria",
+          "nota": "1700 x 1129 px. Corte e látex escorrendo em detalhe."
+        }
+      ]
+    },
+    {
+      "id": "jequitiba",
+      "nome": "Jequitibá",
+      "subtitulo": "O gigante que atravessa os séculos",
+      "cientifico": "Cariniana spp.",
+      "uh": "318",
+      "quarto": 18,
+      "abertura": "O jequitibá é uma das árvores mais altas e mais velhas do Brasil. Em São Paulo, um jequitibá-rosa conhecido como Patriarca tem idade estimada em muitos séculos. Na Amazônia, o parente dele sobe acima da copa das outras árvores.\n",
+      "no_kaluana": "Ele fecha o andar das árvores porque é o mais antigo. O jequitibá viu passar tudo o que aconteceu no Brasil. É o quarto da permanência, o último antes de subir para as aves.\n",
+      "historia": "Jequitibá é o nome das árvores do gênero Cariniana, parentes da castanheira. O jequitibá-rosa e o jequitibá-branco são da Mata Atlântica e chegam a 50 metros. Na Amazônia, o Cariniana micrantha é uma das árvores emergentes da floresta central, também chamado de tauari.\n\nO tronco é reto e grosso, com casca fissurada. A madeira é clara, leve e fácil de trabalhar, usada em móveis, compensados e caixas. O fruto é uma cápsula lenhosa que se abre e solta sementes aladas.\n\nO Patriarca da Floresta, em Santa Rita do Passa Quatro, interior de São Paulo, é o jequitibá mais famoso do país, com cerca de 40 metros de altura e idade estimada em muitos séculos por diferentes métodos.\n",
+      "curiosidades": [
+        "O nome vem do tupi e costuma ser traduzido como gigante da floresta.",
+        "Jequitibás derrubados no século XX renderam toras tão grandes que eram transportadas em dois caminhões.",
+        "Na Amazônia, o jequitibá abriga ninhos de gavião-real e de araras nas copas emergentes.",
+        "A casca do jequitibá-rosa é usada em chás na medicina popular."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Cariniana legalis, Cariniana estrellensis e Cariniana micrantha"
+        ],
+        [
+          "Família",
+          "Lecythidaceae, a mesma da castanheira"
+        ],
+        [
+          "Altura",
+          "Até 50 m ou mais"
+        ],
+        [
+          "Onde vive",
+          "Mata Atlântica e Amazônia"
+        ],
+        [
+          "Produto",
+          "Madeira clara e leve"
+        ],
+        [
+          "Longevidade",
+          "Séculos"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual é o jequitibá mais velho do Brasil?",
+          "r": "O Patriarca da Floresta, um jequitibá-rosa em Santa Rita do Passa Quatro, São Paulo. As estimativas de idade variam conforme o método, mas todas apontam muitos séculos."
+        },
+        {
+          "p": "O jequitibá existe na Amazônia?",
+          "r": "Sim. O Cariniana micrantha, chamado de jequitibá ou tauari, é uma das árvores mais altas da Amazônia central e ocorre também em Rondônia."
+        },
+        {
+          "p": "Jequitibá e castanheira são parentes?",
+          "r": "Sim. As duas são da família Lecythidaceae e têm frutos em cápsula lenhosa."
+        }
+      ],
+      "seo": {
+        "title": "Jequitibá: o gigante que atravessa os séculos | Kaluanã",
+        "description": "Jequitibá (Cariniana): altura, longevidade, o Patriarca da Floresta e o jequitibá amazônico. O tema do quarto 318 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "jequitibá",
+          "cariniana",
+          "jequitibá rosa",
+          "patriarca da floresta",
+          "árvore mais velha do brasil"
+        ],
+        "resposta": "Jequitibá é o nome das árvores do gênero Cariniana, parentes da castanheira, que chegam a 50 metros e vivem séculos. O jequitibá-rosa e o jequitibá-branco são da Mata Atlântica; na Amazônia, o Cariniana micrantha é uma das árvores emergentes da floresta.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Árvores/jequitiba.jpg",
+          "uso": "hero",
+          "nota": "2000 x 3011 px, vertical. Tronco imenso visto de baixo. Ótima para mobile e recorte; reduzir o arquivo."
+        },
+        {
+          "arquivo": "Árvores/jequitiba 2.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 685 px. Árvore isolada em campo."
+        }
+      ]
+    }
+  ]
+}

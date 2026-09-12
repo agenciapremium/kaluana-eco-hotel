@@ -1,0 +1,255 @@
+{
+  "grupo": "guardioes",
+  "nome_grupo": "Os Guardiões",
+  "andar": 4,
+  "cor": "#552F22",
+  "intro_grupo": "No quarto andar, três acomodações fogem da regra das aves. São as maiores do hotel e levam o nome dos três grandes predadores da Amazônia: a onça-pintada, a jaguatirica e o jacaré-açu. Kaluanã quer dizer grande guerreiro. Estes são os guardiões da casa.\n",
+  "itens": [
+    {
+      "id": "onca-pintada",
+      "nome": "Onça-pintada",
+      "subtitulo": "O maior felino das Américas",
+      "cientifico": "Panthera onca",
+      "categoria": "Suíte Presidencial",
+      "uh": "401",
+      "quarto": null,
+      "abertura": "A onça-pintada é o maior felino das Américas e o terceiro do mundo. Tem a mordida mais forte entre os grandes felinos em relação ao tamanho, capaz de atravessar o casco de uma tartaruga. Nada, escala, caça jacaré. Para os povos da Amazônia, é o guerreiro da floresta.\n",
+      "no_kaluana": "Kaluanã significa grande guerreiro. A suíte principal do hotel só podia ter um nome. A onça-pintada é a força que não precisa se exibir. Quem se hospeda aqui dorme no quarto mais alto e mais silencioso da casa, com o nome do animal que manda na floresta.\n",
+      "historia": "A onça-pintada vive do México à Argentina, e a Amazônia é sua maior área contínua. Os machos chegam a 130 quilos no Pantanal e são um pouco menores na floresta. A pelagem amarela tem rosetas pretas com pontos no centro, o que a distingue do leopardo. A onça-preta é o mesmo animal, com excesso de pigmento.\n\nCaça sozinha, de emboscada, e mata com uma mordida no crânio, ao contrário dos outros grandes felinos, que atacam o pescoço. Come capivaras, jacarés, veados, tatus, peixes e o que mais encontrar. Nada com facilidade e cruza rios largos.\n\nCada onça ocupa um território de dezenas de quilômetros quadrados e precisa de floresta contínua. Em Rondônia, vive nas áreas protegidas do Guaporé, dos Pacaás Novos e do vale do Madeira. O nome jaguar vem do tupi e é usado em todo o mundo.\n",
+      "curiosidades": [
+        "A onça-pintada é o único grande felino das Américas que ruge. O som é um ronco grave chamado de esturro.",
+        "Ela caça jacarés na água e os arrasta para a margem.",
+        "Em cerâmicas, máscaras e mitos de dezenas de povos indígenas, a onça é o símbolo de poder e transformação.",
+        "A rosetas de cada onça são únicas, como impressões digitais, e permitem identificar indivíduos em fotos de armadilhas fotográficas."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Panthera onca"
+        ],
+        [
+          "Família",
+          "Felidae"
+        ],
+        [
+          "Peso",
+          "De 55 a 130 kg"
+        ],
+        [
+          "Alimentação",
+          "Capivaras, jacarés, veados, tatus, peixes"
+        ],
+        [
+          "Onde vive",
+          "Do México à Argentina; em Rondônia, nas áreas de floresta preservada"
+        ],
+        [
+          "Situação",
+          "Quase ameaçada; em declínio fora das áreas protegidas"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre onça-pintada e leopardo?",
+          "r": "A onça tem rosetas maiores, com pontos pretos no centro, corpo mais robusto e cabeça mais larga. Vive nas Américas. O leopardo vive na África e na Ásia e tem rosetas menores e vazias."
+        },
+        {
+          "p": "Onça-preta e onça-pintada são a mesma espécie?",
+          "r": "Sim. A onça-preta é uma onça-pintada com melanismo, excesso de pigmento escuro. As rosetas continuam lá, visíveis contra a luz."
+        },
+        {
+          "p": "A onça-pintada ataca pessoas?",
+          "r": "Ataques são raríssimos. A onça evita o ser humano. Os poucos registros envolvem animais feridos, encurralados ou acostumados a alimento humano."
+        }
+      ],
+      "seo": {
+        "title": "Onça-pintada: o maior felino das Américas | Kaluanã",
+        "description": "Onça-pintada (Panthera onca): tamanho, mordida, caça, onça-preta e onde vive em Rondônia. O tema da Suíte Presidencial do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "onça pintada",
+          "panthera onca",
+          "maior felino das américas",
+          "onça preta",
+          "onça pintada rondônia"
+        ],
+        "resposta": "A onça-pintada (Panthera onca) é o maior felino das Américas, com até 130 quilos, e tem a mordida mais forte entre os grandes felinos em relação ao tamanho. Vive do México à Argentina, caça de emboscada, nada bem e ocorre nas florestas preservadas de Rondônia. A onça-preta é a mesma espécie com melanismo.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/onça pintada 3.jpg",
+          "uso": "hero",
+          "nota": "1600 x 1067 px. Rosto da onça entre folhagens. Apta para hero em telas médias. Está na pasta Aves; mover para uma pasta Guardiões."
+        },
+        {
+          "arquivo": "Aves/onça pintada 5.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 576 px. Onça sentada na mata."
+        }
+      ]
+    },
+    {
+      "id": "jaguatirica",
+      "nome": "Jaguatirica",
+      "subtitulo": "A onça pequena que sobe em tudo",
+      "cientifico": "Leopardus pardalis",
+      "categoria": "Apartamento Luxo",
+      "uh": "402",
+      "quarto": null,
+      "abertura": "A jaguatirica é uma onça em miniatura. Pesa entre 8 e 15 quilos, tem a pelagem cheia de rosetas em cadeia e caça à noite. Sobe em árvores, nada e anda quilômetros por noite atrás de roedores, aves e répteis.\n",
+      "no_kaluana": "Um dos dois apartamentos de luxo do Kaluanã leva o nome dela. A jaguatirica é discreta, elegante e está mais perto de nós do que parece: vive nas matas ciliares ao redor de Ji-Paraná. É o quarto da elegância silenciosa.\n",
+      "historia": "A jaguatirica é o terceiro maior felino do Brasil, depois da onça-pintada e da suçuarana. Vive do sul dos Estados Unidos ao norte da Argentina, em florestas, cerrados e matas de galeria. É solitária e territorial.\n\nCaça principalmente à noite. Roedores, tatus, gambás, aves, cobras e peixes fazem parte da dieta. Passa o dia dormindo em galhos ou em tocas.\n\nEntre os anos 1960 e 1980 foi caçada aos milhares pela pele, que valia alto no mercado de casacos. A proibição do comércio de peles fez as populações se recuperarem, e hoje ela é comum onde há mata.\n",
+      "curiosidades": [
+        "A pelagem de cada jaguatirica é única. As rosetas se alongam e formam correntes ao longo do corpo.",
+        "Ela caminha até 8 quilômetros em uma noite de caça.",
+        "Armadilhas fotográficas em Rondônia registram jaguatiricas em áreas de manejo florestal e em reservas legais de fazendas.",
+        "O nome vem do tupi e aparece em registros do século XVI, quando os portugueses a viram pela primeira vez."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Leopardus pardalis"
+        ],
+        [
+          "Família",
+          "Felidae"
+        ],
+        [
+          "Peso",
+          "De 8 a 15 kg"
+        ],
+        [
+          "Alimentação",
+          "Roedores, tatus, aves, répteis e peixes"
+        ],
+        [
+          "Onde vive",
+          "Florestas e matas de galeria das Américas, inclusive Rondônia"
+        ],
+        [
+          "Hábito",
+          "Noturno, solitário, territorial"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre jaguatirica e onça-pintada?",
+          "r": "Tamanho e desenho. A jaguatirica pesa até 15 quilos e tem rosetas alongadas em cadeia. A onça pesa até 130 quilos e tem rosetas com pontos centrais. As duas vivem nas mesmas florestas."
+        },
+        {
+          "p": "A jaguatirica é perigosa?",
+          "r": "Não para pessoas. Ela evita o contato e foge. Pode atacar galinhas e animais pequenos em propriedades perto da mata."
+        },
+        {
+          "p": "A jaguatirica existe em Rondônia?",
+          "r": "Sim. É um dos felinos mais registrados por armadilhas fotográficas no estado, em matas de galeria, reservas e áreas de manejo."
+        }
+      ],
+      "seo": {
+        "title": "Jaguatirica: a onça pequena que sobe em tudo | Kaluanã",
+        "description": "Jaguatirica (Leopardus pardalis): tamanho, hábitos, história da caça pela pele e ocorrência em Rondônia. O tema do Apartamento Luxo do Kaluanã Eco Hotel.",
+        "keywords": [
+          "jaguatirica",
+          "leopardus pardalis",
+          "jaguatirica e onça",
+          "felinos do brasil",
+          "jaguatirica rondônia"
+        ],
+        "resposta": "A jaguatirica (Leopardus pardalis) é um felino de 8 a 15 quilos, noturno e solitário, com pelagem de rosetas em cadeia. Vive em florestas e matas de galeria das Américas, inclusive em Rondônia, e caça roedores, aves e répteis. Foi muito caçada pela pele até os anos 1980 e se recuperou.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/jaguatirica 2.jpg",
+          "uso": "hero",
+          "nota": "3000 x 2086 px. Jaguatirica deitada em tronco. Apta para hero. Mover para pasta Guardiões."
+        },
+        {
+          "arquivo": "Aves/jaguatirica.jpg",
+          "uso": "galeria",
+          "nota": "1502 x 900 px. Jaguatirica andando sobre galho."
+        }
+      ]
+    },
+    {
+      "id": "jacare-acu",
+      "nome": "Jacaré-açu",
+      "subtitulo": "O maior predador das águas amazônicas",
+      "cientifico": "Melanosuchus niger",
+      "categoria": "Apartamento Luxo",
+      "uh": "403",
+      "quarto": null,
+      "abertura": "O jacaré-açu pode passar de 5 metros. É o maior jacaré das Américas e o predador de topo dos rios e lagos da Amazônia. Quase desapareceu pela caça da pele no século XX e voltou. Hoje é visto em toda a bacia.\n",
+      "no_kaluana": "O segundo apartamento de luxo do Kaluanã leva o nome dele. O jacaré-açu é o guardião da água, o andar de baixo de tudo. Açu, em tupi, quer dizer grande. É o quarto da presença, do que se impõe sem correr.\n",
+      "historia": "O jacaré-açu tem o corpo escuro, quase preto, com faixas claras nos jovens. Vive em rios de água lenta, lagos e várzeas de toda a bacia amazônica, inclusive no Guaporé e no Madeira. Adultos passam de 4 metros; registros chegam perto de 6.\n\nCaça de noite. Filhotes comem insetos e peixes pequenos; adultos comem peixes grandes, capivaras, aves e o que se aproximar da margem. É o principal controlador de populações de piranha e de outros peixes.\n\nEntre os anos 1950 e 1970 a caça pelo couro reduziu a espécie a poucos redutos. A proibição e a criação de reservas permitiram a recuperação. Em Mamirauá e em outras áreas, a população voltou a ser abundante, e há manejo com abate controlado no Amazonas.\n",
+      "curiosidades": [
+        "A fêmea constrói um ninho de folhas e terra e vigia os ovos por meses. A temperatura do ninho define se nascem machos ou fêmeas.",
+        "Os olhos do jacaré brilham em vermelho à luz da lanterna, o que permite contá-los à noite.",
+        "O jacaré-açu pode ficar mais de uma hora submerso.",
+        "Em Rondônia, o vale do Guaporé é uma das áreas com maior densidade da espécie."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Melanosuchus niger"
+        ],
+        [
+          "Família",
+          "Alligatoridae"
+        ],
+        [
+          "Tamanho",
+          "Mais de 4 m, com registros perto de 6 m"
+        ],
+        [
+          "Alimentação",
+          "Peixes, capivaras, aves e outros animais"
+        ],
+        [
+          "Onde vive",
+          "Rios lentos, lagos e várzeas da Amazônia, inclusive Guaporé e Madeira"
+        ],
+        [
+          "Situação",
+          "Recuperado após quase extinção pela caça"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre jacaré-açu e jacaré-tinga?",
+          "r": "O açu é escuro, quase preto, e muito maior, passando de 4 metros. O tinga é mais claro, esverdeado, e raramente passa de 2,5 metros. Os dois vivem nos mesmos rios."
+        },
+        {
+          "p": "O jacaré-açu ataca pessoas?",
+          "r": "Ataques acontecem, mas são raros e quase sempre envolvem pessoas na água à noite em áreas de alta densidade de jacarés. Respeitar a margem e evitar banho noturno é o suficiente."
+        },
+        {
+          "p": "O jacaré-açu está ameaçado?",
+          "r": "Não mais. Depois de quase desaparecer pela caça, a espécie se recuperou com a proibição e as áreas protegidas. Hoje é considerada de baixo risco."
+        }
+      ],
+      "seo": {
+        "title": "Jacaré-açu: o maior predador das águas amazônicas | Kaluanã",
+        "description": "Jacaré-açu (Melanosuchus niger): tamanho, hábitos, recuperação após a caça e onde vive em Rondônia. O tema do Apartamento Luxo Jacaré-Açu do Kaluanã Eco Hotel.",
+        "keywords": [
+          "jacaré açu",
+          "melanosuchus niger",
+          "maior jacaré do brasil",
+          "jacaré açu tamanho",
+          "jacaré guaporé"
+        ],
+        "resposta": "O jacaré-açu (Melanosuchus niger) é o maior jacaré das Américas, com mais de 4 metros e registros perto de 6. Predador de topo dos rios e lagos amazônicos, quase foi extinto pela caça do couro entre 1950 e 1970 e se recuperou. Em Rondônia é comum no vale do Guaporé.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/jacaré açu 4.jpg",
+          "uso": "hero",
+          "nota": "736 x 981 px, vertical. Jacaré visto de cima na água com folhas. Baixa resolução; buscar imagem maior. Mover para pasta Guardiões."
+        },
+        {
+          "arquivo": "Aves/jacaré açu 2.jpg",
+          "uso": "galeria",
+          "nota": "1900 x 1267 px. Jacaré na água escura ao entardecer. Apta para hero panorâmico."
+        }
+      ]
+    }
+  ]
+}

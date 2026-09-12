@@ -1,0 +1,1381 @@
+{
+  "grupo": "aves",
+  "nome_grupo": "Andar das Aves",
+  "andar": 4,
+  "cor": "#8C6A3D",
+  "intro_grupo": "O quarto andar do Kaluanã leva o nome de dezessete aves. É o andar mais alto, mais perto do céu, e por isso ficou com quem voa. Arara, tucano e papagaio abrem a lista. O gavião-real, a maior águia das Américas, faz o ninho nas árvores do andar de baixo. Todas essas aves vivem em Rondônia, e várias podem ser vistas nos arredores do hotel.\n",
+  "itens": [
+    {
+      "id": "arara",
+      "nome": "Arara",
+      "subtitulo": "O casal que voa junto a vida inteira",
+      "cientifico": "Ara spp. e Anodorhynchus spp.",
+      "uh": "404",
+      "quarto": 1,
+      "abertura": "Araras voam em pares. Escolhem um parceiro e ficam juntas por décadas, gritando alto para não se perder. Têm o bico mais forte entre as aves do Brasil, capaz de abrir um coco. São as cores da Amazônia no céu.\n",
+      "no_kaluana": "O andar das aves abre com a arara porque ela é a primeira coisa que um visitante espera ver na Amazônia. Em Rondônia, a canindé e a vermelha ainda cruzam o céu no fim da tarde, em direção aos dormitórios. É o quarto da cor.\n",
+      "historia": "Arara é o nome de vários papagaios de grande porte. As mais comuns em Rondônia são a arara-canindé, azul e amarela, e a arara-vermelha, vermelha com asas azuis e amarelas. A arara-azul, a maior de todas, com quase 1 metro, vive mais ao sul, no Pantanal e no sul da Amazônia.\n\nElas comem sementes, castanhas e frutos de palmeiras. O bico curvo funciona como um alicate e quebra cocos que nenhum outro animal abre. Para neutralizar toxinas das sementes, muitas araras comem argila em barrancos de rio, os barreiros.\n\nSão monogâmicas e vivem mais de 50 anos. Fazem ninho em ocos de árvores altas e criam um ou dois filhotes por vez. O tráfico de animais e a perda dos ocos de nidificação são as maiores ameaças.\n",
+      "curiosidades": [
+        "Araras usam a língua e o bico como uma terceira pata para escalar galhos.",
+        "O rosto da arara-vermelha tem uma área de pele branca que fica corada quando ela se agita.",
+        "Elas gritam em voo para manter contato. Um bando de araras passando se ouve antes de se ver.",
+        "A arara-azul depende de palmeiras específicas, como o acuri e a bocaiuva, e de ocos de manduvi para nidificar."
+      ],
+      "ficha": [
+        [
+          "Espécies comuns em Rondônia",
+          "Arara-canindé (Ara ararauna) e arara-vermelha (Ara chloropterus e Ara macao)"
+        ],
+        [
+          "Família",
+          "Psittacidae"
+        ],
+        [
+          "Tamanho",
+          "De 80 cm a 1 m, com a cauda"
+        ],
+        [
+          "Alimentação",
+          "Sementes, castanhas, frutos e argila de barreiros"
+        ],
+        [
+          "Longevidade",
+          "Mais de 50 anos"
+        ],
+        [
+          "Ameaças",
+          "Tráfico e perda de árvores com ocos"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Quais araras existem em Rondônia?",
+          "r": "A arara-canindé, azul e amarela, e a arara-vermelha são as mais vistas. A arara-azul ocorre no sul do estado, em áreas de cerrado e palmeiras."
+        },
+        {
+          "p": "Por que as araras comem barro?",
+          "r": "Para neutralizar toxinas de sementes e frutos e repor minerais. Os barreiros, barrancos de argila nas margens dos rios, reúnem dezenas de araras e papagaios pela manhã."
+        },
+        {
+          "p": "Quanto tempo vive uma arara?",
+          "r": "Mais de 50 anos na natureza e até mais em cativeiro. Elas formam casais que duram a vida inteira."
+        }
+      ],
+      "seo": {
+        "title": "Arara: o casal que voa junto a vida inteira | Kaluanã",
+        "description": "Araras da Amazônia: espécies de Rondônia, alimentação, barreiros, longevidade e ameaças. O tema do quarto 404 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "arara",
+          "arara canindé",
+          "arara vermelha",
+          "araras da amazônia",
+          "arara rondônia"
+        ],
+        "resposta": "Araras são papagaios de grande porte, monogâmicos e de vida longa, que vivem em pares e bandos na Amazônia. Em Rondônia as mais comuns são a arara-canindé e a arara-vermelha. Comem sementes e frutos de palmeiras, visitam barreiros de argila e nidificam em ocos de árvores altas.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/Arara 2.jpg",
+          "uso": "hero",
+          "nota": "3543 x 3543 px, quadrada. Casal de araras-vermelhas em galho. Apta para hero com recorte."
+        },
+        {
+          "arquivo": "Aves/arara 3.jpg",
+          "uso": "galeria",
+          "nota": "637 x 421 px. Araras-azuis em voo. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "tucano",
+      "nome": "Tucano",
+      "subtitulo": "O bico que refresca",
+      "cientifico": "Ramphastos spp.",
+      "uh": "405",
+      "quarto": 2,
+      "abertura": "O bico do tucano parece pesado, mas é oco e leve como isopor. Além de colher frutas, ele funciona como radiador: quando faz calor, o sangue corre pelo bico e o tucano se refresca. Para dormir, ele o vira para trás e o encosta nas costas.\n",
+      "no_kaluana": "O tucano está neste andar porque é a ave que faz todo mundo sorrir. Ele passa em bandos pequenos, pousa alto e chama com um som de rangido. É o quarto do bom humor.\n",
+      "historia": "Existem várias espécies de tucano no Brasil. O tucanuçu, ou tucano-toco, é o maior, com bico laranja de até 20 centímetros. Na Amazônia vivem também o tucano-de-bico-preto e o tucano-grande-de-papo-branco, que se reconhece pelo canto.\n\nO bico é feito de queratina sobre uma estrutura óssea esponjosa, o que o torna leve. Serve para alcançar frutos na ponta dos galhos, para disputas entre machos e para regular a temperatura do corpo.\n\nTucanos comem frutos, mas também insetos, ovos e filhotes de outras aves. Vivem em ocos de árvores e o casal reveza na incubação. Espalham sementes por toda a floresta.\n",
+      "curiosidades": [
+        "Em 2009 pesquisadores mostraram que o bico do tucano-toco perde calor com eficiência maior que a orelha do elefante, em proporção ao tamanho.",
+        "O tucano joga a fruta para o alto e a engole inteira, com um movimento de cabeça.",
+        "Ele não consegue voar por longas distâncias. Alterna batidas de asa com planeios curtos.",
+        "Tucanos são comuns em áreas urbanas arborizadas de Rondônia, inclusive em praças de Ji-Paraná."
+      ],
+      "ficha": [
+        [
+          "Espécies",
+          "Tucanuçu (Ramphastos toco), tucano-de-bico-preto (Ramphastos vitellinus), tucano-grande-de-papo-branco (Ramphastos tucanus)"
+        ],
+        [
+          "Família",
+          "Ramphastidae"
+        ],
+        [
+          "Tamanho",
+          "De 45 a 65 cm"
+        ],
+        [
+          "Alimentação",
+          "Frutos, insetos, ovos e filhotes de outras aves"
+        ],
+        [
+          "Ninho",
+          "Ocos de árvores"
+        ],
+        [
+          "Onde vive",
+          "Matas, cerrados e áreas urbanas arborizadas"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Para que serve o bico do tucano?",
+          "r": "Para alcançar frutos, disputar com outros machos e, principalmente, regular a temperatura do corpo. O sangue que circula pelo bico dissipa calor."
+        },
+        {
+          "p": "O bico do tucano é pesado?",
+          "r": "Não. É feito de queratina sobre osso esponjoso e pesa pouco em relação ao tamanho. É uma das estruturas mais leves e resistentes entre as aves."
+        },
+        {
+          "p": "O tucano come só fruta?",
+          "r": "A maior parte da dieta é fruta, mas ele também come insetos, ovos e filhotes de outras aves quando encontra."
+        }
+      ],
+      "seo": {
+        "title": "Tucano: o bico que refresca | Kaluanã",
+        "description": "Tucano (Ramphastos): espécies, para que serve o bico, alimentação e curiosidades. O tema do quarto 405 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "tucano",
+          "tucanuçu",
+          "ramphastos toco",
+          "bico do tucano",
+          "tucano da amazônia"
+        ],
+        "resposta": "O tucano é uma ave da família Ramphastidae conhecida pelo bico grande, leve e colorido, feito de queratina sobre osso esponjoso. O bico serve para alcançar frutos e regular a temperatura do corpo. O tucanuçu é a maior espécie, e várias ocorrem em Rondônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/tucano 2.jpg",
+          "uso": "hero",
+          "nota": "1250 x 675 px. Tucanuçu em voo contra o céu azul. Resolução mediana, arquivo muito comprimido."
+        },
+        {
+          "arquivo": "Aves/tucano 3.jpg",
+          "uso": "galeria",
+          "nota": "640 x 427 px. Tucano pousado em palmeira. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "papagaio",
+      "nome": "Papagaio",
+      "subtitulo": "A ave que aprende a falar",
+      "cientifico": "Amazona spp.",
+      "uh": "406",
+      "quarto": 3,
+      "abertura": "O papagaio não tem cordas vocais. Ele imita a voz humana com a siringe, um órgão na base da traqueia, e com a língua grossa. Aprende palavras, sons de telefone e latidos. Na natureza, usa esse talento para se comunicar com o bando.\n",
+      "no_kaluana": "Ele está neste andar por ser a ave mais brasileira do imaginário. Todo mundo conhece um papagaio que fala. É o quarto da conversa, e o Kaluanã gosta de conversa.\n",
+      "historia": "Papagaio é o nome de várias aves do gênero Amazona. O papagaio-verdadeiro, de testa azul e face amarela, é o mais conhecido no Brasil. Na Amazônia vivem o papagaio-moleiro, maior e mais esverdeado, o papagaio-campeiro e o curica.\n\nVivem em bandos, formam casais duradouros e nidificam em ocos de árvores. Ao amanhecer e ao entardecer, cruzam o céu em pares, gritando. Comem frutos, sementes e flores.\n\nSão os animais mais traficados do Brasil. Filhotes retirados dos ninhos abastecem o comércio ilegal, e muitos morrem no caminho. A criação em casa depende de origem legal e registro.\n",
+      "curiosidades": [
+        "Papagaios vivem de 40 a 60 anos. Alguns passam de uma geração para outra na mesma família.",
+        "O papagaio-verdadeiro é uma das aves mais apreendidas do tráfico no Brasil.",
+        "Na natureza, os papagaios têm dialetos. Bandos de regiões diferentes usam sons diferentes.",
+        "Eles são canhotos ou destros, e a maioria prefere a pata esquerda para segurar comida."
+      ],
+      "ficha": [
+        [
+          "Espécies comuns",
+          "Papagaio-verdadeiro (Amazona aestiva), papagaio-moleiro (Amazona farinosa), curica (Amazona amazonica)"
+        ],
+        [
+          "Família",
+          "Psittacidae"
+        ],
+        [
+          "Tamanho",
+          "De 30 a 40 cm"
+        ],
+        [
+          "Alimentação",
+          "Frutos, sementes, flores e brotos"
+        ],
+        [
+          "Longevidade",
+          "De 40 a 60 anos"
+        ],
+        [
+          "Ameaças",
+          "Tráfico de filhotes e perda de habitat"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Como o papagaio fala?",
+          "r": "Com a siringe, um órgão vocal na base da traqueia, e a língua grossa e móvel. Ele imita sons que ouve com frequência, sem entender o significado da maior parte deles."
+        },
+        {
+          "p": "Posso ter um papagaio em casa?",
+          "r": "Só com origem legal, de criadouro registrado, e com documentação. Retirar um papagaio da natureza é crime ambiental."
+        },
+        {
+          "p": "Quanto tempo vive um papagaio?",
+          "r": "Entre 40 e 60 anos, e há registros de mais de 70 em cativeiro. É uma decisão para a vida inteira."
+        }
+      ],
+      "seo": {
+        "title": "Papagaio: a ave que aprende a falar | Kaluanã",
+        "description": "Papagaio (Amazona): como fala, espécies da Amazônia, longevidade e o problema do tráfico. O tema do quarto 406 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "papagaio",
+          "amazona aestiva",
+          "papagaio verdadeiro",
+          "como o papagaio fala",
+          "papagaio da amazônia"
+        ],
+        "resposta": "Papagaios são aves do gênero Amazona, de vida longa e hábito social, que imitam sons com a siringe e a língua. No Brasil o papagaio-verdadeiro é o mais conhecido; na Amazônia vivem também o papagaio-moleiro e o curica. São os animais mais traficados do país.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/papagaio 4.jpg",
+          "uso": "hero",
+          "nota": "1000 x 1000 px, quadrada. Papagaio comendo fruto na árvore. Resolução limita hero."
+        },
+        {
+          "arquivo": "Aves/papagaio.jpg",
+          "uso": "galeria",
+          "nota": "1200 x 631 px. Papagaio-verdadeiro em galho seco."
+        }
+      ]
+    },
+    {
+      "id": "gaviao-real",
+      "nome": "Gavião-real",
+      "subtitulo": "A maior águia das Américas",
+      "cientifico": "Harpia harpyja",
+      "uh": "407",
+      "quarto": 4,
+      "abertura": "O gavião-real, ou harpia, tem garras do tamanho das de um urso. Caça preguiças e macacos no alto das árvores, levando presas do seu próprio peso. Faz o ninho nas maiores árvores da floresta, como a samaúma e a castanheira.\n",
+      "no_kaluana": "Ele está neste andar por ser o guerreiro do céu. Kaluanã quer dizer grande guerreiro, e nenhuma ave representa isso melhor. Este quarto olha para baixo, para o andar das árvores onde a harpia faz o ninho.\n",
+      "historia": "A harpia é uma das maiores águias do mundo. A fêmea pesa até 9 quilos e as asas abertas passam de 2 metros. As garras traseiras chegam a 12 centímetros, maiores que as de qualquer outra ave de rapina.\n\nVive na floresta densa, de terra firme, e caça na copa das árvores. Preguiças e macacos são as presas principais, mas ela também leva cutias, tamanduás e aves grandes.\n\nO casal usa o mesmo ninho por anos, em árvores emergentes, e cria um único filhote a cada dois ou três anos. Por isso a espécie se recupera devagar quando a floresta é cortada. O nome vem das harpias da mitologia grega, criaturas com corpo de ave e rosto de mulher.\n",
+      "curiosidades": [
+        "Um filhote de harpia fica com os pais por mais de um ano depois de aprender a voar.",
+        "A harpia consegue erguer presas de 7 quilos e voar com elas.",
+        "Rondônia tem registros de ninhos ativos em áreas de floresta preservada, inclusive perto de áreas de manejo.",
+        "A harpia está no brasão do Panamá e é considerada a ave nacional daquele país."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Harpia harpyja"
+        ],
+        [
+          "Família",
+          "Accipitridae"
+        ],
+        [
+          "Envergadura",
+          "Cerca de 2 m"
+        ],
+        [
+          "Peso",
+          "Até 9 kg nas fêmeas"
+        ],
+        [
+          "Alimentação",
+          "Preguiças, macacos e outros mamíferos de copa"
+        ],
+        [
+          "Reprodução",
+          "Um filhote a cada dois ou três anos"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual o tamanho do gavião-real?",
+          "r": "As asas abertas medem cerca de 2 metros e a fêmea, maior que o macho, chega a 9 quilos. As garras traseiras passam de 10 centímetros."
+        },
+        {
+          "p": "O que o gavião-real come?",
+          "r": "Principalmente preguiças e macacos, capturados na copa das árvores. Também caça cutias, tamanduás, gambás e aves grandes."
+        },
+        {
+          "p": "O gavião-real existe em Rondônia?",
+          "r": "Sim. Ele vive nas florestas preservadas do estado e faz ninho em árvores emergentes como samaúma e castanheira."
+        }
+      ],
+      "seo": {
+        "title": "Gavião-real: a maior águia das Américas | Kaluanã",
+        "description": "Gavião-real ou harpia (Harpia harpyja): tamanho, garras, caça, ninho e ocorrência em Rondônia. O tema do quarto 407 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "gavião real",
+          "harpia",
+          "harpia harpyja",
+          "maior águia das américas",
+          "gavião real rondônia"
+        ],
+        "resposta": "O gavião-real, ou harpia (Harpia harpyja), é uma das maiores águias do mundo, com cerca de 2 metros de envergadura e garras de até 12 centímetros. Caça preguiças e macacos na copa da floresta, nidifica em árvores emergentes e cria um filhote a cada dois ou três anos. Ocorre em Rondônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/gavião real.jpg",
+          "uso": "hero",
+          "nota": "1068 x 712 px. Harpia pousada com penacho aberto. Resolução limita hero."
+        },
+        {
+          "arquivo": "Aves/gavião real 6.jpg",
+          "uso": "galeria",
+          "nota": "1024 x 819 px. Harpia entre folhagens."
+        }
+      ]
+    },
+    {
+      "id": "uirapuru",
+      "nome": "Uirapuru",
+      "subtitulo": "O canto que cala a floresta",
+      "cientifico": "Cyphorhinus arada",
+      "uh": "408",
+      "quarto": 5,
+      "abertura": "Diz a lenda que, quando o uirapuru canta, a floresta inteira silencia para ouvir. Ele é pequeno, marrom e difícil de ver. Mas o canto, com notas que parecem de flauta, é um dos mais famosos da Amazônia.\n",
+      "no_kaluana": "Ele está neste andar por ser a ave que se escuta e não se vê. É o quarto do silêncio que antecede a música. Para quem chega cansado, é a melhor promessa deste hotel.\n",
+      "historia": "O uirapuru-verdadeiro é uma cambaxirra de cerca de 12 centímetros, de plumagem marrom com o rosto alaranjado. Vive no sub-bosque da floresta de terra firme, perto do chão, e é mais ouvido que visto.\n\nO canto, emitido na época de reprodução, tem frases longas, melódicas e variadas, que lembram um instrumento de sopro. Ele canta por poucos minutos e depois se cala, o que alimentou a lenda de que a floresta para para escutá-lo.\n\nEm 1917 o compositor Heitor Villa-Lobos escreveu o poema sinfônico Uirapuru, inspirado nas lendas amazônicas sobre a ave. Na tradição popular, o uirapuru traz sorte e amor a quem o ouve.\n",
+      "curiosidades": [
+        "Amuletos feitos com o uirapuru seco foram vendidos por décadas em mercados de Manaus e Belém, o que reduziu as populações perto das cidades.",
+        "Há várias aves chamadas uirapuru no Brasil. O uirapuru-laranja e o uirapuru-de-chapéu-vermelho são pequenos piprídeos coloridos, parentes do tangará.",
+        "O uirapuru-verdadeiro anda pelo chão da mata revirando folhas atrás de insetos.",
+        "Casais cantam em dueto, alternando frases."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Cyphorhinus arada"
+        ],
+        [
+          "Família",
+          "Troglodytidae, a das cambaxirras"
+        ],
+        [
+          "Tamanho",
+          "Cerca de 12 cm"
+        ],
+        [
+          "Alimentação",
+          "Insetos e aranhas"
+        ],
+        [
+          "Onde vive",
+          "Sub-bosque de florestas de terra firme da Amazônia"
+        ],
+        [
+          "Canto",
+          "Melódico, em frases longas, principalmente na reprodução"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O uirapuru existe mesmo?",
+          "r": "Sim. O uirapuru-verdadeiro, Cyphorhinus arada, é uma ave pequena e marrom que vive na Amazônia. A lenda de que a floresta silencia para ouvi-lo é folclore, mas o canto é real e um dos mais bonitos do continente."
+        },
+        {
+          "p": "Como é o canto do uirapuru?",
+          "r": "Longo, melódico e variado, com notas puras que lembram flauta. Ele canta em curtos períodos, principalmente ao amanhecer, na época de reprodução."
+        },
+        {
+          "p": "O uirapuru dá sorte?",
+          "r": "Segundo a tradição amazônica, sim. Ouvi-lo cantar traria sorte e amor. É crença popular, sem base além da beleza do canto."
+        }
+      ],
+      "seo": {
+        "title": "Uirapuru: o canto que cala a floresta | Kaluanã",
+        "description": "Uirapuru (Cyphorhinus arada): a lenda, o canto, Villa-Lobos e como é a ave de verdade. O tema do quarto 408 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "uirapuru",
+          "cyphorhinus arada",
+          "canto do uirapuru",
+          "lenda do uirapuru",
+          "uirapuru verdadeiro"
+        ],
+        "resposta": "O uirapuru-verdadeiro (Cyphorhinus arada) é uma pequena ave marrom da Amazônia, da família das cambaxirras, famosa pelo canto melódico que lembra uma flauta. Segundo a lenda, a floresta silencia para ouvi-lo. Inspirou o poema sinfônico Uirapuru, de Villa-Lobos, de 1917.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/urapuru 4.jpg",
+          "uso": "hero",
+          "nota": "984 x 656 px. Uirapuru-verdadeiro, marrom com rosto alaranjado, em tronco caído. Espécie correta. Resolução limita hero."
+        },
+        {
+          "arquivo": "Aves/urapuru.jpg",
+          "uso": "galeria",
+          "nota": "900 x 675 px. ATENÇÃO: ave vermelha, provavelmente um piprídeo (uirapuru-laranja ou parente). Não é o uirapuru-verdadeiro. Usar só com legenda que explique, ou substituir."
+        }
+      ]
+    },
+    {
+      "id": "beija-flor",
+      "nome": "Beija-flor",
+      "subtitulo": "O coração mais rápido do mundo",
+      "cientifico": "Trochilidae",
+      "uh": "409",
+      "quarto": 6,
+      "abertura": "O beija-flor bate as asas até 80 vezes por segundo e o coração chega a 1.200 batidas por minuto. É a única ave que voa para trás. À noite, para não morrer de fome, ele entra em um estado parecido com hibernação.\n",
+      "no_kaluana": "Ele está neste andar por ser a menor ave com a maior energia. É o quarto de quem precisa produzir, e o Kaluanã foi pensado para essa pessoa também.\n",
+      "historia": "O Brasil tem cerca de 90 espécies de beija-flor. Em Rondônia são comuns o beija-flor-tesoura, azul com cauda bifurcada, o beija-flor-de-garganta-verde e o besourinho. Os menores pesam 2 gramas.\n\nEles se alimentam de néctar e de pequenos insetos. Para pairar diante de uma flor, movem as asas em forma de oito, gerando sustentação na ida e na volta. Isso permite voar para trás e para os lados.\n\nO gasto de energia é tão alto que o beija-flor precisa comer a cada poucos minutos. À noite, ele reduz a temperatura do corpo e o ritmo do coração em um torpor que economiza reservas até o amanhecer.\n",
+      "curiosidades": [
+        "Um beija-flor visita centenas de flores por dia e é um dos polinizadores mais importantes das matas brasileiras.",
+        "As cores brilhantes da garganta não são pigmento: são estruturas das penas que refletem a luz.",
+        "O ninho tem o tamanho de uma noz e é feito com teias de aranha e líquens.",
+        "Beija-flores são territoriais e expulsam aves maiores de suas flores."
+      ],
+      "ficha": [
+        [
+          "Família",
+          "Trochilidae"
+        ],
+        [
+          "Espécies no Brasil",
+          "Cerca de 90"
+        ],
+        [
+          "Tamanho",
+          "De 6 a 13 cm"
+        ],
+        [
+          "Peso",
+          "De 2 a 10 g"
+        ],
+        [
+          "Alimentação",
+          "Néctar e pequenos insetos"
+        ],
+        [
+          "Batidas de asa",
+          "De 50 a 80 por segundo"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que o beija-flor consegue voar para trás?",
+          "r": "Porque move as asas em forma de oito, gerando sustentação tanto no movimento para a frente quanto no de retorno. Nenhuma outra ave faz isso com a mesma eficiência."
+        },
+        {
+          "p": "O que o beija-flor come?",
+          "r": "Néctar, que fornece energia rápida, e pequenos insetos e aranhas, que fornecem proteína."
+        },
+        {
+          "p": "Como atrair beija-flores?",
+          "r": "Com plantas de flores tubulares, como hibisco, brinco-de-princesa e camarão-vermelho, e com bebedouros de água com açúcar, sem corante, trocados a cada dois dias."
+        }
+      ],
+      "seo": {
+        "title": "Beija-flor: o coração mais rápido do mundo | Kaluanã",
+        "description": "Beija-flor: como voa para trás, batidas de asa, torpor noturno e espécies de Rondônia. O tema do quarto 409 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "beija-flor",
+          "trochilidae",
+          "beija-flor tesoura",
+          "como o beija-flor voa",
+          "beija-flor rondônia"
+        ],
+        "resposta": "Beija-flores são aves da família Trochilidae que batem as asas até 80 vezes por segundo, pairam e voam para trás. Alimentam-se de néctar e insetos, entram em torpor à noite para economizar energia e são polinizadores essenciais. O Brasil tem cerca de 90 espécies.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/beija flor 5.jpg",
+          "uso": "hero",
+          "nota": "2400 x 1260 px. Beija-flor verde pousado em galho. Apta para hero panorâmico."
+        },
+        {
+          "arquivo": "Aves/beija flor.jpg",
+          "uso": "galeria",
+          "nota": "1200 x 797 px. Beija-flor-tesoura pairando em flor vermelha."
+        }
+      ]
+    },
+    {
+      "id": "garca",
+      "nome": "Garça",
+      "subtitulo": "A paciência de pé na água",
+      "cientifico": "Ardea alba e Ardea cocoi",
+      "uh": "410",
+      "quarto": 7,
+      "abertura": "A garça pesca parada. Fica imóvel na água rasa, às vezes por minutos, até que um peixe passe perto. Então o pescoço em S se estica em um golpe. Voa com o pescoço recolhido e dorme em colônias barulhentas nas margens dos rios.\n",
+      "no_kaluana": "Ela está neste andar pela pausa. A garça é a imagem de quem espera sem pressa. É o quarto de quem precisa parar, o terceiro perfil de hóspede que o Kaluanã foi feito para receber.\n",
+      "historia": "As garças mais comuns em Rondônia são a garça-branca-grande, toda branca com bico amarelo, e a garça-moura, cinza, a maior garça do Brasil, com mais de 1 metro. A garça-branca-pequena, com pés amarelos, e a garça-vaqueira, que segue o gado, completam o grupo.\n\nVivem em margens de rios, lagos e áreas alagadas. Comem peixes, anfíbios, insetos e pequenos répteis. Nidificam em colônias, os ninhais, onde centenas de casais dividem as mesmas árvores com colhereiros, biguás e cabeças-secas.\n\nNo fim do século XIX, as plumas nupciais das garças enfeitavam chapéus na Europa e nos Estados Unidos. A caça quase as extinguiu e deu origem aos primeiros movimentos de proteção de aves do mundo.\n",
+      "curiosidades": [
+        "Ao contrário das cegonhas e dos tuiuiús, garças voam com o pescoço dobrado, não esticado.",
+        "A garça-vaqueira chegou ao Brasil vindo da África por conta própria, no século XX, e hoje está em todo o país.",
+        "A garça-moura dá nome a bairros, rios e times de futebol no Brasil.",
+        "Os ninhais do Pantanal e do Guaporé reúnem milhares de aves na época da seca."
+      ],
+      "ficha": [
+        [
+          "Espécies comuns",
+          "Garça-branca-grande (Ardea alba), garça-moura (Ardea cocoi), garça-branca-pequena (Egretta thula)"
+        ],
+        [
+          "Família",
+          "Ardeidae"
+        ],
+        [
+          "Tamanho",
+          "De 60 cm a mais de 1 m"
+        ],
+        [
+          "Alimentação",
+          "Peixes, anfíbios, insetos e pequenos répteis"
+        ],
+        [
+          "Ninho",
+          "Em colônias, os ninhais"
+        ],
+        [
+          "Onde vive",
+          "Margens de rios, lagos e áreas alagadas"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Como a garça pesca?",
+          "r": "Parada na água rasa, esperando o peixe se aproximar. Ela estica o pescoço em um golpe rápido e captura a presa com o bico."
+        },
+        {
+          "p": "Qual a diferença entre garça e cegonha?",
+          "r": "Garças voam com o pescoço dobrado em S e têm bico fino. Cegonhas e tuiuiús voam com o pescoço esticado e têm bico mais grosso."
+        },
+        {
+          "p": "Onde ver garças em Rondônia?",
+          "r": "Nas margens do Machado, do Madeira, do Guaporé e em lagoas e açudes de todo o estado. Elas são fáceis de ver ao amanhecer e ao entardecer."
+        }
+      ],
+      "seo": {
+        "title": "Garça: a paciência de pé na água | Kaluanã",
+        "description": "Garças de Rondônia: espécies, como pescam, ninhais e a história das plumas. O tema do quarto 410 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "garça",
+          "garça branca",
+          "garça moura",
+          "ardea alba",
+          "garças do brasil"
+        ],
+        "resposta": "Garças são aves pernaltas da família Ardeidae que pescam paradas na água rasa e nidificam em colônias chamadas ninhais. Em Rondônia as mais comuns são a garça-branca-grande e a garça-moura, a maior do Brasil. Voam com o pescoço dobrado em S.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/garça 6.jpg",
+          "uso": "hero",
+          "nota": "3000 x 2000 px. Garça-moura em voo contra o céu. Apta para hero."
+        },
+        {
+          "arquivo": "Aves/garça 2.jpg",
+          "uso": "galeria",
+          "nota": "1600 x 1075 px. Garça-branca-grande em voo sobre a água."
+        }
+      ]
+    },
+    {
+      "id": "mutum",
+      "nome": "Mutum",
+      "subtitulo": "O galo da floresta",
+      "cientifico": "Crax spp. e Mitu spp.",
+      "uh": "411",
+      "quarto": 8,
+      "abertura": "O mutum é uma ave grande e preta que anda pelo chão da floresta como um galo. Tem um topete de penas encaracoladas e um canto grave, que parece um sopro de garrafa. Onde há mutum, a floresta está inteira.\n",
+      "no_kaluana": "Ele está neste andar por ser o termômetro da mata. O mutum some primeiro quando a floresta é caçada ou cortada. O Kaluanã quer ser o tipo de lugar onde ele fica.\n",
+      "historia": "Mutum é o nome de várias aves da família dos cracídeos, parentes dos jacus e das aracuãs. Em Rondônia vivem o mutum-cavalo, de bico com uma protuberância vermelha, e o mutum-de-penacho, comum nas matas do sul do estado. Os machos são pretos; as fêmeas de algumas espécies têm barras claras.\n\nPassam a maior parte do tempo no chão, comendo frutos caídos, sementes e pequenos animais. Dormem e nidificam nas árvores. O canto do macho é um zumbido profundo que se ouve a centenas de metros.\n\nPor serem grandes e terem carne apreciada, os mutuns são os primeiros a desaparecer de florestas caçadas. A presença deles é usada por pesquisadores como indicador de mata preservada.\n",
+      "curiosidades": [
+        "O topete do mutum-de-penacho é feito de penas enroladas para a frente, como cachos.",
+        "O mutum é um dos principais dispersores de sementes grandes da floresta, que só ele engole inteiras.",
+        "Casais de mutum ficam juntos por anos e criam dois filhotes por vez.",
+        "O mutum-de-alagoas, da Mata Atlântica, chegou a ser extinto na natureza e está sendo reintroduzido a partir de criadouros."
+      ],
+      "ficha": [
+        [
+          "Espécies em Rondônia",
+          "Mutum-cavalo (Mitu tuberosum) e mutum-de-penacho (Crax fasciolata)"
+        ],
+        [
+          "Família",
+          "Cracidae"
+        ],
+        [
+          "Tamanho",
+          "De 80 a 95 cm"
+        ],
+        [
+          "Alimentação",
+          "Frutos, sementes, folhas e pequenos animais"
+        ],
+        [
+          "Hábito",
+          "Terrestre de dia, arborícola à noite"
+        ],
+        [
+          "Indicador",
+          "Presença associada a floresta preservada"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O mutum voa?",
+          "r": "Sim, mas pouco. Ele prefere andar e correr pelo chão e sobe às árvores para dormir e para fugir de predadores."
+        },
+        {
+          "p": "Como é o canto do mutum?",
+          "r": "Um zumbido grave e longo, emitido pelo macho, principalmente ao amanhecer. Lembra o som de alguém soprando a boca de uma garrafa."
+        },
+        {
+          "p": "Por que o mutum é indicador de floresta preservada?",
+          "r": "Porque é grande, saboroso e fácil de caçar. Ele é um dos primeiros animais a desaparecer onde há pressão de caça. Se há mutum, a floresta está inteira."
+        }
+      ],
+      "seo": {
+        "title": "Mutum: o galo da floresta | Kaluanã",
+        "description": "Mutum (Crax e Mitu): espécies de Rondônia, canto, alimentação e por que indica floresta preservada. O tema do quarto 411 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "mutum",
+          "mutum cavalo",
+          "mutum de penacho",
+          "crax fasciolata",
+          "mitu tuberosum"
+        ],
+        "resposta": "Mutum é o nome de aves grandes e pretas da família dos cracídeos que vivem no chão da floresta comendo frutos e sementes. Em Rondônia ocorrem o mutum-cavalo e o mutum-de-penacho. Sensíveis à caça, são usados como indicadores de floresta preservada.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/mutum 2.jpg",
+          "uso": "hero",
+          "nota": "4256 x 2832 px. Mutum preto com bico vermelho em galho. Apta para hero. Confirmar espécie (provável mutum-cavalo)."
+        },
+        {
+          "arquivo": "Aves/mutum 3.jpg",
+          "uso": "galeria",
+          "nota": "800 x 600 px. Fêmea barrada de mutum-de-penacho no chão da mata. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "coruja",
+      "nome": "Coruja",
+      "subtitulo": "A que vê no escuro e voa sem som",
+      "cientifico": "Strigiformes",
+      "uh": "412",
+      "quarto": 9,
+      "abertura": "A coruja gira a cabeça em 270 graus, enxerga no escuro e voa em silêncio. As penas têm bordas serrilhadas que apagam o som das asas. A presa não ouve nada até ser capturada.\n",
+      "no_kaluana": "Ela está neste andar por ser a guardiã da noite. É o quarto de quem chega tarde, de estrada, e precisa dormir bem. A coruja fica de vigia.\n",
+      "historia": "O Brasil tem mais de 20 espécies de coruja. A mais fácil de ver é a coruja-buraqueira, pequena, de pernas longas, que vive em buracos no chão de campos e pastos e fica ativa também de dia. Em Rondônia ela é comum em áreas abertas e até em terrenos urbanos.\n\nNas matas vivem o murucututu, grande, de olhos escuros com óculos claros, o corujão-orelhudo e o jacurutu. Todas caçam à noite, guiadas pela audição e pela visão.\n\nOs olhos das corujas são fixos nas órbitas, por isso elas giram a cabeça. Os ouvidos, em muitas espécies, ficam em alturas diferentes, o que permite localizar um rato pelo som no escuro total. Depois de comer, elas regurgitam pelotas com ossos e pelos.\n",
+      "curiosidades": [
+        "A coruja-buraqueira costuma ocupar tocas abandonadas de tatu e decora a entrada com esterco, que atrai besouros.",
+        "Na tradição popular, a coruja é sinal de sabedoria e, para alguns, de azar. Para o agricultor, é controle de ratos gratuito.",
+        "As corujas não têm cordas vocais e os sons são produzidos na siringe. O pio do murucututu parece uma risada grave.",
+        "Filhotes de coruja-buraqueira imitam o chocalho de cascavel quando ameaçados na toca."
+      ],
+      "ficha": [
+        [
+          "Espécies comuns",
+          "Coruja-buraqueira (Athene cunicularia), murucututu (Pulsatrix perspicillata), corujão-orelhudo (Bubo virginianus)"
+        ],
+        [
+          "Ordem",
+          "Strigiformes"
+        ],
+        [
+          "Tamanho",
+          "De 20 a 55 cm"
+        ],
+        [
+          "Alimentação",
+          "Roedores, insetos, aves e répteis"
+        ],
+        [
+          "Hábito",
+          "Noturno na maioria; a buraqueira é ativa de dia"
+        ],
+        [
+          "Rotação da cabeça",
+          "Até 270 graus"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que a coruja gira a cabeça?",
+          "r": "Porque os olhos são fixos nas órbitas e não se movem. Para olhar para os lados, ela gira o pescoço, que tem vértebras a mais e vasos sanguíneos adaptados."
+        },
+        {
+          "p": "A coruja enxerga de dia?",
+          "r": "Sim. A visão é adaptada à pouca luz, mas funciona de dia. A coruja-buraqueira caça em plena luz do sol."
+        },
+        {
+          "p": "A coruja dá azar?",
+          "r": "É crença popular sem fundamento. Corujas controlam roedores e insetos e são aliadas de quem mora no campo."
+        }
+      ],
+      "seo": {
+        "title": "Coruja: a que vê no escuro e voa sem som | Kaluanã",
+        "description": "Corujas de Rondônia: coruja-buraqueira, murucututu, voo silencioso, rotação da cabeça e crenças. O tema do quarto 412 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "coruja",
+          "coruja buraqueira",
+          "athene cunicularia",
+          "murucututu",
+          "corujas do brasil"
+        ],
+        "resposta": "Corujas são aves de rapina noturnas da ordem Strigiformes, com voo silencioso, visão adaptada ao escuro e capacidade de girar a cabeça em 270 graus. Em Rondônia a mais comum é a coruja-buraqueira, ativa de dia, que vive em tocas no chão; nas matas vivem o murucututu e o corujão-orelhudo.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/coruja.jpg",
+          "uso": "hero",
+          "nota": "2970 x 2260 px. Coruja-buraqueira de frente em tronco. Apta para hero."
+        },
+        {
+          "arquivo": "Aves/coruja 4.jpg",
+          "uso": "galeria",
+          "nota": "1920 x 1213 px. Coruja-buraqueira no campo com flores."
+        }
+      ]
+    },
+    {
+      "id": "carcara",
+      "nome": "Carcará",
+      "subtitulo": "O falcão que anda",
+      "cientifico": "Caracara plancus",
+      "uh": "413",
+      "quarto": 10,
+      "abertura": "O carcará é um falcão que prefere andar. Caminha pelos pastos atrás de insetos, filhotes e carniça, segue tratores e queimadas e come o que aparecer. É a ave de rapina mais vista nas estradas de Rondônia.\n",
+      "no_kaluana": "Ele está neste andar por ser o sobrevivente. O carcará se adaptou a tudo o que o homem fez com a paisagem. É o quarto de quem se vira, de quem resolve.\n",
+      "historia": "O carcará pertence à família dos falcões, mas não caça em mergulho como eles. Tem pernas longas, cabeça com topete preto e face de pele alaranjada. Anda no chão com facilidade e corre atrás das presas.\n\nÉ onívoro e oportunista. Come carniça na beira de estradas, ovos, filhotes de aves, cobras, sapos, insetos e frutos. Segue o gado e as máquinas agrícolas para capturar os animais que fogem. Nas queimadas, caça na linha de fogo.\n\nVive em pares e faz ninhos grandes de gravetos em árvores isoladas ou palmeiras. Ocorre em todo o Brasil, do sertão ao Pantanal, e se beneficiou da abertura das florestas.\n",
+      "curiosidades": [
+        "Carcará, de João do Vale e José Cândido, gravada por Maria Bethânia em 1965, transformou a ave em símbolo do sertão nordestino.",
+        "Carcarás já foram observados virando pedras e gravetos para alcançar comida escondida.",
+        "Eles retiram carrapatos de capivaras e de gado, que aceitam a limpeza sem reclamar.",
+        "O nome imita o canto, um chamado áspero e repetido."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Caracara plancus"
+        ],
+        [
+          "Família",
+          "Falconidae"
+        ],
+        [
+          "Tamanho",
+          "De 50 a 60 cm, com envergadura de 1,2 m"
+        ],
+        [
+          "Alimentação",
+          "Onívoro: carniça, pequenos animais, insetos e frutos"
+        ],
+        [
+          "Onde vive",
+          "Áreas abertas de todo o Brasil"
+        ],
+        [
+          "Ninho",
+          "Grande, de gravetos, em árvores e palmeiras"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "O carcará é um gavião?",
+          "r": "Não. É um falcão, da família Falconidae, embora tenha hábitos muito diferentes dos falcões clássicos. Ele anda no chão e come carniça."
+        },
+        {
+          "p": "O que o carcará come?",
+          "r": "Quase tudo: carniça, filhotes, ovos, cobras, sapos, insetos, frutos e restos de comida. É um dos animais mais oportunistas do Brasil."
+        },
+        {
+          "p": "Por que o carcará segue as queimadas?",
+          "r": "Porque o fogo expulsa insetos, roedores e répteis do capim. O carcará fica na frente das chamas e captura os animais que fogem."
+        }
+      ],
+      "seo": {
+        "title": "Carcará: o falcão que anda | Kaluanã",
+        "description": "Carcará (Caracara plancus): hábitos, alimentação, a música de João do Vale e por que é tão comum em Rondônia. O tema do quarto 413 do Kaluanã Eco Hotel.",
+        "keywords": [
+          "carcará",
+          "caracara plancus",
+          "carcará ave",
+          "carcará falcão",
+          "carcará rondônia"
+        ],
+        "resposta": "O carcará (Caracara plancus) é um falcão de pernas longas e hábito terrestre, onívoro e oportunista, que come carniça, pequenos animais e insetos e segue o gado, as máquinas agrícolas e as queimadas. É a ave de rapina mais comum nas áreas abertas de Rondônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/carcara 5.jpg",
+          "uso": "hero",
+          "nota": "4000 x 3000 px. Carcará pousado em galho contra o céu. Apta para hero."
+        },
+        {
+          "arquivo": "Aves/carcará 2.jpg",
+          "uso": "galeria",
+          "nota": "1600 x 1067 px. Carcará de asas abertas."
+        }
+      ]
+    },
+    {
+      "id": "maracana",
+      "nome": "Maracanã",
+      "subtitulo": "A pequena arara dos buritis",
+      "cientifico": "Primolius maracana e Orthopsittaca manilatus",
+      "uh": "414",
+      "quarto": 11,
+      "abertura": "A maracanã é uma arara pequena, verde, com manchas vermelhas na testa e na barriga. O nome vem do som: em tupi, maracanã lembra maracá, o chocalho. É o barulho que um bando faz ao passar.\n",
+      "no_kaluana": "Ela está neste andar por dar nome a um estádio e a um rio, e por viver perto. Nos buritizais do sul de Rondônia, a maracanã-do-buriti passa em bandos barulhentos. É o quarto do encontro, do bando que chega junto.\n",
+      "historia": "Maracanã é o nome de várias araras pequenas. A maracanã-verdadeira, verde com vermelho na testa, no ventre e no baixo dorso, vive no Cerrado, na Mata Atlântica e no sul da Amazônia. A maracanã-do-buriti, de face escura e ventre amarelado, depende dos buritizais, onde come e faz ninho.\n\nVivem em bandos, voam rápido e alto e gritam em coro. Comem frutos, sementes e flores. Nidificam em ocos de árvores e de palmeiras mortas.\n\nA maracanã-verdadeira perdeu território com o desmatamento e o tráfico e é considerada quase ameaçada. A do buriti segue comum onde há veredas e brejos com a palmeira.\n",
+      "curiosidades": [
+        "O Estádio do Maracanã, no Rio de Janeiro, leva o nome do rio Maracanã, que por sua vez foi batizado pelas aves que viviam nas suas margens.",
+        "A maracanã-do-buriti dorme e nidifica quase exclusivamente em buritis.",
+        "A maracanã-pequena, também chamada de ararinha, é a menor das araras brasileiras.",
+        "Bandos de maracanã-do-buriti podem passar de 50 aves no fim da tarde."
+      ],
+      "ficha": [
+        [
+          "Espécies",
+          "Maracanã-verdadeira (Primolius maracana), maracanã-do-buriti (Orthopsittaca manilatus), maracanã-pequena (Diopsittaca nobilis)"
+        ],
+        [
+          "Família",
+          "Psittacidae"
+        ],
+        [
+          "Tamanho",
+          "De 30 a 45 cm"
+        ],
+        [
+          "Alimentação",
+          "Frutos, sementes e flores"
+        ],
+        [
+          "Ninho",
+          "Ocos de árvores e palmeiras"
+        ],
+        [
+          "Situação",
+          "Maracanã-verdadeira quase ameaçada; demais comuns"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Qual a diferença entre maracanã e arara?",
+          "r": "Tamanho e cor. Maracanãs são araras pequenas, em geral verdes, com detalhes vermelhos ou amarelos. Araras grandes são maiores e mais coloridas. Todas são da mesma família."
+        },
+        {
+          "p": "Por que o estádio se chama Maracanã?",
+          "r": "Por causa do rio Maracanã, que passa perto do estádio, no Rio de Janeiro. O rio foi batizado pelas maracanãs que viviam em suas margens."
+        },
+        {
+          "p": "Onde ver maracanãs em Rondônia?",
+          "r": "Em veredas e brejos com buritis, principalmente no sul e no centro do estado, ao amanhecer e no fim da tarde."
+        }
+      ],
+      "seo": {
+        "title": "Maracanã: a pequena arara dos buritis | Kaluanã",
+        "description": "Maracanã: espécies, origem do nome, o estádio, os buritis e onde ver em Rondônia. O tema do quarto 414 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "maracanã ave",
+          "primolius maracana",
+          "maracanã do buriti",
+          "arara maracanã",
+          "por que maracanã"
+        ],
+        "resposta": "Maracanã é o nome de araras pequenas, em geral verdes, como a maracanã-verdadeira (Primolius maracana) e a maracanã-do-buriti (Orthopsittaca manilatus), que vive nos buritizais. O nome tupi remete ao maracá, pelo som dos bandos, e batizou o rio e o estádio do Rio de Janeiro.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": null,
+          "uso": "hero",
+          "nota": "SEM IMAGEM NA PASTA. Providenciar foto de maracanã-verdadeira ou maracanã-do-buriti (banco licenciado ou fotógrafo de aves da região)."
+        }
+      ]
+    },
+    {
+      "id": "anu-preto",
+      "nome": "Anu-preto",
+      "subtitulo": "A ave que cria os filhos em comunidade",
+      "cientifico": "Crotophaga ani",
+      "uh": "415",
+      "quarto": 12,
+      "abertura": "O anu-preto vive em grupo e cria em grupo. Várias fêmeas botam no mesmo ninho e todos os adultos chocam e alimentam os filhotes. Anda em bando pelas cercas e pastos, comendo carrapatos do gado e insetos.\n",
+      "no_kaluana": "Ele está neste andar pela cooperação. O anu mostra que cuidar junto funciona. É o quarto da equipe, e o Kaluanã é feito por uma.\n",
+      "historia": "O anu-preto é da família dos cucos. Tem plumagem preta com brilho, cauda longa e um bico alto e comprimido, parecido com o de um papagaio. Vive em áreas abertas, pastos, beiras de estrada e quintais de todo o Brasil.\n\nO grupo, de 3 a 10 aves, constrói um único ninho de gravetos e folhas. Todas as fêmeas botam nele. Os ovos ficam em camadas, e os adultos revezam a incubação. Depois, todos alimentam os filhotes.\n\nSegue o gado para capturar os insetos que ele espanta e retira carrapatos do couro dos animais. Também come frutos e pequenos lagartos.\n",
+      "curiosidades": [
+        "Na tradição rural, o canto do anu anuncia chuva. O que se sabe é que ele canta mais quando o tempo muda.",
+        "Anus dormem juntos, encostados uns nos outros em um galho, para manter o calor.",
+        "O anu-branco, primo do preto, tem topete e também cria em comunidade.",
+        "Os ovos do anu são azul-esverdeados cobertos por uma camada branca que descasca."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Crotophaga ani"
+        ],
+        [
+          "Família",
+          "Cuculidae"
+        ],
+        [
+          "Tamanho",
+          "Cerca de 35 cm"
+        ],
+        [
+          "Alimentação",
+          "Insetos, carrapatos, frutos e pequenos vertebrados"
+        ],
+        [
+          "Ninho",
+          "Comunitário, com várias fêmeas"
+        ],
+        [
+          "Onde vive",
+          "Áreas abertas de todo o Brasil"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que o anu-preto anda perto do gado?",
+          "r": "Para comer os insetos que o gado espanta ao andar e para retirar carrapatos do couro dos animais. O gado tolera, porque o anu faz a limpeza."
+        },
+        {
+          "p": "O anu-preto canta antes da chuva?",
+          "r": "É crença popular. Ele canta bastante quando o tempo muda e a umidade sobe, o que coincide com a chegada da chuva."
+        },
+        {
+          "p": "Como é o ninho do anu-preto?",
+          "r": "Um único ninho de gravetos e folhas, usado por todas as fêmeas do grupo. Os ovos ficam em camadas e os adultos revezam para chocar."
+        }
+      ],
+      "seo": {
+        "title": "Anu-preto: a ave que cria os filhos em comunidade | Kaluanã",
+        "description": "Anu-preto (Crotophaga ani): ninho comunitário, relação com o gado, canto da chuva e curiosidades. O tema do quarto 415 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "anu preto",
+          "crotophaga ani",
+          "anu ave",
+          "anu canta chuva",
+          "aves do pasto"
+        ],
+        "resposta": "O anu-preto (Crotophaga ani) é uma ave preta da família dos cucos que vive em grupos e cria os filhotes em ninhos comunitários, onde várias fêmeas botam e todos os adultos cuidam. Anda pelos pastos comendo insetos e carrapatos do gado e é comum em todo o Brasil.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/anu preto 4.jpg",
+          "uso": "hero",
+          "nota": "800 x 599 px. Anu em cerca de arame com pasto ao fundo. Baixa resolução para hero."
+        },
+        {
+          "arquivo": "Aves/anu preto.jpg",
+          "uso": "galeria",
+          "nota": "599 x 800 px, vertical. Anu em galho. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "tangara",
+      "nome": "Tangará",
+      "subtitulo": "A ave que dança em fila",
+      "cientifico": "Pipridae",
+      "uh": "416",
+      "quarto": 13,
+      "abertura": "Os tangarás dançam. Vários machos se alinham em um galho e, um a um, saltam, giram e voltam para o fim da fila, em coreografia, para impressionar uma única fêmea. É um dos espetáculos mais raros de se ver na mata.\n",
+      "no_kaluana": "Ele está neste andar pela dança. É o quarto da festa, da celebração, do salão de eventos que o Kaluanã vai receber. Coreografia pede ensaio, e o tangará ensaia o ano inteiro.\n",
+      "historia": "Tangará é o nome dado a aves da família dos piprídeos, pequenas, de cabeça colorida e corpo compacto. O tangará-dançador, azul com cabeça vermelha, é o mais famoso, da Mata Atlântica. Na Amazônia vivem parentes próximos como o uirapuru-de-chapéu-vermelho e o cabeça-de-ouro, que ocorrem em Rondônia.\n\nOs machos se reúnem em arenas, pequenos espaços na mata, onde exibem saltos, giros e estalos de asa. As fêmeas visitam, escolhem e vão embora. Elas fazem o ninho e criam os filhotes sozinhas.\n\nComem frutos pequenos e insetos e são importantes dispersores de sementes do sub-bosque.\n",
+      "curiosidades": [
+        "Alguns piprídeos produzem estalos com as asas, batendo as penas umas nas outras como um chicote.",
+        "A dança do tangará-dançador é cooperativa: machos jovens ajudam o dominante, esperando herdar a arena.",
+        "Em algumas regiões, o nome tangará é dado às saíras, aves de outra família, coloridas e também pequenas.",
+        "Os piprídeos vivem em média mais de 10 anos, muito para uma ave de 10 centímetros."
+      ],
+      "ficha": [
+        [
+          "Família",
+          "Pipridae"
+        ],
+        [
+          "Espécies em Rondônia",
+          "Uirapuru-de-chapéu-vermelho (Ceratopipra rubrocapilla) e outros piprídeos"
+        ],
+        [
+          "Tamanho",
+          "De 8 a 15 cm"
+        ],
+        [
+          "Alimentação",
+          "Frutos pequenos e insetos"
+        ],
+        [
+          "Reprodução",
+          "Machos exibem em arenas; fêmeas criam sozinhas"
+        ],
+        [
+          "Onde vive",
+          "Sub-bosque de matas úmidas"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que os tangarás dançam?",
+          "r": "Para conquistar fêmeas. Os machos se exibem em arenas com saltos, giros e sons de asa. A fêmea escolhe o melhor dançarino e cria os filhotes sozinha."
+        },
+        {
+          "p": "O tangará existe na Amazônia?",
+          "r": "O tangará-dançador é da Mata Atlântica, mas a família dos piprídeos tem várias espécies amazônicas, inclusive em Rondônia, como o uirapuru-de-chapéu-vermelho."
+        },
+        {
+          "p": "Tangará e saíra são a mesma coisa?",
+          "r": "Não. Saíras são da família dos traupídeos. Em algumas regiões o nome tangará é usado para saíras, o que gera confusão."
+        }
+      ],
+      "seo": {
+        "title": "Tangará: a ave que dança em fila | Kaluanã",
+        "description": "Tangará e piprídeos: a dança dos machos, as arenas, espécies da Amazônia e curiosidades. O tema do quarto 416 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "tangará",
+          "dança do tangará",
+          "pipridae",
+          "tangará dançador",
+          "uirapuru de chapéu vermelho"
+        ],
+        "resposta": "Tangará é o nome de pequenas aves da família Pipridae cujos machos se exibem em arenas com danças coreografadas para conquistar fêmeas. O tangará-dançador é da Mata Atlântica; na Amazônia e em Rondônia vivem parentes como o uirapuru-de-chapéu-vermelho.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/tangará 6.jpg",
+          "uso": "hero",
+          "nota": "1200 x 900 px. Piprídeo de cabeça vermelha em galho. Espécie compatível com o tema. Resolução mediana."
+        },
+        {
+          "arquivo": "Aves/tangará 3.jpg",
+          "uso": "galeria",
+          "nota": "4438 x 3178 px. ATENÇÃO: a ave parece uma saíra (traupídeo), não um piprídeo. Usar com legenda ou substituir."
+        }
+      ]
+    },
+    {
+      "id": "colhereiro",
+      "nome": "Colhereiro",
+      "subtitulo": "A ave rosa de bico de colher",
+      "cientifico": "Platalea ajaja",
+      "uh": "417",
+      "quarto": 14,
+      "abertura": "O colhereiro é rosa por causa do que come. Os pigmentos dos crustáceos que ele filtra na água tingem as penas. O bico, achatado na ponta como uma colher, varre a água de um lado para o outro até sentir a presa.\n",
+      "no_kaluana": "Ele está neste andar por ser a cor inesperada. Ninguém espera ver rosa na Amazônia, e o colhereiro está lá, nos lagos do Guaporé. É o quarto da surpresa.\n",
+      "historia": "O colhereiro é uma ave pernalta parente dos íbis, da família Threskiornithidae. Tem cerca de 80 centímetros, plumagem rosa com detalhes vermelhos nas asas e cabeça sem penas. O bico, longo e achatado, é a marca da espécie.\n\nAlimenta-se em água rasa, andando com o bico entreaberto submerso e balançando a cabeça. Quando toca um peixe, camarão ou inseto, fecha o bico. Vive em várzeas, lagos e manguezais.\n\nNidifica em colônias com garças e biguás. Em Rondônia é comum nos alagados do Guaporé e aparece em lagoas do Madeira e do Machado.\n",
+      "curiosidades": [
+        "Filhotes de colhereiro nascem brancos e vão ficando rosados conforme comem crustáceos.",
+        "No Pantanal, bandos de colhereiros pintam de rosa as margens das baías na seca.",
+        "A cor rosa vem de carotenoides, os mesmos pigmentos que tingem os flamingos.",
+        "O colhereiro voa com o pescoço esticado, ao contrário das garças."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Platalea ajaja"
+        ],
+        [
+          "Família",
+          "Threskiornithidae"
+        ],
+        [
+          "Tamanho",
+          "Cerca de 80 cm, com envergadura de 1,2 m"
+        ],
+        [
+          "Alimentação",
+          "Peixes pequenos, crustáceos e insetos aquáticos"
+        ],
+        [
+          "Ninho",
+          "Em colônias, com garças"
+        ],
+        [
+          "Onde vive",
+          "Várzeas, lagos e áreas alagadas, inclusive Guaporé"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que o colhereiro é rosa?",
+          "r": "Por causa dos carotenoides presentes nos crustáceos que ele come. Sem essa alimentação, as penas ficam pálidas. É o mesmo mecanismo dos flamingos."
+        },
+        {
+          "p": "Como o colhereiro se alimenta?",
+          "r": "Andando em água rasa com o bico entreaberto submerso e varrendo de um lado para o outro. Ao tocar uma presa, fecha o bico por reflexo."
+        },
+        {
+          "p": "Onde ver colhereiros em Rondônia?",
+          "r": "Nos alagados do vale do Guaporé, principalmente na seca, e em lagoas e várzeas do Madeira e do Machado."
+        }
+      ],
+      "seo": {
+        "title": "Colhereiro: a ave rosa de bico de colher | Kaluanã",
+        "description": "Colhereiro (Platalea ajaja): por que é rosa, como se alimenta e onde ver em Rondônia. O tema do quarto 417 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "colhereiro",
+          "platalea ajaja",
+          "ave rosa",
+          "colhereiro pantanal",
+          "colhereiro guaporé"
+        ],
+        "resposta": "O colhereiro (Platalea ajaja) é uma ave pernalta rosa, parente dos íbis, com bico achatado em forma de colher que varre a água rasa em busca de peixes e crustáceos. A cor vem dos carotenoides da dieta. Em Rondônia é comum nos alagados do Guaporé.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/colhereiro 3.jpg",
+          "uso": "hero",
+          "nota": "2121 x 1414 px. Dois colhereiros na água, um de asas abertas. Apta para hero."
+        },
+        {
+          "arquivo": "Aves/colhereiro 5.jpg",
+          "uso": "galeria",
+          "nota": "800 x 1200 px, vertical. ATENÇÃO: colhereiro branco, aparentemente espécie europeia. Substituir por Platalea ajaja."
+        }
+      ]
+    },
+    {
+      "id": "curio",
+      "nome": "Curió",
+      "subtitulo": "O cantor mais disputado do Brasil",
+      "cientifico": "Sporophila angolensis",
+      "uh": "418",
+      "quarto": 15,
+      "abertura": "O curió é pequeno, preto e castanho, e tem um dos cantos mais elaborados entre as aves brasileiras. Há gente que dedica a vida a ouvi-lo. Torneios de canto reúnem centenas de criadores. E o tráfico o persegue por isso.\n",
+      "no_kaluana": "Ele está neste andar pela voz. O curió é a prova de que tamanho não importa. É o quarto de quem tem algo a dizer.\n",
+      "historia": "O curió é um pássaro de cerca de 12 centímetros. O macho tem cabeça e costas pretas e o peito castanho-avermelhado; a fêmea é parda. Vive em capinzais, beiras de mata e áreas alagadas, comendo sementes de gramíneas.\n\nO canto do macho é longo, forte e cheio de variações, e os criadores classificam dialetos com nomes como praia grande e paracambi. Em torneios, o curió que canta mais vezes em um tempo determinado vence.\n\nA criação em cativeiro é permitida apenas com registro e anilha. A captura na natureza é crime e uma das principais causas do desaparecimento da espécie perto das cidades.\n",
+      "curiosidades": [
+        "Filhotes de curió aprendem o canto ouvindo os adultos. Criadores usam gravações e aves mestras para ensinar.",
+        "O curió e o bicudo, parente maior, são as aves mais valorizadas do canto no Brasil.",
+        "Um curió campeão pode valer mais que um carro popular no mercado legal de criadores.",
+        "Na natureza, o curió canta em postes, cercas e capins altos, marcando território ao amanhecer."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Sporophila angolensis"
+        ],
+        [
+          "Família",
+          "Thraupidae"
+        ],
+        [
+          "Tamanho",
+          "Cerca de 12 cm"
+        ],
+        [
+          "Alimentação",
+          "Sementes de gramíneas e pequenos insetos"
+        ],
+        [
+          "Onde vive",
+          "Capinzais, beiras de mata e áreas alagadas"
+        ],
+        [
+          "Situação",
+          "Pressionado pelo tráfico; criação só com registro"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Por que o curió é tão valorizado?",
+          "r": "Pelo canto, longo e variado, que os criadores classificam em dialetos e disputam em torneios. Curiós campeões alcançam valores altos no mercado legal."
+        },
+        {
+          "p": "Posso criar curió em casa?",
+          "r": "Só com registro no sistema de criadores de passeriformes e com aves anilhadas, de criadouros legais. Capturar na natureza é crime ambiental."
+        },
+        {
+          "p": "Como diferenciar o macho da fêmea?",
+          "r": "O macho adulto tem cabeça e dorso pretos e o peito castanho. A fêmea é parda por inteiro e não canta o canto completo."
+        }
+      ],
+      "seo": {
+        "title": "Curió: o cantor mais disputado do Brasil | Kaluanã",
+        "description": "Curió (Sporophila angolensis): o canto, os torneios, a criação legal e a ameaça do tráfico. O tema do quarto 418 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "curió",
+          "sporophila angolensis",
+          "canto do curió",
+          "criação de curió",
+          "curió pássaro"
+        ],
+        "resposta": "O curió (Sporophila angolensis) é um pássaro de 12 cm, preto e castanho, famoso pelo canto longo e variado disputado em torneios de criadores. Vive em capinzais e áreas alagadas, come sementes de gramíneas e é uma das aves mais perseguidas pelo tráfico no Brasil.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/curió 3.jpg",
+          "uso": "hero",
+          "nota": "1024 x 576 px. Curió macho em capim, espécie correta. Resolução limita hero."
+        },
+        {
+          "arquivo": "Aves/curió 5.jpg",
+          "uso": "galeria",
+          "nota": "800 x 600 px. ATENÇÃO: ave azul, não é curió (parece saí ou sanhaço). Substituir."
+        }
+      ]
+    },
+    {
+      "id": "andorinha",
+      "nome": "Andorinha",
+      "subtitulo": "A viajante que come voando",
+      "cientifico": "Hirundinidae",
+      "uh": "419",
+      "quarto": 16,
+      "abertura": "A andorinha come e bebe voando. Algumas cruzam o continente inteiro duas vezes por ano. Chegam em bandos de milhares, escurecem o céu no fim da tarde e somem ao amanhecer.\n",
+      "no_kaluana": "Ela está neste andar por ser a hóspede que vai e volta. A andorinha sabe chegar, ficar e partir. É o quarto de quem viaja a trabalho, o hóspede que o Kaluanã espera ver de novo.\n",
+      "historia": "O Brasil tem cerca de 20 espécies de andorinhas. A andorinha-azul-e-branca é a mais comum nas cidades e faz ninho em frestas de telhados. A andorinha-do-campo, maior, vive em áreas abertas. A andorinha-de-bando vem da América do Norte e passa o verão aqui, depois de voar milhares de quilômetros.\n\nTodas caçam insetos em voo, com a boca aberta, em manobras rápidas. Bebem água rasando a superfície de rios e lagos.\n\nNo fim do dia, formam dormitórios gigantes em árvores de praças e em fios de energia, com milhares de aves. Ao amanhecer, se dispersam.\n",
+      "curiosidades": [
+        "O ditado uma andorinha só não faz verão vem da Europa, onde a chegada delas marca a estação quente.",
+        "A andorinha-de-bando faz a viagem de ida e volta entre os dois hemisférios todo ano, mais de 10 mil quilômetros em cada trecho.",
+        "Andorinhas usam barro para construir ninhos em forma de tigela ou de garrafa presos a paredes.",
+        "Uma andorinha come milhares de insetos por dia, inclusive mosquitos."
+      ],
+      "ficha": [
+        [
+          "Família",
+          "Hirundinidae"
+        ],
+        [
+          "Espécies comuns",
+          "Andorinha-azul-e-branca (Pygochelidon cyanoleuca), andorinha-do-campo (Progne tapera), andorinha-de-bando (Hirundo rustica)"
+        ],
+        [
+          "Tamanho",
+          "De 12 a 20 cm"
+        ],
+        [
+          "Alimentação",
+          "Insetos capturados em voo"
+        ],
+        [
+          "Ninho",
+          "De barro ou em frestas e ocos"
+        ],
+        [
+          "Hábito",
+          "Diurno, gregário; algumas espécies migratórias"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "A andorinha dorme voando?",
+          "r": "Não. Quem dorme em voo são os andorinhões, de outra família. As andorinhas dormem em dormitórios coletivos em árvores e fios, em grupos de centenas ou milhares."
+        },
+        {
+          "p": "Por que as andorinhas se juntam em árvores das praças?",
+          "r": "Para dormir em segurança, em grupo, em locais iluminados e com poucos predadores. Os dormitórios urbanos reúnem milhares de aves e são comuns em cidades de Rondônia."
+        },
+        {
+          "p": "A andorinha migra?",
+          "r": "Algumas sim. A andorinha-de-bando vem da América do Norte e passa o verão no Brasil. A azul-e-branca é residente e fica o ano inteiro."
+        }
+      ],
+      "seo": {
+        "title": "Andorinha: a viajante que come voando | Kaluanã",
+        "description": "Andorinhas: espécies do Brasil, migração, dormitórios urbanos e curiosidades. O tema do quarto 419 do Kaluanã Eco Hotel, em Ji-Paraná, Rondônia.",
+        "keywords": [
+          "andorinha",
+          "hirundinidae",
+          "andorinha migração",
+          "andorinha azul e branca",
+          "dormitório de andorinhas"
+        ],
+        "resposta": "Andorinhas são aves da família Hirundinidae que caçam insetos em voo e formam grandes dormitórios coletivos. O Brasil tem cerca de 20 espécies; a andorinha-azul-e-branca é a mais comum nas cidades, e a andorinha-de-bando migra da América do Norte todos os anos.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/andorinha.jpg",
+          "uso": "hero",
+          "nota": "2801 x 1867 px. Andorinha-azul-e-branca pousada em galho. Apta para hero."
+        },
+        {
+          "arquivo": "Aves/andorinha 3.jpg",
+          "uso": "galeria",
+          "nota": "790 x 431 px. Andorinhas no chão. Baixa resolução."
+        }
+      ]
+    },
+    {
+      "id": "cardeal-da-amazonia",
+      "nome": "Cardeal-da-Amazônia",
+      "subtitulo": "A cabeça vermelha das margens dos rios",
+      "cientifico": "Paroaria gularis",
+      "uh": "420",
+      "quarto": 17,
+      "abertura": "O cardeal-da-amazônia é a ave que se vê do barco. Cabeça vermelha, costas pretas, peito branco, pousado nos galhos baixos sobre a água. Ele acompanha o rio por toda a Amazônia, e é a última ave deste andar.\n",
+      "no_kaluana": "Ele fecha o andar das aves porque leva o rio nas costas. Vive na beira da água, entre o andar dos rios e o céu. É o quarto que liga o primeiro andar ao último. O ciclo do Kaluanã se fecha aqui.\n",
+      "historia": "O cardeal-da-amazônia é um pássaro de 16 centímetros, da família dos traupídeos. Tem cabeça e garganta vermelhas, costas pretas e ventre branco. Vive nas margens de rios, lagos e igapós, sempre perto da água.\n\nAnda em pares ou pequenos grupos, pousado em arbustos e galhos baixos, de onde captura insetos e colhe frutos. É confiante e pouco arisco, o que o torna uma das aves mais fotografadas dos passeios de barco na Amazônia.\n\nÉ diferente do cardeal do sul do Brasil, de topete, e do cardeal-do-nordeste, mas todos são do mesmo gênero.\n",
+      "curiosidades": [
+        "O cardeal-da-amazônia acompanha as embarcações à espera dos insetos espantados pela passagem.",
+        "Ele faz ninho em arbustos sobre a água, em forma de tigela, com raízes e fibras.",
+        "Na seca, quando as margens se afastam, ele segue a água.",
+        "Em Rondônia é comum no Madeira, no Guaporé e no Mamoré."
+      ],
+      "ficha": [
+        [
+          "Nome científico",
+          "Paroaria gularis"
+        ],
+        [
+          "Família",
+          "Thraupidae"
+        ],
+        [
+          "Tamanho",
+          "Cerca de 16 cm"
+        ],
+        [
+          "Alimentação",
+          "Insetos e frutos"
+        ],
+        [
+          "Onde vive",
+          "Margens de rios, lagos e igapós de toda a Amazônia"
+        ],
+        [
+          "Hábito",
+          "Diurno, em pares ou pequenos grupos"
+        ]
+      ],
+      "faq": [
+        {
+          "p": "Onde vive o cardeal-da-amazônia?",
+          "r": "Nas margens de rios, lagos e florestas alagadas de toda a bacia amazônica, sempre perto da água. Em Rondônia é comum nos rios Madeira, Guaporé e Mamoré."
+        },
+        {
+          "p": "Qual a diferença entre o cardeal-da-amazônia e o cardeal do sul?",
+          "r": "O cardeal do sul, Paroaria coronata, tem topete vermelho e vive em áreas abertas do Sul e do Centro-Oeste. O da Amazônia não tem topete e vive nas beiras de rio."
+        },
+        {
+          "p": "O cardeal-da-amazônia é fácil de ver?",
+          "r": "Sim. Ele pousa em galhos baixos sobre a água, é confiante e aparece em quase todo passeio de barco na Amazônia."
+        }
+      ],
+      "seo": {
+        "title": "Cardeal-da-Amazônia: a cabeça vermelha das margens | Kaluanã",
+        "description": "Cardeal-da-amazônia (Paroaria gularis): onde vive, como reconhecer e diferença para os outros cardeais. O tema do quarto 420 do Kaluanã Eco Hotel, em Ji-Paraná.",
+        "keywords": [
+          "cardeal da amazônia",
+          "paroaria gularis",
+          "cardeal ave",
+          "aves das margens do rio",
+          "aves da amazônia"
+        ],
+        "resposta": "O cardeal-da-amazônia (Paroaria gularis) é um pássaro de 16 cm com cabeça vermelha, costas pretas e ventre branco, que vive nas margens de rios e lagos de toda a Amazônia. Confiante e comum, é uma das aves mais vistas em passeios de barco, inclusive nos rios de Rondônia.\n"
+      },
+      "imagens": [
+        {
+          "arquivo": "Aves/cardel da amazonia 4.jpg",
+          "uso": "hero",
+          "nota": "823 x 1080 px, vertical. Cardeal em galho com folhagem. Renomear arquivo para cardeal. Resolução limita hero."
+        },
+        {
+          "arquivo": "Aves/cardel da amazonia 5.jpg",
+          "uso": "galeria",
+          "nota": "800 x 480 px. Cardeal em galho seco contra o céu. Baixa resolução."
+        }
+      ]
+    }
+  ]
+}
