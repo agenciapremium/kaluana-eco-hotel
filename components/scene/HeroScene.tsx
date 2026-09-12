@@ -1,10 +1,9 @@
-import { preload } from "react-dom";
 import type { CSSProperties, ReactNode } from "react";
 import { CopyText } from "@/components/Copy";
 import { Parallax } from "@/components/motion/Parallax";
 import { WordTitle } from "@/components/motion/WordTitle";
 import { MediaImage } from "@/components/ui/MediaImage";
-import { getImage, hasImage, imageSrc, srcSet } from "@/lib/media";
+import { hasImage } from "@/lib/media";
 import { motion as motionTokens } from "@/lib/tokens";
 
 type Props = {
@@ -26,8 +25,11 @@ type Props = {
 
 /**
  * Hero em tela cheia: foto de fundo com parallax e véu café, título centralizado palavra a
- * palavra. A foto é pré-carregada (é o LCP). Um script inline marca a página como "de hero"
- * para o cabeçalho ficar transparente sobre a foto até rolar.
+ * palavra. A foto é o LCP: entra com fetchpriority="high" e loading="eager" no HTML inicial,
+ * sem <link rel="preload">, porque o preload (por ReactDOM.preload ou por <link> elevado)
+ * vai no payload RSC e é executado também quando outra página faz prefetch desta rota,
+ * baixando o hero de rotas vizinhas sem uso (ver docs/decisoes.md, item 39). Um script
+ * inline marca a página como "de hero" para o cabeçalho ficar transparente até rolar.
  */
 export function HeroScene({
   image,
@@ -43,16 +45,6 @@ export function HeroScene({
   bgExtra,
 }: Props) {
   const has = hasImage(image);
-  if (has) {
-    const m = getImage(image);
-    preload(imageSrc(m, 1024, "avif"), {
-      as: "image",
-      type: "image/avif",
-      imageSrcSet: srcSet(m, "avif"),
-      imageSizes: "100vw",
-      fetchPriority: "high",
-    });
-  }
   return (
     <section
       className="scene scene-hero scene-center hero-scene"

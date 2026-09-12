@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { perfilLabel, perfis, type Perfil } from "@/lib/acomodacoes";
+import { perfilLabel, perfis, type Perfil } from "@/lib/perfis";
 import { motion as motionTokens } from "@/lib/tokens";
 
 type Item = { id: string; perfis: Perfil[]; node: ReactNode };

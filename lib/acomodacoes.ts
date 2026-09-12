@@ -10,23 +10,10 @@
 import { qrMap } from "./content";
 import type { Pagina, QrEntry } from "./content-schema";
 import paginasJson from "@/content/paginas.json";
+import { type Perfil } from "./perfis";
 import { floorOrder, floors, type FloorKey } from "./tokens";
 
-export const perfis = ["chegou-cansado", "precisa-produzir", "precisa-parar"] as const;
-export type Perfil = (typeof perfis)[number];
-
-export const perfilLabel: Record<Perfil, string> = {
-  "chegou-cansado": "Chegou cansado",
-  "precisa-produzir": "Precisa produzir",
-  "precisa-parar": "Precisa parar",
-};
-
-/** Frase curta de perfil que aparece no véu do card (5.3, movimento). */
-export const perfilFrase: Record<Perfil, string> = {
-  "chegou-cansado": "Cama e silêncio",
-  "precisa-produzir": "Mesa e internet",
-  "precisa-parar": "Varanda e tempo",
-};
+export { perfilFrase, perfilLabel, perfis, type Perfil } from "./perfis";
 
 type CategoriaFixa = {
   id: string;
