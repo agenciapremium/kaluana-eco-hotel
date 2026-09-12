@@ -53,6 +53,9 @@
   --duration-opening: 1800ms;
   --duration-press: 100ms;
   --duration-crossfade: 600ms;
+  --duration-filter: 300ms;
+  --duration-light-drift: 12000ms;
+  --duration-slow-fade: 1200ms;
   --stagger-min: 40ms;
   --stagger-word: 60ms;
   --stagger-item: 60ms;
@@ -61,6 +64,8 @@
   --offset-default: 20px;
   --offset-max: 24px;
   --parallax-max: 0.08;
+  --parallax-terraco: 0.06;
+  --hover-darken-photo: 0.2;
   --hover-scale: 1.03;
   --hover-scale-max: 1.04;
   --press-scale: 0.98;

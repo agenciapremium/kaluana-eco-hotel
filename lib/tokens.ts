@@ -131,6 +131,12 @@ export const motion = {
     opening: 1800,
     press: 100,
     crossfade: 600,
+    /** Troca da grade de acomodações ao mudar o filtro por perfil (5.3). */
+    filter: 300,
+    /** Deriva de luz na foto do terraço aberto (5.8): ciclo de 12 s, só desktop. */
+    lightDrift: 12000,
+    /** Fade lento do nome da Suíte Presidencial (5.10). */
+    slowFade: 1200,
   },
   /** Escalonamento entre itens, em milissegundos. */
   stagger: { min: 40, word: 60, item: 60, max: 90 },
@@ -138,12 +144,16 @@ export const motion = {
   offset: { min: 16, default: 20, max: 24 },
   /** Parallax máximo como fração da altura. */
   parallaxMax: 0.08,
+  /** Parallax do hero do Superior Família com Terraço (5.7). */
+  parallaxTerraco: 0.06,
   hoverScale: { min: 1.03, max: 1.04 },
   pressScale: 0.98,
   /** Fração do elemento visível para disparar a entrada. */
   inViewAmount: 0.25,
   /** Escurecimento do botão primário no hover. */
   hoverDarken: 0.08,
+  /** Escurecimento do resto da foto quando o detalhe ganha foco (5.5). */
+  hoverDarkenPhoto: 0.2,
   /** Deslize da seta do botão no hover, em pixels. */
   arrowSlide: 4,
   /** Véu bege sobre o vídeo do hero, em repouso e após rolar. */
