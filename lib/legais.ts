@@ -107,7 +107,7 @@ export const termosDeUso: BlocoLegal[] = [
     titulo: "Conteúdo e uso",
     paragrafos: [
       "Os textos, as fotos, os vídeos, os desenhos e a marca deste site pertencem ao hotel ou a quem os licenciou. Você pode citar trechos com atribuição a Kaluanã Eco Hotel, Ji-Paraná, e link para a página de origem.",
-      "As gravações de canto de ave usadas no Universo Kaluanã vêm de acervos com licença Creative Commons e trazem o crédito do autor na própria página.",
+      "As gravações de sons de animais usadas no Universo Kaluanã, como cantos de ave e o esturro da onça, vêm de acervos com licença Creative Commons e trazem o crédito do autor na própria página.",
       "Não é permitido copiar o conteúdo em escala, reaproveitá-lo como se fosse próprio ou usar a marca sem autorização.",
     ],
   },

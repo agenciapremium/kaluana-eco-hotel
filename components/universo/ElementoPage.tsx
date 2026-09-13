@@ -98,7 +98,7 @@ export function ElementoPage({ elemento: e }: { elemento: Elemento }) {
           <AmbientAudio
             andar={grupo}
             elemento={item.id}
-            extraLoops={canto ? [canto.arquivo] : []}
+            somDaEspecie={canto?.arquivo}
             variant="destaque"
           />
         </BarraHospede>
@@ -131,11 +131,7 @@ export function ElementoPage({ elemento: e }: { elemento: Elemento }) {
             </p>
           ) : null}
           <div className="elemento-hero-acoes">
-            <AmbientAudio
-              andar={grupo}
-              elemento={item.id}
-              extraLoops={canto ? [canto.arquivo] : []}
-            />
+            <AmbientAudio andar={grupo} elemento={item.id} somDaEspecie={canto?.arquivo} />
           </div>
         </div>
       </header>
@@ -236,7 +232,7 @@ export function ElementoPage({ elemento: e }: { elemento: Elemento }) {
             {canto ? (
               <>
                 {" "}
-                Canto: {canto.autor}, {canto.licenca}.
+                {grupo === "aves" ? "Canto" : "Som"}: {canto.autor}, {canto.licenca}.
               </>
             ) : null}
           </p>

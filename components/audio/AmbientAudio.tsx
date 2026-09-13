@@ -20,8 +20,11 @@ const GESTOS = ["pointerdown", "keydown", "touchend"] as const;
 type Props = {
   andar: FloorKey;
   elemento: string;
-  /** Loop específico da página (por exemplo, o canto da ave). Entra no banco do andar. */
-  extraLoops?: string[];
+  /**
+   * Som da própria espécie (o canto da ave). Quando existe, é ele que toca, e não um loop
+   * sorteado do banco do andar.
+   */
+  somDaEspecie?: string;
   className?: string;
   /** Na barra de hóspede o botão ganha destaque. */
   variant?: "discreto" | "destaque";
@@ -80,7 +83,7 @@ function lido(): string | null {
 export function AmbientAudio({
   andar,
   elemento,
-  extraLoops = [],
+  somDaEspecie,
   className,
   variant = "discreto",
 }: Props) {
@@ -93,9 +96,10 @@ export function AmbientAudio({
   }, [state]);
 
   const loop = useMemo(() => {
-    const bank = [...audioBanks[andar], ...extraLoops];
+    if (somDaEspecie) return somDaEspecie;
+    const bank = audioBanks[andar];
     return bank[escolhaEstavel(elemento, bank.length)];
-  }, [andar, elemento, extraLoops]);
+  }, [andar, elemento, somDaEspecie]);
 
   const getPlayer = () => {
     if (!playerRef.current) {

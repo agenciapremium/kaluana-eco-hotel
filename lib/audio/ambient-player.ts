@@ -49,7 +49,15 @@ export class AmbientPlayer {
     if (!this.master) {
       this.master = ctx.createGain();
       this.master.gain.value = 0;
-      this.master.connect(ctx.destination);
+      // Limitador depois do volume: nenhum pico passa do teto, mesmo com o aparelho no máximo e
+      // um arquivo mais alto que os outros.
+      const limitador = ctx.createDynamicsCompressor();
+      limitador.threshold.value = audioTokens.tetoDb;
+      limitador.knee.value = 0;
+      limitador.ratio.value = 20;
+      limitador.attack.value = 0.003;
+      limitador.release.value = 0.25;
+      this.master.connect(limitador).connect(ctx.destination);
     }
     if (!this.buffer) {
       const res = await fetch(this.url);
