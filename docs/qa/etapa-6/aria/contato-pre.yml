@@ -1,0 +1,75 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: Fale com o hotel
+  - heading "Contato" [level=1]
+  - paragraph: Como quiser.
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Contato
+  - text: Fale com o hotel
+  - heading "Como quiser." [level=2]
+  - text: Formulário
+  - link "Escreva para a gente":
+    - /url: "#mensagem"
+  - text: Recepção
+  - paragraph: 24 horas
+  - paragraph: O telefone e o e-mail oficiais entram no site assim que forem definidos. Até lá, o formulário abaixo chega direto na equipe.
+  - text: Onde
+  - heading "Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2. Ji-Paraná, RO." [level=2]
+  - paragraph: Estacionamento no local.
+  - paragraph: O hotel fica no acesso à cidade, com estacionamento no local.
+  - link "Como chegar a Ji-Paraná":
+    - /url: /ji-parana
+  - button "Ver mapa"
+  - paragraph: O mapa carrega do Google e só entra quando você pede.
+  - text: Mensagem
+  - heading "Escreva para a gente." [level=2]
+  - paragraph: Conte o que você precisa e a equipe responde em até um dia útil.
+  - text: Nome
+  - textbox "Nome"
+  - text: E-mail
+  - textbox "E-mail"
+  - text: Telefone
+  - textbox "Telefone"
+  - text: Assunto
+  - combobox "Assunto":
+    - option "Reserva" [selected]
+    - option "Evento"
+    - option "Restaurante"
+    - option "Imprensa"
+    - option "Outro"
+  - text: Mensagem
+  - textbox "Mensagem"
+  - button "Enviar mensagem"
+  - paragraph: Seus dados ficam com o hotel.
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

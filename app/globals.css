@@ -8,6 +8,8 @@
   html {
     color-scheme: light;
     scroll-behavior: smooth;
+    /* Foco e âncoras param abaixo do cabeçalho fixo, e não por baixo dele (etapa 6). */
+    scroll-padding-top: calc(var(--header-h) + 0.5rem);
     -webkit-text-size-adjust: 100%;
   }
   body {
@@ -24,7 +26,8 @@
     color: var(--color-branco);
   }
   :focus-visible {
-    outline: 2px solid var(--color-cafe);
+    /* Café sobre fundo claro; bege sobre cenas, painéis e rodapé (--focus-ring, etapa 6). */
+    outline: 2px solid var(--focus-ring, var(--color-cafe));
     outline-offset: 3px;
     border-radius: 2px;
   }
@@ -176,7 +179,7 @@
   font: inherit;
   font-size: var(--text-base);
   &::placeholder {
-    color: color-mix(in srgb, var(--color-cafe) 45%, transparent);
+    color: color-mix(in srgb, var(--color-cafe) 70%, transparent);
   }
   &:focus-visible {
     outline-offset: 1px;
@@ -222,7 +225,9 @@ html.js [data-reveal][data-inview="true"] {
     transform var(--duration-medium) var(--ease-padrao) var(--reveal-delay, 0ms);
 }
 html.js [data-reveal="mask"][data-inview="true"] > * {
-  clip-path: inset(0 0 0 0);
+  /* Termina um pouco além da caixa: com inset(0) o recorte cortava o contorno de foco dos
+     cards que entram por máscara (etapa 6). */
+  clip-path: inset(-0.75rem);
   transition: clip-path var(--duration-mask) var(--ease-padrao) var(--reveal-delay, 0ms);
 }
 
@@ -356,7 +361,8 @@ html.js .word-title .word {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   transition: transform var(--duration-medium) var(--ease-padrao);
-  &[data-hidden="true"] {
+  /* Com foco dentro, o cabeçalho não some: Shift+Tab de volta ao menu não cai fora da tela. */
+  &[data-hidden="true"]:not(:focus-within) {
     transform: translateY(-100%);
   }
   &[data-open="true"] {
@@ -526,8 +532,9 @@ html.js .stylized-map .map-road.draw-path {
   font-family: var(--font-display);
   font-size: 26px;
 }
+/* Rótulo em café: sálvia sobre bege ficava em 2,4:1 e sálvia não é cor de texto (etapa 6). */
 .stylized-map .map-label-river {
-  fill: var(--color-salvia);
+  fill: var(--color-cafe);
   font-style: italic;
 }
 .stylized-map .map-label-road {
@@ -586,12 +593,15 @@ html.js .stylized-map .map-road.draw-path {
    Fica transparente em bege até rolar; depois vira sólido em bege claro com texto café. */
 .site-header {
   position: absolute;
+  /* De ponta a ponta: sem left e right, o cabeçalho fixo encolhia até a largura do conteúdo e
+     ficava colado à esquerda, o que aparecia na fase pre, com só o logo e um botão. */
+  inset-inline: 0;
   color: var(--color-cafe);
 }
 html.js .site-header {
   position: fixed;
 }
-html[data-hero-page="1"] .site-header:not([data-solid="true"]):not([data-open="true"]) {
+html:has(.scene-hero) .site-header:not([data-solid="true"]):not([data-open="true"]) {
   background-color: transparent;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
@@ -599,13 +609,15 @@ html[data-hero-page="1"] .site-header:not([data-solid="true"]):not([data-open="t
   & .nav-icon {
     color: var(--color-bege);
   }
+  /* O logo usa text-cafe fixo e sumia sobre a foto escura. */
+  & .text-cafe {
+    color: var(--color-bege);
+  }
   & .nav-link {
     background-image: linear-gradient(var(--color-bege), var(--color-bege));
   }
 }
-html[data-hero-page="1"]
-  .site-header:not([data-solid="true"]):not([data-open="true"])
-  .btn-primary {
+html:has(.scene-hero) .site-header:not([data-solid="true"]):not([data-open="true"]) .btn-primary {
   background-color: var(--color-bege);
   border-color: var(--color-bege);
   color: var(--color-cafe);
@@ -983,7 +995,7 @@ main:has(.scene-hero) {
   fill: none;
 }
 .scene .stylized-map .map-label-river {
-  fill: var(--color-salvia);
+  fill: color-mix(in srgb, var(--color-bege) 85%, transparent);
 }
 
 /* Botões sobre cena. */
@@ -1430,8 +1442,11 @@ html.js [data-variante="superior-acessivel"] .draw-path {
 /* Barra de hóspede: só aparece quando a página abre pelo QR Code (Parte 6.0, item 1). */
 .barra-hospede {
   position: sticky;
-  top: 0;
-  z-index: 45;
+  /* Logo abaixo do cabeçalho e por baixo dele: quando o cabeçalho volta ao rolar para cima, o
+     menu e o Reservar ficam visíveis. A barra sobe junto quando ele some (etapa 6). */
+  top: var(--header-h);
+  z-index: 39;
+  transition: transform var(--duration-medium) var(--ease-padrao);
   background-color: var(--accent, var(--color-cafe));
   color: var(--color-bege);
 }
@@ -2491,9 +2506,13 @@ html:not(.js) .form-passos {
   display: grid;
   gap: 1rem;
 }
-/* Sem JavaScript, todos os painéis aparecem e o envio manda o formulário inteiro. */
-html:not(.js) .form-painel[hidden] {
-  display: grid;
+/*
+ * Com JavaScript, só o passo ativo aparece. Sem JavaScript, todos os painéis aparecem e o
+ * envio manda o formulário inteiro. O atributo hidden não serve aqui: a regra [hidden] do
+ * Tailwind usa !important e escondia os painéis também sem JavaScript.
+ */
+html.js .form-painel:not([data-ativo="true"]) {
+  display: none;
 }
 html.js .form-painel {
   animation: painel-entra var(--duration-medium) var(--ease-padrao);
@@ -2919,4 +2938,149 @@ html.js .form-evento:not([data-passo="2"]) .form-enviar {
 
 .pagina-404 {
   padding-top: calc(var(--header-h) + 3rem);
+}
+
+/* ------------------------------------------------------------------
+   Etapa 6: foco visível sobre qualquer fundo, trilho do elevador e
+   movimento reduzido no cabeçalho
+   ------------------------------------------------------------------ */
+
+/* O contorno de foco é café (Parte 2.7). Sobre cenas, painéis, andares, guardiões, o hero do
+   elemento, a barra de hóspede, o rodapé e o cabeçalho transparente, café some no fundo escuro
+   (de 1:1 a 1,6:1); nesses lugares o contorno passa a bege. Cartões claros dentro das cenas
+   voltam ao café. */
+.scene,
+.panel,
+.andar-bloco,
+.guardiao,
+.elemento-hero,
+.barra-hospede,
+footer.bg-cafe,
+html:has(.scene-hero) .site-header:not([data-solid="true"]):not([data-open="true"]) {
+  --focus-ring: var(--color-bege);
+}
+.scene-card-light,
+.scene .bg-branco,
+.scene .bg-bege {
+  --focus-ring: var(--color-cafe);
+}
+html:has(.site-header[data-hidden="true"]:not(:focus-within)) .barra-hospede {
+  transform: translateY(calc(-1 * var(--header-h)));
+}
+@media (min-width: 64rem) {
+  .elevador {
+    --focus-ring: var(--color-bege);
+    transition:
+      opacity var(--duration-short) var(--ease-padrao),
+      visibility var(--duration-short) linear;
+  }
+  /* Fora da sequência de andares o trilho fixo sai de cena: o texto bege sumia sobre as
+     seções claras e o rodapé. Escondido, também sai da ordem de foco. */
+  .elevador[data-fora="true"] {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-header,
+  .barra-hospede,
+  .elevador {
+    transition-duration: var(--duration-reduced);
+  }
+  html.js .mobile-menu-item {
+    transform: none;
+  }
+  html.js .mobile-menu[data-open="true"] .mobile-menu-item {
+    transition: opacity var(--duration-reduced) linear;
+    transition-delay: 0ms;
+  }
+}
+
+/* Etapa 6, depois do percurso de teclado. Painéis empilhados com sticky: o painel seguinte
+   cobria o botão focado do anterior; o painel com foco passa à frente. */
+.panel:focus-within {
+  z-index: 1;
+}
+/* Campo de data: o foco passa por dia, mês, ano e pelo ícone do calendário, que fica dentro do
+   campo. No ícone, o campo deixa de casar com :focus; :focus-within cobre as quatro paradas. */
+.field[type="date"]:focus,
+.field[type="date"]:focus-within {
+  outline: 2px solid var(--focus-ring, var(--color-cafe));
+  outline-offset: 1px;
+}
+/* O atalho para o conteúdo aparece sobre o hero escuro ou sobre o cabeçalho bege: o contorno vai
+   por dentro da caixa café, em bege, e fica visível sobre qualquer fundo. */
+.skip-link:focus-visible {
+  outline: 2px solid var(--color-bege);
+  outline-offset: -5px;
+}
+/* Conteúdo que recebe foco aparece na hora, sem esperar a entrada por interseção: na faixa
+   horizontal do celular, um card focado ainda estava com a máscara fechada e o contorno cortado. */
+html.js [data-reveal]:focus-within {
+  opacity: 1;
+  transform: none;
+}
+html.js [data-reveal="mask"] > :focus-within,
+html.js [data-reveal="mask"] > :focus-visible {
+  clip-path: none;
+  transition: none;
+}
+
+/* Contraste das cores de andar (etapa 6). Com o bege, Peixes, Árvores e Aves ficam entre 3,8:1 e
+   4:1, abaixo dos 4,5:1 de texto normal; Rios e Guardiões já passavam. Onde a cor do andar é
+   fundo de texto bege, o fundo escurece com o preto suave; onde é texto sobre fundo claro, o texto
+   fica em café ou escurecido e a cor do andar vira marcador. */
+.barra-hospede {
+  background-color: color-mix(in srgb, var(--accent, var(--color-cafe)) 70%, var(--color-preto));
+}
+.barra-hospede-uh {
+  background-color: transparent;
+  border: 1px solid color-mix(in srgb, var(--color-bege) 60%, transparent);
+}
+.card-elemento-uh {
+  color: var(--color-cafe);
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.4rem;
+    border-radius: 999px;
+    background-color: var(--accent, var(--color-cafe));
+  }
+}
+.elevador-parada[aria-current="true"] .elevador-ordinal {
+  color: color-mix(in srgb, var(--accent) 60%, var(--color-preto));
+}
+@media (min-width: 64rem) {
+  .elevador-ordinal,
+  .elevador-parada[aria-current="true"] .elevador-ordinal {
+    color: color-mix(in srgb, var(--color-bege) 75%, transparent);
+  }
+}
+
+/* Filtro escuro na seção inteira (etapa 6). O axe não calcula contraste de texto sobre foto.
+   Medido pixel a pixel (npm run qa:contraste), 19 de 93 textos claros ficavam abaixo do mínimo
+   contra a parte mais clara da foto, como céu e folhagem iluminada. Por decisão do responsável,
+   o filtro cobre a seção toda, e não só a área atrás do texto: preto suave a 50% sobre a foto e o
+   véu de cada cena. Com 40% nenhum texto reprova, mas o menor contraste cai para 4,2:1; 50% dá
+   folga para fotos mais claras que as medidas. Os guardiões já têm véu de 62% e ficam como estão. */
+.scene-hero .scene-bg::after,
+.panel .scene-bg::after,
+.andar-bloco .scene-bg::after,
+.elemento-hero .scene-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-color: color-mix(in srgb, var(--color-preto) 50%, transparent);
+}
+/* Botão secundário sobre o hero do elemento (Ouvir o ambiente): café sumia na foto escura. */
+.elemento-hero .btn-secondary {
+  color: var(--color-bege);
+  border-color: color-mix(in srgb, var(--color-bege) 60%, transparent);
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-bege) 12%, transparent);
+    border-color: var(--color-bege);
+  }
 }

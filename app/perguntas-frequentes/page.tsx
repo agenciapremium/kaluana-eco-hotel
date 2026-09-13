@@ -12,16 +12,46 @@ import { getPagina } from "@/lib/content";
 import type { Faq } from "@/lib/content-schema";
 import { copyDeProducao } from "@/lib/copy";
 import { faqSchema, webPageSchema } from "@/lib/schema";
+import { foraDoIndiceNaPre } from "@/lib/seo";
 import { eventosAutorizado, isProduction } from "@/lib/site";
 
 const pagina = getPagina("perguntas-frequentes");
 
+/**
+ * Respostas com campo pendente saem do ar em produção pela regra da etapa 4, e a de eventos
+ * só entra com a autorização do cliente (veto 3).
+ */
+const visiveis = (pagina.faq ?? [])
+  .filter((p) => (eventosAutorizado ? true : !/espaço para eventos/i.test(p.p)))
+  .filter((p) => !isProduction || copyDeProducao(p.r).length > 0);
+
+/**
+ * A descrição e a resposta direta do mestre listam os temas da página. Eventos e animais só
+ * ficam na lista quando a pergunta correspondente está no ar: o que a busca e o schema dizem
+ * precisa estar visível na página (Parte 4.3, etapa 6).
+ */
+const temEventos = visiveis.some((p) => /eventos/i.test(p.p));
+const temAnimais = visiveis.some((p) => /animais/i.test(p.p));
+const semTemasAusentes = (texto: string) =>
+  texto
+    .replace(
+      ", eventos, animais e distâncias",
+      `${temEventos ? ", eventos" : ""}${temAnimais ? ", animais" : ""} e distâncias`,
+    )
+    .replace(
+      ", eventos, política para animais e distâncias",
+      `${temEventos ? ", eventos" : ""}${temAnimais ? ", política para animais" : ""} e distâncias`,
+    );
+const descricao = semTemasAusentes(pagina.seo.description);
+const resposta = semTemasAusentes(pagina.seo.resposta.trim());
+
 export const metadata: Metadata = {
   title: { absolute: pagina.seo.title },
-  description: pagina.seo.description,
+  description: descricao,
   keywords: pagina.seo.keywords,
   alternates: { canonical: pagina.url },
-  openGraph: { title: pagina.seo.title, description: pagina.seo.description, url: pagina.url },
+  openGraph: { title: pagina.seo.title, description: descricao, url: pagina.url },
+  ...foraDoIndiceNaPre,
 };
 
 /** Agrupamento por tema, com âncora (5.25, movimento). */
@@ -47,16 +77,8 @@ const temas: { id: string; nome: string; casa: (p: Faq) => boolean }[] = [
 /**
  * Perguntas frequentes (5.25). É a página de AEO do hotel: cada resposta é uma frase que
  * faz sentido isolada, com FAQPage.
- *
- * Respostas com campo pendente saem do ar em produção pela regra da etapa 4, e a de eventos
- * só entra com a autorização do cliente (veto 3).
  */
 export default function Page() {
-  const todas = pagina.faq ?? [];
-  const visiveis = todas
-    .filter((p) => (eventosAutorizado ? true : !/espaço para eventos/i.test(p.p)))
-    .filter((p) => !isProduction || copyDeProducao(p.r).length > 0);
-
   const montar = (id: string, nome: string, lista: Faq[]): GrupoFaq => ({
     id,
     nome,
@@ -83,7 +105,7 @@ export default function Page() {
           webPageSchema({
             url: pagina.url,
             nome: pagina.seo.h1,
-            descricao: pagina.seo.resposta.trim(),
+            descricao: resposta,
           }),
           faqSchema(visiveis),
         ]}
@@ -93,7 +115,7 @@ export default function Page() {
         image="detalhes/mesa-com-cafe"
         kicker="Perguntas frequentes"
         title={pagina.seo.h1}
-        lead={pagina.seo.resposta.trim()}
+        lead={resposta}
         veilOpacity={0.66}
       />
 

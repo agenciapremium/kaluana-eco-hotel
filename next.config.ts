@@ -14,8 +14,23 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
     qualities: [60, 75, 85],
   },
+  experimental: {
+    // Currículo de até 4 MB (lib/curriculo.ts). O padrão das server actions é 1 MB, que
+    // derrubava com erro 500 qualquer PDF acima disso. A Vercel limita o corpo a 4,5 MB.
+    serverActions: { bodySizeLimit: "4.5mb" },
+  },
   async headers() {
-    return [{ source: "/(.*)", headers: securityHeaders }];
+    return [
+      { source: "/(.*)", headers: securityHeaders },
+      {
+        // O endereço *.vercel.app do deploy de produção é público e duplicaria o domínio no
+        // índice. A Vercel já marca noindex nos deploys de pré-visualização; esta regra cobre o
+        // de produção (docs/decisoes.md, etapa 6).
+        source: "/(.*)",
+        has: [{ type: "host", value: "(?<projeto>.+)\\.vercel\\.app" }],
+        headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+      },
+    ];
   },
 };
 

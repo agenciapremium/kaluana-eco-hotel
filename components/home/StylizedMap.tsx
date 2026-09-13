@@ -78,7 +78,8 @@ export function StylizedMap({ className }: { className?: string }) {
           BR-364
         </text>
       </svg>
-      <figcaption className="text-cafe/70 mt-3 text-sm">Mapa esquemático, sem escala.</figcaption>
+      {/* 80% da cor do texto em volta: café sobre bege, bege sobre a cena escura da Home. */}
+      <figcaption className="mt-3 text-sm opacity-80">Mapa esquemático, sem escala.</figcaption>
     </Reveal>
   );
 }

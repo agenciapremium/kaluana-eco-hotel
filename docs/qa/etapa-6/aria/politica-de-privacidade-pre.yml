@@ -1,0 +1,65 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Política de privacidade
+  - heading "Política de privacidade" [level=1]
+  - paragraph:
+    - text: Atualizado em
+    - time: 12 de setembro de 2026
+  - heading "Quem trata os seus dados" [level=2]
+  - paragraph: O controlador dos dados é KALUANA ECO HOTEL LTDA, inscrita no CNPJ 47.562.282/0001-84, com endereço na Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2, Ji-Paraná, RO.
+  - paragraph: Esta política explica quais dados o site coleta, para que servem, com quem são compartilhados e quais são os seus direitos, conforme a Lei Geral de Proteção de Dados, a Lei 13.709 de 2018.
+  - heading "Quais dados coletamos" [level=2]
+  - paragraph: O site coleta apenas o que você escreve nos formulários e o que a medição registra.
+  - list:
+    - listitem: "Formulário de pré-reserva e de aviso de abertura: nome, e-mail, telefone, datas previstas e empresa, quando informada."
+    - listitem: "Formulário de contato: nome, e-mail, telefone, assunto e mensagem."
+    - listitem: "Envio de currículo: nome, e-mail, telefone, área de interesse, experiência e o arquivo que você anexar."
+    - listitem: "Medição de audiência: páginas visitadas, origem da visita, tipo de dispositivo e identificadores de cookies, apenas com o seu consentimento."
+  - heading "Para que usamos" [level=2]
+  - paragraph: Os dados dos formulários servem para responder você, preparar a reserva ou a proposta e, no caso do currículo, avaliar a candidatura. A base legal é a execução de procedimentos preliminares ao contrato e o legítimo interesse no atendimento.
+  - paragraph: Os dados de medição servem para entender como as pessoas chegam ao site e o que procuram nele. A base legal é o seu consentimento, dado no banner que aparece na primeira visita.
+  - heading "Cookies e medição" [level=2]
+  - paragraph: Nenhum cookie de medição ou de publicidade é gravado antes do seu consentimento. Enquanto você não escolher, o site funciona normalmente e nada é enviado às ferramentas.
+  - paragraph: Com o consentimento, o site usa o Google Analytics 4 e o Google Tag Manager para medir audiência, e o Pixel e a API de Conversões da Meta para medir o resultado dos anúncios. Você pode mudar a escolha a qualquer momento, limpando os dados do site no navegador.
+  - heading "Com quem compartilhamos" [level=2]
+  - paragraph: "Compartilhamos dados apenas com quem precisa deles para prestar o serviço: o provedor de hospedagem do site, o serviço de envio de e-mail que entrega as mensagens dos formulários à equipe, as ferramentas de medição citadas acima e, quando existir, o motor de reservas contratado, que trata os dados da sua reserva sob a política dele."
+  - paragraph: Não vendemos dados pessoais e não os cedemos para uso de terceiros fora dessas finalidades.
+  - heading "Por quanto tempo guardamos" [level=2]
+  - paragraph: "As mensagens dos formulários ficam no e-mail da equipe pelo tempo necessário ao atendimento e ao cumprimento de obrigações legais. Currículos ficam guardados enquanto a operação estiver sendo montada e podem ser apagados a pedido. O arquivo do currículo não é armazenado no site: ele segue anexado no e-mail para a equipe."
+  - heading "Seus direitos" [level=2]
+  - paragraph: Você pode pedir confirmação de tratamento, acesso, correção, anonimização, portabilidade ou eliminação dos seus dados, além de revogar o consentimento da medição. O pedido é feito pelo formulário de contato do site e respondido nos prazos da lei.
+  - heading "Segurança e mudanças" [level=2]
+  - paragraph: O site usa conexão cifrada e limita o acesso aos dados a quem precisa deles para atender você.
+  - paragraph: Quando esta política mudar, a data de atualização no topo muda junto.
+  - link "Termos de uso":
+    - /url: /termos-de-uso
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

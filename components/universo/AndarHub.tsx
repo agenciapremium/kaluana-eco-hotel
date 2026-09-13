@@ -183,7 +183,7 @@ export function AndarHub({ pagina, grupo, dados }: Props) {
               Voltar ao Universo
             </Link>
             <p className="andar-rodape-texto">
-              <CopyText text={dados.intro_grupo.split(/\n\s*\n/)[0]} />
+              <CopyText text={semContagem(dados.intro_grupo.split(/\n\s*\n/)[0])} />
             </p>
           </Reveal>
         </div>

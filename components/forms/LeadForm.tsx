@@ -1,8 +1,11 @@
 "use client";
 
 import { SiteLink as Link } from "@/components/ui/SiteLink";
-import { useActionState } from "react";
+import { useActionState, useRef } from "react";
 import { enviarLead, type LeadState } from "@/app/actions/lead";
+import { CampoErro } from "@/components/formularios/CampoErro";
+import { Honeypot } from "@/components/formularios/Honeypot";
+import { useFocoNoErro } from "@/components/formularios/useFocoNoErro";
 import { Arrow } from "@/components/ui/Arrow";
 
 const perfis = [
@@ -18,16 +21,15 @@ const perfis = [
  */
 export function LeadForm({ origem }: { origem: "pre" | "empresas" }) {
   const [state, action, pending] = useActionState<LeadState, FormData>(enviarLead, null);
+  const form = useRef<HTMLFormElement>(null);
+  useFocoNoErro(state, form);
   const erro = (campo: string) => state?.campos?.[campo];
+  const descrito = (campo: string) => (erro(campo) ? `lead-${campo}-erro` : undefined);
 
   return (
-    <form action={action} className="lead-form" noValidate={false} aria-describedby="lead-ajuda">
+    <form ref={form} action={action} className="lead-form" aria-describedby="lead-ajuda">
       <input type="hidden" name="origem" value={origem} />
-      {/* Honeypot: campo invisível que humanos não preenchem. */}
-      <div className="hp" aria-hidden="true">
-        <label htmlFor="lead-website">Site</label>
-        <input id="lead-website" name="website" type="text" tabIndex={-1} autoComplete="off" />
-      </div>
+      <Honeypot id="lead" />
 
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="field-group">
@@ -40,8 +42,9 @@ export function LeadForm({ origem }: { origem: "pre" | "empresas" }) {
             required
             autoComplete="name"
             aria-invalid={Boolean(erro("nome"))}
+            aria-describedby={descrito("nome")}
           />
-          {erro("nome") ? <p className="field-error">{erro("nome")}</p> : null}
+          <CampoErro id="lead-nome-erro" mensagem={erro("nome")} />
         </div>
         <div className="field-group">
           <label htmlFor="lead-email">E-mail</label>
@@ -53,8 +56,9 @@ export function LeadForm({ origem }: { origem: "pre" | "empresas" }) {
             required
             autoComplete="email"
             aria-invalid={Boolean(erro("email"))}
+            aria-describedby={descrito("email")}
           />
-          {erro("email") ? <p className="field-error">{erro("email")}</p> : null}
+          <CampoErro id="lead-email-erro" mensagem={erro("email")} />
         </div>
         <div className="field-group">
           <label htmlFor="lead-telefone">Telefone</label>
@@ -66,8 +70,9 @@ export function LeadForm({ origem }: { origem: "pre" | "empresas" }) {
             required
             autoComplete="tel"
             aria-invalid={Boolean(erro("telefone"))}
+            aria-describedby={descrito("telefone")}
           />
-          {erro("telefone") ? <p className="field-error">{erro("telefone")}</p> : null}
+          <CampoErro id="lead-telefone-erro" mensagem={erro("telefone")} />
         </div>
         <div className="field-group">
           <label htmlFor="lead-sou">Sou</label>
@@ -81,7 +86,7 @@ export function LeadForm({ origem }: { origem: "pre" | "empresas" }) {
         </div>
         <div className="field-group sm:col-span-2">
           <label htmlFor="lead-empresa">
-            Empresa <span className="text-cafe/60">(se for o caso)</span>
+            Empresa <span className="text-cafe/80">(se for o caso)</span>
           </label>
           <input
             id="lead-empresa"
@@ -94,13 +99,14 @@ export function LeadForm({ origem }: { origem: "pre" | "empresas" }) {
       </div>
 
       {state?.erro ? (
-        <p role="alert" className="field-error mt-4">
+        <p role="alert" className="field-error mt-4" tabIndex={-1} data-erro-geral>
           {state.erro}
         </p>
       ) : null}
 
       <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <p id="lead-ajuda" className="text-cafe/70 text-sm">
+        {/* TODO(copy): "Seus dados ficam com o hotel." não consta no documento mestre. */}
+        <p id="lead-ajuda" className="text-cafe/80 text-sm">
           Seus dados ficam com o hotel.{" "}
           <Link href="/politica-de-privacidade" className="underline underline-offset-4">
             Política de privacidade

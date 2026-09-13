@@ -1,0 +1,163 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - navigation "Principal":
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+  - link "Contato":
+    - /url: /contato
+  - link "Reservar":
+    - /url: /reservas
+  - button "Abrir menu"
+- main:
+  - article:
+    - text: Os Guardiões · Quarto 401
+    - heading "Onça-pintada" [level=1]
+    - paragraph: O maior felino das Américas
+    - paragraph: Panthera onca
+    - button "Ouvir o ambiente"
+    - navigation "Você está em":
+      - list:
+        - listitem:
+          - link "Início":
+            - /url: /
+        - listitem:
+          - link "Universo Kaluanã":
+            - /url: /universo
+        - listitem:
+          - link "Os Guardiões":
+            - /url: /universo/guardioes
+        - listitem: Onça-pintada
+    - paragraph: A onça-pintada é o maior felino das Américas e o terceiro do mundo. Tem a mordida mais forte entre os grandes felinos em relação ao tamanho, capaz de atravessar o casco de uma tartaruga. Nada, escala, caça jacaré. Para os povos da Amazônia, é o guerreiro da floresta.
+    - heading "Por que está no Kaluanã" [level=2]
+    - paragraph: Kaluanã significa grande guerreiro. A suíte principal do hotel só podia ter um nome. A onça-pintada é a força que não precisa se exibir. Quem se hospeda aqui dorme no quarto mais alto e mais silencioso da casa, com o nome do animal que manda na floresta.
+    - img "Onça-pintada, onça sentada na mata"
+    - heading "História" [level=2]
+    - paragraph: A onça-pintada vive do México à Argentina, e a Amazônia é sua maior área contínua. Os machos chegam a 130 quilos no Pantanal e são um pouco menores na floresta. A pelagem amarela tem rosetas pretas com pontos no centro, o que a distingue do leopardo. A onça-preta é o mesmo animal, com excesso de pigmento.
+    - paragraph: Caça sozinha, de emboscada, e mata com uma mordida no crânio, ao contrário dos outros grandes felinos, que atacam o pescoço. Come capivaras, jacarés, veados, tatus, peixes e o que mais encontrar. Nada com facilidade e cruza rios largos.
+    - paragraph: Cada onça ocupa um território de dezenas de quilômetros quadrados e precisa de floresta contínua. Em Rondônia, vive nas áreas protegidas do Guaporé, dos Pacaás Novos e do vale do Madeira. O nome jaguar vem do tupi e é usado em todo o mundo.
+    - heading "Curiosidades" [level=2]
+    - list:
+      - listitem: A onça-pintada é o único grande felino das Américas que ruge. O som é um ronco grave chamado de esturro.
+      - listitem: Ela caça jacarés na água e os arrasta para a margem.
+      - listitem: Em cerâmicas, máscaras e mitos de dezenas de povos indígenas, a onça é o símbolo de poder e transformação.
+      - listitem: A rosetas de cada onça são únicas, como impressões digitais, e permitem identificar indivíduos em fotos de armadilhas fotográficas.
+    - heading "Ficha rápida" [level=2]
+    - term: Nome científico
+    - definition: Panthera onca
+    - term: Família
+    - definition: Felidae
+    - term: Peso
+    - definition: De 55 a 130 kg
+    - term: Alimentação
+    - definition: Capivaras, jacarés, veados, tatus, peixes
+    - term: Onde vive
+    - definition: Do México à Argentina; em Rondônia, nas áreas de floresta preservada
+    - term: Situação
+    - definition: Quase ameaçada; em declínio fora das áreas protegidas
+    - heading "Perguntas e respostas" [level=2]
+    - group: Qual a diferença entre onça-pintada e leopardo?
+    - group: Onça-preta e onça-pintada são a mesma espécie?
+    - group: A onça-pintada ataca pessoas?
+    - navigation "Navegação do andar":
+      - link "Próximo Jaguatirica":
+        - /url: /universo/guardioes/jaguatirica
+      - link "Voltar ao os guardiões":
+        - /url: /universo/guardioes
+      - link "Suíte Presidencial Onça-Pintada":
+        - /url: /acomodacoes/suite-presidencial-onca-pintada
+      - link "Reservar":
+        - /url: /reservas
+    - paragraph:
+      - text: Publicado por Kaluanã Eco Hotel, Ji-Paraná. Atualizado em
+      - time: 12 de setembro de 2026
+      - text: .
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - navigation "O site":
+    - heading "O site" [level=2]
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+      - listitem:
+        - link "Reservas":
+          - /url: /reservas
+      - listitem:
+        - link "Contato":
+          - /url: /contato
+      - listitem:
+        - link "Perguntas frequentes":
+          - /url: /perguntas-frequentes
+      - listitem:
+        - link "Trabalhe conosco":
+          - /url: /trabalhe-conosco
+  - navigation "Universo Kaluanã":
+    - heading "Universo Kaluanã" [level=2]
+    - list:
+      - listitem:
+        - link "Andar dos Rios":
+          - /url: /universo/rios
+      - listitem:
+        - link "Andar dos Peixes":
+          - /url: /universo/peixes
+      - listitem:
+        - link "Andar das Árvores":
+          - /url: /universo/arvores
+      - listitem:
+        - link "Andar das Aves":
+          - /url: /universo/aves
+      - listitem:
+        - link "Os Guardiões":
+          - /url: /universo/guardioes
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

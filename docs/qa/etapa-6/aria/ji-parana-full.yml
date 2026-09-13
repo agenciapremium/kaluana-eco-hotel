@@ -1,0 +1,144 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - navigation "Principal":
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+  - link "Contato":
+    - /url: /contato
+  - link "Reservar":
+    - /url: /reservas
+  - button "Abrir menu"
+- main:
+  - text: Onde estamos
+  - heading "Ji-Paraná" [level=1]
+  - paragraph: O coração de Rondônia.
+  - paragraph: Ji-Paraná fica no centro do estado, cortada ao meio pelo rio Machado. É a segunda maior cidade de Rondônia e o ponto de encontro de quem faz negócio na região. O Kaluanã fica na Rodovia Pastor Severo Antonio de Araujo, 2015.
+  - link "Como chegar ao hotel":
+    - /url: /contato
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Ji-Paraná
+  - figure:
+    - img "Mapa esquemático de Ji-Paraná O rio Machado corta a cidade de sul a norte e separa os dois distritos. A BR-364 atravessa a cidade. O Kaluanã fica no acesso à cidade e o aeroporto José Coleto a noroeste. Desenho sem escala.": 1º distrito 2º distrito BR-364 rio Machado Kaluanã Aeroporto José Coleto Centro Orla do rio
+  - text: Onde estamos
+  - heading "O coração de Rondônia." [level=2]
+  - paragraph: Ji-Paraná fica no centro do estado, cortada ao meio pelo rio Machado. É a segunda maior cidade de Rondônia e o ponto de encontro de quem faz negócio na região. O Kaluanã fica na Rodovia Pastor Severo Antonio de Araujo, 2015.
+  - text: Chegando
+  - heading "De avião, de carro ou de ônibus." [level=2]
+  - paragraph: "De carro: a BR-364 cruza a cidade; Porto Velho fica a cerca de 370 km, Cacoal a cerca de 95 km, Ariquemes a cerca de 195 km e Vilhena a cerca de 330 km."
+  - text: Rio Machado
+  - heading "O rio que dá nome à cidade." [level=2]
+  - paragraph: Ji-Paraná, em tupi, quer dizer rio do machado. O Machado divide a cidade em dois distritos e é o mesmo rio que dá nome ao quarto 112 do hotel. Na seca, expõe praias. O ano inteiro, é o lugar onde a cidade se encontra.
+  - link "A história do rio Machado":
+    - /url: /universo/rios/rio-machado
+  - img "Rio Machado, proa de barco no rio"
+  - text: Na cidade
+  - heading "Para quem tem uma tarde livre." [level=2]
+  - paragraph: A orla do rio Machado. O comércio do centro. Feira de produtos da região. E, no fim de semana, as praias do rio na seca.
+  - text: Para quem vem a trabalho
+  - heading "Uma cidade que trabalha." [level=2]
+  - paragraph: Agro, comércio, saúde e ensino. Ji-Paraná concentra empresas, hospitais, universidades e distribuidoras que atendem a região central de Rondônia. Quem vem a trabalho encontra o que precisa a poucos minutos do hotel.
+  - link "Ver as acomodações":
+    - /url: /acomodacoes
+  - text: Perguntas frequentes
+  - heading "O que perguntam sobre Ji-Paraná." [level=2]
+  - group: Onde fica Ji-Paraná?
+  - group: Ji-Paraná tem aeroporto?
+  - group: Por que Ji-Paraná se chama assim?
+  - group: Qual a melhor época para visitar Ji-Paraná?
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - navigation "O site":
+    - heading "O site" [level=2]
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+      - listitem:
+        - link "Reservas":
+          - /url: /reservas
+      - listitem:
+        - link "Contato":
+          - /url: /contato
+      - listitem:
+        - link "Perguntas frequentes":
+          - /url: /perguntas-frequentes
+      - listitem:
+        - link "Trabalhe conosco":
+          - /url: /trabalhe-conosco
+  - navigation "Universo Kaluanã":
+    - heading "Universo Kaluanã" [level=2]
+    - list:
+      - listitem:
+        - link "Andar dos Rios":
+          - /url: /universo/rios
+      - listitem:
+        - link "Andar dos Peixes":
+          - /url: /universo/peixes
+      - listitem:
+        - link "Andar das Árvores":
+          - /url: /universo/arvores
+      - listitem:
+        - link "Andar das Aves":
+          - /url: /universo/aves
+      - listitem:
+        - link "Os Guardiões":
+          - /url: /universo/guardioes
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

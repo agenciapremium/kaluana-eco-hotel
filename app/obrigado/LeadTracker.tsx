@@ -13,7 +13,9 @@ export function LeadTracker() {
   const params = useSearchParams();
   const perfil = params.get("perfil") ?? "";
   useEffect(() => {
-    const key = "kaluana:lead-registrado";
+    // Uma trava por formulário: recarregar /obrigado não conta de novo, mas um segundo
+    // formulário na mesma sessão (Contato e depois Pré-reserva, por exemplo) conta.
+    const key = `kaluana:lead-registrado:${perfil}`;
     try {
       if (window.sessionStorage.getItem(key)) return;
       window.sessionStorage.setItem(key, "1");

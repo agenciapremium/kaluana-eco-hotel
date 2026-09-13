@@ -72,10 +72,32 @@ function walkJson(value: unknown, file: string, path: string) {
 
 for (const d of dirs) walk(join(root, d));
 
+/** Arquivos do build: páginas em HTML e respostas de rota (llms.txt, robots, sitemap). */
+function arquivosDoBuild(dir: string): string[] {
+  const out: string[] = [];
+  const pilha = [dir];
+  while (pilha.length) {
+    const atual = pilha.pop() as string;
+    for (const nome of readdirSync(atual)) {
+      const p = join(atual, nome);
+      if (statSync(p).isDirectory()) pilha.push(p);
+      else if (nome.endsWith(".html") || nome.endsWith(".body")) out.push(p);
+    }
+  }
+  return out;
+}
+
 /**
- * Se houver build, confere o HTML gerado: nenhum campo ⟨entre colchetes⟩ pode chegar à
- * produção (veto 5). É a checagem que pega o que escapa dos componentes, inclusive dentro
- * de dados estruturados.
+ * Se houver build, confere o que vai ao ar:
+ *
+ * 1. nenhum campo ⟨entre colchetes⟩ (veto 5), inclusive dentro de dados estruturados e de
+ *    props de componente cliente;
+ * 2. na fase `pre` (detectada pelo sitemap do build), nenhum número de quarto nem contagem de
+ *    elementos (Parte 3.5);
+ * 3. sem a autorização de Eventos (detectada pelo robots.txt do build), nenhuma menção a
+ *    auditório ou centro de convenções e nenhum link para /eventos fora da própria página
+ *    (veto 3);
+ * 4. no build de produção (VERCEL_ENV=production), nenhum aviso interno de revisão.
  */
 function conferirBuild() {
   const dir = join(root, ".next/server/app");
@@ -83,29 +105,68 @@ function conferirBuild() {
     process.stdout.write("check-copy: sem build para conferir (rode npm run build antes)\n");
     return;
   }
-  const pilha = [dir];
-  let arquivos = 0;
-  while (pilha.length) {
-    const atual = pilha.pop() as string;
-    for (const nome of readdirSync(atual)) {
-      const p = join(atual, nome);
-      if (statSync(p).isDirectory()) {
-        pilha.push(p);
-        continue;
-      }
-      if (!nome.endsWith(".html")) continue;
-      arquivos++;
-      const html = readFileSync(p, "utf8");
-      const achados = html.match(/⟨[^⟩]{0,60}⟩/g);
+  const ler = (nome: string) =>
+    existsSync(join(dir, nome)) ? readFileSync(join(dir, nome), "utf8") : "";
+  const fasePre = !ler("sitemap.xml.body").includes("/acomodacoes<");
+  const eventosAutorizado = !/Disallow: \/eventos/.test(ler("robots.txt.body"));
+  const producao = process.env.VERCEL_ENV === "production";
+
+  const regras: { nome: string; re: RegExp; vale: (rota: string) => boolean }[] = [
+    { nome: "campo pendente visível", re: /⟨[^⟩]{0,60}⟩/g, vale: () => true },
+    ...(fasePre
+      ? [
+          { nome: "número de quarto na fase pre", re: /\bquartos? \d{3}\b/gi, vale: () => true },
+          {
+            nome: "contagem de elementos na fase pre",
+            re: /\b(catorze|dezoito|dezessete) (rios|peixes|árvores|aves)\b|\bsetenta (quartos|apartamentos|nomes|histórias)\b/gi,
+            vale: () => true,
+          },
+        ]
+      : []),
+    ...(eventosAutorizado
+      ? []
+      : [
+          {
+            nome: "auditório ou centro de convenções sem autorização",
+            re: /audit[óo]rio|centro de conven[çc][õo]es/gi,
+            vale: (rota: string) => !rota.startsWith("eventos"),
+          },
+          {
+            nome: "link para /eventos sem autorização",
+            re: /href="\/eventos"/g,
+            vale: (rota: string) => !rota.startsWith("eventos"),
+          },
+        ]),
+    ...(producao
+      ? [
+          {
+            nome: "aviso interno no build de produção",
+            re: /class="aviso-interno/g,
+            vale: () => true,
+          },
+        ]
+      : []),
+  ];
+
+  const arquivos = arquivosDoBuild(dir);
+  for (const p of arquivos) {
+    const rota = relative(dir, p);
+    if (rota.startsWith("dev/")) continue;
+    const texto = readFileSync(p, "utf8");
+    for (const r of regras) {
+      if (!r.vale(rota)) continue;
+      const achados = texto.match(r.re);
       if (achados) {
         problemas++;
         process.stdout.write(
-          `${relative(root, p)}: campo pendente visível: ${[...new Set(achados)].join(", ")}\n`,
+          `${rota}: ${r.nome}: ${[...new Set(achados)].slice(0, 5).join(", ")}\n`,
         );
       }
     }
   }
-  process.stdout.write(`check-copy: ${arquivos} página(s) do build conferidas\n`);
+  process.stdout.write(
+    `check-copy: ${arquivos.length} arquivo(s) do build conferidos (fase ${fasePre ? "pre" : "full"}, eventos ${eventosAutorizado ? "autorizado" : "sem autorização"}${producao ? ", produção" : ""})\n`,
+  );
 }
 
 conferirBuild();

@@ -5,7 +5,8 @@
   "scripts": {
     "predev": "npm run build:tokens && npm run build:content && npm run build:posts",
     "dev": "next dev",
-    "prebuild": "npm run build:tokens && npm run build:content && npm run build:posts",
+    "prebuild": "npm run check:env && npm run build:tokens && npm run build:content && npm run build:posts",
+    "check:env": "tsx scripts/check-env.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -20,7 +21,13 @@
     "lighthouse": "tsx scripts/lighthouse.ts",
     "build:cantos": "tsx scripts/build-cantos.ts",
     "build:posts": "tsx scripts/build-posts.ts",
-    "check:schema": "tsx scripts/check-schema.ts"
+    "check:schema": "tsx scripts/check-schema.ts",
+    "lighthouse:lote": "tsx scripts/lighthouse-lote.ts",
+    "lighthouse:resumo": "tsx scripts/lighthouse-resumo.ts",
+    "qa:qr": "tsx scripts/qa-qr.ts",
+    "qa:formularios": "tsx scripts/qa-formularios.ts",
+    "qa:a11y": "tsx scripts/qa-a11y.ts",
+    "qa:contraste": "tsx scripts/qa-contraste-cenas.ts"
   },
   "dependencies": {
     "motion": "^13.2.0",
@@ -48,6 +55,6 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=24"
+    "node": "24.x"
   }
 }

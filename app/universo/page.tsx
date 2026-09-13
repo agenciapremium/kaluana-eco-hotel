@@ -56,7 +56,7 @@ export default function Page() {
 
   const itensBusca = universoIndex.map((i) => ({
     nome: i.nome,
-    uh: i.uh,
+    uh: mostraNumeroDeQuarto ? i.uh : "",
     url: i.url,
     andar: floors[i.grupo].nome,
   }));

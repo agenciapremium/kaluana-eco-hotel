@@ -1,0 +1,82 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: Universo Kaluanã
+  - heading "Universo Kaluanã" [level=1]
+  - paragraph: Cada porta tem um nome. Cada nome tem uma história.
+  - paragraph: No Kaluanã, os quartos não têm só número. No primeiro andar, rios. No segundo, peixes. No terceiro, árvores. No quarto, aves. Todos da Amazônia, muitos de Rondônia. Escolha um andar e conheça o que dá nome ao seu quarto.
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Universo Kaluanã
+  - text: No quarto
+  - heading "Aponte a câmera. Leia a história." [level=2]
+  - paragraph: "Em cada quarto há um QR Code. Ele abre a página do nome do quarto: de onde vem, o que faz, por que está aqui. Leva dois minutos e vale a pena antes de dormir."
+  - region "Andar dos Rios":
+    - text: 1º andar
+    - heading "Rios." [level=2]
+    - paragraph: Do Amazonas ao Machado, que corta Ji-Paraná. Rios que explicam como a água organiza a Amazônia.
+    - link "Ver o andar dos rios":
+      - /url: /universo/rios
+  - region "Andar dos Peixes":
+    - text: 2º andar
+    - heading "Peixes." [level=2]
+    - paragraph: Do pirarucu, que respira ar, ao poraquê, que dá choque. Peixes que vivem nos rios do andar de baixo.
+    - link "Ver o andar dos peixes":
+      - /url: /universo/peixes
+  - region "Andar das Árvores":
+    - text: 3º andar
+    - heading "Árvores." [level=2]
+    - paragraph: Da samaúma, a mais alta, à seringueira, que trouxe gente para Rondônia. Árvores que dão madeira, óleo, fruta e sombra.
+    - link "Ver o andar das árvores":
+      - /url: /universo/arvores
+  - region "Andar das Aves":
+    - text: 4º andar
+    - heading "Aves." [level=2]
+    - paragraph: Da arara ao cardeal-da-amazônia. Aves que voam sobre tudo isso.
+    - link "Ver o andar das aves":
+      - /url: /universo/aves
+  - region "Os Guardiões":
+    - text: Suítes
+    - heading "Onça-pintada, jaguatirica e jacaré-açu." [level=2]
+    - paragraph: As três maiores acomodações levam o nome dos três grandes predadores da floresta. Kaluanã quer dizer grande guerreiro. Estes são os guardiões da casa.
+    - link "Ver os guardiões":
+      - /url: /universo/guardioes
+  - text: Procure um nome
+  - heading "Em que quarto você está?" [level=2]
+  - paragraph: Digite o nome ou o número do quarto.
+  - search:
+    - text: Digite o nome do quarto
+    - searchbox "Digite o nome do quarto"
+    - paragraph: Digite ao menos duas letras
+  - link "Ver as acomodações":
+    - /url: /acomodacoes
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

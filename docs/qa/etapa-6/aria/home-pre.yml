@@ -1,0 +1,111 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: Ji-Paraná, Rondônia
+  - heading "Um hotel novo em Ji-Paraná. Abre em dezembro de 2026." [level=1]
+  - paragraph: O Kaluanã Eco Hotel é um hotel em construção em Ji-Paraná, Rondônia, com inauguração prevista para dezembro de 2026. Terá restaurante aberto ao público, espaços para eventos e quartos nomeados com rios, peixes, árvores e aves da Amazônia.
+  - paragraph: O Kaluanã é um eco hotel para quem chega cansado, precisa produzir ou precisa parar. Está sendo construído à vista de todo mundo.
+  - link "Quero ser avisado":
+    - /url: "#avisamos"
+  - link "Acompanhar a obra":
+    - /url: /historias
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - img "Símbolo do Kaluanã"
+  - heading "Kaluanã quer dizer grande guerreiro." [level=2]
+  - paragraph: Nome de origem indígena. Foi a primeira decisão do hotel e explica todas as outras.
+  - text: Universo Kaluanã
+  - heading "Rios, peixes, árvores e aves." [level=2]
+  - paragraph: Cada quarto vai ter um nome da Amazônia e uma história para ler no QR Code. Enquanto o hotel não abre, as histórias já estão aqui.
+  - region "Andar dos Rios, 1º andar":
+    - text: 1º andar
+    - heading "Rios" [level=3]
+    - link "Ver o andar dos rios":
+      - /url: /universo/rios
+    - img "Rio Machado, proa de barco na água em Ji-Paraná"
+    - text: Quarto com nome
+    - paragraph: Rio Machado
+  - region "Andar dos Peixes, 2º andar":
+    - text: 2º andar
+    - heading "Peixes" [level=3]
+    - link "Ver o andar dos peixes":
+      - /url: /universo/peixes
+    - img "Jaú, bagre de couro visto de lado"
+    - text: Quarto com nome
+    - paragraph: Jaú
+  - region "Andar das Árvores, 3º andar":
+    - text: 3º andar
+    - heading "Árvores" [level=3]
+    - link "Ver o andar das árvores":
+      - /url: /universo/arvores
+    - img "Samaúma, tronco e sapopemas vistos de baixo"
+    - text: Quarto com nome
+    - paragraph: Samaúma
+  - region "Andar das Aves, 4º andar":
+    - text: 4º andar
+    - heading "Aves" [level=3]
+    - link "Ver o andar das aves":
+      - /url: /universo/aves
+    - img "Coruja-buraqueira de frente, pousada em tronco"
+    - text: Quarto com nome
+    - paragraph: Coruja
+  - link "Explorar o Universo Kaluanã":
+    - /url: /universo
+  - text: Empresas
+  - heading "Sua empresa hospeda gente em Ji-Paraná?" [level=2]
+  - paragraph: Deixe o contato e a equipe apresenta as condições corporativas antes da abertura.
+  - link "Falar sobre hospedagem corporativa":
+    - /url: "#avisamos"
+  - heading "Avisamos você primeiro." [level=2]
+  - text: Nome
+  - textbox "Nome"
+  - text: E-mail
+  - textbox "E-mail"
+  - text: Telefone
+  - textbox "Telefone"
+  - text: Sou
+  - combobox "Sou":
+    - option "Hóspede" [selected]
+    - option "Empresa"
+    - option "Imprensa"
+    - option "Fornecedor"
+  - text: Empresa (se for o caso)
+  - textbox "Empresa (se for o caso)"
+  - paragraph:
+    - text: Seus dados ficam com o hotel.
+    - link "Política de privacidade":
+      - /url: /politica-de-privacidade
+  - button "Quero ser avisado"
+  - text: Perguntas frequentes
+  - heading "O que perguntam sobre o Kaluanã." [level=2]
+  - term: Onde fica o Kaluanã Eco Hotel?
+  - definition: Na Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2, em Ji-Paraná, Rondônia.
+  - term: Quando o Kaluanã Eco Hotel abre?
+  - definition: A inauguração está prevista para dezembro de 2026.
+  - term: O que significa Kaluanã?
+  - definition: Kaluanã é um nome de origem indígena que significa grande guerreiro.
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

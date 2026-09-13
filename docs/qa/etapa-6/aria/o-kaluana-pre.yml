@@ -1,0 +1,95 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: O Kaluanã
+  - heading "O Kaluanã" [level=1]
+  - paragraph: Um hotel com nome de guerreiro e quartos com nome de floresta.
+  - paragraph: O Kaluanã nasce em Ji-Paraná, na Rodovia Pastor Severo Antonio de Araujo, para receber quem chega à cidade a trabalho, de passagem ou para ficar um pouco. Abre em dezembro de 2026.
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: O Kaluanã
+  - img "Símbolo do Kaluanã"
+  - text: Grande guerreiro
+  - heading "Por que Kaluanã." [level=2]
+  - paragraph: "Kaluanã é uma palavra de origem indígena. Significa grande guerreiro. O nome foi escolhido antes de qualquer desenho, porque diz o que o hotel quer ser: firme com a terra, firme com a cidade e firme com quem se hospeda."
+  - paragraph: Um guerreiro não faz barulho. Faz o que precisa ser feito. É assim que o Kaluanã quer ser lembrado.
+  - text: Ji-Paraná
+  - heading "Uma cidade que recebe." [level=2]
+  - paragraph: "Ji-Paraná é a segunda maior cidade de Rondônia e o centro de uma região que vive do agro, do comércio, da saúde e do ensino. Quem vem a trabalho chega de estrada pela BR-364 ou de avião pelo aeroporto José Coleto. O rio Machado corta a cidade ao meio e dá nome a ela: Ji-Paraná, em tupi, quer dizer rio do machado."
+  - paragraph: O hotel fica no acesso à cidade, com estacionamento e chegada fácil para quem vem de carro.
+  - link "Conhecer Ji-Paraná":
+    - /url: /ji-parana
+  - img "Camadas de terra vermelha expostas numa vala rasa, com raízes e pedras"
+  - text: Universo Kaluanã
+  - heading "Rios, peixes, árvores e aves." [level=2]
+  - paragraph: "Os quartos do Kaluanã não têm só número. Têm nome. O primeiro andar leva o nome de rios da Amazônia, do Amazonas ao Machado. O segundo, de peixes. O terceiro, de árvores. O quarto, de aves. As três maiores acomodações levam o nome dos três grandes predadores da floresta: onça-pintada, jaguatirica e jacaré-açu."
+  - paragraph: Em cada quarto, um QR Code leva à história do nome. É uma forma de hospedar Rondônia junto com o hóspede.
+  - link "Explorar o Universo Kaluanã":
+    - /url: /universo
+  - text: A obra
+  - heading "Construído à vista." [level=2]
+  - paragraph: "Desde o início da obra, o Kaluanã mostra o que está fazendo. Sem revelar o projeto, mostra o processo: a terra, a estrutura, as pessoas, a luz."
+  - img "Linha de pedreiro esticada entre estacas de madeira sobre terra vermelha, ao fim da tarde"
+  - list:
+    - listitem:
+      - time: 15 de julho de 2026
+      - heading "Por que Kaluanã" [level=3]:
+        - link "Por que Kaluanã":
+          - /url: /historias/por-que-kaluana
+      - paragraph: O nome do hotel foi escolhido antes de qualquer desenho. Kaluanã é palavra de origem indígena e quer dizer grande guerreiro.
+    - listitem:
+      - time: 12 de agosto de 2026
+      - heading "O rio que dá nome à cidade" [level=3]:
+        - link "O rio que dá nome à cidade":
+          - /url: /historias/o-rio-que-da-nome-a-cidade
+      - paragraph: Ji-Paraná, em tupi, quer dizer rio do machado. O Machado corta a cidade em dois e dá nome a ela e a um dos quartos do hotel.
+    - listitem:
+      - time: 05 de setembro de 2026
+      - heading "Construído à vista" [level=3]:
+        - link "Construído à vista":
+          - /url: /historias/construido-a-vista
+      - paragraph: "Desde o início da obra o Kaluanã mostra o que está fazendo. Sem revelar o projeto, mostra o processo: a terra, a estrutura, as pessoas e a luz."
+    - listitem:
+      - time: dezembro de 2026
+      - heading "Inauguração" [level=3]
+      - paragraph: O Kaluanã abre em dezembro de 2026.
+  - text: Equipe
+  - heading "Gente de Ji-Paraná." [level=2]
+  - paragraph: O Kaluanã é conduzido por uma equipe local, com gestão geral de Adriano Siqueira. Quem recebe você conhece a cidade e sabe indicar caminho, restaurante e horário.
+  - img "Prumo pendurado num fio contra o céu claro"
+  - heading "Venha ver de perto." [level=2]
+  - paragraph: Reservas abertas para dezembro de 2026. Para eventos e hospedagem corporativa, fale com a equipe.
+  - link "Reservar":
+    - /url: /reservas
+  - link "Falar com o hotel":
+    - /url: /contato
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

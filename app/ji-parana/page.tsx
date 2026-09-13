@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { foraDoIndiceNaPre } from "@/lib/seo";
 import { CopyParagraphs, CopyText } from "@/components/Copy";
 import { JsonLd } from "@/components/JsonLd";
 import { Section } from "@/components/home/Section";
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
   description: pagina.seo.description,
   keywords: pagina.seo.keywords,
   alternates: { canonical: pagina.url },
+  ...foraDoIndiceNaPre,
   openGraph: { title: pagina.seo.title, description: pagina.seo.description, url: pagina.url },
 };
 

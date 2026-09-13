@@ -1,0 +1,2295 @@
+{
+  "fase": "pre",
+  "base": "http://localhost:3100",
+  "data": "2026-09-13T15:01:29.534Z",
+  "axe": [
+    {
+      "rota": "/acomodacoes",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/duplo-king",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/duplo-king",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/suite-presidencial-onca-pintada",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/suite-presidencial-onca-pintada",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/suite-terraco-lateral-aberto",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/suite-terraco-lateral-aberto",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/suite-terraco-lateral-fechado",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/suite-terraco-lateral-fechado",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/superior-acessivel",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/superior-acessivel",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/superior-familia",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/superior-familia",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/superior-familia-com-terraco",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/acomodacoes/superior-familia-com-terraco",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/contato",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/contato",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/eventos",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/eventos",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/historias",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/historias",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/historias/construido-a-vista",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/historias/construido-a-vista",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/historias/o-rio-que-da-nome-a-cidade",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/historias/o-rio-que-da-nome-a-cidade",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/historias/por-que-kaluana",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/historias/por-que-kaluana",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/ji-parana",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/ji-parana",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/obrigado",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/o-kaluana",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/obrigado",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/o-kaluana",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/perguntas-frequentes",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/perguntas-frequentes",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/politica-de-privacidade",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/politica-de-privacidade",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/reservas",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/reservas",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/restaurante",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/restaurante",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/rota-que-nao-existe",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/rota-que-nao-existe",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/termos-de-uso",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/trabalhe-conosco",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/termos-de-uso",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/trabalhe-conosco",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/castanheira",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/castanheira",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/bodo",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/bodo",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/tambaqui",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/tambaqui",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/tucunare",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/tucunare",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-amazonas",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-amazonas",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-purus",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-purus",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "estado": "banner de consentimento",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "estado": "cabeçalho da fase pre",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-machado?uh=112",
+      "tela": "celular",
+      "estado": "barra de hóspede",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/pirarucu?uh=201",
+      "tela": "celular",
+      "estado": "barra de hóspede",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/arvores/samauma?uh=301",
+      "tela": "celular",
+      "estado": "barra de hóspede",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/arara?uh=404",
+      "tela": "celular",
+      "estado": "barra de hóspede",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada?uh=401",
+      "tela": "celular",
+      "estado": "barra de hóspede",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "estado": "elevador no andar das Aves",
+      "violacoes": []
+    },
+    {
+      "rota": "/perguntas-frequentes",
+      "tela": "desktop",
+      "estado": "acordeões abertos",
+      "violacoes": []
+    },
+    {
+      "rota": "/contato",
+      "tela": "desktop",
+      "estado": "erros de formulário",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios",
+      "tela": "desktop",
+      "estado": "movimento reduzido",
+      "violacoes": []
+    }
+  ],
+  "arvores": [
+    {
+      "rota": "/",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Um hotel novo em Ji-Paraná. Abre em dezembro de 2026.",
+        "h2 Kaluanã quer dizer grande guerreiro.",
+        "h2 Rios, peixes, árvores e aves.",
+        "h3 Rios",
+        "h3 Peixes",
+        "h3 Árvores",
+        "h3 Aves",
+        "h2 Sua empresa hospeda gente em Ji-Paraná?",
+        "h2 Avisamos você primeiro.",
+        "h2 O que perguntam sobre o Kaluanã.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "section \"Andar dos Rios, 1º andar\"",
+        "section \"Andar dos Peixes, 2º andar\"",
+        "section \"Andar das Árvores, 3º andar\"",
+        "section \"Andar das Aves, 4º andar\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/universo",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Universo Kaluanã",
+        "h2 Aponte a câmera. Leia a história.",
+        "h2 Rios.",
+        "h2 Peixes.",
+        "h2 Árvores.",
+        "h2 Aves.",
+        "h2 Onça-pintada, jaguatirica e jacaré-açu.",
+        "h2 Em que quarto você está?",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "nav \"Andares\"",
+        "section \"Andar dos Rios\"",
+        "section \"Andar dos Peixes\"",
+        "section \"Andar das Árvores\"",
+        "section \"Andar das Aves\"",
+        "section \"Os Guardiões\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/universo/rios",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Andar dos Rios",
+        "h2 Os rios.",
+        "h3 Rio Amazonas",
+        "h3 Rio Solimões",
+        "h3 Rio Negro",
+        "h3 Rio Madeira",
+        "h3 Rio Guaporé",
+        "h3 Rio Mamoré",
+        "h3 Rio Tapajós",
+        "h3 Rio Xingu",
+        "h3 Rio Purus",
+        "h3 Rio Juruá",
+        "h3 Rio Jamari",
+        "h3 Rio Machado",
+        "h3 Rio Araguaia",
+        "h3 Rio Roosevelt",
+        "h2 Madeira, Guaporé, Jamari e Machado.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/universo/arvores",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Andar das Árvores",
+        "h2 As árvores.",
+        "h3 Samaúma",
+        "h3 Castanheira",
+        "h3 Copaíba",
+        "h3 Andiroba",
+        "h3 Açaí",
+        "h3 Cumaru",
+        "h3 Cedro",
+        "h3 Mogno",
+        "h3 Ipê",
+        "h3 Jatobá",
+        "h3 Bacaba",
+        "h3 Tucumã",
+        "h3 Angelim",
+        "h3 Maçaranduba",
+        "h3 Jenipapo",
+        "h3 Itaúba",
+        "h3 Seringueira",
+        "h3 Jequitibá",
+        "h2 A madeira do Kaluanã tem nome e origem.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/universo/guardioes",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Os Guardiões",
+        "h2 Onça-pintada. Jaguatirica. Jacaré-açu.",
+        "h3 Onça-pintada",
+        "h3 Jaguatirica",
+        "h3 Jacaré-açu",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "section \"Onça-pintada\"",
+        "section \"Jaguatirica\"",
+        "section \"Jacaré-açu\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Rio Machado",
+        "h2 Por que está no Kaluanã",
+        "h2 História",
+        "h2 Curiosidades",
+        "h2 Ficha rápida",
+        "h2 Perguntas e respostas",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "header",
+        "nav \"Você está em\"",
+        "nav \"Navegação do andar\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Onça-pintada",
+        "h2 Por que está no Kaluanã",
+        "h2 História",
+        "h2 Curiosidades",
+        "h2 Ficha rápida",
+        "h2 Perguntas e respostas",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "header",
+        "nav \"Você está em\"",
+        "nav \"Navegação do andar\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/acomodacoes",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Acomodações",
+        "h2 Chegou cansado. Precisa produzir. Precisa parar.",
+        "h2 Sete categorias. Muitas histórias.",
+        "h3 Superior Família",
+        "h3 Duplo King",
+        "h3 Superior Acessível",
+        "h3 Superior Família com Terraço",
+        "h3 Suíte Terraço Lateral Aberto",
+        "h3 Suíte Terraço Lateral Fechado",
+        "h3 Suíte Presidencial Onça-Pintada",
+        "h2 Horários e regras.",
+        "h2 Escolheu? Reserve.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/acomodacoes/duplo-king",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Duplo King",
+        "h2 O que tem no quarto.",
+        "h2 Para quem precisa produzir.",
+        "h2 Rio Tapajós, Tambaqui, Castanheira, Arara.",
+        "h3 Andar dos Rios",
+        "h3 Andar dos Peixes",
+        "h3 Andar das Árvores",
+        "h3 Andar das Aves",
+        "h2 Reserve o Duplo King.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "div \"Detalhes: Duplo King\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/o-kaluana",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 O Kaluanã",
+        "h2 Por que Kaluanã.",
+        "h2 Uma cidade que recebe.",
+        "h2 Rios, peixes, árvores e aves.",
+        "h2 Construído à vista.",
+        "h3 Por que Kaluanã",
+        "h3 O rio que dá nome à cidade",
+        "h3 Construído à vista",
+        "h3 Inauguração",
+        "h2 Gente de Ji-Paraná.",
+        "h2 Venha ver de perto.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/restaurante",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Restaurante Kaluanã",
+        "h2 Peixe de Rondônia, feito do jeito daqui.",
+        "h2 Café, almoço e jantar.",
+        "h2 Mesa reservada para quem fecha negócio no almoço.",
+        "h2 Reserve sua mesa.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/eventos",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Eventos e convenções",
+        "h2 Auditório e centro de convenções.",
+        "h2 Do treinamento de dez pessoas ao congresso regional.",
+        "h2 Quem vem para o evento dorme aqui.",
+        "h2 Conte o que você precisa.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/ji-parana",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Ji-Paraná",
+        "h2 O coração de Rondônia.",
+        "h2 De avião, de carro ou de ônibus.",
+        "h2 O rio que dá nome à cidade.",
+        "h2 Para quem tem uma tarde livre.",
+        "h2 Uma cidade que trabalha.",
+        "h2 O que perguntam sobre Ji-Paraná.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/historias",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Histórias",
+        "h2 Obra. Nomes. Ji-Paraná. Hotel.",
+        "h3 Construído à vista",
+        "h3 O rio que dá nome à cidade",
+        "h3 Por que Kaluanã",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/historias/por-que-kaluana",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Por que Kaluanã",
+        "h2 O que um guerreiro faz",
+        "h2 O til não é enfeite",
+        "h2 O que vem a seguir",
+        "h2 Continue lendo",
+        "h3 Construído à vista",
+        "h3 O rio que dá nome à cidade",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "header",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/reservas",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Reservas",
+        "h2 Reservas abertas em breve.",
+        "h2 Conta corporativa.",
+        "h2 Bloqueio de quartos para eventos.",
+        "h2 Cancelamento, pagamento e check-in.",
+        "h2 Escolha a categoria.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/contato",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Contato",
+        "h2 Como quiser.",
+        "h2 Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2. Ji-Pa",
+        "h2 Escreva para a gente.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/perguntas-frequentes",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Perguntas frequentes",
+        "h2 O que perguntam sobre o Kaluanã.",
+        "h3 O hotel",
+        "h3 A estadia",
+        "h3 Serviços",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/trabalhe-conosco",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Trabalhe conosco",
+        "h2 Seu currículo.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/politica-de-privacidade",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Política de privacidade",
+        "h2 Quem trata os seus dados",
+        "h2 Quais dados coletamos",
+        "h2 Para que usamos",
+        "h2 Cookies e medição",
+        "h2 Com quem compartilhamos",
+        "h2 Por quanto tempo guardamos",
+        "h2 Seus direitos",
+        "h2 Segurança e mudanças",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "nav \"Você está em\"",
+        "footer"
+      ]
+    },
+    {
+      "rota": "/rota-que-nao-existe",
+      "h1": 1,
+      "saltos": [],
+      "titulos": [
+        "h1 Este caminho não leva a lugar nenhum.",
+        "h2 Siga"
+      ],
+      "marcos": [
+        "header",
+        "main",
+        "footer"
+      ]
+    }
+  ],
+  "teclado": [
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "21 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "20 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "14 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "18 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/rios",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "52 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/rios",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "37 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "32 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/arvores",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "31 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/guardioes",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "16 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/guardioes",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "15 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/rios/rio-machado",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "17 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/rios/rio-machado",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "17 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "16 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "16 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/acomodacoes",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "20 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/acomodacoes",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "19 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/acomodacoes/duplo-king",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "23 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/acomodacoes/duplo-king",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "22 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/o-kaluana",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "14 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/o-kaluana",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "13 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/restaurante",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "13 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/restaurante",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "12 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/eventos",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "20 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/eventos",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "19 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/ji-parana",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "14 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/ji-parana",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "13 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/historias",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "13 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/historias",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "12 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/historias/por-que-kaluana",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "11 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/historias/por-que-kaluana",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "11 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/reservas",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "25 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/reservas",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "24 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/contato",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "16 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/contato",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "15 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/perguntas-frequentes",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "20 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/perguntas-frequentes",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "19 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/trabalhe-conosco",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "16 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/trabalhe-conosco",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "15 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/politica-de-privacidade",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "7 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/politica-de-privacidade",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "7 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/rota-que-nao-existe",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "8 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Percurso com Tab e Shift+Tab",
+      "rota": "/rota-que-nao-existe",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "8 paradas, foco visível em todas"
+    },
+    {
+      "roteiro": "Atalho para o conteúdo",
+      "rota": "/",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "primeiro foco: a.skip-link \"Pular para o conteúdo\", na tela: true; depois do Enter o Tab cai dentro do main: true"
+    },
+    {
+      "roteiro": "Menu do celular",
+      "rota": "/universo",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "a fase pre não tem menu, só o atalho Quero ser avisado; o roteiro vale na fase full"
+    },
+    {
+      "roteiro": "Cabeçalho após navegação",
+      "rota": "/universo/rios → /politica-de-privacidade",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "{\"temHero\":false,\"cor\":\"rgb(85, 47, 34)\",\"fundo\":\"color(srgb 0.92549 0.898039 0.87451 / 0.92)\",\"contraste\":9.27}"
+    },
+    {
+      "roteiro": "Banner de consentimento",
+      "rota": "/",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "4 Tabs até o primeiro botão do banner"
+    },
+    {
+      "roteiro": "Acordeão (details)",
+      "rota": "/perguntas-frequentes",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "Enter abre: true"
+    },
+    {
+      "roteiro": "Filtro por uso",
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "aria-pressed: true; região viva: \"Mostrando: Madeira\""
+    },
+    {
+      "roteiro": "Busca do Universo",
+      "rota": "/universo",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "região viva: \"8 resultados\"; Tab depois de digitar vai para: a \"Rio AmazonasAndar dos Rios\"; Escape limpa: true"
+    },
+    {
+      "roteiro": "Barra de hóspede e som",
+      "rota": "/universo/rios/rio-machado?uh=112",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "barra: \"Silenciar\" aria-pressed=null | hero: \"Ouvir o ambiente\" aria-pressed=null; foco fica no botão: true; ação do cabeçalho ao voltar a rolagem: visível"
+    },
+    {
+      "roteiro": "Som ao abrir a página",
+      "rota": "/universo/rios/rio-machado?uh=112",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "antes do gesto: barra \"Carregando o som\", hero \"Ouvir o ambiente\"; depois do primeiro Tab: barra \"Silenciar\", hero \"Ouvir o ambiente\"; depois de silenciar, na página seguinte: hero \"Ouvir o ambiente\""
+    },
+    {
+      "roteiro": "Mapa sob demanda",
+      "rota": "/contato",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "foco depois do clique: div.mapa-embutido \"Mapa\""
+    },
+    {
+      "roteiro": "Passos do pedido de proposta",
+      "rota": "/eventos",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "foco após o 1º Continuar: input#ev-nome.field \"nome\"; após o 2º: input \"hospedagem\""
+    },
+    {
+      "roteiro": "Foco após erro de formulário",
+      "rota": "/contato",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "foco: input#ct-nome.field \"nome\"; erro ligado ao campo por aria-describedby: \"Escreva seu nome.\""
+    },
+    {
+      "roteiro": "Movimento reduzido",
+      "rota": "/universo/rios",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "{\"abertura\":null,\"videosTocando\":0}"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 11 títulos; saltos: nenhum; marcos: header, main, section \"Andar dos Rios, 1º andar\", section \"Andar dos Peixes, 2º andar\", section \"Andar das Árvores, 3º andar\", section \"Andar das Aves, 4º andar\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/universo",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 9 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", nav \"Andares\", section \"Andar dos Rios\", section \"Andar dos Peixes\", section \"Andar das Árvores\", section \"Andar das Aves\", section \"Os Guardiões\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/universo/rios",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 18 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 22 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/universo/guardioes",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 6 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", section \"Onça-pintada\", section \"Jaguatirica\", section \"Jacaré-açu\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/universo/rios/rio-machado",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 7 títulos; saltos: nenhum; marcos: header, main, header, nav \"Você está em\", nav \"Navegação do andar\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 7 títulos; saltos: nenhum; marcos: header, main, header, nav \"Você está em\", nav \"Navegação do andar\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/acomodacoes",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 13 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/acomodacoes/duplo-king",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 10 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", div \"Detalhes: Duplo King\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/o-kaluana",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 12 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/restaurante",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 6 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/eventos",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 6 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/ji-parana",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 8 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/historias",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 6 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/historias/por-que-kaluana",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 8 títulos; saltos: nenhum; marcos: header, main, header, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/reservas",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 7 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/contato",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 5 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/perguntas-frequentes",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 6 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/trabalhe-conosco",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 3 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/politica-de-privacidade",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 10 títulos; saltos: nenhum; marcos: header, main, nav \"Você está em\", footer"
+    },
+    {
+      "roteiro": "Títulos e marcos",
+      "rota": "/rota-que-nao-existe",
+      "tela": "desktop",
+      "ok": true,
+      "detalhe": "1 h1; 2 títulos; saltos: nenhum; marcos: header, main, footer"
+    }
+  ],
+  "axePorRegra": [],
+  "tecladoRefeitoEm": "2026-09-13T16:56:07.652Z"
+}

@@ -1,0 +1,4291 @@
+{
+  "fase": "pre",
+  "base": "http://localhost:3100",
+  "lighthouse": "13.4.1",
+  "medicoes": [
+    {
+      "rota": "/acomodacoes",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": true,
+      "lcpMs": 3379,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 912,
+      "pesoKB": 576,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:47:13.047Z"
+    },
+    {
+      "rota": "/acomodacoes",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 723,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 593,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:47:23.231Z"
+    },
+    {
+      "rota": "/acomodacoes/duplo-king",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": true,
+      "lcpMs": 3138,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 904,
+      "pesoKB": 519,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:47:33.318Z"
+    },
+    {
+      "rota": "/acomodacoes/duplo-king",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 664,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 534,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:47:43.454Z"
+    },
+    {
+      "rota": "/acomodacoes/suite-presidencial-onca-pintada",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": true,
+      "lcpMs": 3137,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 903,
+      "pesoKB": 543,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:47:53.525Z"
+    },
+    {
+      "rota": "/acomodacoes/suite-presidencial-onca-pintada",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 683,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 630,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:48:03.569Z"
+    },
+    {
+      "rota": "/acomodacoes/suite-terraco-lateral-aberto",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": true,
+      "lcpMs": 3057,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 904,
+      "pesoKB": 513,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:48:13.636Z"
+    },
+    {
+      "rota": "/acomodacoes/suite-terraco-lateral-fechado",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": true,
+      "lcpMs": 3216,
+      "cls": 0,
+      "tbtMs": 4,
+      "fcpMs": 905,
+      "pesoKB": 551,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:48:44.362Z"
+    },
+    {
+      "rota": "/acomodacoes/suite-terraco-lateral-fechado",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 705,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 591,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:48:54.459Z"
+    },
+    {
+      "rota": "/acomodacoes/superior-acessivel",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": true,
+      "lcpMs": 3135,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 904,
+      "pesoKB": 526,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:49:04.652Z"
+    },
+    {
+      "rota": "/acomodacoes/superior-acessivel",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 666,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 539,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:49:14.765Z"
+    },
+    {
+      "rota": "/acomodacoes/superior-familia",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": true,
+      "lcpMs": 3140,
+      "cls": 0,
+      "tbtMs": 4,
+      "fcpMs": 904,
+      "pesoKB": 545,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:49:24.912Z"
+    },
+    {
+      "rota": "/acomodacoes/superior-familia",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 662,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 569,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:49:35.041Z"
+    },
+    {
+      "rota": "/acomodacoes/superior-familia-com-terraco",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": true,
+      "lcpMs": 3214,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 906,
+      "pesoKB": 559,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:49:45.118Z"
+    },
+    {
+      "rota": "/acomodacoes/superior-familia-com-terraco",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 686,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 573,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:49:55.256Z"
+    },
+    {
+      "rota": "/contato",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": true,
+      "lcpMs": 2910,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 904,
+      "pesoKB": 445,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:50:05.282Z"
+    },
+    {
+      "rota": "/contato",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 626,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 246,
+      "pesoKB": 454,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:50:15.327Z"
+    },
+    {
+      "rota": "/eventos",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": true,
+      "lcpMs": 2990,
+      "cls": 0.001,
+      "tbtMs": 3,
+      "fcpMs": 905,
+      "pesoKB": 460,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:50:25.430Z"
+    },
+    {
+      "rota": "/eventos",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 642,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 491,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:50:35.426Z"
+    },
+    {
+      "rota": "/historias",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": true,
+      "lcpMs": 3060,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 522,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:50:45.390Z"
+    },
+    {
+      "rota": "/historias",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 662,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 506,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:50:55.340Z"
+    },
+    {
+      "rota": "/historias/construido-a-vista",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": true,
+      "lcpMs": 2983,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 905,
+      "pesoKB": 528,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:51:05.295Z"
+    },
+    {
+      "rota": "/historias/construido-a-vista",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": true,
+      "lcpMs": 643,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 512,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:51:15.280Z"
+    },
+    {
+      "rota": "/historias/o-rio-que-da-nome-a-cidade",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": true,
+      "lcpMs": 3206,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 904,
+      "pesoKB": 529,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:51:25.189Z"
+    },
+    {
+      "rota": "/historias/o-rio-que-da-nome-a-cidade",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": true,
+      "lcpMs": 725,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 579,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:51:35.125Z"
+    },
+    {
+      "rota": "/historias/por-que-kaluana",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": true,
+      "lcpMs": 2989,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 904,
+      "pesoKB": 528,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:51:45.038Z"
+    },
+    {
+      "rota": "/historias/por-que-kaluana",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": true,
+      "lcpMs": 620,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 499,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:51:54.946Z"
+    },
+    {
+      "rota": "/ji-parana",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": true,
+      "lcpMs": 3135,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 539,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:52:04.859Z"
+    },
+    {
+      "rota": "/ji-parana",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 703,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 558,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:52:14.808Z"
+    },
+    {
+      "rota": "/o-kaluana",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": true,
+      "lcpMs": 3301,
+      "cls": 0,
+      "tbtMs": 9,
+      "fcpMs": 904,
+      "pesoKB": 588,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:52:24.779Z"
+    },
+    {
+      "rota": "/o-kaluana",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 683,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 615,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:52:34.771Z"
+    },
+    {
+      "rota": "/obrigado",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 97,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 63,
+      "tentativasDesempenho": [
+        97
+      ],
+      "noindex": true,
+      "lcpMs": 2605,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 903,
+      "pesoKB": 432,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:52:44.709Z"
+    },
+    {
+      "rota": "/obrigado",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 63,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": true,
+      "lcpMs": 578,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 432,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:52:54.684Z"
+    },
+    {
+      "rota": "/perguntas-frequentes",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": true,
+      "lcpMs": 2920,
+      "cls": 0,
+      "tbtMs": 6,
+      "fcpMs": 904,
+      "pesoKB": 446,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:53:04.601Z"
+    },
+    {
+      "rota": "/perguntas-frequentes",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 624,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 456,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:53:14.520Z"
+    },
+    {
+      "rota": "/politica-de-privacidade",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 96,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        96
+      ],
+      "noindex": false,
+      "lcpMs": 2756,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 903,
+      "pesoKB": 430,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T00:53:24.407Z"
+    },
+    {
+      "rota": "/politica-de-privacidade",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 578,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 430,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T00:53:34.276Z"
+    },
+    {
+      "rota": "/reservas",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": true,
+      "lcpMs": 2986,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 458,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:53:44.184Z"
+    },
+    {
+      "rota": "/reservas",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 662,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 489,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:53:54.076Z"
+    },
+    {
+      "rota": "/restaurante",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": true,
+      "lcpMs": 3215,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 906,
+      "pesoKB": 530,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:54:04.087Z"
+    },
+    {
+      "rota": "/restaurante",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 723,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 581,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:54:14.091Z"
+    },
+    {
+      "rota": "/termos-de-uso",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 97,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        97
+      ],
+      "noindex": false,
+      "lcpMs": 2618,
+      "cls": 0,
+      "tbtMs": 10,
+      "fcpMs": 905,
+      "pesoKB": 429,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T00:57:07.020Z"
+    },
+    {
+      "rota": "/termos-de-uso",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 540,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 429,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T00:57:17.041Z"
+    },
+    {
+      "rota": "/trabalhe-conosco",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": true,
+      "lcpMs": 2916,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 905,
+      "pesoKB": 467,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:57:27.063Z"
+    },
+    {
+      "rota": "/trabalhe-conosco",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 66,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 665,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 246,
+      "pesoKB": 496,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T00:57:37.114Z"
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": false,
+      "lcpMs": 3360,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 440,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T00:58:27.989Z"
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 803,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 550,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T00:58:38.048Z"
+    },
+    {
+      "rota": "/universo/arvores/castanheira",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3062,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 905,
+      "pesoKB": 412,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T00:59:48.251Z"
+    },
+    {
+      "rota": "/universo/arvores/castanheira",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 643,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 412,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T00:59:58.282Z"
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": false,
+      "lcpMs": 3338,
+      "cls": 0,
+      "tbtMs": 4,
+      "fcpMs": 908,
+      "pesoKB": 461,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:01:28.457Z"
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 784,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 531,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:01:38.484Z"
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3135,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 403,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:01:48.512Z"
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 679,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 403,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:01:58.537Z"
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": false,
+      "lcpMs": 3454,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 512,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:02:08.575Z"
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 703,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 458,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:02:18.625Z"
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3062,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 903,
+      "pesoKB": 404,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:02:28.622Z"
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 685,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 433,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:02:38.639Z"
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": false,
+      "lcpMs": 3217,
+      "cls": 0,
+      "tbtMs": 6,
+      "fcpMs": 903,
+      "pesoKB": 424,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:05:08.908Z"
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 682,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 424,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:05:18.982Z"
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2983,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 346,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:05:49.428Z"
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 626,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 246,
+      "pesoKB": 358,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:05:59.418Z"
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2986,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 904,
+      "pesoKB": 357,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:06:09.371Z"
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 642,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 357,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:06:19.402Z"
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2983,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 368,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:06:29.425Z"
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 661,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 400,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:06:39.438Z"
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3067,
+      "cls": 0,
+      "tbtMs": 5,
+      "fcpMs": 905,
+      "pesoKB": 362,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:06:49.652Z"
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 668,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 246,
+      "pesoKB": 386,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:06:59.750Z"
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3135,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 387,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:07:09.753Z"
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 680,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 412,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:07:19.776Z"
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2984,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 357,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:07:29.808Z"
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 623,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 357,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:07:39.860Z"
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3063,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 905,
+      "pesoKB": 397,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:08:09.863Z"
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 685,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 414,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:08:19.878Z"
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2986,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 357,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:08:29.845Z"
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 643,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 357,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:08:39.894Z"
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2909,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 351,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:08:49.909Z"
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 644,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 363,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:08:59.890Z"
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3053,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 903,
+      "pesoKB": 436,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:09:09.855Z"
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 644,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 394,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:09:19.885Z"
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": false,
+      "lcpMs": 3160,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 904,
+      "pesoKB": 321,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:09:30.245Z"
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 621,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 321,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:09:40.184Z"
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3061,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 904,
+      "pesoKB": 401,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:09:50.174Z"
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 681,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 430,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:10:00.169Z"
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3059,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 904,
+      "pesoKB": 378,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:10:10.187Z"
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 642,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 365,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:10:20.234Z"
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3058,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 904,
+      "pesoKB": 382,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:10:30.230Z"
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 641,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 370,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:10:40.225Z"
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2983,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 355,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:11:10.285Z"
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 639,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 355,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:11:20.392Z"
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": false,
+      "lcpMs": 3207,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 903,
+      "pesoKB": 407,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:12:10.539Z"
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 696,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 246,
+      "pesoKB": 432,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:12:20.635Z"
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3139,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 906,
+      "pesoKB": 418,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:12:30.692Z"
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 681,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 432,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:12:40.725Z"
+    },
+    {
+      "rota": "/universo/peixes/bodo",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3054,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 903,
+      "pesoKB": 387,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:13:11.371Z"
+    },
+    {
+      "rota": "/universo/peixes/bodo",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 640,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 369,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:13:21.429Z"
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3056,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 903,
+      "pesoKB": 370,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:13:31.389Z"
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 645,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 370,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:13:41.380Z"
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2986,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 903,
+      "pesoKB": 358,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:13:51.397Z"
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 640,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 358,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:14:01.418Z"
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2983,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 904,
+      "pesoKB": 359,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:14:31.475Z"
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 640,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 359,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:14:41.452Z"
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 96,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        96
+      ],
+      "noindex": false,
+      "lcpMs": 2759,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 904,
+      "pesoKB": 321,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:14:51.392Z"
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 699,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 321,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:15:01.356Z"
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": false,
+      "lcpMs": 3281,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 904,
+      "pesoKB": 425,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:15:11.382Z"
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 747,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 247,
+      "pesoKB": 506,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:15:21.424Z"
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3063,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 904,
+      "pesoKB": 359,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:15:31.414Z"
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 641,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 366,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:15:41.430Z"
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2985,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 355,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:15:51.400Z"
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 639,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 355,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:16:01.402Z"
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3057,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 904,
+      "pesoKB": 355,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:16:11.397Z"
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 641,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 347,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:16:21.450Z"
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3137,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 904,
+      "pesoKB": 406,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:16:31.460Z"
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 680,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 406,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:16:41.500Z"
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": false,
+      "lcpMs": 3215,
+      "cls": 0,
+      "tbtMs": 5,
+      "fcpMs": 903,
+      "pesoKB": 405,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:16:51.498Z"
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 662,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 395,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:17:01.542Z"
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3060,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 403,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:17:11.549Z"
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 684,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 411,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:17:21.606Z"
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": false,
+      "lcpMs": 3361,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 489,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:17:31.614Z"
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 783,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 535,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:17:41.678Z"
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3056,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 903,
+      "pesoKB": 384,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:17:51.697Z"
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 640,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 389,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:18:01.703Z"
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3135,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 414,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:18:11.702Z"
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 641,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 388,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:18:21.719Z"
+    },
+    {
+      "rota": "/universo/peixes/tucunare",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3055,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 903,
+      "pesoKB": 389,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:18:51.853Z"
+    },
+    {
+      "rota": "/universo/peixes/tucunare",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 639,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 364,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:19:01.870Z"
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2981,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 903,
+      "pesoKB": 345,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:19:52.472Z"
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 639,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 345,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:20:02.468Z"
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3056,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 903,
+      "pesoKB": 375,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:20:12.479Z"
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 641,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 381,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:20:22.526Z"
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2983,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 903,
+      "pesoKB": 362,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:20:32.541Z"
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 639,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 362,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:20:42.567Z"
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": false,
+      "lcpMs": 3528,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 459,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:20:52.573Z"
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 724,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 459,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:21:02.620Z"
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3134,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 418,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:21:12.695Z"
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 726,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 246,
+      "pesoKB": 459,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:21:22.744Z"
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2985,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 357,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:21:32.737Z"
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 642,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 371,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:21:42.737Z"
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3059,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 375,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:21:52.725Z"
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 640,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 375,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:22:02.725Z"
+    },
+    {
+      "rota": "/universo/rios/rio-purus",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3062,
+      "cls": 0,
+      "tbtMs": 4,
+      "fcpMs": 903,
+      "pesoKB": 381,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:22:32.821Z"
+    },
+    {
+      "rota": "/universo/rios/rio-purus",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 682,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 426,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:22:42.875Z"
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3077,
+      "cls": 0,
+      "tbtMs": 10,
+      "fcpMs": 903,
+      "pesoKB": 367,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:22:52.860Z"
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 723,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 429,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:23:02.804Z"
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": false,
+      "lcpMs": 3355,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 903,
+      "pesoKB": 427,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:23:12.822Z"
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 662,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 406,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:23:22.875Z"
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3064,
+      "cls": 0,
+      "tbtMs": 4,
+      "fcpMs": 903,
+      "pesoKB": 389,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:23:52.938Z"
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 640,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 389,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T01:24:02.929Z"
+    },
+    {
+      "rota": "/acomodacoes/suite-terraco-lateral-aberto",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 69,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": true,
+      "lcpMs": 685,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 539,
+      "reprovadas": [
+        "seo:is-crawlable"
+      ],
+      "relatorio": null,
+      "data": "2026-09-13T01:24:13.414Z"
+    },
+    {
+      "rota": "/universo/arvores",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 90,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        90
+      ],
+      "noindex": false,
+      "lcpMs": 3682,
+      "cls": 0,
+      "tbtMs": 5,
+      "fcpMs": 905,
+      "pesoKB": 1690,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:46:43.471Z"
+    },
+    {
+      "rota": "/universo/arvores",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 743,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 1793,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:46:53.740Z"
+    },
+    {
+      "rota": "/universo/aves",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 90,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        90
+      ],
+      "noindex": false,
+      "lcpMs": 3584,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 903,
+      "pesoKB": 807,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:47:03.987Z"
+    },
+    {
+      "rota": "/universo/aves",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 725,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 807,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:47:14.283Z"
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": false,
+      "lcpMs": 3360,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 903,
+      "pesoKB": 458,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:47:44.406Z"
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 783,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 517,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:47:54.438Z"
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": false,
+      "lcpMs": 3223,
+      "cls": 0,
+      "tbtMs": 9,
+      "fcpMs": 903,
+      "pesoKB": 423,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:48:04.429Z"
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 654,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 423,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:48:14.532Z"
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": false,
+      "lcpMs": 3208,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 903,
+      "pesoKB": 455,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:48:24.534Z"
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 640,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 412,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:48:34.518Z"
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": false,
+      "lcpMs": 3207,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 904,
+      "pesoKB": 431,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:49:04.531Z"
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 679,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 431,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:49:14.553Z"
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 90,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        90
+      ],
+      "noindex": false,
+      "lcpMs": 3604,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 904,
+      "pesoKB": 508,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:49:44.621Z"
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 783,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 534,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:49:54.674Z"
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3137,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 904,
+      "pesoKB": 456,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:50:04.689Z"
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 679,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 456,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:50:14.737Z"
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3061,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 414,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:50:44.856Z"
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 682,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 441,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T02:50:54.873Z"
+    },
+    {
+      "rota": "/universo/peixes",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 90,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        90
+      ],
+      "noindex": false,
+      "lcpMs": 3586,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 903,
+      "pesoKB": 1331,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T03:53:18.326Z"
+    },
+    {
+      "rota": "/universo/peixes",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 720,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 1331,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T03:53:28.564Z"
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": false,
+      "lcpMs": 3453,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 903,
+      "pesoKB": 503,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T03:53:38.564Z"
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 803,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 551,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T03:53:48.543Z"
+    },
+    {
+      "rota": "/universo/guardioes",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": false,
+      "lcpMs": 3429,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 904,
+      "pesoKB": 684,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T03:53:58.538Z"
+    },
+    {
+      "rota": "/universo/guardioes",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 737,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 770,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T03:54:08.513Z"
+    },
+    {
+      "rota": "/",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": false,
+      "lcpMs": 3381,
+      "cls": 0,
+      "tbtMs": 6,
+      "fcpMs": 909,
+      "pesoKB": 660,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:19:31.272Z"
+    },
+    {
+      "rota": "/",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": false,
+      "lcpMs": 704,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 686,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:19:41.582Z"
+    },
+    {
+      "rota": "/universo",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 93,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        93
+      ],
+      "noindex": false,
+      "lcpMs": 3217,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 906,
+      "pesoKB": 439,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:19:51.653Z"
+    },
+    {
+      "rota": "/universo",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 673,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 538,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:20:01.712Z"
+    },
+    {
+      "rota": "/universo/rios",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": false,
+      "lcpMs": 3510,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 905,
+      "pesoKB": 1280,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:20:11.985Z"
+    },
+    {
+      "rota": "/universo/rios",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 750,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 248,
+      "pesoKB": 1225,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:20:22.283Z"
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": false,
+      "lcpMs": 3454,
+      "cls": 0,
+      "tbtMs": 4,
+      "fcpMs": 904,
+      "pesoKB": 460,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:21:12.759Z"
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 99,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        99
+      ],
+      "noindex": false,
+      "lcpMs": 824,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 571,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:21:22.815Z"
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": false,
+      "lcpMs": 3368,
+      "cls": 0,
+      "tbtMs": 4,
+      "fcpMs": 906,
+      "pesoKB": 450,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:21:32.871Z"
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 784,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 543,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:21:42.919Z"
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": false,
+      "lcpMs": 3454,
+      "cls": 0,
+      "tbtMs": 15,
+      "fcpMs": 904,
+      "pesoKB": 517,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:21:53.018Z"
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 805,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 245,
+      "pesoKB": 556,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T15:22:03.217Z"
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3066,
+      "cls": 0,
+      "tbtMs": 3,
+      "fcpMs": 906,
+      "pesoKB": 377,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:11:51.504Z"
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 662,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 394,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:12:01.531Z"
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3137,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 905,
+      "pesoKB": 400,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:12:11.555Z"
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 692,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 434,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:12:21.555Z"
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3057,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 904,
+      "pesoKB": 409,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:12:31.525Z"
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 643,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 399,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:12:41.630Z"
+    },
+    {
+      "rota": "/universo/peixes/tambaqui",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 94,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        94
+      ],
+      "noindex": false,
+      "lcpMs": 3148,
+      "cls": 0,
+      "tbtMs": 7,
+      "fcpMs": 906,
+      "pesoKB": 384,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:12:51.720Z"
+    },
+    {
+      "rota": "/universo/peixes/tambaqui",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 688,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 247,
+      "pesoKB": 417,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:13:01.802Z"
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 90,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        90
+      ],
+      "noindex": false,
+      "lcpMs": 3605,
+      "cls": 0,
+      "tbtMs": 1,
+      "fcpMs": 905,
+      "pesoKB": 514,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:13:11.911Z"
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 804,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 542,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:13:21.973Z"
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 95,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        95
+      ],
+      "noindex": false,
+      "lcpMs": 2912,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 906,
+      "pesoKB": 367,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:13:32.006Z"
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 640,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 360,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:13:42.089Z"
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 91,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        91
+      ],
+      "noindex": false,
+      "lcpMs": 3453,
+      "cls": 0,
+      "tbtMs": 4,
+      "fcpMs": 1361,
+      "pesoKB": 448,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:13:52.136Z"
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 803,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 243,
+      "pesoKB": 544,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:14:02.187Z"
+    },
+    {
+      "rota": "/universo/rios/rio-amazonas",
+      "fase": "pre",
+      "preset": "mobile",
+      "desempenho": 92,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        92
+      ],
+      "noindex": false,
+      "lcpMs": 3361,
+      "cls": 0,
+      "tbtMs": 2,
+      "fcpMs": 904,
+      "pesoKB": 511,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:14:12.243Z"
+    },
+    {
+      "rota": "/universo/rios/rio-amazonas",
+      "fase": "pre",
+      "preset": "desktop",
+      "desempenho": 100,
+      "acessibilidade": 100,
+      "boasPraticas": 100,
+      "seo": 100,
+      "tentativasDesempenho": [
+        100
+      ],
+      "noindex": false,
+      "lcpMs": 804,
+      "cls": 0,
+      "tbtMs": 0,
+      "fcpMs": 244,
+      "pesoKB": 597,
+      "reprovadas": [],
+      "relatorio": null,
+      "data": "2026-09-13T17:14:22.312Z"
+    }
+  ]
+}

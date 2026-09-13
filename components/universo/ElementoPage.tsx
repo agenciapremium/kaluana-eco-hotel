@@ -7,7 +7,12 @@ import { Reveal } from "@/components/motion/Reveal";
 import { WordTitle } from "@/components/motion/WordTitle";
 import { FramedImage } from "@/components/scene/FramedImage";
 import { MediaImage } from "@/components/ui/MediaImage";
-import { kickerDoElemento, mostraNumeroDeQuarto } from "@/lib/contagem";
+import {
+  kickerDoElemento,
+  mostraNumeroDeQuarto,
+  semContagem,
+  semNumeroDeQuarto,
+} from "@/lib/contagem";
 import { getImage, hasImage, imageSrc } from "@/lib/media";
 import { articleSchema, faqSchema } from "@/lib/schema";
 import { siteUrl } from "@/lib/site";
@@ -55,7 +60,7 @@ export function ElementoPage({ elemento: e }: { elemento: Elemento }) {
           articleSchema({
             url: e.url,
             titulo: item.seo.title,
-            descricao: item.seo.description,
+            descricao: semNumeroDeQuarto(item.seo.description),
             sobre: {
               nome: item.nome,
               cientifico: item.cientifico ?? null,
@@ -120,7 +125,11 @@ export function ElementoPage({ elemento: e }: { elemento: Elemento }) {
           <span className="kicker mb-4">{kickerDoElemento(andar.nome, item.uh)}</span>
           <WordTitle text={item.nome} className="elemento-nome" />
           <p className="elemento-sub">{item.subtitulo}</p>
-          {item.cientifico ? <p className="elemento-cientifico">{item.cientifico}</p> : null}
+          {item.cientifico ? (
+            <p className="elemento-cientifico" lang="la">
+              {item.cientifico}
+            </p>
+          ) : null}
           <div className="elemento-hero-acoes">
             <AmbientAudio
               andar={grupo}
@@ -154,7 +163,7 @@ export function ElementoPage({ elemento: e }: { elemento: Elemento }) {
           <div className="container-site elemento-duas-colunas">
             <Reveal className="measure">
               <h2 className="kicker mb-4">Por que está no Kaluanã</h2>
-              <CopyParagraphs text={item.no_kaluana} className="elemento-texto" />
+              <CopyParagraphs text={semContagem(item.no_kaluana)} className="elemento-texto" />
             </Reveal>
             {galeria[0] ? (
               <FramedImage

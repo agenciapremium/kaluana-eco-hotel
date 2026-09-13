@@ -46,6 +46,9 @@ export function BuscaNomes({ itens, mostraNumero }: { itens: ItemBusca[]; mostra
         placeholder={mostraNumero ? "Rio Machado ou 112" : "Rio Machado"}
         value={termo}
         onChange={(e) => setTermo(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Escape") setTermo("");
+        }}
         aria-describedby={`${id}-contagem`}
       />
       <p id={`${id}-contagem`} className="sr-only" aria-live="polite">

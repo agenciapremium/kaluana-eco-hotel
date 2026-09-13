@@ -1,0 +1,114 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - heading "Duplo King" [level=1]
+  - paragraph: Chegou tarde. Amanhã cedo, está pronto.
+  - paragraph: Cama king, mesa de trabalho com tomadas à mão, internet que aguenta videochamada e cortina que fecha de verdade. O quarto para quem vem a trabalho e precisa render.
+  - link "Reservar esta categoria":
+    - /url: /reservas
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem: Duplo King
+  - 'region "Detalhes: Duplo King"':
+    - img "Caderno aberto em branco, lápis e xícara de café vistos de cima sobre uma mesa de madeira"
+    - img "Caderno de couro com caneta-tinteiro e uma xícara verde sobre uma mesa de madeira"
+    - img "Luminária de latão acesa sobre uma mesa escura ao entardecer, com um notebook fechado ao lado"
+  - text: O quarto
+  - heading "O que tem no quarto." [level=2]
+  - paragraph: O Duplo King é o quarto para duas pessoas do Kaluanã Eco Hotel, em Ji-Paraná, com cama king e mesa de trabalho. É a categoria indicada para viagens de trabalho e para casais.
+  - list:
+    - listitem: Até 2 pessoas.
+    - listitem: Cama king.
+    - listitem: Ar-condicionado.
+    - listitem: Internet sem fio.
+    - listitem: Mesa de trabalho com tomadas e USB.
+    - listitem: TV.
+    - listitem: Frigobar.
+    - listitem: Banheiro privativo.
+    - listitem: Café da manhã incluído.
+  - text: Para quem
+  - heading "Para quem precisa produzir." [level=2]
+  - paragraph: Gerente regional, representante, médico de passagem, consultor. Quem chega no fim do dia e sai cedo. O Duplo King foi desenhado para essa rotina.
+  - img "Caderno de couro com caneta-tinteiro e uma xícara verde sobre uma mesa de madeira"
+  - text: Universo Kaluanã
+  - heading "Rio Tapajós, Tambaqui, Castanheira, Arara." [level=2]
+  - paragraph: Há um Duplo King em cada andar. Escolha dormir com o nome de um rio, de um peixe, de uma árvore ou de uma ave.
+  - heading "Andar dos Rios" [level=3]
+  - list "Andar dos Rios":
+    - listitem:
+      - link "Rio Tapajós":
+        - /url: /universo/rios/rio-tapajos
+    - listitem:
+      - link "Rio Roosevelt":
+        - /url: /universo/rios/rio-roosevelt
+  - heading "Andar dos Peixes" [level=3]
+  - list "Andar dos Peixes":
+    - listitem:
+      - link "Tambaqui":
+        - /url: /universo/peixes/tambaqui
+    - listitem:
+      - link "Jaú":
+        - /url: /universo/peixes/jau
+    - listitem:
+      - link "Caparari":
+        - /url: /universo/peixes/caparari
+  - heading "Andar das Árvores" [level=3]
+  - list "Andar das Árvores":
+    - listitem:
+      - link "Castanheira":
+        - /url: /universo/arvores/castanheira
+    - listitem:
+      - link "Ipê":
+        - /url: /universo/arvores/ipe
+    - listitem:
+      - link "Itaúba":
+        - /url: /universo/arvores/itauba
+  - heading "Andar das Aves" [level=3]
+  - list "Andar das Aves":
+    - listitem:
+      - link "Arara":
+        - /url: /universo/aves/arara
+    - listitem:
+      - link "Mutum":
+        - /url: /universo/aves/mutum
+    - listitem:
+      - link "Curió":
+        - /url: /universo/aves/curio
+  - heading "Reserve o Duplo King." [level=2]
+  - link "Ver disponibilidade":
+    - /url: /reservas
+  - link "Hospedagem corporativa":
+    - /url: /contato
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

@@ -29,13 +29,11 @@ type Props = {
 };
 
 /**
- * Marca a página como "de hero" (cabeçalho transparente) antes da primeira pintura e, só
- * depois dela, anexa as fontes do vídeo de fundo. O poster já pintou; o loop, que pesa
- * cerca de 1 MB, fica fora do caminho crítico e não entra na conta do LCP.
+ * Anexa as fontes do vídeo de fundo só depois da primeira pintura. O poster já pintou; o
+ * loop, que pesa cerca de 1 MB, fica fora do caminho crítico e não entra na conta do LCP.
  * Com movimento reduzido o vídeo nem é carregado: fica o poster.
  */
-const heroScript = `document.documentElement.setAttribute('data-hero-page','1');
-(function(){var v=document.currentScript&&document.currentScript.parentNode.querySelector('.hero-video');if(!v)return;
+const heroScript = `(function(){var v=document.currentScript&&document.currentScript.parentNode.querySelector('.hero-video');if(!v)return;
 if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
 function go(){['webm','mp4'].forEach(function(t){var u=v.getAttribute('data-'+t);if(!u)return;var s=document.createElement('source');s.src=u;s.type='video/'+t;v.appendChild(s);});v.load();var p=v.play();if(p&&p.catch)p.catch(function(){});}
 if(document.readyState==='complete')setTimeout(go,0);else window.addEventListener('load',function(){setTimeout(go,0);});})();`;
@@ -45,8 +43,11 @@ if(document.readyState==='complete')setTimeout(go,0);else window.addEventListene
  * palavra. A foto é o LCP: entra com fetchpriority="high" e loading="eager" no HTML inicial,
  * sem <link rel="preload">, porque o preload (por ReactDOM.preload ou por <link> elevado)
  * vai no payload RSC e é executado também quando outra página faz prefetch desta rota,
- * baixando o hero de rotas vizinhas sem uso (ver docs/decisoes.md, item 39). Um script
- * inline marca a página como "de hero" para o cabeçalho ficar transparente até rolar.
+ * baixando o hero de rotas vizinhas sem uso (ver docs/decisoes.md, item 39).
+ *
+ * O cabeçalho fica transparente sobre esta cena por CSS (`html:has(.scene-hero)`). Até a
+ * etapa 5 era um atributo posto por script no html, que ficava para trás na navegação para
+ * uma página sem hero e deixava o cabeçalho bege sobre bege (docs/decisoes.md, etapa 6).
  */
 export function HeroScene({
   image,
@@ -143,11 +144,13 @@ export function HeroScene({
         </svg>
         Rolar
       </a>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: heroScript,
-        }}
-      />
+      {loop ? (
+        <script
+          dangerouslySetInnerHTML={{
+            __html: heroScript,
+          }}
+        />
+      ) : null}
     </section>
   );
 }

@@ -28,6 +28,14 @@ const semNumero: Record<string, string> = {
   "Dezoito árvores. Muitas delas estão no que você toca.":
     "Árvores da Amazônia. Muitas delas estão no que você toca.",
   "Dezessete aves. O andar mais perto do céu.": "Aves da Amazônia. O andar mais perto do céu.",
+  // Rodapé dos hubs de andar: primeiro parágrafo da introdução do grupo (etapa 6)
+  "leva o nome de catorze rios.": "leva nomes de rios da Amazônia.",
+  "leva o nome de dezoito peixes.": "leva nomes de peixes da Amazônia.",
+  "leva o nome de dezoito árvores.": "leva nomes de árvores da Amazônia.",
+  "leva o nome de dezessete aves.": "leva nomes de aves da Amazônia.",
+  // Surubim: a série dos bagres listrados contava os quartos do andar (etapa 6)
+  "Este andar tem quatro quartos com bagres listrados da mesma família: surubim, cachara, pintado e caparari.":
+    "Surubim, cachara, pintado e caparari são bagres listrados da mesma família, e cada um dá nome a um quarto deste andar.",
   // Blocos de SEO
   "Os 14 rios dos quartos": "Os rios dos quartos",
   "Os 18 peixes dos quartos": "Os peixes dos quartos",
@@ -47,6 +55,19 @@ export function semContagem(texto: string): string {
     if (saida.includes(de)) saida = saida.split(de).join(para);
   }
   return saida;
+}
+
+/**
+ * Número de quarto nas descrições de SEO dos elementos: "O tema do quarto 112 do Kaluanã Eco
+ * Hotel" e "o rio que dá nome ao quarto 101". São 67 descrições com as mesmas duas
+ * construções, então aqui a troca é por padrão, e não pelo mapa acima. A descrição fica com
+ * um ou dois caracteres a menos, dentro da faixa de 120 a 160 (etapa 6).
+ */
+export function semNumeroDeQuarto(texto: string): string {
+  if (phase === "full") return texto;
+  return texto
+    .replace(/\bdo quarto \d{3}\b/g, "de um quarto")
+    .replace(/\bao quarto \d{3}\b/g, "a um quarto");
 }
 
 /** Kickers com faixa de quartos ("Quartos 101 a 114") não existem antes da inauguração. */

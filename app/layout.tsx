@@ -54,6 +54,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <a href="#conteudo" className="skip-link">
           Pular para o conteúdo
         </a>
+        {/* O banner fica fixo no pé da tela, mas vem logo depois do atalho na ordem de foco:
+            quem usa teclado escolhe sem atravessar a página inteira. */}
+        <ConsentBanner />
         <SessionOpening />
         <Header />
         <main id="conteudo" className="flex-1">
@@ -61,7 +64,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </main>
         <Footer />
         <PageTransition />
-        <ConsentBanner />
         <GtmLoader />
       </body>
     </html>

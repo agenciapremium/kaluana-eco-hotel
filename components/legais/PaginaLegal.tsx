@@ -6,6 +6,7 @@ import { SiteLink as Link } from "@/components/ui/SiteLink";
 import type { Pagina } from "@/lib/content-schema";
 import { atualizadoEm, type BlocoLegal } from "@/lib/legais";
 import { webPageSchema } from "@/lib/schema";
+import { notasInternas } from "@/lib/site";
 import { motion as motionTokens } from "@/lib/tokens";
 
 const porExtenso = (iso: string) =>
@@ -45,10 +46,12 @@ export function PaginaLegal({
           <p className="post-meta">
             Atualizado em <time dateTime={atualizadoEm}>{porExtenso(atualizadoEm)}</time>
           </p>
-          <p className="aviso-interno mt-6">
-            Minuta preparada pela Agência Premium a partir dos dados do projeto, à espera de
-            validação jurídica do cliente.
-          </p>
+          {notasInternas ? (
+            <p className="aviso-interno mt-6">
+              Minuta preparada pela Agência Premium a partir dos dados do projeto, à espera de
+              validação jurídica do cliente.
+            </p>
+          ) : null}
         </div>
 
         <div id="conteudo-principal" className="container-site texto-legal">

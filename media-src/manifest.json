@@ -385,9 +385,10 @@
     {
       "grupo": "universo",
       "slug": "rios-rio-solimoes",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO SOLIMÕES (ENCONTRO).jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-solimoes.jpg",
       "alt": "Rio Solimões, encontro das Águas visto de cima",
-      "uso": "Hero da página Rio Solimões (rios)"
+      "uso": "Hero da página Rio Solimões (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO SOLIMÕES (ENCONTRO).jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -399,16 +400,18 @@
     {
       "grupo": "universo",
       "slug": "rios-rio-negro",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO NEGRO 2.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-negro.jpg",
       "alt": "Rio Negro, ilhas de Anavilhanas vistas do alto",
-      "uso": "Hero da página Rio Negro (rios)"
+      "uso": "Hero da página Rio Negro (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO NEGRO 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-negro-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO NEGRO 3.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-negro-1.jpg",
       "alt": "Rio Negro, pôr do sol com a ponte",
-      "uso": "Galeria de Rio Negro (rios)"
+      "uso": "Galeria de Rio Negro (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO NEGRO 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -420,9 +423,10 @@
     {
       "grupo": "universo",
       "slug": "rios-rio-madeira-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO MADEIRA 3.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-madeira-1.jpg",
       "alt": "Rio Madeira, margem com floresta",
-      "uso": "Galeria de Rio Madeira (rios)"
+      "uso": "Galeria de Rio Madeira (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO MADEIRA 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -434,51 +438,58 @@
     {
       "grupo": "universo",
       "slug": "rios-rio-guapore-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO GUAPORE 2.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-guapore-1.jpg",
       "alt": "Rio Guaporé, reflexo da floresta na água parada",
-      "uso": "Galeria de Rio Guaporé (rios)"
+      "uso": "Galeria de Rio Guaporé (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO GUAPORE 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-mamore",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/Rio Mamoré.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-mamore.jpg",
       "alt": "Rio Mamoré, aérea com ilha e barcos",
-      "uso": "Hero da página Rio Mamoré (rios)"
+      "uso": "Hero da página Rio Mamoré (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/Rio Mamoré.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-mamore-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/Rio Mamoré 2.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-mamore-1.jpg",
       "alt": "Rio Mamoré, reflexo do céu ao entardecer",
-      "uso": "Galeria de Rio Mamoré (rios)"
+      "uso": "Galeria de Rio Mamoré (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/Rio Mamoré 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-tapajos",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO TAPAJÓS 3.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-tapajos.jpg",
       "alt": "Rio Tapajós, aérea com bancos de areia",
-      "uso": "Hero da página Rio Tapajós (rios)"
+      "uso": "Hero da página Rio Tapajós (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO TAPAJÓS 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-tapajos-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO TAPAJÓS 5.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-tapajos-1.jpg",
       "alt": "Rio Tapajós, entardecer com píer",
-      "uso": "Galeria de Rio Tapajós (rios)"
+      "uso": "Galeria de Rio Tapajós (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO TAPAJÓS 5.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-xingu",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO XINGU 2.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-xingu.jpg",
       "alt": "Rio Xingu, corredeiras vistas do alto",
-      "uso": "Hero da página Rio Xingu (rios)"
+      "uso": "Hero da página Rio Xingu (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO XINGU 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-xingu-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO XINGU 3.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-xingu-1.jpg",
       "alt": "Rio Xingu, aérea com ilhas e pedras",
-      "uso": "Galeria de Rio Xingu (rios)"
+      "uso": "Galeria de Rio Xingu (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO XINGU 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -490,37 +501,42 @@
     {
       "grupo": "universo",
       "slug": "rios-rio-purus-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO PURUS 2.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-purus-1.jpg",
       "alt": "Rio Purus, aérea com curva",
-      "uso": "Galeria de Rio Purus (rios)"
+      "uso": "Galeria de Rio Purus (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO PURUS 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-jurua",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO JURUÁ.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-jurua.jpg",
       "alt": "Rio Juruá, aérea com estrada de água na floresta",
-      "uso": "Hero da página Rio Juruá (rios)"
+      "uso": "Hero da página Rio Juruá (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO JURUÁ.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-jurua-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO JURUÁ 3.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-jurua-1.jpg",
       "alt": "Rio Juruá, meandro na floresta",
-      "uso": "Galeria de Rio Juruá (rios)"
+      "uso": "Galeria de Rio Juruá (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO JURUÁ 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-jamari",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/Rio Jamarari 2.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-jamari.jpg",
       "alt": "Rio Jamari, margem com canoas e casa",
-      "uso": "Hero da página Rio Jamari (rios)"
+      "uso": "Hero da página Rio Jamari (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/Rio Jamarari 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-jamari-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO JAMARI 3.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-jamari-1.jpg",
       "alt": "Rio Jamari, curva do rio",
-      "uso": "Galeria de Rio Jamari (rios)"
+      "uso": "Galeria de Rio Jamari (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO JAMARI 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -532,23 +548,26 @@
     {
       "grupo": "universo",
       "slug": "rios-rio-machado-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO MACHADO 2.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-machado-1.jpg",
       "alt": "Rio Machado, margem com morros",
-      "uso": "Galeria de Rio Machado (rios)"
+      "uso": "Galeria de Rio Machado (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO MACHADO 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-araguaia",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO ARAGUAIA 5.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-araguaia.jpg",
       "alt": "Rio Araguaia, pôr do sol",
-      "uso": "Hero da página Rio Araguaia (rios)"
+      "uso": "Hero da página Rio Araguaia (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO ARAGUAIA 5.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "rios-rio-araguaia-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO ARAGUAIA 2.jpg",
+      "src": "media-src/higgsfield/universo/rios-rio-araguaia-1.jpg",
       "alt": "Rio Araguaia, barco no entardecer",
-      "uso": "Galeria de Rio Araguaia (rios)"
+      "uso": "Galeria de Rio Araguaia (rios)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/RIOS/RIO ARAGUAIA 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -567,16 +586,18 @@
     {
       "grupo": "universo",
       "slug": "peixes-pirarucu-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Pirarucu 4.jpg",
+      "src": "media-src/higgsfield/universo/peixes-pirarucu-1.jpg",
       "alt": "Pirarucu, pirarucu na superfície com floresta ao fundo",
-      "uso": "Galeria de Pirarucu (peixes)"
+      "uso": "Galeria de Pirarucu (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Pirarucu 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-tambaqui",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Tambaqui.jpg",
+      "src": "media-src/higgsfield/universo/peixes-tambaqui.jpg",
       "alt": "Tambaqui, peixe adulto em aquário",
-      "uso": "Hero da página Tambaqui (peixes)"
+      "uso": "Hero da página Tambaqui (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Tambaqui.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -588,86 +609,98 @@
     {
       "grupo": "universo",
       "slug": "peixes-tucunare",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Tucunaré 2.jpg",
+      "src": "media-src/higgsfield/universo/peixes-tucunare.jpg",
       "alt": "Tucunaré, cabeça e listras em detalhe",
-      "uso": "Hero da página Tucunaré (peixes)"
+      "uso": "Hero da página Tucunaré (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Tucunaré 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-tucunare-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Tucunaré.jpg",
+      "src": "media-src/higgsfield/universo/peixes-tucunare-1.jpg",
       "alt": "Tucunaré, grupo em aquário",
-      "uso": "Galeria de Tucunaré (peixes)"
+      "uso": "Galeria de Tucunaré (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Tucunaré.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-surubim",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Surubim 2.jpg",
+      "src": "media-src/higgsfield/universo/peixes-surubim.jpg",
       "alt": "Surubim, peixe inteiro entre raízes submersas",
-      "uso": "Hero da página Surubim (peixes)"
+      "uso": "Hero da página Surubim (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Surubim 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-surubim-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Surubim.jpg",
+      "src": "media-src/higgsfield/universo/peixes-surubim-1.jpg",
       "alt": "Surubim, lateral em aquário",
-      "uso": "Galeria de Surubim (peixes)"
+      "uso": "Galeria de Surubim (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Surubim.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-curimata",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Curimatã 3.jpg",
+      "src": "media-src/higgsfield/universo/peixes-curimata.jpg",
       "alt": "Curimatã, peixe em água clara com fundo de pedras",
-      "uso": "Hero da página Curimatã (peixes)"
+      "uso": "Hero da página Curimatã (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Curimatã 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-curimata-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Curimatã.jpg",
+      "src": "media-src/higgsfield/universo/peixes-curimata-1.jpg",
       "alt": "Curimatã, lateral em água clara",
-      "uso": "Galeria de Curimatã (peixes)"
+      "uso": "Galeria de Curimatã (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Curimatã.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-matrinxa",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Matrinxã 3.jpg",
+      "src": "media-src/higgsfield/universo/peixes-matrinxa.jpg",
       "alt": "Matrinxã, cardume em água clara",
-      "uso": "Hero da página Matrinxã (peixes)"
+      "uso": "Hero da página Matrinxã (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Matrinxã 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-matrinxa-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Matrinxã 2.jpg",
+      "src": "media-src/higgsfield/universo/peixes-matrinxa-1.jpg",
       "alt": "Matrinxã, lateral em aquário",
-      "uso": "Galeria de Matrinxã (peixes)"
+      "uso": "Galeria de Matrinxã (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Matrinxã 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-bodo",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Bodó 3.jpg",
+      "src": "media-src/higgsfield/universo/peixes-bodo.jpg",
       "alt": "Bodó, peixe em detalhe com placas",
-      "uso": "Hero da página Bodó (peixes)"
+      "uso": "Hero da página Bodó (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Bodó 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-bodo-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Bodó.jpg",
+      "src": "media-src/higgsfield/universo/peixes-bodo-1.jpg",
       "alt": "Bodó, sobre cascalho em aquário",
-      "uso": "Galeria de Bodó (peixes)"
+      "uso": "Galeria de Bodó (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Bodó.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-cachara",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Cachara.jpg",
+      "src": "media-src/higgsfield/universo/peixes-cachara.jpg",
       "alt": "Cachara, peixe inteiro em aquário",
-      "uso": "Hero da página Cachara (peixes)"
+      "uso": "Hero da página Cachara (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Cachara.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-cachara-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Cachara 2.jpg",
+      "src": "media-src/higgsfield/universo/peixes-cachara-1.jpg",
       "alt": "Cachara, sobre areia",
-      "uso": "Galeria de Cachara (peixes)"
+      "uso": "Galeria de Cachara (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Cachara 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -679,9 +712,10 @@
     {
       "grupo": "universo",
       "slug": "peixes-jau-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Jau 3.jpg",
+      "src": "media-src/higgsfield/universo/peixes-jau-1.jpg",
       "alt": "Jaú, jaú saltando na água",
-      "uso": "Galeria de Jaú (peixes)"
+      "uso": "Galeria de Jaú (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Jau 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -693,23 +727,26 @@
     {
       "grupo": "universo",
       "slug": "peixes-sardinha-da-amazonia-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Sardinha da amazonia 3.jpg",
+      "src": "media-src/higgsfield/universo/peixes-sardinha-da-amazonia-1.jpg",
       "alt": "Sardinha-da-Amazônia, lateral com fundo de folhas",
-      "uso": "Galeria de Sardinha-da-Amazônia (peixes)"
+      "uso": "Galeria de Sardinha-da-Amazônia (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Sardinha da amazonia 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-curvina",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Corvina 4.jpg",
+      "src": "media-src/higgsfield/universo/peixes-curvina.jpg",
       "alt": "Curvina, aTENÇÃO: a imagem mostra uma corvina marinha em aquário, não a pescada-branca de água doce",
-      "uso": "Hero da página Curvina (peixes)"
+      "uso": "Hero da página Curvina (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Corvina 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-curvina-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Corvina 3.jpg",
+      "src": "media-src/higgsfield/universo/peixes-curvina-1.jpg",
       "alt": "Curvina, mesma ressalva: espécie marinha",
-      "uso": "Galeria de Curvina (peixes)"
+      "uso": "Galeria de Curvina (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Corvina 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -721,51 +758,58 @@
     {
       "grupo": "universo",
       "slug": "peixes-lambari-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/lambari 2.jpg",
+      "src": "media-src/higgsfield/universo/peixes-lambari-1.jpg",
       "alt": "Lambari, lambari com olho vermelho",
-      "uso": "Galeria de Lambari (peixes)"
+      "uso": "Galeria de Lambari (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/lambari 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-piau",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Piau.jpg",
+      "src": "media-src/higgsfield/universo/peixes-piau.jpg",
       "alt": "Piau, peixe com as três pintas em aquário",
-      "uso": "Hero da página Piau (peixes)"
+      "uso": "Hero da página Piau (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Piau.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-piau-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Piau 2.jpg",
+      "src": "media-src/higgsfield/universo/peixes-piau-1.jpg",
       "alt": "Piau, lateral com manchas visíveis",
-      "uso": "Galeria de Piau (peixes)"
+      "uso": "Galeria de Piau (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/Piau 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-pintado",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/pintado 3.jpg",
+      "src": "media-src/higgsfield/universo/peixes-pintado.jpg",
       "alt": "Pintado, bagre em aquário escuro",
-      "uso": "Hero da página Pintado (peixes)"
+      "uso": "Hero da página Pintado (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/pintado 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-pintado-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/pintado 2.jpg",
+      "src": "media-src/higgsfield/universo/peixes-pintado-1.jpg",
       "alt": "Pintado, sobre areia",
-      "uso": "Galeria de Pintado (peixes)"
+      "uso": "Galeria de Pintado (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/pintado 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-caparari",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/caparari 2.jpg",
+      "src": "media-src/higgsfield/universo/peixes-caparari.jpg",
       "alt": "Caparari, lateral em aquário",
-      "uso": "Hero da página Caparari (peixes)"
+      "uso": "Hero da página Caparari (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/caparari 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-caparari-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/caparari 3.jpg",
+      "src": "media-src/higgsfield/universo/peixes-caparari-1.jpg",
       "alt": "Caparari, detalhe das listras",
-      "uso": "Galeria de Caparari (peixes)"
+      "uso": "Galeria de Caparari (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/caparari 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -784,23 +828,26 @@
     {
       "grupo": "universo",
       "slug": "peixes-poraque-2",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/poraque 4.jpg",
+      "src": "media-src/higgsfield/universo/peixes-poraque-2.jpg",
       "alt": "Poraquê, entre troncos submersos",
-      "uso": "Galeria de Poraquê (peixes)"
+      "uso": "Galeria de Poraquê (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/poraque 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-pirarara",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/pirarara.jpg",
+      "src": "media-src/higgsfield/universo/peixes-pirarara.jpg",
       "alt": "Pirarara, cauda vermelha em destaque",
-      "uso": "Hero da página Pirarara (peixes)"
+      "uso": "Hero da página Pirarara (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/pirarara.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "peixes-pirarara-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/pirarara 2.jpg",
+      "src": "media-src/higgsfield/universo/peixes-pirarara-1.jpg",
       "alt": "Pirarara, cabeça de frente com barbilhões",
-      "uso": "Galeria de Pirarara (peixes)"
+      "uso": "Galeria de Pirarara (peixes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Peixes/pirarara 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -812,37 +859,42 @@
     {
       "grupo": "universo",
       "slug": "arvores-samauma-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Samauma.jpg",
+      "src": "media-src/higgsfield/universo/arvores-samauma-1.jpg",
       "alt": "Samaúma, árvore inteira à beira do rio",
-      "uso": "Galeria de Samaúma (arvores)"
+      "uso": "Galeria de Samaúma (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Samauma.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-castanheira",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Castanheira 2.jpg",
+      "src": "media-src/higgsfield/universo/arvores-castanheira.jpg",
       "alt": "Castanheira, árvore isolada com copa alta",
-      "uso": "Hero da página Castanheira (arvores)"
+      "uso": "Hero da página Castanheira (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Castanheira 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-castanheira-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Castanheira 3.jpg",
+      "src": "media-src/higgsfield/universo/arvores-castanheira-1.jpg",
       "alt": "Castanheira, tronco visto de baixo",
-      "uso": "Galeria de Castanheira (arvores)"
+      "uso": "Galeria de Castanheira (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Castanheira 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-copaiba",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Copaiba 4.jpg",
+      "src": "media-src/higgsfield/universo/arvores-copaiba.jpg",
       "alt": "Copaíba, copa vista de baixo com galhos",
-      "uso": "Hero da página Copaíba (arvores)"
+      "uso": "Hero da página Copaíba (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Copaiba 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-copaiba-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Copaiba 2.jpg",
+      "src": "media-src/higgsfield/universo/arvores-copaiba-1.jpg",
       "alt": "Copaíba, árvore inteira contra o céu azul",
-      "uso": "Galeria de Copaíba (arvores)"
+      "uso": "Galeria de Copaíba (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Copaiba 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -854,9 +906,10 @@
     {
       "grupo": "universo",
       "slug": "arvores-andiroba-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Andiroba 2.jpeg",
+      "src": "media-src/higgsfield/universo/arvores-andiroba-1.jpg",
       "alt": "Andiroba, copa vista de baixo",
-      "uso": "Galeria de Andiroba (arvores)"
+      "uso": "Galeria de Andiroba (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Andiroba 2.jpeg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -868,51 +921,58 @@
     {
       "grupo": "universo",
       "slug": "arvores-acai-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/açai.jpg",
+      "src": "media-src/higgsfield/universo/arvores-acai-1.jpg",
       "alt": "Açaí, cacho com frutos maduros",
-      "uso": "Galeria de Açaí (arvores)"
+      "uso": "Galeria de Açaí (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/açai.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-cumaru",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/cumaru 3.jpg",
+      "src": "media-src/higgsfield/universo/arvores-cumaru.jpg",
       "alt": "Cumaru, tronco reto visto de baixo",
-      "uso": "Hero da página Cumaru (arvores)"
+      "uso": "Hero da página Cumaru (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/cumaru 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-cumaru-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/cumaru 2.jpg",
+      "src": "media-src/higgsfield/universo/arvores-cumaru-1.jpg",
       "alt": "Cumaru, copa contra o céu",
-      "uso": "Galeria de Cumaru (arvores)"
+      "uso": "Galeria de Cumaru (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/cumaru 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-cedro",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/cedro 3.jpg",
+      "src": "media-src/higgsfield/universo/arvores-cedro.jpg",
       "alt": "Cedro, árvore inteira contra o céu",
-      "uso": "Hero da página Cedro (arvores)"
+      "uso": "Hero da página Cedro (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/cedro 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-cedro-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/cedro 4.jpg",
+      "src": "media-src/higgsfield/universo/arvores-cedro-1.jpg",
       "alt": "Cedro, dossel genérico; verificar se a imagem representa cedro",
-      "uso": "Galeria de Cedro (arvores)"
+      "uso": "Galeria de Cedro (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/cedro 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-mogno",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/mogno.jpg",
+      "src": "media-src/higgsfield/universo/arvores-mogno.jpg",
       "alt": "Mogno, tronco e copa vistos de baixo",
-      "uso": "Hero da página Mogno (arvores)"
+      "uso": "Hero da página Mogno (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/mogno.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-mogno-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/mogno 3.jpg",
+      "src": "media-src/higgsfield/universo/arvores-mogno-1.jpg",
       "alt": "Mogno, tronco reto",
-      "uso": "Galeria de Mogno (arvores)"
+      "uso": "Galeria de Mogno (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/mogno 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -924,51 +984,58 @@
     {
       "grupo": "universo",
       "slug": "arvores-ipe-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Ipê 3.jpg",
+      "src": "media-src/higgsfield/universo/arvores-ipe-1.jpg",
       "alt": "Ipê, ipê-roxo florido em solo vermelho",
-      "uso": "Galeria de Ipê (arvores)"
+      "uso": "Galeria de Ipê (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/Ipê 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-jatoba",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/jatobá 3.jpg",
+      "src": "media-src/higgsfield/universo/arvores-jatoba.jpg",
       "alt": "Jatobá, árvore isolada em gramado",
-      "uso": "Hero da página Jatobá (arvores)"
+      "uso": "Hero da página Jatobá (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/jatobá 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-jatoba-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/jatobá 4.jpg",
+      "src": "media-src/higgsfield/universo/arvores-jatoba-1.jpg",
       "alt": "Jatobá, copa ampla",
-      "uso": "Galeria de Jatobá (arvores)"
+      "uso": "Galeria de Jatobá (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/jatobá 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-bacaba",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/bacaba 3.jpg",
+      "src": "media-src/higgsfield/universo/arvores-bacaba.jpg",
       "alt": "Bacaba, palmeira com cachos vermelhos",
-      "uso": "Hero da página Bacaba (arvores)"
+      "uso": "Hero da página Bacaba (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/bacaba 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-bacaba-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/bacaba 2.jpg",
+      "src": "media-src/higgsfield/universo/arvores-bacaba-1.jpg",
       "alt": "Bacaba, cacho em detalhe",
-      "uso": "Galeria de Bacaba (arvores)"
+      "uso": "Galeria de Bacaba (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/bacaba 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-tucuma",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/tucumã 5.jpg",
+      "src": "media-src/higgsfield/universo/arvores-tucuma.jpg",
       "alt": "Tucumã, cacho de frutos laranja",
-      "uso": "Hero da página Tucumã (arvores)"
+      "uso": "Hero da página Tucumã (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/tucumã 5.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-tucuma-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/tucumã 3.jpg",
+      "src": "media-src/higgsfield/universo/arvores-tucuma-1.jpg",
       "alt": "Tucumã, palmeira inteira",
-      "uso": "Galeria de Tucumã (arvores)"
+      "uso": "Galeria de Tucumã (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/tucumã 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -980,9 +1047,10 @@
     {
       "grupo": "universo",
       "slug": "arvores-angelim-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/angelim 3.jpg",
+      "src": "media-src/higgsfield/universo/arvores-angelim-1.jpg",
       "alt": "Angelim, sapopema e tronco",
-      "uso": "Galeria de Angelim (arvores)"
+      "uso": "Galeria de Angelim (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/angelim 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -994,9 +1062,10 @@
     {
       "grupo": "universo",
       "slug": "arvores-macaranduba-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/maçaranduba 5.jpg",
+      "src": "media-src/higgsfield/universo/arvores-macaranduba-1.jpg",
       "alt": "Maçaranduba, frutos entre as folhas",
-      "uso": "Galeria de Maçaranduba (arvores)"
+      "uso": "Galeria de Maçaranduba (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/maçaranduba 5.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1008,23 +1077,26 @@
     {
       "grupo": "universo",
       "slug": "arvores-jenipapo-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/jenipapo.jpg",
+      "src": "media-src/higgsfield/universo/arvores-jenipapo-1.jpg",
       "alt": "Jenipapo, fruto entre folhas",
-      "uso": "Galeria de Jenipapo (arvores)"
+      "uso": "Galeria de Jenipapo (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/jenipapo.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-itauba",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/itaúba.jpg",
+      "src": "media-src/higgsfield/universo/arvores-itauba.jpg",
       "alt": "Itaúba, casca em placas em detalhe",
-      "uso": "Hero da página Itaúba (arvores)"
+      "uso": "Hero da página Itaúba (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/itaúba.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "arvores-itauba-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/itaúba 2.jpg",
+      "src": "media-src/higgsfield/universo/arvores-itauba-1.jpg",
       "alt": "Itaúba, tronco visto de baixo",
-      "uso": "Galeria de Itaúba (arvores)"
+      "uso": "Galeria de Itaúba (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/itaúba 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1050,9 +1122,10 @@
     {
       "grupo": "universo",
       "slug": "arvores-jequitiba-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/jequitiba 2.jpg",
+      "src": "media-src/higgsfield/universo/arvores-jequitiba-1.jpg",
       "alt": "Jequitibá, árvore isolada em campo",
-      "uso": "Galeria de Jequitibá (arvores)"
+      "uso": "Galeria de Jequitibá (arvores)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Árvores/jequitiba 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1064,65 +1137,74 @@
     {
       "grupo": "universo",
       "slug": "aves-arara-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/arara 3.jpg",
+      "src": "media-src/higgsfield/universo/aves-arara-1.jpg",
       "alt": "Arara, araras-azuis em voo",
-      "uso": "Galeria de Arara (aves)"
+      "uso": "Galeria de Arara (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/arara 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-tucano",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/tucano 2.jpg",
+      "src": "media-src/higgsfield/universo/aves-tucano.jpg",
       "alt": "Tucano, tucanuçu em voo contra o céu azul",
-      "uso": "Hero da página Tucano (aves)"
+      "uso": "Hero da página Tucano (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/tucano 2.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-tucano-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/tucano 3.jpg",
+      "src": "media-src/higgsfield/universo/aves-tucano-1.jpg",
       "alt": "Tucano, tucano pousado em palmeira",
-      "uso": "Galeria de Tucano (aves)"
+      "uso": "Galeria de Tucano (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/tucano 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-papagaio",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/papagaio 4.jpg",
+      "src": "media-src/higgsfield/universo/aves-papagaio.jpg",
       "alt": "Papagaio, papagaio comendo fruto na árvore",
-      "uso": "Hero da página Papagaio (aves)"
+      "uso": "Hero da página Papagaio (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/papagaio 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-papagaio-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/papagaio.jpg",
+      "src": "media-src/higgsfield/universo/aves-papagaio-1.jpg",
       "alt": "Papagaio, papagaio-verdadeiro em galho seco",
-      "uso": "Galeria de Papagaio (aves)"
+      "uso": "Galeria de Papagaio (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/papagaio.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-gaviao-real",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/gavião real.jpg",
+      "src": "media-src/higgsfield/universo/aves-gaviao-real.jpg",
       "alt": "Gavião-real, harpia pousada com penacho aberto",
-      "uso": "Hero da página Gavião-real (aves)"
+      "uso": "Hero da página Gavião-real (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/gavião real.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-gaviao-real-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/gavião real 6.jpg",
+      "src": "media-src/higgsfield/universo/aves-gaviao-real-1.jpg",
       "alt": "Gavião-real, harpia entre folhagens",
-      "uso": "Galeria de Gavião-real (aves)"
+      "uso": "Galeria de Gavião-real (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/gavião real 6.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-uirapuru",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/urapuru 4.jpg",
+      "src": "media-src/higgsfield/universo/aves-uirapuru.jpg",
       "alt": "Uirapuru, uirapuru-verdadeiro, marrom com rosto alaranjado, em tronco caído",
-      "uso": "Hero da página Uirapuru (aves)"
+      "uso": "Hero da página Uirapuru (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/urapuru 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-uirapuru-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/urapuru.jpg",
+      "src": "media-src/higgsfield/universo/aves-uirapuru-1.jpg",
       "alt": "Uirapuru, aTENÇÃO: ave vermelha, provavelmente um piprídeo (uirapuru-laranja ou parente)",
-      "uso": "Galeria de Uirapuru (aves)"
+      "uso": "Galeria de Uirapuru (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/urapuru.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1134,9 +1216,10 @@
     {
       "grupo": "universo",
       "slug": "aves-beija-flor-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/beija flor.jpg",
+      "src": "media-src/higgsfield/universo/aves-beija-flor-1.jpg",
       "alt": "Beija-flor, beija-flor-tesoura pairando em flor vermelha",
-      "uso": "Galeria de Beija-flor (aves)"
+      "uso": "Galeria de Beija-flor (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/beija flor.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1162,9 +1245,10 @@
     {
       "grupo": "universo",
       "slug": "aves-mutum-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/mutum 3.jpg",
+      "src": "media-src/higgsfield/universo/aves-mutum-1.jpg",
       "alt": "Mutum, fêmea barrada de mutum-de-penacho no chão da mata",
-      "uso": "Galeria de Mutum (aves)"
+      "uso": "Galeria de Mutum (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/mutum 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1197,23 +1281,26 @@
     {
       "grupo": "universo",
       "slug": "aves-anu-preto",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/anu preto 4.jpg",
+      "src": "media-src/higgsfield/universo/aves-anu-preto.jpg",
       "alt": "Anu-preto, anu em cerca de arame com pasto ao fundo",
-      "uso": "Hero da página Anu-preto (aves)"
+      "uso": "Hero da página Anu-preto (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/anu preto 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-anu-preto-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/anu preto.jpg",
+      "src": "media-src/higgsfield/universo/aves-anu-preto-1.jpg",
       "alt": "Anu-preto, anu em galho",
-      "uso": "Galeria de Anu-preto (aves)"
+      "uso": "Galeria de Anu-preto (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/anu preto.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-tangara",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/tangará 6.jpg",
+      "src": "media-src/higgsfield/universo/aves-tangara.jpg",
       "alt": "Tangará, piprídeo de cabeça vermelha em galho",
-      "uso": "Hero da página Tangará (aves)"
+      "uso": "Hero da página Tangará (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/tangará 6.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1232,23 +1319,26 @@
     {
       "grupo": "universo",
       "slug": "aves-colhereiro-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/colhereiro 5.jpg",
+      "src": "media-src/higgsfield/universo/aves-colhereiro-1.jpg",
       "alt": "Colhereiro, aTENÇÃO: colhereiro branco, aparentemente espécie europeia",
-      "uso": "Galeria de Colhereiro (aves)"
+      "uso": "Galeria de Colhereiro (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/colhereiro 5.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-curio",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/curió 3.jpg",
+      "src": "media-src/higgsfield/universo/aves-curio.jpg",
       "alt": "Curió, curió macho em capim, espécie correta",
-      "uso": "Hero da página Curió (aves)"
+      "uso": "Hero da página Curió (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/curió 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-curio-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/curió 5.jpg",
+      "src": "media-src/higgsfield/universo/aves-curio-1.jpg",
       "alt": "Curió, aTENÇÃO: ave azul, não é curió (parece saí ou sanhaço)",
-      "uso": "Galeria de Curió (aves)"
+      "uso": "Galeria de Curió (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/curió 5.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1260,23 +1350,26 @@
     {
       "grupo": "universo",
       "slug": "aves-andorinha-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/andorinha 3.jpg",
+      "src": "media-src/higgsfield/universo/aves-andorinha-1.jpg",
       "alt": "Andorinha, andorinhas no chão",
-      "uso": "Galeria de Andorinha (aves)"
+      "uso": "Galeria de Andorinha (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/andorinha 3.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-cardeal-da-amazonia",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/cardel da amazonia 4.jpg",
+      "src": "media-src/higgsfield/universo/aves-cardeal-da-amazonia.jpg",
       "alt": "Cardeal-da-Amazônia, cardeal em galho com folhagem",
-      "uso": "Hero da página Cardeal-da-Amazônia (aves)"
+      "uso": "Hero da página Cardeal-da-Amazônia (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/cardel da amazonia 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "aves-cardeal-da-amazonia-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/cardel da amazonia 5.jpg",
+      "src": "media-src/higgsfield/universo/aves-cardeal-da-amazonia-1.jpg",
       "alt": "Cardeal-da-Amazônia, cardeal em galho seco contra o céu",
-      "uso": "Galeria de Cardeal-da-Amazônia (aves)"
+      "uso": "Galeria de Cardeal-da-Amazônia (aves)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/cardel da amazonia 5.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1288,9 +1381,10 @@
     {
       "grupo": "universo",
       "slug": "guardioes-onca-pintada-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/onça pintada 5.jpg",
+      "src": "media-src/higgsfield/universo/guardioes-onca-pintada-1.jpg",
       "alt": "Onça-pintada, onça sentada na mata",
-      "uso": "Galeria de Onça-pintada (guardioes)"
+      "uso": "Galeria de Onça-pintada (guardioes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/onça pintada 5.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
@@ -1302,16 +1396,18 @@
     {
       "grupo": "universo",
       "slug": "guardioes-jaguatirica-1",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/jaguatirica.jpg",
+      "src": "media-src/higgsfield/universo/guardioes-jaguatirica-1.jpg",
       "alt": "Jaguatirica, jaguatirica andando sobre galho",
-      "uso": "Galeria de Jaguatirica (guardioes)"
+      "uso": "Galeria de Jaguatirica (guardioes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/jaguatirica.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",
       "slug": "guardioes-jacare-acu",
-      "src": "DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/jacaré açu 4.jpg",
+      "src": "media-src/higgsfield/universo/guardioes-jacare-acu.jpg",
       "alt": "Jacaré-açu, jacaré visto de cima na água com folhas",
-      "uso": "Hero da página Jacaré-açu (guardioes)"
+      "uso": "Hero da página Jacaré-açu (guardioes)",
+      "origem": "Upscale no Higgsfield (bytedance_image_upscale) de DOCS/NOMENCLATURA DOS QUARTOS/FOTOS/Aves/jacaré açu 4.jpg (ver docs/registro-higgsfield.md)"
     },
     {
       "grupo": "universo",

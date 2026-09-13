@@ -1,0 +1,150 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - navigation "Principal":
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+  - link "Contato":
+    - /url: /contato
+  - link "Reservar":
+    - /url: /reservas
+  - button "Abrir menu"
+- main:
+  - text: Suítes
+  - heading "Os Guardiões" [level=1]
+  - paragraph: Três guardiões. Três suítes.
+  - paragraph: No quarto andar, três acomodações fogem da regra das aves. São as maiores do hotel e levam o nome dos três grandes predadores da Amazônia. Kaluanã quer dizer grande guerreiro. Estes são os guardiões da casa.
+  - button "Ouvir o ambiente"
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem: Os Guardiões
+  - text: Quartos 401 a 403
+  - heading "Onça-pintada. Jaguatirica. Jacaré-açu." [level=2]
+  - region "Onça-pintada":
+    - paragraph: O maior felino das Américas
+    - heading "Onça-pintada" [level=3]
+    - paragraph: Panthera onca
+    - paragraph: A onça-pintada é o maior felino das Américas e o terceiro do mundo. Tem a mordida mais forte entre os grandes felinos em relação ao tamanho, capaz de atravessar o casco de uma tartaruga. Nada, escala, caça jacaré. Para os povos da Amazônia, é o guerreiro da floresta.
+    - link "A história":
+      - /url: /universo/guardioes/onca-pintada
+    - link "Suíte Presidencial Onça-Pintada":
+      - /url: /acomodacoes/suite-presidencial-onca-pintada
+  - region "Jaguatirica":
+    - paragraph: A onça pequena que sobe em tudo
+    - heading "Jaguatirica" [level=3]
+    - paragraph: Leopardus pardalis
+    - paragraph: A jaguatirica é uma onça em miniatura. Pesa entre 8 e 15 quilos, tem a pelagem cheia de rosetas em cadeia e caça à noite. Sobe em árvores, nada e anda quilômetros por noite atrás de roedores, aves e répteis.
+    - link "A história":
+      - /url: /universo/guardioes/jaguatirica
+    - link "Suíte Terraço Lateral Fechado":
+      - /url: /acomodacoes/suite-terraco-lateral-fechado
+  - region "Jacaré-açu":
+    - paragraph: O maior predador das águas amazônicas
+    - heading "Jacaré-açu" [level=3]
+    - paragraph: Melanosuchus niger
+    - paragraph: O jacaré-açu pode passar de 5 metros. É o maior jacaré das Américas e o predador de topo dos rios e lagos da Amazônia. Quase desapareceu pela caça da pele no século XX e voltou. Hoje é visto em toda a bacia.
+    - link "A história":
+      - /url: /universo/guardioes/jacare-acu
+    - link "Suíte Terraço Lateral Aberto":
+      - /url: /acomodacoes/suite-terraco-lateral-aberto
+  - link "Voltar ao Universo":
+    - /url: /universo
+  - paragraph: "No quarto andar, três acomodações fogem da regra das aves. São as maiores do hotel e levam o nome dos três grandes predadores da Amazônia: a onça-pintada, a jaguatirica e o jacaré-açu. Kaluanã quer dizer grande guerreiro. Estes são os guardiões da casa."
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - navigation "O site":
+    - heading "O site" [level=2]
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+      - listitem:
+        - link "Reservas":
+          - /url: /reservas
+      - listitem:
+        - link "Contato":
+          - /url: /contato
+      - listitem:
+        - link "Perguntas frequentes":
+          - /url: /perguntas-frequentes
+      - listitem:
+        - link "Trabalhe conosco":
+          - /url: /trabalhe-conosco
+  - navigation "Universo Kaluanã":
+    - heading "Universo Kaluanã" [level=2]
+    - list:
+      - listitem:
+        - link "Andar dos Rios":
+          - /url: /universo/rios
+      - listitem:
+        - link "Andar dos Peixes":
+          - /url: /universo/peixes
+      - listitem:
+        - link "Andar das Árvores":
+          - /url: /universo/arvores
+      - listitem:
+        - link "Andar das Aves":
+          - /url: /universo/aves
+      - listitem:
+        - link "Os Guardiões":
+          - /url: /universo/guardioes
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

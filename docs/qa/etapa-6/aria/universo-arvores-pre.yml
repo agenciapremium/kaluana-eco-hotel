@@ -1,0 +1,166 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: 3º andar
+  - heading "Andar das Árvores" [level=1]
+  - paragraph: Árvores da Amazônia. Muitas delas estão no que você toca.
+  - paragraph: "Algumas passam de 50 metros, como a samaúma e a castanheira. Outras dão óleo, fruta, látex, tinta e remédio. Todas crescem em Rondônia. Várias estão no material deste hotel: no piso, nos móveis, na mesa do restaurante."
+  - button "Silenciar"
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem: Andar das Árvores
+  - heading "As árvores." [level=2]
+  - group "Filtrar por uso":
+    - button "Madeira"
+    - button "Óleo"
+    - button "Fruta"
+    - button "Sombra"
+  - paragraph: Mostrando todas as árvores
+  - list:
+    - listitem:
+      - link "Samaúma, tronco e sapopemas de baixo para cima Samaúma A mãe das árvores":
+        - /url: /universo/arvores/samauma
+        - img "Samaúma, tronco e sapopemas de baixo para cima"
+        - heading "Samaúma" [level=3]
+        - paragraph: A mãe das árvores
+    - listitem:
+      - link "Castanheira, árvore isolada com copa alta Castanheira A árvore que depende de todo mundo":
+        - /url: /universo/arvores/castanheira
+        - img "Castanheira, árvore isolada com copa alta"
+        - heading "Castanheira" [level=3]
+        - paragraph: A árvore que depende de todo mundo
+    - listitem:
+      - link "Copaíba, copa vista de baixo com galhos Copaíba A árvore que dá óleo sem cair":
+        - /url: /universo/arvores/copaiba
+        - img "Copaíba, copa vista de baixo com galhos"
+        - heading "Copaíba" [level=3]
+        - paragraph: A árvore que dá óleo sem cair
+    - listitem:
+      - link "Andiroba, frutos e folhas em detalhe Andiroba A árvore do óleo que espanta mosquito":
+        - /url: /universo/arvores/andiroba
+        - img "Andiroba, frutos e folhas em detalhe"
+        - heading "Andiroba" [level=3]
+        - paragraph: A árvore do óleo que espanta mosquito
+    - listitem:
+      - link "Açaí, açaizal com vários troncos Açaí A palmeira que alimenta o Norte":
+        - /url: /universo/arvores/acai
+        - img "Açaí, açaizal com vários troncos"
+        - heading "Açaí" [level=3]
+        - paragraph: A palmeira que alimenta o Norte
+    - listitem:
+      - link "Cumaru, tronco reto visto de baixo Cumaru A árvore da fava que cheira a baunilha":
+        - /url: /universo/arvores/cumaru
+        - img "Cumaru, tronco reto visto de baixo"
+        - heading "Cumaru" [level=3]
+        - paragraph: A árvore da fava que cheira a baunilha
+    - listitem:
+      - link "Cedro, árvore inteira contra o céu Cedro A madeira que cheira e protege":
+        - /url: /universo/arvores/cedro
+        - img "Cedro, árvore inteira contra o céu"
+        - heading "Cedro" [level=3]
+        - paragraph: A madeira que cheira e protege
+    - listitem:
+      - link "Mogno, tronco e copa vistos de baixo Mogno O ouro verde":
+        - /url: /universo/arvores/mogno
+        - img "Mogno, tronco e copa vistos de baixo"
+        - heading "Mogno" [level=3]
+        - paragraph: O ouro verde
+    - listitem:
+      - link "Ipê, copa amarela vista de baixo Ipê A árvore que floresce sem folhas":
+        - /url: /universo/arvores/ipe
+        - img "Ipê, copa amarela vista de baixo"
+        - heading "Ipê" [level=3]
+        - paragraph: A árvore que floresce sem folhas
+    - listitem:
+      - link "Jatobá, árvore isolada em gramado Jatobá A árvore da farinha, da resina e dos séculos":
+        - /url: /universo/arvores/jatoba
+        - img "Jatobá, árvore isolada em gramado"
+        - heading "Jatobá" [level=3]
+        - paragraph: A árvore da farinha, da resina e dos séculos
+    - listitem:
+      - link "Bacaba, palmeira com cachos vermelhos Bacaba A prima do açaí que dá óleo de oliva":
+        - /url: /universo/arvores/bacaba
+        - img "Bacaba, palmeira com cachos vermelhos"
+        - heading "Bacaba" [level=3]
+        - paragraph: A prima do açaí que dá óleo de oliva
+    - listitem:
+      - link "Tucumã, cacho de frutos laranja Tucumã A palmeira de espinhos e fruta laranja":
+        - /url: /universo/arvores/tucuma
+        - img "Tucumã, cacho de frutos laranja"
+        - heading "Tucumã" [level=3]
+        - paragraph: A palmeira de espinhos e fruta laranja
+    - listitem:
+      - link "Angelim, tronco reto visto de baixo, sem galhos Angelim A família da árvore mais alta da Amazônia":
+        - /url: /universo/arvores/angelim
+        - img "Angelim, tronco reto visto de baixo, sem galhos"
+        - heading "Angelim" [level=3]
+        - paragraph: A família da árvore mais alta da Amazônia
+    - listitem:
+      - link "Maçaranduba, galhos e tronco vistos de baixo Maçaranduba A madeira que afunda e o fruto que adoça":
+        - /url: /universo/arvores/macaranduba
+        - img "Maçaranduba, galhos e tronco vistos de baixo"
+        - heading "Maçaranduba" [level=3]
+        - paragraph: A madeira que afunda e o fruto que adoça
+    - listitem:
+      - link "Jenipapo, frutos verdes na árvore com céu azul Jenipapo A fruta que vira tinta":
+        - /url: /universo/arvores/jenipapo
+        - img "Jenipapo, frutos verdes na árvore com céu azul"
+        - heading "Jenipapo" [level=3]
+        - paragraph: A fruta que vira tinta
+    - listitem:
+      - link "Itaúba, casca em placas em detalhe Itaúba A madeira das canoas":
+        - /url: /universo/arvores/itauba
+        - img "Itaúba, casca em placas em detalhe"
+        - heading "Itaúba" [level=3]
+        - paragraph: A madeira das canoas
+    - listitem:
+      - link "Seringueira, seringal com tigelas nos troncos Seringueira A árvore que construiu Rondônia":
+        - /url: /universo/arvores/seringueira
+        - img "Seringueira, seringal com tigelas nos troncos"
+        - heading "Seringueira" [level=3]
+        - paragraph: A árvore que construiu Rondônia
+    - listitem:
+      - link "Jequitibá, tronco imenso visto de baixo Jequitibá O gigante que atravessa os séculos":
+        - /url: /universo/arvores/jequitiba
+        - img "Jequitibá, tronco imenso visto de baixo"
+        - heading "Jequitibá" [level=3]
+        - paragraph: O gigante que atravessa os séculos
+  - text: Materiais
+  - heading "A madeira do Kaluanã tem nome e origem." [level=2]
+  - paragraph: As madeiras usadas na obra vêm de manejo florestal com documento de origem. Esta lista diz quais são e onde estão.
+  - link "Voltar ao Universo":
+    - /url: /universo
+  - paragraph: "O terceiro andar do Kaluanã leva nomes de árvores da Amazônia. Algumas passam de 50 metros, como a samaúma e a castanheira. Outras dão óleo, fruta, látex, tinta e remédio. Todas crescem em Rondônia. Muitas delas estão no material que você toca neste hotel: no piso, nos móveis, na mesa do restaurante."
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

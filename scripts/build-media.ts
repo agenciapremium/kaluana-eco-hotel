@@ -8,6 +8,7 @@
  * Precisa de ffmpeg no PATH e da pasta ../DOCS. Roda localmente; as saídas são versionadas,
  * porque a Vercel não tem ffmpeg nem DOCS.
  * Use: npm run build:media [-- --only=imagens|video|andares|abertura|marca] [--grupo=<grupo de imagens>]
+ *        [--slug=<slug>,<slug>]
  */
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
@@ -66,6 +67,11 @@ const manifest = JSON.parse(
 const only = process.argv.find((a) => a.startsWith("--only="))?.slice(7);
 /** Processa só um grupo de imagens (ex.: --grupo=acomodacoes), para não refazer tudo a cada etapa. */
 const grupo = process.argv.find((a) => a.startsWith("--grupo="))?.slice(8);
+/** Processa só as imagens indicadas (ex.: --slug=arvores-jequitiba,arvores-samauma). */
+const slugs = process.argv
+  .find((a) => a.startsWith("--slug="))
+  ?.slice(7)
+  .split(",");
 const mediaJsonPath = resolve(root, "content/media.json");
 const media: MediaJson = existsSync(mediaJsonPath)
   ? (JSON.parse(readFileSync(mediaJsonPath, "utf8")) as MediaJson)
@@ -148,9 +154,57 @@ function kb(file: string) {
   return Math.round(statSync(file).size / 1024);
 }
 
+/**
+ * Teto de peso por largura, em KB, para as imagens do Universo (Parte 2.6: página do Universo
+ * abaixo de 700 KB). Foto de folhagem densa comprime mal: com a qualidade padrão, o hero do
+ * jequitibá saía com 250 KB em 1024 px e 592 KB em 1920 px, e a página passava do orçamento.
+ * Acima do teto, a qualidade desce de 8 em 8, até três vezes, como a compressão por tentativa
+ * dos vídeos de andar (decisão 46). A foto fica sob o véu escuro do hero, onde a perda de
+ * detalhe fino não aparece. Os demais grupos seguem com a qualidade padrão.
+ */
+const tetoKB: Record<string, Record<"avif" | "webp", Record<number, number>>> = {
+  universo: {
+    avif: { 640: 60, 1024: 120, 1600: 240, 1920: 320 },
+    webp: { 640: 110, 1024: 220, 1600: 440, 1920: 580 },
+  },
+};
+const qualidadePadrao = { avif: 50, webp: 78 } as const;
+
+async function gravar(
+  base: ReturnType<typeof sharp>,
+  formato: "avif" | "webp",
+  arquivo: string,
+  grupoDaImagem: string,
+  largura: number,
+) {
+  const tetos = tetoKB[grupoDaImagem]?.[formato];
+  // Largura fora do padrão (a do original) usa o teto da largura padrão seguinte.
+  const faixa = tetos
+    ? Object.keys(tetos)
+        .map(Number)
+        .sort((a, b) => a - b)
+        .find((l) => l >= largura)
+    : undefined;
+  const teto = tetos && faixa ? tetos[faixa] : undefined;
+  let qualidade: number = qualidadePadrao[formato];
+  for (let tentativa = 0; ; tentativa++) {
+    const buffer =
+      formato === "avif"
+        ? await base.clone().avif({ quality: qualidade, effort: 6 }).toBuffer()
+        : await base.clone().webp({ quality: qualidade, effort: 5 }).toBuffer();
+    if (!teto || buffer.length / 1024 <= teto || tentativa === 3) {
+      writeFileSync(arquivo, buffer);
+      return { kb: Math.round(buffer.length / 1024), qualidade };
+    }
+    qualidade -= 8;
+  }
+}
+
 async function buildImages() {
   for (const img of manifest.imagens) {
     if (grupo && img.grupo !== grupo) continue;
+    if (slugs && !slugs.includes(img.slug)) continue;
+    const ajustes: string[] = [];
     const input = srcPath(img.src);
     const outDir = resolve(root, "public/media", img.grupo);
     mkdirSync(outDir, { recursive: true });
@@ -169,8 +223,11 @@ async function buildImages() {
         width = Math.round(origHeight / ratio);
       }
     }
+    // Larguras padrão que cabem no original e, se sobrar resolução, a do próprio original, até
+    // 1920 px. Antes, uma foto de 964 px saía só em 640 px e aparecia ampliada em tela cheia.
     const widths: number[] = imageWidths.filter((w) => w <= width);
-    if (widths.length === 0) widths.push(width);
+    const maior = Math.min(width, imageWidths[imageWidths.length - 1]);
+    if (widths.length === 0 || maior - widths[widths.length - 1] >= 100) widths.push(maior);
     for (const w of widths) {
       const base = crop
         ? sharp(input)
@@ -183,14 +240,25 @@ async function buildImages() {
               withoutEnlargement: true,
             })
         : sharp(input).rotate().resize({ width: w, withoutEnlargement: true });
-      await base
-        .clone()
-        .webp({ quality: 78, effort: 5 })
-        .toFile(resolve(outDir, `${img.slug}-${w}.webp`));
-      await base
-        .clone()
-        .avif({ quality: 50, effort: 6 })
-        .toFile(resolve(outDir, `${img.slug}-${w}.avif`));
+      const webp = await gravar(
+        base,
+        "webp",
+        resolve(outDir, `${img.slug}-${w}.webp`),
+        img.grupo,
+        w,
+      );
+      const avif = await gravar(
+        base,
+        "avif",
+        resolve(outDir, `${img.slug}-${w}.avif`),
+        img.grupo,
+        w,
+      );
+      if (webp.qualidade !== qualidadePadrao.webp || avif.qualidade !== qualidadePadrao.avif) {
+        ajustes.push(
+          `${w}: webp q${webp.qualidade} ${webp.kb} KB, avif q${avif.qualidade} ${avif.kb} KB`,
+        );
+      }
     }
     const blur = crop
       ? await sharp(input)
@@ -216,7 +284,7 @@ async function buildImages() {
       original: basename(img.src),
     };
     process.stdout.write(
-      `imagem: ${img.grupo}/${img.slug} ${origWidth}x${origHeight}${crop ? ` recorte ${img.crop}` : ""} -> ${widths.join(", ")}\n`,
+      `imagem: ${img.grupo}/${img.slug} ${origWidth}x${origHeight}${crop ? ` recorte ${img.crop}` : ""} -> ${widths.join(", ")}${ajustes.length ? ` (teto de peso: ${ajustes.join("; ")})` : ""}\n`,
     );
   }
 }

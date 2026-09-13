@@ -48,6 +48,11 @@ export function HomeFull({ pagina }: { pagina: Pagina }) {
   const jiparana = getSecao(pagina, "Ji-Paraná");
   const historias = getSecao(pagina, "Histórias");
   const final = getSecao(pagina, "Chamada final");
+  // A resposta direta do mestre cita auditório e centro de convenções, que só entram com a
+  // autorização do cliente (veto 3).
+  const resposta = eventosAutorizado
+    ? pagina.seo.resposta.trim()
+    : pagina.seo.resposta.trim().replace(", auditório e centro de convenções,", "");
 
   const [jeitosIntro, ...perfis] = splitParagraphs(jeitos.texto ?? "");
   const cards = perfis.map((p, i) => {
@@ -59,7 +64,7 @@ export function HomeFull({ pagina }: { pagina: Pagina }) {
     <>
       <JsonLd
         data={[
-          hotelSchema({ description: pagina.seo.resposta.trim(), restaurante: true }),
+          hotelSchema({ description: resposta, restaurante: true }),
           organizationSchema(),
           websiteSchema(),
           breadcrumbSchema([{ name: "Início", url: "/" }]),
@@ -70,7 +75,7 @@ export function HomeFull({ pagina }: { pagina: Pagina }) {
         image={img.hero}
         kicker={hero.kicker}
         title={pagina.seo.h1}
-        lead={pagina.seo.resposta.trim()}
+        lead={resposta}
         text={hero.texto ? <CopyParagraphs text={hero.texto} /> : null}
         actions={
           <>

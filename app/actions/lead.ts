@@ -1,9 +1,14 @@
 "use server";
 
-import { headers } from "next/headers";
 import { redirect } from "next/navigation";
-import { Resend } from "resend";
 import { z } from "zod";
+import {
+  criarLimitador,
+  enviarEmail,
+  errosPorCampo,
+  ipDaRequisicao,
+  registrarFalha,
+} from "@/lib/formularios";
 
 const LeadSchema = z.object({
   nome: z.string().trim().min(2, "Escreva seu nome.").max(120, "Nome muito longo."),
@@ -21,18 +26,7 @@ const LeadSchema = z.object({
 
 export type LeadState = { erro: string; campos?: Record<string, string> } | null;
 
-const LIMITE = 5;
-const JANELA_MS = 10 * 60 * 1000;
-const envios = new Map<string, number[]>();
-
-function limitado(ip: string) {
-  const agora = Date.now();
-  const lista = (envios.get(ip) ?? []).filter((t) => agora - t < JANELA_MS);
-  if (lista.length >= LIMITE) return true;
-  lista.push(agora);
-  envios.set(ip, lista);
-  return false;
-}
+const passouDoLimite = criarLimitador();
 
 const rotulos: Record<string, string> = {
   hospede: "Hóspede",
@@ -40,29 +34,6 @@ const rotulos: Record<string, string> = {
   imprensa: "Imprensa",
   fornecedor: "Fornecedor",
 };
-
-async function enviarEmail(d: z.infer<typeof LeadSchema>) {
-  const key = process.env.RESEND_API_KEY;
-  const to = process.env.LEAD_TO_EMAIL;
-  const from = process.env.LEAD_FROM_EMAIL || "site@kaluanaecohotel.com.br";
-  if (!key || !to) return; // sem configuração, o envio é simulado (desenvolvimento)
-  const resend = new Resend(key);
-  const linhas = [
-    `Nome: ${d.nome}`,
-    `E-mail: ${d.email}`,
-    `Telefone: ${d.telefone}`,
-    `Perfil: ${rotulos[d.sou]}`,
-    d.empresa ? `Empresa: ${d.empresa}` : null,
-    `Origem: ${d.origem === "pre" ? "Página de pré-inauguração" : "Bloco Empresas"}`,
-  ].filter(Boolean);
-  await resend.emails.send({
-    from,
-    to,
-    replyTo: d.email,
-    subject: `Novo contato pelo site: ${d.nome} (${rotulos[d.sou]})`,
-    text: linhas.join("\n"),
-  });
-}
 
 /** Formulário "Avisamos você primeiro". Evento de conversão: lead_pre_inauguracao (disparado em /obrigado). */
 export async function enviarLead(_prev: LeadState, formData: FormData): Promise<LeadState> {
@@ -75,26 +46,31 @@ export async function enviarLead(_prev: LeadState, formData: FormData): Promise<
 
   const parsed = LeadSchema.safeParse(dados);
   if (!parsed.success) {
-    const campos: Record<string, string> = {};
-    for (const issue of parsed.error.issues) {
-      const k = String(issue.path[0] ?? "");
-      if (k && !campos[k]) campos[k] = issue.message;
-    }
-    return { erro: "Confira os campos marcados.", campos };
+    return { erro: "Confira os campos marcados.", campos: errosPorCampo(parsed.error.issues) };
   }
 
-  const h = await headers();
-  const ip =
-    (h.get("x-forwarded-for") ?? "").split(",")[0].trim() || h.get("x-real-ip") || "desconhecido";
-  if (limitado(ip)) {
+  if (passouDoLimite(await ipDaRequisicao())) {
     return { erro: "Muitos envios em pouco tempo. Tente de novo em alguns minutos." };
   }
 
+  const d = parsed.data;
   try {
-    await enviarEmail(parsed.data);
-  } catch {
+    await enviarEmail({
+      assunto: `Novo contato pelo site: ${d.nome} (${rotulos[d.sou]})`,
+      responderPara: d.email,
+      linhas: [
+        `Nome: ${d.nome}`,
+        `E-mail: ${d.email}`,
+        `Telefone: ${d.telefone}`,
+        `Perfil: ${rotulos[d.sou]}`,
+        d.empresa ? `Empresa: ${d.empresa}` : null,
+        `Origem: ${d.origem === "pre" ? "Página de pré-inauguração" : "Bloco Empresas"}`,
+      ],
+    });
+  } catch (e) {
+    registrarFalha("lead", e);
     return { erro: "Não conseguimos enviar agora. Tente de novo em instantes." };
   }
 
-  redirect(`/obrigado?perfil=${parsed.data.sou}`);
+  redirect(`/obrigado?perfil=${d.sou}`);
 }
