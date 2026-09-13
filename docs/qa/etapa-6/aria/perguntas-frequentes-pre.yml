@@ -1,0 +1,61 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: Perguntas frequentes
+  - heading "Perguntas frequentes" [level=1]
+  - paragraph: "As perguntas mais comuns sobre o Kaluanã Eco Hotel, em Ji-Paraná: horários de check-in e check-out, café da manhã incluído, estacionamento, acessibilidade, restaurante aberto ao público e distâncias do aeroporto e da rodoviária."
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Perguntas frequentes
+  - text: Respostas
+  - heading "O que perguntam sobre o Kaluanã." [level=2]
+  - text: Procure uma pergunta
+  - searchbox "Procure uma pergunta"
+  - paragraph: 11 perguntas
+  - heading "O hotel" [level=3]
+  - group: Onde fica o Kaluanã Eco Hotel?
+  - group: Quando o Kaluanã Eco Hotel abre?
+  - group: Por que os quartos têm nome de rio, peixe, árvore e ave?
+  - group: O que significa Kaluanã?
+  - heading "A estadia" [level=3]
+  - group: Qual o horário de check-in e check-out?
+  - group: O café da manhã está incluído?
+  - group: O hotel tem estacionamento?
+  - group: O hotel tem quartos acessíveis?
+  - group: O hotel tem internet?
+  - heading "Serviços" [level=3]
+  - group: O restaurante é aberto ao público?
+  - group: Como faço uma reserva para empresa?
+  - paragraph: Não achou? Escreva para a gente.
+  - link "Falar com o hotel":
+    - /url: /contato
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

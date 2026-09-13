@@ -1,0 +1,334 @@
+{
+  "fase": "full",
+  "base": "http://localhost:3101",
+  "data": "2026-09-13T01:26:38.542Z",
+  "aprovados": 21,
+  "total": 21,
+  "casos": [
+    {
+      "id": "C1",
+      "formulario": "Contato",
+      "descricao": "Envio válido",
+      "esperado": "vai para /obrigado?perfil=contato, dispara lead_pre_inauguracao e envia o e-mail",
+      "obtido": "redirect /obrigado?perfil=contato; eventos: {\"event\":\"lead_pre_inauguracao\",\"perfil\":\"contato\"}; e-mail: \"Contato pelo site: Reserva, Maria Teste\", resposta para maria.teste@example.com",
+      "ok": true
+    },
+    {
+      "id": "C2",
+      "formulario": "Contato",
+      "descricao": "Mensagem curta demais (oi)",
+      "esperado": "erro no campo de mensagem, nenhum e-mail",
+      "obtido": "erro: Escreva sua mensagem. / Confira os campos marcados.",
+      "ok": true
+    },
+    {
+      "id": "C3",
+      "formulario": "Contato",
+      "descricao": "Sem JavaScript, envio válido",
+      "esperado": "o POST nativo leva a /obrigado e envia o e-mail",
+      "obtido": "/obrigado?perfil=contato; e-mails novos: 1",
+      "ok": true
+    },
+    {
+      "id": "C4",
+      "formulario": "Contato",
+      "descricao": "API de e-mail recusa o envio",
+      "esperado": "o visitante vê o erro; nada de /obrigado",
+      "obtido": "erro /contato Não conseguimos enviar agora. Tente de novo em instantes.",
+      "ok": true
+    },
+    {
+      "id": "P1",
+      "formulario": "Pré-reserva (Reservas)",
+      "descricao": "Envio válido com datas",
+      "esperado": "vai para /obrigado?perfil=pre-reserva, dispara lead_pre_inauguracao e reservar_click, e-mail com as datas",
+      "obtido": "redirect /obrigado?perfil=pre-reserva; eventos: {\"event\":\"lead_pre_inauguracao\",\"perfil\":\"pre-reserva\"} {\"event\":\"reservar_click\",\"origem\":\"pre_reserva\"}; e-mail: Entrada prevista: 2027-01-10 | Saída prevista: 2027-01-12 | Empresa: Agro Teste Ltda",
+      "ok": true
+    },
+    {
+      "id": "V1",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "PDF de 40 KB",
+      "esperado": "vai para /obrigado com o PDF anexado ao e-mail",
+      "obtido": "redirect /obrigado?perfil=curriculo ; anexo curriculo-40kb.pdf 40 KB",
+      "ok": true
+    },
+    {
+      "id": "V2",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "DOCX de 40 KB",
+      "esperado": "vai para /obrigado com o DOCX anexado",
+      "obtido": "redirect /obrigado?perfil=curriculo ; anexo curriculo.docx 40 KB",
+      "ok": true
+    },
+    {
+      "id": "V3",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "Sem arquivo (campo opcional)",
+      "esperado": "vai para /obrigado, e-mail avisa que não há anexo",
+      "obtido": "redirect /obrigado?perfil=curriculo ",
+      "ok": true
+    },
+    {
+      "id": "V4",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "Imagem PNG no lugar do currículo",
+      "esperado": "recusa com a mensagem de formato",
+      "obtido": "erro /trabalhe-conosco Envie o currículo em PDF ou DOCX.",
+      "ok": true
+    },
+    {
+      "id": "V5",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "PDF de 900 KB",
+      "esperado": "vai para /obrigado com o anexo",
+      "obtido": "redirect /obrigado?perfil=curriculo ; anexo curriculo-900kb.pdf 900 KB",
+      "ok": true
+    },
+    {
+      "id": "V6",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "PDF de 2 MB",
+      "esperado": "vai para /obrigado com o anexo",
+      "obtido": "redirect /obrigado?perfil=curriculo ; anexo curriculo-2mb.pdf 2048 KB",
+      "ok": true
+    },
+    {
+      "id": "V7",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "PDF de 3,9 MB (perto do limite de 4 MB)",
+      "esperado": "vai para /obrigado com o anexo",
+      "obtido": "redirect /obrigado?perfil=curriculo ; anexo curriculo-3-9mb.pdf 3994 KB",
+      "ok": true
+    },
+    {
+      "id": "V8",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "PDF de 4,5 MB",
+      "esperado": "recusa ao escolher o arquivo, com a mensagem de 4 MB, sem enviar",
+      "obtido": "erro /trabalhe-conosco O arquivo passa de 4 MB. Envie uma versão menor.",
+      "ok": true
+    },
+    {
+      "id": "V9",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "PDF de 6 MB",
+      "esperado": "recusa ao escolher o arquivo, com a mensagem de 4 MB, sem enviar",
+      "obtido": "erro /trabalhe-conosco O arquivo passa de 4 MB. Envie uma versão menor.",
+      "ok": true
+    },
+    {
+      "id": "V10",
+      "formulario": "Currículo (Trabalhe conosco)",
+      "descricao": "Sem JavaScript, PDF de 4,2 MB (a checagem do navegador não existe)",
+      "esperado": "o servidor recusa e a página volta com a mensagem de 4 MB",
+      "obtido": "/trabalhe-conosco; mensagens: Envie um arquivo de até 4 MB. / O arquivo passa de 4 MB.; e-mails novos: 0",
+      "ok": true
+    },
+    {
+      "id": "E1",
+      "formulario": "Pedido de proposta (Eventos)",
+      "descricao": "Três passos preenchidos",
+      "esperado": "vai para /obrigado?perfil=evento, dispara lead_evento e envia o e-mail",
+      "obtido": "redirect /obrigado?perfil=evento; eventos: {\"event\":\"lead_evento\",\"origem\":\"eventos\"}; e-mail: \"Proposta de evento: Treinamento, Maria Teste\", resposta para maria.teste@example.com",
+      "ok": true
+    },
+    {
+      "id": "E2",
+      "formulario": "Pedido de proposta (Eventos)",
+      "descricao": "Pula para o terceiro passo pelo indicador, sem preencher o segundo, e envia",
+      "esperado": "o formulário volta ao passo 2 com o foco no primeiro campo pendente e nada é enviado",
+      "obtido": "passo 2; campo nome visível: true; foco em: ev-nome; e-mails novos: 0; console: vazio",
+      "ok": true
+    },
+    {
+      "id": "E2b",
+      "formulario": "Pedido de proposta (Eventos)",
+      "descricao": "Continuar no passo 2 com os campos vazios",
+      "esperado": "o formulário fica no passo 2 e o foco vai para o campo obrigatório",
+      "obtido": "passo 2; foco em: ev-nome; região viva: \"Passo 2 de 3: Você\"",
+      "ok": true
+    },
+    {
+      "id": "E3",
+      "formulario": "Pedido de proposta (Eventos)",
+      "descricao": "Sem JavaScript, formulário inteiro",
+      "esperado": "todos os campos visíveis, o POST leva a /obrigado",
+      "obtido": "/obrigado?perfil=evento; e-mails novos: 1",
+      "ok": true
+    },
+    {
+      "id": "E4",
+      "formulario": "Pedido de proposta (Eventos)",
+      "descricao": "API de e-mail recusa o envio",
+      "esperado": "o visitante vê o erro; nada de /obrigado",
+      "obtido": "erro /eventos Não conseguimos enviar agora. Tente de novo em instantes.",
+      "ok": true
+    },
+    {
+      "id": "S1",
+      "formulario": "Medição",
+      "descricao": "Dois formulários diferentes na mesma sessão (Contato e depois Pré-reserva)",
+      "esperado": "cada envio dispara o seu evento de conversão",
+      "obtido": "primeiro: {\"event\":\"lead_pre_inauguracao\",\"perfil\":\"contato\"}; segundo: {\"event\":\"lead_pre_inauguracao\",\"perfil\":\"pre-reserva\"} {\"event\":\"reservar_click\",\"origem\":\"pre_reserva\"}",
+      "ok": true
+    }
+  ],
+  "emails": [
+    {
+      "assunto": "Contato pelo site: Reserva, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 5,
+      "anexos": []
+    },
+    {
+      "assunto": "Contato pelo site: Reserva, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 5,
+      "anexos": []
+    },
+    {
+      "assunto": "Pré-reserva pelo site: Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 6,
+      "anexos": []
+    },
+    {
+      "assunto": "Currículo pelo site: Recepção, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 6,
+      "anexos": [
+        {
+          "arquivo": "curriculo-40kb.pdf",
+          "kb": 40
+        }
+      ]
+    },
+    {
+      "assunto": "Currículo pelo site: Recepção, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 6,
+      "anexos": [
+        {
+          "arquivo": "curriculo.docx",
+          "kb": 40
+        }
+      ]
+    },
+    {
+      "assunto": "Currículo pelo site: Recepção, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 6,
+      "anexos": []
+    },
+    {
+      "assunto": "Currículo pelo site: Recepção, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 6,
+      "anexos": [
+        {
+          "arquivo": "curriculo-900kb.pdf",
+          "kb": 900
+        }
+      ]
+    },
+    {
+      "assunto": "Currículo pelo site: Recepção, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 6,
+      "anexos": [
+        {
+          "arquivo": "curriculo-2mb.pdf",
+          "kb": 2048
+        }
+      ]
+    },
+    {
+      "assunto": "Currículo pelo site: Recepção, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 6,
+      "anexos": [
+        {
+          "arquivo": "curriculo-3-9mb.pdf",
+          "kb": 3994
+        }
+      ]
+    },
+    {
+      "assunto": "Proposta de evento: Treinamento, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 10,
+      "anexos": []
+    },
+    {
+      "assunto": "Proposta de evento: Treinamento, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 6,
+      "anexos": []
+    },
+    {
+      "assunto": "Contato pelo site: Reserva, Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 5,
+      "anexos": []
+    },
+    {
+      "assunto": "Pré-reserva pelo site: Maria Teste",
+      "para": [
+        "qa@kaluana.test"
+      ],
+      "de": "site@kaluanaecohotel.com.br",
+      "respostaPara": "maria.teste@example.com",
+      "linhas": 6,
+      "anexos": []
+    }
+  ]
+}

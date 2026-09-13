@@ -1,0 +1,70 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: Restaurante Kaluanã
+  - heading "Restaurante Kaluanã" [level=1]
+  - paragraph: Aberto para a cidade.
+  - paragraph: O Restaurante Kaluanã fica dentro do hotel e é de todo mundo. Café da manhã cedo para quem viaja, almoço para quem trabalha por perto, jantar para quem quer sentar sem hora para levantar.
+  - link "Reservar mesa":
+    - /url: /contato
+  - link "Ver o cardápio":
+    - /url: "#quando"
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Restaurante Kaluanã
+  - text: O que servimos
+  - heading "Peixe de Rondônia, feito do jeito daqui." [level=2]
+  - paragraph: Tambaqui, pirarucu, tucunaré e matrinxã. Farinha, pirão, vinagrete e o que a estação der. Uma cozinha que conhece o rio de onde o peixe veio.
+  - link "Os peixes do Universo":
+    - /url: /universo/peixes
+  - img "Garfo levantando uma lasca de peixe grelhado, com vapor, sobre prato escuro"
+  - img "Três tigelas de barro com farinha, pirão e vinagrete, vistas de cima"
+  - text: Quando
+  - heading "Café, almoço e jantar." [level=2]
+  - paragraph: Café da manhã
+  - paragraph: Almoço
+  - paragraph: Jantar
+  - paragraph: Hóspedes têm o café incluído.
+  - img "Xícara de café e um pedaço de pão de queijo num balcão de madeira ao amanhecer"
+  - img "Canto de mesa posta ao meio-dia, com guardanapo de linho, talheres e copo de água"
+  - text: Almoço de negócios
+  - heading "Mesa reservada para quem fecha negócio no almoço." [level=2]
+  - paragraph: Espaço para reuniões à mesa e coffee break para eventos no hotel.
+  - link "Falar com o restaurante":
+    - /url: /contato
+  - img "Guardanapos de linho verde dobrados em fila numa mesa longa, com jarra de água"
+  - heading "Reserve sua mesa." [level=2]
+  - link "Reservar mesa":
+    - /url: /contato
+  - link "Como chegar":
+    - /url: /ji-parana
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

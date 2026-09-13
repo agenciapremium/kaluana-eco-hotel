@@ -1,0 +1,195 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - navigation "Principal":
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+  - link "Contato":
+    - /url: /contato
+  - link "Reservar":
+    - /url: /reservas
+  - button "Abrir menu"
+- main:
+  - text: Ji-Paraná, Rondônia
+  - heading "Hotel em Ji-Paraná para quem chega cansado, precisa produzir ou precisa parar." [level=1]
+  - paragraph: O Kaluanã Eco Hotel é um hotel em Ji-Paraná, Rondônia, na Rodovia Pastor Severo Antonio de Araujo, 2015. Tem restaurante aberto ao público e quartos nomeados com rios, peixes, árvores e aves da Amazônia. Inauguração prevista para dezembro de 2026.
+  - paragraph: O Kaluanã é um eco hotel novo em Ji-Paraná, com restaurante aberto ao público e espaços para eventos. Quartos com nome de rio, de peixe, de árvore e de ave. Abre em dezembro de 2026.
+  - link "Reservar":
+    - /url: /reservas
+  - link "Conhecer o hotel":
+    - /url: /o-kaluana
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - text: Para quem é
+  - heading "Três jeitos de chegar no Kaluanã." [level=2]
+  - paragraph: Cada hóspede chega de um jeito. O hotel foi pensado para três deles.
+  - img "Mãos sobre um balcão de madeira, uma delas com uma chave"
+  - heading "Chegou cansado." [level=3]
+  - paragraph: Veio de estrada, chegou tarde, precisa de cama, chuveiro e silêncio. Check-in rápido, café cedo e a certeza de acordar apresentável.
+  - img "Mesa de madeira com notebook fechado, caneca de café e bloco de notas"
+  - heading "Precisa produzir." [level=3]
+  - paragraph: Tem reunião amanhã, relatório hoje e uma ligação daqui a pouco. Mesa de trabalho, internet que funciona, café à mão e um lugar para receber gente.
+  - img "Cadeira de madeira com almofada de linho, folhagem ao fundo"
+  - heading "Precisa parar." [level=3]
+  - paragraph: Não tem hora para nada. Restaurante sem pressa, varanda, uma tarde sem agenda e um quarto com nome de rio para saber onde está.
+  - link "Ver acomodações":
+    - /url: /acomodacoes
+  - img "Símbolo do Kaluanã"
+  - text: Kaluanã
+  - heading "Grande guerreiro." [level=2]
+  - paragraph: "Kaluanã é um nome de origem indígena. Quer dizer grande guerreiro. Foi a primeira decisão do hotel e é a que explica todas as outras: um lugar que respeita a terra onde está, a cidade que o recebe e a pessoa que entra pela porta."
+  - link "A história do Kaluanã":
+    - /url: /o-kaluana
+  - text: Universo Kaluanã
+  - heading "Cada quarto tem um nome. Cada nome tem uma história." [level=2]
+  - paragraph: No primeiro andar, os rios. No segundo, os peixes. No terceiro, as árvores. No quarto, as aves. Cada porta leva o nome de um elemento da Amazônia e cada quarto tem um QR Code que conta a história dele. Você pode dormir no Rio Machado, que corta Ji-Paraná, ou na Samaúma, a árvore mais alta da floresta.
+  - region "Andar dos Rios, 1º andar":
+    - text: 1º andar
+    - heading "Rios" [level=3]
+    - link "Ver o andar dos rios":
+      - /url: /universo/rios
+    - img "Rio Machado, proa de barco na água em Ji-Paraná"
+    - text: Quarto com nome
+    - paragraph: Rio Machado
+  - region "Andar dos Peixes, 2º andar":
+    - text: 2º andar
+    - heading "Peixes" [level=3]
+    - link "Ver o andar dos peixes":
+      - /url: /universo/peixes
+    - img "Jaú, bagre de couro visto de lado"
+    - text: Quarto com nome
+    - paragraph: Jaú
+  - region "Andar das Árvores, 3º andar":
+    - text: 3º andar
+    - heading "Árvores" [level=3]
+    - link "Ver o andar das árvores":
+      - /url: /universo/arvores
+    - img "Samaúma, tronco e sapopemas vistos de baixo"
+    - text: Quarto com nome
+    - paragraph: Samaúma
+  - region "Andar das Aves, 4º andar":
+    - text: 4º andar
+    - heading "Aves" [level=3]
+    - link "Ver o andar das aves":
+      - /url: /universo/aves
+    - img "Coruja-buraqueira de frente, pousada em tronco"
+    - text: Quarto com nome
+    - paragraph: Coruja
+  - link "Explorar os andares":
+    - /url: /universo
+  - text: Restaurante Kaluanã
+  - heading "Aberto para quem está hospedado e para quem não está." [level=2]
+  - img "Peixe grelhado em prato de cerâmica com farofa, vinagrete e limão"
+  - paragraph: O Restaurante Kaluanã fica no hotel e atende a cidade. Café da manhã, almoço e jantar, com peixe de Rondônia no cardápio e mesa para quem quer sentar sem hora para levantar.
+  - link "Conhecer o restaurante":
+    - /url: /restaurante
+  - text: Onde estamos
+  - heading "Ji-Paraná, o coração de Rondônia." [level=2]
+  - paragraph: A segunda maior cidade do estado, cortada pelo rio Machado e atravessada pela BR-364. Polo de negócios, de saúde, de ensino e de agro. O Kaluanã fica na Rodovia Pastor Severo Antonio de Araujo, 2015.
+  - link "Como chegar":
+    - /url: /ji-parana
+  - figure "Mapa esquemático, sem escala.":
+    - img "Mapa esquemático de Rondônia A BR-364 cruza o estado de Porto Velho a Vilhena. O rio Machado corta Ji-Paraná e segue ao norte até o rio Madeira. O Kaluanã fica em Ji-Paraná, no centro do estado.": Porto Velho Ariquemes Cacoal Vilhena Kaluanã Ji-Paraná rio Madeira rio Machado BR-364
+    - text: Mapa esquemático, sem escala.
+  - text: Diário do Kaluanã
+  - heading "A obra, contada por quem constrói." [level=2]
+  - img "Mãos segurando um punhado de terra vermelha, folhas ao fundo"
+  - paragraph: Antes de abrir as portas, o Kaluanã está sendo construído à vista de todo mundo. Acompanhe.
+  - link "Ler as histórias":
+    - /url: /historias
+  - heading "Chegue. O resto a gente resolve." [level=2]
+  - paragraph: Reservas abertas para dezembro de 2026.
+  - link "Reservar":
+    - /url: /reservas
+  - link "Falar com o hotel":
+    - /url: /contato
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - navigation "O site":
+    - heading "O site" [level=2]
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+      - listitem:
+        - link "Reservas":
+          - /url: /reservas
+      - listitem:
+        - link "Contato":
+          - /url: /contato
+      - listitem:
+        - link "Perguntas frequentes":
+          - /url: /perguntas-frequentes
+      - listitem:
+        - link "Trabalhe conosco":
+          - /url: /trabalhe-conosco
+  - navigation "Universo Kaluanã":
+    - heading "Universo Kaluanã" [level=2]
+    - list:
+      - listitem:
+        - link "Andar dos Rios":
+          - /url: /universo/rios
+      - listitem:
+        - link "Andar dos Peixes":
+          - /url: /universo/peixes
+      - listitem:
+        - link "Andar das Árvores":
+          - /url: /universo/arvores
+      - listitem:
+        - link "Andar das Aves":
+          - /url: /universo/aves
+      - listitem:
+        - link "Os Guardiões":
+          - /url: /universo/guardioes
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

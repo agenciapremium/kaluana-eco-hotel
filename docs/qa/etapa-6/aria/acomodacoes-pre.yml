@@ -1,0 +1,119 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: Acomodações
+  - heading "Acomodações" [level=1]
+  - paragraph: Um quarto para cada jeito de chegar.
+  - paragraph: Do quarto para uma noite de estrada à suíte para uma semana de trabalho. Todos com cama que descansa, chuveiro que funciona e silêncio. E todos com um nome da Amazônia na porta.
+  - link "Reservar":
+    - /url: /reservas
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Acomodações
+  - text: Escolha pelo que você precisa
+  - heading "Chegou cansado. Precisa produzir. Precisa parar." [level=2]
+  - paragraph: "Filtre as acomodações pelo que importa hoje: cama e silêncio, mesa e internet, ou varanda e tempo."
+  - group "Filtrar por perfil":
+    - button "Chegou cansado"
+    - button "Precisa produzir"
+    - button "Precisa parar"
+  - paragraph: Mostrando todas as categorias
+  - text: Categorias
+  - heading "Sete categorias. Muitas histórias." [level=2]
+  - paragraph: "O Kaluanã Eco Hotel, em Ji-Paraná, oferece sete categorias de acomodação: Superior Família, Duplo King, Superior Acessível, Superior Família com Terraço, Suíte Terraço Lateral Aberto, Suíte Terraço Lateral Fechado e Suíte Presidencial. Todos os quartos levam nomes de rios, peixes, árvores e aves da Amazônia."
+  - paragraph: Superior Família, para até três pessoas. Duplo King, para quem quer cama grande e mesa de trabalho. Superior Acessível, com banheiro e circulação adaptados. Superior Família com Terraço, para ficar mais tempo. Suíte Terraço Lateral Aberto e Fechado, com espaço externo privativo. E a Suíte Presidencial Onça-Pintada, no último andar.
+  - list:
+    - listitem:
+      - link "Três lençóis de linho dobrados sobre uma mesa de madeira, com luz de janela Até 3 pessoas Superior Família Espaço para três. Silêncio para todos.":
+        - /url: /acomodacoes/superior-familia
+        - img "Três lençóis de linho dobrados sobre uma mesa de madeira, com luz de janela"
+        - text: Até 3 pessoas
+        - heading "Superior Família" [level=3]
+        - paragraph: Espaço para três. Silêncio para todos.
+    - listitem:
+      - link "Luminária de latão, caderno de couro e caneta sobre uma mesa de trabalho com luz de manhã Até 2 pessoas Duplo King Chegou tarde. Amanhã cedo, está pronto.":
+        - /url: /acomodacoes/duplo-king
+        - img "Luminária de latão, caderno de couro e caneta sobre uma mesa de trabalho com luz de manhã"
+        - text: Até 2 pessoas
+        - heading "Duplo King" [level=3]
+        - paragraph: Chegou tarde. Amanhã cedo, está pronto.
+    - listitem:
+      - link "Barra de apoio em aço escovado fixada em azulejos cor de areia Até 2 pessoas Superior Acessível Acessível de verdade.":
+        - /url: /acomodacoes/superior-acessivel
+        - img "Barra de apoio em aço escovado fixada em azulejos cor de areia"
+        - text: Até 2 pessoas
+        - heading "Superior Acessível" [level=3]
+        - paragraph: Acessível de verdade.
+    - listitem:
+      - link "Xícara de café e cafeteira de êmbolo sobre uma mesa de madeira ao ar livre, com folhagem ao fundo Até 3 pessoas Superior Família com Terraço Um pedaço de fora só seu.":
+        - /url: /acomodacoes/superior-familia-com-terraco
+        - img "Xícara de café e cafeteira de êmbolo sobre uma mesa de madeira ao ar livre, com folhagem ao fundo"
+        - text: Até 3 pessoas
+        - heading "Superior Família com Terraço" [level=3]
+        - paragraph: Um pedaço de fora só seu.
+    - listitem:
+      - link "Céu aberto ao fim da tarde visto entre folhas de palmeira Até 2 pessoas Suíte Terraço Lateral Aberto Céu aberto. Porta fechada.":
+        - /url: /acomodacoes/suite-terraco-lateral-aberto
+        - img "Céu aberto ao fim da tarde visto entre folhas de palmeira"
+        - text: Até 2 pessoas
+        - heading "Suíte Terraço Lateral Aberto" [level=3]
+        - paragraph: Céu aberto. Porta fechada.
+    - listitem:
+      - link "Sombras de veneziana de madeira sobre uma superfície de madeira escura ao fim da tarde Até 2 pessoas Suíte Terraço Lateral Fechado Um quarto a mais, dentro do quarto.":
+        - /url: /acomodacoes/suite-terraco-lateral-fechado
+        - img "Sombras de veneziana de madeira sobre uma superfície de madeira escura ao fim da tarde"
+        - text: Até 2 pessoas
+        - heading "Suíte Terraço Lateral Fechado" [level=3]
+        - paragraph: Um quarto a mais, dentro do quarto.
+    - listitem:
+      - link "Linho escuro sobre o braço de madeira nobre de uma poltrona, com luz dourada de fim de tarde Até 2 pessoas Suíte Presidencial Onça-Pintada Onça-Pintada.":
+        - /url: /acomodacoes/suite-presidencial-onca-pintada
+        - img "Linho escuro sobre o braço de madeira nobre de uma poltrona, com luz dourada de fim de tarde"
+        - text: Até 2 pessoas
+        - heading "Suíte Presidencial Onça-Pintada" [level=3]
+        - paragraph: Onça-Pintada.
+  - text: Bom saber
+  - heading "Horários e regras." [level=2]
+  - list:
+    - listitem: Check-in a partir das 14h.
+    - listitem: Check-out até as 12h.
+    - listitem: Café da manhã incluído.
+    - listitem: Estacionamento no hotel.
+    - listitem: "Animais de estimação: consulte."
+    - listitem: "Fumar: apenas nas áreas externas indicadas."
+  - heading "Escolheu? Reserve." [level=2]
+  - paragraph: Tarifas e disponibilidade no motor de reservas. Para grupos e empresas, fale com a equipe.
+  - link "Reservar":
+    - /url: /reservas
+  - link "Hospedagem corporativa":
+    - /url: /contato
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

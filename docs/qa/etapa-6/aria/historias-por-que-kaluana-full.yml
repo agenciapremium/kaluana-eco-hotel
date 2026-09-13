@@ -1,0 +1,150 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - navigation "Principal":
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+  - link "Contato":
+    - /url: /contato
+  - link "Reservar":
+    - /url: /reservas
+  - button "Abrir menu"
+- main:
+  - article:
+    - navigation "Você está em":
+      - list:
+        - listitem:
+          - link "Início":
+            - /url: /
+        - listitem:
+          - link "Histórias":
+            - /url: /historias
+        - listitem: Por que Kaluanã
+    - text: Nomes
+    - heading "Por que Kaluanã" [level=1]
+    - paragraph:
+      - time: 15 de julho de 2026
+      - text: 1 min de leitura
+    - img "Superfície de madeira escura com um feixe de luz de janela"
+    - paragraph: "Kaluanã é uma palavra de origem indígena e significa grande guerreiro. O nome do hotel foi escolhido antes de qualquer desenho, porque diz o que ele quer ser: firme com a terra, firme com a cidade e firme com quem se hospeda."
+    - paragraph: "Escolher o nome antes do projeto inverte a ordem de sempre. Em geral o prédio vem primeiro e o nome vem depois, como rótulo. Aqui foi o contrário: o nome veio primeiro e passou a cobrar do projeto aquilo que ele promete."
+    - heading "O que um guerreiro faz" [level=2]
+    - paragraph: Um guerreiro não faz barulho. Faz o que precisa ser feito. É assim que o Kaluanã quer ser lembrado, e é por isso que o site mostra processo em vez de prometer natureza.
+    - paragraph: "A mesma ideia aparece nas suítes. As três maiores acomodações do hotel levam o nome dos três grandes predadores da floresta: onça-pintada, jaguatirica e jacaré-açu. São os guardiões da casa."
+    - heading "O til não é enfeite" [level=2]
+    - paragraph: Kaluanã se escreve sempre com til. É a grafia do nome, e é assim que ele aparece na porta, no site e na placa de cada quarto.
+    - heading "O que vem a seguir" [level=2]
+    - paragraph: As três suítes com nome de guardião estão no Universo Kaluanã, junto com os outros nomes.
+    - link "O Kaluanã":
+      - /url: /o-kaluana
+    - link "Universo Kaluanã":
+      - /url: /universo/guardioes
+    - heading "Continue lendo" [level=2]
+    - list:
+      - listitem:
+        - 'link "Mãos segurando um punhado de terra vermelha, folhas ao fundo 05 de setembro de 2026 Obra Construído à vista Desde o início da obra o Kaluanã mostra o que está fazendo. Sem revelar o projeto, mostra o processo: a terra, a estrutura, as pessoas e a luz. 1 min de leitura"':
+          - /url: /historias/construido-a-vista
+          - img "Mãos segurando um punhado de terra vermelha, folhas ao fundo"
+          - time: 05 de setembro de 2026
+          - text: Obra
+          - heading "Construído à vista" [level=3]
+          - paragraph: "Desde o início da obra o Kaluanã mostra o que está fazendo. Sem revelar o projeto, mostra o processo: a terra, a estrutura, as pessoas e a luz."
+          - paragraph: 1 min de leitura
+      - listitem:
+        - link "Rio Machado, proa de barco no rio 12 de agosto de 2026 Ji-Paraná O rio que dá nome à cidade Ji-Paraná, em tupi, quer dizer rio do machado. O Machado corta a cidade em dois e dá nome a ela e a um dos quartos do hotel. 1 min de leitura":
+          - /url: /historias/o-rio-que-da-nome-a-cidade
+          - img "Rio Machado, proa de barco no rio"
+          - time: 12 de agosto de 2026
+          - text: Ji-Paraná
+          - heading "O rio que dá nome à cidade" [level=3]
+          - paragraph: Ji-Paraná, em tupi, quer dizer rio do machado. O Machado corta a cidade em dois e dá nome a ela e a um dos quartos do hotel.
+          - paragraph: 1 min de leitura
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - navigation "O site":
+    - heading "O site" [level=2]
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+      - listitem:
+        - link "Reservas":
+          - /url: /reservas
+      - listitem:
+        - link "Contato":
+          - /url: /contato
+      - listitem:
+        - link "Perguntas frequentes":
+          - /url: /perguntas-frequentes
+      - listitem:
+        - link "Trabalhe conosco":
+          - /url: /trabalhe-conosco
+  - navigation "Universo Kaluanã":
+    - heading "Universo Kaluanã" [level=2]
+    - list:
+      - listitem:
+        - link "Andar dos Rios":
+          - /url: /universo/rios
+      - listitem:
+        - link "Andar dos Peixes":
+          - /url: /universo/peixes
+      - listitem:
+        - link "Andar das Árvores":
+          - /url: /universo/arvores
+      - listitem:
+        - link "Andar das Aves":
+          - /url: /universo/aves
+      - listitem:
+        - link "Os Guardiões":
+          - /url: /universo/guardioes
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

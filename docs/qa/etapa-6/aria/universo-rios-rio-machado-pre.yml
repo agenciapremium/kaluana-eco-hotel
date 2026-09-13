@@ -1,0 +1,88 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - article:
+    - text: Andar dos Rios
+    - heading "Rio Machado" [level=1]
+    - paragraph: O rio de Ji-Paraná
+    - button "Ouvir o ambiente"
+    - navigation "Você está em":
+      - list:
+        - listitem:
+          - link "Início":
+            - /url: /
+        - listitem:
+          - link "Universo Kaluanã":
+            - /url: /universo
+        - listitem:
+          - link "Andar dos Rios":
+            - /url: /universo/rios
+        - listitem: Rio Machado
+    - paragraph: Este é o rio que corta a cidade onde você está. Ji-Paraná, em tupi, quer dizer rio do machado. O Machado divide a cidade em duas e segue para o norte até o Madeira.
+    - heading "Por que está no Kaluanã" [level=2]
+    - paragraph: Se fosse para escolher um único quarto para explicar o Kaluanã, seria este. O hotel fala de Ji-Paraná, e Ji-Paraná é o rio. Ele é o único rio deste andar que você pode ver a poucos minutos daqui.
+    - img "Rio Machado, margem com morros"
+    - heading "História" [level=2]
+    - paragraph: "O Machado nasce do encontro de dois rios que descem da Chapada dos Parecis, na região de Vilhena: o Pimenta Bueno, também chamado Apidiá, e o Comemoração, também chamado Barão de Melgaço. Os dois se juntam em Pimenta Bueno."
+    - paragraph: Dali o rio corre para o norte, passa por Cacoal e chega a Ji-Paraná, onde separa o primeiro e o segundo distrito da cidade. Segue por Tabajara e deságua no Madeira em Calama, distrito de Porto Velho, em um trecho navegável.
+    - paragraph: O nome indígena, Ji-Paraná, batizou a cidade. Ji é machado e paraná é rio. O povoado nasceu de uma estação telegráfica da Comissão Rondon, no ponto em que o rio Urupá encontra o Machado. A vila cresceu, chamou-se Vila de Rondônia e virou município com o nome do rio em 1977.
+    - heading "Curiosidades" [level=2]
+    - list:
+      - listitem: A ponte sobre o Machado é a costura de Ji-Paraná. É por ela que a cidade atravessa de um distrito para o outro todos os dias.
+      - listitem: O Machado é o maior rio que nasce e termina dentro de Rondônia.
+      - listitem: Na seca, o rio expõe praias de areia em Ji-Paraná e Cacoal. Elas fazem parte do calendário de lazer das duas cidades.
+      - listitem: Tambaqui, pintado, tucunaré e piau vivem no rio. Os pescadores da região conhecem os poços pelo nome.
+    - heading "Ficha rápida" [level=2]
+    - term: Formação
+    - definition: Rios Pimenta Bueno (Apidiá) e Comemoração (Barão de Melgaço), em Pimenta Bueno
+    - term: Foz
+    - definition: Rio Madeira, em Calama, distrito de Porto Velho
+    - term: Estado
+    - definition: Inteiramente em Rondônia
+    - term: Nome indígena
+    - definition: Ji-Paraná, rio do machado
+    - term: Cidades
+    - definition: Pimenta Bueno, Cacoal, Ji-Paraná, Tabajara
+    - heading "Perguntas e respostas" [level=2]
+    - group: Por que Ji-Paraná se chama assim?
+    - group: Onde o rio Machado nasce e deságua?
+    - group: O rio Machado e o rio Ji-Paraná são o mesmo rio?
+    - navigation "Navegação do andar":
+      - link "Anterior Rio Jamari":
+        - /url: /universo/rios/rio-jamari
+      - link "Próximo Rio Araguaia":
+        - /url: /universo/rios/rio-araguaia
+      - link "Voltar ao andar dos rios":
+        - /url: /universo/rios
+      - link "Superior Família":
+        - /url: /acomodacoes/superior-familia
+      - link "Reservar":
+        - /url: /reservas
+    - paragraph:
+      - text: Publicado por Kaluanã Eco Hotel, Ji-Paraná. Atualizado em
+      - time: 12 de setembro de 2026
+      - text: .
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

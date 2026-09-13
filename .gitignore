@@ -47,3 +47,5 @@ docs/lighthouse/**/*.report.json
 
 # tabela das placas com as 70 UHs: gerada por npm run qa:qr -- --csv, fora do repositório enquanto ele for público
 docs/qr-codes.csv
+# Resultado do QA dos QR Codes: lista as 70 UHs com nome e destino, como a tabela das placas
+docs/qa/etapa-6/qr-*.json

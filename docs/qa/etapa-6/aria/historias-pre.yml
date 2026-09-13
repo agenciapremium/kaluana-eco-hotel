@@ -1,0 +1,76 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: Diário do Kaluanã
+  - heading "Histórias" [level=1]
+  - paragraph: Construído à vista de todo mundo.
+  - paragraph: A obra, as decisões, as pessoas, os nomes. O que acontece no Kaluanã, contado antes de acontecer.
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Histórias
+  - text: Assuntos
+  - heading "Obra. Nomes. Ji-Paraná. Hotel." [level=2]
+  - paragraph: "Obra: o que foi feito nesta semana. Nomes: as histórias do Universo Kaluanã. Ji-Paraná: a cidade e a região. Hotel: novidades da operação."
+  - group "Filtrar por assunto":
+    - button "Obra"
+    - button "Nomes"
+    - button "Ji-Paraná"
+  - paragraph: Mostrando todos os assuntos, 3 posts
+  - list:
+    - listitem:
+      - 'link "Mãos segurando um punhado de terra vermelha, folhas ao fundo 05 de setembro de 2026 Obra Construído à vista Desde o início da obra o Kaluanã mostra o que está fazendo. Sem revelar o projeto, mostra o processo: a terra, a estrutura, as pessoas e a luz. 1 min de leitura"':
+        - /url: /historias/construido-a-vista
+        - img "Mãos segurando um punhado de terra vermelha, folhas ao fundo"
+        - time: 05 de setembro de 2026
+        - text: Obra
+        - heading "Construído à vista" [level=3]
+        - paragraph: "Desde o início da obra o Kaluanã mostra o que está fazendo. Sem revelar o projeto, mostra o processo: a terra, a estrutura, as pessoas e a luz."
+        - paragraph: 1 min de leitura
+    - listitem:
+      - link "Rio Machado, proa de barco no rio 12 de agosto de 2026 Ji-Paraná O rio que dá nome à cidade Ji-Paraná, em tupi, quer dizer rio do machado. O Machado corta a cidade em dois e dá nome a ela e a um dos quartos do hotel. 1 min de leitura":
+        - /url: /historias/o-rio-que-da-nome-a-cidade
+        - img "Rio Machado, proa de barco no rio"
+        - time: 12 de agosto de 2026
+        - text: Ji-Paraná
+        - heading "O rio que dá nome à cidade" [level=3]
+        - paragraph: Ji-Paraná, em tupi, quer dizer rio do machado. O Machado corta a cidade em dois e dá nome a ela e a um dos quartos do hotel.
+        - paragraph: 1 min de leitura
+    - listitem:
+      - link "Superfície de madeira escura com um feixe de luz de janela 15 de julho de 2026 Nomes Por que Kaluanã O nome do hotel foi escolhido antes de qualquer desenho. Kaluanã é palavra de origem indígena e quer dizer grande guerreiro. 1 min de leitura":
+        - /url: /historias/por-que-kaluana
+        - img "Superfície de madeira escura com um feixe de luz de janela"
+        - time: 15 de julho de 2026
+        - text: Nomes
+        - heading "Por que Kaluanã" [level=3]
+        - paragraph: O nome do hotel foi escolhido antes de qualquer desenho. Kaluanã é palavra de origem indígena e quer dizer grande guerreiro.
+        - paragraph: 1 min de leitura
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

@@ -1,0 +1,259 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - navigation "Principal":
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+  - link "Contato":
+    - /url: /contato
+  - link "Reservar":
+    - /url: /reservas
+  - button "Abrir menu"
+- main:
+  - text: 3º andar
+  - heading "Andar das Árvores" [level=1]
+  - paragraph: Dezoito árvores. Muitas delas estão no que você toca.
+  - paragraph: "Algumas passam de 50 metros, como a samaúma e a castanheira. Outras dão óleo, fruta, látex, tinta e remédio. Todas crescem em Rondônia. Várias estão no material deste hotel: no piso, nos móveis, na mesa do restaurante."
+  - button "Ouvir o ambiente"
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem: Andar das Árvores
+  - text: Quartos 301 a 318
+  - heading "As árvores." [level=2]
+  - group "Filtrar por uso":
+    - button "Madeira"
+    - button "Óleo"
+    - button "Fruta"
+    - button "Sombra"
+  - paragraph: Mostrando todas as árvores
+  - list:
+    - listitem:
+      - link "Samaúma, tronco e sapopemas de baixo para cima Samaúma A mãe das árvores Quarto 301":
+        - /url: /universo/arvores/samauma
+        - img "Samaúma, tronco e sapopemas de baixo para cima"
+        - heading "Samaúma" [level=3]
+        - paragraph: A mãe das árvores
+        - paragraph: Quarto 301
+    - listitem:
+      - link "Castanheira, árvore isolada com copa alta Castanheira A árvore que depende de todo mundo Quarto 302":
+        - /url: /universo/arvores/castanheira
+        - img "Castanheira, árvore isolada com copa alta"
+        - heading "Castanheira" [level=3]
+        - paragraph: A árvore que depende de todo mundo
+        - paragraph: Quarto 302
+    - listitem:
+      - link "Copaíba, copa vista de baixo com galhos Copaíba A árvore que dá óleo sem cair Quarto 303":
+        - /url: /universo/arvores/copaiba
+        - img "Copaíba, copa vista de baixo com galhos"
+        - heading "Copaíba" [level=3]
+        - paragraph: A árvore que dá óleo sem cair
+        - paragraph: Quarto 303
+    - listitem:
+      - link "Andiroba, frutos e folhas em detalhe Andiroba A árvore do óleo que espanta mosquito Quarto 304":
+        - /url: /universo/arvores/andiroba
+        - img "Andiroba, frutos e folhas em detalhe"
+        - heading "Andiroba" [level=3]
+        - paragraph: A árvore do óleo que espanta mosquito
+        - paragraph: Quarto 304
+    - listitem:
+      - link "Açaí, açaizal com vários troncos Açaí A palmeira que alimenta o Norte Quarto 305":
+        - /url: /universo/arvores/acai
+        - img "Açaí, açaizal com vários troncos"
+        - heading "Açaí" [level=3]
+        - paragraph: A palmeira que alimenta o Norte
+        - paragraph: Quarto 305
+    - listitem:
+      - link "Cumaru, tronco reto visto de baixo Cumaru A árvore da fava que cheira a baunilha Quarto 306":
+        - /url: /universo/arvores/cumaru
+        - img "Cumaru, tronco reto visto de baixo"
+        - heading "Cumaru" [level=3]
+        - paragraph: A árvore da fava que cheira a baunilha
+        - paragraph: Quarto 306
+    - listitem:
+      - link "Cedro, árvore inteira contra o céu Cedro A madeira que cheira e protege Quarto 307":
+        - /url: /universo/arvores/cedro
+        - img "Cedro, árvore inteira contra o céu"
+        - heading "Cedro" [level=3]
+        - paragraph: A madeira que cheira e protege
+        - paragraph: Quarto 307
+    - listitem:
+      - link "Mogno, tronco e copa vistos de baixo Mogno O ouro verde Quarto 308":
+        - /url: /universo/arvores/mogno
+        - img "Mogno, tronco e copa vistos de baixo"
+        - heading "Mogno" [level=3]
+        - paragraph: O ouro verde
+        - paragraph: Quarto 308
+    - listitem:
+      - link "Ipê, copa amarela vista de baixo Ipê A árvore que floresce sem folhas Quarto 309":
+        - /url: /universo/arvores/ipe
+        - img "Ipê, copa amarela vista de baixo"
+        - heading "Ipê" [level=3]
+        - paragraph: A árvore que floresce sem folhas
+        - paragraph: Quarto 309
+    - listitem:
+      - link "Jatobá, árvore isolada em gramado Jatobá A árvore da farinha, da resina e dos séculos Quarto 310":
+        - /url: /universo/arvores/jatoba
+        - img "Jatobá, árvore isolada em gramado"
+        - heading "Jatobá" [level=3]
+        - paragraph: A árvore da farinha, da resina e dos séculos
+        - paragraph: Quarto 310
+    - listitem:
+      - link "Bacaba, palmeira com cachos vermelhos Bacaba A prima do açaí que dá óleo de oliva Quarto 311":
+        - /url: /universo/arvores/bacaba
+        - img "Bacaba, palmeira com cachos vermelhos"
+        - heading "Bacaba" [level=3]
+        - paragraph: A prima do açaí que dá óleo de oliva
+        - paragraph: Quarto 311
+    - listitem:
+      - link "Tucumã, cacho de frutos laranja Tucumã A palmeira de espinhos e fruta laranja Quarto 312":
+        - /url: /universo/arvores/tucuma
+        - img "Tucumã, cacho de frutos laranja"
+        - heading "Tucumã" [level=3]
+        - paragraph: A palmeira de espinhos e fruta laranja
+        - paragraph: Quarto 312
+    - listitem:
+      - link "Angelim, tronco reto visto de baixo, sem galhos Angelim A família da árvore mais alta da Amazônia Quarto 313":
+        - /url: /universo/arvores/angelim
+        - img "Angelim, tronco reto visto de baixo, sem galhos"
+        - heading "Angelim" [level=3]
+        - paragraph: A família da árvore mais alta da Amazônia
+        - paragraph: Quarto 313
+    - listitem:
+      - link "Maçaranduba, galhos e tronco vistos de baixo Maçaranduba A madeira que afunda e o fruto que adoça Quarto 314":
+        - /url: /universo/arvores/macaranduba
+        - img "Maçaranduba, galhos e tronco vistos de baixo"
+        - heading "Maçaranduba" [level=3]
+        - paragraph: A madeira que afunda e o fruto que adoça
+        - paragraph: Quarto 314
+    - listitem:
+      - link "Jenipapo, frutos verdes na árvore com céu azul Jenipapo A fruta que vira tinta Quarto 315":
+        - /url: /universo/arvores/jenipapo
+        - img "Jenipapo, frutos verdes na árvore com céu azul"
+        - heading "Jenipapo" [level=3]
+        - paragraph: A fruta que vira tinta
+        - paragraph: Quarto 315
+    - listitem:
+      - link "Itaúba, casca em placas em detalhe Itaúba A madeira das canoas Quarto 316":
+        - /url: /universo/arvores/itauba
+        - img "Itaúba, casca em placas em detalhe"
+        - heading "Itaúba" [level=3]
+        - paragraph: A madeira das canoas
+        - paragraph: Quarto 316
+    - listitem:
+      - link "Seringueira, seringal com tigelas nos troncos Seringueira A árvore que construiu Rondônia Quarto 317":
+        - /url: /universo/arvores/seringueira
+        - img "Seringueira, seringal com tigelas nos troncos"
+        - heading "Seringueira" [level=3]
+        - paragraph: A árvore que construiu Rondônia
+        - paragraph: Quarto 317
+    - listitem:
+      - link "Jequitibá, tronco imenso visto de baixo Jequitibá O gigante que atravessa os séculos Quarto 318":
+        - /url: /universo/arvores/jequitiba
+        - img "Jequitibá, tronco imenso visto de baixo"
+        - heading "Jequitibá" [level=3]
+        - paragraph: O gigante que atravessa os séculos
+        - paragraph: Quarto 318
+  - text: Materiais
+  - heading "A madeira do Kaluanã tem nome e origem." [level=2]
+  - paragraph: As madeiras usadas na obra vêm de manejo florestal com documento de origem. Esta lista diz quais são e onde estão.
+  - link "Voltar ao Universo":
+    - /url: /universo
+  - paragraph: "O terceiro andar do Kaluanã leva o nome de dezoito árvores. Algumas passam de 50 metros, como a samaúma e a castanheira. Outras dão óleo, fruta, látex, tinta e remédio. Todas crescem em Rondônia. Muitas delas estão no material que você toca neste hotel: no piso, nos móveis, na mesa do restaurante."
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - navigation "O site":
+    - heading "O site" [level=2]
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+      - listitem:
+        - link "Reservas":
+          - /url: /reservas
+      - listitem:
+        - link "Contato":
+          - /url: /contato
+      - listitem:
+        - link "Perguntas frequentes":
+          - /url: /perguntas-frequentes
+      - listitem:
+        - link "Trabalhe conosco":
+          - /url: /trabalhe-conosco
+  - navigation "Universo Kaluanã":
+    - heading "Universo Kaluanã" [level=2]
+    - list:
+      - listitem:
+        - link "Andar dos Rios":
+          - /url: /universo/rios
+      - listitem:
+        - link "Andar dos Peixes":
+          - /url: /universo/peixes
+      - listitem:
+        - link "Andar das Árvores":
+          - /url: /universo/arvores
+      - listitem:
+        - link "Andar das Aves":
+          - /url: /universo/aves
+      - listitem:
+        - link "Os Guardiões":
+          - /url: /universo/guardioes
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

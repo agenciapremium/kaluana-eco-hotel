@@ -1,0 +1,269 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - navigation "Principal":
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+  - link "Contato":
+    - /url: /contato
+  - link "Reservar":
+    - /url: /reservas
+  - button "Abrir menu"
+- main:
+  - text: 1º andar
+  - heading "Andar dos Rios" [level=1]
+  - paragraph: Catorze rios. Uma bacia.
+  - paragraph: "Alguns você conhece de nome, como o Amazonas e o Negro. Outros nascem e terminam aqui perto, como o Machado, que corta Ji-Paraná, e o Jamari. Todos contam a mesma história por caminhos diferentes: a água que passa por Rondônia é a água que forma a Amazônia."
+  - button "Ouvir o ambiente"
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem: Andar dos Rios
+  - img "Mapa esquemático dos rios do primeiro andar e de como se ligam": Solimões Amazonas Negro Juruá Purus Madeira Mamoré Guaporé Jamari Machado Roosevelt Tapajós Xingu Araguaia Ji-Paraná
+  - list:
+    - listitem:
+      - link "Solimões":
+        - /url: /universo/rios/rio-solimoes
+    - listitem:
+      - link "Amazonas":
+        - /url: /universo/rios/rio-amazonas
+    - listitem:
+      - link "Negro":
+        - /url: /universo/rios/rio-negro
+    - listitem:
+      - link "Juruá":
+        - /url: /universo/rios/rio-jurua
+    - listitem:
+      - link "Purus":
+        - /url: /universo/rios/rio-purus
+    - listitem:
+      - link "Madeira":
+        - /url: /universo/rios/rio-madeira
+    - listitem:
+      - link "Mamoré":
+        - /url: /universo/rios/rio-mamore
+    - listitem:
+      - link "Guaporé":
+        - /url: /universo/rios/rio-guapore
+    - listitem:
+      - link "Jamari":
+        - /url: /universo/rios/rio-jamari
+    - listitem:
+      - link "Machado":
+        - /url: /universo/rios/rio-machado
+    - listitem:
+      - link "Roosevelt":
+        - /url: /universo/rios/rio-roosevelt
+    - listitem:
+      - link "Tapajós":
+        - /url: /universo/rios/rio-tapajos
+    - listitem:
+      - link "Xingu":
+        - /url: /universo/rios/rio-xingu
+    - listitem:
+      - link "Araguaia":
+        - /url: /universo/rios/rio-araguaia
+  - text: Quartos 101 a 114
+  - heading "Os rios." [level=2]
+  - list:
+    - listitem:
+      - link "Rio Amazonas, aérea com bancos de areia Rio Amazonas O maior rio do mundo em volume de água Quarto 101":
+        - /url: /universo/rios/rio-amazonas
+        - img "Rio Amazonas, aérea com bancos de areia"
+        - heading "Rio Amazonas" [level=3]
+        - paragraph: O maior rio do mundo em volume de água
+        - paragraph: Quarto 101
+    - listitem:
+      - link "Rio Solimões, encontro das Águas visto de cima Rio Solimões O Amazonas antes de Manaus Quarto 102":
+        - /url: /universo/rios/rio-solimoes
+        - img "Rio Solimões, encontro das Águas visto de cima"
+        - heading "Rio Solimões" [level=3]
+        - paragraph: O Amazonas antes de Manaus
+        - paragraph: Quarto 102
+    - listitem:
+      - link "Rio Negro, ilhas de Anavilhanas vistas do alto Rio Negro O maior rio de água preta do mundo Quarto 103":
+        - /url: /universo/rios/rio-negro
+        - img "Rio Negro, ilhas de Anavilhanas vistas do alto"
+        - heading "Rio Negro" [level=3]
+        - paragraph: O maior rio de água preta do mundo
+        - paragraph: Quarto 103
+    - listitem:
+      - link "Rio Madeira, entardecer com canoa Rio Madeira O rio de Rondônia Quarto 104":
+        - /url: /universo/rios/rio-madeira
+        - img "Rio Madeira, entardecer com canoa"
+        - heading "Rio Madeira" [level=3]
+        - paragraph: O rio de Rondônia
+        - paragraph: Quarto 104
+    - listitem:
+      - link "Rio Guaporé, vista elevada do rio entre morros Rio Guaporé A fronteira de água entre Brasil e Bolívia Quarto 105":
+        - /url: /universo/rios/rio-guapore
+        - img "Rio Guaporé, vista elevada do rio entre morros"
+        - heading "Rio Guaporé" [level=3]
+        - paragraph: A fronteira de água entre Brasil e Bolívia
+        - paragraph: Quarto 105
+    - listitem:
+      - link "Rio Mamoré, aérea com ilha e barcos Rio Mamoré O rio que virou trilho Quarto 106":
+        - /url: /universo/rios/rio-mamore
+        - img "Rio Mamoré, aérea com ilha e barcos"
+        - heading "Rio Mamoré" [level=3]
+        - paragraph: O rio que virou trilho
+        - paragraph: Quarto 106
+    - listitem:
+      - link "Rio Tapajós, aérea com bancos de areia Rio Tapajós Água verde e praias de areia branca Quarto 107":
+        - /url: /universo/rios/rio-tapajos
+        - img "Rio Tapajós, aérea com bancos de areia"
+        - heading "Rio Tapajós" [level=3]
+        - paragraph: Água verde e praias de areia branca
+        - paragraph: Quarto 107
+    - listitem:
+      - link "Rio Xingu, corredeiras vistas do alto Rio Xingu O rio dos povos e das corredeiras Quarto 108":
+        - /url: /universo/rios/rio-xingu
+        - img "Rio Xingu, corredeiras vistas do alto"
+        - heading "Rio Xingu" [level=3]
+        - paragraph: O rio dos povos e das corredeiras
+        - paragraph: Quarto 108
+    - listitem:
+      - link "Rio Purus, entardecer na margem Rio Purus O rio mais sinuoso da Amazônia Quarto 109":
+        - /url: /universo/rios/rio-purus
+        - img "Rio Purus, entardecer na margem"
+        - heading "Rio Purus" [level=3]
+        - paragraph: O rio mais sinuoso da Amazônia
+        - paragraph: Quarto 109
+    - listitem:
+      - link "Rio Juruá, aérea com estrada de água na floresta Rio Juruá O rio da borracha e das curvas Quarto 110":
+        - /url: /universo/rios/rio-jurua
+        - img "Rio Juruá, aérea com estrada de água na floresta"
+        - heading "Rio Juruá" [level=3]
+        - paragraph: O rio da borracha e das curvas
+        - paragraph: Quarto 110
+    - listitem:
+      - link "Rio Jamari, margem com canoas e casa Rio Jamari Um rio inteiramente rondoniense Quarto 111":
+        - /url: /universo/rios/rio-jamari
+        - img "Rio Jamari, margem com canoas e casa"
+        - heading "Rio Jamari" [level=3]
+        - paragraph: Um rio inteiramente rondoniense
+        - paragraph: Quarto 111
+    - listitem:
+      - link "Rio Machado, proa de barco no rio Rio Machado O rio de Ji-Paraná Quarto 112":
+        - /url: /universo/rios/rio-machado
+        - img "Rio Machado, proa de barco no rio"
+        - heading "Rio Machado" [level=3]
+        - paragraph: O rio de Ji-Paraná
+        - paragraph: Quarto 112
+    - listitem:
+      - link "Rio Araguaia, pôr do sol Rio Araguaia O rio das praias e da maior ilha fluvial do mundo Quarto 113":
+        - /url: /universo/rios/rio-araguaia
+        - img "Rio Araguaia, pôr do sol"
+        - heading "Rio Araguaia" [level=3]
+        - paragraph: O rio das praias e da maior ilha fluvial do mundo
+        - paragraph: Quarto 113
+    - listitem:
+      - link "Rio Roosevelt, aérea com curva e floresta Rio Roosevelt O rio da Dúvida Quarto 114":
+        - /url: /universo/rios/rio-roosevelt
+        - img "Rio Roosevelt, aérea com curva e floresta"
+        - heading "Rio Roosevelt" [level=3]
+        - paragraph: O rio da Dúvida
+        - paragraph: Quarto 114
+  - text: Os rios da casa
+  - heading "Madeira, Guaporé, Jamari e Machado." [level=2]
+  - paragraph: Quatro rios deste andar correm por Rondônia. O Machado passa a poucos minutos do hotel.
+  - link "Voltar ao Universo":
+    - /url: /universo
+  - paragraph: "O primeiro andar do Kaluanã leva o nome de catorze rios. Alguns você já conhece de nome, como o Amazonas e o Negro. Outros nascem e terminam aqui perto, como o Machado, que corta Ji-Paraná, e o Jamari. Todos contam a mesma história por caminhos diferentes: a água que passa por Rondônia é a água que forma a Amazônia."
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - navigation "O site":
+    - heading "O site" [level=2]
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+      - listitem:
+        - link "Reservas":
+          - /url: /reservas
+      - listitem:
+        - link "Contato":
+          - /url: /contato
+      - listitem:
+        - link "Perguntas frequentes":
+          - /url: /perguntas-frequentes
+      - listitem:
+        - link "Trabalhe conosco":
+          - /url: /trabalhe-conosco
+  - navigation "Universo Kaluanã":
+    - heading "Universo Kaluanã" [level=2]
+    - list:
+      - listitem:
+        - link "Andar dos Rios":
+          - /url: /universo/rios
+      - listitem:
+        - link "Andar dos Peixes":
+          - /url: /universo/peixes
+      - listitem:
+        - link "Andar das Árvores":
+          - /url: /universo/arvores
+      - listitem:
+        - link "Andar das Aves":
+          - /url: /universo/aves
+      - listitem:
+        - link "Os Guardiões":
+          - /url: /universo/guardioes
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

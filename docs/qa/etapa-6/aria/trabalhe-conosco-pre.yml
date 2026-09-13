@@ -1,0 +1,69 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: Equipe
+  - heading "Trabalhe conosco" [level=1]
+  - paragraph: Um hotel novo precisa de gente da cidade.
+  - paragraph: O Kaluanã abre em dezembro de 2026 e está montando a equipe. Recepção, governança, restaurante, cozinha, manutenção, eventos. Se você é de Ji-Paraná ou da região e quer fazer parte, mande o currículo.
+  - link "Enviar currículo":
+    - /url: "#curriculo"
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Trabalhe conosco
+  - text: Currículo
+  - heading "Seu currículo." [level=2]
+  - paragraph: Nome, telefone, e-mail, área de interesse, experiência, arquivo do currículo.
+  - paragraph: Ainda não há processo aberto por vaga. Os currículos ficam com a equipe e são chamados conforme a operação for montada, mais perto da inauguração.
+  - link "Conhecer o Kaluanã":
+    - /url: /o-kaluana
+  - text: Nome
+  - textbox "Nome"
+  - text: Telefone
+  - textbox "Telefone"
+  - text: E-mail
+  - textbox "E-mail"
+  - text: Área de interesse
+  - combobox "Área de interesse":
+    - option "Recepção" [selected]
+    - option "Governança"
+    - option "Restaurante"
+    - option "Cozinha"
+    - option "Manutenção"
+    - option "Eventos"
+    - option "Outra"
+  - text: Experiência (opcional)
+  - textbox "Experiência (opcional)"
+  - text: Currículo em PDF ou DOCX, até 4 MB (opcional)
+  - button "Currículo em PDF ou DOCX, até 4 MB (opcional)"
+  - button "Enviar currículo"
+  - paragraph: O arquivo vai direto para a equipe por e-mail e não fica guardado no site.
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

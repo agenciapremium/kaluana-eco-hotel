@@ -1,0 +1,154 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - navigation "Principal":
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+  - link "Contato":
+    - /url: /contato
+  - link "Reservar":
+    - /url: /reservas
+  - button "Abrir menu"
+- main:
+  - text: Reservar
+  - heading "Reservas" [level=1]
+  - paragraph: Escolha as datas.
+  - paragraph: Datas, número de hóspedes, categoria. Tarifas e disponibilidade em tempo real.
+  - link "Quero ser avisado":
+    - /url: "#reservar"
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Reservas
+  - text: Pré-reserva
+  - heading "Reservas abertas em breve." [level=2]
+  - paragraph: "O motor de reservas entra junto com a inauguração, em dezembro de 2026. Até lá, deixe seu contato e as datas que você pretende: avisamos primeiro e seguramos a conversa com você."
+  - paragraph: Para grupos, eventos e conta corporativa, a equipe atende direto, sem esperar o motor.
+  - text: Nome
+  - textbox "Nome"
+  - text: E-mail
+  - textbox "E-mail"
+  - text: Telefone
+  - textbox "Telefone"
+  - text: Empresa (opcional)
+  - textbox "Empresa (opcional)"
+  - text: Entrada prevista (opcional)
+  - textbox "Entrada prevista (opcional)"
+  - text: Saída prevista (opcional)
+  - textbox "Saída prevista (opcional)"
+  - button "Quero ser avisado"
+  - paragraph: Avisamos você assim que as reservas abrirem.
+  - text: Corporativo
+  - heading "Conta corporativa." [level=2]
+  - paragraph: Tarifa acordada, faturamento mensal e reserva por e-mail para quem hospeda a equipe com frequência.
+  - link "Abrir conta corporativa":
+    - /url: /contato
+  - text: Grupos
+  - heading "Bloqueio de quartos para eventos." [level=2]
+  - paragraph: Congresso, casamento, torneio. A equipe monta o bloqueio e o pacote.
+  - link "Solicitar proposta":
+    - /url: /contato
+  - text: Bom saber
+  - heading "Cancelamento, pagamento e check-in." [level=2]
+  - paragraph: Pagamento. Check-in a partir das 14h e check-out até as 12h.
+  - link "Perguntas frequentes":
+    - /url: /perguntas-frequentes
+  - text: Antes de reservar
+  - heading "Escolha a categoria." [level=2]
+  - paragraph: São sete categorias, do quarto para uma noite de estrada à suíte para uma semana de trabalho. Todas com nome da Amazônia na porta.
+  - link "Ver as acomodações":
+    - /url: /acomodacoes
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - navigation "O site":
+    - heading "O site" [level=2]
+    - list:
+      - listitem:
+        - link "O Kaluanã":
+          - /url: /o-kaluana
+      - listitem:
+        - link "Acomodações":
+          - /url: /acomodacoes
+      - listitem:
+        - link "Universo Kaluanã":
+          - /url: /universo
+      - listitem:
+        - link "Restaurante":
+          - /url: /restaurante
+      - listitem:
+        - link "Ji-Paraná":
+          - /url: /ji-parana
+      - listitem:
+        - link "Histórias":
+          - /url: /historias
+      - listitem:
+        - link "Reservas":
+          - /url: /reservas
+      - listitem:
+        - link "Contato":
+          - /url: /contato
+      - listitem:
+        - link "Perguntas frequentes":
+          - /url: /perguntas-frequentes
+      - listitem:
+        - link "Trabalhe conosco":
+          - /url: /trabalhe-conosco
+  - navigation "Universo Kaluanã":
+    - heading "Universo Kaluanã" [level=2]
+    - list:
+      - listitem:
+        - link "Andar dos Rios":
+          - /url: /universo/rios
+      - listitem:
+        - link "Andar dos Peixes":
+          - /url: /universo/peixes
+      - listitem:
+        - link "Andar das Árvores":
+          - /url: /universo/arvores
+      - listitem:
+        - link "Andar das Aves":
+          - /url: /universo/aves
+      - listitem:
+        - link "Os Guardiões":
+          - /url: /universo/guardioes
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert

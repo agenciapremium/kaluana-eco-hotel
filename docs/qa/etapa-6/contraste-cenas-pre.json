@@ -1,0 +1,658 @@
+{
+  "fase": "pre",
+  "data": "2026-09-13T03:52:27.362Z",
+  "medidas": [
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Ji-Paraná, Rondônia",
+      "contraste": 6.69,
+      "grande": false
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Um hotel novo em Ji-Paraná. Abre em dezembro de 20",
+      "contraste": 8.94,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "O Kaluanã Eco Hotel é um hotel em construção em Ji",
+      "contraste": 11.47,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Rios",
+      "contraste": 8.64,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Rio Machado",
+      "contraste": 6.26,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Peixes",
+      "contraste": 6.5,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Jaú",
+      "contraste": 5.86,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Árvores",
+      "contraste": 7.65,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Samaúma",
+      "contraste": 6.78,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Aves",
+      "contraste": 7.09,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "desktop",
+      "texto": "Coruja",
+      "contraste": 5.83,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "celular",
+      "texto": "Ji-Paraná, Rondônia",
+      "contraste": 7.35,
+      "grande": false
+    },
+    {
+      "rota": "/",
+      "tela": "celular",
+      "texto": "Um hotel novo em Ji-Paraná. Abre em dezembro de 20",
+      "contraste": 8.55,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "celular",
+      "texto": "O Kaluanã Eco Hotel é um hotel em construção em Ji",
+      "contraste": 9.7,
+      "grande": false
+    },
+    {
+      "rota": "/",
+      "tela": "celular",
+      "texto": "Rios",
+      "contraste": 10.87,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "celular",
+      "texto": "Peixes",
+      "contraste": 7.18,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "celular",
+      "texto": "Árvores",
+      "contraste": 6.04,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "celular",
+      "texto": "Aves",
+      "contraste": 7.61,
+      "grande": true
+    },
+    {
+      "rota": "/",
+      "tela": "celular",
+      "texto": "Coruja",
+      "contraste": 5.69,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "1º andar",
+      "contraste": 9.31,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "Rios.",
+      "contraste": 10.72,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "2º andar",
+      "contraste": 7.04,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "Peixes.",
+      "contraste": 8.85,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "3º andar",
+      "contraste": 6.68,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "Árvores.",
+      "contraste": 7.54,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "4º andar",
+      "contraste": 7.22,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "Aves.",
+      "contraste": 8.26,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "Suítes",
+      "contraste": 12.26,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "desktop",
+      "texto": "Onça-pintada, jaguatirica e jacaré-açu.",
+      "contraste": 12.03,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "1º andar",
+      "contraste": 9.1,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "Rios.",
+      "contraste": 10.45,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "2º andar",
+      "contraste": 6.77,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "Peixes.",
+      "contraste": 6.68,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "3º andar",
+      "contraste": 5.99,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "Árvores.",
+      "contraste": 6.41,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "4º andar",
+      "contraste": 6.87,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "Aves.",
+      "contraste": 7.76,
+      "grande": true
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "Suítes",
+      "contraste": 11.87,
+      "grande": false
+    },
+    {
+      "rota": "/universo",
+      "tela": "celular",
+      "texto": "Onça-pintada, jaguatirica e jacaré-açu.",
+      "contraste": 12.72,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "desktop",
+      "texto": "2º andar",
+      "contraste": 7.99,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes",
+      "contraste": 9.65,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "desktop",
+      "texto": "Peixes da Amazônia. Um deles dá choque.",
+      "contraste": 10.74,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "celular",
+      "texto": "2º andar",
+      "contraste": 9.25,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "celular",
+      "texto": "Andar dos Peixes",
+      "contraste": 9.51,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "celular",
+      "texto": "Peixes da Amazônia. Um deles dá choque.",
+      "contraste": 10.97,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "texto": "3º andar",
+      "contraste": 9.18,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "texto": "Andar das Árvores",
+      "contraste": 9.87,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "texto": "Árvores da Amazônia. Muitas delas estão no que voc",
+      "contraste": 10.57,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "celular",
+      "texto": "3º andar",
+      "contraste": 9.63,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "celular",
+      "texto": "Andar das Árvores",
+      "contraste": 9.44,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "celular",
+      "texto": "Árvores da Amazônia. Muitas delas estão no que voc",
+      "contraste": 10.53,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "desktop",
+      "texto": "4º andar",
+      "contraste": 10.77,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "desktop",
+      "texto": "Andar das Aves",
+      "contraste": 11.32,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "desktop",
+      "texto": "Aves da Amazônia. O andar mais perto do céu.",
+      "contraste": 10.93,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "celular",
+      "texto": "4º andar",
+      "contraste": 10.24,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "celular",
+      "texto": "Andar das Aves",
+      "contraste": 10.83,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "celular",
+      "texto": "Aves da Amazônia. O andar mais perto do céu.",
+      "contraste": 10.8,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "desktop",
+      "texto": "O maior felino das Américas",
+      "contraste": 9.97,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "desktop",
+      "texto": "Onça-pintada",
+      "contraste": 10.41,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "desktop",
+      "texto": "A onça pequena que sobe em tudo",
+      "contraste": 10.61,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "desktop",
+      "texto": "Jaguatirica",
+      "contraste": 9.54,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "desktop",
+      "texto": "O maior predador das águas amazônicas",
+      "contraste": 8.33,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "desktop",
+      "texto": "Jacaré-açu",
+      "contraste": 8.45,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "celular",
+      "texto": "O maior felino das Américas",
+      "contraste": 9.6,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "celular",
+      "texto": "Onça-pintada",
+      "contraste": 9.44,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "celular",
+      "texto": "A onça pequena que sobe em tudo",
+      "contraste": 10.07,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "celular",
+      "texto": "Jaguatirica",
+      "contraste": 9.68,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "celular",
+      "texto": "O maior predador das águas amazônicas",
+      "contraste": 8.47,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "celular",
+      "texto": "Jacaré-açu",
+      "contraste": 8.53,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes",
+      "contraste": 8.52,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "tela": "desktop",
+      "texto": "Pirarucu",
+      "contraste": 12.89,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "tela": "desktop",
+      "texto": "O gigante que respira ar",
+      "contraste": 13.9,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "tela": "celular",
+      "texto": "Andar dos Peixes",
+      "contraste": 13.1,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "tela": "celular",
+      "texto": "Pirarucu",
+      "contraste": 13.62,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "tela": "celular",
+      "texto": "O gigante que respira ar",
+      "contraste": 13.91,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes",
+      "contraste": 10.04,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "desktop",
+      "texto": "Filhote",
+      "contraste": 11.84,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "desktop",
+      "texto": "A piraíba jovem, o maior bagre da Amazônia",
+      "contraste": 13.29,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "celular",
+      "texto": "Andar dos Peixes",
+      "contraste": 10.88,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "celular",
+      "texto": "Filhote",
+      "contraste": 12.44,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "celular",
+      "texto": "A piraíba jovem, o maior bagre da Amazônia",
+      "contraste": 13.27,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "desktop",
+      "texto": "Andar das Árvores",
+      "contraste": 6.58,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "desktop",
+      "texto": "Samaúma",
+      "contraste": 10.18,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "desktop",
+      "texto": "A mãe das árvores",
+      "contraste": 11.5,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "celular",
+      "texto": "Andar das Árvores",
+      "contraste": 9.22,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "celular",
+      "texto": "Samaúma",
+      "contraste": 11.19,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "celular",
+      "texto": "A mãe das árvores",
+      "contraste": 12.66,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "desktop",
+      "texto": "Andar das Aves",
+      "contraste": 10.15,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "desktop",
+      "texto": "Maracanã",
+      "contraste": 11.91,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "desktop",
+      "texto": "A pequena arara dos buritis",
+      "contraste": 13.41,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "celular",
+      "texto": "Andar das Aves",
+      "contraste": 11.46,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "celular",
+      "texto": "Maracanã",
+      "contraste": 12.79,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "celular",
+      "texto": "A pequena arara dos buritis",
+      "contraste": 13.41,
+      "grande": false
+    }
+  ],
+  "reprovadas": []
+}

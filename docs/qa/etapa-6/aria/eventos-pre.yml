@@ -1,0 +1,92 @@
+- link "Pular para o conteúdo":
+  - /url: "#conteudo"
+- banner:
+  - link "Kaluanã Eco Hotel, início":
+    - /url: /
+  - link "Quero ser avisado":
+    - /url: /#avisamos
+- main:
+  - text: Eventos e convenções
+  - heading "Eventos e convenções" [level=1]
+  - paragraph: O evento inteiro no mesmo endereço.
+  - paragraph: Auditório, centro de convenções, hospedagem e restaurante. Reunião de equipe, treinamento, congresso regional, formatura ou casamento, sem deslocar ninguém.
+  - link "Solicitar proposta":
+    - /url: "#proposta"
+  - link "Rolar para o conteúdo":
+    - /url: "#conteudo-principal"
+    - text: Rolar
+  - navigation "Você está em":
+    - list:
+      - listitem:
+        - link "Início":
+          - /url: /
+      - listitem: Eventos e convenções
+  - text: Os espaços
+  - heading "Auditório e centro de convenções." [level=2]
+  - paragraph: Foyer para coffee break e credenciamento.
+  - 'img "Planta esquemática dos espaços de evento: auditório, centro de convenções divisível e foyer. Sem escala."': Auditório Centro de convenções Foyer divisível em salas
+  - paragraph: Desenho esquemático, sem escala e sem dimensões reais.
+  - text: Para que serve
+  - heading "Do treinamento de dez pessoas ao congresso regional." [level=2]
+  - list:
+    - listitem: Reuniões de diretoria.
+    - listitem: Treinamentos e convenções de vendas.
+    - listitem: Congressos e seminários da região central de Rondônia.
+    - listitem: Formaturas, casamentos e aniversários.
+  - text: Pacotes
+  - heading "Quem vem para o evento dorme aqui." [level=2]
+  - paragraph: Tarifas de grupo, bloqueio de quartos e café da manhã para os participantes. A equipe monta o pacote com o organizador.
+  - link "Ver as acomodações":
+    - /url: /acomodacoes
+  - text: Proposta
+  - heading "Conte o que você precisa." [level=2]
+  - paragraph: Tipo de evento, data, número de pessoas, precisa de hospedagem, precisa de alimentação. A equipe responde em até um dia útil.
+  - paragraph:
+    - text: Prefere falar?
+    - link "Fale com a equipe":
+      - /url: /contato
+    - text: .
+  - list "Etapas do formulário":
+    - listitem:
+      - button "1 O evento"
+    - listitem:
+      - button "2 Você"
+    - listitem:
+      - button "3 Detalhes"
+  - paragraph: "Passo 1 de 3: O evento"
+  - text: Tipo de evento
+  - combobox "Tipo de evento":
+    - option "Escolha" [disabled] [selected]
+    - option "Reunião de diretoria"
+    - option "Treinamento"
+    - option "Convenção de vendas"
+    - option "Congresso ou seminário"
+    - option "Formatura"
+    - option "Casamento"
+    - option "Aniversário"
+    - option "Outro"
+  - text: Data pretendida (opcional)
+  - textbox "Data pretendida (opcional)"
+  - text: Quantas pessoas (opcional)
+  - spinbutton "Quantas pessoas (opcional)"
+  - button "Continuar"
+  - paragraph: A equipe responde em até um dia útil. Seus dados ficam com o hotel.
+- contentinfo:
+  - img "Símbolo do Kaluanã"
+  - paragraph: Kaluanã Eco Hotel
+  - text: Rodovia Pastor Severo Antonio de Araujo, 2015, lote 2 Ji-Paraná, RO
+  - heading "Siga" [level=2]
+  - list:
+    - listitem: Instagram
+    - listitem: Facebook
+    - listitem: LinkedIn
+  - list:
+    - listitem:
+      - link "Política de privacidade":
+        - /url: /politica-de-privacidade
+    - listitem:
+      - link "Termos de uso":
+        - /url: /termos-de-uso
+  - paragraph: Feito em Ji-Paraná
+  - text: KALUANA ECO HOTEL LTDA · CNPJ 47.562.282/0001-84 © 2026 Kaluanã Eco Hotel
+- alert
