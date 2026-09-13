@@ -731,6 +731,10 @@ const resumoEventos = (lista: { event?: string; [k: string]: unknown }[]) =>
       const { ctx, page, console } = await abrir("/eventos");
       const antes = recebidos.length;
       await page.selectOption("#ev-tipo", "Treinamento");
+      // O formulário entra na tela com a animação de entrada (500 ms); um clique automático no
+      // meio do movimento cai no form, e não no botão do passo.
+      await page.locator(".form-passos").scrollIntoViewIfNeeded();
+      await page.waitForTimeout(800);
       await page.locator(".form-passo").nth(2).click();
       await page.check("input[name=hospedagem][value=sim]");
       await page.click(".form-evento .form-enviar");
