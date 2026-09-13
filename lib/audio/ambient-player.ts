@@ -9,6 +9,8 @@ import { audio as audioTokens } from "@/lib/tokens";
 
 type Playing = { source: AudioBufferSourceNode; gain: GainNode; endsAt: number };
 
+const rodando = (ctx: AudioContext) => ctx.state === "running";
+
 export class AmbientPlayer {
   private ctx: AudioContext | null = null;
   private master: GainNode | null = null;
@@ -24,6 +26,19 @@ export class AmbientPlayer {
 
   get isPlaying() {
     return !this.stopped;
+  }
+
+  /**
+   * Diz se o navegador deixa tocar agora, sem gesto do visitante. Sem essa permissão, o Chrome
+   * deixa o resume() pendente até o primeiro gesto; o limite de tempo evita que o botão fique
+   * preso em "Carregando o som".
+   */
+  async podeTocar(limiteMs = 300) {
+    const ctx = this.ctx ?? (this.ctx = new AudioContext());
+    if (ctx.state === "running") return true;
+    await Promise.race([ctx.resume(), new Promise((r) => window.setTimeout(r, limiteMs))]);
+    // Lido por função: depois do return acima, o TypeScript acharia que o estado não muda.
+    return rodando(ctx);
   }
 
   /** Começa a tocar a partir de uma fração do loop (0 a 1). Resolve quando o áudio está agendado. */
