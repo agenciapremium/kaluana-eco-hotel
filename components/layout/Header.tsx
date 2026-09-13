@@ -14,9 +14,9 @@ import { mainNav, phase, reservasUrl, site } from "@/lib/site";
  * Some ao rolar para baixo e volta ao rolar para cima. No mobile, menu em tela cheia
  * sobre bege com os itens entrando em cascata (Parte 3.3).
  *
- * Teclado (etapa 6): com o menu aberto, o conteúdo e o rodapé ficam inertes, o Escape fecha
- * e devolve o foco ao botão, e qualquer navegação fecha o menu. O cabeçalho escondido volta
- * quando recebe foco (CSS, :focus-within).
+ * Teclado (etapa 6): com o menu aberto, o conteúdo e o rodapé ficam inertes, o Tab circula
+ * entre o botão e os itens, o Escape fecha e devolve o foco ao botão, e qualquer navegação
+ * fecha o menu. O cabeçalho escondido volta quando recebe foco (CSS, :focus-within).
  */
 export function Header() {
   const [hidden, setHidden] = useState(false);
@@ -65,9 +65,27 @@ export function Header() {
     fundo.forEach((el) => el.setAttribute("inert", ""));
     firstLink.current?.focus();
     const onKey = (e: KeyboardEvent) => {
-      if (e.key !== "Escape") return;
-      setOpen(false);
-      toggle.current?.focus();
+      if (e.key === "Escape") {
+        setOpen(false);
+        toggle.current?.focus();
+        return;
+      }
+      if (e.key !== "Tab") return;
+      // O Tab circula entre o botão e os itens do menu. Sem isso, depois do último item o foco
+      // saía da página e voltava pelo atalho "Pular para o conteúdo", que leva a um main inerte.
+      const menu = document.getElementById(menuId);
+      const alvos = [
+        toggle.current,
+        ...Array.from(menu?.querySelectorAll<HTMLElement>("a[href], button") ?? []),
+      ].filter(
+        (el): el is HTMLElement => el instanceof HTMLElement && el.getClientRects().length > 0,
+      );
+      if (!alvos.length) return;
+      e.preventDefault();
+      const i = alvos.indexOf(document.activeElement as HTMLElement);
+      const passo = e.shiftKey ? -1 : 1;
+      const proximo = i === -1 ? 0 : (i + passo + alvos.length) % alvos.length;
+      alvos[proximo].focus();
     };
     document.addEventListener("keydown", onKey);
     return () => {
@@ -75,7 +93,7 @@ export function Header() {
       fundo.forEach((el) => el.removeAttribute("inert"));
       document.removeEventListener("keydown", onKey);
     };
-  }, [open]);
+  }, [open, menuId]);
 
   const full = phase === "full";
   const atual = (href: string) =>
