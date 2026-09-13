@@ -593,6 +593,9 @@ html.js .stylized-map .map-road.draw-path {
    Fica transparente em bege até rolar; depois vira sólido em bege claro com texto café. */
 .site-header {
   position: absolute;
+  /* De ponta a ponta: sem left e right, o cabeçalho fixo encolhia até a largura do conteúdo e
+     ficava colado à esquerda, o que aparecia na fase pre, com só o logo e um botão. */
+  inset-inline: 0;
   color: var(--color-cafe);
 }
 html.js .site-header {
@@ -604,6 +607,10 @@ html:has(.scene-hero) .site-header:not([data-solid="true"]):not([data-open="true
   -webkit-backdrop-filter: none;
   color: var(--color-bege);
   & .nav-icon {
+    color: var(--color-bege);
+  }
+  /* O logo usa text-cafe fixo e sumia sobre a foto escura. */
+  & .text-cafe {
     color: var(--color-bege);
   }
   & .nav-link {
@@ -3052,31 +3059,28 @@ html.js [data-reveal="mask"] > :focus-visible {
   }
 }
 
-/* Véu local atrás do texto das cenas (etapa 6). O axe não calcula contraste de texto sobre foto.
-   Medido pixel a pixel (npm run qa:contraste), 19 de 93 textos claros ficavam abaixo do mínimo da
-   WCAG contra a parte mais clara da foto atrás deles, como céu e folhagem iluminada. Em vez de
-   escurecer a cena inteira, um véu desfocado fica só atrás de cada bloco de texto e acompanha a
-   entrada dele; a foto continua clara no resto. Os cartões dos painéis já tinham o próprio véu. */
-.scene-hero .scene-content > :first-child,
-.panel-text,
-.andar-bloco-texto,
-.elemento-hero-conteudo {
-  position: relative;
-  isolation: isolate;
-}
-.scene-hero .scene-content > :first-child::before,
-.panel-text::before,
-.andar-bloco-texto::before,
-.elemento-hero-conteudo::before {
+/* Filtro escuro na seção inteira (etapa 6). O axe não calcula contraste de texto sobre foto.
+   Medido pixel a pixel (npm run qa:contraste), 19 de 93 textos claros ficavam abaixo do mínimo
+   contra a parte mais clara da foto, como céu e folhagem iluminada. Por decisão do responsável,
+   o filtro cobre a seção toda, e não só a área atrás do texto: preto suave a 50% sobre a foto e o
+   véu de cada cena. Com 40% nenhum texto reprova, mas o menor contraste cai para 4,2:1; 50% dá
+   folga para fotos mais claras que as medidas. Os guardiões já têm véu de 62% e ficam como estão. */
+.scene-hero .scene-bg::after,
+.panel .scene-bg::after,
+.andar-bloco .scene-bg::after,
+.elemento-hero .scene-bg::after {
   content: "";
   position: absolute;
-  inset: -1.5rem -2rem;
-  z-index: -1;
+  inset: 0;
   pointer-events: none;
-  border-radius: 3rem;
-  background-color: color-mix(in srgb, var(--color-preto) 60%, transparent);
-  filter: blur(40px);
+  background-color: color-mix(in srgb, var(--color-preto) 50%, transparent);
 }
-.scene-hero .scene-content > :first-child::before {
-  background-color: color-mix(in srgb, var(--color-preto) 66%, transparent);
+/* Botão secundário sobre o hero do elemento (Ouvir o ambiente): café sumia na foto escura. */
+.elemento-hero .btn-secondary {
+  color: var(--color-bege);
+  border-color: color-mix(in srgb, var(--color-bege) 60%, transparent);
+  &:hover {
+    background-color: color-mix(in srgb, var(--color-bege) 12%, transparent);
+    border-color: var(--color-bege);
+  }
 }
