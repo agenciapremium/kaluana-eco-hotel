@@ -177,7 +177,15 @@ async function gravar(
   grupoDaImagem: string,
   largura: number,
 ) {
-  const teto = tetoKB[grupoDaImagem]?.[formato][largura];
+  const tetos = tetoKB[grupoDaImagem]?.[formato];
+  // Largura fora do padrão (a do original) usa o teto da largura padrão seguinte.
+  const faixa = tetos
+    ? Object.keys(tetos)
+        .map(Number)
+        .sort((a, b) => a - b)
+        .find((l) => l >= largura)
+    : undefined;
+  const teto = tetos && faixa ? tetos[faixa] : undefined;
   let qualidade: number = qualidadePadrao[formato];
   for (let tentativa = 0; ; tentativa++) {
     const buffer =
@@ -215,8 +223,11 @@ async function buildImages() {
         width = Math.round(origHeight / ratio);
       }
     }
+    // Larguras padrão que cabem no original e, se sobrar resolução, a do próprio original, até
+    // 1920 px. Antes, uma foto de 964 px saía só em 640 px e aparecia ampliada em tela cheia.
     const widths: number[] = imageWidths.filter((w) => w <= width);
-    if (widths.length === 0) widths.push(width);
+    const maior = Math.min(width, imageWidths[imageWidths.length - 1]);
+    if (widths.length === 0 || maior - widths[widths.length - 1] >= 100) widths.push(maior);
     for (const w of widths) {
       const base = crop
         ? sharp(input)
