@@ -95,18 +95,25 @@ Pedido do responsável: cada ave com o próprio canto na página, o mesmo para o
 | ------------ | ----------------------------------------------------------------------- | ---------- | --------- | ------------------------------------------------------- |
 | onca-pintada | Panthera onca (onça-pintada), esturro no Attica Zoological Park, Grécia | About Zoos | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Jaguar_saw.flac |
 
-**Ainda sem som da espécie.** Buscas de 13/09/2026: o Commons não tem gravação destas espécies (para jaguatirica e jacaré só aparecem pronúncias da palavra), o xeno-canto bloqueia acesso automático e a API exige chave de conta, e a busca automática no Freesound não trouxe resultado, o que pede uma busca manual. Só servem gravações sem a cláusula NC (não comercial), porque o site é de um hotel. Até lá, estas páginas tocam o som do andar.
+**Garça e anu-preto, direto do xeno-canto.** Com a chave da conta do responsável no xeno-canto (guardada só no `.env.local`), a busca pela API em 13/09/2026 consultou as 11 espécies das 7 aves sem canto: 1.500 gravações, das quais só 8 têm licença que permite uso comercial e obra derivada (CC BY, CC BY-SA ou CC0). Duas passaram na conferência de espécie, qualidade e fundo e entram por cima de um loop do andar:
 
-| Animal      | Espécie declarada                            | Caminho possível                                                                                 |
-| ----------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Gavião-real | Harpia harpyja                               | xeno-canto com chave de conta, gravação em CC BY, CC BY-SA ou CC0                                |
-| Garça       | Ardea alba e Ardea cocoi                     | xeno-canto com chave de conta                                                                    |
-| Mutum       | Crax spp. e Mitu spp.                        | xeno-canto com chave de conta                                                                    |
-| Carcará     | Caracara plancus                             | xeno-canto com chave de conta                                                                    |
-| Maracanã    | Primolius maracana e Orthopsittaca manilatus | xeno-canto com chave de conta                                                                    |
-| Anu-preto   | Crotophaga ani                               | xeno-canto com chave de conta                                                                    |
-| Colhereiro  | Platalea ajaja                               | xeno-canto com chave de conta                                                                    |
-| Jaguatirica | Leopardus pardalis                           | acervo de sons de mamíferos com licença comercial, busca manual no Freesound ou gravação própria |
-| Jacaré-açu  | Melanosuchus niger                           | acervo com licença comercial, busca manual no Freesound ou gravação própria                      |
+| Ave       | Espécie gravada                                                                      | Autor                                          | Licença   | Fonte                         |
+| --------- | ------------------------------------------------------------------------------------ | ---------------------------------------------- | --------- | ----------------------------- |
+| garca     | Ardea alba (garça-branca), gritos de alarme e de voo, Normandia, França, qualidade A | Sonothèque ADVL (gravação de Corentin Rivière) | CC0 1.0   | https://xeno-canto.org/705918 |
+| anu-preto | Crotophaga ani (anu-preto), canto, Cundinamarca, Colômbia, qualidade B               | Juan Antonio Alonso de Juan                    | CC BY 4.0 | https://xeno-canto.org/912265 |
+
+Descartadas: XC131650 (garça, CC BY-SA 3.0), com duas aves norte-americanas no fundo; XC723784 (anu-preto), com a identificação marcada como incerta; XC497349 (carcará, qualidade D), com beija-flor e outra ave da América Central por cima do chamado. As outras gravações de garça em CC0 eram de qualidade menor que a escolhida.
+
+**Ainda sem som da espécie.** Estas páginas tocam o som do andar.
+
+| Animal      | Espécie declarada                            | Situação em 13/09/2026                                                                      | Caminho possível                                                                                 |
+| ----------- | -------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Gavião-real | Harpia harpyja                               | xeno-canto: 80 gravações, todas com cláusula NC ou ND                                       | pedir ao autor de uma gravação licença para uso comercial, ou gravação própria                   |
+| Mutum       | Crax spp. e Mitu spp.                        | xeno-canto: Crax fasciolata, Crax globulosa e Mitu tuberosum, nenhuma com licença comercial | idem                                                                                             |
+| Carcará     | Caracara plancus                             | xeno-canto: a única com licença comercial tem qualidade D e outras espécies por cima        | idem                                                                                             |
+| Maracanã    | Primolius maracana e Orthopsittaca manilatus | xeno-canto: nenhuma com licença comercial                                                   | idem                                                                                             |
+| Colhereiro  | Platalea ajaja                               | xeno-canto: 32 gravações, todas com cláusula NC                                             | idem                                                                                             |
+| Jaguatirica | Leopardus pardalis                           | Commons só tem pronúncia da palavra; o xeno-canto é de aves                                 | acervo de sons de mamíferos com licença comercial, busca manual no Freesound ou gravação própria |
+| Jacaré-açu  | Melanosuchus niger                           | Commons só tem pronúncia da palavra                                                         | idem                                                                                             |
 
 Os peixes não têm canto: as páginas deles seguem com a água do andar.

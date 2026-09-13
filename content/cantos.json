@@ -79,6 +79,22 @@
     "fonte": "https://commons.wikimedia.org/wiki/File%3AParoaria_gularis_-_Red-capped_Cardinal_XC242921.mp3",
     "especie": "Paroaria gularis (cardeal-da-amazônia)"
   },
+  "garca": {
+    "arquivo": "canto-garca",
+    "autor": "Sonothèque ADVL",
+    "licenca": "CC0 1.0",
+    "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "fonte": "https://xeno-canto.org/705918",
+    "especie": "Ardea alba (garça-branca), gritos de alarme e de voo"
+  },
+  "anu-preto": {
+    "arquivo": "canto-anu-preto",
+    "autor": "Juan Antonio Alonso de Juan",
+    "licenca": "CC BY 4.0",
+    "licencaUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "fonte": "https://xeno-canto.org/912265",
+    "especie": "Crotophaga ani (anu-preto)"
+  },
   "onca-pintada": {
     "arquivo": "canto-onca-pintada",
     "autor": "About Zoos",

@@ -1,9 +1,10 @@
 /**
  * Cantos de ave para o Andar das Aves (CLAUDE.md, seção 8, item 3).
  *
- * Origem: xeno-canto, republicado no Wikimedia Commons, que entrega autor, licença e link
- * da gravação original no metadado do arquivo. Só entram gravações com licença Creative
- * Commons, e o crédito aparece no rodapé da página do elemento e em docs/registro-audio.md.
+ * Origem: xeno-canto, republicado no Wikimedia Commons (autor, licença e link no metadado), ou
+ * baixado direto da API v3 do xeno-canto com a chave XENO_CANTO_API_KEY do .env.local. Só entram
+ * gravações com licença que permita uso comercial e obra derivada (CC BY, CC BY-SA ou CC0), e o
+ * crédito aparece no rodapé da página do elemento e em docs/registro-audio.md.
  *
  * Critério de espécie, o mesmo da regra 6 do CLAUDE.md para imagens: a gravação só é aceita
  * se a espécie estiver dentro do táxon que o YAML declara para aquele quarto. Onde o YAML
@@ -17,15 +18,18 @@
  * em -30 LUFS (25 s, ou 45 s sobre o fundo), mais content/cantos.json. Precisa de ffmpeg. Use: npm run build:cantos
  */
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-const UA = "KaluanaEcoHotel/1.0 (contato@agpremium.com.br)";
+const UA = "KaluanaEcoHotel/1.0 (https://kaluanaecohotel.com.br)";
 const API = "https://commons.wikimedia.org/w/api.php";
 
 /** Arquivo no Commons por elemento, e a espécie realmente gravada. */
 type Aceito = {
-  arquivoCommons: string;
+  /** Arquivo no Wikimedia Commons. */
+  arquivoCommons?: string;
+  /** Número da gravação no xeno-canto (XC), baixada pela API v3. */
+  xenoCanto?: number;
   especie: string;
   taxon: string;
   /** Andar da página; aves quando omitido. */
@@ -85,6 +89,18 @@ const aceitos: Record<string, Aceito> = {
     especie: "Paroaria gularis (cardeal-da-amazônia)",
     taxon: "Paroaria gularis",
   },
+  garca: {
+    xenoCanto: 705918,
+    especie: "Ardea alba (garça-branca), gritos de alarme e de voo",
+    taxon: "Ardea alba e Ardea cocoi",
+    sobreFundo: { loop: "entardecer", segundos: [4, 19, 34] },
+  },
+  "anu-preto": {
+    xenoCanto: 912265,
+    especie: "Crotophaga ani (anu-preto)",
+    taxon: "Crotophaga ani",
+    sobreFundo: { loop: "amanhecer", segundos: [3, 18, 33] },
+  },
   "onca-pintada": {
     arquivoCommons: "File:Jaguar saw.flac",
     especie: "Panthera onca (onça-pintada), esturro gravado no Attica Zoological Park",
@@ -97,14 +113,14 @@ const aceitos: Record<string, Aceito> = {
 /** Sem gravação aceitável: a página cai no banco do andar. Motivo registrado. */
 export const semCanto: Record<string, string> = {
   "gaviao-real":
-    "Commons não tem Harpia harpyja; a alternativa era Spizaetus tyrannus, outra espécie",
-  garca: "sem gravação de Ardea alba ou Ardea cocoi com licença compatível",
-  mutum: "sem gravação de Crax spp. ou Mitu spp. com licença compatível",
-  carcara: "Commons não tem Caracara plancus; a alternativa era Daptrius ater, outra espécie",
+    "xeno-canto: 80 gravações de Harpia harpyja, todas com cláusula NC ou ND (13/09/2026)",
+  mutum:
+    "xeno-canto: Crax fasciolata, Crax globulosa e Mitu tuberosum sem gravação com licença comercial",
+  carcara:
+    "xeno-canto: a única gravação com licença comercial (XC497349, qualidade D) tem outras espécies da América Central por cima",
   maracana:
-    "Commons não tem Primolius maracana nem Orthopsittaca manilatus; a alternativa era Psittacara leucophthalmus",
-  "anu-preto": "Commons não tem Crotophaga ani; a alternativa era Crotophaga sulcirostris",
-  colhereiro: "sem gravação de Platalea ajaja com licença compatível",
+    "xeno-canto: Primolius maracana e Orthopsittaca manilatus sem gravação com licença comercial",
+  colhereiro: "xeno-canto: 32 gravações de Platalea ajaja, todas com cláusula NC ou ND",
 };
 
 const limpa = (s?: string) =>
@@ -115,11 +131,12 @@ const limpa = (s?: string) =>
 
 type Meta = {
   url: string;
+  ext: string;
   autor: string;
   licenca: string;
   licencaUrl: string;
   credito: string;
-  paginaCommons: string;
+  pagina: string;
 };
 
 async function metadados(titulo: string): Promise<Meta> {
@@ -149,11 +166,12 @@ async function metadados(titulo: string): Promise<Meta> {
   const credito = limpa(em.Credit?.value);
   return {
     url: ii.url.split("?")[0],
+    ext: ii.url.split("?")[0].split(".").pop() ?? "mp3",
     autor: limpa(em.Artist?.value),
     licenca: limpa(em.LicenseShortName?.value),
     licencaUrl: limpa(em.LicenseUrl?.value),
     credito,
-    paginaCommons: `https://commons.wikimedia.org/wiki/${encodeURIComponent(titulo.replace(/ /g, "_"))}`,
+    pagina: `https://commons.wikimedia.org/wiki/${encodeURIComponent(titulo.replace(/ /g, "_"))}`,
   };
 }
 
@@ -164,6 +182,60 @@ function ffmpeg(args: string[]) {
 }
 
 const root = process.cwd();
+/** Chave da API v3 do xeno-canto: variável de ambiente ou .env.local, que não vai para o git. */
+function chaveXenoCanto() {
+  if (process.env.XENO_CANTO_API_KEY) return process.env.XENO_CANTO_API_KEY;
+  const env = resolve(process.cwd(), ".env.local");
+  const achada = existsSync(env)
+    ? readFileSync(env, "utf8").match(/^XENO_CANTO_API_KEY=\s*"?([^"\n]+)"?\s*$/m)
+    : null;
+  if (!achada)
+    throw new Error("XENO_CANTO_API_KEY ausente: a chave vem da conta em xeno-canto.org");
+  return achada[1].trim();
+}
+
+/** Nome do autor como vai no crédito: o que vem todo em maiúsculas passa a nome próprio. */
+function nomeDoAutor(nome: string) {
+  if (nome !== nome.toUpperCase()) return nome;
+  const minusculas = new Set(["de", "da", "do", "das", "dos", "del", "la", "e", "y"]);
+  return nome
+    .toLowerCase()
+    .split(/\s+/)
+    .map((p, i) => (i > 0 && minusculas.has(p) ? p : p.charAt(0).toUpperCase() + p.slice(1)))
+    .join(" ");
+}
+
+/** Nome curto da licença a partir da URL: CC BY 4.0, CC BY-SA 3.0, CC0 1.0. */
+function licencaCurta(url: string) {
+  const zero = url.match(/publicdomain\/zero\/([\d.]+)/);
+  if (zero) return `CC0 ${zero[1]}`;
+  const cc = url.match(/licenses\/([a-z-]+)\/([\d.]+)/);
+  return cc ? `CC ${cc[1].toUpperCase()} ${cc[2]}` : url;
+}
+
+async function metadadosXenoCanto(id: number): Promise<Meta> {
+  const u = `https://xeno-canto.org/api/3/recordings?query=${encodeURIComponent(`nr:${id}`)}&key=${chaveXenoCanto()}`;
+  const r = await fetch(u, { headers: { "User-Agent": UA } });
+  const j = (await r.json()) as {
+    recordings?: { file: string; "file-name": string; rec: string; lic: string }[];
+  };
+  const rec = j.recordings?.[0];
+  if (!rec) throw new Error(`gravação XC${id} não encontrada no xeno-canto`);
+  const licencaUrl = rec.lic.startsWith("//") ? `https:${rec.lic}` : rec.lic;
+  // Site comercial: licença com cláusula não comercial (NC) ou sem obra derivada (ND) não serve.
+  if (/-nc|-nd/.test(licencaUrl))
+    throw new Error(`XC${id} tem licença incompatível: ${licencaUrl}`);
+  return {
+    url: rec.file,
+    ext: rec["file-name"].split(".").pop()?.toLowerCase() ?? "mp3",
+    autor: nomeDoAutor(rec.rec),
+    licenca: licencaCurta(licencaUrl),
+    licencaUrl,
+    credito: `xeno-canto XC${id}`,
+    pagina: `https://xeno-canto.org/${id}`,
+  };
+}
+
 (async () => {
   const saida: Record<string, unknown> = {};
   const registro: string[] = [];
@@ -171,13 +243,15 @@ const root = process.cwd();
   for (const [id, cfg] of Object.entries(aceitos)) {
     // Pausa entre consultas: o Commons recusa rajadas de requisições.
     await new Promise((r) => setTimeout(r, 1500));
-    const meta = await metadados(cfg.arquivoCommons);
+    const meta = cfg.xenoCanto
+      ? await metadadosXenoCanto(cfg.xenoCanto)
+      : await metadados(cfg.arquivoCommons ?? "");
     const grupo = cfg.grupo ?? "aves";
     const fonte = resolve(root, "media-src/audio", grupo);
     const destino = resolve(root, "public/audio", grupo);
     mkdirSync(fonte, { recursive: true });
     mkdirSync(destino, { recursive: true });
-    const ext = meta.url.split(".").pop() ?? "mp3";
+    const ext = meta.ext;
     const original = resolve(fonte, `${id}.${ext}`);
     if (!existsSync(original)) {
       const res = await fetch(meta.url, { headers: { "User-Agent": UA } });
@@ -233,11 +307,11 @@ const root = process.cwd();
       autor: meta.autor,
       licenca: meta.licenca,
       licencaUrl: meta.licencaUrl,
-      fonte: meta.paginaCommons,
+      fonte: meta.pagina,
       especie: cfg.especie,
     };
     registro.push(
-      `| ${id} | ${cfg.especie} | ${cfg.taxon} | ${meta.autor} | ${meta.licenca} | ${meta.paginaCommons} |`,
+      `| ${id} | ${cfg.especie} | ${cfg.taxon} | ${meta.autor} | ${meta.licenca} | ${meta.pagina} |`,
     );
     process.stdout.write(`canto: ${id} (${cfg.especie}) ${meta.licenca}, ${meta.autor}\n`);
   }
