@@ -333,8 +333,8 @@ O 66 de SEO em Eventos é o `noindex` pedido pelo documento mestre e confirmado 
 
 ## Etapa 6: QA final e preparação do deploy
 
-**Status:** no ar desde 13/09/2026, 08:35, pela promoção do último build pedida pelo responsável da Premium. Atualizada no mesmo dia com os ajustes pedidos depois da primeira publicação. A integração da `etapa-6` na `main` espera o "aprovado".
-**Branch:** `etapa-6`, enviada ao GitHub; é o código em produção. A `main` do GitHub ainda está na etapa 1 e a local, na etapa 5: um push na `main` publicaria código anterior.
+**Status:** aprovada pelo responsável da Premium em 13/09/2026 e integrada à `main`. No ar desde 13/09/2026, 08:35, com os ajustes pedidos depois da primeira publicação.
+**Branch:** `etapa-6`, integrada à `main`, que volta a ser a origem do deploy de produção.
 **Período:** 12 e 13/09/2026.
 **Produção:** `https://www.kaluanaecohotel.com.br` (deploy `nitr623o9`, fase `pre`). O domínio sem `www` redireciona para o `www`, ao contrário da canônica (ver abaixo).
 **Créditos Higgsfield gastos:** 192, no upscale das 96 fotos do Universo com original abaixo de 1600 px, aprovado pelo responsável em 13/09/2026. Saldo: 8.485,85. Acumulado do projeto: 329,75.
@@ -378,7 +378,6 @@ O 66 de SEO em Eventos é o `noindex` pedido pelo documento mestre e confirmado 
 | Revisão dos três posts de partida e das datas                                                                                                                                                                                                                                         | Responsável       | `posts/*.yaml`                      |
 | **Inverter o domínio principal.** Hoje `kaluanaecohotel.com.br` redireciona (308) para o `www`, mas a canônica, o sitemap e o `robots.txt` usam o domínio sem `www`. No painel: domínio sem `www` sem redirecionamento e `www` com 308 para ele                                       | Responsável       | `docs/deploy.md`, seção 5           |
 | Conferência humana com leitor de tela                                                                                                                                                                                                                                                 | Premium           | `docs/qa/etapa-6/leitor-de-tela.md` |
-| **Integrar a `etapa-6` na `main`** depois do "aprovado". Com as variáveis gravadas, o `check-env` não segura mais: todo push na `main` e toda promoção publicam                                                                                                                       | Responsável       | `docs/deploy.md`, seção 6           |
 | Enviar um formulário real em produção e conferir a chegada em `kaluana@agpremium.com.br`; cadastrar o domínio no Google Search Console e enviar o sitemap                                                                                                                             | Premium           | `docs/deploy.md`, seção 6           |
 
 ### Decisões que ficam com o cliente

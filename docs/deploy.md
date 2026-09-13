@@ -14,7 +14,7 @@ Como o site vai do repositório para a pré-visualização e, depois da aprovaç
 | Proteção           | Vercel Authentication em todos os deploys, exceto domínios próprios                                      |
 | Domínio            | kaluanaecohotel.com.br e www, registrados no Registro.br e associados ao projeto; no ar desde 13/09/2026 |
 
-**Atenção: a `main` publica em produção.** Todo push na `main` gera um deploy de produção. Por isso o trabalho das etapas fica em `etapa-N` e a `main` local só é enviada depois da aprovação da etapa 6.
+**Atenção: a `main` publica em produção.** Todo push na `main` gera um deploy de produção. Por isso o trabalho fica em branches e só entra na `main` depois de aprovado. Desde 13/09/2026, com as variáveis de e-mail gravadas, o `check-env` não barra mais o build: todo push na `main` publica.
 
 ## 2. Pré-visualização
 
@@ -91,7 +91,7 @@ Passos, **o DNS só depois da aprovação da etapa 6 e do deploy de produção**
 
 ## 6. Ida para produção
 
-Em 13/09/2026, a pedido do responsável, o último build da `etapa-6` foi promovido direto para produção (`vercel promote`), sem passar pela `main`. **Enquanto a `etapa-6` não for integrada, não envie a `main`:** o push publicaria código anterior, e o `check-env` já não segura, porque as variáveis estão gravadas.
+Em 13/09/2026, a pedido do responsável, o último build da `etapa-6` foi promovido direto para produção (`vercel promote`), antes de passar pela `main`. Com a aprovação da etapa 6, no mesmo dia, a `etapa-6` foi integrada à `main`, e a produção voltou a sair dela.
 
 O caminho normal, depois do "aprovado":
 
