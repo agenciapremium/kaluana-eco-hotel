@@ -10,8 +10,11 @@
  * nomeia uma espécie (Harpia harpyja, Caracara plancus, Crotophaga ani, Primolius maracana),
  * gravação de espécie vizinha é descartada, ainda que exista no Commons.
  *
- * Saída: public/audio/aves/<slug>.webm (Opus) e .m4a (AAC), mono, 48 kbps, 25 s com fade,
- * mais content/cantos.json. Precisa de ffmpeg. Use: npm run build:cantos
+ * Outros animais entram pela mesma tabela, com o andar indicado. Gravação curta demais para loop
+ * (o esturro da onça tem 1,4 s) entra por cima de um loop do andar, em segundos marcados.
+ *
+ * Saída: public/audio/<andar>/canto-<slug>.webm (Opus) e .m4a (AAC), mono, 48 kbps, normalizados
+ * em -30 LUFS (25 s, ou 45 s sobre o fundo), mais content/cantos.json. Precisa de ffmpeg. Use: npm run build:cantos
  */
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
@@ -21,7 +24,17 @@ const UA = "KaluanaEcoHotel/1.0 (contato@agpremium.com.br)";
 const API = "https://commons.wikimedia.org/w/api.php";
 
 /** Arquivo no Commons por elemento, e a espécie realmente gravada. */
-const aceitos: Record<string, { arquivoCommons: string; especie: string; taxon: string }> = {
+type Aceito = {
+  arquivoCommons: string;
+  especie: string;
+  taxon: string;
+  /** Andar da página; aves quando omitido. */
+  grupo?: "aves" | "guardioes";
+  /** Gravação curta: entra por cima de um loop do andar, nos segundos indicados. */
+  sobreFundo?: { loop: string; segundos: number[] };
+};
+
+const aceitos: Record<string, Aceito> = {
   arara: {
     arquivoCommons: "File:Scarlet macaw 01.wav",
     especie: "Ara macao (araracanga)",
@@ -71,6 +84,13 @@ const aceitos: Record<string, { arquivoCommons: string; especie: string; taxon: 
     arquivoCommons: "File:Paroaria gularis - Red-capped Cardinal XC242921.mp3",
     especie: "Paroaria gularis (cardeal-da-amazônia)",
     taxon: "Paroaria gularis",
+  },
+  "onca-pintada": {
+    arquivoCommons: "File:Jaguar saw.flac",
+    especie: "Panthera onca (onça-pintada), esturro gravado no Attica Zoological Park",
+    taxon: "Panthera onca",
+    grupo: "guardioes",
+    sobreFundo: { loop: "noite-na-floresta", segundos: [6, 21, 36] },
   },
 };
 
@@ -144,17 +164,19 @@ function ffmpeg(args: string[]) {
 }
 
 const root = process.cwd();
-const destino = resolve(root, "public/audio/aves");
-const fonte = resolve(root, "media-src/audio/aves");
-
 (async () => {
-  mkdirSync(destino, { recursive: true });
-  mkdirSync(fonte, { recursive: true });
   const saida: Record<string, unknown> = {};
   const registro: string[] = [];
 
   for (const [id, cfg] of Object.entries(aceitos)) {
+    // Pausa entre consultas: o Commons recusa rajadas de requisições.
+    await new Promise((r) => setTimeout(r, 1500));
     const meta = await metadados(cfg.arquivoCommons);
+    const grupo = cfg.grupo ?? "aves";
+    const fonte = resolve(root, "media-src/audio", grupo);
+    const destino = resolve(root, "public/audio", grupo);
+    mkdirSync(fonte, { recursive: true });
+    mkdirSync(destino, { recursive: true });
     const ext = meta.url.split(".").pop() ?? "mp3";
     const original = resolve(fonte, `${id}.${ext}`);
     if (!existsSync(original)) {
@@ -162,31 +184,40 @@ const fonte = resolve(root, "media-src/audio/aves");
       if (!res.ok) throw new Error(`falha ao baixar ${meta.url}: ${res.status}`);
       writeFileSync(original, Buffer.from(await res.arrayBuffer()));
     }
-    // 25 s no máximo, mono, normalizado, com fade de 1 s nas pontas para o loop não estalar.
-    const filtro =
-      "atrim=0:25,aformat=channel_layouts=mono,loudnorm=I=-20:TP=-2:LRA=11,afade=t=in:st=0:d=1,afade=t=out:st=24:d=1";
+    // Mono, normalizado em -30 LUFS como os loops do andar (o player toca bem baixo), com fade de
+    // 1 s nas pontas para o loop não estalar.
+    let entrada: string[];
+    if (cfg.sobreFundo) {
+      // A gravação curta fica um pouco acima do fundo e se repete nos segundos marcados.
+      const fundo = resolve(destino, `${cfg.sobreFundo.loop}.m4a`);
+      const marcas = cfg.sobreFundo.segundos;
+      const copias = marcas.map((_, i) => `[e${i}]`).join("");
+      const atrasos = marcas
+        .map((s, i) => `[e${i}]adelay=delays=${s * 1000}:all=1[d${i}]`)
+        .join(";");
+      const atrasadas = marcas.map((_, i) => `[d${i}]`).join("");
+      entrada = [
+        "-i",
+        fundo,
+        "-i",
+        original,
+        "-filter_complex",
+        `[1:a]aformat=channel_layouts=mono,loudnorm=I=-24:TP=-9,asplit=${marcas.length}${copias};${atrasos};[0:a]aformat=channel_layouts=mono[f];[f]${atrasadas}amix=inputs=${marcas.length + 1}:duration=first:normalize=0,loudnorm=I=-30:TP=-9:LRA=11,afade=t=in:st=0:d=1,afade=t=out:st=44:d=1`,
+      ];
+    } else {
+      entrada = [
+        "-i",
+        original,
+        "-vn",
+        "-af",
+        "atrim=0:25,aformat=channel_layouts=mono,loudnorm=I=-30:TP=-9:LRA=11,afade=t=in:st=0:d=1,afade=t=out:st=24:d=1",
+      ];
+    }
     const webm = resolve(destino, `canto-${id}.webm`);
     const m4a = resolve(destino, `canto-${id}.m4a`);
+    ffmpeg([...entrada, "-c:a", "libopus", "-b:a", "48k", "-ar", "48000", webm]);
     ffmpeg([
-      "-i",
-      original,
-      "-vn",
-      "-af",
-      filtro,
-      "-c:a",
-      "libopus",
-      "-b:a",
-      "48k",
-      "-ar",
-      "48000",
-      webm,
-    ]);
-    ffmpeg([
-      "-i",
-      original,
-      "-vn",
-      "-af",
-      filtro,
+      ...entrada,
       "-c:a",
       "aac",
       "-b:a",

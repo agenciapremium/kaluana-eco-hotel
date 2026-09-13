@@ -78,5 +78,13 @@
     "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "fonte": "https://commons.wikimedia.org/wiki/File%3AParoaria_gularis_-_Red-capped_Cardinal_XC242921.mp3",
     "especie": "Paroaria gularis (cardeal-da-amazônia)"
+  },
+  "onca-pintada": {
+    "arquivo": "canto-onca-pintada",
+    "autor": "About Zoos",
+    "licenca": "CC BY 4.0",
+    "licencaUrl": "https://creativecommons.org/licenses/by/4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File%3AJaguar_saw.flac",
+    "especie": "Panthera onca (onça-pintada), esturro gravado no Attica Zoological Park"
   }
 }

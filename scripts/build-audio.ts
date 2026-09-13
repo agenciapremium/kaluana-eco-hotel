@@ -143,7 +143,7 @@ function gerar(andar: FloorKey, loop: Loop, semente: number) {
   const filtro = loop.filtro
     .replace(/SEED2/g, String(semente + 991))
     .replace(/SEED/g, String(semente));
-  const cadeia = `${filtro},afade=t=in:d=2,afade=t=out:st=${segundos - 2}:d=2,volume=0.5`;
+  const cadeia = `${filtro},afade=t=in:d=2,afade=t=out:st=${segundos - 2}:d=2,loudnorm=I=-30:TP=-9:LRA=11`;
   const webm = resolve(dir, `${loop.slug}.webm`);
   const m4a = resolve(dir, `${loop.slug}.m4a`);
   const comum = [
@@ -159,6 +159,9 @@ function gerar(andar: FloorKey, loop: Loop, semente: number) {
     cadeia,
     "-ac",
     "1",
+    // O loudnorm trabalha em 192 kHz; a saída volta a 48 kHz.
+    "-ar",
+    "48000",
   ];
   execFileSync("ffmpeg", [...comum, "-c:a", "libopus", "-b:a", "48k", webm], { stdio: "inherit" });
   execFileSync("ffmpeg", [...comum, "-c:a", "aac", "-b:a", "48k", "-movflags", "+faststart", m4a], {
