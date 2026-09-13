@@ -11,7 +11,7 @@ Todas as rotas do build de produção, nas duas fases, em celular e desktop. Lig
 | Home                                     | 1     | 91 (mediana 91)      | 100            | 100           | 100               | 3,4 s     | 660 KB     |
 | Hub do Universo                          | 1     | 93 (mediana 93)      | 100            | 100           | 100               | 3,2 s     | 439 KB     |
 | Hubs de andar (5)                        | 5     | 90 a 92 (mediana 90) | 100            | 100           | 100               | 3,7 s     | 1690 KB    |
-| Páginas de elemento (70)                 | 70    | 90 a 96 (mediana 94) | 100            | 100           | 100               | 3,6 s     | 516 KB     |
+| Páginas de elemento (70)                 | 70    | 90 a 96 (mediana 94) | 100            | 100           | 100               | 3,6 s     | 517 KB     |
 | Acomodações e categorias (8)             | 8     | 91 a 93 (mediana 93) | 100            | 100           | 66 a 69 (noindex) | 3,4 s     | 576 KB     |
 | O Kaluanã, Restaurante, Ji-Paraná        | 3     | 91 a 93 (mediana 92) | 100            | 100           | 69 (noindex)      | 3,3 s     | 588 KB     |
 | Eventos (fora do índice)                 | 1     | 94 (mediana 94)      | 100            | 100           | 66 (noindex)      | 3,0 s     | 460 KB     |
@@ -24,16 +24,16 @@ Nenhuma rota abaixo de 90 em desempenho, acessibilidade, boas práticas ou SEO i
 
 Auditorias reprovadas fora de desempenho: `seo:is-crawlable`.
 
-Orçamento de peso: Home com 660 KB (limite 2.500 KB); páginas de elemento entre 321 e 516 KB (limite 700 KB), todas dentro.
+Orçamento de peso: Home com 660 KB (limite 2.500 KB); páginas de elemento entre 321 e 517 KB (limite 700 KB), todas dentro.
 
 ### Fase `pre`, desktop (100 rotas)
 
 | Grupo                                    | Rotas | Desempenho             | Acessibilidade | Boas práticas | SEO               | LCP maior | Peso maior |
 | ---------------------------------------- | ----- | ---------------------- | -------------- | ------------- | ----------------- | --------- | ---------- |
-| Home                                     | 1     | 98 (mediana 98)        | 100            | 100           | 100               | 0,7 s     | 686 KB     |
+| Home                                     | 1     | 99 (mediana 99)        | 100            | 100           | 100               | 0,7 s     | 686 KB     |
 | Hub do Universo                          | 1     | 100 (mediana 100)      | 100            | 100           | 100               | 0,7 s     | 538 KB     |
-| Hubs de andar (5)                        | 5     | 100 (mediana 100)      | 100            | 100           | 100               | 0,7 s     | 1793 KB    |
-| Páginas de elemento (70)                 | 70    | 99 a 100 (mediana 100) | 100            | 100           | 100               | 0,8 s     | 596 KB     |
+| Hubs de andar (5)                        | 5     | 100 (mediana 100)      | 100            | 100           | 100               | 0,8 s     | 1793 KB    |
+| Páginas de elemento (70)                 | 70    | 99 a 100 (mediana 100) | 100            | 100           | 100               | 0,8 s     | 597 KB     |
 | Acomodações e categorias (8)             | 8     | 99 (mediana 99)        | 100            | 100           | 66 a 69 (noindex) | 0,7 s     | 630 KB     |
 | O Kaluanã, Restaurante, Ji-Paraná        | 3     | 99 (mediana 99)        | 100            | 100           | 69 (noindex)      | 0,7 s     | 615 KB     |
 | Eventos (fora do índice)                 | 1     | 99 (mediana 99)        | 100            | 100           | 66 (noindex)      | 0,6 s     | 491 KB     |
@@ -46,16 +46,16 @@ Nenhuma rota abaixo de 90 em desempenho, acessibilidade, boas práticas ou SEO i
 
 Auditorias reprovadas fora de desempenho: `seo:is-crawlable`.
 
-Orçamento de peso: Home com 686 KB (limite 2.500 KB); páginas de elemento entre 321 e 596 KB (limite 700 KB), todas dentro.
+Orçamento de peso: Home com 686 KB (limite 2.500 KB); páginas de elemento entre 321 e 597 KB (limite 700 KB), todas dentro.
 
 ### Fase `full`, celular (100 rotas)
 
 | Grupo                                    | Rotas | Desempenho           | Acessibilidade | Boas práticas | SEO          | LCP maior | Peso maior |
 | ---------------------------------------- | ----- | -------------------- | -------------- | ------------- | ------------ | --------- | ---------- |
-| Home                                     | 1     | 90 (mediana 90)      | 100            | 100           | 100          | 3,3 s     | 553 KB     |
+| Home                                     | 1     | 90 (mediana 90)      | 100            | 100           | 100          | 3,3 s     | 554 KB     |
 | Hub do Universo                          | 1     | 93 (mediana 93)      | 100            | 100           | 100          | 3,2 s     | 452 KB     |
 | Hubs de andar (5)                        | 5     | 90 a 92 (mediana 91) | 100            | 100           | 100          | 3,7 s     | 1636 KB    |
-| Páginas de elemento (70)                 | 70    | 90 a 95 (mediana 94) | 100            | 100           | 100          | 3,6 s     | 528 KB     |
+| Páginas de elemento (70)                 | 70    | 90 a 95 (mediana 94) | 100            | 100           | 100          | 3,6 s     | 529 KB     |
 | Acomodações e categorias (8)             | 8     | 91 a 93 (mediana 93) | 100            | 100           | 100          | 3,4 s     | 587 KB     |
 | O Kaluanã, Restaurante, Ji-Paraná        | 3     | 92 a 93 (mediana 92) | 100            | 100           | 100          | 3,3 s     | 600 KB     |
 | Eventos (fora do índice)                 | 1     | 94 (mediana 94)      | 100            | 100           | 66 (noindex) | 3,0 s     | 472 KB     |
@@ -68,16 +68,16 @@ Nenhuma rota abaixo de 90 em desempenho, acessibilidade, boas práticas ou SEO i
 
 Auditorias reprovadas fora de desempenho: `seo:is-crawlable`.
 
-Orçamento de peso: Home com 553 KB (limite 2.500 KB); páginas de elemento entre 333 e 528 KB (limite 700 KB), todas dentro.
+Orçamento de peso: Home com 554 KB (limite 2.500 KB); páginas de elemento entre 333 e 529 KB (limite 700 KB), todas dentro.
 
 ### Fase `full`, desktop (100 rotas)
 
 | Grupo                                    | Rotas | Desempenho             | Acessibilidade | Boas práticas | SEO          | LCP maior | Peso maior |
 | ---------------------------------------- | ----- | ---------------------- | -------------- | ------------- | ------------ | --------- | ---------- |
-| Home                                     | 1     | 98 (mediana 98)        | 100            | 100           | 100          | 0,7 s     | 669 KB     |
-| Hub do Universo                          | 1     | 100 (mediana 100)      | 100            | 100           | 100          | 0,7 s     | 606 KB     |
+| Home                                     | 1     | 99 (mediana 99)        | 100            | 100           | 100          | 0,7 s     | 670 KB     |
+| Hub do Universo                          | 1     | 100 (mediana 100)      | 100            | 100           | 100          | 0,7 s     | 607 KB     |
 | Hubs de andar (5)                        | 5     | 100 (mediana 100)      | 100            | 100           | 100          | 0,7 s     | 1853 KB    |
-| Páginas de elemento (70)                 | 70    | 99 a 100 (mediana 100) | 100            | 100           | 100          | 0,8 s     | 656 KB     |
+| Páginas de elemento (70)                 | 70    | 99 a 100 (mediana 100) | 100            | 100           | 100          | 0,8 s     | 657 KB     |
 | Acomodações e categorias (8)             | 8     | 99 (mediana 99)        | 100            | 100           | 100          | 0,7 s     | 683 KB     |
 | O Kaluanã, Restaurante, Ji-Paraná        | 3     | 99 (mediana 99)        | 100            | 100           | 100          | 0,7 s     | 684 KB     |
 | Eventos (fora do índice)                 | 1     | 99 (mediana 99)        | 100            | 100           | 66 (noindex) | 0,7 s     | 560 KB     |
@@ -90,7 +90,7 @@ Nenhuma rota abaixo de 90 em desempenho, acessibilidade, boas práticas ou SEO i
 
 Auditorias reprovadas fora de desempenho: `seo:is-crawlable`.
 
-Orçamento de peso: Home com 669 KB (limite 2.500 KB); páginas de elemento entre 381 e 656 KB (limite 700 KB), todas dentro.
+Orçamento de peso: Home com 670 KB (limite 2.500 KB); páginas de elemento entre 381 e 657 KB (limite 700 KB), todas dentro.
 
 ## Todas as rotas
 
@@ -122,13 +122,11 @@ Notas na ordem desempenho, acessibilidade, boas práticas e SEO. Asterisco: pág
 | `/termos-de-uso`                               | 97 100 100 100 | 100 100 100 100 | 96 100 100 100 | 100 100 100 100 |
 | `/trabalhe-conosco`                            | 94 100 100 66* | 99 100 100 66*  | 94 100 100 100 | 99 100 100 100  |
 | `/universo/arvores/acai`                       | 92 100 100 100 | 100 100 100 100 | 92 100 100 100 | 100 100 100 100 |
-| `/universo/arvores/andiroba`                   | 92 100 100 100 | 100 100 100 100 | 92 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/castanheira`                | 94 100 100 100 | 100 100 100 100 | 93 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/ipe`                        | 92 100 100 100 | 100 100 100 100 | 92 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/itauba`                     | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/jatoba`                     | 91 100 100 100 | 100 100 100 100 | 91 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/jenipapo`                   | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
-| `/universo/arvores/seringueira`                | 91 100 100 100 | 100 100 100 100 | 91 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/tucuma`                     | 93 100 100 100 | 100 100 100 100 | 93 100 100 100 | 100 100 100 100 |
 | `/universo/aves/andorinha`                     | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
 | `/universo/aves/anu-preto`                     | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
@@ -144,14 +142,12 @@ Notas na ordem desempenho, acessibilidade, boas práticas e SEO. Asterisco: pág
 | `/universo/aves/mutum`                         | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/aves/papagaio`                      | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/aves/tangara`                       | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
-| `/universo/aves/tucano`                        | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
 | `/universo/aves/uirapuru`                      | 95 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/guardioes/jaguatirica`              | 93 100 100 100 | 100 100 100 100 | 93 100 100 100 | 100 100 100 100 |
 | `/universo/guardioes/onca-pintada`             | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/peixes/bodo`                        | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/peixes/cachara`                     | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/peixes/caparari`                    | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
-| `/universo/peixes/curimata`                    | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
 | `/universo/peixes/curvina`                     | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
 | `/universo/peixes/filhote`                     | 96 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/peixes/jau`                         | 93 100 100 100 | 100 100 100 100 | 93 100 100 100 | 100 100 100 100 |
@@ -164,10 +160,7 @@ Notas na ordem desempenho, acessibilidade, boas práticas e SEO. Asterisco: pág
 | `/universo/peixes/poraque`                     | 92 100 100 100 | 100 100 100 100 | 92 100 100 100 | 100 100 100 100 |
 | `/universo/peixes/sardinha-da-amazonia`        | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/peixes/surubim`                     | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
-| `/universo/peixes/tambaqui`                    | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
 | `/universo/peixes/tucunare`                    | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
-| `/universo/rios`                               | 91 100 100 100 | 100 100 100 100 | 91 100 100 100 | 100 100 100 100 |
-| `/universo/rios/rio-amazonas`                  | 92 100 100 100 | 100 100 100 100 | 92 100 100 100 | 100 100 100 100 |
 | `/universo/rios/rio-araguaia`                  | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
 | `/universo/rios/rio-guapore`                   | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/rios/rio-jamari`                    | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
@@ -175,26 +168,33 @@ Notas na ordem desempenho, acessibilidade, boas práticas e SEO. Asterisco: pág
 | `/universo/rios/rio-machado`                   | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/rios/rio-madeira`                   | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
 | `/universo/rios/rio-mamore`                    | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
-| `/universo/rios/rio-negro`                     | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
 | `/universo/rios/rio-purus`                     | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/rios/rio-roosevelt`                 | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/rios/rio-solimoes`                  | 92 100 100 100 | 100 100 100 100 | 93 100 100 100 | 100 100 100 100 |
-| `/universo/rios/rio-tapajos`                   | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
 | `/universo/rios/rio-xingu`                     | 94 100 100 100 | 100 100 100 100 | 93 100 100 100 | 100 100 100 100 |
 | `/universo/arvores`                            | 90 100 100 100 | 100 100 100 100 | 90 100 100 100 | 100 100 100 100 |
 | `/universo/aves`                               | 90 100 100 100 | 100 100 100 100 | 91 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/angelim`                    | 92 100 100 100 | 100 100 100 100 | 92 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/bacaba`                     | 93 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/cedro`                      | 93 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
-| `/universo/arvores/copaiba`                    | 91 100 100 100 | 100 100 100 100 | 91 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/cumaru`                     | 93 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/macaranduba`                | 90 100 100 100 | 100 100 100 100 | 90 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/mogno`                      | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
-| `/universo/arvores/samauma`                    | 91 100 100 100 | 99 100 100 100  | 91 100 100 100 | 99 100 100 100  |
 | `/universo/aves/colhereiro`                    | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
-| `/universo/guardioes/jacare-acu`               | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
-| `/`                                            | 91 100 100 100 | 98 100 100 100  | 90 100 100 100 | 98 100 100 100  |
-| `/universo`                                    | 93 100 100 100 | 100 100 100 100 | 93 100 100 100 | 100 100 100 100 |
 | `/universo/peixes`                             | 90 100 100 100 | 100 100 100 100 | 90 100 100 100 | 100 100 100 100 |
 | `/universo/arvores/jequitiba`                  | 91 100 100 100 | 100 100 100 100 | 91 100 100 100 | 100 100 100 100 |
 | `/universo/guardioes`                          | 92 100 100 100 | 100 100 100 100 | 92 100 100 100 | 100 100 100 100 |
+| `/`                                            | 91 100 100 100 | 99 100 100 100  | 90 100 100 100 | 99 100 100 100  |
+| `/universo`                                    | 93 100 100 100 | 100 100 100 100 | 93 100 100 100 | 100 100 100 100 |
+| `/universo/rios`                               | 91 100 100 100 | 100 100 100 100 | 91 100 100 100 | 100 100 100 100 |
+| `/universo/arvores/samauma`                    | 91 100 100 100 | 99 100 100 100  | 91 100 100 100 | 99 100 100 100  |
+| `/universo/arvores/andiroba`                   | 92 100 100 100 | 100 100 100 100 | 92 100 100 100 | 100 100 100 100 |
+| `/universo/arvores/seringueira`                | 91 100 100 100 | 100 100 100 100 | 91 100 100 100 | 100 100 100 100 |
+| `/universo/rios/rio-negro`                     | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
+| `/universo/rios/rio-tapajos`                   | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
+| `/universo/peixes/curimata`                    | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
+| `/universo/peixes/tambaqui`                    | 94 100 100 100 | 100 100 100 100 | 94 100 100 100 | 100 100 100 100 |
+| `/universo/arvores/copaiba`                    | 90 100 100 100 | 100 100 100 100 | 90 100 100 100 | 100 100 100 100 |
+| `/universo/aves/tucano`                        | 95 100 100 100 | 100 100 100 100 | 95 100 100 100 | 100 100 100 100 |
+| `/universo/guardioes/jacare-acu`               | 91 100 100 100 | 100 100 100 100 | 91 100 100 100 | 100 100 100 100 |
+| `/universo/rios/rio-amazonas`                  | 92 100 100 100 | 100 100 100 100 | 92 100 100 100 | 100 100 100 100 |

@@ -10,7 +10,7 @@
     - text: Andar dos Rios
     - heading "Rio Machado" [level=1]
     - paragraph: O rio de Ji-Paraná
-    - button "Ouvir o ambiente"
+    - button "Silenciar"
     - navigation "Você está em":
       - list:
         - listitem:

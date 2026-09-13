@@ -1,7 +1,7 @@
 {
   "fase": "pre",
   "base": "http://localhost:3100",
-  "data": "2026-09-13T04:13:30.496Z",
+  "data": "2026-09-13T15:01:29.534Z",
   "axe": [
     {
       "rota": "/acomodacoes",
@@ -101,13 +101,13 @@
     },
     {
       "rota": "/acomodacoes/superior-familia-com-terraco",
-      "tela": "desktop",
+      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
     {
       "rota": "/acomodacoes/superior-familia-com-terraco",
-      "tela": "celular",
+      "tela": "desktop",
       "estado": "padrão",
       "violacoes": []
     },
@@ -208,13 +208,13 @@
       "violacoes": []
     },
     {
-      "rota": "/o-kaluana",
+      "rota": "/obrigado",
       "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
     {
-      "rota": "/obrigado",
+      "rota": "/o-kaluana",
       "tela": "celular",
       "estado": "padrão",
       "violacoes": []
@@ -562,6 +562,12 @@
       "violacoes": []
     },
     {
+      "rota": "/universo/aves/anu-preto",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
       "rota": "/universo/aves/andorinha",
       "tela": "celular",
       "estado": "padrão",
@@ -569,12 +575,6 @@
     },
     {
       "rota": "/universo/aves/anu-preto",
-      "tela": "desktop",
-      "estado": "padrão",
-      "violacoes": []
-    },
-    {
-      "rota": "/universo/aves/anu-preto",
       "tela": "celular",
       "estado": "padrão",
       "violacoes": []
@@ -582,18 +582,18 @@
     {
       "rota": "/universo/aves/arara",
       "tela": "desktop",
-      "estado": "padrão",
-      "violacoes": []
-    },
-    {
-      "rota": "/universo/aves/arara",
-      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
     {
       "rota": "/universo/aves/beija-flor",
       "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
@@ -606,18 +606,18 @@
     {
       "rota": "/universo/aves/carcara",
       "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
     {
       "rota": "/universo/aves/cardeal-da-amazonia",
       "tela": "desktop",
-      "estado": "padrão",
-      "violacoes": []
-    },
-    {
-      "rota": "/universo/aves/carcara",
-      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
@@ -665,6 +665,12 @@
     },
     {
       "rota": "/universo/aves/curio",
+      "tela": "celular",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/aves/garca",
       "tela": "celular",
       "estado": "padrão",
       "violacoes": []
@@ -672,12 +678,6 @@
     {
       "rota": "/universo/aves/gaviao-real",
       "tela": "desktop",
-      "estado": "padrão",
-      "violacoes": []
-    },
-    {
-      "rota": "/universo/aves/garca",
-      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
@@ -761,12 +761,6 @@
     },
     {
       "rota": "/universo/aves/uirapuru",
-      "tela": "celular",
-      "estado": "padrão",
-      "violacoes": []
-    },
-    {
-      "rota": "/universo/guardioes",
       "tela": "celular",
       "estado": "padrão",
       "violacoes": []
@@ -774,6 +768,12 @@
     {
       "rota": "/universo/guardioes/jacare-acu",
       "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/guardioes",
+      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
@@ -910,18 +910,18 @@
       "violacoes": []
     },
     {
+      "rota": "/universo/peixes/matrinxa",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
       "rota": "/universo/peixes/lambari",
       "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
     {
-      "rota": "/universo/peixes/matrinxa",
-      "tela": "desktop",
-      "estado": "padrão",
-      "violacoes": []
-    },
-    {
       "rota": "/universo/peixes/piau",
       "tela": "desktop",
       "estado": "padrão",
@@ -958,12 +958,6 @@
       "violacoes": []
     },
     {
-      "rota": "/universo/peixes/pirarucu",
-      "tela": "desktop",
-      "estado": "padrão",
-      "violacoes": []
-    },
-    {
       "rota": "/universo/peixes/pirarara",
       "tela": "celular",
       "estado": "padrão",
@@ -971,6 +965,12 @@
     },
     {
       "rota": "/universo/peixes/pirarucu",
+      "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
       "tela": "celular",
       "estado": "padrão",
       "violacoes": []
@@ -1002,18 +1002,18 @@
     {
       "rota": "/universo/peixes/surubim",
       "tela": "desktop",
-      "estado": "padrão",
-      "violacoes": []
-    },
-    {
-      "rota": "/universo/peixes/surubim",
-      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
     {
       "rota": "/universo/peixes/tambaqui",
       "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
@@ -1074,18 +1074,18 @@
     {
       "rota": "/universo/rios/rio-guapore",
       "tela": "desktop",
-      "estado": "padrão",
-      "violacoes": []
-    },
-    {
-      "rota": "/universo/rios/rio-guapore",
-      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
     {
       "rota": "/universo/rios/rio-jamari",
       "tela": "desktop",
+      "estado": "padrão",
+      "violacoes": []
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "tela": "celular",
       "estado": "padrão",
       "violacoes": []
     },
@@ -2108,6 +2108,13 @@
       "detalhe": "barra: \"Silenciar\" aria-pressed=null | hero: \"Ouvir o ambiente\" aria-pressed=null; foco fica no botão: true; ação do cabeçalho ao voltar a rolagem: visível"
     },
     {
+      "roteiro": "Som ao abrir a página",
+      "rota": "/universo/rios/rio-machado?uh=112",
+      "tela": "celular",
+      "ok": true,
+      "detalhe": "antes do gesto: barra \"Carregando o som\", hero \"Ouvir o ambiente\"; depois do primeiro Tab: barra \"Silenciar\", hero \"Ouvir o ambiente\"; depois de silenciar, na página seguinte: hero \"Ouvir o ambiente\""
+    },
+    {
       "roteiro": "Mapa sob demanda",
       "rota": "/contato",
       "tela": "desktop",
@@ -2283,5 +2290,6 @@
       "detalhe": "1 h1; 2 títulos; saltos: nenhum; marcos: header, main, footer"
     }
   ],
-  "axePorRegra": []
+  "axePorRegra": [],
+  "tecladoRefeitoEm": "2026-09-13T16:56:07.652Z"
 }

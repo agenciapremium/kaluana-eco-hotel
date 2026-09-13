@@ -1,33 +1,33 @@
 {
   "fase": "full",
-  "data": "2026-09-13T03:44:04.177Z",
+  "data": "2026-09-13T16:26:37.609Z",
   "medidas": [
     {
       "rota": "/",
       "tela": "desktop",
       "texto": "Ji-Paraná, Rondônia",
-      "contraste": 6.95,
+      "contraste": 7.03,
       "grande": false
     },
     {
       "rota": "/",
       "tela": "desktop",
       "texto": "Hotel em Ji-Paraná para quem chega cansado, precis",
-      "contraste": 8.93,
+      "contraste": 6.66,
       "grande": true
     },
     {
       "rota": "/",
       "tela": "desktop",
       "texto": "O Kaluanã Eco Hotel é um hotel em Ji-Paraná, Rondô",
-      "contraste": 11.19,
+      "contraste": 9.4,
       "grande": true
     },
     {
       "rota": "/",
       "tela": "desktop",
       "texto": "Rios",
-      "contraste": 8.64,
+      "contraste": 10.7,
       "grande": true
     },
     {
@@ -41,7 +41,7 @@
       "rota": "/",
       "tela": "desktop",
       "texto": "Peixes",
-      "contraste": 6.5,
+      "contraste": 8.99,
       "grande": true
     },
     {
@@ -55,7 +55,7 @@
       "rota": "/",
       "tela": "desktop",
       "texto": "Árvores",
-      "contraste": 7.65,
+      "contraste": 7.23,
       "grande": true
     },
     {
@@ -69,7 +69,7 @@
       "rota": "/",
       "tela": "desktop",
       "texto": "Aves",
-      "contraste": 7.12,
+      "contraste": 6.13,
       "grande": true
     },
     {
@@ -83,49 +83,49 @@
       "rota": "/",
       "tela": "celular",
       "texto": "Ji-Paraná, Rondônia",
-      "contraste": 7.35,
+      "contraste": 8,
       "grande": false
     },
     {
       "rota": "/",
       "tela": "celular",
       "texto": "Hotel em Ji-Paraná para quem chega cansado, precis",
-      "contraste": 8.42,
+      "contraste": 7.17,
       "grande": true
     },
     {
       "rota": "/",
       "tela": "celular",
       "texto": "O Kaluanã Eco Hotel é um hotel em Ji-Paraná, Rondô",
-      "contraste": 10.31,
+      "contraste": 8.61,
       "grande": false
     },
     {
       "rota": "/",
       "tela": "celular",
       "texto": "Rios",
-      "contraste": 10.87,
+      "contraste": 10.45,
       "grande": true
     },
     {
       "rota": "/",
       "tela": "celular",
       "texto": "Peixes",
-      "contraste": 7.18,
+      "contraste": 6.85,
       "grande": true
     },
     {
       "rota": "/",
       "tela": "celular",
       "texto": "Árvores",
-      "contraste": 6.05,
+      "contraste": 5.21,
       "grande": true
     },
     {
       "rota": "/",
       "tela": "celular",
       "texto": "Aves",
-      "contraste": 7.61,
+      "contraste": 7.44,
       "grande": true
     },
     {
@@ -139,266 +139,308 @@
       "rota": "/universo",
       "tela": "desktop",
       "texto": "1º andar",
-      "contraste": 9.31,
+      "contraste": 9.98,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "desktop",
       "texto": "Rios.",
-      "contraste": 10.72,
+      "contraste": 10.14,
       "grande": true
     },
     {
       "rota": "/universo",
       "tela": "desktop",
       "texto": "2º andar",
-      "contraste": 7.04,
+      "contraste": 7.4,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "desktop",
       "texto": "Peixes.",
-      "contraste": 8.85,
+      "contraste": 8.19,
       "grande": true
     },
     {
       "rota": "/universo",
       "tela": "desktop",
       "texto": "3º andar",
-      "contraste": 7.06,
+      "contraste": 7.74,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "desktop",
       "texto": "Árvores.",
-      "contraste": 7.53,
+      "contraste": 6.6,
       "grande": true
     },
     {
       "rota": "/universo",
       "tela": "desktop",
       "texto": "4º andar",
-      "contraste": 7.22,
+      "contraste": 8.31,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "desktop",
       "texto": "Aves.",
-      "contraste": 8.26,
+      "contraste": 7.72,
       "grande": true
     },
     {
       "rota": "/universo",
       "tela": "desktop",
       "texto": "Suítes",
-      "contraste": 12.26,
+      "contraste": 12.66,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "desktop",
       "texto": "Onça-pintada, jaguatirica e jacaré-açu.",
-      "contraste": 12.03,
+      "contraste": 11.36,
       "grande": true
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "1º andar",
-      "contraste": 9.1,
+      "contraste": 10.11,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "Rios.",
-      "contraste": 10.45,
+      "contraste": 10.28,
       "grande": true
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "2º andar",
-      "contraste": 6.77,
+      "contraste": 7.6,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "Peixes.",
-      "contraste": 6.68,
+      "contraste": 6.3,
       "grande": true
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "3º andar",
-      "contraste": 6.6,
+      "contraste": 6.9,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "Árvores.",
-      "contraste": 6.41,
+      "contraste": 5.59,
       "grande": true
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "4º andar",
-      "contraste": 6.87,
+      "contraste": 8.07,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "Aves.",
-      "contraste": 7.76,
+      "contraste": 7.49,
       "grande": true
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "Suítes",
-      "contraste": 11.87,
+      "contraste": 12.46,
       "grande": false
     },
     {
       "rota": "/universo",
       "tela": "celular",
       "texto": "Onça-pintada, jaguatirica e jacaré-açu.",
-      "contraste": 12.72,
+      "contraste": 12.34,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios",
+      "tela": "desktop",
+      "texto": "1º andar",
+      "contraste": 11.06,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios",
+      "tela": "desktop",
+      "texto": "Andar dos Rios",
+      "contraste": 10.92,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios",
+      "tela": "desktop",
+      "texto": "Catorze rios. Uma bacia.",
+      "contraste": 11.49,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios",
+      "tela": "celular",
+      "texto": "1º andar",
+      "contraste": 11.6,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios",
+      "tela": "celular",
+      "texto": "Andar dos Rios",
+      "contraste": 11.69,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios",
+      "tela": "celular",
+      "texto": "Catorze rios. Uma bacia.",
+      "contraste": 12.09,
       "grande": true
     },
     {
       "rota": "/universo/peixes",
       "tela": "desktop",
       "texto": "2º andar",
-      "contraste": 7.99,
+      "contraste": 8.26,
       "grande": false
     },
     {
       "rota": "/universo/peixes",
       "tela": "desktop",
       "texto": "Andar dos Peixes",
-      "contraste": 9.65,
+      "contraste": 8.18,
       "grande": true
     },
     {
       "rota": "/universo/peixes",
       "tela": "desktop",
       "texto": "Dezoito peixes. Um deles dá choque.",
+      "contraste": 8.77,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "celular",
+      "texto": "2º andar",
+      "contraste": 9.22,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "celular",
+      "texto": "Andar dos Peixes",
+      "contraste": 8.73,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes",
+      "tela": "celular",
+      "texto": "Dezoito peixes. Um deles dá choque.",
+      "contraste": 9.74,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "texto": "3º andar",
+      "contraste": 9,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "texto": "Andar das Árvores",
+      "contraste": 7.87,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "desktop",
+      "texto": "Dezoito árvores. Muitas delas estão no que você to",
+      "contraste": 8.61,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "celular",
+      "texto": "3º andar",
+      "contraste": 9.42,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "celular",
+      "texto": "Andar das Árvores",
+      "contraste": 7.58,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores",
+      "tela": "celular",
+      "texto": "Dezoito árvores. Muitas delas estão no que você to",
+      "contraste": 8.54,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "desktop",
+      "texto": "4º andar",
+      "contraste": 10.96,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "desktop",
+      "texto": "Andar das Aves",
+      "contraste": 10.26,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "desktop",
+      "texto": "Dezessete aves. O andar mais perto do céu.",
+      "contraste": 8.98,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves",
+      "tela": "celular",
+      "texto": "4º andar",
       "contraste": 10.78,
-      "grande": true
-    },
-    {
-      "rota": "/universo/peixes",
-      "tela": "celular",
-      "texto": "2º andar",
-      "contraste": 9.25,
-      "grande": false
-    },
-    {
-      "rota": "/universo/peixes",
-      "tela": "celular",
-      "texto": "Andar dos Peixes",
-      "contraste": 9.51,
-      "grande": true
-    },
-    {
-      "rota": "/universo/peixes",
-      "tela": "celular",
-      "texto": "Dezoito peixes. Um deles dá choque.",
-      "contraste": 10.97,
-      "grande": true
-    },
-    {
-      "rota": "/universo/arvores",
-      "tela": "desktop",
-      "texto": "3º andar",
-      "contraste": 9.18,
-      "grande": false
-    },
-    {
-      "rota": "/universo/arvores",
-      "tela": "desktop",
-      "texto": "Andar das Árvores",
-      "contraste": 9.87,
-      "grande": true
-    },
-    {
-      "rota": "/universo/arvores",
-      "tela": "desktop",
-      "texto": "Dezoito árvores. Muitas delas estão no que você to",
-      "contraste": 10.58,
-      "grande": true
-    },
-    {
-      "rota": "/universo/arvores",
-      "tela": "celular",
-      "texto": "3º andar",
-      "contraste": 9.63,
-      "grande": false
-    },
-    {
-      "rota": "/universo/arvores",
-      "tela": "celular",
-      "texto": "Andar das Árvores",
-      "contraste": 9.44,
-      "grande": true
-    },
-    {
-      "rota": "/universo/arvores",
-      "tela": "celular",
-      "texto": "Dezoito árvores. Muitas delas estão no que você to",
-      "contraste": 10.43,
-      "grande": true
-    },
-    {
-      "rota": "/universo/aves",
-      "tela": "desktop",
-      "texto": "4º andar",
-      "contraste": 10.77,
-      "grande": false
-    },
-    {
-      "rota": "/universo/aves",
-      "tela": "desktop",
-      "texto": "Andar das Aves",
-      "contraste": 11.32,
-      "grande": true
-    },
-    {
-      "rota": "/universo/aves",
-      "tela": "desktop",
-      "texto": "Dezessete aves. O andar mais perto do céu.",
-      "contraste": 10.93,
-      "grande": true
-    },
-    {
-      "rota": "/universo/aves",
-      "tela": "celular",
-      "texto": "4º andar",
-      "contraste": 10.24,
       "grande": false
     },
     {
       "rota": "/universo/aves",
       "tela": "celular",
       "texto": "Andar das Aves",
-      "contraste": 10.83,
+      "contraste": 10.26,
       "grande": true
     },
     {
       "rota": "/universo/aves",
       "tela": "celular",
       "texto": "Dezessete aves. O andar mais perto do céu.",
-      "contraste": 10.8,
+      "contraste": 9.32,
       "grande": true
     },
     {
@@ -433,14 +475,14 @@
       "rota": "/universo/guardioes",
       "tela": "desktop",
       "texto": "O maior predador das águas amazônicas",
-      "contraste": 8.33,
+      "contraste": 8.31,
       "grande": false
     },
     {
       "rota": "/universo/guardioes",
       "tela": "desktop",
       "texto": "Jacaré-açu",
-      "contraste": 8.45,
+      "contraste": 8.4,
       "grande": true
     },
     {
@@ -475,182 +517,2954 @@
       "rota": "/universo/guardioes",
       "tela": "celular",
       "texto": "O maior predador das águas amazônicas",
-      "contraste": 8.48,
+      "contraste": 8.57,
       "grande": false
     },
     {
       "rota": "/universo/guardioes",
       "tela": "celular",
       "texto": "Jacaré-açu",
-      "contraste": 8.53,
+      "contraste": 8.62,
       "grande": true
     },
     {
-      "rota": "/universo/peixes/pirarucu",
+      "rota": "/universo/rios/rio-amazonas",
       "tela": "desktop",
-      "texto": "Andar dos Peixes · Quarto 201",
+      "texto": "Andar dos Rios · Quarto 101",
+      "contraste": 5.51,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-amazonas",
+      "tela": "desktop",
+      "texto": "Rio Amazonas",
+      "contraste": 6.54,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-amazonas",
+      "tela": "desktop",
+      "texto": "O maior rio do mundo em volume de água",
+      "contraste": 9.47,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-amazonas",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 101",
+      "contraste": 8.2,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-amazonas",
+      "tela": "celular",
+      "texto": "Rio Amazonas",
+      "contraste": 9.91,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-amazonas",
+      "tela": "celular",
+      "texto": "O maior rio do mundo em volume de água",
+      "contraste": 13.06,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 102",
+      "contraste": 6.72,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "tela": "desktop",
+      "texto": "Rio Solimões",
+      "contraste": 7.95,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "tela": "desktop",
+      "texto": "O Amazonas antes de Manaus",
+      "contraste": 10.28,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 102",
+      "contraste": 8.93,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "tela": "celular",
+      "texto": "Rio Solimões",
+      "contraste": 9.81,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-solimoes",
+      "tela": "celular",
+      "texto": "O Amazonas antes de Manaus",
+      "contraste": 10.78,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 103",
+      "contraste": 8.67,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "tela": "desktop",
+      "texto": "Rio Negro",
+      "contraste": 11.99,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "tela": "desktop",
+      "texto": "O maior rio de água preta do mundo",
+      "contraste": 11.99,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 103",
+      "contraste": 12.9,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "tela": "celular",
+      "texto": "Rio Negro",
+      "contraste": 13.01,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-negro",
+      "tela": "celular",
+      "texto": "O maior rio de água preta do mundo",
+      "contraste": 14.06,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 104",
+      "contraste": 11.25,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "tela": "desktop",
+      "texto": "Rio Madeira",
+      "contraste": 11.65,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "tela": "desktop",
+      "texto": "O rio de Rondônia",
+      "contraste": 11.63,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 104",
+      "contraste": 11.6,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "tela": "celular",
+      "texto": "Rio Madeira",
+      "contraste": 11.66,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-madeira",
+      "tela": "celular",
+      "texto": "O rio de Rondônia",
+      "contraste": 11.77,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 105",
+      "contraste": 8.29,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "tela": "desktop",
+      "texto": "Rio Guaporé",
+      "contraste": 9.22,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "tela": "desktop",
+      "texto": "A fronteira de água entre Brasil e Bolívia",
+      "contraste": 11.8,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 105",
+      "contraste": 10.32,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "tela": "celular",
+      "texto": "Rio Guaporé",
+      "contraste": 11.34,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-guapore",
+      "tela": "celular",
+      "texto": "A fronteira de água entre Brasil e Bolívia",
+      "contraste": 12.45,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 106",
+      "contraste": 7.37,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "tela": "desktop",
+      "texto": "Rio Mamoré",
+      "contraste": 8.52,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "tela": "desktop",
+      "texto": "O rio que virou trilho",
+      "contraste": 11.06,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 106",
+      "contraste": 9.55,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "tela": "celular",
+      "texto": "Rio Mamoré",
+      "contraste": 10.36,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-mamore",
+      "tela": "celular",
+      "texto": "O rio que virou trilho",
+      "contraste": 11.41,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 107",
+      "contraste": 8.25,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "tela": "desktop",
+      "texto": "Rio Tapajós",
+      "contraste": 9.43,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "tela": "desktop",
+      "texto": "Água verde e praias de areia branca",
+      "contraste": 12.64,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 107",
+      "contraste": 10,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "tela": "celular",
+      "texto": "Rio Tapajós",
+      "contraste": 10.96,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-tapajos",
+      "tela": "celular",
+      "texto": "Água verde e praias de areia branca",
+      "contraste": 12.19,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 108",
+      "contraste": 7.57,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "tela": "desktop",
+      "texto": "Rio Xingu",
+      "contraste": 7.94,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "tela": "desktop",
+      "texto": "O rio dos povos e das corredeiras",
+      "contraste": 11.23,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 108",
+      "contraste": 7.79,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "tela": "celular",
+      "texto": "Rio Xingu",
+      "contraste": 8.19,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-xingu",
+      "tela": "celular",
+      "texto": "O rio dos povos e das corredeiras",
+      "contraste": 9.55,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-purus",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 109",
+      "contraste": 7.97,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-purus",
+      "tela": "desktop",
+      "texto": "Rio Purus",
+      "contraste": 8.26,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-purus",
+      "tela": "desktop",
+      "texto": "O rio mais sinuoso da Amazônia",
+      "contraste": 10.52,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-purus",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 109",
       "contraste": 8.49,
       "grande": false
     },
     {
+      "rota": "/universo/rios/rio-purus",
+      "tela": "celular",
+      "texto": "Rio Purus",
+      "contraste": 9.74,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-purus",
+      "tela": "celular",
+      "texto": "O rio mais sinuoso da Amazônia",
+      "contraste": 12.78,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 110",
+      "contraste": 9.73,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "tela": "desktop",
+      "texto": "Rio Juruá",
+      "contraste": 10.85,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "tela": "desktop",
+      "texto": "O rio da borracha e das curvas",
+      "contraste": 12.45,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 110",
+      "contraste": 11.07,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "tela": "celular",
+      "texto": "Rio Juruá",
+      "contraste": 11.81,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-jurua",
+      "tela": "celular",
+      "texto": "O rio da borracha e das curvas",
+      "contraste": 12.69,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 111",
+      "contraste": 8.18,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "tela": "desktop",
+      "texto": "Rio Jamari",
+      "contraste": 9.41,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "tela": "desktop",
+      "texto": "Um rio inteiramente rondoniense",
+      "contraste": 11.94,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 111",
+      "contraste": 10.42,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "tela": "celular",
+      "texto": "Rio Jamari",
+      "contraste": 11.47,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-jamari",
+      "tela": "celular",
+      "texto": "Um rio inteiramente rondoniense",
+      "contraste": 11.48,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 112",
+      "contraste": 14.62,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "tela": "desktop",
+      "texto": "Rio Machado",
+      "contraste": 8.54,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "tela": "desktop",
+      "texto": "O rio de Ji-Paraná",
+      "contraste": 10.06,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 112",
+      "contraste": 8.67,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "tela": "celular",
+      "texto": "Rio Machado",
+      "contraste": 9.48,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-machado",
+      "tela": "celular",
+      "texto": "O rio de Ji-Paraná",
+      "contraste": 11.19,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 113",
+      "contraste": 8.45,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "tela": "desktop",
+      "texto": "Rio Araguaia",
+      "contraste": 9.31,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "tela": "desktop",
+      "texto": "O rio das praias e da maior ilha fluvial do mundo",
+      "contraste": 11.7,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 113",
+      "contraste": 10.56,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "tela": "celular",
+      "texto": "Rio Araguaia",
+      "contraste": 10.97,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-araguaia",
+      "tela": "celular",
+      "texto": "O rio das praias e da maior ilha fluvial do mundo",
+      "contraste": 11.64,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "tela": "desktop",
+      "texto": "Andar dos Rios · Quarto 114",
+      "contraste": 7.48,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "tela": "desktop",
+      "texto": "Rio Roosevelt",
+      "contraste": 8.6,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "tela": "desktop",
+      "texto": "O rio da Dúvida",
+      "contraste": 12.55,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "tela": "celular",
+      "texto": "Andar dos Rios · Quarto 114",
+      "contraste": 9.72,
+      "grande": false
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "tela": "celular",
+      "texto": "Rio Roosevelt",
+      "contraste": 10.92,
+      "grande": true
+    },
+    {
+      "rota": "/universo/rios/rio-roosevelt",
+      "tela": "celular",
+      "texto": "O rio da Dúvida",
+      "contraste": 13.4,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/pirarucu",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 201",
+      "contraste": 8.92,
+      "grande": false
+    },
+    {
       "rota": "/universo/peixes/pirarucu",
       "tela": "desktop",
       "texto": "Pirarucu",
-      "contraste": 12.89,
+      "contraste": 12.45,
       "grande": true
     },
     {
       "rota": "/universo/peixes/pirarucu",
       "tela": "desktop",
       "texto": "O gigante que respira ar",
-      "contraste": 13.9,
+      "contraste": 13.67,
       "grande": true
     },
     {
       "rota": "/universo/peixes/pirarucu",
       "tela": "celular",
       "texto": "Andar dos Peixes · Quarto 201",
-      "contraste": 13.1,
+      "contraste": 13.32,
       "grande": false
     },
     {
       "rota": "/universo/peixes/pirarucu",
       "tela": "celular",
       "texto": "Pirarucu",
-      "contraste": 13.62,
+      "contraste": 13.38,
       "grande": true
     },
     {
       "rota": "/universo/peixes/pirarucu",
       "tela": "celular",
       "texto": "O gigante que respira ar",
-      "contraste": 13.91,
+      "contraste": 13.68,
       "grande": false
     },
     {
-      "rota": "/universo/peixes/filhote",
+      "rota": "/universo/peixes/tambaqui",
       "tela": "desktop",
-      "texto": "Andar dos Peixes · Quarto 211",
-      "contraste": 10.04,
+      "texto": "Andar dos Peixes · Quarto 202",
+      "contraste": 7.09,
       "grande": false
     },
     {
-      "rota": "/universo/peixes/filhote",
+      "rota": "/universo/peixes/tambaqui",
       "tela": "desktop",
-      "texto": "Filhote",
-      "contraste": 11.84,
+      "texto": "Tambaqui",
+      "contraste": 9.21,
       "grande": true
     },
     {
-      "rota": "/universo/peixes/filhote",
+      "rota": "/universo/peixes/tambaqui",
       "tela": "desktop",
-      "texto": "A piraíba jovem, o maior bagre da Amazônia",
-      "contraste": 13.29,
+      "texto": "O peixe que come fruta",
+      "contraste": 12.63,
       "grande": true
     },
     {
-      "rota": "/universo/peixes/filhote",
+      "rota": "/universo/peixes/tambaqui",
       "tela": "celular",
-      "texto": "Andar dos Peixes · Quarto 211",
-      "contraste": 10.88,
+      "texto": "Andar dos Peixes · Quarto 202",
+      "contraste": 11.85,
       "grande": false
     },
     {
-      "rota": "/universo/peixes/filhote",
+      "rota": "/universo/peixes/tambaqui",
       "tela": "celular",
-      "texto": "Filhote",
-      "contraste": 12.44,
+      "texto": "Tambaqui",
+      "contraste": 12.11,
       "grande": true
     },
     {
-      "rota": "/universo/peixes/filhote",
+      "rota": "/universo/peixes/tambaqui",
       "tela": "celular",
-      "texto": "A piraíba jovem, o maior bagre da Amazônia",
-      "contraste": 13.27,
+      "texto": "O peixe que come fruta",
+      "contraste": 11.98,
       "grande": false
     },
     {
-      "rota": "/universo/arvores/samauma",
+      "rota": "/universo/peixes/tucunare",
       "tela": "desktop",
-      "texto": "Andar das Árvores · Quarto 301",
-      "contraste": 6.48,
+      "texto": "Andar dos Peixes · Quarto 203",
+      "contraste": 6.88,
       "grande": false
     },
     {
-      "rota": "/universo/arvores/samauma",
+      "rota": "/universo/peixes/tucunare",
       "tela": "desktop",
-      "texto": "Samaúma",
-      "contraste": 10.18,
+      "texto": "Tucunaré",
+      "contraste": 7.69,
       "grande": true
     },
     {
-      "rota": "/universo/arvores/samauma",
+      "rota": "/universo/peixes/tucunare",
       "tela": "desktop",
-      "texto": "A mãe das árvores",
+      "texto": "O predador do falso olho",
+      "contraste": 10.15,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/tucunare",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 203",
+      "contraste": 8.27,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/tucunare",
+      "tela": "celular",
+      "texto": "Tucunaré",
+      "contraste": 9.23,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/tucunare",
+      "tela": "celular",
+      "texto": "O predador do falso olho",
+      "contraste": 10.26,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 204",
+      "contraste": 5.95,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "tela": "desktop",
+      "texto": "Surubim",
+      "contraste": 7.28,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "tela": "desktop",
+      "texto": "O bagre listrado dos rios de Rondônia",
+      "contraste": 14.18,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 204",
+      "contraste": 14.15,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "tela": "celular",
+      "texto": "Surubim",
+      "contraste": 14.48,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/surubim",
+      "tela": "celular",
+      "texto": "O bagre listrado dos rios de Rondônia",
+      "contraste": 14.59,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 205",
+      "contraste": 9.73,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "tela": "desktop",
+      "texto": "Curimatã",
+      "contraste": 11.53,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "tela": "desktop",
+      "texto": "O peixe que limpa o rio",
+      "contraste": 12.33,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 205",
+      "contraste": 11.9,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "tela": "celular",
+      "texto": "Curimatã",
+      "contraste": 12.18,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/curimata",
+      "tela": "celular",
+      "texto": "O peixe que limpa o rio",
+      "contraste": 12.63,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 206",
+      "contraste": 7.8,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "tela": "desktop",
+      "texto": "Matrinxã",
+      "contraste": 8.99,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "tela": "desktop",
+      "texto": "O peixe que salta para pegar fruta",
+      "contraste": 11.9,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 206",
+      "contraste": 9.23,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "tela": "celular",
+      "texto": "Matrinxã",
+      "contraste": 9.95,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/matrinxa",
+      "tela": "celular",
+      "texto": "O peixe que salta para pegar fruta",
+      "contraste": 11.11,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/bodo",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 207",
+      "contraste": 7.81,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/bodo",
+      "tela": "desktop",
+      "texto": "Bodó",
       "contraste": 11.5,
       "grande": true
     },
     {
+      "rota": "/universo/peixes/bodo",
+      "tela": "desktop",
+      "texto": "O peixe de armadura",
+      "contraste": 12.14,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/bodo",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 207",
+      "contraste": 12.75,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/bodo",
+      "tela": "celular",
+      "texto": "Bodó",
+      "contraste": 9.22,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/bodo",
+      "tela": "celular",
+      "texto": "O peixe de armadura",
+      "contraste": 10.08,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 208",
+      "contraste": 6.71,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "tela": "desktop",
+      "texto": "Cachara",
+      "contraste": 7.2,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "tela": "desktop",
+      "texto": "O bagre de listras em rede",
+      "contraste": 14.53,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 208",
+      "contraste": 8.49,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "tela": "celular",
+      "texto": "Cachara",
+      "contraste": 13.35,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/cachara",
+      "tela": "celular",
+      "texto": "O bagre de listras em rede",
+      "contraste": 13.2,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 209",
+      "contraste": 6.33,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "tela": "desktop",
+      "texto": "Jaú",
+      "contraste": 7.64,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "tela": "desktop",
+      "texto": "O gigante dos poços",
+      "contraste": 9.71,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 209",
+      "contraste": 7.46,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "tela": "celular",
+      "texto": "Jaú",
+      "contraste": 9.1,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/jau",
+      "tela": "celular",
+      "texto": "O gigante dos poços",
+      "contraste": 12.88,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 210",
+      "contraste": 4.72,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "tela": "desktop",
+      "texto": "Sardinha-da-Amazônia",
+      "contraste": 6.15,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "tela": "desktop",
+      "texto": "A sardinha que não é sardinha",
+      "contraste": 11.17,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 210",
+      "contraste": 7.78,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "tela": "celular",
+      "texto": "Sardinha-da-Amazônia",
+      "contraste": 9.02,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/sardinha-da-amazonia",
+      "tela": "celular",
+      "texto": "A sardinha que não é sardinha",
+      "contraste": 13.18,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 211",
+      "contraste": 10.6,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "desktop",
+      "texto": "Filhote",
+      "contraste": 11.28,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "desktop",
+      "texto": "A piraíba jovem, o maior bagre da Amazônia",
+      "contraste": 12.88,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 211",
+      "contraste": 11.57,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "celular",
+      "texto": "Filhote",
+      "contraste": 12.15,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/filhote",
+      "tela": "celular",
+      "texto": "A piraíba jovem, o maior bagre da Amazônia",
+      "contraste": 12.88,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 212",
+      "contraste": 9.35,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "tela": "desktop",
+      "texto": "Curvina",
+      "contraste": 9.24,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "tela": "desktop",
+      "texto": "A pescada de água doce que faz barulho",
+      "contraste": 9.22,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 212",
+      "contraste": 10,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "tela": "celular",
+      "texto": "Curvina",
+      "contraste": 9.55,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/curvina",
+      "tela": "celular",
+      "texto": "A pescada de água doce que faz barulho",
+      "contraste": 11.77,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 213",
+      "contraste": 5.2,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "tela": "desktop",
+      "texto": "Lambari",
+      "contraste": 6.9,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "tela": "desktop",
+      "texto": "O pequeno que alimenta o rio inteiro",
+      "contraste": 9.52,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 213",
+      "contraste": 7.88,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "tela": "celular",
+      "texto": "Lambari",
+      "contraste": 9.57,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/lambari",
+      "tela": "celular",
+      "texto": "O pequeno que alimenta o rio inteiro",
+      "contraste": 10.23,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 214",
+      "contraste": 5.94,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "tela": "desktop",
+      "texto": "Piau",
+      "contraste": 8.22,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "tela": "desktop",
+      "texto": "O peixe das três pintas",
+      "contraste": 10.2,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 214",
+      "contraste": 7.61,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "tela": "celular",
+      "texto": "Piau",
+      "contraste": 9.26,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/piau",
+      "tela": "celular",
+      "texto": "O peixe das três pintas",
+      "contraste": 10.33,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 215",
+      "contraste": 7.73,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "tela": "desktop",
+      "texto": "Pintado",
+      "contraste": 8.41,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "tela": "desktop",
+      "texto": "O bagre de pintas",
+      "contraste": 11.05,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 215",
+      "contraste": 9.93,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "tela": "celular",
+      "texto": "Pintado",
+      "contraste": 11.18,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pintado",
+      "tela": "celular",
+      "texto": "O bagre de pintas",
+      "contraste": 12.16,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 216",
+      "contraste": 5.18,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "tela": "desktop",
+      "texto": "Caparari",
+      "contraste": 6.72,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "tela": "desktop",
+      "texto": "O surubim-tigre",
+      "contraste": 12.45,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 216",
+      "contraste": 8.78,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "tela": "celular",
+      "texto": "Caparari",
+      "contraste": 9.99,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/caparari",
+      "tela": "celular",
+      "texto": "O surubim-tigre",
+      "contraste": 14.54,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 217",
+      "contraste": 6.49,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "tela": "desktop",
+      "texto": "Poraquê",
+      "contraste": 7.61,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "tela": "desktop",
+      "texto": "O peixe que dá choque",
+      "contraste": 9.61,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 217",
+      "contraste": 8.47,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "tela": "celular",
+      "texto": "Poraquê",
+      "contraste": 9.39,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/poraque",
+      "tela": "celular",
+      "texto": "O peixe que dá choque",
+      "contraste": 9.89,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "tela": "desktop",
+      "texto": "Andar dos Peixes · Quarto 218",
+      "contraste": 6.83,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "tela": "desktop",
+      "texto": "Pirarara",
+      "contraste": 6.96,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "tela": "desktop",
+      "texto": "O bagre de cauda vermelha",
+      "contraste": 10.69,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "tela": "celular",
+      "texto": "Andar dos Peixes · Quarto 218",
+      "contraste": 7.27,
+      "grande": false
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "tela": "celular",
+      "texto": "Pirarara",
+      "contraste": 10.09,
+      "grande": true
+    },
+    {
+      "rota": "/universo/peixes/pirarara",
+      "tela": "celular",
+      "texto": "O bagre de cauda vermelha",
+      "contraste": 10.43,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 301",
+      "contraste": 6.78,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "desktop",
+      "texto": "Samaúma",
+      "contraste": 9.14,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/samauma",
+      "tela": "desktop",
+      "texto": "A mãe das árvores",
+      "contraste": 10.64,
+      "grande": true
+    },
+    {
       "rota": "/universo/arvores/samauma",
       "tela": "celular",
       "texto": "Andar das Árvores · Quarto 301",
-      "contraste": 9.22,
+      "contraste": 9.52,
       "grande": false
     },
     {
       "rota": "/universo/arvores/samauma",
       "tela": "celular",
       "texto": "Samaúma",
-      "contraste": 11.19,
+      "contraste": 10.52,
       "grande": true
     },
     {
       "rota": "/universo/arvores/samauma",
       "tela": "celular",
       "texto": "A mãe das árvores",
-      "contraste": 12.66,
+      "contraste": 12.02,
       "grande": false
     },
     {
-      "rota": "/universo/aves/maracana",
+      "rota": "/universo/arvores/castanheira",
       "tela": "desktop",
-      "texto": "Andar das Aves · Quarto 414",
-      "contraste": 10.15,
+      "texto": "Andar das Árvores · Quarto 302",
+      "contraste": 5.9,
       "grande": false
     },
     {
-      "rota": "/universo/aves/maracana",
+      "rota": "/universo/arvores/castanheira",
       "tela": "desktop",
-      "texto": "Maracanã",
-      "contraste": 11.91,
+      "texto": "Castanheira",
+      "contraste": 6.77,
       "grande": true
     },
     {
-      "rota": "/universo/aves/maracana",
+      "rota": "/universo/arvores/castanheira",
       "tela": "desktop",
-      "texto": "A pequena arara dos buritis",
-      "contraste": 13.41,
+      "texto": "A árvore que depende de todo mundo",
+      "contraste": 9.66,
       "grande": true
     },
     {
-      "rota": "/universo/aves/maracana",
+      "rota": "/universo/arvores/castanheira",
       "tela": "celular",
-      "texto": "Andar das Aves · Quarto 414",
+      "texto": "Andar das Árvores · Quarto 302",
+      "contraste": 7.78,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/castanheira",
+      "tela": "celular",
+      "texto": "Castanheira",
+      "contraste": 8.8,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/castanheira",
+      "tela": "celular",
+      "texto": "A árvore que depende de todo mundo",
+      "contraste": 10.14,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 303",
+      "contraste": 6.86,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "tela": "desktop",
+      "texto": "Copaíba",
+      "contraste": 7.87,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "tela": "desktop",
+      "texto": "A árvore que dá óleo sem cair",
+      "contraste": 9.89,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 303",
+      "contraste": 10.68,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "tela": "celular",
+      "texto": "Copaíba",
+      "contraste": 10.98,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/copaiba",
+      "tela": "celular",
+      "texto": "A árvore que dá óleo sem cair",
+      "contraste": 11.9,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 304",
+      "contraste": 6.79,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "tela": "desktop",
+      "texto": "Andiroba",
+      "contraste": 8.15,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "tela": "desktop",
+      "texto": "A árvore do óleo que espanta mosquito",
+      "contraste": 10.16,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 304",
+      "contraste": 9.01,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "tela": "celular",
+      "texto": "Andiroba",
+      "contraste": 11.09,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/andiroba",
+      "tela": "celular",
+      "texto": "A árvore do óleo que espanta mosquito",
+      "contraste": 11.04,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 305",
+      "contraste": 8.88,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "tela": "desktop",
+      "texto": "Açaí",
+      "contraste": 10.26,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "tela": "desktop",
+      "texto": "A palmeira que alimenta o Norte",
+      "contraste": 12.68,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 305",
+      "contraste": 11.32,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "tela": "celular",
+      "texto": "Açaí",
+      "contraste": 11.58,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/acai",
+      "tela": "celular",
+      "texto": "A palmeira que alimenta o Norte",
+      "contraste": 12.51,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 306",
+      "contraste": 5.9,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "tela": "desktop",
+      "texto": "Cumaru",
+      "contraste": 6.01,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "tela": "desktop",
+      "texto": "A árvore da fava que cheira a baunilha",
+      "contraste": 8.97,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 306",
+      "contraste": 9.82,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "tela": "celular",
+      "texto": "Cumaru",
+      "contraste": 11.33,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/cumaru",
+      "tela": "celular",
+      "texto": "A árvore da fava que cheira a baunilha",
+      "contraste": 12.55,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 307",
+      "contraste": 7.54,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "tela": "desktop",
+      "texto": "Cedro",
+      "contraste": 8.46,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "tela": "desktop",
+      "texto": "A madeira que cheira e protege",
+      "contraste": 11.17,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 307",
+      "contraste": 9.26,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "tela": "celular",
+      "texto": "Cedro",
+      "contraste": 9.39,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/cedro",
+      "tela": "celular",
+      "texto": "A madeira que cheira e protege",
+      "contraste": 9.91,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 308",
+      "contraste": 5.51,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "tela": "desktop",
+      "texto": "Mogno",
+      "contraste": 7.03,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "tela": "desktop",
+      "texto": "O ouro verde",
+      "contraste": 10.77,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 308",
+      "contraste": 6.98,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "tela": "celular",
+      "texto": "Mogno",
+      "contraste": 7.92,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/mogno",
+      "tela": "celular",
+      "texto": "O ouro verde",
+      "contraste": 9.38,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 309",
+      "contraste": 4.93,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "tela": "desktop",
+      "texto": "Ipê",
+      "contraste": 5.91,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "tela": "desktop",
+      "texto": "A árvore que floresce sem folhas",
+      "contraste": 8.45,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 309",
+      "contraste": 6.88,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "tela": "celular",
+      "texto": "Ipê",
+      "contraste": 10.33,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/ipe",
+      "tela": "celular",
+      "texto": "A árvore que floresce sem folhas",
+      "contraste": 12.4,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 310",
+      "contraste": 4.76,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "tela": "desktop",
+      "texto": "Jatobá",
+      "contraste": 5.71,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "tela": "desktop",
+      "texto": "A árvore da farinha, da resina e dos séculos",
+      "contraste": 7.93,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 310",
+      "contraste": 6.47,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "tela": "celular",
+      "texto": "Jatobá",
+      "contraste": 7.24,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/jatoba",
+      "tela": "celular",
+      "texto": "A árvore da farinha, da resina e dos séculos",
+      "contraste": 8.44,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 311",
+      "contraste": 5.42,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "tela": "desktop",
+      "texto": "Bacaba",
+      "contraste": 6.49,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "tela": "desktop",
+      "texto": "A prima do açaí que dá óleo de oliva",
+      "contraste": 8.43,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 311",
+      "contraste": 7.01,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "tela": "celular",
+      "texto": "Bacaba",
+      "contraste": 8.03,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/bacaba",
+      "tela": "celular",
+      "texto": "A prima do açaí que dá óleo de oliva",
+      "contraste": 8.93,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 312",
+      "contraste": 7.55,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "tela": "desktop",
+      "texto": "Tucumã",
+      "contraste": 8.97,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "tela": "desktop",
+      "texto": "A palmeira de espinhos e fruta laranja",
+      "contraste": 8.94,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 312",
+      "contraste": 9.48,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "tela": "celular",
+      "texto": "Tucumã",
+      "contraste": 10.3,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/tucuma",
+      "tela": "celular",
+      "texto": "A palmeira de espinhos e fruta laranja",
+      "contraste": 11.4,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 313",
+      "contraste": 5.39,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "tela": "desktop",
+      "texto": "Angelim",
+      "contraste": 7.63,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "tela": "desktop",
+      "texto": "A família da árvore mais alta da Amazônia",
+      "contraste": 10.64,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 313",
+      "contraste": 8.67,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "tela": "celular",
+      "texto": "Angelim",
+      "contraste": 10.08,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/angelim",
+      "tela": "celular",
+      "texto": "A família da árvore mais alta da Amazônia",
+      "contraste": 9.88,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 314",
+      "contraste": 6.49,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "tela": "desktop",
+      "texto": "Maçaranduba",
+      "contraste": 10.94,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "tela": "desktop",
+      "texto": "A madeira que afunda e o fruto que adoça",
+      "contraste": 12.26,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 314",
+      "contraste": 11.64,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "tela": "celular",
+      "texto": "Maçaranduba",
+      "contraste": 12.7,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/macaranduba",
+      "tela": "celular",
+      "texto": "A madeira que afunda e o fruto que adoça",
+      "contraste": 10.5,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 315",
+      "contraste": 7.23,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "tela": "desktop",
+      "texto": "Jenipapo",
+      "contraste": 7.63,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "tela": "desktop",
+      "texto": "A fruta que vira tinta",
+      "contraste": 10.66,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 315",
+      "contraste": 9.15,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "tela": "celular",
+      "texto": "Jenipapo",
+      "contraste": 10.08,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/jenipapo",
+      "tela": "celular",
+      "texto": "A fruta que vira tinta",
+      "contraste": 10.25,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 316",
+      "contraste": 4.99,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "tela": "desktop",
+      "texto": "Itaúba",
+      "contraste": 6.15,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "tela": "desktop",
+      "texto": "A madeira das canoas",
+      "contraste": 8.33,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 316",
+      "contraste": 6.83,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "tela": "celular",
+      "texto": "Itaúba",
+      "contraste": 7.84,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/itauba",
+      "tela": "celular",
+      "texto": "A madeira das canoas",
+      "contraste": 8.99,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 317",
+      "contraste": 5.83,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "tela": "desktop",
+      "texto": "Seringueira",
+      "contraste": 7.36,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "tela": "desktop",
+      "texto": "A árvore que construiu Rondônia",
+      "contraste": 9.41,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 317",
+      "contraste": 7.31,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "tela": "celular",
+      "texto": "Seringueira",
+      "contraste": 8.91,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/seringueira",
+      "tela": "celular",
+      "texto": "A árvore que construiu Rondônia",
+      "contraste": 9.95,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "tela": "desktop",
+      "texto": "Andar das Árvores · Quarto 318",
+      "contraste": 4.82,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "tela": "desktop",
+      "texto": "Jequitibá",
+      "contraste": 6.22,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "tela": "desktop",
+      "texto": "O gigante que atravessa os séculos",
+      "contraste": 8.06,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "tela": "celular",
+      "texto": "Andar das Árvores · Quarto 318",
+      "contraste": 6.47,
+      "grande": false
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "tela": "celular",
+      "texto": "Jequitibá",
+      "contraste": 7.76,
+      "grande": true
+    },
+    {
+      "rota": "/universo/arvores/jequitiba",
+      "tela": "celular",
+      "texto": "O gigante que atravessa os séculos",
+      "contraste": 8.71,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 404",
+      "contraste": 10.76,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "tela": "desktop",
+      "texto": "Arara",
       "contraste": 11.46,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "tela": "desktop",
+      "texto": "O casal que voa junto a vida inteira",
+      "contraste": 14.16,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 404",
+      "contraste": 13.58,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "tela": "celular",
+      "texto": "Arara",
+      "contraste": 14.37,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/arara",
+      "tela": "celular",
+      "texto": "O casal que voa junto a vida inteira",
+      "contraste": 13.83,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 405",
+      "contraste": 8.55,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "tela": "desktop",
+      "texto": "Tucano",
+      "contraste": 9.23,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "tela": "desktop",
+      "texto": "O bico que refresca",
+      "contraste": 11.26,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 405",
+      "contraste": 14.03,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "tela": "celular",
+      "texto": "Tucano",
+      "contraste": 14.29,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/tucano",
+      "tela": "celular",
+      "texto": "O bico que refresca",
+      "contraste": 11.76,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 406",
+      "contraste": 5.86,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "tela": "desktop",
+      "texto": "Papagaio",
+      "contraste": 7.21,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "tela": "desktop",
+      "texto": "A ave que aprende a falar",
+      "contraste": 10.53,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 406",
+      "contraste": 9.75,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "tela": "celular",
+      "texto": "Papagaio",
+      "contraste": 8.84,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/papagaio",
+      "tela": "celular",
+      "texto": "A ave que aprende a falar",
+      "contraste": 9.64,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 407",
+      "contraste": 9.22,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "tela": "desktop",
+      "texto": "Gavião-real",
+      "contraste": 10.7,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "tela": "desktop",
+      "texto": "A maior águia das Américas",
+      "contraste": 11.89,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 407",
+      "contraste": 10.48,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "tela": "celular",
+      "texto": "Gavião-real",
+      "contraste": 11.32,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/gaviao-real",
+      "tela": "celular",
+      "texto": "A maior águia das Américas",
+      "contraste": 11.75,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 408",
+      "contraste": 7.69,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "tela": "desktop",
+      "texto": "Uirapuru",
+      "contraste": 8.75,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "tela": "desktop",
+      "texto": "O canto que cala a floresta",
+      "contraste": 10.37,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 408",
+      "contraste": 9.11,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "tela": "celular",
+      "texto": "Uirapuru",
+      "contraste": 9.56,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/uirapuru",
+      "tela": "celular",
+      "texto": "O canto que cala a floresta",
+      "contraste": 12.31,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 409",
+      "contraste": 7.42,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "tela": "desktop",
+      "texto": "Beija-flor",
+      "contraste": 8.95,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "tela": "desktop",
+      "texto": "O coração mais rápido do mundo",
+      "contraste": 8.41,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 409",
+      "contraste": 10.3,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "tela": "celular",
+      "texto": "Beija-flor",
+      "contraste": 9.77,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/beija-flor",
+      "tela": "celular",
+      "texto": "O coração mais rápido do mundo",
+      "contraste": 12.68,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 410",
+      "contraste": 6.66,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "tela": "desktop",
+      "texto": "Garça",
+      "contraste": 7.66,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "tela": "desktop",
+      "texto": "A paciência de pé na água",
+      "contraste": 10.02,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 410",
+      "contraste": 7.25,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "tela": "celular",
+      "texto": "Garça",
+      "contraste": 9.3,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/garca",
+      "tela": "celular",
+      "texto": "A paciência de pé na água",
+      "contraste": 10.46,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 411",
+      "contraste": 7.07,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "tela": "desktop",
+      "texto": "Mutum",
+      "contraste": 7.42,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "tela": "desktop",
+      "texto": "O galo da floresta",
+      "contraste": 8.31,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 411",
+      "contraste": 8.53,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "tela": "celular",
+      "texto": "Mutum",
+      "contraste": 8.48,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/mutum",
+      "tela": "celular",
+      "texto": "O galo da floresta",
+      "contraste": 8.9,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 412",
+      "contraste": 6.85,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "tela": "desktop",
+      "texto": "Coruja",
+      "contraste": 7.33,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "tela": "desktop",
+      "texto": "A que vê no escuro e voa sem som",
+      "contraste": 10.14,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 412",
+      "contraste": 7.87,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "tela": "celular",
+      "texto": "Coruja",
+      "contraste": 9.08,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/coruja",
+      "tela": "celular",
+      "texto": "A que vê no escuro e voa sem som",
+      "contraste": 10.18,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 413",
+      "contraste": 8.26,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "tela": "desktop",
+      "texto": "Carcará",
+      "contraste": 8.89,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "tela": "desktop",
+      "texto": "O falcão que anda",
+      "contraste": 10.87,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 413",
+      "contraste": 9.58,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "tela": "celular",
+      "texto": "Carcará",
+      "contraste": 10.28,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/carcara",
+      "tela": "celular",
+      "texto": "O falcão que anda",
+      "contraste": 11.13,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 414",
+      "contraste": 10.74,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "desktop",
+      "texto": "Maracanã",
+      "contraste": 11.41,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "desktop",
+      "texto": "A pequena arara dos buritis",
+      "contraste": 12.93,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/maracana",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 414",
+      "contraste": 12.07,
       "grande": false
     },
     {
       "rota": "/universo/aves/maracana",
       "tela": "celular",
       "texto": "Maracanã",
-      "contraste": 12.79,
+      "contraste": 12.59,
       "grande": true
     },
     {
       "rota": "/universo/aves/maracana",
       "tela": "celular",
       "texto": "A pequena arara dos buritis",
-      "contraste": 13.41,
+      "contraste": 13.23,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 415",
+      "contraste": 6.52,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "tela": "desktop",
+      "texto": "Anu-preto",
+      "contraste": 7.42,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "tela": "desktop",
+      "texto": "A ave que cria os filhos em comunidade",
+      "contraste": 11.06,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 415",
+      "contraste": 8.4,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "tela": "celular",
+      "texto": "Anu-preto",
+      "contraste": 10.12,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/anu-preto",
+      "tela": "celular",
+      "texto": "A ave que cria os filhos em comunidade",
+      "contraste": 11.12,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 416",
+      "contraste": 6.06,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "tela": "desktop",
+      "texto": "Tangará",
+      "contraste": 7.31,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "tela": "desktop",
+      "texto": "A ave que dança em fila",
+      "contraste": 10.12,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 416",
+      "contraste": 7.42,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "tela": "celular",
+      "texto": "Tangará",
+      "contraste": 9.49,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/tangara",
+      "tela": "celular",
+      "texto": "A ave que dança em fila",
+      "contraste": 11.03,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 417",
+      "contraste": 6.56,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "tela": "desktop",
+      "texto": "Colhereiro",
+      "contraste": 8.74,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "tela": "desktop",
+      "texto": "A ave rosa de bico de colher",
+      "contraste": 12.93,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 417",
+      "contraste": 10.13,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "tela": "celular",
+      "texto": "Colhereiro",
+      "contraste": 12.75,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/colhereiro",
+      "tela": "celular",
+      "texto": "A ave rosa de bico de colher",
+      "contraste": 11,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 418",
+      "contraste": 7.1,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "tela": "desktop",
+      "texto": "Curió",
+      "contraste": 8.36,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "tela": "desktop",
+      "texto": "O cantor mais disputado do Brasil",
+      "contraste": 10.77,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 418",
+      "contraste": 8.73,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "tela": "celular",
+      "texto": "Curió",
+      "contraste": 9.6,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/curio",
+      "tela": "celular",
+      "texto": "O cantor mais disputado do Brasil",
+      "contraste": 10.34,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 419",
+      "contraste": 7.64,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "tela": "desktop",
+      "texto": "Andorinha",
+      "contraste": 8.15,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "tela": "desktop",
+      "texto": "A viajante que come voando",
+      "contraste": 10.6,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 419",
+      "contraste": 7.52,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "tela": "celular",
+      "texto": "Andorinha",
+      "contraste": 10.13,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/andorinha",
+      "tela": "celular",
+      "texto": "A viajante que come voando",
+      "contraste": 10.91,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "tela": "desktop",
+      "texto": "Andar das Aves · Quarto 420",
+      "contraste": 7.02,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "tela": "desktop",
+      "texto": "Cardeal-da-Amazônia",
+      "contraste": 8.47,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "tela": "desktop",
+      "texto": "A cabeça vermelha das margens dos rios",
+      "contraste": 11.82,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "tela": "celular",
+      "texto": "Andar das Aves · Quarto 420",
+      "contraste": 7.88,
+      "grande": false
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "tela": "celular",
+      "texto": "Cardeal-da-Amazônia",
+      "contraste": 9.36,
+      "grande": true
+    },
+    {
+      "rota": "/universo/aves/cardeal-da-amazonia",
+      "tela": "celular",
+      "texto": "A cabeça vermelha das margens dos rios",
+      "contraste": 10.19,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "desktop",
+      "texto": "Os Guardiões · Quarto 401",
+      "contraste": 6.81,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "desktop",
+      "texto": "Onça-pintada",
+      "contraste": 8.83,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "desktop",
+      "texto": "O maior felino das Américas",
+      "contraste": 12.91,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "celular",
+      "texto": "Os Guardiões · Quarto 401",
+      "contraste": 9.03,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "celular",
+      "texto": "Onça-pintada",
+      "contraste": 10.93,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes/onca-pintada",
+      "tela": "celular",
+      "texto": "O maior felino das Américas",
+      "contraste": 12.86,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "tela": "desktop",
+      "texto": "Os Guardiões · Quarto 402",
+      "contraste": 8.39,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "tela": "desktop",
+      "texto": "Jaguatirica",
+      "contraste": 9.08,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "tela": "desktop",
+      "texto": "A onça pequena que sobe em tudo",
+      "contraste": 10.82,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "tela": "celular",
+      "texto": "Os Guardiões · Quarto 402",
+      "contraste": 8.63,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "tela": "celular",
+      "texto": "Jaguatirica",
+      "contraste": 10.88,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes/jaguatirica",
+      "tela": "celular",
+      "texto": "A onça pequena que sobe em tudo",
+      "contraste": 12.53,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "tela": "desktop",
+      "texto": "Os Guardiões · Quarto 403",
+      "contraste": 5.14,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "tela": "desktop",
+      "texto": "Jacaré-açu",
+      "contraste": 6.91,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "tela": "desktop",
+      "texto": "O maior predador das águas amazônicas",
+      "contraste": 8.59,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "tela": "celular",
+      "texto": "Os Guardiões · Quarto 403",
+      "contraste": 7.16,
+      "grande": false
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "tela": "celular",
+      "texto": "Jacaré-açu",
+      "contraste": 8.41,
+      "grande": true
+    },
+    {
+      "rota": "/universo/guardioes/jacare-acu",
+      "tela": "celular",
+      "texto": "O maior predador das águas amazônicas",
+      "contraste": 9.7,
       "grande": false
     }
   ],

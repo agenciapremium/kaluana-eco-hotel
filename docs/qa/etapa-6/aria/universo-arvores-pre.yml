@@ -10,7 +10,7 @@
   - heading "Andar das Árvores" [level=1]
   - paragraph: Árvores da Amazônia. Muitas delas estão no que você toca.
   - paragraph: "Algumas passam de 50 metros, como a samaúma e a castanheira. Outras dão óleo, fruta, látex, tinta e remédio. Todas crescem em Rondônia. Várias estão no material deste hotel: no piso, nos móveis, na mesa do restaurante."
-  - button "Ouvir o ambiente"
+  - button "Silenciar"
   - link "Rolar para o conteúdo":
     - /url: "#conteudo-principal"
     - text: Rolar

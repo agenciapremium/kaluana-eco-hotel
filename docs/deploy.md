@@ -119,10 +119,10 @@ O caminho normal, depois do "aprovado":
 
 ## 8. O que está no ar
 
-Desde 13/09/2026, 08:35, a produção é o deploy `nitr623o9`, promovido da pré-visualização da `etapa-6` (commit `e990a0a`), na fase `pre`. Ele responde em `https://www.kaluanaecohotel.com.br` e, com `noindex`, em `https://kaluana-eco-hotel.vercel.app`.
+Em 13/09/2026, às 08:35, a produção passou a ser a pré-visualização da `etapa-6` promovida (deploy `nitr623o9`, commit `e990a0a`), na fase `pre`. No mesmo dia, os ajustes pedidos depois dessa publicação (cabeçalho, filtro, som e fotos) foram promovidos da mesma forma; o deploy atual aparece em `vercel ls kaluana-eco-hotel --environment production`. Ele responde em `https://www.kaluanaecohotel.com.br` e, com `noindex`, em `https://kaluana-eco-hotel.vercel.app`.
 
 Conferido no ar: Home indexável, com a canônica `https://kaluanaecohotel.com.br` e o cabeçalho da fase `pre`; nenhum campo pendente, TODO ou telefone provisório; páginas legais sem o aviso de minuta; `robots.txt` bloqueando `/q/`, `/obrigado` e `/eventos`; `sitemap.xml` com 77 endereços; `llms.txt` sem auditório; `/q/101` com 301 para o rio Amazonas; 404 real; Eventos e Acomodações com `noindex`; `http` e domínio sem `www` redirecionando.
 
 Falta conferir: o envio real de um formulário e a inversão do domínio principal (seção 5).
 
-**Voltar atrás:** `vercel rollback` ou, no painel, Instant Rollback para o deploy da etapa 1 (`kmziqaa4b`).
+**Voltar atrás:** Instant Rollback no painel ou `vercel rollback` para o deploy anterior: `nitr623o9`, a primeira publicação da etapa 6, ou, se preciso, `kmziqaa4b`, a etapa 1.
