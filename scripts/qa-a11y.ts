@@ -691,6 +691,45 @@ async function roteiros() {
     await ctx.close();
   });
 
+  await tentar("Som ao abrir a página", async () => {
+    // Decisão de 13/09/2026: a página do Universo começa tocando. O navegador só libera som
+    // depois de um gesto na página: sem gesto nada toca, e o primeiro Tab liga um som só, o da
+    // barra de hóspede. Silenciar fica lembrado na sessão.
+    const { ctx, page } = await abrir("/universo/rios/rio-machado?uh=112", CELULAR);
+    await page.locator("aside.barra-hospede").waitFor();
+    const rotulos = () =>
+      page.evaluate(() =>
+        [...document.querySelectorAll(".ambient-button")].map(
+          (b) => `${b.closest(".barra-hospede") ? "barra" : "hero"} "${b.textContent?.trim()}"`,
+        ),
+      );
+    const antes = await rotulos();
+    await page.keyboard.press("Tab");
+    await page.waitForTimeout(2500);
+    const depois = await rotulos();
+    const tocando = depois.filter((r) => r.endsWith('"Silenciar"'));
+    if (tocando.length) {
+      await page.locator(".ambient-button", { hasText: "Silenciar" }).first().click();
+      await page.waitForTimeout(1200);
+    }
+    await page.goto(`${base}/universo/rios/rio-negro`, { waitUntil: "networkidle" });
+    await page.keyboard.press("Tab");
+    await page.waitForTimeout(2500);
+    const seguinte = await rotulos();
+    registrar({
+      roteiro: "Som ao abrir a página",
+      rota: "/universo/rios/rio-machado?uh=112",
+      tela: "celular",
+      ok:
+        !antes.some((r) => r.endsWith('"Silenciar"')) &&
+        tocando.length === 1 &&
+        tocando[0].startsWith("barra") &&
+        !seguinte.some((r) => r.endsWith('"Silenciar"')),
+      detalhe: `antes do gesto: ${antes.join(", ")}; depois do primeiro Tab: ${depois.join(", ")}; depois de silenciar, na página seguinte: ${seguinte.join(", ")}`,
+    });
+    await ctx.close();
+  });
+
   await tentar("Mapa sob demanda", async () => {
     const { ctx, page } = await abrir("/contato", DESKTOP);
     const botao = page.getByRole("button", { name: /mapa/i }).first();

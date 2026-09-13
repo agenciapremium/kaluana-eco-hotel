@@ -9,7 +9,7 @@
  *
  * Uso: npm run qa:contraste -- --phase=pre --url=http://localhost:3100 [--out=docs/qa/etapa-6]
  */
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type BrowserContextOptions, type Page } from "playwright";
 import sharp from "sharp";
@@ -37,14 +37,17 @@ const ALVOS: { rota: string; seletor: string }[] = [
       ".scene-hero .scene-content :is(h1, p, span.kicker), .panel :is(h2, h3, p, .panel-name)",
   },
   { rota: "/universo", seletor: ".andar-bloco :is(h2, h3, p, .kicker)" },
-  { rota: "/universo/peixes", seletor: ".scene-hero .scene-content :is(h1, p, span.kicker)" },
-  { rota: "/universo/arvores", seletor: ".scene-hero .scene-content :is(h1, p, span.kicker)" },
-  { rota: "/universo/aves", seletor: ".scene-hero .scene-content :is(h1, p, span.kicker)" },
+  ...["rios", "peixes", "arvores", "aves"].map((andar) => ({
+    rota: `/universo/${andar}`,
+    seletor: ".scene-hero .scene-content :is(h1, p, span.kicker)",
+  })),
   { rota: "/universo/guardioes", seletor: ".guardiao :is(h2, h3, p)" },
-  { rota: "/universo/peixes/pirarucu", seletor: ".elemento-hero :is(h1, p, .kicker)" },
-  { rota: "/universo/peixes/filhote", seletor: ".elemento-hero :is(h1, p, .kicker)" },
-  { rota: "/universo/arvores/samauma", seletor: ".elemento-hero :is(h1, p, .kicker)" },
-  { rota: "/universo/aves/maracana", seletor: ".elemento-hero :is(h1, p, .kicker)" },
+  // As 70 páginas de elemento: cada uma tem uma foto diferente atrás do texto.
+  ...(
+    JSON.parse(readFileSync(resolve(process.cwd(), "content/universo-index.json"), "utf8")) as {
+      url: string;
+    }[]
+  ).map((e) => ({ rota: e.url, seletor: ".elemento-hero :is(h1, p, .kicker)" })),
 ];
 
 type Medida = { rota: string; tela: string; texto: string; contraste: number; grande: boolean };
