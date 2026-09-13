@@ -258,6 +258,12 @@ function paradaAtual(page: Page): Promise<Parada | null> {
       return `${e.tagName.toLowerCase()}${e.id ? `#${e.id}` : ""}${c.length ? `.${c.join(".")}` : ""}`;
     };
     const rgba = (s: string) => {
+      // color(srgb r g b / a), de color-mix, vem com canais de 0 a 1.
+      const srgb = s.match(/color\(srgb ([\d.]+) ([\d.]+) ([\d.]+)(?: \/ ([\d.]+))?\)/);
+      if (srgb) {
+        const [, r, g, b, a = "1"] = srgb;
+        return { r: +r * 255, g: +g * 255, b: +b * 255, a: +a };
+      }
       const m = s.match(/rgba?\(([^)]+)\)/);
       if (!m) return null;
       const [r, g, b, a = "1"] = m[1].split(/[\s,/]+/).filter(Boolean);
@@ -309,6 +315,11 @@ function paradaAtual(page: Page): Promise<Parada | null> {
           fundo = c;
           break;
         }
+      }
+      // Contorno por dentro da caixa (outline-offset negativo): o fundo é o do próprio elemento.
+      if (parseFloat(cs.outlineOffset) < 0) {
+        const proprio = rgba(cs.backgroundColor);
+        if (proprio && proprio.a > 0.9) fundo = proprio;
       }
       if (fundo) {
         const [l1, l2] = [lum(cor), lum(fundo)].sort((a, b) => b - a);
@@ -387,7 +398,8 @@ async function percorrer(rota: string, tela: string, opcoes: BrowserContextOptio
     await page.waitForTimeout(400);
     for (let i = 0; i < 45; i++) {
       await page.keyboard.press("Shift+Tab");
-      await page.waitForTimeout(120);
+      // Espera as transições (cabeçalho que volta, trilho que some) antes de medir.
+      await page.waitForTimeout(400);
       const p = await paradaAtual(page);
       if (p) anotar(p, "Shift+Tab");
     }
@@ -506,7 +518,11 @@ async function roteiros() {
       await page.waitForURL(/\/politica-de-privacidade$/);
       await page.waitForTimeout(1500);
       const estado = await page.evaluate(() => {
-        const rgb = (s: string) => (s.match(/[\d.]+/g) ?? []).map(Number);
+        // color(srgb r g b / a), de color-mix, vem com canais de 0 a 1.
+        const rgb = (s: string) => {
+          const n = (s.match(/[\d.]+/g) ?? []).map(Number);
+          return s.startsWith("color(") ? [n[0] * 255, n[1] * 255, n[2] * 255, n[3] ?? 1] : n;
+        };
         const lum = ([r, g, b]: number[]) => {
           const f = (v: number) => {
             const x = v / 255;
@@ -642,8 +658,11 @@ async function roteiros() {
     await page.mouse.wheel(0, -150);
     await page.waitForTimeout(900);
     const menuCoberto = await page.evaluate(() => {
-      const b = document.querySelector("header button[aria-expanded]") as HTMLElement | null;
-      if (!b) return "sem botão";
+      // Botão do menu na fase full; "Quero ser avisado" na fase pre.
+      const b = document.querySelector(
+        "header button[aria-expanded], header a.btn-primary",
+      ) as HTMLElement | null;
+      if (!b) return "sem ação no cabeçalho";
       const r = b.getBoundingClientRect();
       if (r.bottom <= 0) return "cabeçalho fora da tela";
       const t = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
@@ -654,7 +673,7 @@ async function roteiros() {
       rota: "/universo/rios/rio-machado?uh=112",
       tela: "celular",
       ok: focoNoBotao && !menuCoberto,
-      detalhe: `${estado.join(" | ")}; foco fica no botão: ${focoNoBotao}; botão do menu ao voltar a rolagem: ${menuCoberto || "visível"}`,
+      detalhe: `${estado.join(" | ")}; foco fica no botão: ${focoNoBotao}; ação do cabeçalho ao voltar a rolagem: ${menuCoberto || "visível"}`,
     });
     await ctx.close();
   });

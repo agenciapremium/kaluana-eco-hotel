@@ -95,7 +95,8 @@ async function abrir(caminho: string, js = true, ipFixo?: string) {
     if (m.type() === "error" || m.type() === "warning") console.push(m.text().slice(0, 200));
   });
   page.on("pageerror", (e) => console.push(`pageerror: ${e.message.slice(0, 200)}`));
-  await page.goto(`${base}${caminho}`, { waitUntil: "load" });
+  // Com JavaScript, espera a rede ociosa: clicar antes da hidratação do React não faz nada.
+  await page.goto(`${base}${caminho}`, { waitUntil: js ? "networkidle" : "load" });
   return { ctx, page, console };
 }
 
@@ -431,7 +432,8 @@ const resumoEventos = (lista: { event?: string; [k: string]: unknown }[]) =>
       async () => {
         const { ctx, page } = await abrir("/", false);
         await preencherLead(page, "hospede", "telefone");
-        await enviarLead(page);
+        // Sem JavaScript, envio implícito com Enter, como no L8.
+        await page.press("#lead-telefone", "Enter");
         await page.waitForLoadState("load");
         await page.waitForTimeout(1500);
         const textos = await page.locator("form .field-error, form [role=alert]").allInnerTexts();
@@ -737,7 +739,8 @@ const resumoEventos = (lista: { event?: string; [k: string]: unknown }[]) =>
       const nomeVisivel = await page.locator("#ev-nome").isVisible();
       const foco = await page.evaluate(() => document.activeElement?.id ?? "");
       await ctx.close();
-      const ok = passoAtual === "1" && nomeVisivel && foco === "ev-nome" && recebidos.length === antes;
+      const ok =
+        passoAtual === "1" && nomeVisivel && foco === "ev-nome" && recebidos.length === antes;
       return {
         ok,
         obtido: `passo ${Number(passoAtual) + 1}; campo nome visível: ${nomeVisivel}; foco em: ${foco || "nada"}; e-mails novos: ${recebidos.length - antes}; console: ${console.join(" | ") || "vazio"}`,
