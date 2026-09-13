@@ -3018,3 +3018,65 @@ html.js [data-reveal="mask"] > :focus-visible {
   clip-path: none;
   transition: none;
 }
+
+/* Contraste das cores de andar (etapa 6). Com o bege, Peixes, Árvores e Aves ficam entre 3,8:1 e
+   4:1, abaixo dos 4,5:1 de texto normal; Rios e Guardiões já passavam. Onde a cor do andar é
+   fundo de texto bege, o fundo escurece com o preto suave; onde é texto sobre fundo claro, o texto
+   fica em café ou escurecido e a cor do andar vira marcador. */
+.barra-hospede {
+  background-color: color-mix(in srgb, var(--accent, var(--color-cafe)) 70%, var(--color-preto));
+}
+.barra-hospede-uh {
+  background-color: transparent;
+  border: 1px solid color-mix(in srgb, var(--color-bege) 60%, transparent);
+}
+.card-elemento-uh {
+  color: var(--color-cafe);
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.4rem;
+    border-radius: 999px;
+    background-color: var(--accent, var(--color-cafe));
+  }
+}
+.elevador-parada[aria-current="true"] .elevador-ordinal {
+  color: color-mix(in srgb, var(--accent) 60%, var(--color-preto));
+}
+@media (min-width: 64rem) {
+  .elevador-ordinal,
+  .elevador-parada[aria-current="true"] .elevador-ordinal {
+    color: color-mix(in srgb, var(--color-bege) 75%, transparent);
+  }
+}
+
+/* Véu local atrás do texto das cenas (etapa 6). O axe não calcula contraste de texto sobre foto.
+   Medido pixel a pixel (npm run qa:contraste), 19 de 93 textos claros ficavam abaixo do mínimo da
+   WCAG contra a parte mais clara da foto atrás deles, como céu e folhagem iluminada. Em vez de
+   escurecer a cena inteira, um véu desfocado fica só atrás de cada bloco de texto e acompanha a
+   entrada dele; a foto continua clara no resto. Os cartões dos painéis já tinham o próprio véu. */
+.scene-hero .scene-content > :first-child,
+.panel-text,
+.andar-bloco-texto,
+.elemento-hero-conteudo {
+  position: relative;
+  isolation: isolate;
+}
+.scene-hero .scene-content > :first-child::before,
+.panel-text::before,
+.andar-bloco-texto::before,
+.elemento-hero-conteudo::before {
+  content: "";
+  position: absolute;
+  inset: -1.5rem -2rem;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 3rem;
+  background-color: color-mix(in srgb, var(--color-preto) 60%, transparent);
+  filter: blur(40px);
+}
+.scene-hero .scene-content > :first-child::before {
+  background-color: color-mix(in srgb, var(--color-preto) 66%, transparent);
+}
