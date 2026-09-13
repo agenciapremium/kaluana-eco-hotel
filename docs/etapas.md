@@ -333,9 +333,10 @@ O 66 de SEO em Eventos é o `noindex` pedido pelo documento mestre e confirmado 
 
 ## Etapa 6: QA final e preparação do deploy
 
-**Status:** aguardando "aprovado" do responsável da Premium.
-**Branch:** `etapa-6`, enviada ao GitHub; a `main` local está integrada até a etapa 5 e **não** foi enviada.
-**Período:** 12/09/2026.
+**Status:** no ar desde 13/09/2026, 08:35, pela promoção do último build pedida pelo responsável da Premium. A integração da `etapa-6` na `main` espera o "aprovado".
+**Branch:** `etapa-6`, enviada ao GitHub; é o código em produção. A `main` do GitHub ainda está na etapa 1 e a local, na etapa 5: um push na `main` publicaria código anterior.
+**Período:** 12 e 13/09/2026.
+**Produção:** `https://www.kaluanaecohotel.com.br` (deploy `nitr623o9`, fase `pre`). O domínio sem `www` redireciona para o `www`, ao contrário da canônica (ver abaixo).
 **Créditos Higgsfield gastos:** 0. Saldo: 8.677,85. Acumulado do projeto: 137,75.
 **Pré-visualização:** `https://kaluana-eco-hotel-git-etapa-6-agencia-premium.vercel.app` (alias da branch; pede login no time Agencia Premium da Vercel).
 
@@ -353,7 +354,7 @@ O 66 de SEO em Eventos é o `noindex` pedido pelo documento mestre e confirmado 
 | Formulários                           | Feito                                                             | 30/30 na fase `pre` e 21/21 na `full`, com e sem JavaScript, contra uma API de e-mail simulada; `formularios-pre.json` e `formularios-full.json`                                          |
 | Texto contra os vetos                 | Feito                                                             | revisão de 103 páginas e de todo o conteúdo-fonte; achados corrigidos ou listados abaixo                                                                                                  |
 | Documentação final                    | Feito                                                             | `deploy.md`, `decisoes.md` (78 a 112), este checklist, `qa/etapa-6/`                                                                                                                      |
-| Deploy preparado, sem produção        | Parcial                                                           | variáveis e pré-visualização prontas; domínio aguardando autorização (ver abaixo)                                                                                                         |
+| Deploy de produção                    | Feito, com pendências                                             | promovido em 13/09/2026 a pedido do responsável e conferido no ar; domínio com o `www` como principal e formulário real ainda por testar (ver abaixo)                                     |
 
 ### O que foi feito
 
@@ -365,19 +366,19 @@ O 66 de SEO em Eventos é o `noindex` pedido pelo documento mestre e confirmado 
 6. **Peso das fotos do Universo:** teto de peso por largura no `build-media`; doze fotos de folhagem densa refeitas, o que tirou jequitibá, samaúma e copaíba de 86 a 89 no celular (decisão 110).
 7. **Deploy:** `noindex` no endereço `*.vercel.app` de produção, `check:env` que para o build de produção sem as variáveis de e-mail, Node fixo em 24.x, guia completo em `docs/deploy.md` (decisões 105 e 106).
 
-### Antes de apontar o domínio (bloqueia a produção)
+### Produção: pendências (13/09/2026)
 
-| Item                                                                                                                                                                                                                                                  | Quem              | Onde                                                      |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------------------------------------------------------- |
-| **Tornar o repositório do GitHub privado.** Ele é público desde a etapa 1 e expõe o `qr-map.json` com as 70 UHs (veto 2), as fotos do inventário com licença pendente e a documentação interna                                                        | Premium           | GitHub, Settings, Danger Zone                             |
-| Chave do Resend, domínio verificado no Resend e e-mail de destino (`RESEND_API_KEY`, `LEAD_TO_EMAIL`); sem eles o build de produção para                                                                                                              | Premium e cliente | `docs/deploy.md`, seção 4                                 |
-| ID do GTM (`NEXT_PUBLIC_GTM_ID`)                                                                                                                                                                                                                      | Premium           | recomendado                                               |
-| Validação jurídica das minutas de privacidade e de termos                                                                                                                                                                                             | Cliente           | `lib/legais.ts`                                           |
-| Revisão dos três posts de partida e das datas                                                                                                                                                                                                         | Responsável       | `posts/*.yaml`                                            |
-| Associar kaluanaecohotel.com.br e www ao projeto; o comando foi bloqueado pela permissão automática desta sessão                                                                                                                                      | Responsável       | `docs/deploy.md`, seção 5                                 |
-| Conferência humana com leitor de tela                                                                                                                                                                                                                 | Premium           | `docs/qa/etapa-6/leitor-de-tela.md`                       |
-| O deploy de produção da etapa 1 responde em `kaluana-eco-hotel.vercel.app` sem `noindex` até o próximo deploy de produção                                                                                                                             | Responsável       | `docs/deploy.md`, seção 8                                 |
-| A pré-visualização da `etapa-6` foi promovida a produção duas vezes em 12/09, às 22:52 e 22:53, fora desta sessão; o `check-env` barrou as duas. Com as variáveis de e-mail gravadas, essa trava deixa de segurar: promover só com a etapa 6 aprovada | Responsável       | Vercel, Deployments; `docs/qa/etapa-6/README.md`, seção 6 |
+| Item                                                                                                                                                                                                                                                                                  | Quem              | Onde                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------------------------- |
+| **Tornar o repositório do GitHub privado.** Ele é público desde a etapa 1 e expõe o `qr-map.json` com as 70 UHs (veto 2), as fotos do inventário com licença pendente e a documentação interna                                                                                        | Premium           | GitHub, Settings, Danger Zone       |
+| Remetente e destino dos formulários temporários em `kaluana@agpremium.com.br`: no Resend só `agpremium.com.br` está verificado. Para usar o domínio do hotel, verificar `kaluanaecohotel.com.br` no Resend, trocar `LEAD_FROM_EMAIL` e `LEAD_TO_EMAIL` e fazer redeploy (decisão 113) | Premium e cliente | `docs/deploy.md`, seção 4           |
+| ID do GTM (`NEXT_PUBLIC_GTM_ID`)                                                                                                                                                                                                                                                      | Premium           | recomendado                         |
+| Validação jurídica das minutas de privacidade e de termos                                                                                                                                                                                                                             | Cliente           | `lib/legais.ts`                     |
+| Revisão dos três posts de partida e das datas                                                                                                                                                                                                                                         | Responsável       | `posts/*.yaml`                      |
+| **Inverter o domínio principal.** Hoje `kaluanaecohotel.com.br` redireciona (308) para o `www`, mas a canônica, o sitemap e o `robots.txt` usam o domínio sem `www`. No painel: domínio sem `www` sem redirecionamento e `www` com 308 para ele                                       | Responsável       | `docs/deploy.md`, seção 5           |
+| Conferência humana com leitor de tela                                                                                                                                                                                                                                                 | Premium           | `docs/qa/etapa-6/leitor-de-tela.md` |
+| **Integrar a `etapa-6` na `main`** depois do "aprovado". Com as variáveis gravadas, o `check-env` não segura mais: todo push na `main` e toda promoção publicam                                                                                                                       | Responsável       | `docs/deploy.md`, seção 6           |
+| Enviar um formulário real em produção e conferir a chegada em `kaluana@agpremium.com.br`; cadastrar o domínio no Google Search Console e enviar o sitemap                                                                                                                             | Premium           | `docs/deploy.md`, seção 6           |
 
 ### Decisões que ficam com o cliente
 
