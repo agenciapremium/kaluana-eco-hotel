@@ -2112,7 +2112,7 @@
       "rota": "/universo/rios/rio-machado?uh=112",
       "tela": "celular",
       "ok": true,
-      "detalhe": "antes do gesto: barra \"Carregando o som\", hero \"Ouvir o ambiente\"; depois do primeiro Tab: barra \"Silenciar\", hero \"Ouvir o ambiente\"; depois de silenciar, na página seguinte: hero \"Ouvir o ambiente\""
+      "detalhe": "antes do gesto: barra \"Ouvir o ambiente\", hero \"Ouvir o ambiente\"; depois do primeiro Tab: barra \"Silenciar\", hero \"Ouvir o ambiente\"; depois de silenciar, na página seguinte: hero \"Ouvir o ambiente\""
     },
     {
       "roteiro": "Mapa sob demanda",
@@ -2291,5 +2291,5 @@
     }
   ],
   "axePorRegra": [],
-  "tecladoRefeitoEm": "2026-09-13T16:56:07.652Z"
+  "tecladoRefeitoEm": "2026-09-13T18:18:44.962Z"
 }

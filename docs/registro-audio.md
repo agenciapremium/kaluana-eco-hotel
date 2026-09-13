@@ -80,3 +80,33 @@ O Commons não tem gravação com licença compatível da espécie certa. Estas 
 | Maracanã    | Primolius maracana e Orthopsittaca manilatus | Commons não tem as espécies; a alternativa era Psittacara leucophthalmus |
 | Anu-preto   | Crotophaga ani                               | Commons não tem a espécie; a alternativa era Crotophaga sulcirostris     |
 | Colhereiro  | Platalea ajaja                               | sem gravação com licença compatível                                      |
+
+## Etapa 6: som da espécie, volume baixo e onça-pintada (13/09/2026)
+
+Pedido do responsável: cada ave com o próprio canto na página, o mesmo para os outros animais, e o som bem baixo, mesmo com o aparelho no máximo.
+
+**Canto que não tocava.** Desde a etapa 3, o canto entrava como mais um loop no sorteio determinístico da página, junto dos quatro loops do andar. Só 3 das 10 aves com gravação tocavam o próprio canto (papagaio, coruja e curió); as outras 7 caíam num loop de ambiente. Agora, onde existe som da espécie, é ele que toca.
+
+**Volume.** Os cantos estavam entre -19 e -23 LUFS, com picos perto de 0 dBFS, e os loops sintetizados entre -32 e -40 LUFS, então o canto saltava. Todos os arquivos passam a sair normalizados em -30 LUFS, o player toca a 16% (perto de -46 LUFS) e um limitador depois do volume segura os picos em -24 dBFS. O site não controla o volume do aparelho: tocar baixo e sem picos é o que mantém o som discreto com o aparelho no máximo.
+
+**Onça-pintada.** Esturro real, de 1,4 s, curto demais para tocar em loop: entra por cima de "noite na floresta", aos 6, 21 e 36 segundos de um loop de 45 s. O crédito aparece no rodapé da página como "Som".
+
+| Animal       | Espécie gravada                                                         | Autor      | Licença   | Fonte                                                   |
+| ------------ | ----------------------------------------------------------------------- | ---------- | --------- | ------------------------------------------------------- |
+| onca-pintada | Panthera onca (onça-pintada), esturro no Attica Zoological Park, Grécia | About Zoos | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Jaguar_saw.flac |
+
+**Ainda sem som da espécie.** Buscas de 13/09/2026: o Commons não tem gravação destas espécies (para jaguatirica e jacaré só aparecem pronúncias da palavra), o xeno-canto bloqueia acesso automático e a API exige chave de conta, e a busca automática no Freesound não trouxe resultado, o que pede uma busca manual. Só servem gravações sem a cláusula NC (não comercial), porque o site é de um hotel. Até lá, estas páginas tocam o som do andar.
+
+| Animal      | Espécie declarada                            | Caminho possível                                                                                 |
+| ----------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Gavião-real | Harpia harpyja                               | xeno-canto com chave de conta, gravação em CC BY, CC BY-SA ou CC0                                |
+| Garça       | Ardea alba e Ardea cocoi                     | xeno-canto com chave de conta                                                                    |
+| Mutum       | Crax spp. e Mitu spp.                        | xeno-canto com chave de conta                                                                    |
+| Carcará     | Caracara plancus                             | xeno-canto com chave de conta                                                                    |
+| Maracanã    | Primolius maracana e Orthopsittaca manilatus | xeno-canto com chave de conta                                                                    |
+| Anu-preto   | Crotophaga ani                               | xeno-canto com chave de conta                                                                    |
+| Colhereiro  | Platalea ajaja                               | xeno-canto com chave de conta                                                                    |
+| Jaguatirica | Leopardus pardalis                           | acervo de sons de mamíferos com licença comercial, busca manual no Freesound ou gravação própria |
+| Jacaré-açu  | Melanosuchus niger                           | acervo com licença comercial, busca manual no Freesound ou gravação própria                      |
+
+Os peixes não têm canto: as páginas deles seguem com a água do andar.
