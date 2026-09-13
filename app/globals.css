@@ -2994,9 +2994,27 @@ html:has(.site-header[data-hidden="true"]:not(:focus-within)) .barra-hospede {
 .panel:focus-within {
   z-index: 1;
 }
-/* Campo de data: o foco fica na parte interna (dia, mês, ano) e o :focus-visible do campo não
-   aparecia. */
-.field[type="date"]:focus {
+/* Campo de data: o foco passa por dia, mês, ano e pelo ícone do calendário, que fica dentro do
+   campo. No ícone, o campo deixa de casar com :focus; :focus-within cobre as quatro paradas. */
+.field[type="date"]:focus,
+.field[type="date"]:focus-within {
   outline: 2px solid var(--focus-ring, var(--color-cafe));
   outline-offset: 1px;
+}
+/* O atalho para o conteúdo aparece sobre o hero escuro ou sobre o cabeçalho bege: o contorno vai
+   por dentro da caixa café, em bege, e fica visível sobre qualquer fundo. */
+.skip-link:focus-visible {
+  outline: 2px solid var(--color-bege);
+  outline-offset: -5px;
+}
+/* Conteúdo que recebe foco aparece na hora, sem esperar a entrada por interseção: na faixa
+   horizontal do celular, um card focado ainda estava com a máscara fechada e o contorno cortado. */
+html.js [data-reveal]:focus-within {
+  opacity: 1;
+  transform: none;
+}
+html.js [data-reveal="mask"] > :focus-within,
+html.js [data-reveal="mask"] > :focus-visible {
+  clip-path: none;
+  transition: none;
 }
