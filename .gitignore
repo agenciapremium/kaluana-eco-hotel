@@ -44,3 +44,6 @@ next-env.d.ts
 
 # relatórios brutos do Lighthouse (o HTML fica versionado)
 docs/lighthouse/**/*.report.json
+
+# tabela das placas com as 70 UHs: gerada por npm run qa:qr -- --csv, fora do repositório enquanto ele for público
+docs/qr-codes.csv

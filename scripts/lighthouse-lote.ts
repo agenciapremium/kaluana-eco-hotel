@@ -1,28 +1,41 @@
 /**
  * Lighthouse em todas as rotas do build (etapa 6).
  *
- * Mesmo motor e mesmo throttling simulado do `scripts/lighthouse.ts`, mas pela API do Node,
- * com um Chrome reaproveitado (reiniciado a cada 25 medições) e o resultado gravado a cada
- * rota, para a medição poder ser retomada. O Lighthouse limpa o armazenamento da origem antes
- * de cada medição, então toda rota é medida como primeira visita, com a abertura de sessão.
+ * Chama a CLI do Lighthouse num processo à parte para cada medição, com o mesmo throttling
+ * simulado do `scripts/lighthouse.ts` das etapas anteriores. A API do Node não serve aqui: o
+ * tsx transforma também o código do Lighthouse, e as funções que ele executa dentro da página
+ * chegam lá com um auxiliar (__name) que o navegador não tem. Cada medição abre um Chrome novo,
+ * com armazenamento limpo, então toda rota é medida como primeira visita, com a abertura de
+ * sessão. O resultado é gravado a cada rota, para a medição poder ser retomada.
  *
- * Desempenho varia entre medições. Quando fica abaixo de 90, a rota é medida mais duas vezes e
- * vale a mediana das três (todas ficam registradas). Acessibilidade, boas práticas e SEO são
+ * Desempenho varia entre medições. Quando a primeira fica abaixo de 90, a rota é medida mais duas
+ * vezes e vale a mediana das três (todas ficam registradas). Acessibilidade, boas práticas e SEO são
  * determinísticos e não se repetem. Em página com noindex, o SEO reprova de propósito no
  * critério `is-crawlable`: fica registrado e marcado.
  *
- * O relatório HTML só é gravado quando alguma categoria fecha abaixo de 90; o resumo com as
+ * O relatório HTML só é guardado quando alguma categoria fecha abaixo de 90; o resumo com as
  * notas, as métricas e as auditorias reprovadas de todas as medições vai para
  * `docs/lighthouse/<etapa>/resumo-<fase>.json`.
  *
  * Uso: npm run lighthouse:lote -- --phase=pre --url=http://localhost:3100
- *        [--presets=mobile,desktop] [--rotas=/,/universo] [--out=docs/lighthouse/etapa-6] [--retomar]
+ *        [--presets=mobile,desktop] [--rotas=/,/universo] [--out=docs/lighthouse/etapa-6] [--retomar] [--refazer]
  */
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { resolve } from "node:path";
-import * as chromeLauncher from "chrome-launcher";
-import lighthouse, { desktopConfig } from "lighthouse";
+import { execFile } from "node:child_process";
+import {
+  copyFileSync,
+  existsSync,
+  mkdirSync,
+  mkdtempSync,
+  readFileSync,
+  writeFileSync,
+} from "node:fs";
+import { tmpdir } from "node:os";
+import { join, resolve } from "node:path";
+import { promisify } from "node:util";
+import type lighthouse from "lighthouse";
 import { arg, nomeDaRota, rotasDoBuild } from "./qa/rotas";
+
+const exec = promisify(execFile);
 
 const phase = arg("phase", "pre");
 const base = arg("url", "http://localhost:3100");
@@ -30,6 +43,8 @@ const presets = arg("presets", "mobile,desktop").split(",");
 const out = resolve(process.cwd(), arg("out", "docs/lighthouse/etapa-6"));
 const rotas = arg("rotas", "") ? arg("rotas", "").split(",") : rotasDoBuild();
 const arquivo = resolve(out, `resumo-${phase}.json`);
+const bin = resolve("node_modules/.bin/lighthouse");
+const temporario = mkdtempSync(join(tmpdir(), "kaluana-lh-"));
 
 const categorias = ["performance", "accessibility", "best-practices", "seo"] as const;
 
@@ -53,8 +68,8 @@ export type Medicao = {
   data: string;
 };
 
-type Resultado = NonNullable<Awaited<ReturnType<typeof lighthouse>>>;
-type Lhr = Resultado["lhr"];
+type Lhr = NonNullable<Awaited<ReturnType<typeof lighthouse>>>["lhr"];
+type Execucao = { lhr: Lhr; html: string };
 
 const nota = (lhr: Lhr, c: (typeof categorias)[number]) =>
   Math.round((lhr.categories[c]?.score ?? 0) * 100);
@@ -76,42 +91,43 @@ function reprovadas(lhr: Lhr): string[] {
 
 const mediana = (v: number[]) => [...v].sort((a, b) => a - b)[Math.floor(v.length / 2)];
 
-let chrome: chromeLauncher.LaunchedChrome | null = null;
-let usos = 0;
-async function porta() {
-  if (!chrome || usos >= 25) {
-    if (chrome) await chrome.kill();
-    chrome = await chromeLauncher.launch({ chromeFlags: ["--headless=new", "--no-sandbox"] });
-    usos = 0;
-  }
-  usos++;
-  return chrome.port;
-}
-
-async function medir(rota: string, preset: string): Promise<Resultado> {
-  const r = await lighthouse(
+let contador = 0;
+async function medir(rota: string, preset: string): Promise<Execucao> {
+  const saida = join(temporario, `${nomeDaRota(rota)}-${preset}-${contador++}`);
+  const args = [
     `${base}${rota}`,
-    {
-      port: await porta(),
-      output: "html",
-      logLevel: "error",
-      onlyCategories: [...categorias],
-    },
-    preset === "desktop" ? desktopConfig : undefined,
-  );
-  if (!r) throw new Error(`sem resultado para ${rota} (${preset})`);
-  return r;
+    "--output=json",
+    "--output=html",
+    `--output-path=${saida}`,
+    `--only-categories=${categorias.join(",")}`,
+    "--chrome-flags=--headless=new --no-sandbox",
+    "--quiet",
+  ];
+  if (preset === "desktop") args.push("--preset=desktop");
+  await exec(bin, args, { maxBuffer: 64 * 1024 * 1024 });
+  return {
+    lhr: JSON.parse(readFileSync(`${saida}.report.json`, "utf8")) as Lhr,
+    html: `${saida}.report.html`,
+  };
 }
 
 (async () => {
   mkdirSync(out, { recursive: true });
   const medicoes: Medicao[] =
-    process.argv.includes("--retomar") && existsSync(arquivo)
+    (process.argv.includes("--retomar") || process.argv.includes("--refazer")) &&
+    existsSync(arquivo)
       ? (JSON.parse(readFileSync(arquivo, "utf8")) as { medicoes: Medicao[] }).medicoes
       : [];
+  // --refazer: mede de novo as rotas e telas pedidas, substituindo o que já estava gravado.
+  if (process.argv.includes("--refazer")) {
+    const alvo = new Set(rotas.flatMap((r) => presets.map((p) => r + "|" + p)));
+    const mantidas = medicoes.filter((m) => !alvo.has(m.rota + "|" + m.preset));
+    medicoes.splice(0, medicoes.length, ...mantidas);
+  }
   const feito = new Set(medicoes.map((m) => `${m.rota}|${m.preset}`));
   const total = rotas.length * presets.length;
   let n = feito.size;
+  let versao = "";
 
   for (const rota of rotas) {
     for (const preset of presets) {
@@ -120,16 +136,18 @@ async function medir(rota: string, preset: string): Promise<Resultado> {
       let r = await medir(rota, preset);
       const tentativas = [nota(r.lhr, "performance")];
       const execucoes = [r];
-      while (tentativas[tentativas.length - 1] < 90 && tentativas.length < 3) {
-        const nova = await medir(rota, preset);
-        tentativas.push(nota(nova.lhr, "performance"));
-        execucoes.push(nova);
-      }
-      if (tentativas.length > 1) {
-        const alvo = mediana(tentativas);
-        r = execucoes[tentativas.indexOf(alvo)];
+      // Abaixo de 90: sempre mais duas medições, e vale a mediana das três. Parar na primeira
+      // repetição acima de 90 escolheria sempre a melhor de duas.
+      if (tentativas[0] < 90) {
+        for (let i = 0; i < 2; i++) {
+          const nova = await medir(rota, preset);
+          tentativas.push(nota(nova.lhr, "performance"));
+          execucoes.push(nova);
+        }
+        r = execucoes[tentativas.indexOf(mediana(tentativas))];
       }
       const lhr = r.lhr;
+      versao = lhr.lighthouseVersion;
       const noindex = lhr.audits["is-crawlable"]?.score === 0;
       const m: Medicao = {
         rota,
@@ -157,22 +175,20 @@ async function medir(rota: string, preset: string): Promise<Resultado> {
         (m.seo < 90 && !noindex);
       if (abaixo) {
         const nome = `${nomeDaRota(rota)}-${phase}-${preset}.report.html`;
-        writeFileSync(resolve(out, nome), String(Array.isArray(r.report) ? r.report[0] : r.report));
+        copyFileSync(r.html, resolve(out, nome));
         m.relatorio = nome;
       }
       medicoes.push(m);
       writeFileSync(
         arquivo,
-        `${JSON.stringify({ fase: phase, base, lighthouse: lhr.lighthouseVersion, medicoes }, null, 2)}\n`,
+        `${JSON.stringify({ fase: phase, base, lighthouse: versao, medicoes }, null, 2)}\n`,
       );
       process.stdout.write(
         `[${n}/${total}] ${rota} ${preset}: ${m.desempenho}${tentativas.length > 1 ? ` (${tentativas.join("/")})` : ""} ${m.acessibilidade} ${m.boasPraticas} ${m.seo}${noindex ? " noindex" : ""} LCP ${(m.lcpMs / 1000).toFixed(1)} s, ${m.pesoKB} KB${m.reprovadas.length ? ` ${m.reprovadas.join(",")}` : ""}\n`,
       );
     }
   }
-  if (chrome) await (chrome as chromeLauncher.LaunchedChrome).kill();
-})().catch(async (e: unknown) => {
-  if (chrome) await chrome.kill();
+})().catch((e: unknown) => {
   process.stderr.write(`lighthouse-lote: ${e instanceof Error ? e.stack : String(e)}\n`);
   process.exit(1);
 });

@@ -55,6 +55,6 @@ Projeto `kaluana-eco-hotel` no time Agencia Premium da Vercel, conectado a este 
 - `docs/decisoes.md`: decisões técnicas e dependências
 - `docs/deploy.md`: Vercel, variáveis, domínio e ida para produção
 - `docs/qa/etapa-6/`: resultados do QA final e roteiro de leitor de tela
-- `docs/qr-codes.csv`: endereço de cada placa de quarto
+- `docs/qr-codes.csv`: endereço de cada placa de quarto, gerado por `npm run qa:qr -- --csv` (fora do git: lista as 70 UHs)
 - `docs/registro-higgsfield.md`: toda geração de mídia
 - `docs/registro-audio.md`: origem e licença de cada loop de som
