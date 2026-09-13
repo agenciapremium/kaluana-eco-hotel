@@ -8,9 +8,13 @@
  * com armazenamento limpo, então toda rota é medida como primeira visita, com a abertura de
  * sessão. O resultado é gravado a cada rota, para a medição poder ser retomada.
  *
+ * A 404 fica de fora: o Lighthouse se recusa a medir página que responde 404. Ela é coberta
+ * pelo teste de acessibilidade. Se outra medição falhar, a rota é registrada como não medida e
+ * o lote segue.
+ *
  * Desempenho varia entre medições. Quando a primeira fica abaixo de 90, a rota é medida mais duas
- * vezes e vale a mediana das três (todas ficam registradas). Acessibilidade, boas práticas e SEO são
- * determinísticos e não se repetem. Em página com noindex, o SEO reprova de propósito no
+ * vezes e vale a mediana das três (todas ficam registradas). Acessibilidade, boas práticas e SEO
+ * são determinísticos e não se repetem. Em página com noindex, o SEO reprova de propósito no
  * critério `is-crawlable`: fica registrado e marcado.
  *
  * O relatório HTML só é guardado quando alguma categoria fecha abaixo de 90; o resumo com as
@@ -18,7 +22,8 @@
  * `docs/lighthouse/<etapa>/resumo-<fase>.json`.
  *
  * Uso: npm run lighthouse:lote -- --phase=pre --url=http://localhost:3100
- *        [--presets=mobile,desktop] [--rotas=/,/universo] [--out=docs/lighthouse/etapa-6] [--retomar] [--refazer]
+ *        [--presets=mobile,desktop] [--rotas=/,/universo] [--out=docs/lighthouse/etapa-6]
+ *        [--retomar] [--refazer]
  */
 import { execFile } from "node:child_process";
 import {
@@ -33,7 +38,7 @@ import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { promisify } from "node:util";
 import type lighthouse from "lighthouse";
-import { arg, nomeDaRota, rotasDoBuild } from "./qa/rotas";
+import { arg, nomeDaRota, ROTA_404, rotasDoBuild } from "./qa/rotas";
 
 const exec = promisify(execFile);
 
@@ -41,7 +46,9 @@ const phase = arg("phase", "pre");
 const base = arg("url", "http://localhost:3100");
 const presets = arg("presets", "mobile,desktop").split(",");
 const out = resolve(process.cwd(), arg("out", "docs/lighthouse/etapa-6"));
-const rotas = arg("rotas", "") ? arg("rotas", "").split(",") : rotasDoBuild();
+const rotas = arg("rotas", "")
+  ? arg("rotas", "").split(",")
+  : rotasDoBuild().filter((r) => r !== ROTA_404);
 const arquivo = resolve(out, `resumo-${phase}.json`);
 const bin = resolve("node_modules/.bin/lighthouse");
 const temporario = mkdtempSync(join(tmpdir(), "kaluana-lh-"));
@@ -91,6 +98,13 @@ function reprovadas(lhr: Lhr): string[] {
 
 const mediana = (v: number[]) => [...v].sort((a, b) => a - b)[Math.floor(v.length / 2)];
 
+/** Primeira linha útil do erro da CLI (a mensagem vem depois do comando repetido). */
+const motivo = (e: unknown) =>
+  e instanceof Error
+    ? (e.message.split("\n").find((l) => /error|erro/i.test(l) && !l.includes(bin)) ??
+      e.message.split("\n")[0])
+    : String(e);
+
 let contador = 0;
 async function medir(rota: string, preset: string): Promise<Execucao> {
   const saida = join(temporario, `${nomeDaRota(rota)}-${preset}-${contador++}`);
@@ -128,23 +142,33 @@ async function medir(rota: string, preset: string): Promise<Execucao> {
   const total = rotas.length * presets.length;
   let n = feito.size;
   let versao = "";
+  let falhas = 0;
 
   for (const rota of rotas) {
     for (const preset of presets) {
       if (feito.has(`${rota}|${preset}`)) continue;
       n++;
-      let r = await medir(rota, preset);
-      const tentativas = [nota(r.lhr, "performance")];
-      const execucoes = [r];
-      // Abaixo de 90: sempre mais duas medições, e vale a mediana das três. Parar na primeira
-      // repetição acima de 90 escolheria sempre a melhor de duas.
-      if (tentativas[0] < 90) {
-        for (let i = 0; i < 2; i++) {
-          const nova = await medir(rota, preset);
-          tentativas.push(nota(nova.lhr, "performance"));
-          execucoes.push(nova);
+      let r: Execucao;
+      const tentativas: number[] = [];
+      const execucoes: Execucao[] = [];
+      try {
+        r = await medir(rota, preset);
+        tentativas.push(nota(r.lhr, "performance"));
+        execucoes.push(r);
+        // Abaixo de 90: sempre mais duas medições, e vale a mediana das três. Parar na primeira
+        // repetição acima de 90 escolheria sempre a melhor de duas.
+        if (tentativas[0] < 90) {
+          for (let i = 0; i < 2; i++) {
+            const nova = await medir(rota, preset);
+            tentativas.push(nota(nova.lhr, "performance"));
+            execucoes.push(nova);
+          }
+          r = execucoes[tentativas.indexOf(mediana(tentativas))];
         }
-        r = execucoes[tentativas.indexOf(mediana(tentativas))];
+      } catch (e) {
+        falhas++;
+        process.stdout.write(`[${n}/${total}] ${rota} ${preset}: não medida (${motivo(e)})\n`);
+        continue;
       }
       const lhr = r.lhr;
       versao = lhr.lighthouseVersion;
@@ -188,6 +212,7 @@ async function medir(rota: string, preset: string): Promise<Execucao> {
       );
     }
   }
+  if (falhas) process.stdout.write(`lighthouse-lote: ${falhas} medição(ões) não feita(s)\n`);
 })().catch((e: unknown) => {
   process.stderr.write(`lighthouse-lote: ${e instanceof Error ? e.stack : String(e)}\n`);
   process.exit(1);

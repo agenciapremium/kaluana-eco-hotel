@@ -86,6 +86,7 @@ function secao(fase: string, medicoes: Medicao[]): string[] {
     const home = ms.find((m) => m.rota === "/");
     const universo = ms.filter((m) => /^\/universo\/[^/]+\/[^/]+$/.test(m.rota));
     const acimaUniverso = universo.filter((m) => m.pesoKB > 700);
+    if (!home || !universo.length) continue;
     linhas.push(
       "",
       `Orçamento de peso: Home com ${home?.pesoKB ?? "?"} KB (limite 2.500 KB); páginas de elemento entre ${Math.min(...universo.map((m) => m.pesoKB))} e ${Math.max(...universo.map((m) => m.pesoKB))} KB (limite 700 KB)${acimaUniverso.length ? `, acima do limite: ${acimaUniverso.map((m) => `\`${m.rota}\` ${m.pesoKB} KB`).join(", ")}` : ", todas dentro"}.`,

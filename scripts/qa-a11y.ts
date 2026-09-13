@@ -201,15 +201,23 @@ async function axeEmEstados(): Promise<ResultadoAxe[]> {
       if (await botao.count()) await botao.first().click();
     },
   );
-  await medir(
+  // Barra de hóspede nos quatro andares: a cor de fundo muda por andar (etapa 6).
+  for (const rota of [
     "/universo/rios/rio-machado?uh=112",
-    "celular",
-    "barra de hóspede",
-    CELULAR,
-    async (p) => {
+    "/universo/peixes/pirarucu?uh=201",
+    "/universo/arvores/samauma?uh=301",
+    "/universo/aves/arara?uh=404",
+    "/universo/guardioes/onca-pintada?uh=401",
+  ]) {
+    await medir(rota, "celular", "barra de hóspede", CELULAR, async (p) => {
       await p.locator("aside.barra-hospede").waitFor();
-    },
-  );
+    });
+  }
+  // Faixa do elevador no celular parada num andar que não é o primeiro.
+  await medir("/universo", "celular", "elevador no andar das Aves", CELULAR, async (p) => {
+    await p.evaluate(() => document.getElementById("andar-aves")?.scrollIntoView());
+    await p.waitForTimeout(900);
+  });
   await medir("/perguntas-frequentes", "desktop", "acordeões abertos", DESKTOP, async (p) => {
     await p.evaluate(() => document.querySelectorAll("details").forEach((d) => (d.open = true)));
   });
@@ -485,7 +493,8 @@ async function roteiros() {
         const id = b?.getAttribute("aria-controls");
         const menu = id ? document.getElementById(id) : null;
         const a = document.activeElement;
-        return a && menu && !menu.contains(a) && a !== b
+        // Foco no body: saiu da página para a interface do navegador, porque o fundo está inerte.
+        return a && a !== document.body && menu && !menu.contains(a) && a !== b
           ? `${a.tagName.toLowerCase()} "${(a.textContent ?? "").trim().slice(0, 30)}"`
           : "";
       });
@@ -659,9 +668,13 @@ async function roteiros() {
     await page.waitForTimeout(900);
     const menuCoberto = await page.evaluate(() => {
       // Botão do menu na fase full; "Quero ser avisado" na fase pre.
-      const b = document.querySelector(
-        "header button[aria-expanded], header a.btn-primary",
-      ) as HTMLElement | null;
+      // O primeiro candidato visível: na fase full, o Reservar do cabeçalho some no celular.
+      const b =
+        [
+          ...document.querySelectorAll<HTMLElement>(
+            "header button[aria-expanded], header a.btn-primary",
+          ),
+        ].find((x) => x.getBoundingClientRect().height > 0) ?? null;
       if (!b) return "sem ação no cabeçalho";
       const r = b.getBoundingClientRect();
       if (r.bottom <= 0) return "cabeçalho fora da tela";
