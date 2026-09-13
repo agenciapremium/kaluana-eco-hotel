@@ -1,14 +1,14 @@
 /**
- * Cantos de ave por elemento (CLAUDE.md, seção 8, item 3). Cada gravação vem do
- * xeno-canto, republicada no Wikimedia Commons com autor e licença no metadado, e é
- * creditada no rodapé da página e em docs/registro-audio.md.
+ * Sons da própria espécie por elemento (CLAUDE.md, seção 8, item 3): cantos de ave do
+ * xeno-canto e sons de outros animais, republicados no Wikimedia Commons com autor e licença
+ * no metadado, creditados no rodapé da página e em docs/registro-audio.md.
  *
  * Gerado por scripts/build-cantos.ts. Não editar à mão.
  */
 import cantosJson from "@/content/cantos.json";
 
 export type Canto = {
-  /** Nome base do arquivo em public/audio/aves/. */
+  /** Nome base do arquivo em public/audio/<andar>/. */
   arquivo: string;
   autor: string;
   licenca: string;

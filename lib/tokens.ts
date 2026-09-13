@@ -176,7 +176,11 @@ export const motion = {
 
 /** Áudio ambiente (CLAUDE.md, seção 8). */
 export const audio = {
-  volume: 0.25,
+  // Bem baixo por decisão do responsável (13/09/2026): os arquivos saem normalizados em -30 LUFS e
+  // tocam a 16%, perto de -46 LUFS, mesmo com o aparelho no máximo.
+  volume: 0.16,
+  /** Teto de pico, em dBFS, do limitador depois do volume. */
+  tetoDb: -24,
   fadeInMs: 1500,
   fadeOutMs: 800,
   crossfadeMs: 1000,

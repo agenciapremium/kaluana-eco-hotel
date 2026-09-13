@@ -4,8 +4,8 @@
  *
  * As cenas são as da seção 8. Os arquivos são gerados por scripts/build-audio.ts e
  * continuam sintetizados até chegarem as gravações de campo da Premium em Rondônia
- * (docs/registro-audio.md). Os cantos de ave, esses reais, entram como loop extra na
- * página da espécie (lib/audio/cantos.ts).
+ * (docs/registro-audio.md). Na página de uma espécie com gravação real (lib/audio/cantos.ts), toca
+ * a gravação, e não o banco do andar.
  */
 import type { FloorKey } from "@/lib/content-schema";
 
