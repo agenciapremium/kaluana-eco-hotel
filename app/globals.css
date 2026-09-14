@@ -3075,8 +3075,10 @@ html.js [data-reveal="mask"] > :focus-visible {
   pointer-events: none;
   background-color: color-mix(in srgb, var(--color-preto) 50%, transparent);
 }
-/* Botão secundário sobre o hero do elemento (Ouvir o ambiente): café sumia na foto escura. */
-.elemento-hero .btn-secondary {
+/* Botão secundário sobre foto escura: "Ouvir o ambiente" no hero do elemento e "Ver o andar" nos
+   painéis da Home. Em café, texto e borda sumiam no fundo. */
+.elemento-hero .btn-secondary,
+.panel .btn-secondary {
   color: var(--color-bege);
   border-color: color-mix(in srgb, var(--color-bege) 60%, transparent);
   &:hover {
