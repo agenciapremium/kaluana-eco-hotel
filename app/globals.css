@@ -3086,3 +3086,22 @@ html.js [data-reveal="mask"] > :focus-visible {
     border-color: var(--color-bege);
   }
 }
+
+/* Encaixe da rolagem nos painéis de andar da Home (scroll snap, decisão 120). Só vale com a classe
+   que o EncaixePaineis liga enquanto os painéis cobrem a maior parte da tela: ligado na página
+   inteira, o navegador prendia a rolagem no ponto de encaixe mais próximo, mesmo longe dos
+   painéis. Os marcadores ficam fora dos painéis em sticky, e a margem negativa anula o espaço
+   reservado ao cabeçalho no topo, que deslocaria o encaixe em quase 100 px. */
+html.encaixe-paineis {
+  scroll-snap-type: y mandatory;
+}
+.panel-encaixe {
+  position: absolute;
+  top: calc(var(--i) * 100svh);
+  left: 0;
+  width: 1px;
+  height: 100svh;
+  pointer-events: none;
+  scroll-snap-align: start;
+  scroll-margin-top: calc(-1 * (var(--header-h) + 0.5rem));
+}
