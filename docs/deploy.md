@@ -41,7 +41,7 @@ As variáveis estão cadastradas como **sensíveis**: a Vercel não mostra o val
 | `LEAD_FROM_EMAIL`                | `kaluana@agpremium.com.br` (temporário, decisão 113) | `site@kaluanaecohotel.com.br`    | Sim                        | Premium                                                             |
 | `RESEND_API_KEY`                 | gravada em 13/09/2026                                | vazia (envio simulado)           | **Sim**                    | Premium (conta Resend)                                              |
 | `LEAD_TO_EMAIL`                  | `kaluana@agpremium.com.br` (temporário)              | vazia                            | **Sim**                    | Cliente (e-mail do hotel). Aceita mais de um, separados por vírgula |
-| `NEXT_PUBLIC_GTM_ID`             | pendente                                             | opcional                         | Recomendada                | Premium (setup técnico)                                             |
+| `NEXT_PUBLIC_GTM_ID`             | `GTM-KTMNR36W` (gravada em 21/09/2026)               | vazia (testes fora da medição)   | Recomendada                | Premium (setup técnico)                                             |
 | `NEXT_PUBLIC_RESERVAS_URL`       | vazio                                                | vazio                            | Não                        | Cliente, quando o motor for contratado                              |
 | `NEXT_PUBLIC_BLOQUEAR_TREINO_IA` | vazio                                                | vazio                            | Não (padrão libera)        | Cliente decide                                                      |
 
@@ -122,6 +122,8 @@ O caminho normal, depois do "aprovado":
 Em 13/09/2026, às 08:35, a produção passou a ser a pré-visualização da `etapa-6` promovida (deploy `nitr623o9`, commit `e990a0a`), na fase `pre`. No mesmo dia, os ajustes pedidos depois dessa publicação (cabeçalho, filtro, som e fotos) foram promovidos da mesma forma; o deploy atual aparece em `vercel ls kaluana-eco-hotel --environment production`. Ele responde em `https://www.kaluanaecohotel.com.br` e, com `noindex`, em `https://kaluana-eco-hotel.vercel.app`.
 
 Conferido no ar: Home indexável, com a canônica `https://kaluanaecohotel.com.br` e o cabeçalho da fase `pre`; nenhum campo pendente, TODO ou telefone provisório; páginas legais sem o aviso de minuta; `robots.txt` bloqueando `/q/`, `/obrigado` e `/eventos`; `sitemap.xml` com 77 endereços; `llms.txt` sem auditório; `/q/101` com 301 para o rio Amazonas; 404 real; Eventos e Acomodações com `noindex`; `http` e domínio sem `www` redirecionando.
+
+Em 21/09/2026, o Google Tag Manager entrou em produção com o contêiner `GTM-KTMNR36W`. Ele só carrega depois que o visitante aceita no banner de consentimento; antes disso, o Consent Mode declara tudo negado e nenhuma requisição sai para o Google. O ID fica só em Production: pré-visualizações e builds locais não carregam o GTM, para que testes e conferências não entrem como visitas no GA4 e no Pixel. As tags de dentro do contêiner (GA4, Pixel e CAPI da Meta, e os 9 eventos da camada de dados) são configuradas pela agência no painel do GTM.
 
 Falta conferir: o envio real de um formulário e a inversão do domínio principal (seção 5).
 
