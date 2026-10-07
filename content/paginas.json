@@ -25,7 +25,7 @@
         "WebSite (com SearchAction opcional)",
         "BreadcrumbList"
       ],
-      "resposta": "O Kaluanã Eco Hotel é um hotel em Ji-Paraná, Rondônia, na Rodovia Pastor Severo Antonio de Araujo, 2015. Tem restaurante aberto ao público, auditório e centro de convenções, e quartos nomeados com rios, peixes, árvores e aves da Amazônia. Inauguração prevista para dezembro de 2026.\n"
+      "resposta": "O Kaluanã Eco Hotel é um hotel em Ji-Paraná, Rondônia, na Rodovia Pastor Severo Antonio de Araujo, 2015. Tem restaurante aberto ao público, auditório e centro de convenções, e quartos nomeados com rios, peixes, árvores e aves da Amazônia.\n"
     },
     "movimento": "Hero com vídeo de fundo (BG - KALUAMÃ.mp4 em loop, sem som, 12 a 20 segundos, comprimido para menos de 2 MB) e a logo animada (LOGO ANIMADA KALUAMÃ.mp4) tocando uma única vez por sessão como abertura, com duração máxima de 1,8 segundo e botão de pular. O título entra em fade de baixo para cima, palavra por palavra, com 60 ms entre cada uma. Ao rolar, o vídeo perde 15 por cento de opacidade e ganha uma névoa em bege claro. Os três cards de perfil entram em sequência quando 30 por cento deles estão visíveis. Nenhum elemento se move sem que o usuário role ou passe o mouse.\n",
     "secoes": [
@@ -33,7 +33,7 @@
         "nome": "Hero",
         "kicker": "Ji-Paraná, Rondônia",
         "titulo": "Hotel em Ji-Paraná para quem chega cansado, precisa produzir ou precisa parar.",
-        "texto": "O Kaluanã é um eco hotel novo em Ji-Paraná, com restaurante aberto ao público e espaços para eventos. Quartos com nome de rio, de peixe, de árvore e de ave. Abre em dezembro de 2026.\n",
+        "texto": "O Kaluanã é um eco hotel novo em Ji-Paraná, com restaurante aberto ao público e espaços para eventos. Quartos com nome de rio, de peixe, de árvore e de ave.\n",
         "cta_primario": "Reservar",
         "cta_secundario": "Conhecer o hotel",
         "imagem": "Vídeo BG - KALUAMÃ.mp4 em loop; fallback com frame estático em WebP. Sem fotos do projeto arquitetônico até a inauguração."
@@ -99,7 +99,7 @@
         "nome": "Chamada final",
         "kicker": null,
         "titulo": "Chegue. O resto a gente resolve.",
-        "texto": "Reservas abertas para dezembro de 2026.\n",
+        "texto": "Reservas abertas.\n",
         "cta_primario": "Reservar",
         "cta_secundario": "Falar com o hotel"
       }
@@ -144,7 +144,7 @@
         "Organization (founder, foundingLocation, description)",
         "BreadcrumbList"
       ],
-      "resposta": "Kaluanã é um nome de origem indígena que significa grande guerreiro. O Kaluanã Eco Hotel é um hotel em construção em Ji-Paraná, Rondônia, com inauguração prevista para dezembro de 2026, restaurante aberto ao público e espaços para eventos.\n"
+      "resposta": "Kaluanã é um nome de origem indígena que significa grande guerreiro. O Kaluanã Eco Hotel é um hotel em construção em Ji-Paraná, Rondônia, com restaurante aberto ao público e espaços para eventos.\n"
     },
     "movimento": "Página de leitura longa. Imagens entram com máscara de baixo para cima (clip-path) em 700 ms. Um traço vertical em verde sálvia acompanha a rolagem na lateral esquerda, marcando o progresso da leitura. Os números da linha do tempo da obra aparecem por contagem só quando forem datas, nunca quantidades.\n",
     "secoes": [
@@ -152,7 +152,7 @@
         "nome": "Hero",
         "kicker": "O Kaluanã",
         "titulo": "Um hotel com nome de guerreiro e quartos com nome de floresta.",
-        "texto": "O Kaluanã nasce em Ji-Paraná, na Rodovia Pastor Severo Antonio de Araujo, para receber quem chega à cidade a trabalho, de passagem ou para ficar um pouco. Abre em dezembro de 2026.\n",
+        "texto": "O Kaluanã nasce em Ji-Paraná, na Rodovia Pastor Severo Antonio de Araujo, para receber quem chega à cidade a trabalho, de passagem ou para ficar um pouco.\n",
         "imagem": "Detalhe de material da obra: madeira, terra, mãos. Sem volumetria."
       },
       {
@@ -200,7 +200,7 @@
       {
         "nome": "Chamada final",
         "titulo": "Venha ver de perto.",
-        "texto": "Reservas abertas para dezembro de 2026. Para eventos e hospedagem corporativa, fale com a equipe.\n",
+        "texto": "Reservas abertas. Para eventos e hospedagem corporativa, fale com a equipe.\n",
         "cta_primario": "Reservar",
         "cta_secundario": "Falar com o hotel"
       }
@@ -1756,7 +1756,7 @@
       },
       {
         "p": "Quando o Kaluanã Eco Hotel abre?",
-        "r": "A inauguração está prevista para dezembro de 2026."
+        "r": "A data ainda não está confirmada. Deixe seu e-mail no site e avisamos você quando as reservas abrirem."
       },
       {
         "p": "Qual o horário de check-in e check-out?",
@@ -1819,7 +1819,7 @@
     "publico": "Profissionais de hotelaria, gastronomia e eventos de Ji-Paraná e região.",
     "seo": {
       "title": "Trabalhe conosco | Vagas no Kaluanã Eco Hotel, Ji-Paraná",
-      "description": "O Kaluanã Eco Hotel abre em Ji-Paraná em dezembro de 2026 e está montando a equipe. Envie seu currículo para hotelaria, restaurante e eventos.",
+      "description": "O Kaluanã Eco Hotel abre em Ji-Paraná e está montando a equipe. Envie seu currículo para hotelaria, restaurante e eventos.",
       "h1": "Trabalhe conosco",
       "keywords": [
         "vagas hotel ji-paraná",
@@ -1831,7 +1831,7 @@
         "JobPosting por vaga aberta (quando houver)",
         "BreadcrumbList"
       ],
-      "resposta": "O Kaluanã Eco Hotel está montando a equipe para a inauguração em Ji-Paraná, em dezembro de 2026, nas áreas de recepção, governança, restaurante, cozinha, manutenção e eventos. Currículos pelo formulário da página.\n"
+      "resposta": "O Kaluanã Eco Hotel está montando a equipe para a inauguração em Ji-Paraná, nas áreas de recepção, governança, restaurante, cozinha, manutenção e eventos. Currículos pelo formulário da página.\n"
     },
     "movimento": "Página simples, formulário com envio de arquivo. Sem animação além do padrão de entrada.\n",
     "secoes": [
@@ -1839,7 +1839,7 @@
         "nome": "Hero",
         "kicker": "Equipe",
         "titulo": "Um hotel novo precisa de gente da cidade.",
-        "texto": "O Kaluanã abre em dezembro de 2026 e está montando a equipe. Recepção, governança, restaurante, cozinha, manutenção, eventos. Se você é de Ji-Paraná ou da região e quer fazer parte, mande o currículo.\n",
+        "texto": "O Kaluanã está montando a equipe. Recepção, governança, restaurante, cozinha, manutenção, eventos. Se você é de Ji-Paraná ou da região e quer fazer parte, mande o currículo.\n",
         "cta_primario": "Enviar currículo"
       },
       {
@@ -1955,9 +1955,9 @@
     "objetivo": "Existir antes do hotel. Resolver a pendência de canal de conversão até 30/09, dar destino ao tráfego pago, instalar GA4, GTM e Pixel e captar interesse de hóspedes e empresas antes de dezembro.",
     "publico": "Fernanda (curiosa), Cristina e Ricardo (corporativo), imprensa.",
     "seo": {
-      "title": "Kaluanã Eco Hotel | Abre em dezembro de 2026 em Ji-Paraná",
-      "description": "O Kaluanã Eco Hotel abre em dezembro de 2026 em Ji-Paraná, Rondônia. Acompanhe a obra, conheça os nomes dos quartos e seja avisado quando as reservas abrirem.",
-      "h1": "Um hotel novo em Ji-Paraná. Abre em dezembro de 2026.",
+      "title": "Kaluanã Eco Hotel | Um hotel novo em Ji-Paraná",
+      "description": "O Kaluanã Eco Hotel está sendo construído em Ji-Paraná, Rondônia. Acompanhe a obra, conheça os nomes dos quartos e seja avisado quando as reservas abrirem.",
+      "h1": "Um hotel novo em Ji-Paraná.",
       "keywords": [
         "novo hotel ji-paraná",
         "kaluanã eco hotel",
@@ -1968,14 +1968,14 @@
         "Organization",
         "FAQPage (3 perguntas)"
       ],
-      "resposta": "O Kaluanã Eco Hotel é um hotel em construção em Ji-Paraná, Rondônia, com inauguração prevista para dezembro de 2026. Terá restaurante aberto ao público, espaços para eventos e quartos nomeados com rios, peixes, árvores e aves da Amazônia.\n"
+      "resposta": "O Kaluanã Eco Hotel é um hotel em construção em Ji-Paraná, Rondônia. Terá restaurante aberto ao público, espaços para eventos e quartos nomeados com rios, peixes, árvores e aves da Amazônia.\n"
     },
     "movimento": "Uma página só, com o vídeo de fundo e a logo animada. Rolagem curta: hero, três blocos, formulário, rodapé. Mesmo sistema de movimento do site final, para que a transição em dezembro seja de conteúdo, não de linguagem.\n",
     "secoes": [
       {
         "nome": "Hero",
         "kicker": "Ji-Paraná, Rondônia",
-        "titulo": "Um hotel novo em Ji-Paraná. Abre em dezembro de 2026.",
+        "titulo": "Um hotel novo em Ji-Paraná.",
         "texto": "O Kaluanã é um eco hotel para quem chega cansado, precisa produzir ou precisa parar. Está sendo construído à vista de todo mundo.\n",
         "cta_primario": "Quero ser avisado",
         "cta_secundario": "Acompanhar a obra"

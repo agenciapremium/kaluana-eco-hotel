@@ -8,7 +8,7 @@
  *
  * TODO(copy): texto a validar com o jurídico do cliente antes da inauguração.
  */
-import { eventosAutorizado, site } from "./site";
+import { dataDeAberturaConfirmada, eventosAutorizado, site } from "./site";
 
 export type BlocoLegal = { titulo: string; paragrafos: string[]; itens?: string[] };
 
@@ -92,7 +92,7 @@ export const termosDeUso: BlocoLegal[] = [
     titulo: "O que o site oferece",
     paragrafos: [
       // No corpo, "o Kaluanã"; os espaços de evento só com a autorização do cliente (veto 3).
-      `O site apresenta o Kaluanã, as categorias de acomodação, o restaurante, ${eventosAutorizado ? "os espaços de evento, " : ""}o conteúdo do Universo Kaluanã e os canais de contato. A inauguração está prevista para ${site.openingLabel}.`,
+      `O site apresenta o Kaluanã, as categorias de acomodação, o restaurante, ${eventosAutorizado ? "os espaços de evento, " : ""}o conteúdo do Universo Kaluanã e os canais de contato.${dataDeAberturaConfirmada ? ` A inauguração está prevista para ${site.openingLabel}.` : ""}`,
       "Enquanto o motor de reservas não estiver no ar, o site capta interesse de reserva por formulário. O envio do formulário não gera reserva nem garante disponibilidade ou tarifa.",
     ],
   },

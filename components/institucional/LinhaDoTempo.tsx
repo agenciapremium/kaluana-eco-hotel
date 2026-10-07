@@ -2,7 +2,7 @@ import { Reveal } from "@/components/motion/Reveal";
 import { SiteLink as Link } from "@/components/ui/SiteLink";
 import { dataPorExtenso, postUrl } from "@/lib/posts";
 import type { Post } from "@/lib/content-schema";
-import { site } from "@/lib/site";
+import { dataDeAberturaConfirmada, site } from "@/lib/site";
 import { motion as motionTokens } from "@/lib/tokens";
 
 export type Marco = { data: string; titulo: string; texto?: string; url?: string };
@@ -11,6 +11,9 @@ export type Marco = { data: string; titulo: string; texto?: string; url?: string
  * Linha do tempo da obra (5.2). Os marcos vêm dos posts de Histórias, como a nota do
  * documento mestre pede, mais a inauguração. Só datas, nunca quantidades: a nota do
  * movimento é explícita quanto a isso, e o veto 2 proíbe número de apartamentos.
+ *
+ * Enquanto a data de inauguração não estiver confirmada (decisão 121), o marco da inauguração
+ * fica de fora: a linha do tempo mostra só o que já aconteceu.
  */
 export function LinhaDoTempo({ posts }: { posts: Post[] }) {
   const marcos: Marco[] = [
@@ -20,11 +23,15 @@ export function LinhaDoTempo({ posts }: { posts: Post[] }) {
       texto: p.resumo,
       url: postUrl(p.slug),
     })),
-    {
-      data: `${site.openingDate}-01`,
-      titulo: "Inauguração",
-      texto: `O Kaluanã abre em ${site.openingLabel}.`,
-    },
+    ...(dataDeAberturaConfirmada
+      ? [
+          {
+            data: `${site.openingDate}-01`,
+            titulo: "Inauguração",
+            texto: `O Kaluanã abre em ${site.openingLabel}.`,
+          },
+        ]
+      : []),
   ].sort((a, b) => (a.data < b.data ? -1 : 1));
 
   return (

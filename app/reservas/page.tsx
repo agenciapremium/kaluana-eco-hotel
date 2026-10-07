@@ -79,9 +79,8 @@ export default function Page() {
           <div className="mt-10 grid gap-10 lg:grid-cols-2">
             <Reveal className="measure">
               <p className="text-xl">
-                O motor de reservas entra junto com a inauguração, em dezembro de 2026. Até lá,
-                deixe seu contato e as datas que você pretende: avisamos primeiro e seguramos a
-                conversa com você.
+                O motor de reservas entra junto com a inauguração. Até lá, deixe seu contato e as
+                datas que você pretende: avisamos primeiro e seguramos a conversa com você.
               </p>
               <p className="mt-4 text-base">
                 Para grupos, eventos e conta corporativa, a equipe atende direto, sem esperar o

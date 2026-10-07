@@ -11,6 +11,14 @@ export const phase: SitePhase = process.env.NEXT_PUBLIC_SITE_PHASE === "full" ? 
 
 export const isProduction = process.env.NODE_ENV === "production";
 
+/**
+ * A data de inauguração não está confirmada: em 07/10/2026 o responsável da Premium pediu que o
+ * site não anunciasse data (decisão 121). Enquanto for `false`, nem o JSON-LD, nem o llms.txt,
+ * nem as páginas legais declaram data. `openingDate` e `openingLabel` seguem abaixo porque a copy
+ * da fase completa, nos YAML, ainda cita dezembro de 2026 e espera a revisão do cliente.
+ */
+export const dataDeAberturaConfirmada = false;
+
 /** Página Eventos e menções ao auditório só entram com autorização do cliente (veto 3). */
 export const eventosAutorizado = process.env.NEXT_PUBLIC_EVENTOS_AUTORIZADO === "true";
 

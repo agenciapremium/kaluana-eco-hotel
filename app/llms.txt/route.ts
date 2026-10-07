@@ -1,6 +1,6 @@
 import { categorias } from "@/lib/acomodacoes";
 import { grupos } from "@/lib/content";
-import { eventosAutorizado, phase, site, siteUrl } from "@/lib/site";
+import { dataDeAberturaConfirmada, eventosAutorizado, phase, site, siteUrl } from "@/lib/site";
 import { floorOrder, floors } from "@/lib/tokens";
 
 /**
@@ -21,7 +21,9 @@ function linhas(): string[] {
   out.push(`# ${site.name}`);
   out.push("");
   out.push(
-    `> Eco hotel em ${site.city}, ${site.state}, Brasil. Inauguração prevista para ${site.openingLabel}.`,
+    dataDeAberturaConfirmada
+      ? `> Eco hotel em ${site.city}, ${site.state}, Brasil. Inauguração prevista para ${site.openingLabel}.`
+      : `> Eco hotel em ${site.city}, ${site.state}, Brasil. Em construção, sem data de inauguração anunciada.`,
   );
   out.push(
     eventosAutorizado

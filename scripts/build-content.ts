@@ -23,7 +23,11 @@ import {
   type QrMap,
   type UniversoIndexEntry,
 } from "../lib/content-schema";
-import { aplicarAjustesDeVeto } from "./ajustes-de-veto";
+import {
+  aplicarAjustesDePagina,
+  aplicarAjustesDeVeto,
+  conferirAjustesDePagina,
+} from "./ajustes-de-copy";
 
 const root = process.cwd();
 const dadosDir = resolve(root, "../DOCS/SITE/dados");
@@ -74,6 +78,11 @@ for (const file of ["paginas-1.yaml", "paginas-2.yaml"]) {
   }
   paginas.push(...result.data.paginas);
 }
+conferirAjustesDePagina(new Set(paginas.map((p) => p.id)));
+for (const p of paginas) {
+  aplicarAjustesDePagina(p);
+}
+
 const paginasPorId: Record<string, Pagina> = {};
 for (const p of paginas) {
   if (paginasPorId[p.id]) {

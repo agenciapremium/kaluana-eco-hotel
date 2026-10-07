@@ -2,7 +2,7 @@
  * Dados estruturados (schema.org). Regra: só declarar o que está visível na página.
  * Telefone, geo, redes e CEP entram quando o cliente fornecer e a página mostrar.
  */
-import { site, siteUrl, eventosAutorizado } from "./site";
+import { site, siteUrl, dataDeAberturaConfirmada, eventosAutorizado } from "./site";
 import type { Faq } from "./content-schema";
 import { copyDeProducao } from "./copy";
 
@@ -87,7 +87,7 @@ export function hotelSchema(opts: {
     logo: `${siteUrl}/media/marca/logo-vertical.png`,
     image: opts.image ?? `${siteUrl}/opengraph-image.png`,
     address: postalAddress(),
-    openingDate: site.openingDate,
+    ...(dataDeAberturaConfirmada ? { openingDate: site.openingDate } : {}),
     ...(site.geo ? { geo: { "@type": "GeoCoordinates", ...site.geo } } : {}),
     ...(site.phone ? { telephone: site.phone } : {}),
     ...(site.email ? { email: site.email } : {}),
@@ -493,7 +493,7 @@ export function hotelReservaSchema(opts: { descricao: string; motorUrl: string |
     description: limpo(opts.descricao),
     url: siteUrl,
     address: postalAddress(),
-    openingDate: site.openingDate,
+    ...(dataDeAberturaConfirmada ? { openingDate: site.openingDate } : {}),
     ...(site.phone ? { telephone: site.phone } : {}),
     ...(opts.motorUrl
       ? {
@@ -531,7 +531,7 @@ export function hotelContatoSchema(opts: { descricao: string }): JsonLd {
     url: siteUrl,
     logo: `${siteUrl}/media/marca/logo-vertical.png`,
     address: postalAddress(),
-    openingDate: site.openingDate,
+    ...(dataDeAberturaConfirmada ? { openingDate: site.openingDate } : {}),
     ...(site.phone ? { telephone: site.phone } : {}),
     ...(site.email ? { email: site.email } : {}),
     ...(site.geo ? { geo: { "@type": "GeoCoordinates", ...site.geo } } : {}),
