@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import { Reveal } from "@/components/motion/Reveal";
+import { EncaixePaineis } from "@/components/home/EncaixePaineis";
 import { FramedImage } from "@/components/scene/FramedImage";
 import { Arrow } from "@/components/ui/Arrow";
 import { SiteLink as Link } from "@/components/ui/SiteLink";
@@ -14,6 +15,10 @@ type Panel = { key: FloorKey; atmosfera: string; foto: string; elemento: string;
  * anterior ao rolar, como subir de elevador. Fundo: atmosfera sem espécie (Higgsfield).
  * Card emoldurado: a foto de referência do andar indicada no documento mestre (5.1).
  * Sem contagens nem números de quarto antes da inauguração.
+ *
+ * Encaixe da rolagem (decisão 120): cada painel para inteiro na tela. Os pontos de encaixe são
+ * marcadores fora dos painéis, porque o navegador se confunde com elementos em sticky: um antes
+ * do primeiro painel, um por painel e um depois do último, para entrar e sair sem ficar preso.
  */
 const panels: Panel[] = [
   {
@@ -92,6 +97,15 @@ export function FloorPanels() {
           </section>
         );
       })}
+      {Array.from({ length: panels.length + 2 }, (_, i) => i - 1).map((i) => (
+        <span
+          key={`encaixe-${i}`}
+          className="panel-encaixe"
+          aria-hidden="true"
+          style={{ "--i": i } as CSSProperties}
+        />
+      ))}
+      <EncaixePaineis />
     </div>
   );
 }
